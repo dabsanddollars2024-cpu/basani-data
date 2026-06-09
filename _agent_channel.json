@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-09T17:37:48.978621+00:00",
+    "_updated": "2026-06-09T17:47:49.210093+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-09T17:37:48.978621+00:00",
+    "_updated": "2026-06-09T17:47:49.210093+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -50,11 +50,11 @@
       },
       "whales": {
         "status": "ok",
-        "age_min": 2.6
+        "age_min": 2.5
       },
       "calendar": {
         "status": "ok",
-        "age_min": 259.7
+        "age_min": 269.7
       },
       "massive": {
         "status": "missing",
@@ -64,9 +64,9 @@
     "sources": {
       "alpaca": {
         "status": "healthy",
-        "last_ok": "2026-06-09T17:35:12.967679+00:00",
+        "last_ok": "2026-06-09T17:45:14.018411+00:00",
         "last_error": null,
-        "latency_ms": 11817,
+        "latency_ms": 12963,
         "items": 27
       },
       "massive": {
@@ -78,35 +78,35 @@
       },
       "benzinga": {
         "status": "healthy",
-        "last_ok": "2026-06-09T17:35:10.479077+00:00",
+        "last_ok": "2026-06-09T17:45:10.610958+00:00",
         "last_error": null,
-        "latency_ms": 9173,
-        "items": 219
+        "latency_ms": 9270,
+        "items": 221
       },
       "uw": {
         "status": "healthy",
-        "last_ok": "2026-06-09T17:35:14.663027+00:00",
+        "last_ok": "2026-06-09T17:45:17.269207+00:00",
         "last_error": null,
-        "latency_ms": 14268,
+        "latency_ms": 16572,
         "items": 0
       },
       "x_api": {
         "status": "healthy",
-        "last_ok": "2026-06-09T17:35:10.479087+00:00",
+        "last_ok": "2026-06-09T17:45:10.610971+00:00",
         "last_error": null,
-        "latency_ms": 9173,
-        "items": 219
+        "latency_ms": 9270,
+        "items": 221
       }
     },
     "summary": "1 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-09T17:37:48.978621+00:00",
+    "_updated": "2026-06-09T17:47:49.210093+00:00",
     "_agent": "main-backend",
     "active": [
       {
         "check": "massive: never written",
-        "ts": "2026-06-09T17:37:48.978621+00:00",
+        "ts": "2026-06-09T17:47:49.210093+00:00",
         "severity": "warn"
       }
     ],
@@ -114,7 +114,7 @@
   },
   "log": [
     {
-      "ts": "2026-06-09T17:37:48",
+      "ts": "2026-06-09T17:47:49",
       "level": "WARN",
       "msg": "Health: issues: massive: never written"
     }
