@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-09T14:47:49.049820+00:00",
+    "_updated": "2026-06-09T14:57:49.095780+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-09T14:47:49.049820+00:00",
+    "_updated": "2026-06-09T14:57:49.095780+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -46,15 +46,15 @@
       },
       "scan": {
         "status": "ok",
-        "age_min": 2.6
+        "age_min": 2.5
       },
       "whales": {
         "status": "ok",
-        "age_min": 2.5
+        "age_min": 2.6
       },
       "calendar": {
         "status": "ok",
-        "age_min": 89.7
+        "age_min": 99.7
       },
       "massive": {
         "status": "missing",
@@ -64,9 +64,9 @@
     "sources": {
       "alpaca": {
         "status": "healthy",
-        "last_ok": "2026-06-09T14:45:15.267040+00:00",
+        "last_ok": "2026-06-09T14:55:17.967540+00:00",
         "last_error": null,
-        "latency_ms": 14065,
+        "latency_ms": 17571,
         "items": 27
       },
       "massive": {
@@ -78,35 +78,35 @@
       },
       "benzinga": {
         "status": "healthy",
-        "last_ok": "2026-06-09T14:45:12.270374+00:00",
+        "last_ok": "2026-06-09T14:55:12.371728+00:00",
         "last_error": null,
-        "latency_ms": 10376,
+        "latency_ms": 10467,
         "items": 212
       },
       "uw": {
         "status": "healthy",
-        "last_ok": "2026-06-09T14:45:17.926701+00:00",
+        "last_ok": "2026-06-09T14:55:15.668368+00:00",
         "last_error": null,
-        "latency_ms": 17368,
+        "latency_ms": 13769,
         "items": 0
       },
       "x_api": {
         "status": "healthy",
-        "last_ok": "2026-06-09T14:45:12.270392+00:00",
+        "last_ok": "2026-06-09T14:55:12.371746+00:00",
         "last_error": null,
-        "latency_ms": 10376,
+        "latency_ms": 10467,
         "items": 212
       }
     },
     "summary": "1 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-09T14:47:49.049820+00:00",
+    "_updated": "2026-06-09T14:57:49.095780+00:00",
     "_agent": "main-backend",
     "active": [
       {
         "check": "massive: never written",
-        "ts": "2026-06-09T14:47:49.049820+00:00",
+        "ts": "2026-06-09T14:57:49.095780+00:00",
         "severity": "warn"
       }
     ],
@@ -114,7 +114,7 @@
   },
   "log": [
     {
-      "ts": "2026-06-09T14:47:49",
+      "ts": "2026-06-09T14:57:49",
       "level": "WARN",
       "msg": "Health: issues: massive: never written"
     }
