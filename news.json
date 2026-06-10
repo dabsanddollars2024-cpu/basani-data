@@ -1,37 +1,37 @@
 {
-  "generated": "2026-06-10T21:10:06Z",
-  "generated_display": "2026-06-10 21:10 ET",
-  "count": 139,
+  "generated": "2026-06-10T21:15:30Z",
+  "generated_display": "2026-06-10 21:15 ET",
+  "count": 144,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-10T21:10:00.979645+00:00",
+      "last_error_ts": "2026-06-10T21:15:00.771364+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 16,
-      "latency_ms": 619,
-      "last_success": "2026-06-10T21:10:01.601374+00:00",
+      "latency_ms": 570,
+      "last_success": "2026-06-10T21:15:01.343761+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 268,
-      "last_success": "2026-06-10T21:10:01.870416+00:00",
+      "latency_ms": 288,
+      "last_success": "2026-06-10T21:15:01.633466+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 376,
-      "last_success": "2026-06-10T21:10:02.250567+00:00",
+      "latency_ms": 387,
+      "last_success": "2026-06-10T21:15:02.024006+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,30 +40,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-10T21:10:02.339537+00:00",
+      "last_error_ts": "2026-06-10T21:15:02.096085+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
-      "status": "degraded",
-      "items_pulled": 0,
-      "latency_ms": 1715,
-      "last_success": null,
-      "last_error_ts": "2026-06-10T21:10:04.055292+00:00",
+      "status": "healthy",
+      "items_pulled": 5,
+      "latency_ms": 25424,
+      "last_success": "2026-06-10T21:15:27.520625+00:00",
+      "last_error_ts": null,
       "error": ""
     },
     "rss": {
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-10T21:10:04.737551+00:00",
+      "last_success": "2026-06-10T21:15:28.313083+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 18,
-      "latency_ms": 1886,
-      "last_success": "2026-06-10T21:10:06.623844+00:00",
+      "latency_ms": 1890,
+      "last_success": "2026-06-10T21:15:30.203821+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,37 +74,38 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 90
+          "latency_ms": 68
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 141
+          "latency_ms": 270
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 58
+          "latency_ms": 60
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 237
+          "latency_ms": 234
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 41
+          "latency_ms": 33
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 112
+          "latency_ms": 125
         }
       }
     }
   },
   "by_source": {
+    "stocktwits": 5,
     "uw_news": 25,
     "cnbc": 8,
     "massive_news": 50,
@@ -116,6 +117,139 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "32f5a663fee6ef",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T21:14:56Z",
+      "title": "$SPY Deal? Orange??",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656062286",
+      "author": "Hu1Shmo1",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T21:14:56Z",
+      "text": "$SPY Deal? Orange??",
+      "description": "",
+      "handle": "Hu1Shmo1",
+      "display_name": "AA",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0f0d492c3a02fa",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T21:14:51Z",
+      "title": "$SPY $QQQ $DIA $OPEN https://www.youtube.com/watch?v=k0naIxDW4dM",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656062277",
+      "author": "soldierofcourage",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T21:14:51Z",
+      "text": "$SPY $QQQ $DIA $OPEN https://www.youtube.com/watch?v=k0naIxDW4dM",
+      "description": "",
+      "handle": "soldierofcourage",
+      "display_name": "Mel",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "70cc6c4638505c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T21:13:32Z",
+      "title": "$SPY  \n \nShort-term structure is clearly weakening, but no fresh short here after exiting puts. Chart still looks heavy, but chasing downside here isn\u2019t the plan. \n \nBias: potential move toward the 50 DMA or ~718 max downside zone before any meaningful short-term base forms. \n \nKey structure level: ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656062206",
+      "author": "FibonacciTrader_",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T21:13:32Z",
+      "text": "$SPY  \n \nShort-term structure is clearly weakening, but no fresh short here after exiting puts. Chart still looks heavy, but chasing downside here isn\u2019t the plan. \n \nBias: potential move toward the 50 DMA or ~718 max downside zone before any meaningful short-term base forms. \n \nKey structure level: ",
+      "description": "",
+      "handle": "FibonacciTrader_",
+      "display_name": "Donald Osullivan",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "da63c4fbeeb772",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T21:12:54Z",
+      "title": "$SPY Your ancestors who survived woolly mammoth and saber tooth tiger attacks watching you complain your DoorDash/fastfood order took too long \ud83d\ude02\ud83e\udd23",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656062171",
+      "author": "BlackW1d0w",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T21:12:54Z",
+      "text": "$SPY Your ancestors who survived woolly mammoth and saber tooth tiger attacks watching you complain your DoorDash/fastfood order took too long \ud83d\ude02\ud83e\udd23",
+      "description": "",
+      "handle": "BlackW1d0w",
+      "display_name": "Savetheworld4",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1d4f0d527831e6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T21:12:20Z",
+      "title": "$SPY $QQQ  Heres the comical part, we\u2019re not even close to a proper correction. $BTC.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656062138",
+      "author": "diagio",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T21:12:20Z",
+      "text": "$SPY $QQQ  Heres the comical part, we\u2019re not even close to a proper correction. $BTC.X",
+      "description": "",
+      "handle": "diagio",
+      "display_name": "Thomas",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ac40a3821c89c5",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-10T21:11:30Z",
+      "title": "In HelloNation, Insurance Expert Austin Murray of Cleveland, TN, Discusses the Value of a Local Insurance Agent",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T21:11:30Z",
+      "text": "In HelloNation, Insurance Expert Austin Murray of Cleveland, TN, Discusses the Value of a Local Insurance Agent",
+      "description": ""
+    },
     {
       "id": "2617e57b072dfb",
       "source": "uw_news",
@@ -558,24 +692,6 @@
       "sentiment": "neutral",
       "time": "2026-06-10T21:02:31Z",
       "text": "Atlas Restaurant Equipment Opens New Showroom, Test Kitchen and Warehouse Facility in Concord, Massachusetts",
-      "description": ""
-    },
-    {
-      "id": "9fac42404560b1",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-10T21:02:29Z",
-      "title": "Tamar Remz Named Chair of the Constructive Dialogue Institute Board of Directors",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T21:02:29Z",
-      "text": "Tamar Remz Named Chair of the Constructive Dialogue Institute Board of Directors",
       "description": ""
     },
     {
@@ -2228,6 +2344,42 @@
       "description": "SpaceX is set to go public on Friday under ticker SPCX with a $1.75 trillion valuation, targeting a $28.5 trillion total addressable market. The company breaks its market into three verticals: Space ($370B), Connectivity ($1.6T via Starlink), and AI ($26.5T). Enterprise AI applications represent nea"
     },
     {
+      "id": "905a56a555b50d",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 10 Jun 2026 17:10:54 -0400",
+      "title": "BIO-key International faces Nasdaq notice for missing Q1 10-Q filing deadline",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4602410-bio-key-international-face-nasdaq-notice-for-missing-q1-10-q-filing-deadline?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 10 Jun 2026 17:10:54 -0400",
+      "text": "BIO-key International faces Nasdaq notice for missing Q1 10-Q filing deadline",
+      "description": ""
+    },
+    {
+      "id": "1b3c47de354340",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 10 Jun 2026 17:10:38 -0400",
+      "title": "West Fraser Timber declares $0.32 dividend",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4602412-west-fraser-timber-declares-0_32-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 10 Jun 2026 17:10:38 -0400",
+      "text": "West Fraser Timber declares $0.32 dividend",
+      "description": ""
+    },
+    {
       "id": "2b5c65938dce7d",
       "source": "seekingalpha",
       "source_type": "rss",
@@ -2339,42 +2491,6 @@
       "sentiment": "neutral",
       "time": "Wed, 10 Jun 2026 16:51:13 -0400",
       "text": "PureCycle launches $395M capital raise through notes and stock offerings",
-      "description": ""
-    },
-    {
-      "id": "adcf280fead6f0",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 10 Jun 2026 16:49:55 -0400",
-      "title": "Anterix GAAP EPS of $0.98 misses by $0.39, revenue of $1.96M beats by $0.39M",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4602404-anterix-gaap-eps-of-0_98-misses-by-0_39-revenue-of-1_96m-beats-by-0_39m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 10 Jun 2026 16:49:55 -0400",
-      "text": "Anterix GAAP EPS of $0.98 misses by $0.39, revenue of $1.96M beats by $0.39M",
-      "description": ""
-    },
-    {
-      "id": "25f12c042c1fe2",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 10 Jun 2026 16:49:06 -0400",
-      "title": "ZOOZ to explore strategic alternatives alongside bitcoin hoarding",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4602399-zooz-to-explore-strategic-alternatives-alongside-bitcoin-hoarding?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 10 Jun 2026 16:49:06 -0400",
-      "text": "ZOOZ to explore strategic alternatives alongside bitcoin hoarding",
       "description": ""
     },
     {
@@ -2823,21 +2939,57 @@
       "description": ""
     },
     {
-      "id": "b4674590227803",
+      "id": "c0d173ba60c52f",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-06-09T13:00:09Z",
-      "title": "Wall Street Pounds the Table: Tesla\u2019s Future Is Not in Cars \u2014 It\u2019s Robotics",
+      "timestamp": "2026-06-09T13:15:50Z",
+      "title": "Permian Resources Corporation (PR) Benefited from Supply Disruptions",
       "body": "",
-      "url": "https://finance.yahoo.com/sectors/technology/articles/wall-street-pounds-table-tesla-130009814.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/permian-resources-corporation-pr-benefited-131550545.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-09T13:00:09Z",
-      "text": "Wall Street Pounds the Table: Tesla\u2019s Future Is Not in Cars \u2014 It\u2019s Robotics",
+      "time": "2026-06-09T13:15:50Z",
+      "text": "Permian Resources Corporation (PR) Benefited from Supply Disruptions",
+      "description": ""
+    },
+    {
+      "id": "6636056588bedd",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-09T13:13:10Z",
+      "title": "Magnolia Oil & Gas (MGY) Gained From Energy Sector Rally",
+      "body": "",
+      "url": "https://finance.yahoo.com/sectors/energy/articles/magnolia-oil-gas-mgy-gained-131310932.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-09T13:13:10Z",
+      "text": "Magnolia Oil & Gas (MGY) Gained From Energy Sector Rally",
+      "description": ""
+    },
+    {
+      "id": "30560dfcdb5b68",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-09T13:06:41Z",
+      "title": "J. M. Smucker Q4 Earnings Call Highlights",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/j-m-smucker-q4-earnings-130641148.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-09T13:06:41Z",
+      "text": "J. M. Smucker Q4 Earnings Call Highlights",
       "description": ""
     },
     {
@@ -2861,24 +3013,6 @@
       "description": ""
     },
     {
-      "id": "c8647940f77dd2",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-09T13:00:03Z",
-      "title": "Following the Post-IPO Quiet Period Expiration, Here\u2019s Why Cerebras Stock Is Moving Higher",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/following-post-ipo-quiet-period-130003849.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-09T13:00:03Z",
-      "text": "Following the Post-IPO Quiet Period Expiration, Here\u2019s Why Cerebras Stock Is Moving Higher",
-      "description": ""
-    },
-    {
       "id": "c35c993afbe23b",
       "source": "reuters",
       "source_type": "rss",
@@ -2897,6 +3031,24 @@
       "description": ""
     },
     {
+      "id": "c8647940f77dd2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-09T13:00:03Z",
+      "title": "Following the Post-IPO Quiet Period Expiration, Here\u2019s Why Cerebras Stock Is Moving Higher",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/following-post-ipo-quiet-period-130003849.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-09T13:00:03Z",
+      "text": "Following the Post-IPO Quiet Period Expiration, Here\u2019s Why Cerebras Stock Is Moving Higher",
+      "description": ""
+    },
+    {
       "id": "8ddc4a13135b3d",
       "source": "reuters",
       "source_type": "rss",
@@ -2912,42 +3064,6 @@
       "sentiment": "neutral",
       "time": "2026-06-09T13:00:00Z",
       "text": "Amazon Relay Is Tackling Freight Fraud, Incentivizing Safety, and Gearing up for Prime Day",
-      "description": ""
-    },
-    {
-      "id": "5948dc49fbdff0",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-09T12:46:17Z",
-      "title": "Nucor Stock: Is NUE Outperforming the Materials Sector?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nucor-stock-nue-outperforming-materials-124617780.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-09T12:46:17Z",
-      "text": "Nucor Stock: Is NUE Outperforming the Materials Sector?",
-      "description": ""
-    },
-    {
-      "id": "e9203ba665fa96",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-09T12:42:40Z",
-      "title": "Is IDEXX Laboratories Stock Underperforming the Nasdaq?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/idexx-laboratories-stock-underperforming-nasdaq-124240431.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-09T12:42:40Z",
-      "text": "Is IDEXX Laboratories Stock Underperforming the Nasdaq?",
       "description": ""
     },
     {
