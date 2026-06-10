@@ -1201,31 +1201,31 @@ body { background: var(--bg) !important; color: var(--text) !important; }
   <!-- Scrolling ticker -->
   <div class="vip-footer">
     <div class="vip-ticker-track" id="vipTickerTrack">
-            <span class="vip-ticker-item dn">SPY $732.78 -1.43%</span>
-      <span class="vip-ticker-item dn">QQQ $701.41 -2.98%</span>
-      <span class="vip-ticker-item dn">NVDA $205.90 -2.30%</span>
-      <span class="vip-ticker-item dn">TSLA $394.86 -3.92%</span>
-      <span class="vip-ticker-item dn">AAPL $290.63 -3.17%</span>
-      <span class="vip-ticker-item dn">AMD $480.96 -4.42%</span>
-      <span class="vip-ticker-item dn">META $584.85 -1.11%</span>
-      <span class="vip-ticker-item dn">MSFT $399.09 -2.43%</span>
-      <span class="vip-ticker-item dn">🐋 SPY 695P $2.0M JUL</span>
-      <span class="vip-ticker-item dn">🐋 SPX 7350P $2.0M</span>
-      <span class="vip-ticker-item dn">🐋 SPY 700P $1.5M JUL</span>
-      <span class="vip-ticker-item dn">🐋 IWM 276P $1.2M</span>
+      <span class="vip-ticker-item up">SPY $731.49 +0.47%</span>
+      <span class="vip-ticker-item up">QQQ $691.77 +0.59%</span>
+      <span class="vip-ticker-item up">NVDA $204.97 +2.56%</span>
+      <span class="vip-ticker-item up">TSLA $395.26 +2.47%</span>
+      <span class="vip-ticker-item up">AAPL $285.30 +1.20%</span>
+      <span class="vip-ticker-item up">AMD $413.97 +1.36%</span>
+      <span class="vip-ticker-item up">META $613.73 +2.07%</span>
+      <span class="vip-ticker-item up">MSFT $415.68 +1.92%</span>
+      <span class="vip-ticker-item up">🐋 AMD 420C $2.0M SWEEP</span>
+      <span class="vip-ticker-item up">🐋 TSLA 395C $1.4M SWEEP</span>
+      <span class="vip-ticker-item up">🐋 TQQQ 69C $1.3M SWEEP</span>
+      <span class="vip-ticker-item up">🐋 QQQ 692C $890K FLOW</span>
       <!-- duplicate for seamless loop -->
-      <span class="vip-ticker-item dn">SPY $732.78 -1.43%</span>
-      <span class="vip-ticker-item dn">QQQ $701.41 -2.98%</span>
-      <span class="vip-ticker-item dn">NVDA $205.90 -2.30%</span>
-      <span class="vip-ticker-item dn">TSLA $394.86 -3.92%</span>
-      <span class="vip-ticker-item dn">AAPL $290.63 -3.17%</span>
-      <span class="vip-ticker-item dn">AMD $480.96 -4.42%</span>
-      <span class="vip-ticker-item dn">META $584.85 -1.11%</span>
-      <span class="vip-ticker-item dn">MSFT $399.09 -2.43%</span>
-      <span class="vip-ticker-item dn">🐋 SPY 695P $2.0M JUL</span>
-      <span class="vip-ticker-item dn">🐋 SPX 7350P $2.0M</span>
-      <span class="vip-ticker-item dn">🐋 SPY 700P $1.5M JUL</span>
-      <span class="vip-ticker-item dn">🐋 IWM 276P $1.2M</span>
+      <span class="vip-ticker-item up">SPY $731.49 +0.47%</span>
+      <span class="vip-ticker-item up">QQQ $691.77 +0.59%</span>
+      <span class="vip-ticker-item up">NVDA $204.97 +2.56%</span>
+      <span class="vip-ticker-item up">TSLA $395.26 +2.47%</span>
+      <span class="vip-ticker-item up">AAPL $285.30 +1.20%</span>
+      <span class="vip-ticker-item up">AMD $413.97 +1.36%</span>
+      <span class="vip-ticker-item up">META $613.73 +2.07%</span>
+      <span class="vip-ticker-item up">MSFT $415.68 +1.92%</span>
+      <span class="vip-ticker-item up">🐋 AMD 420C $2.0M SWEEP</span>
+      <span class="vip-ticker-item up">🐋 TSLA 395C $1.4M SWEEP</span>
+      <span class="vip-ticker-item up">🐋 TQQQ 69C $1.3M SWEEP</span>
+      <span class="vip-ticker-item up">🐋 QQQ 692C $890K FLOW</span>
     </div>
   </div>
 </div>
@@ -1646,12 +1646,12 @@ function switchTab(name) {
 
 // ── STATIC DATA ──────────────────────────────────────────────────────────────
 const SCAN = {
-  time: "2026-06-10 09:11",
-  regime: "RISK-OFF / DEFENSIVE",
-  qqq: { price: 701.41, chg: -2.98 },
-  spy: { price: 732.78, chg: -1.43 },
+  time: "2026-05-06 15:50",
+  regime: "BULLISH BIAS",
+  qqq: { price: 691.77, chg: 0.59 },
+  spy: { price: 731.49, chg: 0.47 },
   vix: 22.0,
-  summary: "Broad risk-off open \u2014 every megacap watchlist name is red (AMD -4.4%, TSLA -3.9%, AAPL -3.2%, QQQ -3.0%, NVDA -2.3%, MSFT -2.4%). Unusual Whales flow is overwhelmingly defensive: institutions are accumulating index downside, led by ~$4.4M of SPY July puts (695 + 700 strikes), a $2.0M SPXW 7350 put expiring Jun 12, and $1.2M of IWM puts on 72K contracts. Bullish flow is the minority and contrarian \u2014 a $464K SPY 738C, ~$771K of QQQ July call sweeps, and a $681K ATM AMD 470 call. Net read: smart money is hedging / leaning short into mid-summer; treat call setups as counter-trend until breadth turns.",
+  summary: "Broad market rally continues with all major tech names green. AMD posted a monster earnings beat on May 5 — stock gapped from ~$200 to $413 post-earnings, confirming the AI chip supercycle is real. Smart money is piling in: $2M sweep on AMD 420C expiring Friday, $1.4M on TSLA 395C, $1.3M on TQQQ 69C. Unusual Whales flow is overwhelmingly bullish with institutions buying near-term calls on the move. NVDA earnings on May 21 is the next major catalyst — flow already accumulating there.",
 };
 
 const CATALYSTS = [
@@ -1676,18 +1676,18 @@ const STOCKS = [
 ];
 
 const SCALPS = [
-  { id:"UW-101", ticker:"SPX",  type:"PUT",  strike:"7350", expiry:"Jun 12", dte:2,  cost:"idx", score:88, confidence:"MEDIUM", confColor:"#b8860b", flags:["\ud83d\udc0b $2.0M FLOW","INDEX HEDGE","0-2 DTE"], why:"<strong>$2.0M in SPXW 7350P expiring Jun 12</strong> \u2014 largest near-term flow on the board, ATM (SPX ~7387, 0.5% away), 6,148 contracts. Pairs with heavy SPY/IWM put accumulation: today\u2019s tape is risk-off and institutions are buying index downside into the weekend. Cash-settled, fast decay \u2014 keep it small. Invalidate if SPX reclaims 7430.", entry:"SPX 7380\u20137390", stop:"7430", target:"7320", size:"QUARTER" },
-  { id:"UW-102", ticker:"IWM",  type:"PUT",  strike:"$276", expiry:"Jun 18", dte:8,  cost:"$1\u20133", score:86, confidence:"HIGH",   confColor:"#2e8b57", flags:["\ud83d\udc0b $1.2M","72K VOL","SMALL-CAP WEAK"], why:"<strong>$1.16M in IWM 276P Jun 18 on 72,119 contracts</strong> \u2014 the single highest-volume line in today\u2019s flow. IWM ~285, strike 3.1% OTM. Small caps lead risk-off moves; this is a clean directional bearish bet, not a hedge. Stop on IWM reclaim of 289.", entry:"IWM 283\u2013285", stop:"289", target:"276", size:"HALF" },
-  { id:"UW-103", ticker:"SPY",  type:"PUT",  strike:"$708", expiry:"Jun 18", dte:8,  cost:"$2\u20134", score:83, confidence:"MEDIUM", confColor:"#b8860b", flags:["\ud83d\udc0b $1.0M","V/OI 4.8"], why:"<strong>$1.02M SPY 708P Jun 18, volume/OI 4.8</strong> \u2014 fresh positioning (volume far exceeds open interest), 27,300 contracts. SPY ~737, strike 3.9% OTM. Confirms the broad downside lean across index names today. Manage against SPY back above 744.", entry:"SPY 736\u2013738", stop:"744", target:"726", size:"HALF" },
-  { id:"UW-104", ticker:"AMD",  type:"CALL", strike:"$470", expiry:"Jun 12", dte:2,  cost:"$5\u20139", score:80, confidence:"MEDIUM", confColor:"#b8860b", flags:["$681K CALL","V/OI 6.5","LONE BULL"], why:"<strong>$681K AMD 470C Jun 12, V/OI 6.5</strong> \u2014 the largest near-term single-name CALL on an otherwise bearish tape. AMD ~481 (down ~4.4% on the day), so the 470 strike is already ITM \u2014 a dip-buy contrarian read. 0-2 DTE: quarter size only, fast stop if AMD loses 470.", entry:"AMD 478\u2013482", stop:"470", target:"495", size:"QUARTER" },
+  { id:"UW-011", ticker:"NVDA",  type:"CALL", strike:"$210", expiry:"May 15", dte:9,  cost:"$4–7",  score:93, confidence:"HIGH",   confColor:"#2e8b57", flags:["🐋 $859K FLOW","EARNINGS 5/21"], why:"<strong>$859K UW sweep on NVDA $210C May 15</strong> — pre-earnings accumulation by institutions. NVDA at $207.12 (+5.4%), strike is 1.4% OTM with 9 DTE. Blackwell ramp accelerating, NVDA reports May 21. Smart money loading calls 2 weeks out. Any dip to $205 is a buy. Stop below $199.", entry:"$206–208", stop:"$199", target:"$217", size:"FULL" },
+  { id:"UW-012", ticker:"QQQ",   type:"CALL", strike:"$697", expiry:"May 9",  dte:3,  cost:"$3–6",  score:89, confidence:"HIGH",   confColor:"#2e8b57", flags:["🐋 $2.6M+ FLOW","MOMENTUM"], why:"<strong>$2.6M institutional block in QQQ near-ATM calls</strong> — part of the $7.2M+ QQQ $700C whale cluster. QQQ at $695.43 (+2.04%), up strong on China trade optimism. Near-ATM 3-day call benefits from continued tech momentum. Stop on QQQ close below $691.", entry:"$694–696", stop:"$689", target:"$703", size:"HALF" },
+  { id:"UW-013", ticker:"AMD",   type:"CALL", strike:"$425", expiry:"May 9",  dte:3,  cost:"$2–5",  score:84, confidence:"HIGH",   confColor:"#2e8b57", flags:["EARNINGS FOLLOW","AI SEMI"], why:"<strong>AMD post-earnings continuation</strong>. AMD at $420.97 (+18.53% today), earnings gap plays often extend 2–3 sessions. $425C gives 1% further upside with 3 DTE. Momentum into AI semiconductor tailwinds. Keep at quarter size — short DTE, tight stop at $416.", entry:"$420–422", stop:"$416", target:"$429", size:"QUARTER" },
 ];
 
 const SWINGS = [
-  { id:"UW-201", ticker:"SPY",  type:"PUT",  strike:"$695", expiry:"Jul 17", dte:37, cost:"$6\u201310", score:91, confidence:"HIGH",   confColor:"#2e8b57", flags:["\ud83d\udc0b $2.0M PUT","#1 FLOW","JULY HEDGE"], why:"<strong>The dominant flow today \u2014 $2.0M SPY 695P Jul 17</strong>, part of a ~$4.4M cluster of SPY July puts (695 + 700 strikes, 23,000\u201338,000 contracts). Institutions are buying 37-DTE index downside, not weeklies \u2014 a macro hedge / bearish position into mid-summer. SPY ~733. This is the highest-conviction read on the board and it is defensive.", entry:"SPY 734\u2013738", stop:"748", target:"705", size:"FULL" },
-  { id:"UW-202", ticker:"SPY",  type:"PUT",  strike:"$700", expiry:"Jul 17", dte:37, cost:"$8\u201312", score:87, confidence:"HIGH",   confColor:"#2e8b57", flags:["\ud83d\udc0b $1.5M PUT","37K VOL"], why:"<strong>$1.46M SPY 700P Jul 17 on 36,868 contracts</strong> \u2014 the companion leg to the 695 line above, same expiry. Reinforces the July downside-hedge theme. Treat 695/700 as one large institutional position rather than two ideas.", entry:"SPY 734\u2013738", stop:"748", target:"708", size:"HALF" },
-  { id:"UW-203", ticker:"SPY",  type:"CALL", strike:"$738", expiry:"Jul 24", dte:44, cost:"$10\u201315", score:78, confidence:"MEDIUM", confColor:"#b8860b", flags:["V/OI 16.4","OPENING ASK","COUNTER-FLOW"], why:"<strong>$464K SPY 738C Jul 24, V/OI 16.4, bought on the ask</strong> \u2014 the notable bullish counter to the heavy put flow. ATM (SPY ~736). Someone is positioning for a recovery into late July. Smaller, contrarian to today\u2019s tape \u2014 half size.", entry:"SPY 734\u2013737", stop:"726", target:"752", size:"HALF" },
-  { id:"UW-204", ticker:"QQQ",  type:"CALL", strike:"$715", expiry:"Jul 2",  dte:22, cost:"$9\u201314", score:76, confidence:"MEDIUM", confColor:"#b8860b", flags:["\ud83d\udc0b $771K SWEEP","TECH BOUNCE"], why:"<strong>$771K across QQQ 715C/718C Jul 2 sweeps</strong> \u2014 aggressive (swept) bullish tech positioning 22 DTE out. QQQ has sold off to ~701 intraday (strike was ~0.8% OTM at trade), so entry now requires a tech bounce. Speculative against today\u2019s trend.", entry:"QQQ 700\u2013705", stop:"690", target:"720", size:"HALF" },
-  { id:"UW-205", ticker:"SNDK", type:"CALL", strike:"$2010", expiry:"Jul 17", dte:37, cost:"$30\u201360", score:72, confidence:"MEDIUM", confColor:"#b8860b", flags:["$399K CALL","EARNINGS 8/13","FAR-OTM LOTTO"], why:"<strong>$399K SanDisk 2010C Jul 17</strong> \u2014 underlying ~1,637, so the strike is ~23% OTM: a high-payoff, low-probability lotto with an earnings catalyst (Aug 13) just beyond expiry. Strategic/speculative only \u2014 quarter size.", entry:"SNDK 1620\u20131660", stop:"1500", target:"1850", size:"QUARTER" },
+  { id:"UW-015", ticker:"QQQ",  type:"CALL", strike:"$700", expiry:"Jul 17", dte:72, cost:"$12–18", score:96, confidence:"HIGH",   confColor:"#2e8b57", flags:["🐋 $7.2M WHALE","#1 FLOW TODAY"], why:"<strong>The dominant flow of the week — $7.2M+ in QQQ $700C Jul 17</strong>. Multiple institutional blocks: $2.9M, $2.6M, $1.7M and more all on the same strike/expiry. QQQ at $695.43, only 0.65% from strike. Institutions chose 72 DTE — not the weekly — signaling a macro long position. Target: QQQ 700 breakout toward 720+. This is the highest-conviction play on the board.", entry:"$693–697", stop:"$679", target:"$722", size:"FULL" },
+  { id:"UW-007", ticker:"NVDA",  type:"CALL", strike:"$215", expiry:"May 22", dte:16, cost:"$7–11", score:92, confidence:"HIGH",   confColor:"#2e8b57", flags:["🐋 $859K+","EARNINGS 5/21"], why:"<strong>Earnings May 21 — the biggest single-stock catalyst remaining</strong>. NVDA at $207.12 (+5.4%), $215 strike is 3.8% OTM. $859K May 15 flow + $461K Jul 17 flow confirms multi-leg accumulation. Blackwell ramp + $575B hyperscaler capex = bull thesis. Strategy: take 50% off if up 80%+ pre-earnings; hold rest through for binary upside.", entry:"$206–209", stop:"$197", target:"$224", size:"FULL" },
+  { id:"UW-010", ticker:"GOOGL", type:"CALL", strike:"$400", expiry:"Jun 20", dte:45, cost:"$8–12", score:88, confidence:"HIGH",   confColor:"#2e8b57", flags:["AI","GOOGLE I/O 5/19-20"], why:"<strong>GOOGL nearly touching the strike — $397.69 vs $400C</strong>. Google I/O May 19-20 is a major AI catalyst just 13 days away. Cloud +63%, $460B backlog. PE only 15 vs peer avg 35. 45 DTE gives room for the I/O event and continued momentum. Best risk/reward in the swing book right now.", entry:"$396–399", stop:"$384", target:"$416", size:"FULL" },
+  { id:"UW-016", ticker:"AAPL",  type:"CALL", strike:"$292.5", expiry:"May 15", dte:9, cost:"$3–6", score:79, confidence:"MEDIUM", confColor:"#b8860b", flags:["🐳 $246K","POST-EARNINGS"], why:"$246K in AAPL $292.5C May 15 — 9,800 contracts. AAPL at $287.46, strike is 1.8% OTM with 9 DTE. Post-earnings momentum play. Services revenue acceleration and India manufacturing diversification are tailwinds. Quarter size — needs AAPL to continue rally from earnings beat.", entry:"$286–289", stop:"$282", target:"$295", size:"QUARTER" },
+  { id:"UW-006", ticker:"TSLA",  type:"CALL", strike:"$400", expiry:"Jun 18", dte:43, cost:"$18–24", score:82, confidence:"HIGH",   confColor:"#2e8b57", flags:["🐋 $591K FLOW","FSD CATALYST"], why:"<strong>$591K institutional sweep on June $400 calls</strong>. TSLA at $397.25, $400 is the key breakout level. Bearish flow (TSLA $412.5P May 15: $315K) is a short-term hedge — the June call is the directional bet. FSD expansion + Robotaxi launch gives catalyst runway for 43 DTE. Loss of $384 invalidates.", entry:"$394–398", stop:"$382", target:"$422", size:"HALF" },
+  { id:"UW-009", ticker:"AMZN",  type:"CALL", strike:"$375", expiry:"Mar 2027", dte:300, cost:"$25–35", score:85, confidence:"HIGH", confColor:"#2e8b57", flags:["INSTITUTIONAL","300 DTE"], why:"<strong>$492K long-dated institutional call</strong> — 523 contracts on March 2027 $375 strike. Institutions buying 10-month calls for strategic positioning, not trades. AWS +28%, Anthropic $100B deal, Pentagon AI contract. AMZN at $275 is 27% below strike — this is a long-term thesis play.", entry:"$272–276", stop:"$258", target:"$312", size:"HALF" },
 ];
 
 const FUTURES = [
