@@ -1,6 +1,6 @@
 {
-  "scan_time": "2026-06-09 16:55:01",
-  "scan_label": "20260609_1655",
+  "scan_time": "2026-06-10 12:30:15",
+  "scan_label": "20260610_1230",
   "tickers": [
     {
       "ticker": "XLF",
@@ -23,7 +23,8 @@
       ],
       "stop": 49.87,
       "cons_target": 55.05,
-      "agg_target": 58.72
+      "agg_target": 58.72,
+      "dir": "BULLISH"
     },
     {
       "ticker": "AMD",
@@ -32,7 +33,7 @@
       "chg_pct": -1.85,
       "high": 504.77,
       "low": 437.71,
-      "volume": 662271,
+      "volume": 662275,
       "score": 73,
       "rsi": 61.2,
       "sma20": 476.5,
@@ -47,40 +48,17 @@
       ],
       "stop": 358.8,
       "cons_target": 505.01,
-      "agg_target": 538.68
-    },
-    {
-      "ticker": "MU",
-      "price": 937.61,
-      "prev_close": 948.98,
-      "chg_pct": -1.2,
-      "high": 988.56,
-      "low": 855.15,
-      "volume": 1063206,
-      "score": 73,
-      "rsi": 66.3,
-      "sma20": 867.02,
-      "sma50": 640.83,
-      "direction": "BULLISH",
-      "signals": [
-        "SMA20",
-        "SMA50",
-        "EMA_STACK",
-        "RSI_66.3",
-        "DOWN-1.2%"
-      ],
-      "stop": 621.61,
-      "cons_target": 984.49,
-      "agg_target": 1050.12
+      "agg_target": 538.68,
+      "dir": "BULLISH"
     },
     {
       "ticker": "SPY",
-      "price": 736.36,
+      "price": 734.55,
       "prev_close": 739.24,
-      "chg_pct": -0.39,
+      "chg_pct": -0.63,
       "high": 746.89,
       "low": 722.61,
-      "volume": 3427355,
+      "volume": 3427455,
       "score": 67,
       "rsi": 52.9,
       "sma20": 746.22,
@@ -92,57 +70,35 @@
         "RSI_52.9",
         "VOL_2.0x"
       ],
-      "stop": 773.18,
-      "cons_target": 699.54,
-      "agg_target": 648.0
+      "stop": 771.28,
+      "cons_target": 697.82,
+      "agg_target": 646.4,
+      "dir": "NEUTRAL"
     },
     {
-      "ticker": "SMCI",
-      "price": 40.64,
-      "prev_close": 43.98,
-      "chg_pct": -7.58,
-      "high": 44.9,
-      "low": 38.05,
-      "volume": 1553505,
+      "ticker": "MU",
+      "price": 895.77,
+      "prev_close": 948.98,
+      "chg_pct": -5.61,
+      "high": 988.56,
+      "low": 855.15,
+      "volume": 1063206,
       "score": 65,
-      "rsi": 64.8,
-      "sma20": 38.65,
-      "sma50": 31.75,
+      "rsi": 66.3,
+      "sma20": 867.02,
+      "sma50": 640.83,
       "direction": "NEUTRAL",
       "signals": [
         "SMA20",
         "SMA50",
         "EMA_STACK",
-        "RSI_64.8",
-        "DOWN-7.58%"
+        "RSI_66.3",
+        "DOWN-5.61%"
       ],
-      "stop": 42.67,
-      "cons_target": 38.61,
-      "agg_target": 35.76
-    },
-    {
-      "ticker": "QQQ",
-      "price": 707.86,
-      "prev_close": 716.05,
-      "chg_pct": -1.14,
-      "high": 725.62,
-      "low": 686.43,
-      "volume": 2175784,
-      "score": 60,
-      "rsi": 53.0,
-      "sma20": 721.94,
-      "sma50": 673.52,
-      "direction": "NEUTRAL",
-      "signals": [
-        "SMA50",
-        "EMA_STACK",
-        "RSI_53.0",
-        "DOWN-1.14%",
-        "VOL_2.0x"
-      ],
-      "stop": 743.25,
-      "cons_target": 672.47,
-      "agg_target": 622.92
+      "stop": 940.56,
+      "cons_target": 850.98,
+      "agg_target": 788.28,
+      "dir": "NEUTRAL"
     },
     {
       "ticker": "XLK",
@@ -166,7 +122,8 @@
       ],
       "stop": 189.83,
       "cons_target": 171.75,
-      "agg_target": 159.1
+      "agg_target": 159.1,
+      "dir": "NEUTRAL"
     },
     {
       "ticker": "ARM",
@@ -191,7 +148,33 @@
       ],
       "stop": 340.75,
       "cons_target": 308.29,
-      "agg_target": 285.58
+      "agg_target": 285.58,
+      "dir": "NEUTRAL"
+    },
+    {
+      "ticker": "QQQ",
+      "price": 697.1,
+      "prev_close": 716.05,
+      "chg_pct": -2.65,
+      "high": 725.62,
+      "low": 686.43,
+      "volume": 2175988,
+      "score": 52,
+      "rsi": 53.0,
+      "sma20": 721.94,
+      "sma50": 673.52,
+      "direction": "NEUTRAL",
+      "signals": [
+        "SMA50",
+        "EMA_STACK",
+        "RSI_53.0",
+        "DOWN-2.65%",
+        "VOL_2.0x"
+      ],
+      "stop": 731.96,
+      "cons_target": 662.25,
+      "agg_target": 613.45,
+      "dir": "NEUTRAL"
     },
     {
       "ticker": "SHOP",
@@ -214,13 +197,14 @@
       ],
       "stop": 115.96,
       "cons_target": 104.92,
-      "agg_target": 97.19
+      "agg_target": 97.19,
+      "dir": "NEUTRAL"
     },
     {
       "ticker": "NOW",
-      "price": 107,
+      "price": 104.41,
       "prev_close": 114.25,
-      "chg_pct": -6.35,
+      "chg_pct": -8.61,
       "high": 112.35,
       "low": 103.12,
       "volume": 1171576,
@@ -233,11 +217,36 @@
         "SMA50",
         "EMA_STACK",
         "RSI_53.2",
-        "DOWN-6.35%"
+        "DOWN-8.61%"
       ],
-      "stop": 112.35,
-      "cons_target": 101.65,
-      "agg_target": 94.16
+      "stop": 109.63,
+      "cons_target": 99.19,
+      "agg_target": 91.88,
+      "dir": "NEUTRAL"
+    },
+    {
+      "ticker": "SMCI",
+      "price": 35.74,
+      "prev_close": 43.98,
+      "chg_pct": -18.73,
+      "high": 44.9,
+      "low": 38.05,
+      "volume": 1553505,
+      "score": 45,
+      "rsi": 64.8,
+      "sma20": 38.65,
+      "sma50": 31.75,
+      "direction": "NEUTRAL",
+      "signals": [
+        "SMA50",
+        "EMA_STACK",
+        "RSI_64.8",
+        "DOWN-18.73%"
+      ],
+      "stop": 37.53,
+      "cons_target": 33.95,
+      "agg_target": 31.45,
+      "dir": "NEUTRAL"
     },
     {
       "ticker": "TLT",
@@ -258,7 +267,8 @@
       ],
       "stop": 89.54,
       "cons_target": 81.02,
-      "agg_target": 75.05
+      "agg_target": 75.05,
+      "dir": "NEUTRAL"
     },
     {
       "ticker": "CRM",
@@ -281,37 +291,39 @@
       ],
       "stop": 184.18,
       "cons_target": 166.64,
-      "agg_target": 154.36
+      "agg_target": 154.36,
+      "dir": "NEUTRAL"
     },
     {
       "ticker": "SOXS",
-      "price": 5.92,
+      "price": 6.17,
       "prev_close": 5.66,
-      "chg_pct": 4.59,
+      "chg_pct": 9.01,
       "high": 7.1,
       "low": 5.15,
-      "volume": 38197253,
+      "volume": 38202753,
       "score": 27,
       "rsi": 27.5,
       "sma20": 7.23,
       "sma50": 15.37,
       "direction": "BEARISH",
       "signals": [
-        "MOM+4.59%",
+        "MOM+9.01%",
         "VOL_2.1x"
       ],
-      "stop": 6.22,
-      "cons_target": 5.62,
-      "agg_target": 5.21
+      "stop": 6.48,
+      "cons_target": 5.86,
+      "agg_target": 5.43,
+      "dir": "BEARISH"
     },
     {
       "ticker": "AAPL",
-      "price": 290.73,
+      "price": 289.9,
       "prev_close": 301.57,
-      "chg_pct": -3.59,
+      "chg_pct": -3.87,
       "high": 300.59,
       "low": 287.79,
-      "volume": 2491346,
+      "volume": 2491376,
       "score": 25,
       "rsi": 42.2,
       "sma20": 304.57,
@@ -320,33 +332,12 @@
       "signals": [
         "SMA50",
         "EMA_STACK",
-        "DOWN-3.59%"
+        "DOWN-3.87%"
       ],
-      "stop": 305.27,
-      "cons_target": 276.19,
-      "agg_target": 255.84
-    },
-    {
-      "ticker": "TSLA",
-      "price": 397.24,
-      "prev_close": 408.95,
-      "chg_pct": -2.86,
-      "high": 418.49,
-      "low": 384.25,
-      "volume": 990751,
-      "score": 25,
-      "rsi": 47.2,
-      "sma20": 422.44,
-      "sma50": 396.69,
-      "direction": "BEARISH",
-      "signals": [
-        "SMA50",
-        "RSI_47.2",
-        "DOWN-2.86%"
-      ],
-      "stop": 417.1,
-      "cons_target": 377.38,
-      "agg_target": 349.57
+      "stop": 304.39,
+      "cons_target": 275.4,
+      "agg_target": 255.11,
+      "dir": "BEARISH"
     },
     {
       "ticker": "NVDA",
@@ -355,7 +346,7 @@
       "chg_pct": -0.46,
       "high": 211.37,
       "low": 199.34,
-      "volume": 5608811,
+      "volume": 5608889,
       "score": 20,
       "rsi": 40.1,
       "sma20": 218.24,
@@ -366,13 +357,14 @@
       ],
       "stop": 218.09,
       "cons_target": 197.31,
-      "agg_target": 182.78
+      "agg_target": 182.78,
+      "dir": "BEARISH"
     },
     {
       "ticker": "GOOGL",
-      "price": 364.05,
+      "price": 360.35,
       "prev_close": 363.44,
-      "chg_pct": 0.17,
+      "chg_pct": -0.85,
       "high": 372.07,
       "low": 357.39,
       "volume": 951632,
@@ -384,9 +376,10 @@
       "signals": [
         "SMA50"
       ],
-      "stop": 382.25,
-      "cons_target": 345.85,
-      "agg_target": 320.36
+      "stop": 378.37,
+      "cons_target": 342.33,
+      "agg_target": 317.11,
+      "dir": "BEARISH"
     },
     {
       "ticker": "AMZN",
@@ -406,7 +399,30 @@
       ],
       "stop": 256.36,
       "cons_target": 231.94,
-      "agg_target": 214.85
+      "agg_target": 214.85,
+      "dir": "BEARISH"
+    },
+    {
+      "ticker": "TSLA",
+      "price": 390.6,
+      "prev_close": 408.95,
+      "chg_pct": -4.49,
+      "high": 418.49,
+      "low": 384.25,
+      "volume": 990751,
+      "score": 5,
+      "rsi": 47.2,
+      "sma20": 422.44,
+      "sma50": 396.69,
+      "direction": "BEARISH",
+      "signals": [
+        "RSI_47.2",
+        "DOWN-4.49%"
+      ],
+      "stop": 410.13,
+      "cons_target": 371.07,
+      "agg_target": 343.73,
+      "dir": "BEARISH"
     },
     {
       "ticker": "PLTR",
@@ -427,7 +443,8 @@
       ],
       "stop": 138.65,
       "cons_target": 125.45,
-      "agg_target": 116.2
+      "agg_target": 116.2,
+      "dir": "BEARISH"
     },
     {
       "ticker": "MSFT",
@@ -436,7 +453,7 @@
       "chg_pct": -1.9,
       "high": 411.93,
       "low": 398.49,
-      "volume": 1042765,
+      "volume": 1042767,
       "score": 0,
       "rsi": 43.9,
       "sma20": 421.91,
@@ -447,7 +464,8 @@
       ],
       "stop": 424.12,
       "cons_target": 383.72,
-      "agg_target": 355.45
+      "agg_target": 355.45,
+      "dir": "BEARISH"
     },
     {
       "ticker": "META",
@@ -465,7 +483,8 @@
       "signals": [],
       "stop": 614.09,
       "cons_target": 555.61,
-      "agg_target": 514.67
+      "agg_target": 514.67,
+      "dir": "BEARISH"
     },
     {
       "ticker": "COIN",
@@ -486,7 +505,8 @@
       ],
       "stop": 163.33,
       "cons_target": 147.77,
-      "agg_target": 136.88
+      "agg_target": 136.88,
+      "dir": "BEARISH"
     },
     {
       "ticker": "NFLX",
@@ -506,7 +526,8 @@
       ],
       "stop": 85.48,
       "cons_target": 77.34,
-      "agg_target": 71.64
+      "agg_target": 71.64,
+      "dir": "BEARISH"
     },
     {
       "ticker": "UBER",
@@ -524,7 +545,8 @@
       "signals": [],
       "stop": 73.89,
       "cons_target": 66.86,
-      "agg_target": 61.93
+      "agg_target": 61.93,
+      "dir": "BEARISH"
     },
     {
       "ticker": "MSTR",
@@ -545,7 +567,8 @@
       ],
       "stop": 122.92,
       "cons_target": 111.22,
-      "agg_target": 103.02
+      "agg_target": 103.02,
+      "dir": "BEARISH"
     },
     {
       "ticker": "XLE",
@@ -566,13 +589,14 @@
       ],
       "stop": 60.25,
       "cons_target": 54.51,
-      "agg_target": 50.49
+      "agg_target": 50.49,
+      "dir": "BEARISH"
     },
     {
       "ticker": "GLD",
-      "price": 390.82,
+      "price": 380.23,
       "prev_close": 397.19,
-      "chg_pct": -1.6,
+      "chg_pct": -4.27,
       "high": 400.42,
       "low": 388.82,
       "volume": 139779,
@@ -582,12 +606,15 @@
       "sma50": 424.07,
       "direction": "BEARISH",
       "signals": [
-        "DOWN-1.6%",
+        "DOWN-4.27%",
         "LOW_LIQ"
       ],
-      "stop": 410.36,
-      "cons_target": 371.28,
-      "agg_target": 343.92
+      "stop": 399.24,
+      "cons_target": 361.22,
+      "agg_target": 334.6,
+      "dir": "BEARISH"
     }
-  ]
+  ],
+  "scan_ts": "2026-06-10T12:30:15+00:00",
+  "regime": "BEAR"
 }
