@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-10T14:06:50.847086+00:00",
+    "_updated": "2026-06-10T14:16:50.846968+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-10T14:06:50.847086+00:00",
+    "_updated": "2026-06-10T14:16:50.846968+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -50,11 +50,11 @@
       },
       "whales": {
         "status": "ok",
-        "age_min": 1.5
+        "age_min": 1.6
       },
       "calendar": {
         "status": "ok",
-        "age_min": 49.7
+        "age_min": 59.7
       },
       "massive": {
         "status": "missing",
@@ -64,9 +64,9 @@
     "sources": {
       "alpaca": {
         "status": "healthy",
-        "last_ok": "2026-06-10T14:05:15.812838+00:00",
+        "last_ok": "2026-06-10T14:15:14.746891+00:00",
         "last_error": null,
-        "latency_ms": 14722,
+        "latency_ms": 13706,
         "items": 27
       },
       "massive": {
@@ -78,35 +78,35 @@
       },
       "benzinga": {
         "status": "healthy",
-        "last_ok": "2026-06-10T14:05:12.562285+00:00",
+        "last_ok": "2026-06-10T14:15:11.438230+00:00",
         "last_error": null,
-        "latency_ms": 10521,
+        "latency_ms": 9609,
         "items": 206
       },
       "uw": {
         "status": "healthy",
-        "last_ok": "2026-06-10T14:05:19.912670+00:00",
+        "last_ok": "2026-06-10T14:15:18.111694+00:00",
         "last_error": null,
-        "latency_ms": 19012,
+        "latency_ms": 17304,
         "items": 0
       },
       "x_api": {
         "status": "healthy",
-        "last_ok": "2026-06-10T14:05:12.562304+00:00",
+        "last_ok": "2026-06-10T14:15:11.438247+00:00",
         "last_error": null,
-        "latency_ms": 10521,
+        "latency_ms": 9609,
         "items": 206
       }
     },
     "summary": "1 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-10T14:06:50.847086+00:00",
+    "_updated": "2026-06-10T14:16:50.846968+00:00",
     "_agent": "main-backend",
     "active": [
       {
         "check": "massive: never written",
-        "ts": "2026-06-10T14:06:50.847086+00:00",
+        "ts": "2026-06-10T14:16:50.846968+00:00",
         "severity": "warn"
       }
     ],
@@ -114,7 +114,7 @@
   },
   "log": [
     {
-      "ts": "2026-06-10T14:06:50",
+      "ts": "2026-06-10T14:16:50",
       "level": "WARN",
       "msg": "Health: issues: massive: never written"
     }
