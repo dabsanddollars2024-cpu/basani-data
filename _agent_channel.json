@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-10T21:45:10.104966+00:00",
+    "_updated": "2026-06-10T21:55:09.322044+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-10T21:45:10.104966+00:00",
+    "_updated": "2026-06-10T21:55:09.322044+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -42,19 +42,19 @@
     "freshness": {
       "news": {
         "status": "ok",
-        "age_min": 5.0
+        "age_min": 0.0
       },
       "scan": {
         "status": "stale",
-        "age_min": 109.9
+        "age_min": 119.9
       },
       "whales": {
         "status": "stale",
-        "age_min": 109.9
+        "age_min": 119.9
       },
       "calendar": {
         "status": "ok",
-        "age_min": 349.8
+        "age_min": 359.8
       },
       "massive": {
         "status": "missing",
@@ -78,9 +78,9 @@
       },
       "benzinga": {
         "status": "healthy",
-        "last_ok": "2026-06-10T21:45:10.092508+00:00",
+        "last_ok": "2026-06-10T21:55:09.248852+00:00",
         "last_error": null,
-        "latency_ms": 8723,
+        "latency_ms": 7932,
         "items": 214
       },
       "uw": {
@@ -92,31 +92,31 @@
       },
       "x_api": {
         "status": "healthy",
-        "last_ok": "2026-06-10T21:45:10.092523+00:00",
+        "last_ok": "2026-06-10T21:55:09.248871+00:00",
         "last_error": null,
-        "latency_ms": 8723,
+        "latency_ms": 7932,
         "items": 214
       }
     },
     "summary": "3 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-10T21:45:10.104966+00:00",
+    "_updated": "2026-06-10T21:55:09.322044+00:00",
     "_agent": "main-backend",
     "active": [
       {
-        "check": "scan: 109.9m old (limit 30m)",
-        "ts": "2026-06-10T21:45:10.104966+00:00",
+        "check": "scan: 119.9m old (limit 30m)",
+        "ts": "2026-06-10T21:55:09.322044+00:00",
         "severity": "warn"
       },
       {
-        "check": "whales: 109.9m old (limit 30m)",
-        "ts": "2026-06-10T21:45:10.104966+00:00",
+        "check": "whales: 119.9m old (limit 30m)",
+        "ts": "2026-06-10T21:55:09.322044+00:00",
         "severity": "warn"
       },
       {
         "check": "massive: never written",
-        "ts": "2026-06-10T21:45:10.104966+00:00",
+        "ts": "2026-06-10T21:55:09.322044+00:00",
         "severity": "warn"
       }
     ],
@@ -124,9 +124,9 @@
   },
   "log": [
     {
-      "ts": "2026-06-10T21:45:10",
+      "ts": "2026-06-10T21:55:09",
       "level": "WARN",
-      "msg": "Health: issues: scan: 109.9m old (limit 30m); whales: 109.9m old (limit 30m); massive: never written"
+      "msg": "Health: issues: scan: 119.9m old (limit 30m); whales: 119.9m old (limit 30m); massive: never written"
     }
   ]
 }
