@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-10T12:57:49.177518+00:00",
+    "_updated": "2026-06-10T13:07:49.070835+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-10T12:57:49.177518+00:00",
+    "_updated": "2026-06-10T13:07:49.070835+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -35,26 +35,26 @@
         "detail": "ok"
       },
       "unusual_whales": {
-        "ok": false,
-        "detail": "stale"
+        "ok": true,
+        "detail": "ok"
       }
     },
     "freshness": {
       "news": {
         "status": "ok",
-        "age_min": 2.7
+        "age_min": 2.6
       },
       "scan": {
         "status": "ok",
-        "age_min": 27.5
+        "age_min": 2.5
       },
       "whales": {
-        "status": "stale",
-        "age_min": 1022.7
+        "status": "ok",
+        "age_min": 2.6
       },
       "calendar": {
         "status": "ok",
-        "age_min": 87.6
+        "age_min": 97.6
       },
       "massive": {
         "status": "missing",
@@ -64,9 +64,9 @@
     "sources": {
       "alpaca": {
         "status": "healthy",
-        "last_ok": "2026-06-10T12:30:17.921739+00:00",
+        "last_ok": "2026-06-10T13:05:19.477339+00:00",
         "last_error": null,
-        "latency_ms": 16768,
+        "latency_ms": 18964,
         "items": 27
       },
       "massive": {
@@ -78,40 +78,35 @@
       },
       "benzinga": {
         "status": "healthy",
-        "last_ok": "2026-06-10T12:55:11.530200+00:00",
+        "last_ok": "2026-06-10T13:05:13.467381+00:00",
         "last_error": null,
-        "latency_ms": 10075,
-        "items": 204
+        "latency_ms": 11667,
+        "items": 205
       },
       "uw": {
         "status": "healthy",
-        "last_ok": "2026-06-09T19:55:07.467293+00:00",
+        "last_ok": "2026-06-10T13:05:17.169398+00:00",
         "last_error": null,
-        "latency_ms": 6454,
+        "latency_ms": 15672,
         "items": 0
       },
       "x_api": {
         "status": "healthy",
-        "last_ok": "2026-06-10T12:55:11.530218+00:00",
+        "last_ok": "2026-06-10T13:05:13.467396+00:00",
         "last_error": null,
-        "latency_ms": 10075,
-        "items": 204
+        "latency_ms": 11667,
+        "items": 205
       }
     },
-    "summary": "2 issue(s)"
+    "summary": "1 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-10T12:57:49.177518+00:00",
+    "_updated": "2026-06-10T13:07:49.070835+00:00",
     "_agent": "main-backend",
     "active": [
       {
-        "check": "whales: 1022.7m old (limit 30m)",
-        "ts": "2026-06-10T12:57:49.177518+00:00",
-        "severity": "warn"
-      },
-      {
         "check": "massive: never written",
-        "ts": "2026-06-10T12:57:49.177518+00:00",
+        "ts": "2026-06-10T13:07:49.070835+00:00",
         "severity": "warn"
       }
     ],
@@ -119,9 +114,9 @@
   },
   "log": [
     {
-      "ts": "2026-06-10T12:57:49",
+      "ts": "2026-06-10T13:07:49",
       "level": "WARN",
-      "msg": "Health: issues: whales: 1022.7m old (limit 30m); massive: never written"
+      "msg": "Health: issues: massive: never written"
     }
   ]
 }
