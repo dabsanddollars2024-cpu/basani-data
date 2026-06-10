@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-10T00:37:49.181627+00:00",
+    "_updated": "2026-06-10T00:47:49.582350+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-10T00:37:49.181627+00:00",
+    "_updated": "2026-06-10T00:47:49.582350+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -42,19 +42,19 @@
     "freshness": {
       "news": {
         "status": "ok",
-        "age_min": 7.7
+        "age_min": 17.7
       },
       "scan": {
         "status": "stale",
-        "age_min": 282.8
+        "age_min": 292.8
       },
       "whales": {
         "status": "stale",
-        "age_min": 282.7
+        "age_min": 292.7
       },
       "calendar": {
         "status": "ok",
-        "age_min": 679.7
+        "age_min": 689.7
       },
       "massive": {
         "status": "missing",
@@ -101,22 +101,22 @@
     "summary": "3 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-10T00:37:49.181627+00:00",
+    "_updated": "2026-06-10T00:47:49.582350+00:00",
     "_agent": "main-backend",
     "active": [
       {
-        "check": "scan: 282.8m old (limit 30m)",
-        "ts": "2026-06-10T00:37:49.181627+00:00",
+        "check": "scan: 292.8m old (limit 30m)",
+        "ts": "2026-06-10T00:47:49.582350+00:00",
         "severity": "warn"
       },
       {
-        "check": "whales: 282.7m old (limit 30m)",
-        "ts": "2026-06-10T00:37:49.181627+00:00",
+        "check": "whales: 292.7m old (limit 30m)",
+        "ts": "2026-06-10T00:47:49.582350+00:00",
         "severity": "warn"
       },
       {
         "check": "massive: never written",
-        "ts": "2026-06-10T00:37:49.181627+00:00",
+        "ts": "2026-06-10T00:47:49.582350+00:00",
         "severity": "warn"
       }
     ],
@@ -124,9 +124,9 @@
   },
   "log": [
     {
-      "ts": "2026-06-10T00:37:49",
+      "ts": "2026-06-10T00:47:49",
       "level": "WARN",
-      "msg": "Health: issues: scan: 282.8m old (limit 30m); whales: 282.7m old (limit 30m); massive: never written"
+      "msg": "Health: issues: scan: 292.8m old (limit 30m); whales: 292.7m old (limit 30m); massive: never written"
     }
   ]
 }
