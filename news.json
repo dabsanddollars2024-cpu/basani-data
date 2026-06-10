@@ -1,37 +1,37 @@
 {
-  "generated": "2026-06-10T13:25:14Z",
-  "generated_display": "2026-06-10 13:25 ET",
-  "count": 204,
+  "generated": "2026-06-10T13:23:45Z",
+  "generated_display": "2026-06-10 13:23 ET",
+  "count": 205,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-10T13:25:04.440922+00:00",
+      "last_error_ts": "2026-06-10T13:23:39.475757+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 7,
-      "latency_ms": 701,
-      "last_success": "2026-06-10T13:25:05.213963+00:00",
+      "latency_ms": 237,
+      "last_success": "2026-06-10T13:23:39.715463+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 698,
-      "last_success": "2026-06-10T13:25:05.913277+00:00",
+      "latency_ms": 127,
+      "last_success": "2026-06-10T13:23:39.844789+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 398,
-      "last_success": "2026-06-10T13:25:06.315709+00:00",
+      "latency_ms": 361,
+      "last_success": "2026-06-10T13:23:40.212233+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-10T13:25:06.462358+00:00",
+      "last_error_ts": "2026-06-10T13:23:40.321730+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 3499,
-      "last_success": "2026-06-10T13:25:09.962082+00:00",
+      "latency_ms": 2634,
+      "last_success": "2026-06-10T13:23:42.955809+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,16 +55,16 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-10T13:25:10.746976+00:00",
+      "last_success": "2026-06-10T13:23:43.850081+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
-      "status": "degraded",
-      "items_pulled": 0,
-      "latency_ms": 3639,
-      "last_success": null,
-      "last_error_ts": "2026-06-10T13:25:14.386528+00:00",
+      "status": "healthy",
+      "items_pulled": 18,
+      "latency_ms": 2034,
+      "last_success": "2026-06-10T13:23:45.884718+00:00",
+      "last_error_ts": null,
       "error": ""
     },
     "rss_feeds": {
@@ -74,403 +74,49 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 204
+          "latency_ms": 205
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 91
+          "latency_ms": 99
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 60
+          "latency_ms": 114
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 292
+          "latency_ms": 300
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 31
+          "latency_ms": 56
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 105
+          "latency_ms": 118
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "uw_news": 25,
     "cnbc": 8,
+    "uw_news": 25,
     "reuters": 16,
     "marketwatch": 8,
     "massive_news": 50,
     "zerohedge": 8,
     "seekingalpha": 7,
-    "benzinga": 7
+    "benzinga": 7,
+    "forex_factory": 1
   },
   "items": [
-    {
-      "id": "23ddf3193db246",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:25:03Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655981932",
-      "author": "Dogstocks12",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T13:25:03Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "Dogstocks12",
-      "display_name": "Dave",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b49dfd919888ed",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:24:56Z",
-      "title": "$MSFT Dumped for no reason so the MMs puts can print. what a scam lol",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/655981921",
-      "author": "Scourgeqwe",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T13:24:56Z",
-      "text": "$MSFT Dumped for no reason so the MMs puts can print. what a scam lol",
-      "description": "",
-      "handle": "Scourgeqwe",
-      "display_name": "sai surya",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "3d6fd479ef60ee",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:24:52Z",
-      "title": "$NVDA $AVGO $DELL $MRVL $HPE \nCPI numbers were good. They all showing strength",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/655981913",
-      "author": "Srinivas111",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:52Z",
-      "text": "$NVDA $AVGO $DELL $MRVL $HPE \nCPI numbers were good. They all showing strength",
-      "description": "",
-      "handle": "Srinivas111",
-      "display_name": "Bullish2026",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "580fb531f4ce4b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:24:50Z",
-      "title": "$SPY how low????",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655981910",
-      "author": "Judy11",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:50Z",
-      "text": "$SPY how low????",
-      "description": "",
-      "handle": "Judy11",
-      "display_name": "Judith",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a7b9474ed5071a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:24:29Z",
-      "title": "$SPY inflation dip starts in 5 minutes",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655981864",
-      "author": "Emolinaoptions",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-10T13:24:29Z",
-      "text": "$SPY inflation dip starts in 5 minutes",
-      "description": "",
-      "handle": "Emolinaoptions",
-      "display_name": "Emolinaoptions",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "03e4f650edb85d",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-10T13:24:26Z",
-      "title": "Federated Hermes Premier Municipal Income Fund declares dividend",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "FMN"
-      ],
-      "tags": [],
-      "impact_score": 11.3,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:26Z",
-      "text": "Federated Hermes Premier Municipal Income Fund declares dividend",
-      "description": ""
-    },
-    {
-      "id": "8761a2163c2d3c",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-10T13:24:23Z",
-      "title": "Studio Home Debuts Laurel ADU with Four Distinct Architectural Styles and Three Size Options",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:23Z",
-      "text": "Studio Home Debuts Laurel ADU with Four Distinct Architectural Styles and Three Size Options",
-      "description": ""
-    },
-    {
-      "id": "e60f4a9560ce6e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:24:20Z",
-      "title": "$SPY \u201cyou drive what with these gas prices?! And you still owe money on it too?!\u201d \ud83d\ude2c\nHahahaha\ud83d\ude02",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655981847",
-      "author": "magiccat",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:20Z",
-      "text": "$SPY \u201cyou drive what with these gas prices?! And you still owe money on it too?!\u201d \ud83d\ude2c\nHahahaha\ud83d\ude02",
-      "description": "",
-      "handle": "magiccat",
-      "display_name": "magiccat",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "011f99e80b352f",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-10T13:24:17Z",
-      "title": "weR and RGIS Expand Strategic Collaboration to Accelerate AI-Powered Retail Shelf Intelligence Across Europe and the United States",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:17Z",
-      "text": "weR and RGIS Expand Strategic Collaboration to Accelerate AI-Powered Retail Shelf Intelligence Across Europe and the United States",
-      "description": ""
-    },
-    {
-      "id": "9fb576922d7b34",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:24:17Z",
-      "title": "Thinking Out Loud: Warsh, BOJ, Banks, Deregulation \n$XLF $SPX $QQQ  \n  \nSamantha LaDuc discusses the growing strength in financial stocks, the outlook for banks, and how upcoming policy decisions could influence markets.  \n \nShe also shares her views on inflation, rates, housing, and sector rotation",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/655981841",
-      "author": "SamanthaLaDuc",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 9.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:17Z",
-      "text": "Thinking Out Loud: Warsh, BOJ, Banks, Deregulation \n$XLF $SPX $QQQ  \n  \nSamantha LaDuc discusses the growing strength in financial stocks, the outlook for banks, and how upcoming policy decisions could influence markets.  \n \nShe also shares her views on inflation, rates, housing, and sector rotation",
-      "description": "",
-      "handle": "SamanthaLaDuc",
-      "display_name": "LaDucTrading",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e5e5ac94253d33",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:24:06Z",
-      "title": "$SPY $QQQ $DJT Need  to look no further than the charts of the past few months to see that the market is not the working mans economy is any way. Markets rallied 20 percent from recent bottom on promise of peace deal - yet that didn&#39;t happen. Prices rising rapidly for goods that actually matter ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655981813",
-      "author": "jjandjab",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:06Z",
-      "text": "$SPY $QQQ $DJT Need  to look no further than the charts of the past few months to see that the market is not the working mans economy is any way. Markets rallied 20 percent from recent bottom on promise of peace deal - yet that didn&#39;t happen. Prices rising rapidly for goods that actually matter ",
-      "description": "",
-      "handle": "jjandjab",
-      "display_name": "JB",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e22ef59938c02a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:24:06Z",
-      "title": "$SPY $QQQ $DJT Need  to look no further than the charts of the past few months to see that the market is not the working mans economy is any way. Markets rallied 20 percent from recent bottom on promise of peace deal - yet that didn&#39;t happen. Prices rising rapidly for goods that actually matter ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/655981813",
-      "author": "jjandjab",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:24:06Z",
-      "text": "$SPY $QQQ $DJT Need  to look no further than the charts of the past few months to see that the market is not the working mans economy is any way. Markets rallied 20 percent from recent bottom on promise of peace deal - yet that didn&#39;t happen. Prices rising rapidly for goods that actually matter ",
-      "description": "",
-      "handle": "jjandjab",
-      "display_name": "JB",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "6c53b1558c41b9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:23:51Z",
-      "title": "$MSFT almost down 100 bucks in just 3 sessions and this is a magnificent stock? It has been underperforming the index for like a decade now lol",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/655981785",
-      "author": "ranthor",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:23:51Z",
-      "text": "$MSFT almost down 100 bucks in just 3 sessions and this is a magnificent stock? It has been underperforming the index for like a decade now lol",
-      "description": "",
-      "handle": "ranthor",
-      "display_name": "V",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "70c4346c8f72ee",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:23:50Z",
-      "title": "$QQQ The market is blaming Iran war now? Now? The deep pockets sold their share to you since April 8 for two long months. LMAO",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/655981781",
-      "author": "AIIAAIIA_88",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:23:50Z",
-      "text": "$QQQ The market is blaming Iran war now? Now? The deep pockets sold their share to you since April 8 for two long months. LMAO",
-      "description": "",
-      "handle": "AIIAAIIA_88",
-      "display_name": "JJ Hedge",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d47cd37977c2e4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:23:43Z",
-      "title": "$TSLA $SPY $SPCX  \n \nWe&#39;re getting a 2x LONG SPACEX ETF on LAUNCH DAY! \n \nWOW. Now give us the inverse ETF ASAP \n \nTICKER SPCF",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/655981762",
-      "author": "Steve_TheBull_Rogers",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T13:23:43Z",
-      "text": "$TSLA $SPY $SPCX  \n \nWe&#39;re getting a 2x LONG SPACEX ETF on LAUNCH DAY! \n \nWOW. Now give us the inverse ETF ASAP \n \nTICKER SPCF",
-      "description": "",
-      "handle": "Steve_TheBull_Rogers",
-      "display_name": "Steve Rogers",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e1c7c6c0696ad3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T13:23:40Z",
-      "title": "$MSFT buy",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/655981759",
-      "author": "Ssharma19",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T13:23:40Z",
-      "text": "$MSFT buy",
-      "description": "",
-      "handle": "Ssharma19",
-      "display_name": "Ss",
-      "platform": "stocktwits"
-    },
     {
       "id": "51491162760ca4",
       "source": "stocktwits",
@@ -492,6 +138,98 @@
       "description": "",
       "handle": "Time2Fly12",
       "display_name": "Donnie",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e7bbdf7cf7e84b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:23:30Z",
+      "title": "$SPY big tech is all look like shit none of them are in a base ready to breakout that tell you the market is weak",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/655981737",
+      "author": "TheSaint229",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:23:30Z",
+      "text": "$SPY big tech is all look like shit none of them are in a base ready to breakout that tell you the market is weak",
+      "description": "",
+      "handle": "TheSaint229",
+      "display_name": "Charles",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4ffd3b0f2a51f5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:23:30Z",
+      "title": "$SPY Trump pump once the market makes news. It\u2019s his only talking point and he has the money machine to make it green.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/655981736",
+      "author": "ApocalypseCow",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T13:23:30Z",
+      "text": "$SPY Trump pump once the market makes news. It\u2019s his only talking point and he has the money machine to make it green.",
+      "description": "",
+      "handle": "ApocalypseCow",
+      "display_name": "ApocalypseCow",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3d34ee4f7dfb07",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:23:29Z",
+      "title": "$SPY $742+ eod",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/655981732",
+      "author": "myAnswer",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T13:23:29Z",
+      "text": "$SPY $742+ eod",
+      "description": "",
+      "handle": "myAnswer",
+      "display_name": "Dani",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "daced21a4e5346",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:23:29Z",
+      "title": "$SPY remember when Korea made their stock market honest and it went parabolic",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/655981731",
+      "author": "TTradeStation",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:23:29Z",
+      "text": "$SPY remember when Korea made their stock market honest and it went parabolic",
+      "description": "",
+      "handle": "TTradeStation",
+      "display_name": "TTrade Station",
       "platform": "stocktwits"
     },
     {
@@ -538,6 +276,29 @@
       "description": "",
       "handle": "Arcides",
       "display_name": "Arcides M.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c2e4cdd9d08157",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:23:15Z",
+      "title": "$SPY All I can come up with for trump&#39;s BLS is Bureau of Lies and Shitistics??? Clearly, I need more coffee.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/655981703",
+      "author": "RobertLemire",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:23:15Z",
+      "text": "$SPY All I can come up with for trump&#39;s BLS is Bureau of Lies and Shitistics??? Clearly, I need more coffee.",
+      "description": "",
+      "handle": "RobertLemire",
+      "display_name": "Robert Lemire",
       "platform": "stocktwits"
     },
     {
@@ -648,6 +409,29 @@
       "description": "",
       "handle": "Bullrun241",
       "display_name": "Bullrun241",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "937e2f20742e26",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:22:27Z",
+      "title": "$MSFT embrace pain. Eat pain. Love pain. Feel pain. Gargle pain. Deep throat pain. Take pain. \n\nMicrosoft is pain. \n\nMicrosoft is gunna moon. Because of pain.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/655981587",
+      "author": "MoonOil",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T13:22:27Z",
+      "text": "$MSFT embrace pain. Eat pain. Love pain. Feel pain. Gargle pain. Deep throat pain. Take pain. \n\nMicrosoft is pain. \n\nMicrosoft is gunna moon. Because of pain.",
+      "description": "",
+      "handle": "MoonOil",
+      "display_name": "Dave",
       "platform": "stocktwits"
     },
     {
@@ -987,6 +771,29 @@
       "description": ""
     },
     {
+      "id": "df100b1c91af18",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:20:11Z",
+      "title": "Trump Says Iran Took &#39;Too Long&#39; And Will &#39;Pay The Price&#39; \u2014 Markets Already Are \n$SPY $QQQ $LMT $RTX $NOC  \nhttps://www.benzinga.com/markets/equities/26/06/53113507/trump-says-iran-took-too-long-and-will-pay-the-price-markets-already-are",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/655981288",
+      "author": "hi_tech_lowlife",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:20:11Z",
+      "text": "Trump Says Iran Took &#39;Too Long&#39; And Will &#39;Pay The Price&#39; \u2014 Markets Already Are \n$SPY $QQQ $LMT $RTX $NOC  \nhttps://www.benzinga.com/markets/equities/26/06/53113507/trump-says-iran-took-too-long-and-will-pay-the-price-markets-already-are",
+      "description": "",
+      "handle": "hi_tech_lowlife",
+      "display_name": "Erica K",
+      "platform": "stocktwits"
+    },
+    {
       "id": "65185e46c32687",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1048,6 +855,29 @@
       "description": "",
       "handle": "FatherJones",
       "display_name": "rob jones",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8a937ef00471c0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:19:47Z",
+      "title": "$QQQ 15min 50 is 711.33 to start the day",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/655981247",
+      "author": "knash",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:19:47Z",
+      "text": "$QQQ 15min 50 is 711.33 to start the day",
+      "description": "",
+      "handle": "knash",
+      "display_name": "k nash",
       "platform": "stocktwits"
     },
     {
@@ -1193,6 +1023,29 @@
       "description": ""
     },
     {
+      "id": "f3fc7bd6b4ae7e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:19:14Z",
+      "title": "$MSFT so, we don\u2019t participate in any rally.. but we go down twice as hard with pullbacks.. what a life!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/655981175",
+      "author": "FarmTrip",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:19:14Z",
+      "text": "$MSFT so, we don\u2019t participate in any rally.. but we go down twice as hard with pullbacks.. what a life!",
+      "description": "",
+      "handle": "FarmTrip",
+      "display_name": "Adam",
+      "platform": "stocktwits"
+    },
+    {
       "id": "3a9df05059551a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1298,6 +1151,29 @@
       "description": ""
     },
     {
+      "id": "e11b60c2527548",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:18:50Z",
+      "title": "$DJT $QQQ $SPY yes that\u2019s about all we can afford.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/655981107",
+      "author": "OpenAeye",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:18:50Z",
+      "text": "$DJT $QQQ $SPY yes that\u2019s about all we can afford.",
+      "description": "",
+      "handle": "OpenAeye",
+      "display_name": "OpenAeye",
+      "platform": "stocktwits"
+    },
+    {
       "id": "6cd97610ecfd4d",
       "source": "reuters",
       "source_type": "rss",
@@ -1332,6 +1208,29 @@
       "time": "2026-06-10 13:18:50",
       "text": "Wall St set to drop as tech declines, Middle East tensions mount",
       "description": ""
+    },
+    {
+      "id": "96242e04140bb7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:18:46Z",
+      "title": "$MSFT this is like impressively horrible. Like for anyone to actually make a short bet for the stock to come down $70 a share in 7 days like my goodness. Besides, that\u2019s on NO FUCKING NEWS! Man and it looks weaker than ever.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/655981097",
+      "author": "Wheel_Is_King",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T13:18:46Z",
+      "text": "$MSFT this is like impressively horrible. Like for anyone to actually make a short bet for the stock to come down $70 a share in 7 days like my goodness. Besides, that\u2019s on NO FUCKING NEWS! Man and it looks weaker than ever.",
+      "description": "",
+      "handle": "Wheel_Is_King",
+      "display_name": "Eddie",
+      "platform": "stocktwits"
     },
     {
       "id": "d6f9f6c8dfc1d0",
@@ -1490,6 +1389,29 @@
       "platform": "stocktwits"
     },
     {
+      "id": "8c0575ed0f2c9f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:17:54Z",
+      "title": "$ASTS Seems like this follows movements of $TSLA \ud83e\udd2d",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/655980997",
+      "author": "Seeker1980",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T13:17:54Z",
+      "text": "$ASTS Seems like this follows movements of $TSLA \ud83e\udd2d",
+      "description": "",
+      "handle": "Seeker1980",
+      "display_name": "IJ",
+      "platform": "stocktwits"
+    },
+    {
       "id": "59a55e3f93ab10",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1638,6 +1560,27 @@
       "description": ""
     },
     {
+      "id": "6dc8da9697afa8",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-10T13:17:07Z",
+      "title": "Inflation Surges To 4.2%, Highest Since April 2023: Wall Street Now Bets On A Fed Hike (UPDATED)",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "CPI",
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 13.0,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:17:07Z",
+      "text": "Inflation Surges To 4.2%, Highest Since April 2023: Wall Street Now Bets On A Fed Hike (UPDATED)",
+      "description": ""
+    },
+    {
       "id": "37a44ecf2fe0c5",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1748,6 +1691,29 @@
       "description": ""
     },
     {
+      "id": "24f44cc34670f2",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-10T13:16:50Z",
+      "title": "Trump Says Iran Took 'Too Long' And Will 'Pay The Price' \u2014 Markets Already Are",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "LMT",
+        "NOC",
+        "RTX",
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:16:50Z",
+      "text": "Trump Says Iran Took 'Too Long' And Will 'Pay The Price' \u2014 Markets Already Are",
+      "description": ""
+    },
+    {
       "id": "151dab7e4fb01a",
       "source": "reuters",
       "source_type": "rss",
@@ -1789,6 +1755,29 @@
       "platform": "stocktwits"
     },
     {
+      "id": "8699596be38cc0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T13:16:35Z",
+      "title": "$SPY $BTC.X $NVDA   \nhoodie hoo",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/655980842",
+      "author": "PivotalSaints",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T13:16:35Z",
+      "text": "$SPY $BTC.X $NVDA   \nhoodie hoo",
+      "description": "",
+      "handle": "PivotalSaints",
+      "display_name": "Pivotal Saints-HeWhoLaughsLast",
+      "platform": "stocktwits"
+    },
+    {
       "id": "9837434835f9d4",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1810,6 +1799,24 @@
       "handle": "SwingPlay",
       "display_name": "Swing Play",
       "platform": "stocktwits"
+    },
+    {
+      "id": "8a7f7c7db6ecf0",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-10T13:16:13Z",
+      "title": "APOLLO\u2019S ZITO PREDICTS SHAKEOUT IN AI BULL MARKET AS ROI PRESSURES MOUNT",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T13:16:13Z",
+      "text": "APOLLO\u2019S ZITO PREDICTS SHAKEOUT IN AI BULL MARKET AS ROI PRESSURES MOUNT",
+      "description": ""
     },
     {
       "id": "b861a189a4938c",
@@ -4383,6 +4390,30 @@
       "time": "2026-06-09T16:07:09Z",
       "text": "National mall footwear giant closes 82 stores as shoppers trade up",
       "description": ""
+    },
+    {
+      "id": "7aa20ca4568b7d",
+      "source": "forex_factory",
+      "source_type": "calendar",
+      "timestamp": "2026-06-07T05:15:00-04:00",
+      "title": "OPEC-JMMC Meetings",
+      "body": "",
+      "url": "https://www.forexfactory.com/",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-07T05:15:00-04:00",
+      "text": "OPEC-JMMC Meetings",
+      "description": "",
+      "impact": "Medium",
+      "currency": "All",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "week": "this"
     },
     {
       "id": "bc489d9fd289f7",
