@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-10T13:16:51.712923+00:00",
+    "_updated": "2026-06-10T13:26:50.835036+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-10T13:16:51.712923+00:00",
+    "_updated": "2026-06-10T13:26:50.835036+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -46,15 +46,15 @@
       },
       "scan": {
         "status": "ok",
-        "age_min": 1.9
+        "age_min": 1.8
       },
       "whales": {
         "status": "ok",
-        "age_min": 1.9
+        "age_min": 1.6
       },
       "calendar": {
         "status": "ok",
-        "age_min": 1.9
+        "age_min": 9.7
       },
       "massive": {
         "status": "missing",
@@ -63,50 +63,50 @@
     },
     "sources": {
       "alpaca": {
-        "status": "unknown",
-        "last_ok": null,
+        "status": "healthy",
+        "last_ok": "2026-06-10T13:25:03.912819+00:00",
         "last_error": null,
-        "latency_ms": null,
-        "items": 0
+        "latency_ms": 2509,
+        "items": 27
       },
       "massive": {
-        "status": "unknown",
+        "status": "failed",
         "last_ok": null,
-        "last_error": null,
+        "last_error": "0 snapshots returned",
         "latency_ms": null,
         "items": 0
       },
       "benzinga": {
-        "status": "unknown",
-        "last_ok": null,
+        "status": "healthy",
+        "last_ok": "2026-06-10T13:25:15.711421+00:00",
         "last_error": null,
-        "latency_ms": null,
-        "items": 0
+        "latency_ms": 14418,
+        "items": 204
       },
       "uw": {
-        "status": "unknown",
-        "last_ok": null,
+        "status": "healthy",
+        "last_ok": "2026-06-10T13:25:18.515125+00:00",
         "last_error": null,
-        "latency_ms": null,
+        "latency_ms": 17410,
         "items": 0
       },
       "x_api": {
-        "status": "unknown",
-        "last_ok": null,
+        "status": "healthy",
+        "last_ok": "2026-06-10T13:25:15.711439+00:00",
         "last_error": null,
-        "latency_ms": null,
-        "items": 0
+        "latency_ms": 14418,
+        "items": 204
       }
     },
     "summary": "1 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-10T13:16:51.712923+00:00",
+    "_updated": "2026-06-10T13:26:50.835036+00:00",
     "_agent": "main-backend",
     "active": [
       {
         "check": "massive: never written",
-        "ts": "2026-06-10T13:16:51.712923+00:00",
+        "ts": "2026-06-10T13:26:50.835036+00:00",
         "severity": "warn"
       }
     ],
@@ -114,7 +114,7 @@
   },
   "log": [
     {
-      "ts": "2026-06-10T13:16:51",
+      "ts": "2026-06-10T13:26:50",
       "level": "WARN",
       "msg": "Health: issues: massive: never written"
     }
