@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-10T20:05:09.532619+00:00",
+    "_updated": "2026-06-10T20:15:09.699517+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-10T20:05:09.532619+00:00",
+    "_updated": "2026-06-10T20:15:09.699517+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -46,15 +46,15 @@
       },
       "scan": {
         "status": "ok",
-        "age_min": 9.9
+        "age_min": 19.9
       },
       "whales": {
         "status": "ok",
-        "age_min": 9.9
+        "age_min": 19.9
       },
       "calendar": {
         "status": "ok",
-        "age_min": 249.8
+        "age_min": 259.8
       },
       "massive": {
         "status": "missing",
@@ -78,10 +78,10 @@
       },
       "benzinga": {
         "status": "healthy",
-        "last_ok": "2026-06-10T20:05:09.527493+00:00",
+        "last_ok": "2026-06-10T20:10:12.264060+00:00",
         "last_error": null,
-        "latency_ms": 8531,
-        "items": 212
+        "latency_ms": 11029,
+        "items": 211
       },
       "uw": {
         "status": "healthy",
@@ -92,21 +92,21 @@
       },
       "x_api": {
         "status": "healthy",
-        "last_ok": "2026-06-10T20:05:09.527510+00:00",
+        "last_ok": "2026-06-10T20:10:12.264079+00:00",
         "last_error": null,
-        "latency_ms": 8531,
-        "items": 212
+        "latency_ms": 11029,
+        "items": 211
       }
     },
     "summary": "1 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-10T20:05:09.532619+00:00",
+    "_updated": "2026-06-10T20:15:09.699517+00:00",
     "_agent": "main-backend",
     "active": [
       {
         "check": "massive: never written",
-        "ts": "2026-06-10T20:05:09.532619+00:00",
+        "ts": "2026-06-10T20:15:09.699517+00:00",
         "severity": "warn"
       }
     ],
@@ -114,7 +114,7 @@
   },
   "log": [
     {
-      "ts": "2026-06-10T20:05:09",
+      "ts": "2026-06-10T20:15:09",
       "level": "WARN",
       "msg": "Health: issues: massive: never written"
     }
