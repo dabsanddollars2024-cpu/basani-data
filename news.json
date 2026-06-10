@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-10T12:25:09Z",
-  "generated_display": "2026-06-10 12:25 ET",
+  "generated": "2026-06-10T12:30:18Z",
+  "generated_display": "2026-06-10 12:30 ET",
   "count": 203,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-10T12:25:00.910825+00:00",
+      "last_error_ts": "2026-06-10T12:30:01.995558+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 6,
-      "latency_ms": 446,
-      "last_success": "2026-06-10T12:25:01.358907+00:00",
+      "latency_ms": 471,
+      "last_success": "2026-06-10T12:30:02.468904+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 326,
-      "last_success": "2026-06-10T12:25:01.686817+00:00",
+      "latency_ms": 500,
+      "last_success": "2026-06-10T12:30:02.970700+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 515,
-      "last_success": "2026-06-10T12:25:02.205112+00:00",
+      "latency_ms": 496,
+      "last_success": "2026-06-10T12:30:03.469853+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-10T12:25:02.266784+00:00",
+      "last_error_ts": "2026-06-10T12:30:03.706176+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 3201,
-      "last_success": "2026-06-10T12:25:05.468333+00:00",
+      "latency_ms": 10015,
+      "last_success": "2026-06-10T12:30:13.721571+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,16 +55,16 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-10T12:25:06.109685+00:00",
+      "last_success": "2026-06-10T12:30:14.851998+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "degraded",
       "items_pulled": 0,
-      "latency_ms": 3392,
+      "latency_ms": 3509,
       "last_success": null,
-      "last_error_ts": "2026-06-10T12:25:09.501742+00:00",
+      "last_error_ts": "2026-06-10T12:30:18.361211+00:00",
       "error": ""
     },
     "rss_feeds": {
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 59
+          "latency_ms": 247
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 119
+          "latency_ms": 198
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 39
+          "latency_ms": 200
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 269
+          "latency_ms": 304
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 37
+          "latency_ms": 95
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 115
+          "latency_ms": 84
         }
       }
     }
@@ -117,14 +117,83 @@
   },
   "items": [
     {
-      "id": "663f58cf78b3e2",
+      "id": "abf0c99cf1dd18",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:58Z",
-      "title": "$SPY Its over",
+      "timestamp": "2026-06-10T12:30:00Z",
+      "title": "$SPY added gold and silver. Eventually it\u2019s going to find a bottem and rocket up on 6% inflation and 5% unemployment",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655974080",
-      "author": "AWCapital",
+      "url": "https://stocktwits.com/symbol/SPY/message/655974617",
+      "author": "AlCapone",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 8.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:30:00Z",
+      "text": "$SPY added gold and silver. Eventually it\u2019s going to find a bottem and rocket up on 6% inflation and 5% unemployment",
+      "description": "",
+      "handle": "AlCapone",
+      "display_name": "Al",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c913ed4e2da63f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:41Z",
+      "title": "$SPY $QQQ \n\nAnyone have a Tesla Y with HD4 FSD? Thinking of getting one for my wife for an easier commute. \n\nYou happy with the car and FSD?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/655974590",
+      "author": "HAL9000x",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:29:41Z",
+      "text": "$SPY $QQQ \n\nAnyone have a Tesla Y with HD4 FSD? Thinking of getting one for my wife for an easier commute. \n\nYou happy with the car and FSD?",
+      "description": "",
+      "handle": "HAL9000x",
+      "display_name": "HAL 9000",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7d6f52a8b3b95f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:41Z",
+      "title": "$SPY $QQQ \n\nAnyone have a Tesla Y with HD4 FSD? Thinking of getting one for my wife for an easier commute. \n\nYou happy with the car and FSD?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/655974590",
+      "author": "HAL9000x",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:29:41Z",
+      "text": "$SPY $QQQ \n\nAnyone have a Tesla Y with HD4 FSD? Thinking of getting one for my wife for an easier commute. \n\nYou happy with the car and FSD?",
+      "description": "",
+      "handle": "HAL9000x",
+      "display_name": "HAL 9000",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "228c0f881092ee",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:36Z",
+      "title": "$SPY leaked!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/655974582",
+      "author": "Onlyupx",
       "tickers": [
         "SPY"
       ],
@@ -132,57 +201,624 @@
       "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-10T12:24:58Z",
-      "text": "$SPY Its over",
+      "time": "2026-06-10T12:29:36Z",
+      "text": "$SPY leaked!",
       "description": "",
-      "handle": "AWCapital",
-      "display_name": "Who Cares",
+      "handle": "Onlyupx",
+      "display_name": "Only Up",
       "platform": "stocktwits"
     },
     {
-      "id": "4968036be262fa",
+      "id": "080733b1c6541c",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:57Z",
-      "title": "$SPY $QQQ  dead cat bounce rally on hot CPI?",
+      "timestamp": "2026-06-10T12:29:36Z",
+      "title": "Perhap CPI comes in cooler than expected..\n\n$SPY $IWM $QQQ $GLD $BTC.X",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655974077",
-      "author": "Holdmybagz",
+      "url": "https://stocktwits.com/symbol/SPY/message/655974581",
+      "author": "YouthGoodWealth",
       "tickers": [
         "SPY"
       ],
       "tags": [],
-      "impact_score": 6.3,
+      "impact_score": 7.5,
       "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:24:57Z",
-      "text": "$SPY $QQQ  dead cat bounce rally on hot CPI?",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:29:36Z",
+      "text": "Perhap CPI comes in cooler than expected..\n\n$SPY $IWM $QQQ $GLD $BTC.X",
       "description": "",
-      "handle": "Holdmybagz",
-      "display_name": "H.T. Le",
+      "handle": "YouthGoodWealth",
+      "display_name": "Sudhana",
       "platform": "stocktwits"
     },
     {
-      "id": "ab08900e95ec74",
+      "id": "99460d7e23ad72",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:57Z",
-      "title": "$SPY $QQQ  dead cat bounce rally on hot CPI?",
+      "timestamp": "2026-06-10T12:29:36Z",
+      "title": "Perhap CPI comes in cooler than expected..\n\n$SPY $IWM $QQQ $GLD $BTC.X",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/655974077",
-      "author": "Holdmybagz",
+      "url": "https://stocktwits.com/symbol/QQQ/message/655974581",
+      "author": "YouthGoodWealth",
       "tickers": [
         "QQQ"
       ],
       "tags": [],
-      "impact_score": 6.3,
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:29:36Z",
+      "text": "Perhap CPI comes in cooler than expected..\n\n$SPY $IWM $QQQ $GLD $BTC.X",
+      "description": "",
+      "handle": "YouthGoodWealth",
+      "display_name": "Sudhana",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4aab8b464dffda",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:36Z",
+      "title": "Perhap CPI comes in cooler than expected..\n\n$SPY $IWM $QQQ $GLD $BTC.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/655974581",
+      "author": "YouthGoodWealth",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:29:36Z",
+      "text": "Perhap CPI comes in cooler than expected..\n\n$SPY $IWM $QQQ $GLD $BTC.X",
+      "description": "",
+      "handle": "YouthGoodWealth",
+      "display_name": "Sudhana",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "32baa8c1ff8ada",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:36Z",
+      "title": "Perhap CPI comes in cooler than expected..\n\n$SPY $IWM $QQQ $GLD $BTC.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/655974581",
+      "author": "YouthGoodWealth",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:29:36Z",
+      "text": "Perhap CPI comes in cooler than expected..\n\n$SPY $IWM $QQQ $GLD $BTC.X",
+      "description": "",
+      "handle": "YouthGoodWealth",
+      "display_name": "Sudhana",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a36208731964da",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:34Z",
+      "title": "$SPY ur boi or nah?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/655974580",
+      "author": "Gorgoroth",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-10T12:24:57Z",
-      "text": "$SPY $QQQ  dead cat bounce rally on hot CPI?",
+      "time": "2026-06-10T12:29:34Z",
+      "text": "$SPY ur boi or nah?",
       "description": "",
-      "handle": "Holdmybagz",
-      "display_name": "H.T. Le",
+      "handle": "Gorgoroth",
+      "display_name": "Chauncey Peppertooth",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c3d885c84a1d82",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:25Z",
+      "title": "$NVDA  $MU  $MRVL $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/655974559",
+      "author": "RocketRiick",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:29:25Z",
+      "text": "$NVDA  $MU  $MRVL $TSLA",
+      "description": "",
+      "handle": "RocketRiick",
+      "display_name": "Rick",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cb61b6b1fe306d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:25Z",
+      "title": "$NVDA  $MU  $MRVL $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/655974559",
+      "author": "RocketRiick",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:29:25Z",
+      "text": "$NVDA  $MU  $MRVL $TSLA",
+      "description": "",
+      "handle": "RocketRiick",
+      "display_name": "Rick",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2ca904a0112bea",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:29:23Z",
+      "title": "$QQQ why i wouldn&#39;t be shocked to see a move to the upside channel before further drops. Might even be a buy bad news situation with the inflation report where people get confused why its being bought up. Big money needs exit liquidity for an obvious 10-15% correction over the summer. Whether it",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/655974556",
+      "author": "DiamondScreen",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T12:29:23Z",
+      "text": "$QQQ why i wouldn&#39;t be shocked to see a move to the upside channel before further drops. Might even be a buy bad news situation with the inflation report where people get confused why its being bought up. Big money needs exit liquidity for an obvious 10-15% correction over the summer. Whether it",
+      "description": "",
+      "handle": "DiamondScreen",
+      "display_name": "Rough Diamonds",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "dc8796414f8cb8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:28:52Z",
+      "title": "$SLV $GLD If the SpaceX IPO disappoints, investors could rotate back into gold and silver.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/655974502",
+      "author": "bundzsito",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:28:52Z",
+      "text": "$SLV $GLD If the SpaceX IPO disappoints, investors could rotate back into gold and silver.",
+      "description": "",
+      "handle": "bundzsito",
+      "display_name": "Andras Kocsor",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1f711482416547",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-10T12:28:16Z",
+      "title": "ParaZero Wins Two New Israeli DefendAir Net Pod Integration Deals for Autonomous Counter-UAS Platforms",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:28:16Z",
+      "text": "ParaZero Wins Two New Israeli DefendAir Net Pod Integration Deals for Autonomous Counter-UAS Platforms",
+      "description": ""
+    },
+    {
+      "id": "2dbf52b3f8a3d0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:28:15Z",
+      "title": "$META Avoid like the plague",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/655974432",
+      "author": "MountCapital",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T12:28:15Z",
+      "text": "$META Avoid like the plague",
+      "description": "",
+      "handle": "MountCapital",
+      "display_name": "BOB JOE",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4b04ab3d888914",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:28:10Z",
+      "title": "$QQQ \n\nWhen bears are out you know what that means \ud83c\udf15",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/655974415",
+      "author": "ITradeOnceADay",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:28:10Z",
+      "text": "$QQQ \n\nWhen bears are out you know what that means \ud83c\udf15",
+      "description": "",
+      "handle": "ITradeOnceADay",
+      "display_name": "momentum-trader",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "dd7506f30671b3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:28:10Z",
+      "title": "$QQQ you think Trump manipulating the numbers???",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/655974414",
+      "author": "OpenAeye",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:28:10Z",
+      "text": "$QQQ you think Trump manipulating the numbers???",
+      "description": "",
+      "handle": "OpenAeye",
+      "display_name": "OpenAeye",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ec484cc37507fd",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:28:09Z",
+      "title": "$TSLA My day trading based card game is out now if you know anyone who likes this stuff!  it&#39;s quite fun to play with other traders! \nhttps://papercutstrading.com/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/655974412",
+      "author": "Papercuts_Trading",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:28:09Z",
+      "text": "$TSLA My day trading based card game is out now if you know anyone who likes this stuff!  it&#39;s quite fun to play with other traders! \nhttps://papercutstrading.com/",
+      "description": "",
+      "handle": "Papercuts_Trading",
+      "display_name": "Joel",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "842ef4d09ae278",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:28:05Z",
+      "title": "$META you wont stop a new multi year low.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/655974405",
+      "author": "MountCapital",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T12:28:05Z",
+      "text": "$META you wont stop a new multi year low.",
+      "description": "",
+      "handle": "MountCapital",
+      "display_name": "BOB JOE",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9dd36452ad431f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:27:50Z",
+      "title": "$MSFT I think I\u2019m right. We have huge support at these levels. People will be selling to institutions at the highest # today right before the dividend payout. They\u2019ll be glad take those shares from you. \n\nThen by Monday this will be back to $415 causing the trend to flash bullish on monthly candle. ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/655974372",
+      "author": "MoonOil",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:27:50Z",
+      "text": "$MSFT I think I\u2019m right. We have huge support at these levels. People will be selling to institutions at the highest # today right before the dividend payout. They\u2019ll be glad take those shares from you. \n\nThen by Monday this will be back to $415 causing the trend to flash bullish on monthly candle. ",
+      "description": "",
+      "handle": "MoonOil",
+      "display_name": "Dave",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "63acbc6a80771a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:27:40Z",
+      "title": "$AMD the 9:28 dip gonna be cray cray today!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/655974356",
+      "author": "Iamwillwexler",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:27:40Z",
+      "text": "$AMD the 9:28 dip gonna be cray cray today!",
+      "description": "",
+      "handle": "Iamwillwexler",
+      "display_name": "William Wexler",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "11e2aa8a7b68f3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:27:19Z",
+      "title": "$AAPL Looking forward, very green closing today \ud83d\udc4d\ud83c\udffc",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/655974322",
+      "author": "Tgantieni",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:27:19Z",
+      "text": "$AAPL Looking forward, very green closing today \ud83d\udc4d\ud83c\udffc",
+      "description": "",
+      "handle": "Tgantieni",
+      "display_name": "Tgantieni",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4ec5e217191ed8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:26:45Z",
+      "title": "We Post Everyday, it&#39;s free, we do not sell anything, we do it to better our skillset. Keep us accountable.\n\n$AAPL We indicated yesterday the possibility of this pullback. I do not think the sell off is over yet, we needed to remain over 290.65 for any recovery towards this 297.46 target zone. I",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/655974262",
+      "author": "Vaderesking",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:26:45Z",
+      "text": "We Post Everyday, it&#39;s free, we do not sell anything, we do it to better our skillset. Keep us accountable.\n\n$AAPL We indicated yesterday the possibility of this pullback. I do not think the sell off is over yet, we needed to remain over 290.65 for any recovery towards this 297.46 target zone. I",
+      "description": "",
+      "handle": "Vaderesking",
+      "display_name": "VaderT",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9af6f53512f0ba",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:26:45Z",
+      "title": "We Post Everyday, it&#39;s free, we do not sell anything, we do it to better our skillset. Keep us accountable.\n\n$AAPL We indicated yesterday the possibility of this pullback. I do not think the sell off is over yet, we needed to remain over 290.65 for any recovery towards this 297.46 target zone. I",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/655974262",
+      "author": "Vaderesking",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:26:45Z",
+      "text": "We Post Everyday, it&#39;s free, we do not sell anything, we do it to better our skillset. Keep us accountable.\n\n$AAPL We indicated yesterday the possibility of this pullback. I do not think the sell off is over yet, we needed to remain over 290.65 for any recovery towards this 297.46 target zone. I",
+      "description": "",
+      "handle": "Vaderesking",
+      "display_name": "VaderT",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "37735ab2ece7b3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:26:45Z",
+      "title": "We Post Everyday, it&#39;s free, we do not sell anything, we do it to better our skillset. Keep us accountable.\n\n$AAPL We indicated yesterday the possibility of this pullback. I do not think the sell off is over yet, we needed to remain over 290.65 for any recovery towards this 297.46 target zone. I",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/655974262",
+      "author": "Vaderesking",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:26:45Z",
+      "text": "We Post Everyday, it&#39;s free, we do not sell anything, we do it to better our skillset. Keep us accountable.\n\n$AAPL We indicated yesterday the possibility of this pullback. I do not think the sell off is over yet, we needed to remain over 290.65 for any recovery towards this 297.46 target zone. I",
+      "description": "",
+      "handle": "Vaderesking",
+      "display_name": "VaderT",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b95d5a77ff6ff8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:26:41Z",
+      "title": "$GOOGL buy the dip",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/655974256",
+      "author": "TheNew_Mr_Investor",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:26:41Z",
+      "text": "$GOOGL buy the dip",
+      "description": "",
+      "handle": "TheNew_Mr_Investor",
+      "display_name": "Guess",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "867a5028d16090",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-10T12:26:12Z",
+      "title": "SPACEX'S IPO RECEIVES BILLIONS IN REQUESTS FROM WEALTH FUNDS IN THE MIDDLE EAST.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "IPO"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:26:12Z",
+      "text": "SPACEX'S IPO RECEIVES BILLIONS IN REQUESTS FROM WEALTH FUNDS IN THE MIDDLE EAST.",
+      "description": ""
+    },
+    {
+      "id": "1123c9bcdf723b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:26:01Z",
+      "title": "$TSLA time to buy",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/655974181",
+      "author": "TheNew_Mr_Investor",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T12:26:01Z",
+      "text": "$TSLA time to buy",
+      "description": "",
+      "handle": "TheNew_Mr_Investor",
+      "display_name": "Guess",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0ebd6f2adc18c6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:25:58Z",
+      "title": "$AMD something in me says even with a bad CPI report, this will rocket and open at 567 \ud83e\udd26\ud83c\udffc",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/655974169",
+      "author": "taylorx12345",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T12:25:58Z",
+      "text": "$AMD something in me says even with a bad CPI report, this will rocket and open at 567 \ud83e\udd26\ud83c\udffc",
+      "description": "",
+      "handle": "taylorx12345",
+      "display_name": "Taylor",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3d94c86f1b89e2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:25:11Z",
+      "title": "@NobleOracle Agree, heavy shorts make sense. Quick checks before leaning in: is the OI concentrated in 30-90D expiries or spread out. Look at 60D put-call OI ratio and IV rank. If 60D PCR &gt;1.4 and IV rank &gt;50, continuation odds rise. Watch $IWM recent lows for squeeze risk.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/655974092",
+      "author": "StockAlpha_Ai",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:25:11Z",
+      "text": "@NobleOracle Agree, heavy shorts make sense. Quick checks before leaning in: is the OI concentrated in 30-90D expiries or spread out. Look at 60D put-call OI ratio and IV rank. If 60D PCR &gt;1.4 and IV rank &gt;50, continuation odds rise. Watch $IWM recent lows for squeeze risk.",
+      "description": "",
+      "handle": "StockAlpha_Ai",
+      "display_name": "stockalpha",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "aeb3441036ab47",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T12:25:10Z",
+      "title": "$MSTR damn crypto",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/655974089",
+      "author": "bill42",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T12:25:10Z",
+      "text": "$MSTR damn crypto",
+      "description": "",
+      "handle": "bill42",
+      "display_name": "Bill",
       "platform": "stocktwits"
     },
     {
@@ -206,75 +842,6 @@
       "description": "",
       "handle": "Fernando36",
       "display_name": "Fernando Fernandez",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "02e1577e74b769",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:44Z",
-      "title": "$QQQ $SPY $NVDA $MSFT $GOOGL \ud83d\udea8 U.S. May CPI Due 8:30 a.m. ET; Seen +0.5%; Core +0.3%",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655974054",
-      "author": "EconomyEngine",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 7.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:24:44Z",
-      "text": "$QQQ $SPY $NVDA $MSFT $GOOGL \ud83d\udea8 U.S. May CPI Due 8:30 a.m. ET; Seen +0.5%; Core +0.3%",
-      "description": "",
-      "handle": "EconomyEngine",
-      "display_name": "Mb",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "202a7531335742",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:44Z",
-      "title": "$SPY\n Washington hated political parties \nJefferson was in the democratic rupublican party. Which basically became the democratic party\nLincoln and Roosevelt were both republican but also both progressive. Somthing the party has no tolerance for anymore.\n\nBack to the penny slots boomer",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655974053",
-      "author": "Skepticbull",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:24:44Z",
-      "text": "$SPY\n Washington hated political parties \nJefferson was in the democratic rupublican party. Which basically became the democratic party\nLincoln and Roosevelt were both republican but also both progressive. Somthing the party has no tolerance for anymore.\n\nBack to the penny slots boomer",
-      "description": "",
-      "handle": "Skepticbull",
-      "display_name": "Seth",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0ca455bb98fd61",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:44Z",
-      "title": "$QQQ $SPY $NVDA $MSFT $GOOGL \ud83d\udea8 U.S. May CPI Due 8:30 a.m. ET; Seen +0.5%; Core +0.3%",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/655974054",
-      "author": "EconomyEngine",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 7.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:24:44Z",
-      "text": "$QQQ $SPY $NVDA $MSFT $GOOGL \ud83d\udea8 U.S. May CPI Due 8:30 a.m. ET; Seen +0.5%; Core +0.3%",
-      "description": "",
-      "handle": "EconomyEngine",
-      "display_name": "Mb",
       "platform": "stocktwits"
     },
     {
@@ -344,29 +911,6 @@
       "description": "",
       "handle": "EconomyEngine",
       "display_name": "Mb",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c700d484881751",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:41Z",
-      "title": "$SPY up",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/655974045",
-      "author": "ThePain",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T12:24:41Z",
-      "text": "$SPY up",
-      "description": "",
-      "handle": "ThePain",
-      "display_name": "Prashantak Kishore Srivastava",
       "platform": "stocktwits"
     },
     {
@@ -452,52 +996,6 @@
       "description": "",
       "handle": "Losing2Winning",
       "display_name": "Losing2Winning",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b7aa5850e73526",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:34Z",
-      "title": "$QQQ CORE CPI going to surprise cool but nobody will care.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/655974027",
-      "author": "skiddy5",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:24:34Z",
-      "text": "$QQQ CORE CPI going to surprise cool but nobody will care.",
-      "description": "",
-      "handle": "skiddy5",
-      "display_name": "Alians Brenner",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5e8920fe597bcf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:24:32Z",
-      "title": "$QQQ Cook those CPI numbers Chef \u2705",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/655974024",
-      "author": "Iam4our",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:24:32Z",
-      "text": "$QQQ Cook those CPI numbers Chef \u2705",
-      "description": "",
-      "handle": "Iam4our",
-      "display_name": "The Smoking Don",
       "platform": "stocktwits"
     },
     {
@@ -590,29 +1088,6 @@
       "description": "",
       "handle": "GavinCostner",
       "display_name": "Gavin",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ead366a6cb8cf3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:23:27Z",
-      "title": "$QQQ CPI is already priced in , so leaning bullish",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/655973912",
-      "author": "FlipperWinner",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:23:27Z",
-      "text": "$QQQ CPI is already priced in , so leaning bullish",
-      "description": "",
-      "handle": "FlipperWinner",
-      "display_name": "Pier-Luc Gagnon",
       "platform": "stocktwits"
     },
     {
@@ -1004,29 +1479,6 @@
       "description": ""
     },
     {
-      "id": "f961b8d151408f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:20:53Z",
-      "title": "$MSFT I think our strong day will come tomorrow. Hold on tight today. You\u2019ll have the dividend payout tomorrow which gets reinvested. That\u2019s basically $7.1B dollars\u2026 you imagine most just comes right back in. Makes sense to me that you want the share price lower for that moment. \n\nI\u2019d say that\u2019s our",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/655973633",
-      "author": "MoonOil",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:20:53Z",
-      "text": "$MSFT I think our strong day will come tomorrow. Hold on tight today. You\u2019ll have the dividend payout tomorrow which gets reinvested. That\u2019s basically $7.1B dollars\u2026 you imagine most just comes right back in. Makes sense to me that you want the share price lower for that moment. \n\nI\u2019d say that\u2019s our",
-      "description": "",
-      "handle": "MoonOil",
-      "display_name": "Dave",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a2c664202a656b",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1200,52 +1652,6 @@
       "description": ""
     },
     {
-      "id": "0536549f54dc20",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:19:56Z",
-      "title": "$SMCI in order for everyone to agree to the 7billion financing deal, there has to be real hard evidence to the 39billion in orders!!! This is going to rocket once they are done stealing shares rn!!  $NVDA  $TSLA $SPY $GME",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/655973533",
-      "author": "ElonMusk101",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T12:19:56Z",
-      "text": "$SMCI in order for everyone to agree to the 7billion financing deal, there has to be real hard evidence to the 39billion in orders!!! This is going to rocket once they are done stealing shares rn!!  $NVDA  $TSLA $SPY $GME",
-      "description": "",
-      "handle": "ElonMusk101",
-      "display_name": "ELON",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ff988c548f1a60",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:19:56Z",
-      "title": "$SMCI in order for everyone to agree to the 7billion financing deal, there has to be real hard evidence to the 39billion in orders!!! This is going to rocket once they are done stealing shares rn!!  $NVDA  $TSLA $SPY $GME",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/655973533",
-      "author": "ElonMusk101",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T12:19:56Z",
-      "text": "$SMCI in order for everyone to agree to the 7billion financing deal, there has to be real hard evidence to the 39billion in orders!!! This is going to rocket once they are done stealing shares rn!!  $NVDA  $TSLA $SPY $GME",
-      "description": "",
-      "handle": "ElonMusk101",
-      "display_name": "ELON",
-      "platform": "stocktwits"
-    },
-    {
       "id": "883e495929a651",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1292,75 +1698,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "1521461638118b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:19:01Z",
-      "title": "$GLD $SLV \ud83d\ude02\ud83d\ude02\ud83d\ude02",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GLD/message/655973413",
-      "author": "Lexcy",
-      "tickers": [
-        "GLD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:19:01Z",
-      "text": "$GLD $SLV \ud83d\ude02\ud83d\ude02\ud83d\ude02",
-      "description": "",
-      "handle": "Lexcy",
-      "display_name": "Lex",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "564e29d2062632",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:18:49Z",
-      "title": "$SPY $TSLA things are just getting interesting",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/655973391",
-      "author": "amberajax2point0",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-10T12:18:49Z",
-      "text": "$SPY $TSLA things are just getting interesting",
-      "description": "",
-      "handle": "amberajax2point0",
-      "display_name": "amberajax",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "340455af287dca",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:18:35Z",
-      "title": "$GLD $SLV   It\u2019s just after 1pm here in London and I\u2019m going for a drink \ud83e\udd43 this is bs",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GLD/message/655973369",
-      "author": "Lexcy",
-      "tickers": [
-        "GLD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T12:18:35Z",
-      "text": "$GLD $SLV   It\u2019s just after 1pm here in London and I\u2019m going for a drink \ud83e\udd43 this is bs",
-      "description": "",
-      "handle": "Lexcy",
-      "display_name": "Lex",
-      "platform": "stocktwits"
-    },
-    {
       "id": "3ab137f440ee1b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1381,52 +1718,6 @@
       "description": "",
       "handle": "Olivia_Strickland",
       "display_name": "Olivia Strickland",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a10be43ab0f637",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:18:20Z",
-      "title": "$SNDK   $TSM $NVDA     CPI out in less than 15 minutes....",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/655973345",
-      "author": "ycdctx",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:18:20Z",
-      "text": "$SNDK   $TSM $NVDA     CPI out in less than 15 minutes....",
-      "description": "",
-      "handle": "ycdctx",
-      "display_name": "sdcsc cdg xdcvdhr",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "178909972768d6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:18:07Z",
-      "title": "$TSLA \ud83d\ude0259 cars wow is that an extra 12 million a year? Wasnt he claiming 1000s of cars by this time.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/655973318",
-      "author": "Boardroommaster",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:18:07Z",
-      "text": "$TSLA \ud83d\ude0259 cars wow is that an extra 12 million a year? Wasnt he claiming 1000s of cars by this time.",
-      "description": "",
-      "handle": "Boardroommaster",
-      "display_name": "Boardroommaster",
       "platform": "stocktwits"
     },
     {
@@ -1573,29 +1864,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e622ac485b3e16",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:16:32Z",
-      "title": "$AAPL We need Ternus now more than ever. An engineer at the helm to drive product excitement once again.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/655973127",
-      "author": "0reuh",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:16:32Z",
-      "text": "$AAPL We need Ternus now more than ever. An engineer at the helm to drive product excitement once again.",
-      "description": "",
-      "handle": "0reuh",
-      "display_name": "m.",
-      "platform": "stocktwits"
-    },
-    {
       "id": "40d7018cb5aa15",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1678,29 +1946,6 @@
       "description": ""
     },
     {
-      "id": "0e6d62a6c9e6ac",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:15:11Z",
-      "title": "$AAPL Jim Kramer says Siri is going to get smart?? You mean its still not smart",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/655972983",
-      "author": "HighRewards",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:15:11Z",
-      "text": "$AAPL Jim Kramer says Siri is going to get smart?? You mean its still not smart",
-      "description": "",
-      "handle": "HighRewards",
-      "display_name": "HighRewards",
-      "platform": "stocktwits"
-    },
-    {
       "id": "c3a67b1dcc25bc",
       "source": "marketwatch",
       "source_type": "rss",
@@ -1734,44 +1979,6 @@
       "sentiment": "neutral",
       "time": "2026-06-10T12:14:47Z",
       "text": "GDT named to CRN's 2026 Solution Provider 500 list",
-      "description": ""
-    },
-    {
-      "id": "f44c597f2d4df7",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-10T12:14:25Z",
-      "title": "How To Earn $500 A Month From Lennar Stock Ahead Of Q2 Earnings",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "LEN"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:14:25Z",
-      "text": "How To Earn $500 A Month From Lennar Stock Ahead Of Q2 Earnings",
-      "description": ""
-    },
-    {
-      "id": "f609d90b639084",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-10T12:13:37Z",
-      "title": "Sustainability Leader Calls for New Era of Corporate Climate Strategy in New Book, Dignity First Leadership",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:13:37Z",
-      "text": "Sustainability Leader Calls for New Era of Corporate Climate Strategy in New Book, Dignity First Leadership",
       "description": ""
     },
     {
@@ -1955,73 +2162,22 @@
       "description": "The president's comments came after U.S. forces on Tuesday evening launched strikes against Iran."
     },
     {
-      "id": "06a4154739ffdf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:12:43Z",
-      "title": "$AMD $NVDA $TSLA  5 min charts look identical. Bloody day coming. GLTA.",
+      "id": "08ceba34b2f884",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-10T12:12:37Z",
+      "title": "Quanta Services (PWR) Surged on Strong Earnings and Improved Guidance",
       "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/655972747",
-      "author": "greedyshark",
-      "tickers": [
-        "AMD"
-      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/quanta-services-pwr-surged-strong-121237044.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 4.2,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-10T12:12:43Z",
-      "text": "$AMD $NVDA $TSLA  5 min charts look identical. Bloody day coming. GLTA.",
-      "description": "",
-      "handle": "greedyshark",
-      "display_name": "Charles",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ce8d23ede7a178",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:12:27Z",
-      "title": "$IGV $MSFT $NOW $PLTR \ud83d\ude02\ud83d\ude02",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/655972731",
-      "author": "4Dinobull",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-10T12:12:27Z",
-      "text": "$IGV $MSFT $NOW $PLTR \ud83d\ude02\ud83d\ude02",
-      "description": "",
-      "handle": "4Dinobull",
-      "display_name": "David A",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "cce04801a6b348",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:12:25Z",
-      "title": "$AMD being a member of Jim&#39;s Club has made me a more confident investor!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/655972727",
-      "author": "Iamwillwexler",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:12:25Z",
-      "text": "$AMD being a member of Jim&#39;s Club has made me a more confident investor!",
-      "description": "",
-      "handle": "Iamwillwexler",
-      "display_name": "William Wexler",
-      "platform": "stocktwits"
+      "time": "2026-06-10T12:12:37Z",
+      "text": "Quanta Services (PWR) Surged on Strong Earnings and Improved Guidance",
+      "description": ""
     },
     {
       "id": "4d676725b88171",
@@ -2044,29 +2200,6 @@
       "description": ""
     },
     {
-      "id": "ea5344a547d371",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T12:09:09Z",
-      "title": "$MSTR \n\nThe dollar supply may increase\n\nBut so does the MSTR number of shares",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/655972432",
-      "author": "DrLohengrin123",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:09:09Z",
-      "text": "$MSTR \n\nThe dollar supply may increase\n\nBut so does the MSTR number of shares",
-      "description": "",
-      "handle": "DrLohengrin123",
-      "display_name": "DrLohengrin123",
-      "platform": "stocktwits"
-    },
-    {
       "id": "8b0386ffc44512",
       "source": "reuters",
       "source_type": "rss",
@@ -2082,24 +2215,6 @@
       "sentiment": "neutral",
       "time": "2026-06-10T12:08:57Z",
       "text": "Stock Market Today: Dow Falls 500 Points On Trump Comments; CPI Inflation Data Next (Live Coverage)",
-      "description": ""
-    },
-    {
-      "id": "30fe81499c6fd2",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-10T12:08:17Z",
-      "title": "Dow Jones Futures Tumble As Trump Says Iran Will 'Have To Pay The Price'; CPI Inflation On Tap",
-      "body": "",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-whipsaws-ai-fears-trump-iran-comments-cpi-inflation/?src=A00220&yptr=yahoo",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 12.0,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-06-10T12:08:17Z",
-      "text": "Dow Jones Futures Tumble As Trump Says Iran Will 'Have To Pay The Price'; CPI Inflation On Tap",
       "description": ""
     },
     {
@@ -2363,29 +2478,6 @@
       "description": "Beyond Air (XAIR) is urging stockholders to vote in favor of a reverse stock split (1-for-2 to 1-for-20 ratio) at a June 18, 2026 special meeting to maintain its Nasdaq listing. The company received a delisting notice from Nasdaq on April 7, 2026, due to its stock price falling below the $1.00 minim"
     },
     {
-      "id": "3c50bbc7b9df05",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T11:58:13Z",
-      "title": "$GOOGL \n\nWe build data centers. \ud83d\udcaa",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GOOGL/message/655971346",
-      "author": "Mining_For_Gems",
-      "tickers": [
-        "GOOGL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T11:58:13Z",
-      "text": "$GOOGL \n\nWe build data centers. \ud83d\udcaa",
-      "description": "",
-      "handle": "Mining_For_Gems",
-      "display_name": "I\u2019m Not Leaving",
-      "platform": "stocktwits"
-    },
-    {
       "id": "e3c4b66614c87a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2516,29 +2608,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "d40d29e46d2268",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T11:52:04Z",
-      "title": "$META almost filled the gap 574",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/655970728",
-      "author": "ch3vy",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T11:52:04Z",
-      "text": "$META almost filled the gap 574",
-      "description": "",
-      "handle": "ch3vy",
-      "display_name": "Chevy",
-      "platform": "stocktwits"
-    },
-    {
       "id": "e7490210941952",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2582,52 +2651,6 @@
       "description": "",
       "handle": "Stockmon",
       "display_name": "PB",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "20940b8a3b7f1c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T11:48:14Z",
-      "title": "$IWM Hope you had some lotto puts. \u201cShould\u201d see them 10 fold. Also grab some lottos! \n\n$SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/IWM/message/655970374",
-      "author": "KRAT0SS",
-      "tickers": [
-        "IWM"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-10T11:48:14Z",
-      "text": "$IWM Hope you had some lotto puts. \u201cShould\u201d see them 10 fold. Also grab some lottos! \n\n$SPY $QQQ",
-      "description": "",
-      "handle": "KRAT0SS",
-      "display_name": "Kratos",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "427770ee4e9d8f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T11:48:12Z",
-      "title": "$META ceo is great at wasting capital",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/655970369",
-      "author": "MountCapital",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-10T11:48:12Z",
-      "text": "$META ceo is great at wasting capital",
-      "description": "",
-      "handle": "MountCapital",
-      "display_name": "BOB JOE",
       "platform": "stocktwits"
     },
     {
@@ -2683,29 +2706,6 @@
       "time": "Wed, 10 Jun 2026 11:45:00 +0000",
       "text": "After Heavy Missile Exchange, Trump Mocks Iran's 'Total Mess' Of A Military As Tehran 'Reviews' Diplomacy With US",
       "description": "After Heavy Missile Exchange, Trump Mocks Iran's 'Total Mess' Of A Military As Tehran 'Reviews' Diplomacy With US\n\n            As part of what the United States is calling its latest 'defensive strikes' after Iran shot down an Apache helicopter in the Hormuz region, American forces overnight into th"
-    },
-    {
-      "id": "a76769e6de0187",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T11:44:40Z",
-      "title": "$OLLI so times of struggle people usually are looking for the best deal, Ollie\u2019s beat EPS and we\u2019re still nearing a 52 week low? Honestly what is going on here? This literally makes so sense to me. \n\n$SPY $IWM $BB $DELL \n\nShould be $105 at a minimum",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/IWM/message/655970076",
-      "author": "Buttered_Lobstah",
-      "tickers": [
-        "IWM"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T11:44:40Z",
-      "text": "$OLLI so times of struggle people usually are looking for the best deal, Ollie\u2019s beat EPS and we\u2019re still nearing a 52 week low? Honestly what is going on here? This literally makes so sense to me. \n\n$SPY $IWM $BB $DELL \n\nShould be $105 at a minimum",
-      "description": "",
-      "handle": "Buttered_Lobstah",
-      "display_name": "Buttered_Lobstah",
-      "platform": "stocktwits"
     },
     {
       "id": "22eddf285603b4",
@@ -3804,6 +3804,60 @@
       "description": "The S&P 500 fell 0.26% to 7,386.65 on Tuesday amid semiconductor weakness and Middle East geopolitical tensions. Polymarket traders predict a 22% probability of a higher opening on Wednesday. Investors await May's CPI report expected to show 4.2% annual inflation. Oil prices rose following U.S. mili"
     },
     {
+      "id": "0b4ae929956362",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 10 Jun 2026 08:22:16 -0400",
+      "title": "Bread Financial reports stronger credit metrics and loan growth for May",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4602117-bread-financial-reports-stronger-credit-metrics-and-loan-growth-for-may?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 10 Jun 2026 08:22:16 -0400",
+      "text": "Bread Financial reports stronger credit metrics and loan growth for May",
+      "description": ""
+    },
+    {
+      "id": "bfb0df07d69c4e",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 10 Jun 2026 08:21:27 -0400",
+      "title": "Fervo Energy appoints Sarah Jewett as COO",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4602129-fervo-energy-appoints-sarah-jewett-as-coo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 10 Jun 2026 08:21:27 -0400",
+      "text": "Fervo Energy appoints Sarah Jewett as COO",
+      "description": ""
+    },
+    {
+      "id": "faac551ea2a92a",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 10 Jun 2026 08:20:31 -0400",
+      "title": "North Korea expands uranium capacity, signaling bigger nuclear ambitions",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4602135-north-korea-expands-uranium-capacity-signaling-bigger-nuclear-ambitions?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 10 Jun 2026 08:20:31 -0400",
+      "text": "North Korea expands uranium capacity, signaling bigger nuclear ambitions",
+      "description": ""
+    },
+    {
       "id": "e4ba6e549e5ed9",
       "source": "seekingalpha",
       "source_type": "rss",
@@ -3914,24 +3968,6 @@
       "description": ""
     },
     {
-      "id": "120376f3a54cfd",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 10 Jun 2026 08:10:18 -0400",
-      "title": "TE Connectivity declares $0.78 dividend",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4602130-te-connectivity-declares-078-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 10 Jun 2026 08:10:18 -0400",
-      "text": "TE Connectivity declares $0.78 dividend",
-      "description": ""
-    },
-    {
       "id": "bb87582e7af798",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3957,42 +3993,6 @@
       "time": "2026-06-10T08:09:52Z",
       "text": "SpaceX IPO Reportedly Sparks $250 Billion Investor Rush, Oversubscribed More Than 3.5X",
       "description": "SpaceX's highly anticipated IPO on June 12 has attracted over $250 billion in investor demand, roughly 3.5-4x oversubscribed against its $75 billion fundraising target. The company is expected to be valued at approximately $1.75 trillion, making it one of the largest IPOs ever. However, some critics"
-    },
-    {
-      "id": "5b0c526dc0b5b2",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 10 Jun 2026 08:07:36 -0400",
-      "title": "Volvo to deploy 300 robo-trucks by 2027, sees $3B revenue in five years - report",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4602098-volvo-to-deploy-300-robo-trucks-by-2027-sees-3b-revenue-in-five-years---report?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 10 Jun 2026 08:07:36 -0400",
-      "text": "Volvo to deploy 300 robo-trucks by 2027, sees $3B revenue in five years - report",
-      "description": ""
-    },
-    {
-      "id": "23611784adaa8e",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 10 Jun 2026 08:06:53 -0400",
-      "title": "North American Construction Group raises $200M through 7.0% senior notes due 2031",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4602128-north-american-construction-group-raises-200m-through-70-senior-notes-due-2031?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 10 Jun 2026 08:06:53 -0400",
-      "text": "North American Construction Group raises $200M through 7.0% senior notes due 2031",
-      "description": ""
     },
     {
       "id": "8ebf98a73b51ff",
