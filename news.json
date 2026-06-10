@@ -1,37 +1,37 @@
 {
-  "generated": "2026-06-10T17:55:11Z",
+  "generated": "2026-06-10T17:55:05Z",
   "generated_display": "2026-06-10 17:55 ET",
-  "count": 209,
+  "count": 210,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-10T17:55:01.969240+00:00",
+      "last_error_ts": "2026-06-10T17:54:32.396344+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 12,
-      "latency_ms": 714,
-      "last_success": "2026-06-10T17:55:02.685617+00:00",
+      "latency_ms": 228,
+      "last_success": "2026-06-10T17:54:32.629786+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 440,
-      "last_success": "2026-06-10T17:55:03.127535+00:00",
+      "latency_ms": 210,
+      "last_success": "2026-06-10T17:54:32.842194+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 440,
-      "last_success": "2026-06-10T17:55:03.572123+00:00",
+      "latency_ms": 405,
+      "last_success": "2026-06-10T17:54:33.253822+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-10T17:55:03.837776+00:00",
+      "last_error_ts": "2026-06-10T17:54:33.469759+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 3353,
-      "last_success": "2026-06-10T17:55:07.190942+00:00",
+      "latency_ms": 2715,
+      "last_success": "2026-06-10T17:54:36.184953+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,16 +55,16 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-10T17:55:08.149914+00:00",
+      "last_success": "2026-06-10T17:55:03.364585+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
-      "status": "degraded",
-      "items_pulled": 0,
-      "latency_ms": 3536,
-      "last_success": null,
-      "last_error_ts": "2026-06-10T17:55:11.686781+00:00",
+      "status": "healthy",
+      "items_pulled": 18,
+      "latency_ms": 1973,
+      "last_success": "2026-06-10T17:55:05.338447+00:00",
+      "last_error_ts": null,
       "error": ""
     },
     "rss_feeds": {
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 141
+          "latency_ms": 165
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 297
+          "latency_ms": 169
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 50
+          "latency_ms": 70
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 342
+          "latency_ms": 460
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 31
+          "latency_ms": 26206
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 94
+          "latency_ms": 107
         }
       }
     }
@@ -113,133 +113,19 @@
     "massive_news": 50,
     "zerohedge": 8,
     "seekingalpha": 7,
-    "benzinga": 12
+    "benzinga": 12,
+    "forex_factory": 1
   },
   "items": [
     {
-      "id": "26270e2eb012c3",
+      "id": "d09fa85e403843",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-06-10T17:55:03Z",
-      "title": "$TSLA sky is the limit from here. Shorts about to get wrecked",
+      "timestamp": "2026-06-10T17:54:32Z",
+      "title": "$SPY Whoa is this real?",
       "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/656031947",
-      "author": "tradeordie24",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-10T17:55:03Z",
-      "text": "$TSLA sky is the limit from here. Shorts about to get wrecked",
-      "description": "",
-      "handle": "tradeordie24",
-      "display_name": "Dave",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "555a89b74ac922",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:58Z",
-      "title": "$MU $NVDA $QQQ $SPY $TSLA \n\nThe same shit he has been doing for the last 100 days",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656031937",
-      "author": "Myzilla",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:54:58Z",
-      "text": "$MU $NVDA $QQQ $SPY $TSLA \n\nThe same shit he has been doing for the last 100 days",
-      "description": "",
-      "handle": "Myzilla",
-      "display_name": "Timi",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d77838166ed893",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:58Z",
-      "title": "$MU $NVDA $QQQ $SPY $TSLA \n\nThe same shit he has been doing for the last 100 days",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656031937",
-      "author": "Myzilla",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:54:58Z",
-      "text": "$MU $NVDA $QQQ $SPY $TSLA \n\nThe same shit he has been doing for the last 100 days",
-      "description": "",
-      "handle": "Myzilla",
-      "display_name": "Timi",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "fd604e0800f7a2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:58Z",
-      "title": "$MU $NVDA $QQQ $SPY $TSLA \n\nThe same shit he has been doing for the last 100 days",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/656031937",
-      "author": "Myzilla",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:54:58Z",
-      "text": "$MU $NVDA $QQQ $SPY $TSLA \n\nThe same shit he has been doing for the last 100 days",
-      "description": "",
-      "handle": "Myzilla",
-      "display_name": "Timi",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "11d90f2257a740",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:58Z",
-      "title": "$MU $NVDA $QQQ $SPY $TSLA \n\nThe same shit he has been doing for the last 100 days",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/656031937",
-      "author": "Myzilla",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:54:58Z",
-      "text": "$MU $NVDA $QQQ $SPY $TSLA \n\nThe same shit he has been doing for the last 100 days",
-      "description": "",
-      "handle": "Myzilla",
-      "display_name": "Timi",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "83cba254157f4d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:56Z",
-      "title": "$SPY dont do me dirty agin lemme get outta these stupid calls. pattern looks ok but today is fuckery",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656031934",
-      "author": "Catdaddy770",
+      "url": "https://stocktwits.com/symbol/SPY/message/656031870",
+      "author": "RhinoRat",
       "tickers": [
         "SPY"
       ],
@@ -247,68 +133,22 @@
       "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-10T17:54:56Z",
-      "text": "$SPY dont do me dirty agin lemme get outta these stupid calls. pattern looks ok but today is fuckery",
+      "time": "2026-06-10T17:54:32Z",
+      "text": "$SPY Whoa is this real?",
       "description": "",
-      "handle": "Catdaddy770",
-      "display_name": "CMAN",
+      "handle": "RhinoRat",
+      "display_name": "Gremlin",
       "platform": "stocktwits"
     },
     {
-      "id": "74e07df0760e5e",
+      "id": "c3a762be8c1dcc",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:55Z",
-      "title": "$SPY as much as I hate to say it\u2026 bears about to get F\u2019d in the worst way.",
+      "timestamp": "2026-06-10T17:54:31Z",
+      "title": "$SPY moon me",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656031932",
-      "author": "ALLEGEDLY01",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:54:55Z",
-      "text": "$SPY as much as I hate to say it\u2026 bears about to get F\u2019d in the worst way.",
-      "description": "",
-      "handle": "ALLEGEDLY01",
-      "display_name": "ALLEGEDLY01",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ade51c945f6b43",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:50Z",
-      "title": "$SPY Trump with the same threats over &amp; over...what a fool, just keep kissing u know who&#39;s ass!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656031918",
-      "author": "Edjano14",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:54:50Z",
-      "text": "$SPY Trump with the same threats over &amp; over...what a fool, just keep kissing u know who&#39;s ass!",
-      "description": "",
-      "handle": "Edjano14",
-      "display_name": "Ed Janoviak",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "63ad8daafb7312",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:48Z",
-      "title": "$SPY They want 732",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656031913",
-      "author": "Hizzor",
+      "url": "https://stocktwits.com/symbol/SPY/message/656031866",
+      "author": "Aioria11",
       "tickers": [
         "SPY"
       ],
@@ -316,57 +156,11 @@
       "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "bullish",
-      "time": "2026-06-10T17:54:48Z",
-      "text": "$SPY They want 732",
+      "time": "2026-06-10T17:54:31Z",
+      "text": "$SPY moon me",
       "description": "",
-      "handle": "Hizzor",
-      "display_name": "A",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2253b0e5e1f1b1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:44Z",
-      "title": "$QQQ $SPY $DIA He\u2019s really gonna bankrupt the US isn\u2019t he?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656031900",
-      "author": "JohnAF",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:54:44Z",
-      "text": "$QQQ $SPY $DIA He\u2019s really gonna bankrupt the US isn\u2019t he?",
-      "description": "",
-      "handle": "JohnAF",
-      "display_name": "John",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d47a430b1d0036",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-10T17:54:36Z",
-      "title": "@amitDBA should $META Aug 800 calls be closed for loss now to prevent further downside risk?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/656031880",
-      "author": "pc321",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:54:36Z",
-      "text": "@amitDBA should $META Aug 800 calls be closed for loss now to prevent further downside risk?",
-      "description": "",
-      "handle": "pc321",
-      "display_name": "Eter",
+      "handle": "Aioria11",
+      "display_name": "Javier Aguirre",
       "platform": "stocktwits"
     },
     {
@@ -393,22 +187,96 @@
       "platform": "stocktwits"
     },
     {
-      "id": "8407e9cdfb79ae",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
+      "id": "6c51ceef3464d4",
+      "source": "stocktwits",
+      "source_type": "x_post",
       "timestamp": "2026-06-10T17:54:30Z",
-      "title": "ERI\u2019s Angie Ransom Shares Insights on Landscape for Batteries and Electronics at Battery &amp; Universal Waste Recycling Conference",
+      "title": "$SPY may finally start a bounce",
       "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
+      "url": "https://stocktwits.com/symbol/SPY/message/656031864",
+      "author": "wink10",
+      "tickers": [
+        "SPY"
+      ],
       "tags": [],
-      "impact_score": 8.0,
+      "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
       "time": "2026-06-10T17:54:30Z",
-      "text": "ERI\u2019s Angie Ransom Shares Insights on Landscape for Batteries and Electronics at Battery &amp; Universal Waste Recycling Conference",
-      "description": ""
+      "text": "$SPY may finally start a bounce",
+      "description": "",
+      "handle": "wink10",
+      "display_name": "Wink",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "dc98a980468c41",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T17:54:30Z",
+      "title": "$TSLA  Hoping the Space X ipo fails. Complete you have to be an idiot to buy into it.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/656031865",
+      "author": "bosse90",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T17:54:30Z",
+      "text": "$TSLA  Hoping the Space X ipo fails. Complete you have to be an idiot to buy into it.",
+      "description": "",
+      "handle": "bosse90",
+      "display_name": "bosse90",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "87ae818f29aa89",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T17:54:29Z",
+      "title": "$SPY squeeze",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656031860",
+      "author": "luckysupernova",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T17:54:29Z",
+      "text": "$SPY squeeze",
+      "description": "",
+      "handle": "luckysupernova",
+      "display_name": "Master Supernova",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c672fca4ed32de",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T17:54:28Z",
+      "title": "$SPY Did something happen what was that?....LOL.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656031857",
+      "author": "BOBBINSQESLAYER",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T17:54:28Z",
+      "text": "$SPY Did something happen what was that?....LOL.",
+      "description": "",
+      "handle": "BOBBINSQESLAYER",
+      "display_name": "Jim Bobbins",
+      "platform": "stocktwits"
     },
     {
       "id": "889513b8656339",
@@ -587,6 +455,29 @@
       "description": "",
       "handle": "KRAT0SS",
       "display_name": "Kratos",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9f46e9757260da",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T17:53:44Z",
+      "title": "$DJT $IWM $QQQ $SPY \n\nRemember this \ud83d\udc47\ud83c\udffd\ud83d\udc47\ud83c\udffd\ud83d\udc47\ud83c\udffd\ud83d\udc47\ud83c\udffd\n\nCash is a strategy too and you don\u2019t have to buy every dip \ud83d\udeb6\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udeb6\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udeb6\ud83c\udffe\u200d\u2640\ufe0f",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656031743",
+      "author": "Myzilla",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T17:53:44Z",
+      "text": "$DJT $IWM $QQQ $SPY \n\nRemember this \ud83d\udc47\ud83c\udffd\ud83d\udc47\ud83c\udffd\ud83d\udc47\ud83c\udffd\ud83d\udc47\ud83c\udffd\n\nCash is a strategy too and you don\u2019t have to buy every dip \ud83d\udeb6\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udeb6\ud83c\udffe\u200d\u2640\ufe0f\ud83d\udeb6\ud83c\udffe\u200d\u2640\ufe0f",
+      "description": "",
+      "handle": "Myzilla",
+      "display_name": "Timi",
       "platform": "stocktwits"
     },
     {
@@ -774,6 +665,29 @@
       "platform": "stocktwits"
     },
     {
+      "id": "fafbdfb4d222fb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T17:53:28Z",
+      "title": "$QQQ bull trap\u2026 this would probably closing 695 or lower! This has become a new normal.. pump to dump",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656031707",
+      "author": "Goldtra",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T17:53:28Z",
+      "text": "$QQQ bull trap\u2026 this would probably closing 695 or lower! This has become a new normal.. pump to dump",
+      "description": "",
+      "handle": "Goldtra",
+      "display_name": "GoldTrader",
+      "platform": "stocktwits"
+    },
+    {
       "id": "35732488f5c917",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -794,6 +708,29 @@
       "description": "",
       "handle": "runitback349",
       "display_name": "Runitback",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ad94d712b35614",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T17:53:16Z",
+      "title": "$NVDA thank you for the easy puts",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/656031671",
+      "author": "robert_28",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-10T17:53:16Z",
+      "text": "$NVDA thank you for the easy puts",
+      "description": "",
+      "handle": "robert_28",
+      "display_name": "Robert28",
       "platform": "stocktwits"
     },
     {
@@ -1030,6 +967,29 @@
       "description": ""
     },
     {
+      "id": "79656b5cefa47d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T17:52:01Z",
+      "title": "$TSLA stupid bears play stupid games win stupid prizes $400+ launch",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/656031453",
+      "author": "tradeordie24",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-10T17:52:01Z",
+      "text": "$TSLA stupid bears play stupid games win stupid prizes $400+ launch",
+      "description": "",
+      "handle": "tradeordie24",
+      "display_name": "Dave",
+      "platform": "stocktwits"
+    },
+    {
       "id": "1e7d9ea17d68f9",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1155,6 +1115,29 @@
       "author": "GoodNewsBull",
       "tickers": [
         "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T17:50:40Z",
+      "text": "Lots of Margin Calls &amp; Retail Stops getting hit. \nYou have to be able to take some pain if you&#39;re going to do this for real  \n \n$SPY $AAPL $QQQ $META $BABA",
+      "description": "",
+      "handle": "GoodNewsBull",
+      "display_name": "Rob C",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "919fab42345166",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-10T17:50:40Z",
+      "title": "Lots of Margin Calls &amp; Retail Stops getting hit. \nYou have to be able to take some pain if you&#39;re going to do this for real  \n \n$SPY $AAPL $QQQ $META $BABA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/656031230",
+      "author": "GoodNewsBull",
+      "tickers": [
+        "META"
       ],
       "tags": [],
       "impact_score": 5.0,
@@ -1427,6 +1410,24 @@
       "handle": "TheUnmaker",
       "display_name": "TheUnmaker",
       "platform": "stocktwits"
+    },
+    {
+      "id": "5f055039b5946f",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-10T17:47:00Z",
+      "title": "Why 1 Wall Street Analyst Thinks Viking Therapeutics Stock Could Soar 188%",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-1-wall-street-analyst-174700670.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T17:47:00Z",
+      "text": "Why 1 Wall Street Analyst Thinks Viking Therapeutics Stock Could Soar 188%",
+      "description": ""
     },
     {
       "id": "4d7f527ec84d18",
@@ -1733,6 +1734,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "8b0386ffc44512",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-10T17:39:01Z",
+      "title": "Stock Market Today: Nasdaq, Dow Sink As Chip Stocks Slide, Trump Warns; A Biotech Breaks Out (Live Coverage)",
+      "body": "",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-trump-cpi-inflation-tsm-stock/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T17:39:01Z",
+      "text": "Stock Market Today: Nasdaq, Dow Sink As Chip Stocks Slide, Trump Warns; A Biotech Breaks Out (Live Coverage)",
+      "description": ""
+    },
+    {
       "id": "bb7ff54fb27964",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -2012,24 +2031,6 @@
       "handle": "Arcides",
       "display_name": "Arcides M.",
       "platform": "stocktwits"
-    },
-    {
-      "id": "2a455f1334acd3",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-10T17:35:00Z",
-      "title": "Here's How Much a $10,000 Investment Could Get You When SpaceX Goes Public on June 12",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-much-10-000-investment-173500492.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:35:00Z",
-      "text": "Here's How Much a $10,000 Investment Could Get You When SpaceX Goes Public on June 12",
-      "description": ""
     },
     {
       "id": "1ec36649c316e7",
@@ -2462,6 +2463,24 @@
       "description": ""
     },
     {
+      "id": "fd1ab6808a33ce",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-10T17:27:03Z",
+      "title": "Oil Tankers Increase \u2018Dark\u2019 Transits Through Strait Of Hormuz \u2013 FT www.ft.com/content/3145...",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-10T17:27:03Z",
+      "text": "Oil Tankers Increase \u2018Dark\u2019 Transits Through Strait Of Hormuz \u2013 FT www.ft.com/content/3145...",
+      "description": ""
+    },
+    {
       "id": "4a1ec608baeb15",
       "source": "cnbc",
       "source_type": "rss",
@@ -2567,26 +2586,6 @@
       "sentiment": "neutral",
       "time": "2026-06-10T17:25:23Z",
       "text": "BlackRock Inc (BLK) Offers Dividend As It Sees Crypto Shaping Markets",
-      "description": ""
-    },
-    {
-      "id": "92919cac352b57",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-10T17:25:12Z",
-      "title": "In Robinhood Markets Inc (HOOD)\u2019s AI-Powered Trading, Crypto Comes Later",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/robinhood-markets-inc-hood-ai-172512571.html",
-      "author": "",
-      "tickers": [
-        "HOOD"
-      ],
-      "tags": [],
-      "impact_score": 7.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-10T17:25:12Z",
-      "text": "In Robinhood Markets Inc (HOOD)\u2019s AI-Powered Trading, Crypto Comes Later",
       "description": ""
     },
     {
@@ -4053,24 +4052,6 @@
       "description": "U.S. headline inflation surged to 4.2% year-over-year in May, the highest since April 2023, driven primarily by energy price shocks from the Strait of Hormuz. Core inflation rose to 2.9%, keeping pressure on the Federal Reserve to consider rate hikes in 2026. Energy accounted for over 60% of monthly"
     },
     {
-      "id": "66c1abc1c9cfde",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 10 Jun 2026 13:53:11 -0400",
-      "title": "Timing right for investors to buy NextEra on Dominion Energy deal - WSJ Heard On The Street",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4602292-timing-right-for-investors-to-buy-nextera-on-dominion-energy-deal---wsj-heard-on-the-street?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 10 Jun 2026 13:53:11 -0400",
-      "text": "Timing right for investors to buy NextEra on Dominion Energy deal - WSJ Heard On The Street",
-      "description": ""
-    },
-    {
       "id": "7e009ad4584b98",
       "source": "seekingalpha",
       "source_type": "rss",
@@ -4176,6 +4157,26 @@
       "sentiment": "neutral",
       "time": "Wed, 10 Jun 2026 13:33:47 -0400",
       "text": "Uber fights against NYC law protecting deactivated drivers",
+      "description": ""
+    },
+    {
+      "id": "912331baf4aa06",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 10 Jun 2026 13:31:17 -0400",
+      "title": "YieldMax XOM Option Income Strategy ETF announces weekly distribution of $0.0771",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4602337-yieldmax-xom-option-income-strategy-etf-announces-weekly-distribution-of-00771?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [
+        "XOM"
+      ],
+      "tags": [],
+      "impact_score": 5.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 10 Jun 2026 13:31:17 -0400",
+      "text": "YieldMax XOM Option Income Strategy ETF announces weekly distribution of $0.0771",
       "description": ""
     },
     {
@@ -4549,6 +4550,30 @@
       "time": "2026-06-09T16:07:09Z",
       "text": "National mall footwear giant closes 82 stores as shoppers trade up",
       "description": ""
+    },
+    {
+      "id": "7aa20ca4568b7d",
+      "source": "forex_factory",
+      "source_type": "calendar",
+      "timestamp": "2026-06-07T05:15:00-04:00",
+      "title": "OPEC-JMMC Meetings",
+      "body": "",
+      "url": "https://www.forexfactory.com/",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-07T05:15:00-04:00",
+      "text": "OPEC-JMMC Meetings",
+      "description": "",
+      "impact": "Medium",
+      "currency": "All",
+      "forecast": "",
+      "previous": "",
+      "actual": "",
+      "week": "this"
     },
     {
       "id": "4cf2d4bf344a32",
