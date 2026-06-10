@@ -1,7 +1,7 @@
 {
   "_schema": "basani-agent-channel-v1",
   "directives": {
-    "_updated": "2026-06-10T19:45:09.923503+00:00",
+    "_updated": "2026-06-10T19:55:09.803751+00:00",
     "checks": [
       "github_data_freshness",
       "backend_health",
@@ -18,7 +18,7 @@
     "notes": "Written by main.py health job"
   },
   "status": {
-    "_updated": "2026-06-10T19:45:09.923503+00:00",
+    "_updated": "2026-06-10T19:55:09.803751+00:00",
     "_agent": "main-backend",
     "overall": "degraded",
     "checks": {
@@ -54,7 +54,7 @@
       },
       "calendar": {
         "status": "ok",
-        "age_min": 229.8
+        "age_min": 239.8
       },
       "massive": {
         "status": "missing",
@@ -64,9 +64,9 @@
     "sources": {
       "alpaca": {
         "status": "healthy",
-        "last_ok": "2026-06-10T19:40:18.803699+00:00",
+        "last_ok": "2026-06-10T19:50:16.022532+00:00",
         "last_error": null,
-        "latency_ms": 18228,
+        "latency_ms": 14920,
         "items": 27
       },
       "massive": {
@@ -78,35 +78,35 @@
       },
       "benzinga": {
         "status": "healthy",
-        "last_ok": "2026-06-10T19:40:12.994784+00:00",
+        "last_ok": "2026-06-10T19:50:13.223313+00:00",
         "last_error": null,
-        "latency_ms": 11422,
-        "items": 211
+        "latency_ms": 11623,
+        "items": 212
       },
       "uw": {
         "status": "healthy",
-        "last_ok": "2026-06-10T19:40:15.723806+00:00",
+        "last_ok": "2026-06-10T19:50:18.923369+00:00",
         "last_error": null,
-        "latency_ms": 14322,
+        "latency_ms": 18327,
         "items": 0
       },
       "x_api": {
         "status": "healthy",
-        "last_ok": "2026-06-10T19:40:12.994800+00:00",
+        "last_ok": "2026-06-10T19:50:13.223332+00:00",
         "last_error": null,
-        "latency_ms": 11422,
-        "items": 211
+        "latency_ms": 11623,
+        "items": 212
       }
     },
     "summary": "1 issue(s)"
   },
   "alerts": {
-    "_updated": "2026-06-10T19:45:09.923503+00:00",
+    "_updated": "2026-06-10T19:55:09.803751+00:00",
     "_agent": "main-backend",
     "active": [
       {
         "check": "massive: never written",
-        "ts": "2026-06-10T19:45:09.923503+00:00",
+        "ts": "2026-06-10T19:55:09.803751+00:00",
         "severity": "warn"
       }
     ],
@@ -114,7 +114,7 @@
   },
   "log": [
     {
-      "ts": "2026-06-10T19:45:09",
+      "ts": "2026-06-10T19:55:09",
       "level": "WARN",
       "msg": "Health: issues: massive: never written"
     }
