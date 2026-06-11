@@ -1,37 +1,37 @@
 {
-  "generated": "2026-06-11T13:17:12Z",
+  "generated": "2026-06-11T13:17:57Z",
   "generated_display": "2026-06-11 13:17 ET",
-  "count": 203,
+  "count": 202,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-11T13:17:05.546660+00:00",
+      "last_error_ts": "2026-06-11T13:17:46.411555+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 5,
-      "latency_ms": 178,
-      "last_success": "2026-06-11T13:17:05.726936+00:00",
+      "latency_ms": 797,
+      "last_success": "2026-06-11T13:17:47.210503+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 138,
-      "last_success": "2026-06-11T13:17:05.867471+00:00",
+      "latency_ms": 598,
+      "last_success": "2026-06-11T13:17:47.814206+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 293,
-      "last_success": "2026-06-11T13:17:06.168150+00:00",
+      "latency_ms": 494,
+      "last_success": "2026-06-11T13:17:48.316415+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-11T13:17:06.357915+00:00",
+      "last_error_ts": "2026-06-11T13:17:48.748386+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2245,
-      "last_success": "2026-06-11T13:17:08.603620+00:00",
+      "latency_ms": 4159,
+      "last_success": "2026-06-11T13:17:52.908349+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,16 +55,16 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-11T13:17:10.125663+00:00",
+      "last_success": "2026-06-11T13:17:54.316225+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
-      "status": "healthy",
-      "items_pulled": 18,
-      "latency_ms": 1957,
-      "last_success": "2026-06-11T13:17:12.082804+00:00",
-      "last_error_ts": null,
+      "status": "degraded",
+      "items_pulled": 0,
+      "latency_ms": 3607,
+      "last_success": null,
+      "last_error_ts": "2026-06-11T13:17:57.923491+00:00",
       "error": ""
     },
     "rss_feeds": {
@@ -74,49 +74,347 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 250
+          "latency_ms": 228
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 200
+          "latency_ms": 181
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 482
+          "latency_ms": 105
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 341
+          "latency_ms": 590
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 98
+          "latency_ms": 205
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 148
+          "latency_ms": 96
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "cnbc": 8,
     "uw_news": 25,
+    "cnbc": 8,
     "marketwatch": 8,
     "reuters": 16,
     "zerohedge": 8,
     "massive_news": 50,
     "seekingalpha": 7,
-    "benzinga": 5,
-    "forex_factory": 1
+    "benzinga": 5
   },
   "items": [
+    {
+      "id": "5088fdfcad4881",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:44Z",
+      "title": "$BTC.X $MSTR DUMP THIS MFER",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/656112470",
+      "author": "BlkMambaMentality",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-11T13:17:44Z",
+      "text": "$BTC.X $MSTR DUMP THIS MFER",
+      "description": "",
+      "handle": "BlkMambaMentality",
+      "display_name": "I TAKE UR MONEY",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "33bae3ea473b82",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-11T13:17:40Z",
+      "title": "Novartis' $12 Billion Bet Pays Off With Encouraging Data From Rare Neuromuscular Disease Study",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "NVS"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:40Z",
+      "text": "Novartis' $12 Billion Bet Pays Off With Encouraging Data From Rare Neuromuscular Disease Study",
+      "description": ""
+    },
+    {
+      "id": "255617f4688e7f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:34Z",
+      "title": "$SPY SER in full effect.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656112447",
+      "author": "sam_mufasa_",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:34Z",
+      "text": "$SPY SER in full effect.",
+      "description": "",
+      "handle": "sam_mufasa_",
+      "display_name": "Sam Musa",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4381562618f290",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:29Z",
+      "title": "$SPY everyone knows Trump is just forcing submission into a deal. When will news break?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656112443",
+      "author": "scottycs19",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-11T13:17:29Z",
+      "text": "$SPY everyone knows Trump is just forcing submission into a deal. When will news break?",
+      "description": "",
+      "handle": "scottycs19",
+      "display_name": "Christian S",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "92c85f80f7221e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:29Z",
+      "title": "$QQQ bear trap open followed by uncontrollable buying. USA few shorts weeks away from world super power. China and Russia have been exposed as frauds Donny is taking what ever he wants",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656112441",
+      "author": "stonkztradur",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:29Z",
+      "text": "$QQQ bear trap open followed by uncontrollable buying. USA few shorts weeks away from world super power. China and Russia have been exposed as frauds Donny is taking what ever he wants",
+      "description": "",
+      "handle": "stonkztradur",
+      "display_name": "J",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ae1452e2b86741",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:28Z",
+      "title": "$MSFT $392 this stock has peeked.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/656112440",
+      "author": "SwingPlay",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-11T13:17:28Z",
+      "text": "$MSFT $392 this stock has peeked.",
+      "description": "",
+      "handle": "SwingPlay",
+      "display_name": "Swing Play",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "dc9467fd15b898",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:20Z",
+      "title": "$SPY $DXY $QQQ $XAUUSD US dollar trying to pop again",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656112423",
+      "author": "dumbcat",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:20Z",
+      "text": "$SPY $DXY $QQQ $XAUUSD US dollar trying to pop again",
+      "description": "",
+      "handle": "dumbcat",
+      "display_name": "dumbcat",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e62cb5353ded8a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:20Z",
+      "title": "$SPY $DXY $QQQ $XAUUSD US dollar trying to pop again",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656112423",
+      "author": "dumbcat",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:20Z",
+      "text": "$SPY $DXY $QQQ $XAUUSD US dollar trying to pop again",
+      "description": "",
+      "handle": "dumbcat",
+      "display_name": "dumbcat",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c6718ac92ff083",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-11T13:17:19Z",
+      "title": "ECB's Lagarde: We have not discussed the neutral rate",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:19Z",
+      "text": "ECB's Lagarde: We have not discussed the neutral rate",
+      "description": ""
+    },
+    {
+      "id": "b512b8f509aa2f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:13Z",
+      "title": "$SPY Markets quickly pump recovered after the war like they usually do.  They came back down when we got into all the power plant and bridge a civilization talk.\n\nNow that we&#39;re back to taking over their oil....which btw funds their nuke program....is that bearish or bullish?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656112407",
+      "author": "correction",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:13Z",
+      "text": "$SPY Markets quickly pump recovered after the war like they usually do.  They came back down when we got into all the power plant and bridge a civilization talk.\n\nNow that we&#39;re back to taking over their oil....which btw funds their nuke program....is that bearish or bullish?",
+      "description": "",
+      "handle": "correction",
+      "display_name": "correction",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3ad0985c9800e4",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-11T13:17:10Z",
+      "title": "CenExel Pain Task Force Innovates Research Approach for Next Generation, Non-Opioid Pain Therapies",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:10Z",
+      "text": "CenExel Pain Task Force Innovates Research Approach for Next Generation, Non-Opioid Pain Therapies",
+      "description": ""
+    },
+    {
+      "id": "9464572a5fe520",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-11T13:17:10Z",
+      "title": "$QQQ The overnight tech tape was a massive reality check. We are seeing major software and AI players take hits not because of their code, but because the CapEx required to build the physical infrastructure is staggering. \n \n\u2022 Existing utility grids cannot handle hyperscale baseloads. \n\u2022 Global copp",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656112400",
+      "author": "MidnightGrid85",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:10Z",
+      "text": "$QQQ The overnight tech tape was a massive reality check. We are seeing major software and AI players take hits not because of their code, but because the CapEx required to build the physical infrastructure is staggering. \n \n\u2022 Existing utility grids cannot handle hyperscale baseloads. \n\u2022 Global copp",
+      "description": "",
+      "handle": "MidnightGrid85",
+      "display_name": "Keegan Trujillo",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b18e1dcc44cea5",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-11T13:17:08Z",
+      "title": "The Weather Channel App Launches Enhanced Allergy Experience To Help Sufferers Eliminate the Guesswork of Seasonal Allergies",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:08Z",
+      "text": "The Weather Channel App Launches Enhanced Allergy Experience To Help Sufferers Eliminate the Guesswork of Seasonal Allergies",
+      "description": ""
+    },
+    {
+      "id": "4985094b6f67fc",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-11T13:17:06Z",
+      "title": "ScriptSave's TrustHealth\u2122 Earns LegitScript Certification",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-11T13:17:06Z",
+      "text": "ScriptSave's TrustHealth\u2122 Earns LegitScript Certification",
+      "description": ""
+    },
     {
       "id": "6074f72b21a744",
       "source": "stocktwits",
@@ -184,29 +482,6 @@
       "description": "",
       "handle": "splitsoup",
       "display_name": "splitsoup",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ccde22945a5824",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:16:45Z",
-      "title": "$SPY $QQQ market is pricing in a full +25bps rate hike by EOY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656112359",
-      "author": "MisterSplashyPants",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:16:45Z",
-      "text": "$SPY $QQQ market is pricing in a full +25bps rate hike by EOY",
-      "description": "",
-      "handle": "MisterSplashyPants",
-      "display_name": "Justin Samson",
       "platform": "stocktwits"
     },
     {
@@ -340,52 +615,6 @@
       "description": ""
     },
     {
-      "id": "e82694d8483c04",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:16:23Z",
-      "title": "$SPY $QQQ \n\nMy milkshake brings all the bears to the yard",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656112315",
-      "author": "kirkulr",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-11T13:16:23Z",
-      "text": "$SPY $QQQ \n\nMy milkshake brings all the bears to the yard",
-      "description": "",
-      "handle": "kirkulr",
-      "display_name": "Kirkulr",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "3506e0020fbdf6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:16:23Z",
-      "title": "$SPY $QQQ \n\nMy milkshake brings all the bears to the yard",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656112315",
-      "author": "kirkulr",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-11T13:16:23Z",
-      "text": "$SPY $QQQ \n\nMy milkshake brings all the bears to the yard",
-      "description": "",
-      "handle": "kirkulr",
-      "display_name": "Kirkulr",
-      "platform": "stocktwits"
-    },
-    {
       "id": "291e3a0669e163",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -402,75 +631,6 @@
       "time": "2026-06-11T13:16:22Z",
       "text": "Stock Market Today: Dow Cuts Gains On New Trump Threats; Oracle Plunges On Earnings (Live Coverage)",
       "description": ""
-    },
-    {
-      "id": "60ad8cf0fed9e1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:16:21Z",
-      "title": "$BATL $EONR $SKYQ $SPY $TPET Hope the shorties have a support group with lots of extra cash to cover losses LOL RIP",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656112310",
-      "author": "Aatrader2475",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-11T13:16:21Z",
-      "text": "$BATL $EONR $SKYQ $SPY $TPET Hope the shorties have a support group with lots of extra cash to cover losses LOL RIP",
-      "description": "",
-      "handle": "Aatrader2475",
-      "display_name": "Aatrader2475",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c3c851e5b74be2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:16:20Z",
-      "title": "$SPY $QQQ  $USO  \n \nI&#39;ve been bottom fishing and my favorite microcap company is $CXDO Very good company making all the right moves. imo  \nIt&#39;s worth a look. This is a longer-term swing for me.  \n.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656112308",
-      "author": "PermianTrader",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:16:20Z",
-      "text": "$SPY $QQQ  $USO  \n \nI&#39;ve been bottom fishing and my favorite microcap company is $CXDO Very good company making all the right moves. imo  \nIt&#39;s worth a look. This is a longer-term swing for me.  \n.",
-      "description": "",
-      "handle": "PermianTrader",
-      "display_name": "Bentley",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4b377f9c324918",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:16:20Z",
-      "title": "$SPY $QQQ  $USO  \n \nI&#39;ve been bottom fishing and my favorite microcap company is $CXDO Very good company making all the right moves. imo  \nIt&#39;s worth a look. This is a longer-term swing for me.  \n.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656112308",
-      "author": "PermianTrader",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:16:20Z",
-      "text": "$SPY $QQQ  $USO  \n \nI&#39;ve been bottom fishing and my favorite microcap company is $CXDO Very good company making all the right moves. imo  \nIt&#39;s worth a look. This is a longer-term swing for me.  \n.",
-      "description": "",
-      "handle": "PermianTrader",
-      "display_name": "Bentley",
-      "platform": "stocktwits"
     },
     {
       "id": "8450658ad1b03e",
@@ -507,29 +667,6 @@
       "time": "2026-06-11T13:16:19Z",
       "text": "ECB'S LAGARDE: 25 BPS HIKE IS A SIGNAL AND IS NECESSARY",
       "description": ""
-    },
-    {
-      "id": "dc8d115c42501e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:16:19Z",
-      "title": "$SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656112307",
-      "author": "SmugglinMuffins",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-11T13:16:19Z",
-      "text": "$SPY $QQQ",
-      "description": "",
-      "handle": "SmugglinMuffins",
-      "display_name": "Chud Bluski",
-      "platform": "stocktwits"
     },
     {
       "id": "c9417d37d564cf",
@@ -1150,29 +1287,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c9f13e6bf7c77a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:13:22Z",
-      "title": "$MSFT I wanna punch my fist through a wall",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/656111951",
-      "author": "Steezbeez",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:13:22Z",
-      "text": "$MSFT I wanna punch my fist through a wall",
-      "description": "",
-      "handle": "Steezbeez",
-      "display_name": "Steezbeez",
-      "platform": "stocktwits"
-    },
-    {
       "id": "1195e79c229a42",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1602,42 +1716,6 @@
       "description": ""
     },
     {
-      "id": "b35dcd22782dc2",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-11T13:11:28Z",
-      "title": "ECB's President Lagarde: We will be publishing milder scenario.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:11:28Z",
-      "text": "ECB's President Lagarde: We will be publishing milder scenario.",
-      "description": ""
-    },
-    {
-      "id": "556645b826251d",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-11T13:11:27Z",
-      "title": "ECB's President Lagarde: The decision is robust across three scenarios.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:11:27Z",
-      "text": "ECB's President Lagarde: The decision is robust across three scenarios.",
-      "description": ""
-    },
-    {
       "id": "2ba7a6628b1f48",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1661,83 +1739,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "31bbd7a6927317",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-11T13:11:06Z",
-      "title": "$MSTR I posted this on 6/17/25",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/656111664",
-      "author": "Weak_Hands_McGee",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:11:06Z",
-      "text": "$MSTR I posted this on 6/17/25",
-      "description": "",
-      "handle": "Weak_Hands_McGee",
-      "display_name": "CryptoDamus",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b54d15197600ae",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-11T13:10:51Z",
-      "title": "Laminar Named a 2026 World Economic Forum Technology Pioneer",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:10:51Z",
-      "text": "Laminar Named a 2026 World Economic Forum Technology Pioneer",
-      "description": ""
-    },
-    {
-      "id": "f973064d332e02",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-11T13:10:50Z",
-      "title": "Venbrook Specialty Products Group Launches Comstar LRO, an Enhanced, Customizable Solution for Multi-use Commercial and Habitational Property Owners",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:10:50Z",
-      "text": "Venbrook Specialty Products Group Launches Comstar LRO, an Enhanced, Customizable Solution for Multi-use Commercial and Habitational Property Owners",
-      "description": ""
-    },
-    {
-      "id": "65f859682e49ea",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-11T13:10:50Z",
-      "title": "Rugs.com Redefines Home Decor Shopping With New App",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-11T13:10:50Z",
-      "text": "Rugs.com Redefines Home Decor Shopping With New App",
-      "description": ""
-    },
-    {
       "id": "e4b546a5116fa1",
       "source": "marketwatch",
       "source_type": "rss",
@@ -1754,24 +1755,6 @@
       "time": "Thu, 11 Jun 2026 13:10:00 GMT",
       "text": "Samsung, one of the world\u2019s hottest stocks, is hit by insider-trading probe",
       "description": "Samsung shares have rallied 150% so far this year with Korea\u2019s army of retail investors speculating on further gains as the supply=demand imbalance in memory chips shows no sign of abating."
-    },
-    {
-      "id": "73620b754862ea",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Thu, 11 Jun 2026 13:09:35 GMT",
-      "title": "Jim Cramer's top 10 things to watch in the stock market Thursday",
-      "body": "Futures are off their highs of the morning, but chip stocks are a bright spot.",
-      "url": "https://www.cnbc.com/2026/06/11/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday-.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 11 Jun 2026 13:09:35 GMT",
-      "text": "Jim Cramer's top 10 things to watch in the stock market Thursday",
-      "description": "Futures are off their highs of the morning, but chip stocks are a bright spot."
     },
     {
       "id": "36ae6c58c52860",
@@ -3956,6 +3939,24 @@
       "description": "IsoEnergy has launched an 8,000-metre summer drilling program at its Larocque East project in Canada's Athabasca Basin, targeting the Hurricane South Trend following high-grade winter 2026 results. The program will comprise approximately 20 drill holes focused on expanding mineralization beyond the "
     },
     {
+      "id": "fe2c61d2eb678f",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Thu, 11 Jun 2026 10:37:21 GMT",
+      "title": "SpaceX IPO is a \u2018referendum\u2019 on Musk, say market watchers",
+      "body": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets \u2014 and serve as a \"referendum\" on Elon Musk's leadership.",
+      "url": "https://www.cnbc.com/2026/06/11/spacex-ipo-elon-musk-valuation.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Thu, 11 Jun 2026 10:37:21 GMT",
+      "text": "SpaceX IPO is a \u2018referendum\u2019 on Musk, say market watchers",
+      "description": "Friday's hotly anticipated SpaceX market debut could prove a defining moment for capital markets \u2014 and serve as a \"referendum\" on Elon Musk's leadership."
+    },
+    {
       "id": "6a40c2de972ea1",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -4376,30 +4377,6 @@
       "time": "2026-06-10T22:25:11Z",
       "text": "Stock market today: Dow, S&P 500, Nasdaq futures rise after US completes fresh round of Iran strikes",
       "description": ""
-    },
-    {
-      "id": "7aa20ca4568b7d",
-      "source": "forex_factory",
-      "source_type": "calendar",
-      "timestamp": "2026-06-07T05:15:00-04:00",
-      "title": "OPEC-JMMC Meetings",
-      "body": "",
-      "url": "https://www.forexfactory.com/",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-07T05:15:00-04:00",
-      "text": "OPEC-JMMC Meetings",
-      "description": "",
-      "impact": "Medium",
-      "currency": "All",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "week": "this"
     }
   ]
 }
