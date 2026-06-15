@@ -1,37 +1,37 @@
 {
-  "generated": "2026-06-15T19:10:24Z",
+  "generated": "2026-06-15T19:10:34Z",
   "generated_display": "2026-06-15 15:10 ET",
-  "count": 204,
+  "count": 179,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-15T19:10:17.685202+00:00",
+      "last_error_ts": "2026-06-15T19:06:21.455621+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 6,
-      "latency_ms": 188,
-      "last_success": "2026-06-15T19:10:17.884200+00:00",
+      "latency_ms": 294,
+      "last_success": "2026-06-15T19:06:21.751624+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
-      "status": "healthy",
-      "items_pulled": 25,
-      "latency_ms": 142,
-      "last_success": "2026-06-15T19:10:18.028067+00:00",
-      "last_error_ts": null,
-      "error": ""
+      "status": "failed",
+      "items_pulled": 0,
+      "latency_ms": 0,
+      "last_success": null,
+      "last_error_ts": "2026-06-15T19:10:26.992727+00:00",
+      "error": "<urlopen error _ssl.c:1063: The handshake operation timed out>"
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 373,
-      "last_success": "2026-06-15T19:10:18.406626+00:00",
+      "latency_ms": 743,
+      "last_success": "2026-06-15T19:10:27.744967+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-15T19:10:18.626695+00:00",
+      "last_error_ts": "2026-06-15T19:10:27.916545+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2764,
-      "last_success": "2026-06-15T19:10:21.391014+00:00",
+      "latency_ms": 3007,
+      "last_success": "2026-06-15T19:10:30.924303+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-15T19:10:22.868104+00:00",
+      "last_success": "2026-06-15T19:10:32.246165+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 27,
-      "latency_ms": 2108,
-      "last_success": "2026-06-15T19:10:24.977258+00:00",
+      "latency_ms": 2002,
+      "last_success": "2026-06-15T19:10:34.248994+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 217
+          "latency_ms": 200
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 158
+          "latency_ms": 155
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 476
+          "latency_ms": 457
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 387
+          "latency_ms": 325
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 106
+          "latency_ms": 81
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 130
+          "latency_ms": 100
         }
       }
     }
@@ -111,7 +111,6 @@
     "zerohedge": 8,
     "stocktwits": 75,
     "seekingalpha": 7,
-    "uw_news": 25,
     "massive_news": 50,
     "benzinga": 6,
     "forex_factory": 1
@@ -678,6 +677,75 @@
       "description": "First LNG Tanker Crosses Hormuz After Deal Announcement As Most Ship Managers Remain Cautious\n\n            An LNG carrier successfully passed through the Strait of Hormuz early on Monday, the first tanker carrying energy products to clear the chokepoint since the U.S. and Iran announced a deal to re"
     },
     {
+      "id": "431159c5263779",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-15T19:10:27Z",
+      "title": "$MSFT wtf go go go",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/656501254",
+      "author": "HelptheMarkets",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-15T19:10:27Z",
+      "text": "$MSFT wtf go go go",
+      "description": "",
+      "handle": "HelptheMarkets",
+      "display_name": "imweak",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f9bce0bec1f938",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-15T19:10:22Z",
+      "title": "$SPY I don\u2019t get how vwap consistently drops and spy doesn\u2019t budge, how has our financial system come to this. Trump has been the worst thing to America in centuries",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656501244",
+      "author": "rda3",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-15T19:10:22Z",
+      "text": "$SPY I don\u2019t get how vwap consistently drops and spy doesn\u2019t budge, how has our financial system come to this. Trump has been the worst thing to America in centuries",
+      "description": "",
+      "handle": "rda3",
+      "display_name": "rda3",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "91bfd2918c458c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-15T19:10:18Z",
+      "title": "$SPY $CELH $ELF $PATH $IGV  \n \nTOMORROW,  SMALL CAPS  will  fly  after  FED  signals  PATH  to  RATE  CUTS  NEXT  TWO  days  +  Short  week: \n \nExcept  ROTATION  out  of  BIG  CAP  and  PURE  AI  plays  into  SOFTWARE  and  VALUE/DISCRETIONARY  SMALL  CAPS: \n \nNOSE  BLEED  Tocanization prices  PLUS ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656501236",
+      "author": "WunDumFuc",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 8.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-15T19:10:18Z",
+      "text": "$SPY $CELH $ELF $PATH $IGV  \n \nTOMORROW,  SMALL CAPS  will  fly  after  FED  signals  PATH  to  RATE  CUTS  NEXT  TWO  days  +  Short  week: \n \nExcept  ROTATION  out  of  BIG  CAP  and  PURE  AI  plays  into  SOFTWARE  and  VALUE/DISCRETIONARY  SMALL  CAPS: \n \nNOSE  BLEED  Tocanization prices  PLUS ",
+      "description": "",
+      "handle": "WunDumFuc",
+      "display_name": "MJ MJ",
+      "platform": "stocktwits"
+    },
+    {
       "id": "ab3a596792ff40",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -790,52 +858,6 @@
       "description": "",
       "handle": "TAGS_Worldview",
       "display_name": "TAGS",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b708aa724dc760",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-15T19:09:55Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656501184",
-      "author": "MDrive",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T19:09:55Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "MDrive",
-      "display_name": "A",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f50f468eaeaa09",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-15T19:09:53Z",
-      "title": "$SPY I miss the days we averaged 10 million shares an hour.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656501181",
-      "author": "Guntz",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T19:09:53Z",
-      "text": "$SPY I miss the days we averaged 10 million shares an hour.",
-      "description": "",
-      "handle": "Guntz",
-      "display_name": "Vikman",
       "platform": "stocktwits"
     },
     {
@@ -1399,44 +1421,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "83a8cd6e63ee50",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T19:05:24Z",
-      "title": "Kraken launches perpetual futures for US traders via CFTC-regulated platform, post Bitnomial acquisition, part of drive for onshore crypto derivatives.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T19:05:24Z",
-      "text": "Kraken launches perpetual futures for US traders via CFTC-regulated platform, post Bitnomial acquisition, part of drive for onshore crypto derivatives.",
-      "description": ""
-    },
-    {
-      "id": "2707ef3d99e27e",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T19:05:23Z",
-      "title": "BitMine increases ETH holdings to nearly $10B amid bear market, reaching almost 5% of circulating supply, earning staking yield.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "ETH"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T19:05:23Z",
-      "text": "BitMine increases ETH holdings to nearly $10B amid bear market, reaching almost 5% of circulating supply, earning staking yield.",
-      "description": ""
-    },
-    {
       "id": "e6ac5ff6717b8d",
       "source": "seekingalpha",
       "source_type": "rss",
@@ -1476,24 +1460,6 @@
       "handle": "capitalthinktank",
       "display_name": "Capital Think Tank",
       "platform": "stocktwits"
-    },
-    {
-      "id": "970c24b2416a0c",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T19:03:58Z",
-      "title": "eRESI Partners with Guideline Guru to Offer AI-Powered Guideline Tool at No Cost",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T19:03:58Z",
-      "text": "eRESI Partners with Guideline Guru to Offer AI-Powered Guideline Tool at No Cost",
-      "description": ""
     },
     {
       "id": "280752ca27996c",
@@ -1606,24 +1572,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e634028f7b5737",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T19:02:54Z",
-      "title": "Greenberg Traurig's Lori Cohen Named to Forbes 2026 'America's Top Women Lawyers' List",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T19:02:54Z",
-      "text": "Greenberg Traurig's Lori Cohen Named to Forbes 2026 'America's Top Women Lawyers' List",
-      "description": ""
-    },
-    {
       "id": "16702fd5d1d9b5",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1645,27 +1593,6 @@
       "handle": "SecEdgarWhisperer",
       "display_name": "Economist, Day Trader",
       "platform": "stocktwits"
-    },
-    {
-      "id": "aaa2c43c8aae04",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T19:01:50Z",
-      "title": "SanDisk Stock Delivered In 14 Months What Bitcoin Took 9 Years To Do",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "SNDK",
-        "WDC"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T19:01:50Z",
-      "text": "SanDisk Stock Delivered In 14 Months What Bitcoin Took 9 Years To Do",
-      "description": ""
     },
     {
       "id": "5cdf0dc261463c",
@@ -1760,24 +1687,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "ad387bdc2a8bc9",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T19:00:55Z",
-      "title": "THE U.S. STRATEGIC PETROLEUM RESERVE HAS FALLEN TO ABOUT 340 MILLION BARRELS, ITS LOWEST LEVEL SINCE 1983, AFTER CONTINUED EMERGENCY RELEASES AIMED AT OFFSETTING SUPPLY DISRUPTIONS AND CONTAINING OIL PRICES DURING THE IRAN CONFLICT.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T19:00:55Z",
-      "text": "THE U.S. STRATEGIC PETROLEUM RESERVE HAS FALLEN TO ABOUT 340 MILLION BARRELS, ITS LOWEST LEVEL SINCE 1983, AFTER CONTINUED EMERGENCY RELEASES AIMED AT OFFSETTING SUPPLY DISRUPTIONS AND CONTAINING OIL PRICES DURING THE IRAN CONFLICT.",
-      "description": ""
-    },
-    {
       "id": "8206dcbb387245",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1859,24 +1768,6 @@
       "sentiment": "neutral",
       "time": "Mon, 15 Jun 2026 14:59:04 -0400",
       "text": "Sasol downgraded at J.P. Morgan on likelihood of weaker than forecast earnings",
-      "description": ""
-    },
-    {
-      "id": "0c7ab19aa4b07e",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:58:36Z",
-      "title": "Stock Market Today: Dow Jumps As Trump Makes Iran Move; This AI Play Rallies Into Buy Zone (Live Coverage)",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:58:36Z",
-      "text": "Stock Market Today: Dow Jumps As Trump Makes Iran Move; This AI Play Rallies Into Buy Zone (Live Coverage)",
       "description": ""
     },
     {
@@ -2036,26 +1927,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2da816adba429b",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:56:50Z",
-      "title": "Always Best Care Franchise Owner Expands Senior Care Services into West Jordan",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "WEST"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:56:50Z",
-      "text": "Always Best Care Franchise Owner Expands Senior Care Services into West Jordan",
-      "description": ""
-    },
-    {
       "id": "03adf5c0c95513",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2122,29 +1993,6 @@
       "description": "",
       "handle": "george1sun2003",
       "display_name": "Ron",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "838eb8a43fc05f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-15T18:55:27Z",
-      "title": "$MSFT rolled these. Whatever they took $25K back \ud83d\ude02 I\u2019ll take it though. DCAed my leaps. Almost all my realized losses back thankfully.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/656499188",
-      "author": "MoonOil",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:55:27Z",
-      "text": "$MSFT rolled these. Whatever they took $25K back \ud83d\ude02 I\u2019ll take it though. DCAed my leaps. Almost all my realized losses back thankfully.",
-      "description": "",
-      "handle": "MoonOil",
-      "display_name": "Dave",
       "platform": "stocktwits"
     },
     {
@@ -2217,42 +2065,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f84432978d4326",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:53:39Z",
-      "title": "Bitcoin, Ethereum, XRP, Dogecoin Surge Up To 13% Off The Back Of Iran Peace Deal",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:53:39Z",
-      "text": "Bitcoin, Ethereum, XRP, Dogecoin Surge Up To 13% Off The Back Of Iran Peace Deal",
-      "description": ""
-    },
-    {
-      "id": "270a1d3c88db0e",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:52:32Z",
-      "title": "Brent Crude futures settle at $83.17/bbl, down $4.16, 4.76%.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:52:32Z",
-      "text": "Brent Crude futures settle at $83.17/bbl, down $4.16, 4.76%.",
-      "description": ""
-    },
-    {
       "id": "f827b898dca235",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2295,26 +2107,6 @@
       "time": "2026-06-15T18:51:00Z",
       "text": "Deadline Approaching: Verra Mobility Corporation (VRRM) Shareholders Who Lost Money Urged To Contact Law Offices of Howard G. Smith",
       "description": "A securities fraud class action lawsuit has been filed against Verra Mobility Corporation after the company disclosed termination of its contract with Avis Budget Group on May 26, 2026, causing its stock to plummet 70.6%. The company subsequently lowered its 2026 financial outlook and terminated its"
-    },
-    {
-      "id": "02d0880e92e918",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:50:42Z",
-      "title": "/C O R R E C T I O N -- Kootenay Silver Inc./",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "NPV"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:50:42Z",
-      "text": "/C O R R E C T I O N -- Kootenay Silver Inc./",
-      "description": ""
     },
     {
       "id": "c16ee016b3b7df",
@@ -2432,24 +2224,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f13773a592bd15",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:48:26Z",
-      "title": "24% OF AMERICANS APPROVE OF TRUMP\u2019S HANDLING OF COST OF LIVING, UP FROM 22% A WEEK AGO AND 20% A MONTH AGO, ACCORDING TO REUTERS/IPSOS POLL",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:48:26Z",
-      "text": "24% OF AMERICANS APPROVE OF TRUMP\u2019S HANDLING OF COST OF LIVING, UP FROM 22% A WEEK AGO AND 20% A MONTH AGO, ACCORDING TO REUTERS/IPSOS POLL",
-      "description": ""
-    },
-    {
       "id": "e0862067fa80f1",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2519,81 +2293,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a042aff7c623b6",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:47:19Z",
-      "title": "NVIDIA's bond sale increased to $25 bln from $20 bln - Source. $NVDA",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "NVDA",
-        "BOND"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:47:19Z",
-      "text": "NVIDIA's bond sale increased to $25 bln from $20 bln - Source. $NVDA",
-      "description": ""
-    },
-    {
-      "id": "dbb4c46beda2ef",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:46:38Z",
-      "title": "Breakthrough Immorta Bio Study Collaboration With TAM Global Increases Life Span In Mice over 70% Using Novel Combination Senolytics",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:46:38Z",
-      "text": "Breakthrough Immorta Bio Study Collaboration With TAM Global Increases Life Span In Mice over 70% Using Novel Combination Senolytics",
-      "description": ""
-    },
-    {
-      "id": "7c789aa0eb5c84",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:46:36Z",
-      "title": "Community Revitalization Expert Robert \"Bob\" Morgan Shares Builder's Perspective on Lasting Impact in HelloNation",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:46:36Z",
-      "text": "Community Revitalization Expert Robert \"Bob\" Morgan Shares Builder's Perspective on Lasting Impact in HelloNation",
-      "description": ""
-    },
-    {
-      "id": "1559c139a44414",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:46:33Z",
-      "title": "Kalohexis Presents Data Highlighting Dual MC3R/MC4R Activation as a Novel Mechanism Designed to Drive Safer, Healthier and More Durable Weight Loss at ENDO 2026",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:46:33Z",
-      "text": "Kalohexis Presents Data Highlighting Dual MC3R/MC4R Activation as a Novel Mechanism Designed to Drive Safer, Healthier and More Durable Weight Loss at ENDO 2026",
-      "description": ""
-    },
-    {
       "id": "5dbd46fcf2c1cc",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2615,44 +2314,6 @@
       "handle": "HighRewards",
       "display_name": "HighRewards",
       "platform": "stocktwits"
-    },
-    {
-      "id": "725ee2efb28641",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:44:31Z",
-      "title": "Sopra Steria extends strategic collaboration with Red Hat to industrialise sovereign-ready embedded AI",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:44:31Z",
-      "text": "Sopra Steria extends strategic collaboration with Red Hat to industrialise sovereign-ready embedded AI",
-      "description": ""
-    },
-    {
-      "id": "26d6a8afbf5248",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:43:29Z",
-      "title": "Ethereum has a 26.2% user retention rate, while BNB Chain leads with 1.49M users in Q1 2025-2026 per CoinGecko.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "ETH"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:43:29Z",
-      "text": "Ethereum has a 26.2% user retention rate, while BNB Chain leads with 1.49M users in Q1 2025-2026 per CoinGecko.",
-      "description": ""
     },
     {
       "id": "cae476242fd8bf",
@@ -2701,24 +2362,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "dd7f38051f316e",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:42:27Z",
-      "title": "Pardee Resources Company To Sell West Virginia Property",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:42:27Z",
-      "text": "Pardee Resources Company To Sell West Virginia Property",
-      "description": ""
-    },
-    {
       "id": "9df0fceff2cf5b",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2761,116 +2404,6 @@
       "time": "2026-06-15T18:41:00Z",
       "text": "Pardee Resources Company To Sell West Virginia Property",
       "description": "Pardee Resources Company (OTC: PDER) announced it has entered into a definitive agreement to sell approximately 2,465 acres of surface and mineral property in West Virginia for $23,000 per acre, totaling approximately $57 million. The transaction is expected to close in Q4 2026, subject to certain c"
-    },
-    {
-      "id": "e196c418d055f4",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:40:29Z",
-      "title": "HPE Fuels Partner Growth With New Incentives, Partner-led Offers, and Unified Program",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "HPE"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:40:29Z",
-      "text": "HPE Fuels Partner Growth With New Incentives, Partner-led Offers, and Unified Program",
-      "description": ""
-    },
-    {
-      "id": "ab0dc01c7ae187",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:40:26Z",
-      "title": "Avia and Argentine Football Association Deal Out Club Clash Competition for Solitaire Clash with $3M in Rewards",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:40:26Z",
-      "text": "Avia and Argentine Football Association Deal Out Club Clash Competition for Solitaire Clash with $3M in Rewards",
-      "description": ""
-    },
-    {
-      "id": "e623247d380640",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:40:09Z",
-      "title": "NETANYAHU ANNOUNCES HE WILL RUN IN UPCOMING ISRAELI ELECTIONS.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:40:09Z",
-      "text": "NETANYAHU ANNOUNCES HE WILL RUN IN UPCOMING ISRAELI ELECTIONS.",
-      "description": ""
-    },
-    {
-      "id": "6d4cbd1a109303",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:39:21Z",
-      "title": "UNI token price may soar 40x by 2030 as Wall Street embraces blockchain: Standard Chartered.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:39:21Z",
-      "text": "UNI token price may soar 40x by 2030 as Wall Street embraces blockchain: Standard Chartered.",
-      "description": ""
-    },
-    {
-      "id": "190746e0003356",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:38:21Z",
-      "title": "Responsible AI Institute Launches TrustX for Finance to Bring Verifiable Trust to Autonomous AI in Financial Services",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:38:21Z",
-      "text": "Responsible AI Institute Launches TrustX for Finance to Bring Verifiable Trust to Autonomous AI in Financial Services",
-      "description": ""
-    },
-    {
-      "id": "f05aeb77cb1c46",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-15T18:37:21Z",
-      "title": "Strait of Hormuz tensions spark Polymarket bets with June 30 settlement approaching, amid peace deal speculation.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T18:37:21Z",
-      "text": "Strait of Hormuz tensions spark Polymarket bets with June 30 settlement approaching, amid peace deal speculation.",
-      "description": ""
     },
     {
       "id": "b8c8be16f80a09",
