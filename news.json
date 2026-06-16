@@ -1,37 +1,37 @@
 {
-  "generated": "2026-06-16T13:24:15Z",
-  "generated_display": "2026-06-16 13:24 ET",
-  "count": 208,
+  "generated": "2026-06-16T13:25:19Z",
+  "generated_display": "2026-06-16 13:25 ET",
+  "count": 207,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-16T13:24:09.283195+00:00",
+      "last_error_ts": "2026-06-16T13:25:08.579049+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 197,
-      "last_success": "2026-06-16T13:24:09.485477+00:00",
+      "latency_ms": 601,
+      "last_success": "2026-06-16T13:25:09.182605+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 138,
-      "last_success": "2026-06-16T13:24:09.625614+00:00",
+      "latency_ms": 672,
+      "last_success": "2026-06-16T13:25:09.879402+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 254,
-      "last_success": "2026-06-16T13:24:09.884924+00:00",
+      "latency_ms": 499,
+      "last_success": "2026-06-16T13:25:10.382273+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-16T13:24:10.054264+00:00",
+      "last_error_ts": "2026-06-16T13:25:10.793059+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2328,
-      "last_success": "2026-06-16T13:24:12.383198+00:00",
+      "latency_ms": 4183,
+      "last_success": "2026-06-16T13:25:14.976588+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,16 +55,16 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-16T13:24:13.878707+00:00",
+      "last_success": "2026-06-16T13:25:15.911048+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
-      "status": "healthy",
-      "items_pulled": 28,
-      "latency_ms": 1984,
-      "last_success": "2026-06-16T13:24:15.863555+00:00",
-      "last_error_ts": null,
+      "status": "degraded",
+      "items_pulled": 0,
+      "latency_ms": 3471,
+      "last_success": null,
+      "last_error_ts": "2026-06-16T13:25:19.382222+00:00",
       "error": ""
     },
     "rss_feeds": {
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 217
+          "latency_ms": 70
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 161
+          "latency_ms": 135
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 488
+          "latency_ms": 230
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 390
+          "latency_ms": 278
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 105
+          "latency_ms": 131
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 131
+          "latency_ms": 87
         }
       }
     }
@@ -113,10 +113,193 @@
     "marketwatch": 8,
     "zerohedge": 8,
     "seekingalpha": 7,
-    "benzinga": 10,
-    "forex_factory": 1
+    "benzinga": 10
   },
   "items": [
+    {
+      "id": "dcf0d40b602a04",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-16T13:25:07Z",
+      "title": "$MSFT agreed. This cannot break $400 so we will likely see $388 today.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/656566377",
+      "author": "NetflixUser",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-16T13:25:07Z",
+      "text": "$MSFT agreed. This cannot break $400 so we will likely see $388 today.",
+      "description": "",
+      "handle": "NetflixUser",
+      "display_name": "Henry",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b4eea9d770feb4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-16T13:25:00Z",
+      "title": "$TSLA probably see a pop today or this week when $SPCX options &amp; profit taking commence.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/656566357",
+      "author": "snugglechuck",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-16T13:25:00Z",
+      "text": "$TSLA probably see a pop today or this week when $SPCX options &amp; profit taking commence.",
+      "description": "",
+      "handle": "snugglechuck",
+      "display_name": "CZ",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "95ccfdbab56254",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-16T13:24:47Z",
+      "title": "$SPY this week\u2019s FED could bring opportunity to add bulls especially for those who are net short such as $SOXS  holders. I\u2019m holding Sep 800C (closed 30% of it near 754 area) and other bulls. \n\nIn case SPY goes to 780-800 in July (776 area has high probability as per the chart I posted) , those SPY ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656566316",
+      "author": "amitDBA",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-16T13:24:47Z",
+      "text": "$SPY this week\u2019s FED could bring opportunity to add bulls especially for those who are net short such as $SOXS  holders. I\u2019m holding Sep 800C (closed 30% of it near 754 area) and other bulls. \n\nIn case SPY goes to 780-800 in July (776 area has high probability as per the chart I posted) , those SPY ",
+      "description": "",
+      "handle": "amitDBA",
+      "display_name": "Amitabh Bachchan",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cba0eeb0891770",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-16T13:24:24Z",
+      "title": "$NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/656566260",
+      "author": "HOWNOW",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-16T13:24:24Z",
+      "text": "$NVDA",
+      "description": "",
+      "handle": "HOWNOW",
+      "display_name": "BROWNCOW",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ba8526dca56676",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-16T13:24:14Z",
+      "title": "$QQQ $SPY $TSLA SpaceX $SPCX is now worth more than $2.5 Trillion\ud83d\udc40",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656566237",
+      "author": "EconomyEngine",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-16T13:24:14Z",
+      "text": "$QQQ $SPY $TSLA SpaceX $SPCX is now worth more than $2.5 Trillion\ud83d\udc40",
+      "description": "",
+      "handle": "EconomyEngine",
+      "display_name": "Mb",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5bd9532141640a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-16T13:24:14Z",
+      "title": "$QQQ $SPY $TSLA SpaceX $SPCX is now worth more than $2.5 Trillion\ud83d\udc40",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656566237",
+      "author": "EconomyEngine",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-16T13:24:14Z",
+      "text": "$QQQ $SPY $TSLA SpaceX $SPCX is now worth more than $2.5 Trillion\ud83d\udc40",
+      "description": "",
+      "handle": "EconomyEngine",
+      "display_name": "Mb",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b21d212cad5af3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-16T13:24:14Z",
+      "title": "$QQQ $SPY $TSLA SpaceX $SPCX is now worth more than $2.5 Trillion\ud83d\udc40",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/656566237",
+      "author": "EconomyEngine",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-16T13:24:14Z",
+      "text": "$QQQ $SPY $TSLA SpaceX $SPCX is now worth more than $2.5 Trillion\ud83d\udc40",
+      "description": "",
+      "handle": "EconomyEngine",
+      "display_name": "Mb",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0f8f8ca019e6dd",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-16T13:24:09Z",
+      "title": "$SPY rate hike priced in",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656566228",
+      "author": "ThePain",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-16T13:24:09Z",
+      "text": "$SPY rate hike priced in",
+      "description": "",
+      "handle": "ThePain",
+      "display_name": "Prashantak Kishore Srivastava",
+      "platform": "stocktwits"
+    },
     {
       "id": "0fc1eb16b7dd88",
       "source": "stocktwits",
@@ -256,29 +439,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "6b5481940403d3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-16T13:23:55Z",
-      "title": "$SPY $QQQ Usually the USD/JYP and the DXY go hand in hand (price chart of DXY against USD/JPY in blue) at times they diverge like now where the Yen keeps degrading and then all of a sudden the Yen corrects against the dollar and brings the correlation back in line. During those times we see the most",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656566180",
-      "author": "Thamb19",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-16T13:23:55Z",
-      "text": "$SPY $QQQ Usually the USD/JYP and the DXY go hand in hand (price chart of DXY against USD/JPY in blue) at times they diverge like now where the Yen keeps degrading and then all of a sudden the Yen corrects against the dollar and brings the correlation back in line. During those times we see the most",
-      "description": "",
-      "handle": "Thamb19",
-      "display_name": "Michigan Dirt bike &amp; Trail rev",
-      "platform": "stocktwits"
-    },
-    {
       "id": "db8981b93bc370",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -322,29 +482,6 @@
       "description": "",
       "handle": "BULLeMan",
       "display_name": "BULL e",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "282bfffbb8c945",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-16T13:23:48Z",
-      "title": "$SPY IM SORTA SCARED\ud83e\udee3",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656566161",
-      "author": "HeyYouWhoMe",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-16T13:23:48Z",
-      "text": "$SPY IM SORTA SCARED\ud83e\udee3",
-      "description": "",
-      "handle": "HeyYouWhoMe",
-      "display_name": "MAGA Stunt Trader",
       "platform": "stocktwits"
     },
     {
@@ -447,29 +584,6 @@
       "description": "",
       "handle": "dipbuyer0326",
       "display_name": "Options Trading Rants",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f180790a2d7788",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-16T13:23:13Z",
-      "title": "$SPY $QQQ Will Chop all day into FOMC",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656566080",
-      "author": "ghoosa39",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-16T13:23:13Z",
-      "text": "$SPY $QQQ Will Chop all day into FOMC",
-      "description": "",
-      "handle": "ghoosa39",
-      "display_name": "Mark Owen",
       "platform": "stocktwits"
     },
     {
@@ -811,29 +925,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "7b06e716cc87cf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-16T13:21:33Z",
-      "title": "$QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656565840",
-      "author": "mcae",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-16T13:21:33Z",
-      "text": "$QQQ",
-      "description": "",
-      "handle": "mcae",
-      "display_name": "Mark Cooper",
-      "platform": "stocktwits"
-    },
-    {
       "id": "44164fda0343f5",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -947,29 +1038,6 @@
       "time": "2026-06-16T13:21:16Z",
       "text": "Patten Properties Debuts Legacy Grand Ranch North of Houston, Land Worthy of a Family Legacy",
       "description": ""
-    },
-    {
-      "id": "ab238d855ee048",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-16T13:21:16Z",
-      "title": "$GPUS Gahdam!! So that\u2019s what caused the drop! Lol \n\nThese shorts are fooked!! \ud83d\udd25\ud83d\udd25\ud83d\ude80\n\nPR: \u201cHey we\u2019re flush with cash, and have a ton of bitcoin, and are negotiating a $1B deal, valued at $50M per year for 20 years\u2026 and it could scale easily to $125M per year.\u201d\n\nMarket: \u201cokay cool\u2026 -20% sell off.\u201d \ud83d\ude02\ud83e\udd26\ud83c\udffc\u200d",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/656565811",
-      "author": "TCLutz",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-16T13:21:16Z",
-      "text": "$GPUS Gahdam!! So that\u2019s what caused the drop! Lol \n\nThese shorts are fooked!! \ud83d\udd25\ud83d\udd25\ud83d\ude80\n\nPR: \u201cHey we\u2019re flush with cash, and have a ton of bitcoin, and are negotiating a $1B deal, valued at $50M per year for 20 years\u2026 and it could scale easily to $125M per year.\u201d\n\nMarket: \u201cokay cool\u2026 -20% sell off.\u201d \ud83d\ude02\ud83e\udd26\ud83c\udffc\u200d",
-      "description": "",
-      "handle": "TCLutz",
-      "display_name": "TCLutz",
-      "platform": "stocktwits"
     },
     {
       "id": "b6b641b6183eea",
@@ -1123,29 +1191,6 @@
       "description": "Carvana has bought seven new vehicle franchises since last year that primarily sell Stellantis' Chrysler, Dodge, Jeep and Ram brands."
     },
     {
-      "id": "737101da1de664",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-16T13:19:59Z",
-      "title": "$RUM $RDDT $INTC Do the near record short interest holders (DOULBE from last year) realize that RUMBLE (with the help of Tether) just bought 9 data centers with 22k $NVDA GPUs and 300k CPUs. You want a data center play get RUMBLING",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/656565636",
-      "author": "Anthonybarnes4",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-16T13:19:59Z",
-      "text": "$RUM $RDDT $INTC Do the near record short interest holders (DOULBE from last year) realize that RUMBLE (with the help of Tether) just bought 9 data centers with 22k $NVDA GPUs and 300k CPUs. You want a data center play get RUMBLING",
-      "description": "",
-      "handle": "Anthonybarnes4",
-      "display_name": "Anthony",
-      "platform": "stocktwits"
-    },
-    {
       "id": "035e4c67bf5dac",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1218,29 +1263,6 @@
       "time": "2026-06-16T13:19:13Z",
       "text": "MAKERS OF CAMBIO TEQUILA\u00ae, CATON IMPORTING LLC IS PROUD TO PARTNER WITH THE CHICAGO CUBS, AND WILL LAUNCH A SPECIAL EDITION CATON BLANCO TEQUILA",
       "description": ""
-    },
-    {
-      "id": "1237c33ca29f79",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-16T13:19:07Z",
-      "title": "$TSLA deep red. The broader market jumped yesterday and this managed to secure just 1%.  Today is more red so this is going to dive.  I\u2019m getting frustrated.  News is needed.  I think another delay in the roadster and this will slash",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/656565514",
-      "author": "WhatTheActualFRK",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-16T13:19:07Z",
-      "text": "$TSLA deep red. The broader market jumped yesterday and this managed to secure just 1%.  Today is more red so this is going to dive.  I\u2019m getting frustrated.  News is needed.  I think another delay in the roadster and this will slash",
-      "description": "",
-      "handle": "WhatTheActualFRK",
-      "display_name": "Drew",
-      "platform": "stocktwits"
     },
     {
       "id": "1e110ac1c9027a",
@@ -1416,24 +1438,6 @@
       "sentiment": "neutral",
       "time": "2026-06-16T13:17:07Z",
       "text": "TAO Synergies Set to Join the Russell Microcap\u00ae Index as a Leading Public Gateway to Decentralized AI",
-      "description": ""
-    },
-    {
-      "id": "fadd49e6679f1b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-16T13:16:58Z",
-      "title": "Nvidia Is Back Above $5 Trillion. Here\u2019s What Comes Next",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-back-above-5-trillion-131658571.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-16T13:16:58Z",
-      "text": "Nvidia Is Back Above $5 Trillion. Here\u2019s What Comes Next",
       "description": ""
     },
     {
@@ -1846,29 +1850,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "609054352f2841",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-16T13:07:56Z",
-      "title": "$MSFT \u2014\u2014Trump 3 months of telling stories\nWe won and a lot of nonsense\nBottom line we lost.\nHe can&#39;t lose our best friend Israel today.\nThey gave him the glory. They are the ones who paved the way for Iran. They are the ones who attacked Iran first.\nAnd they are the ones who will eventually tell",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/656563933",
-      "author": "Mipel",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-16T13:07:56Z",
-      "text": "$MSFT \u2014\u2014Trump 3 months of telling stories\nWe won and a lot of nonsense\nBottom line we lost.\nHe can&#39;t lose our best friend Israel today.\nThey gave him the glory. They are the ones who paved the way for Iran. They are the ones who attacked Iran first.\nAnd they are the ones who will eventually tell",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b76ca5958584f3",
       "source": "reuters",
       "source_type": "rss",
@@ -1961,24 +1942,6 @@
       "sentiment": "neutral",
       "time": "2026-06-16 13:04:31",
       "text": "Vivani Medical director Gregg Williams purchases $2 million common stock",
-      "description": ""
-    },
-    {
-      "id": "c4d5425af31b3a",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-16T13:04:17Z",
-      "title": "Stock Market Today: Indexes Mixed As Housing Starts Data Disappoints; SpaceX Continues To Soar (Live Coverage)",
-      "body": "",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-meeting-spacex-stock-spcx/?src=A00220&yptr=yahoo",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-16T13:04:17Z",
-      "text": "Stock Market Today: Indexes Mixed As Housing Starts Data Disappoints; SpaceX Continues To Soar (Live Coverage)",
       "description": ""
     },
     {
@@ -2105,6 +2068,24 @@
       "sentiment": "neutral",
       "time": "2026-06-16T13:02:19Z",
       "text": "Oil prices tumble below $80 per barrel for first time since March",
+      "description": ""
+    },
+    {
+      "id": "964cee68bd7c7c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-16T13:02:00Z",
+      "title": "SpaceX Buys A.I. Coding Assistant Cursor For $60 Billion",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/spacex-buys-coding-assistant-cursor-130200191.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-16T13:02:00Z",
+      "text": "SpaceX Buys A.I. Coding Assistant Cursor For $60 Billion",
       "description": ""
     },
     {
@@ -4011,129 +3992,131 @@
       "description": "Equinor ASA announced its strategy to deliver increased energy production, higher cash flow, and industry-leading returns through 2030. The company plans to double share buybacks to $3 billion for 2026 and introduce a predictable $2-4 billion annual buyback framework from 2027. Production targets in"
     },
     {
-      "id": "78edef7f7acf9a",
+      "id": "fc072868c4d9f1",
       "source": "seekingalpha",
       "source_type": "rss",
-      "timestamp": "Tue, 16 Jun 2026 09:19:27 -0400",
-      "title": "Wipro launches AI center for Anthropic\u2019s Claude in Bengaluru",
+      "timestamp": "Tue, 16 Jun 2026 09:24:04 -0400",
+      "title": "Hairy stuff: e.l.f. Beauty looks to disrupt a new category",
       "body": "",
-      "url": "https://seekingalpha.com/news/4603990-wipro-launches-ai-center-for-anthropics-claude-in-bengaluru?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://seekingalpha.com/news/4603962-hairy-stuff-elf-beauty-looks-to-disrupt-a-new-category?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 5.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 16 Jun 2026 09:19:27 -0400",
-      "text": "Wipro launches AI center for Anthropic\u2019s Claude in Bengaluru",
+      "time": "Tue, 16 Jun 2026 09:24:04 -0400",
+      "text": "Hairy stuff: e.l.f. Beauty looks to disrupt a new category",
       "description": ""
     },
     {
-      "id": "0816a2edbca759",
+      "id": "91d4f29536982e",
       "source": "seekingalpha",
       "source_type": "rss",
-      "timestamp": "Tue, 16 Jun 2026 09:19:08 -0400",
-      "title": "Retail REITs benefit from limited supply, healthy demand, Auerbach says",
+      "timestamp": "Tue, 16 Jun 2026 09:23:49 -0400",
+      "title": "Outlook gains as wet AMD therapy reconsidered for FDA review",
       "body": "",
-      "url": "https://seekingalpha.com/news/4603978-retail-reits-benefit-from-limited-supply-healthy-demand-auerbach-says?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://seekingalpha.com/news/4603995-outlook-wet-amd-therapy-regains-fda-review?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "author": "",
-      "tickers": [],
+      "tickers": [
+        "AMD"
+      ],
       "tags": [],
-      "impact_score": 5.0,
+      "impact_score": 5.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 16 Jun 2026 09:19:08 -0400",
-      "text": "Retail REITs benefit from limited supply, healthy demand, Auerbach says",
+      "time": "Tue, 16 Jun 2026 09:23:49 -0400",
+      "text": "Outlook gains as wet AMD therapy reconsidered for FDA review",
       "description": ""
     },
     {
-      "id": "60d7727a1248b8",
+      "id": "befd9836ff0f19",
       "source": "seekingalpha",
       "source_type": "rss",
-      "timestamp": "Tue, 16 Jun 2026 09:18:14 -0400",
-      "title": "Atom Computing announces it has raised $300M in funding, including $100M Series C",
+      "timestamp": "Tue, 16 Jun 2026 09:22:50 -0400",
+      "title": "Software stocks lose their aura on agentic AI disruptive threat",
       "body": "",
-      "url": "https://seekingalpha.com/news/4603985-atom-computing-announces-it-has-raised-300m-in-funding-including-100m-series-c?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://seekingalpha.com/news/4603986-software-stocks-lose-their-aura-on-agentic-ai-disruptive-threat?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 5.0,
+      "impact_score": 7.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 16 Jun 2026 09:18:14 -0400",
-      "text": "Atom Computing announces it has raised $300M in funding, including $100M Series C",
+      "time": "Tue, 16 Jun 2026 09:22:50 -0400",
+      "text": "Software stocks lose their aura on agentic AI disruptive threat",
       "description": ""
     },
     {
-      "id": "d5b08a850351f7",
+      "id": "92eb99b4f68417",
       "source": "seekingalpha",
       "source_type": "rss",
-      "timestamp": "Tue, 16 Jun 2026 09:17:57 -0400",
-      "title": "Greenland Mines takes 9.9% stake in AnorTech via share exchange deal",
+      "timestamp": "Tue, 16 Jun 2026 09:22:25 -0400",
+      "title": "Flutter Entertainment is called undervalued by Wedbush",
       "body": "",
-      "url": "https://seekingalpha.com/news/4603992-greenland-mines-takes-99-stake-in-anortech-via-share-exchange-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://seekingalpha.com/news/4603980-flutter-entertainment-is-called-undervalued-by-wedbush?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 5.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 16 Jun 2026 09:17:57 -0400",
-      "text": "Greenland Mines takes 9.9% stake in AnorTech via share exchange deal",
+      "time": "Tue, 16 Jun 2026 09:22:25 -0400",
+      "text": "Flutter Entertainment is called undervalued by Wedbush",
       "description": ""
     },
     {
-      "id": "da0d42d8899b68",
+      "id": "37b66460be2dd5",
       "source": "seekingalpha",
       "source_type": "rss",
-      "timestamp": "Tue, 16 Jun 2026 09:17:54 -0400",
-      "title": "Allison Transmission secures $250M contract with BAE Systems",
+      "timestamp": "Tue, 16 Jun 2026 09:22:09 -0400",
+      "title": "Terreno Realty acquires property in Virginia for $13M",
       "body": "",
-      "url": "https://seekingalpha.com/news/4603988-allison-transmission-secures-250m-contract-with-bae-systems?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://seekingalpha.com/news/4603993-terreno-realty-acquires-property-in-virginia-for-13m?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 5.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 16 Jun 2026 09:17:54 -0400",
-      "text": "Allison Transmission secures $250M contract with BAE Systems",
+      "time": "Tue, 16 Jun 2026 09:22:09 -0400",
+      "text": "Terreno Realty acquires property in Virginia for $13M",
       "description": ""
     },
     {
-      "id": "f8451ea97940ea",
+      "id": "b94153d69fdddf",
       "source": "seekingalpha",
       "source_type": "rss",
-      "timestamp": "Tue, 16 Jun 2026 09:14:49 -0400",
-      "title": "Open Lending to be acquired by ANV in $3.15/share all-cash deal",
+      "timestamp": "Tue, 16 Jun 2026 09:21:03 -0400",
+      "title": "Energy sector uncertainty puts focus on high-growth, undervalued stocks",
       "body": "",
-      "url": "https://seekingalpha.com/news/4603989-open-lending-to-be-acquired-by-anv-in-315share-all-cash-deal?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://seekingalpha.com/news/4603987-energy-sector-uncertainty-puts-focus-on-high-growth-undervalued-stocks?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 5.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 16 Jun 2026 09:14:49 -0400",
-      "text": "Open Lending to be acquired by ANV in $3.15/share all-cash deal",
+      "time": "Tue, 16 Jun 2026 09:21:03 -0400",
+      "text": "Energy sector uncertainty puts focus on high-growth, undervalued stocks",
       "description": ""
     },
     {
-      "id": "f212e67d17b810",
+      "id": "b8bbbdeeedaa6e",
       "source": "seekingalpha",
       "source_type": "rss",
-      "timestamp": "Tue, 16 Jun 2026 09:12:03 -0400",
-      "title": "Coherent in spotlight as it signs letter of intent for $50M in funding from Chips Act",
+      "timestamp": "Tue, 16 Jun 2026 09:20:45 -0400",
+      "title": "Qualcomm in discussions to acquire AI chip startup Tenstorrent: report",
       "body": "",
-      "url": "https://seekingalpha.com/news/4603979-coherent-in-spotlight-as-it-signs-letter-of-intent-for-50m-in-funding-from-chips-act?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "url": "https://seekingalpha.com/news/4603968-qualcomm-in-discussions-to-acquire-ai-chip-startup-tenstorrent?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 5.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 16 Jun 2026 09:12:03 -0400",
-      "text": "Coherent in spotlight as it signs letter of intent for $50M in funding from Chips Act",
+      "time": "Tue, 16 Jun 2026 09:20:45 -0400",
+      "text": "Qualcomm in discussions to acquire AI chip startup Tenstorrent: report",
       "description": ""
     },
     {
@@ -4491,28 +4474,22 @@
       "description": ""
     },
     {
-      "id": "7aa20ca4568b7d",
-      "source": "forex_factory",
-      "source_type": "calendar",
-      "timestamp": "2026-06-15T03:30:00-04:00",
-      "title": "ECB President Lagarde Speaks",
+      "id": "3ebce311f4e23e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2025-05-05T12:00:32Z",
+      "title": "What time is this week's Fed meeting?",
       "body": "",
-      "url": "https://www.forexfactory.com/",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/what-time-is-this-weeks-fed-meeting-120032072.html",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 8.5,
+      "impact_score": 9.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-15T03:30:00-04:00",
-      "text": "ECB President Lagarde Speaks",
-      "description": "",
-      "impact": "Medium",
-      "currency": "EUR",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "week": "this"
+      "time": "2025-05-05T12:00:32Z",
+      "text": "What time is this week's Fed meeting?",
+      "description": ""
     },
     {
       "id": "c205a3c11e673f",
