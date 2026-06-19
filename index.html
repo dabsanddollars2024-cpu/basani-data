@@ -3769,7 +3769,7 @@ async function loadAll() {
   // GitHub is the fallback so the dashboard works even without a backend.
 
   // Public data repo — no auth needed (separate from private code repo)
-  const GITHUB_RAW  = 'https://raw.githubusercontent.com/sumedhbasani/basani-data/main/';
+  const GITHUB_RAW  = 'https://raw.githubusercontent.com/dabsanddollars2024-cpu/basani-data/main/';
   const USE_SUPABASE = !!(SUPABASE_URL && SUPABASE_ANON && !SUPABASE_URL.includes('YOUR_PROJECT'));
 
   const fetchWithTimeout = (url, ms = 8000, extraHeaders = {}) => {
