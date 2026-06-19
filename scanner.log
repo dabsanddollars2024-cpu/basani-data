@@ -1,0 +1,3445 @@
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:01
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (124ms)
+  OK  UW News:        25 articles  (67ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (130ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1847ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1952ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  124ms
+  🟢  uw_news            healthy        25 items  67ms
+  🟢  massive_news       healthy        50 items  130ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1847ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1952ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:02:03
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1602.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  509.15  +4.25%     90  56.9  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  368.31  +7.49%     90  59.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.22  +1.14%     90  62.6  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.69  -0.33%     70  60.1  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  985.37  -1.07%     63  64.6  NEUTRAL  SMA20 SMA50 EMA_STACK
+QQQ    $  716.86  +0.03%     60  49.9  NEUTRAL  SMA50 EMA_STACK RSI_49.9
+XLK    $  183.72  +0.29%     50  53.0  NEUTRAL  SMA50 EMA_STACK RSI_53.0
+NOW    $  100.58  -2.43%     45  49.0  NEUTRAL  SMA50 EMA_STACK RSI_49.0
+SPY    $  739.05  +0.19%     40  45.2  NEUTRAL  SMA50 RSI_45.2
+XLE    $   58.09  +1.74%     30  44.1  BEARISH  SMA50 MOM+1.74%
+AAPL   $  291.45  -1.36%     13  34.4  BEARISH  SMA50 DOWN-1.36%
+MSTR   $  123.76  +2.94%     10  29.2  BEARISH  MOM+2.94% LOW_LIQ
+NVDA   $  204.37  -0.24%      0  41.5  BEARISH  
+MSFT   $  387.07  -0.81%      0  37.7  BEARISH  
+AMZN   $  236.08  -2.21%      0  25.7  BEARISH  DOWN-2.21%
+GOOGL  $  361.04  +0.89%      0  34.9  BEARISH  LOW_LIQ
+META   $  569.12  +0.13%      0  36.4  BEARISH  LOW_LIQ
+TSLA   $  389.68  -2.38%      0  38.4  BEARISH  DOWN-2.38%
+PLTR   $  127.18  -2.95%      0  43.0  BEARISH  DOWN-2.95% LOW_LIQ
+COIN   $  159.37  -0.70%      0  35.9  BEARISH  LOW_LIQ
+CRM    $  164.31  -1.31%      0  40.4  BEARISH  DOWN-1.31% LOW_LIQ
+SMCI   $   30.23  -5.41%      0  44.0  BEARISH  DOWN-5.41%
+NFLX   $   80.31  -1.16%      0  14.1  BEARISH  DOWN-1.16%
+UBER   $   68.05  -2.12%      0  37.7  BEARISH  DOWN-2.12%
+SHOP   $  107.98  -2.21%      0  55.1  BEARISH  RSI_55.1 DOWN-2.21% LOW_LIQ
+GLD    $  386.62  +0.09%      0  32.7  BEARISH  LOW_LIQ
+SOXS   $    4.80  -3.42%      0  34.0  BEARISH  DOWN-3.42%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:02
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:07
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (113ms)
+  OK  UW News:        25 articles  (100ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (122ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1563ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1859ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  113ms
+  🟢  uw_news            healthy        25 items  100ms
+  🟢  massive_news       healthy        50 items  122ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1563ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1859ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:07:15
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1607.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  509.44  +4.30%     90  56.9  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  368.69  +7.60%     90  59.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.19  +1.08%     90  62.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.02  +0.45%     80  53.2  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  990.85  -0.52%     70  64.8  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  717.59  +0.13%     60  49.8  NEUTRAL  SMA50 EMA_STACK RSI_49.8
+TLT    $   85.67  -0.34%     50  59.9  NEUTRAL  SMA20 EMA_STACK RSI_59.9
+NOW    $  100.54  -2.47%     45  49.0  NEUTRAL  SMA50 EMA_STACK RSI_49.0
+SPY    $  739.19  +0.21%     40  45.1  NEUTRAL  SMA50 RSI_45.1
+XLE    $   58.12  +1.80%     30  43.9  BEARISH  SMA50 MOM+1.8%
+AAPL   $  290.93  -1.54%     13  34.0  BEARISH  SMA50 DOWN-1.54%
+MSTR   $  123.77  +2.94%     10  29.2  BEARISH  MOM+2.94% LOW_LIQ
+NVDA   $  204.71  -0.07%      0  41.6  BEARISH  
+MSFT   $  386.90  -0.86%      0  37.7  BEARISH  
+AMZN   $  235.88  -2.29%      0  25.7  BEARISH  DOWN-2.29%
+GOOGL  $  360.75  +0.81%      0  34.7  BEARISH  
+META   $  569.06  +0.12%      0  36.5  BEARISH  LOW_LIQ
+TSLA   $  388.27  -2.74%      0  38.1  BEARISH  DOWN-2.74%
+PLTR   $  126.89  -3.17%      0  42.8  BEARISH  DOWN-3.17% LOW_LIQ
+COIN   $  159.05  -0.90%      0  35.7  BEARISH  LOW_LIQ
+CRM    $  164.32  -1.30%      0  40.4  BEARISH  DOWN-1.3% LOW_LIQ
+SMCI   $   30.25  -5.33%      0  44.0  BEARISH  DOWN-5.33%
+NFLX   $   80.27  -1.21%      0  14.0  BEARISH  DOWN-1.21%
+UBER   $   67.84  -2.42%      0  37.3  BEARISH  DOWN-2.42%
+SHOP   $  107.23  -2.88%      0  54.3  BEARISH  RSI_54.3 DOWN-2.88% LOW_LIQ
+GLD    $  386.46  +0.05%      0  32.6  BEARISH  LOW_LIQ
+SOXS   $    4.73  -4.83%      0  33.8  BEARISH  DOWN-4.83%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:07
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:12
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (126ms)
+  OK  UW News:        25 articles  (100ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (101ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1561ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1960ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  126ms
+  🟢  uw_news            healthy        25 items  100ms
+  🟢  massive_news       healthy        50 items  101ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1561ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1960ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:12:27
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1612.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  509.68  +4.35%     90  56.9  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  369.63  +7.87%     90  59.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.27  +1.23%     90  62.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.46  +0.69%     80  53.6  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  990.87  -0.52%     70  65.0  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  718.80  +0.30%     60  50.5  NEUTRAL  SMA50 EMA_STACK RSI_50.5
+TLT    $   85.64  -0.38%     50  59.6  NEUTRAL  SMA20 EMA_STACK RSI_59.6
+NOW    $  100.72  -2.29%     45  49.1  NEUTRAL  SMA50 EMA_STACK RSI_49.1
+SPY    $  740.12  +0.33%     40  46.1  NEUTRAL  SMA50 RSI_46.1
+XLE    $   58.12  +1.80%     30  44.1  BEARISH  SMA50 MOM+1.8%
+AAPL   $  291.45  -1.36%     13  34.3  BEARISH  SMA50 DOWN-1.36%
+GOOGL  $  361.52  +1.02%     10  35.6  BEARISH  MOM+1.02%
+MSTR   $  123.91  +3.07%     10  29.4  BEARISH  MOM+3.07% LOW_LIQ
+NVDA   $  204.81  -0.02%      0  41.8  BEARISH  
+MSFT   $  387.17  -0.79%      0  37.7  BEARISH  
+AMZN   $  236.28  -2.13%      0  25.8  BEARISH  DOWN-2.13%
+META   $  570.03  +0.29%      0  36.7  BEARISH  LOW_LIQ
+TSLA   $  388.18  -2.76%      0  38.0  BEARISH  DOWN-2.76%
+PLTR   $  127.48  -2.72%      0  43.2  BEARISH  DOWN-2.72% LOW_LIQ
+COIN   $  159.05  -0.90%      0  35.8  BEARISH  LOW_LIQ
+CRM    $  164.63  -1.12%      0  40.5  BEARISH  DOWN-1.12% LOW_LIQ
+SMCI   $   30.39  -4.91%      0  44.1  BEARISH  DOWN-4.91%
+NFLX   $   80.54  -0.87%      0  14.4  BEARISH  
+UBER   $   67.89  -2.35%      0  37.4  BEARISH  DOWN-2.35%
+SHOP   $  107.70  -2.46%      0  54.7  BEARISH  RSI_54.7 DOWN-2.46% LOW_LIQ
+GLD    $  386.89  +0.16%      0  33.0  BEARISH  LOW_LIQ
+SOXS   $    4.70  -5.43%      0  33.6  BEARISH  DOWN-5.43%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:12
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:17
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (141ms)
+  OK  UW News:        25 articles  (78ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (133ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1546ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1798ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  141ms
+  🟢  uw_news            healthy        25 items  78ms
+  🟢  massive_news       healthy        50 items  133ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1546ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1798ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:17:40
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1617.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  514.23  +5.29%     90  57.5  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  370.23  +8.05%     90  59.9  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.33  +1.34%     90  63.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.17  +1.08%     90  54.3  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  994.47  -0.16%     70  65.3  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.72  -0.29%     70  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.02  +0.61%     60  51.4  NEUTRAL  SMA50 EMA_STACK RSI_51.4
+NOW    $  101.13  -1.90%     53  49.5  NEUTRAL  SMA50 EMA_STACK RSI_49.5
+SPY    $  741.55  +0.53%     40  47.4  NEUTRAL  SMA50 RSI_47.4
+GOOGL  $  362.56  +1.31%     30  36.4  BEARISH  SMA50 MOM+1.31%
+XLE    $   57.98  +1.53%     30  43.7  BEARISH  SMA50 MOM+1.53%
+AAPL   $  291.97  -1.19%     13  34.7  BEARISH  SMA50 DOWN-1.19%
+MSTR   $  124.71  +3.73%     10  30.1  BEARISH  MOM+3.73% LOW_LIQ
+SHOP   $  108.38  -1.85%      3  55.4  BEARISH  RSI_55.4 DOWN-1.85% LOW_LIQ
+NVDA   $  205.50  +0.31%      0  42.5  BEARISH  
+MSFT   $  388.06  -0.56%      0  38.0  BEARISH  
+AMZN   $  236.80  -1.91%      0  26.0  BEARISH  DOWN-1.91%
+META   $  571.72  +0.59%      0  37.7  BEARISH  LOW_LIQ
+TSLA   $  389.65  -2.39%      0  38.5  BEARISH  DOWN-2.39%
+PLTR   $  128.33  -2.07%      0  43.8  BEARISH  DOWN-2.07% LOW_LIQ
+COIN   $  160.29  -0.12%      0  36.2  BEARISH  LOW_LIQ
+CRM    $  165.09  -0.84%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.54  -4.44%      0  44.3  BEARISH  DOWN-4.44%
+NFLX   $   80.75  -0.62%      0  14.7  BEARISH  
+UBER   $   67.94  -2.27%      0  37.6  BEARISH  DOWN-2.27%
+GLD    $  387.89  +0.42%      0  34.0  BEARISH  LOW_LIQ
+SOXS   $    4.62  -7.04%      0  33.3  BEARISH  DOWN-7.04%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:17
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:22
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (162ms)
+  OK  UW News:        25 articles  (99ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (100ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1523ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1901ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  162ms
+  🟢  uw_news            healthy        25 items  99ms
+  🟢  massive_news       healthy        50 items  100ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1523ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1901ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:22:53
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1622.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  512.70  +4.97%     90  57.2  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  369.16  +7.74%     90  59.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.26  +1.22%     90  62.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.84  +0.90%     80  53.8  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  991.90  -0.41%     70  64.9  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.73  -0.28%     70  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  719.93  +0.46%     60  50.8  NEUTRAL  SMA50 EMA_STACK RSI_50.8
+NOW    $  101.09  -1.94%     53  49.3  NEUTRAL  SMA50 EMA_STACK RSI_49.3
+SPY    $  740.68  +0.41%     40  46.3  NEUTRAL  SMA50 RSI_46.3
+XLE    $   58.09  +1.73%     30  43.9  BEARISH  SMA50 MOM+1.73%
+AAPL   $  291.61  -1.31%     13  34.5  BEARISH  SMA50 DOWN-1.31%
+MSTR   $  124.32  +3.41%     10  29.6  BEARISH  MOM+3.41% LOW_LIQ
+SHOP   $  108.24  -1.97%      3  54.9  BEARISH  RSI_54.9 DOWN-1.97% LOW_LIQ
+NVDA   $  205.10  +0.12%      0  41.9  BEARISH  
+MSFT   $  387.91  -0.60%      0  37.8  BEARISH  
+AMZN   $  236.38  -2.09%      0  25.8  BEARISH  DOWN-2.09%
+GOOGL  $  361.44  +1.00%      0  35.5  BEARISH  
+META   $  570.75  +0.41%      0  36.9  BEARISH  LOW_LIQ
+TSLA   $  392.06  -1.78%      0  38.7  BEARISH  DOWN-1.78%
+PLTR   $  128.31  -2.08%      0  43.7  BEARISH  DOWN-2.08% LOW_LIQ
+COIN   $  160.13  -0.22%      0  36.1  BEARISH  LOW_LIQ
+CRM    $  164.78  -1.03%      0  40.6  BEARISH  DOWN-1.03% LOW_LIQ
+SMCI   $   30.48  -4.63%      0  44.2  BEARISH  DOWN-4.63%
+NFLX   $   80.70  -0.68%      0  14.6  BEARISH  
+UBER   $   67.86  -2.39%      0  37.2  BEARISH  DOWN-2.39%
+GLD    $  387.61  +0.35%      0  33.5  BEARISH  LOW_LIQ
+SOXS   $    4.66  -6.24%      0  33.5  BEARISH  DOWN-6.24%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:22
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:28
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (101ms)
+  OK  UW News:        25 articles  (97ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (100ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (3082ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1799ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  101ms
+  🟢  uw_news            healthy        25 items  97ms
+  🟢  massive_news       healthy        50 items  100ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  3082ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1799ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:28:06
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1628.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  512.01  +4.83%     90  57.3  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  368.90  +7.66%     90  59.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.24  +1.19%     90  62.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.51  +0.72%     80  53.7  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  987.80  -0.83%     70  64.7  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.69  -0.33%     70  60.1  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  719.53  +0.40%     60  50.8  NEUTRAL  SMA50 EMA_STACK RSI_50.8
+NOW    $  101.41  -1.63%     53  49.5  NEUTRAL  SMA50 EMA_STACK RSI_49.5
+SPY    $  740.36  +0.36%     40  46.3  NEUTRAL  SMA50 RSI_46.3
+XLE    $   58.00  +1.58%     30  43.5  BEARISH  SMA50 MOM+1.58%
+AAPL   $  291.56  -1.32%     13  34.5  BEARISH  SMA50 DOWN-1.32%
+GOOGL  $  361.61  +1.05%     10  35.4  BEARISH  MOM+1.05%
+MSTR   $  124.51  +3.56%     10  29.9  BEARISH  MOM+3.56% LOW_LIQ
+SHOP   $  108.36  -1.87%      3  55.3  BEARISH  RSI_55.3 DOWN-1.87% LOW_LIQ
+NVDA   $  204.87  +0.00%      0  41.8  BEARISH  
+MSFT   $  388.13  -0.54%      0  38.0  BEARISH  
+AMZN   $  236.57  -2.01%      0  26.0  BEARISH  DOWN-2.01%
+META   $  571.85  +0.61%      0  37.5  BEARISH  LOW_LIQ
+TSLA   $  395.13  -1.02%      0  39.8  BEARISH  DOWN-1.02%
+PLTR   $  128.12  -2.23%      0  43.7  BEARISH  DOWN-2.23% LOW_LIQ
+COIN   $  160.33  -0.10%      0  36.2  BEARISH  LOW_LIQ
+CRM    $  164.79  -1.02%      0  40.7  BEARISH  DOWN-1.02% LOW_LIQ
+SMCI   $   30.61  -4.22%      0  44.3  BEARISH  DOWN-4.22%
+NFLX   $   80.75  -0.61%      0  14.7  BEARISH  
+UBER   $   67.81  -2.47%      0  37.3  BEARISH  DOWN-2.47%
+GLD    $  387.15  +0.23%      0  33.1  BEARISH  LOW_LIQ
+SOXS   $    4.69  -5.63%      0  33.6  BEARISH  DOWN-5.63%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:28
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:33
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (101ms)
+  OK  UW News:        25 articles  (97ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (100ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1487ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1799ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  101ms
+  🟢  uw_news            healthy        25 items  97ms
+  🟢  massive_news       healthy        50 items  100ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1487ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1799ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:33:20
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1633.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  512.69  +4.97%     90  57.3  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  369.20  +7.75%     90  59.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.26  +1.22%     90  62.8  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.70  +0.82%     80  53.7  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  992.41  -0.36%     70  65.0  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.70  -0.31%     70  60.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  720.07  +0.48%     60  50.9  NEUTRAL  SMA50 EMA_STACK RSI_50.9
+NOW    $  101.52  -1.52%     53  49.6  NEUTRAL  SMA50 EMA_STACK RSI_49.6
+SPY    $  740.64  +0.40%     40  46.4  NEUTRAL  SMA50 RSI_46.4
+XLE    $   58.05  +1.66%     30  43.8  BEARISH  SMA50 MOM+1.66%
+AAPL   $  291.46  -1.36%     13  34.4  BEARISH  SMA50 DOWN-1.36%
+MSTR   $  124.21  +3.31%     10  29.6  BEARISH  MOM+3.31% LOW_LIQ
+SHOP   $  108.48  -1.76%      3  55.5  BEARISH  RSI_55.5 DOWN-1.76% LOW_LIQ
+NVDA   $  204.89  +0.01%      0  41.8  BEARISH  
+MSFT   $  387.86  -0.61%      0  37.9  BEARISH  
+AMZN   $  236.21  -2.16%      0  25.8  BEARISH  DOWN-2.16%
+GOOGL  $  361.21  +0.93%      0  35.0  BEARISH  
+META   $  570.67  +0.40%      0  37.1  BEARISH  LOW_LIQ
+TSLA   $  395.52  -0.92%      0  40.0  BEARISH  
+PLTR   $  127.95  -2.36%      0  43.6  BEARISH  DOWN-2.36% LOW_LIQ
+COIN   $  160.28  -0.13%      0  36.2  BEARISH  LOW_LIQ
+CRM    $  164.87  -0.98%      0  40.6  BEARISH  LOW_LIQ
+SMCI   $   30.59  -4.29%      0  44.3  BEARISH  DOWN-4.29%
+NFLX   $   80.70  -0.68%      0  14.6  BEARISH  
+UBER   $   68.03  -2.15%      0  37.9  BEARISH  DOWN-2.15%
+GLD    $  387.06  +0.21%      0  33.1  BEARISH  LOW_LIQ
+SOXS   $    4.67  -6.04%      0  33.5  BEARISH  DOWN-6.04%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:33
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:38
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (99ms)
+  OK  UW News:        25 articles  (99ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (100ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1490ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1799ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  99ms
+  🟢  uw_news            healthy        25 items  99ms
+  🟢  massive_news       healthy        50 items  100ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1490ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1799ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:38:32
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1638.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  511.74  +4.78%     90  57.3  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  370.39  +8.10%     90  59.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.25  +1.20%     90  62.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.87  +0.92%     80  53.9  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  993.96  -0.21%     70  65.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  720.41  +0.53%     60  51.1  NEUTRAL  SMA50 EMA_STACK RSI_51.1
+NOW    $  101.56  -1.48%     53  49.7  NEUTRAL  SMA50 EMA_STACK RSI_49.7
+TLT    $   85.68  -0.34%     50  59.9  NEUTRAL  SMA20 EMA_STACK RSI_59.9
+SPY    $  740.84  +0.43%     40  46.5  NEUTRAL  SMA50 RSI_46.5
+XLE    $   58.01  +1.58%     30  43.4  BEARISH  SMA50 MOM+1.58%
+AAPL   $  291.04  -1.50%     13  34.2  BEARISH  SMA50 DOWN-1.5%
+MSTR   $  124.71  +3.73%     10  30.1  BEARISH  MOM+3.73% LOW_LIQ
+SHOP   $  108.46  -1.78%      3  55.4  BEARISH  RSI_55.4 DOWN-1.78% LOW_LIQ
+NVDA   $  204.89  +0.01%      0  41.8  BEARISH  
+MSFT   $  387.57  -0.69%      0  37.9  BEARISH  
+AMZN   $  236.26  -2.14%      0  25.8  BEARISH  DOWN-2.14%
+GOOGL  $  361.40  +0.99%      0  35.2  BEARISH  
+META   $  570.75  +0.42%      0  37.1  BEARISH  LOW_LIQ
+TSLA   $  396.00  -0.80%      0  40.1  BEARISH  
+PLTR   $  128.12  -2.23%      0  43.6  BEARISH  DOWN-2.23% LOW_LIQ
+COIN   $  160.57  +0.05%      0  36.1  BEARISH  LOW_LIQ
+CRM    $  164.90  -0.96%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.58  -4.32%      0  44.4  BEARISH  DOWN-4.32%
+NFLX   $   80.72  -0.65%      0  14.6  BEARISH  
+UBER   $   68.08  -2.09%      0  37.9  BEARISH  DOWN-2.09%
+GLD    $  386.84  +0.15%      0  32.9  BEARISH  LOW_LIQ
+SOXS   $    4.64  -6.64%      0  33.4  BEARISH  DOWN-6.64%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:38
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:43
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (101ms)
+  OK  UW News:        25 articles  (97ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (100ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1573ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1795ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  101ms
+  🟢  uw_news            healthy        25 items  97ms
+  🟢  massive_news       healthy        50 items  100ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1573ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1795ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:43:44
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1643.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  510.96  +4.62%     90  57.2  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  370.39  +8.10%     90  59.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.26  +1.22%     90  62.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.78  +0.87%     80  53.8  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  991.21  -0.48%     70  65.0  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  719.90  +0.46%     60  50.9  NEUTRAL  SMA50 EMA_STACK RSI_50.9
+NOW    $  101.49  -1.55%     53  49.6  NEUTRAL  SMA50 EMA_STACK RSI_49.6
+TLT    $   85.67  -0.35%     50  59.8  NEUTRAL  SMA20 EMA_STACK RSI_59.8
+SPY    $  740.48  +0.38%     40  46.3  NEUTRAL  SMA50 RSI_46.3
+XLE    $   58.02  +1.61%     30  43.6  BEARISH  SMA50 MOM+1.61%
+AAPL   $  290.97  -1.53%     13  34.1  BEARISH  SMA50 DOWN-1.53%
+MSTR   $  124.94  +3.93%     10  30.2  BEARISH  MOM+3.93% LOW_LIQ
+SHOP   $  108.52  -1.72%      3  55.5  BEARISH  RSI_55.5 DOWN-1.72% LOW_LIQ
+NVDA   $  204.59  -0.13%      0  41.5  BEARISH  
+MSFT   $  387.62  -0.68%      0  37.8  BEARISH  
+AMZN   $  236.03  -2.23%      0  25.7  BEARISH  DOWN-2.23%
+GOOGL  $  361.05  +0.89%      0  34.9  BEARISH  
+META   $  570.30  +0.34%      0  36.9  BEARISH  LOW_LIQ
+TSLA   $  396.19  -0.75%      0  39.9  BEARISH  
+PLTR   $  128.03  -2.30%      0  43.5  BEARISH  DOWN-2.3% LOW_LIQ
+COIN   $  160.59  +0.06%      0  36.3  BEARISH  LOW_LIQ
+CRM    $  164.81  -1.01%      0  40.7  BEARISH  DOWN-1.01% LOW_LIQ
+SMCI   $   30.53  -4.47%      0  44.3  BEARISH  DOWN-4.47%
+NFLX   $   80.75  -0.61%      0  14.7  BEARISH  
+UBER   $   68.00  -2.19%      0  37.8  BEARISH  DOWN-2.19%
+GLD    $  386.81  +0.14%      0  33.0  BEARISH  LOW_LIQ
+SOXS   $    4.65  -6.44%      0  33.5  BEARISH  DOWN-6.44%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:43
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:48
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (161ms)
+  OK  UW News:        25 articles  (99ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (100ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1489ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1794ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  161ms
+  🟢  uw_news            healthy        25 items  99ms
+  🟢  massive_news       healthy        50 items  100ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1489ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1794ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:48:55
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1648.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  511.30  +4.69%     90  57.2  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  371.67  +8.47%     90  59.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.27  +1.24%     90  62.8  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  996.74  +0.07%     80  65.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.99  +0.98%     80  54.0  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.70  -0.31%     70  60.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  720.94  +0.60%     60  51.3  NEUTRAL  SMA50 EMA_STACK RSI_51.3
+NOW    $  101.53  -1.52%     53  49.7  NEUTRAL  SMA50 EMA_STACK RSI_49.7
+SPY    $  741.17  +0.47%     40  46.8  NEUTRAL  SMA50 RSI_46.8
+AAPL   $  291.35  -1.40%     13  34.3  BEARISH  SMA50 DOWN-1.4%
+MSTR   $  125.41  +4.31%     10  30.4  BEARISH  MOM+4.31% LOW_LIQ
+XLE    $   57.80  +1.23%     10  42.6  BEARISH  MOM+1.23%
+SHOP   $  108.61  -1.63%      3  55.7  BEARISH  RSI_55.7 DOWN-1.63% LOW_LIQ
+NVDA   $  204.76  -0.05%      0  41.7  BEARISH  
+MSFT   $  387.58  -0.69%      0  37.9  BEARISH  
+AMZN   $  235.98  -2.25%      0  25.8  BEARISH  DOWN-2.25%
+GOOGL  $  361.27  +0.95%      0  35.2  BEARISH  
+META   $  570.82  +0.43%      0  37.1  BEARISH  LOW_LIQ
+TSLA   $  397.98  -0.30%      0  40.4  BEARISH  
+PLTR   $  128.01  -2.32%      0  43.6  BEARISH  DOWN-2.32% LOW_LIQ
+COIN   $  161.05  +0.35%      0  36.5  BEARISH  LOW_LIQ
+CRM    $  165.18  -0.79%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.55  -4.43%      0  44.5  BEARISH  DOWN-4.43%
+NFLX   $   80.80  -0.56%      0  14.7  BEARISH  
+UBER   $   68.10  -2.05%      0  37.9  BEARISH  DOWN-2.05%
+GLD    $  386.83  +0.15%      0  32.9  BEARISH  LOW_LIQ
+SOXS   $    4.63  -6.84%      0  33.4  BEARISH  DOWN-6.84%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:48
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:54
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (148ms)
+  OK  UW News:        25 articles  (65ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (200ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (2512ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1780ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  148ms
+  🟢  uw_news            healthy        25 items  65ms
+  🟢  massive_news       healthy        50 items  200ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  2512ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1780ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:54:07
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1654.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  371.83  +8.52%     97  59.8  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  513.56  +5.15%     90  57.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.23  +1.17%     90  62.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.17  +1.08%     90  54.1  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.47  +0.68%     80  51.6  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $ 1001.79  +0.58%     80  65.7  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.72  -0.29%     70  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.32  -1.72%     53  49.5  NEUTRAL  SMA50 EMA_STACK RSI_49.5
+SPY    $  741.26  +0.49%     40  47.1  NEUTRAL  SMA50 RSI_47.1
+TSLA   $  398.31  -0.22%     20  40.8  BEARISH  SMA50
+AAPL   $  291.42  -1.37%     13  34.4  BEARISH  SMA50 DOWN-1.37%
+MSTR   $  125.43  +4.33%     10  30.5  BEARISH  MOM+4.33% LOW_LIQ
+XLE    $   57.70  +1.06%     10  41.9  BEARISH  MOM+1.06%
+SHOP   $  108.42  -1.81%      3  55.4  BEARISH  RSI_55.4 DOWN-1.81% LOW_LIQ
+NVDA   $  204.90  +0.02%      0  41.9  BEARISH  
+MSFT   $  387.30  -0.76%      0  37.8  BEARISH  
+AMZN   $  236.45  -2.06%      0  25.9  BEARISH  DOWN-2.06%
+GOOGL  $  361.36  +0.97%      0  35.3  BEARISH  
+META   $  570.68  +0.40%      0  37.1  BEARISH  LOW_LIQ
+PLTR   $  127.94  -2.37%      0  43.5  BEARISH  DOWN-2.37% LOW_LIQ
+COIN   $  160.70  +0.13%      0  36.4  BEARISH  LOW_LIQ
+CRM    $  165.00  -0.89%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.42  -4.82%      0  44.2  BEARISH  DOWN-4.82%
+NFLX   $   80.80  -0.55%      0  14.7  BEARISH  
+UBER   $   68.08  -2.09%      0  37.9  BEARISH  DOWN-2.09%
+GLD    $  386.93  +0.17%      0  32.9  BEARISH  LOW_LIQ
+SOXS   $    4.61  -7.34%      0  33.3  BEARISH  DOWN-7.34%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:54
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 16:59
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (455ms)
+  OK  UW News:        25 articles  (98ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (136ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1533ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1676ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  455ms
+  🟢  uw_news            healthy        25 items  98ms
+  🟢  massive_news       healthy        50 items  136ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1533ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1676ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 16:59:19
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1659.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  372.51  +8.71%     97  59.9  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  513.59  +5.16%     90  57.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.22  +1.13%     90  62.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.14  +1.06%     90  54.1  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.61  +0.69%     80  51.5  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $ 1000.20  +0.42%     80  65.6  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.54  -1.50%     53  49.6  NEUTRAL  SMA50 EMA_STACK RSI_49.6
+TLT    $   85.68  -0.34%     50  59.9  NEUTRAL  SMA20 EMA_STACK RSI_59.9
+SPY    $  741.37  +0.50%     40  46.9  NEUTRAL  SMA50 RSI_46.9
+TSLA   $  398.59  -0.15%     20  40.8  BEARISH  SMA50
+AAPL   $  290.95  -1.53%     13  34.1  BEARISH  SMA50 DOWN-1.53%
+GOOGL  $  361.81  +1.10%     10  35.4  BEARISH  MOM+1.1%
+MSTR   $  125.48  +4.38%     10  30.6  BEARISH  MOM+4.38% LOW_LIQ
+XLE    $   57.76  +1.15%     10  42.2  BEARISH  MOM+1.15%
+SHOP   $  108.47  -1.77%      3  55.5  BEARISH  RSI_55.5 DOWN-1.77% LOW_LIQ
+NVDA   $  204.94  +0.04%      0  41.9  BEARISH  
+MSFT   $  387.76  -0.64%      0  37.9  BEARISH  
+AMZN   $  236.68  -1.96%      0  26.0  BEARISH  DOWN-1.96%
+META   $  570.00  +0.28%      0  36.9  BEARISH  LOW_LIQ
+PLTR   $  128.07  -2.27%      0  43.6  BEARISH  DOWN-2.27% LOW_LIQ
+COIN   $  160.84  +0.21%      0  36.5  BEARISH  LOW_LIQ
+CRM    $  165.17  -0.79%      0  40.9  BEARISH  LOW_LIQ
+SMCI   $   30.45  -4.71%      0  44.2  BEARISH  DOWN-4.71%
+NFLX   $   80.84  -0.50%      0  14.7  BEARISH  
+UBER   $   68.12  -2.02%      0  37.9  BEARISH  DOWN-2.02%
+GLD    $  387.09  +0.21%      0  33.1  BEARISH  LOW_LIQ
+SOXS   $    4.61  -7.24%      0  33.4  BEARISH  DOWN-7.24%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 16:59
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:04
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (151ms)
+  OK  UW News:        25 articles  (71ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (101ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1582ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1707ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  151ms
+  🟢  uw_news            healthy        25 items  71ms
+  🟢  massive_news       healthy        50 items  101ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1582ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1707ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:04:30
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1704.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  377.22 +10.09%     97  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  515.65  +5.58%     90  57.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.21  +1.12%     90  62.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.29  +1.15%     90  54.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.15  +0.77%     80  51.7  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  998.35  +0.23%     80  65.5  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.58  -1.46%     53  49.6  NEUTRAL  SMA50 EMA_STACK RSI_49.6
+TLT    $   85.68  -0.34%     50  59.8  NEUTRAL  SMA20 EMA_STACK RSI_59.8
+SPY    $  741.90  +0.57%     40  47.3  NEUTRAL  SMA50 RSI_47.3
+GOOGL  $  362.61  +1.32%     30  36.0  BEARISH  SMA50 MOM+1.32%
+TSLA   $  400.24  +0.26%     20  41.2  BEARISH  SMA50
+AAPL   $  291.32  -1.41%     13  34.3  BEARISH  SMA50 DOWN-1.41%
+MSTR   $  125.22  +4.15%     10  30.3  BEARISH  MOM+4.15% LOW_LIQ
+XLE    $   57.73  +1.09%     10  42.1  BEARISH  MOM+1.09%
+SHOP   $  108.66  -1.60%      3  55.7  BEARISH  RSI_55.7 DOWN-1.6% LOW_LIQ
+NVDA   $  205.15  +0.14%      0  42.0  BEARISH  
+MSFT   $  388.13  -0.54%      0  38.0  BEARISH  
+AMZN   $  237.00  -1.83%      0  26.1  BEARISH  DOWN-1.83%
+META   $  571.35  +0.52%      0  37.2  BEARISH  LOW_LIQ
+PLTR   $  128.12  -2.23%      0  43.6  BEARISH  DOWN-2.23%
+COIN   $  160.66  +0.11%      0  36.4  BEARISH  LOW_LIQ
+CRM    $  165.28  -0.73%      0  40.9  BEARISH  LOW_LIQ
+SMCI   $   30.52  -4.51%      0  44.3  BEARISH  DOWN-4.51%
+NFLX   $   80.97  -0.35%      0  14.9  BEARISH  
+UBER   $   68.16  -1.96%      0  38.0  BEARISH  DOWN-1.96%
+GLD    $  387.32  +0.27%      0  33.2  BEARISH  LOW_LIQ
+SOXS   $    4.62  -7.14%      0  33.3  BEARISH  DOWN-7.14%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:04
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:09
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (184ms)
+  OK  UW News:        25 articles  (131ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (101ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1584ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1963ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  184ms
+  🟢  uw_news            healthy        25 items  131ms
+  🟢  massive_news       healthy        50 items  101ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1584ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1963ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:09:43
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1709.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  376.88  +9.99%     97  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  517.31  +5.92%     90  57.9  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.24  +1.18%     90  62.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.48  +1.25%     90  54.3  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  723.23  +0.92%     80  52.0  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $ 1001.62  +0.56%     80  65.6  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.72  -0.28%     70  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.83  -1.22%     53  49.8  NEUTRAL  SMA50 EMA_STACK RSI_49.8
+SPY    $  742.38  +0.64%     40  47.6  NEUTRAL  SMA50 RSI_47.6
+GOOGL  $  362.93  +1.41%     30  36.4  BEARISH  SMA50 MOM+1.41%
+TSLA   $  404.50  +1.33%     30  42.9  BEARISH  SMA50 MOM+1.33%
+AAPL   $  291.47  -1.36%     13  34.3  BEARISH  SMA50 DOWN-1.36%
+MSTR   $  125.19  +4.13%     10  30.4  BEARISH  MOM+4.13% LOW_LIQ
+SHOP   $  108.91  -1.37%      3  56.1  BEARISH  RSI_56.1 DOWN-1.37% LOW_LIQ
+NVDA   $  205.24  +0.19%      0  42.0  BEARISH  
+MSFT   $  388.26  -0.51%      0  38.1  BEARISH  
+AMZN   $  237.33  -1.69%      0  26.2  BEARISH  DOWN-1.69%
+META   $  571.35  +0.52%      0  37.3  BEARISH  LOW_LIQ
+PLTR   $  128.39  -2.03%      0  43.8  BEARISH  DOWN-2.03%
+COIN   $  160.77  +0.17%      0  36.5  BEARISH  LOW_LIQ
+CRM    $  165.12  -0.82%      0  40.9  BEARISH  LOW_LIQ
+SMCI   $   30.61  -4.21%      0  44.4  BEARISH  DOWN-4.21%
+NFLX   $   81.06  -0.23%      0  15.1  BEARISH  
+UBER   $   68.20  -1.91%      0  38.3  BEARISH  DOWN-1.91%
+XLE    $   57.66  +0.97%      0  41.8  BEARISH  
+GLD    $  387.48  +0.32%      0  33.3  BEARISH  LOW_LIQ
+SOXS   $    4.59  -7.65%      0  33.3  BEARISH  DOWN-7.65%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:09
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:14
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (99ms)
+  OK  UW News:        25 articles  (99ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (199ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1591ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1757ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  99ms
+  🟢  uw_news            healthy        25 items  99ms
+  🟢  massive_news       healthy        50 items  199ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1591ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1757ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:14:54
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1714.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  377.23 +10.09%     97  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  515.38  +5.52%     90  57.8  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.23  +1.17%     90  62.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.22  +1.11%     90  54.1  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.36  +0.80%     80  51.6  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $ 1000.53  +0.45%     80  65.5  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.71  -0.30%     70  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  102.03  -1.03%     53  49.8  NEUTRAL  SMA50 EMA_STACK RSI_49.8
+SPY    $  741.83  +0.56%     40  47.0  NEUTRAL  SMA50 RSI_47.0
+TSLA   $  399.99  +0.20%     20  41.5  BEARISH  SMA50
+AAPL   $  291.43  -1.37%     13  34.3  BEARISH  SMA50 DOWN-1.37%
+GOOGL  $  362.05  +1.17%     10  35.8  BEARISH  MOM+1.17%
+MSTR   $  124.14  +3.26%     10  29.6  BEARISH  MOM+3.26% LOW_LIQ
+XLE    $   57.75  +1.14%     10  42.3  BEARISH  MOM+1.14%
+SHOP   $  108.63  -1.62%      3  55.6  BEARISH  RSI_55.6 DOWN-1.62% LOW_LIQ
+NVDA   $  204.85  -0.00%      0  41.7  BEARISH  
+MSFT   $  387.96  -0.59%      0  37.9  BEARISH  
+AMZN   $  237.13  -1.78%      0  26.1  BEARISH  DOWN-1.78%
+META   $  568.51  +0.02%      0  36.2  BEARISH  LOW_LIQ
+PLTR   $  128.13  -2.22%      0  43.6  BEARISH  DOWN-2.22%
+COIN   $  159.69  -0.50%      0  36.0  BEARISH  LOW_LIQ
+CRM    $  165.04  -0.87%      0  40.7  BEARISH  LOW_LIQ
+SMCI   $   30.43  -4.79%      0  44.2  BEARISH  DOWN-4.79%
+NFLX   $   80.83  -0.52%      0  14.7  BEARISH  
+UBER   $   68.15  -1.98%      0  38.0  BEARISH  DOWN-1.98%
+GLD    $  386.96  +0.18%      0  33.0  BEARISH  LOW_LIQ
+SOXS   $    4.61  -7.24%      0  33.4  BEARISH  DOWN-7.24%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:14
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:20
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (45ms)
+  OK  UW News:        25 articles  (87ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (202ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (3080ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1904ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  45ms
+  🟢  uw_news            healthy        25 items  87ms
+  🟢  massive_news       healthy        50 items  202ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  3080ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1904ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:20:07
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1720.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  378.43 +10.44%     97  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  517.64  +5.98%     90  58.0  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.26  +1.21%     90  62.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.55  +1.29%     90  54.5  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  723.39  +0.94%     80  52.2  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $ 1002.96  +0.70%     80  65.7  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.74  -0.27%     70  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.83  -1.23%     53  49.8  NEUTRAL  SMA50 EMA_STACK RSI_49.8
+SPY    $  742.55  +0.66%     40  47.9  NEUTRAL  SMA50 RSI_47.9
+GOOGL  $  362.79  +1.37%     30  36.4  BEARISH  SMA50 MOM+1.37%
+TSLA   $  399.95  +0.19%     20  41.4  BEARISH  SMA50
+AAPL   $  291.97  -1.19%     13  34.7  BEARISH  SMA50 DOWN-1.19%
+MSTR   $  124.08  +3.21%     10  29.6  BEARISH  MOM+3.21% LOW_LIQ
+XLE    $   57.76  +1.16%     10  42.3  BEARISH  MOM+1.16%
+SHOP   $  108.74  -1.52%      3  55.8  BEARISH  RSI_55.8 DOWN-1.52% LOW_LIQ
+NVDA   $  205.24  +0.19%      0  42.1  BEARISH  
+MSFT   $  388.04  -0.57%      0  38.0  BEARISH  
+AMZN   $  237.32  -1.70%      0  26.3  BEARISH  DOWN-1.7%
+META   $  568.77  +0.07%      0  36.2  BEARISH  LOW_LIQ
+PLTR   $  128.07  -2.27%      0  43.6  BEARISH  DOWN-2.27%
+COIN   $  159.86  -0.39%      0  36.0  BEARISH  LOW_LIQ
+CRM    $  165.03  -0.88%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.61  -4.21%      0  44.4  BEARISH  DOWN-4.21%
+NFLX   $   80.92  -0.41%      0  14.9  BEARISH  
+UBER   $   68.13  -2.01%      0  38.1  BEARISH  DOWN-2.01%
+GLD    $  387.17  +0.24%      0  33.1  BEARISH  LOW_LIQ
+SOXS   $    4.57  -8.05%      0  33.2  BEARISH  DOWN-8.05%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:20
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:25
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (138ms)
+  OK  UW News:        25 articles  (68ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (101ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1706ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1739ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  138ms
+  🟢  uw_news            healthy        25 items  68ms
+  🟢  massive_news       healthy        50 items  101ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1706ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1739ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:25:21
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1725.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  377.69 +10.22%     97  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  519.13  +6.29%     90  58.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.26  +1.21%     90  62.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.66  +1.35%     90  54.5  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  723.46  +0.95%     80  52.2  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $ 1001.95  +0.60%     80  65.7  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.71  -0.30%     70  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.91  -1.14%     53  49.9  NEUTRAL  SMA50 EMA_STACK RSI_49.9
+SPY    $  742.50  +0.65%     40  47.8  NEUTRAL  SMA50 RSI_47.8
+GOOGL  $  362.87  +1.40%     30  36.6  BEARISH  SMA50 MOM+1.4%
+TSLA   $  400.30  +0.28%     20  41.4  BEARISH  SMA50
+AAPL   $  291.87  -1.22%     13  34.7  BEARISH  SMA50 DOWN-1.22%
+MSTR   $  123.50  +2.72%     10  29.0  BEARISH  MOM+2.72% LOW_LIQ
+XLE    $   57.70  +1.06%     10  42.0  BEARISH  MOM+1.06%
+SHOP   $  108.60  -1.65%      3  55.6  BEARISH  RSI_55.6 DOWN-1.65% LOW_LIQ
+NVDA   $  205.07  +0.10%      0  41.9  BEARISH  
+MSFT   $  387.91  -0.60%      0  38.0  BEARISH  
+AMZN   $  237.13  -1.78%      0  26.2  BEARISH  DOWN-1.78%
+META   $  567.69  -0.12%      0  35.9  BEARISH  LOW_LIQ
+PLTR   $  128.16  -2.20%      0  43.7  BEARISH  DOWN-2.2%
+COIN   $  159.72  -0.48%      0  36.0  BEARISH  LOW_LIQ
+CRM    $  165.15  -0.80%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.52  -4.49%      0  44.3  BEARISH  DOWN-4.49%
+NFLX   $   80.86  -0.48%      0  14.8  BEARISH  
+UBER   $   68.05  -2.13%      0  37.8  BEARISH  DOWN-2.13%
+GLD    $  387.41  +0.30%      0  33.4  BEARISH  LOW_LIQ
+SOXS   $    4.56  -8.25%      0  33.1  BEARISH  DOWN-8.25%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:25
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:30
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (302ms)
+  OK  UW News:        25 articles  (73ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (200ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1665ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1765ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  302ms
+  🟢  uw_news            healthy        25 items  73ms
+  🟢  massive_news       healthy        50 items  200ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1665ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1765ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:30:33
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1730.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  376.79  +9.96%     97  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  518.14  +6.09%     90  58.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.20  +1.10%     90  62.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.37  +1.19%     90  54.5  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.75  +0.85%     80  52.1  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $ 1000.53  +0.45%     80  65.6  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.72  -0.30%     70  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.79  -1.26%     53  49.8  NEUTRAL  SMA50 EMA_STACK RSI_49.8
+SPY    $  741.92  +0.58%     40  47.6  NEUTRAL  SMA50 RSI_47.6
+GOOGL  $  362.56  +1.31%     30  36.5  BEARISH  SMA50 MOM+1.31%
+TSLA   $  401.92  +0.68%     20  42.0  BEARISH  SMA50
+AAPL   $  291.38  -1.39%     13  34.4  BEARISH  SMA50 DOWN-1.39%
+MSTR   $  123.40  +2.64%     10  29.0  BEARISH  MOM+2.64% LOW_LIQ
+SHOP   $  108.50  -1.74%      3  55.5  BEARISH  RSI_55.5 DOWN-1.74% LOW_LIQ
+NVDA   $  204.85  -0.00%      0  42.0  BEARISH  
+MSFT   $  388.06  -0.56%      0  38.1  BEARISH  
+AMZN   $  236.97  -1.84%      0  26.1  BEARISH  DOWN-1.84%
+META   $  567.62  -0.14%      0  36.0  BEARISH  LOW_LIQ
+PLTR   $  128.00  -2.32%      0  43.6  BEARISH  DOWN-2.32%
+COIN   $  159.62  -0.54%      0  35.9  BEARISH  LOW_LIQ
+CRM    $  165.12  -0.82%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.52  -4.51%      0  44.3  BEARISH  DOWN-4.51%
+NFLX   $   80.84  -0.50%      0  14.8  BEARISH  
+UBER   $   68.00  -2.19%      0  37.8  BEARISH  DOWN-2.19%
+XLE    $   57.59  +0.87%      0  41.4  BEARISH  
+GLD    $  387.15  +0.23%      0  33.2  BEARISH  LOW_LIQ
+SOXS   $    4.58  -7.85%      0  33.2  BEARISH  DOWN-7.85%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:30
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:35
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (160ms)
+  OK  UW News:        25 articles  (86ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (202ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1462ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1860ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  160ms
+  🟢  uw_news            healthy        25 items  86ms
+  🟢  massive_news       healthy        50 items  202ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1462ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1860ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:35:45
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1735.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+ARM    $  376.45  +9.86%     97  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+AMD    $  519.34  +6.33%     90  58.2  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.20  +1.09%     90  62.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.35  +1.18%     90  54.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.64  +0.84%     80  51.8  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  999.79  +0.38%     80  65.5  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.73  -0.28%     70  60.2  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.72  -1.33%     53  49.7  NEUTRAL  SMA50 EMA_STACK RSI_49.7
+SPY    $  741.59  +0.53%     40  47.1  NEUTRAL  SMA50 RSI_47.1
+TSLA   $  401.22  +0.51%     20  41.6  BEARISH  SMA50
+AAPL   $  291.20  -1.45%     13  34.3  BEARISH  SMA50 DOWN-1.45%
+GOOGL  $  362.04  +1.17%     10  35.9  BEARISH  MOM+1.17%
+MSTR   $  122.80  +2.14%     10  28.7  BEARISH  MOM+2.14% LOW_LIQ
+SHOP   $  108.53  -1.71%      3  55.5  BEARISH  RSI_55.5 DOWN-1.71% LOW_LIQ
+NVDA   $  204.79  -0.03%      0  41.7  BEARISH  
+MSFT   $  387.63  -0.67%      0  37.8  BEARISH  
+AMZN   $  236.70  -1.96%      0  26.0  BEARISH  DOWN-1.96%
+META   $  566.92  -0.26%      0  35.8  BEARISH  LOW_LIQ
+PLTR   $  128.09  -2.25%      0  43.6  BEARISH  DOWN-2.25%
+COIN   $  159.49  -0.63%      0  35.9  BEARISH  LOW_LIQ
+CRM    $  164.95  -0.92%      0  40.7  BEARISH  LOW_LIQ
+SMCI   $   30.56  -4.38%      0  44.4  BEARISH  DOWN-4.38%
+NFLX   $   80.81  -0.55%      0  14.7  BEARISH  
+UBER   $   68.00  -2.19%      0  37.7  BEARISH  DOWN-2.19%
+XLE    $   57.59  +0.86%      0  41.4  BEARISH  
+GLD    $  387.37  +0.29%      0  33.3  BEARISH  LOW_LIQ
+SOXS   $    4.59  -7.65%      0  33.3  BEARISH  DOWN-7.65%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:35
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:40
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (132ms)
+  OK  UW News:        25 articles  (75ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (1017ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1574ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1790ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  132ms
+  🟢  uw_news            healthy        25 items  75ms
+  🟢  massive_news       healthy        50 items  1017ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1574ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1790ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:40:57
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1740.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  518.91  +6.25%    100  58.3  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  376.40  +9.85%     97  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.20  +1.09%     90  62.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.31  +1.16%     90  54.4  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.41  +0.81%     80  51.9  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  999.36  +0.34%     80  65.6  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.72  -0.30%     80  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.68  -1.37%     53  49.7  NEUTRAL  SMA50 EMA_STACK RSI_49.7
+SPY    $  741.56  +0.53%     40  47.3  NEUTRAL  SMA50 RSI_47.3
+TSLA   $  400.93  +0.43%     20  41.9  BEARISH  SMA50
+AAPL   $  291.00  -1.52%     13  34.3  BEARISH  SMA50 DOWN-1.52%
+GOOGL  $  361.67  +1.06%     10  35.3  BEARISH  MOM+1.06%
+MSTR   $  122.95  +2.27%     10  28.8  BEARISH  MOM+2.27% LOW_LIQ
+XLE    $   57.67  +1.01%     10  41.9  BEARISH  MOM+1.01%
+SHOP   $  108.56  -1.68%      3  55.6  BEARISH  RSI_55.6 DOWN-1.68% LOW_LIQ
+NVDA   $  204.84  -0.01%      0  41.8  BEARISH  
+MSFT   $  387.10  -0.81%      0  37.7  BEARISH  
+AMZN   $  236.72  -1.95%      0  26.0  BEARISH  DOWN-1.95%
+META   $  566.52  -0.33%      0  35.6  BEARISH  LOW_LIQ
+PLTR   $  128.01  -2.32%      0  43.6  BEARISH  DOWN-2.32%
+COIN   $  159.72  -0.48%      0  36.0  BEARISH  LOW_LIQ
+CRM    $  164.91  -0.95%      0  40.7  BEARISH  LOW_LIQ
+SMCI   $   30.49  -4.60%      0  44.3  BEARISH  DOWN-4.6%
+NFLX   $   80.77  -0.59%      0  14.6  BEARISH  
+UBER   $   68.03  -2.16%      0  37.7  BEARISH  DOWN-2.16%
+GLD    $  387.15  +0.23%      0  33.2  BEARISH  LOW_LIQ
+SOXS   $    4.57  -8.05%      0  33.2  BEARISH  DOWN-8.05%
+=================================================================
+  Done.
+BASANI Live Scanner starting...
+
+[16:01:57 ET 12:01] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:02:05] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:07:10 ET 12:07] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:07:17] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:12:22 ET 12:12] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:12:30] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:17:34 ET 12:17] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:17:42] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:22:48 ET 12:22] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:22:55] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:27:59 ET 12:27] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:28:08] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:33:13 ET 12:33] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:33:22] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:38:26 ET 12:38] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:38:33] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:43:38 ET 12:43] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:43:45] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:48:50 ET 12:48] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:48:56] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:54:00 ET 12:54] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:54:08] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[16:59:13 ET 12:59] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[16:59:20] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[17:04:25 ET 13:04] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[17:04:31] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[17:09:36 ET 13:09] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[17:09:44] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[17:14:49 ET 13:14] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[17:14:55] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[17:20:00 ET 13:20] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[17:20:09] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[17:25:14 ET 13:25] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[17:25:23] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[17:30:27 ET 13:30] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[17:30:35] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[17:35:40 ET 13:35] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+  [OK] Unusual Whales
+
+[17:35:47] Pushing to fork...
+  [OK] scan_output.json (HTTP 200)
+  [OK] news.json (HTTP 200)
+  [OK] unusual_whales.json (HTTP 200)
+  [OK] calendar.json (HTTP 200)
+  [OK] grades.json (HTTP 200)
+  [SKIP] plays_log.json not found
+  6/6 pushed
+
+[17:40:51 ET 13:40] Market active — running feeds
+
+  === News Feed ===
+  [OK] News Feed
+
+  === Market Scan ===
+  [OK] Market Scan
+
+  === Unusual Whales ===
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:40
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:46
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (98ms)
+  OK  UW News:        25 articles  (128ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (101ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     74 messages  (1495ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1876ms)
+
+  ✅  Saved 203 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=74 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  98ms
+  🟢  uw_news            healthy        25 items  128ms
+  🟢  massive_news       healthy        50 items  101ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        74 items  1495ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1876ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:46:08
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1746.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  520.66  +6.60%    100  58.5  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  377.00 +10.02%    100  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.22  +1.13%     90  62.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.38  +1.20%     90  54.4  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.63  +0.84%     80  51.9  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $ 1000.14  +0.41%     80  65.6  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.74  -0.27%     80  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.81  -1.24%     53  49.8  NEUTRAL  SMA50 EMA_STACK RSI_49.8
+SPY    $  741.80  +0.56%     40  47.3  NEUTRAL  SMA50 RSI_47.3
+TSLA   $  401.54  +0.59%     20  41.8  BEARISH  SMA50
+AAPL   $  290.48  -1.69%     13  33.8  BEARISH  SMA50 DOWN-1.69%
+MSTR   $  123.01  +2.32%     10  28.6  BEARISH  MOM+2.32% LOW_LIQ
+XLE    $   57.71  +1.07%     10  42.0  BEARISH  MOM+1.07%
+SHOP   $  108.55  -1.69%      3  55.5  BEARISH  RSI_55.5 DOWN-1.69% LOW_LIQ
+NVDA   $  205.11  +0.12%      0  42.0  BEARISH  
+MSFT   $  387.06  -0.82%      0  37.7  BEARISH  
+AMZN   $  236.69  -1.96%      0  26.0  BEARISH  DOWN-1.96%
+GOOGL  $  361.37  +0.98%      0  35.2  BEARISH  
+META   $  566.22  -0.38%      0  35.6  BEARISH  LOW_LIQ
+PLTR   $  128.20  -2.17%      0  43.6  BEARISH  DOWN-2.17%
+COIN   $  159.82  -0.42%      0  36.0  BEARISH  LOW_LIQ
+CRM    $  165.29  -0.72%      0  40.9  BEARISH  LOW_LIQ
+SMCI   $   30.51  -4.54%      0  44.3  BEARISH  DOWN-4.54%
+NFLX   $   80.80  -0.56%      0  14.7  BEARISH  
+UBER   $   68.08  -2.08%      0  37.8  BEARISH  DOWN-2.08%
+GLD    $  387.66  +0.36%      0  33.6  BEARISH  LOW_LIQ
+SOXS   $    4.57  -8.05%      0  33.1  BEARISH  DOWN-8.05%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:46
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:51
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (101ms)
+  OK  UW News:        25 articles  (96ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (100ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1581ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1894ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  101ms
+  🟢  uw_news            healthy        25 items  96ms
+  🟢  massive_news       healthy        50 items  100ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1581ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1894ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:51:20
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1751.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  520.08  +6.48%    100  58.4  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  378.02 +10.32%    100  60.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.23  +1.15%     90  62.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.41  +1.21%     90  54.3  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.75  +0.85%     80  51.9  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  998.98  +0.30%     80  65.6  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.73  -0.28%     80  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.66  -1.39%     53  49.7  NEUTRAL  SMA50 EMA_STACK RSI_49.7
+SPY    $  741.80  +0.56%     40  47.3  NEUTRAL  SMA50 RSI_47.3
+TSLA   $  401.67  +0.62%     20  42.0  BEARISH  SMA50
+AAPL   $  290.51  -1.68%     13  33.8  BEARISH  SMA50 DOWN-1.68%
+GOOGL  $  361.56  +1.03%     10  35.4  BEARISH  MOM+1.03%
+MSTR   $  122.99  +2.30%     10  28.6  BEARISH  MOM+2.3% LOW_LIQ
+XLE    $   57.71  +1.07%     10  42.0  BEARISH  MOM+1.07%
+SHOP   $  108.54  -1.70%      3  55.5  BEARISH  RSI_55.5 DOWN-1.7% LOW_LIQ
+NVDA   $  205.16  +0.14%      0  42.1  BEARISH  
+MSFT   $  387.12  -0.80%      0  37.7  BEARISH  
+AMZN   $  236.76  -1.93%      0  26.0  BEARISH  DOWN-1.93%
+META   $  566.61  -0.31%      0  35.7  BEARISH  LOW_LIQ
+PLTR   $  128.12  -2.23%      0  43.6  BEARISH  DOWN-2.23%
+COIN   $  159.90  -0.37%      0  36.1  BEARISH  LOW_LIQ
+CRM    $  164.90  -0.96%      0  40.7  BEARISH  LOW_LIQ
+SMCI   $   30.57  -4.35%      0  44.3  BEARISH  DOWN-4.35%
+NFLX   $   80.71  -0.66%      0  14.6  BEARISH  
+UBER   $   68.08  -2.08%      0  37.8  BEARISH  DOWN-2.08%
+GLD    $  387.60  +0.35%      0  33.5  BEARISH  LOW_LIQ
+SOXS   $    4.57  -8.05%      0  33.1  BEARISH  DOWN-8.05%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:51
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 17:56
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (143ms)
+  OK  UW News:        25 articles  (99ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (99ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1575ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1778ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  143ms
+  🟢  uw_news            healthy        25 items  99ms
+  🟢  massive_news       healthy        50 items  99ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1575ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1778ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 17:56:33
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1756.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  518.73  +6.21%    100  58.3  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  376.23  +9.80%    100  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.19  +1.07%     90  62.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.09  +1.04%     90  54.1  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.48  +0.68%     80  51.6  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  996.06  +0.00%     80  65.4  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.72  -0.30%     80  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.63  -1.42%     53  49.6  NEUTRAL  SMA50 EMA_STACK RSI_49.6
+SPY    $  741.01  +0.45%     40  46.8  NEUTRAL  SMA50 RSI_46.8
+TSLA   $  402.42  +0.81%     20  42.0  BEARISH  SMA50
+AAPL   $  290.00  -1.86%     13  33.6  BEARISH  SMA50 DOWN-1.86%
+XLE    $   57.76  +1.15%     10  42.3  BEARISH  MOM+1.15%
+SHOP   $  108.71  -1.55%      3  55.7  BEARISH  RSI_55.7 DOWN-1.55% LOW_LIQ
+NVDA   $  204.94  +0.04%      0  41.8  BEARISH  
+MSFT   $  387.08  -0.81%      0  37.7  BEARISH  
+AMZN   $  236.52  -2.03%      0  25.9  BEARISH  DOWN-2.03%
+GOOGL  $  361.15  +0.92%      0  35.0  BEARISH  
+META   $  565.88  -0.44%      0  35.5  BEARISH  LOW_LIQ
+PLTR   $  128.07  -2.27%      0  43.6  BEARISH  DOWN-2.27%
+COIN   $  159.97  -0.33%      0  36.2  BEARISH  LOW_LIQ
+CRM    $  164.82  -1.00%      0  40.7  BEARISH  LOW_LIQ
+SMCI   $   30.43  -4.77%      0  44.2  BEARISH  DOWN-4.77%
+NFLX   $   80.71  -0.66%      0  14.6  BEARISH  
+UBER   $   68.14  -1.99%      0  38.1  BEARISH  DOWN-1.99%
+MSTR   $  122.61  +1.98%      0  28.3  BEARISH  MOM+1.98% LOW_LIQ
+GLD    $  387.41  +0.30%      0  33.4  BEARISH  LOW_LIQ
+SOXS   $    4.62  -7.04%      0  33.3  BEARISH  DOWN-7.04%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 17:56
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:01
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (134ms)
+  OK  UW News:        25 articles  (69ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (130ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1565ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1860ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  134ms
+  🟢  uw_news            healthy        25 items  69ms
+  🟢  massive_news       healthy        50 items  130ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1565ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1860ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:01:44
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1801.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  517.50  +5.96%    100  58.2  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  375.98  +9.73%    100  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.20  +1.09%     90  62.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.09  +1.04%     90  54.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.64  +0.70%     80  51.7  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  995.20  -0.08%     80  65.5  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.72  -0.30%     80  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.47  -1.58%     53  49.6  NEUTRAL  SMA50 EMA_STACK RSI_49.6
+SPY    $  741.16  +0.47%     40  47.0  NEUTRAL  SMA50 RSI_47.0
+TSLA   $  402.34  +0.79%     20  42.3  BEARISH  SMA50
+AAPL   $  290.04  -1.84%     13  33.5  BEARISH  SMA50 DOWN-1.84%
+MSTR   $  122.89  +2.22%     10  28.6  BEARISH  MOM+2.22% LOW_LIQ
+XLE    $   57.74  +1.12%     10  42.2  BEARISH  MOM+1.12%
+SHOP   $  108.62  -1.63%      3  55.6  BEARISH  RSI_55.6 DOWN-1.63% LOW_LIQ
+NVDA   $  205.00  +0.07%      0  41.9  BEARISH  
+MSFT   $  387.02  -0.83%      0  37.7  BEARISH  
+AMZN   $  236.46  -2.05%      0  25.9  BEARISH  DOWN-2.05%
+GOOGL  $  361.40  +0.99%      0  35.3  BEARISH  
+META   $  566.58  -0.32%      0  35.6  BEARISH  LOW_LIQ
+PLTR   $  128.06  -2.28%      0  43.6  BEARISH  DOWN-2.28%
+COIN   $  159.97  -0.32%      0  36.1  BEARISH  LOW_LIQ
+CRM    $  164.81  -1.01%      0  40.7  BEARISH  DOWN-1.01% LOW_LIQ
+SMCI   $   30.38  -4.94%      0  44.2  BEARISH  DOWN-4.94%
+NFLX   $   80.75  -0.62%      0  14.6  BEARISH  
+UBER   $   68.16  -1.96%      0  38.1  BEARISH  DOWN-1.96%
+GLD    $  387.49  +0.32%      0  33.5  BEARISH  LOW_LIQ
+SOXS   $    4.62  -7.04%      0  33.3  BEARISH  DOWN-7.04%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:01
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:06
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (161ms)
+  OK  UW News:        25 articles  (97ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (99ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1460ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1891ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  161ms
+  🟢  uw_news            healthy        25 items  97ms
+  🟢  massive_news       healthy        50 items  99ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1460ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1891ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:06:55
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1806.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  515.51  +5.55%    100  57.9  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  377.04 +10.04%    100  60.4  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.20  +1.11%     90  62.3  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  992.96  -0.31%     80  65.2  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.88  +0.92%     80  54.0  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.71  -0.30%     80  60.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  720.99  +0.61%     60  51.4  NEUTRAL  SMA50 EMA_STACK RSI_51.4
+NOW    $  101.73  -1.31%     53  49.7  NEUTRAL  SMA50 EMA_STACK RSI_49.7
+SPY    $  740.76  +0.42%     40  46.7  NEUTRAL  SMA50 RSI_46.7
+TSLA   $  401.60  +0.60%     20  42.0  BEARISH  SMA50
+AAPL   $  289.71  -1.95%     13  33.4  BEARISH  SMA50 DOWN-1.95%
+MSTR   $  122.90  +2.22%     10  28.5  BEARISH  MOM+2.22% LOW_LIQ
+XLE    $   57.75  +1.14%     10  42.1  BEARISH  MOM+1.14%
+SHOP   $  108.56  -1.68%      3  55.6  BEARISH  RSI_55.6 DOWN-1.68% LOW_LIQ
+NVDA   $  204.87  +0.00%      0  41.9  BEARISH  
+MSFT   $  386.95  -0.85%      0  37.7  BEARISH  
+AMZN   $  236.21  -2.16%      0  25.8  BEARISH  DOWN-2.16%
+GOOGL  $  361.04  +0.88%      0  35.0  BEARISH  
+META   $  565.74  -0.47%      0  35.6  BEARISH  LOW_LIQ
+PLTR   $  128.13  -2.22%      0  43.6  BEARISH  DOWN-2.22%
+COIN   $  160.10  -0.24%      0  36.1  BEARISH  LOW_LIQ
+CRM    $  164.93  -0.94%      0  40.7  BEARISH  LOW_LIQ
+SMCI   $   30.24  -5.38%      0  44.0  BEARISH  DOWN-5.38%
+NFLX   $   80.77  -0.60%      0  14.6  BEARISH  
+UBER   $   68.24  -1.85%      0  38.3  BEARISH  DOWN-1.85%
+GLD    $  387.32  +0.27%      0  33.3  BEARISH  LOW_LIQ
+SOXS   $    4.65  -6.44%      0  33.4  BEARISH  DOWN-6.44%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:06
+====================================================
+Traceback (most recent call last):
+  File "/home/client_4319_1/basani_live/uw_client.py", line 273, in <module>
+    flow = fetch_flow()
+           ^^^^^^^^^^^^
+  File "/home/client_4319_1/basani_live/uw_client.py", line 105, in fetch_flow
+    data, status = get(path, params)
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/client_4319_1/basani_live/uw_client.py", line 47, in get
+    return (json.loads(raw) if raw else {}), e.code
+            ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:12
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       6 articles  (162ms)
+  OK  UW News:        25 articles  (99ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (99ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (2883ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1701ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=6 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         6 items  162ms
+  🟢  uw_news            healthy        25 items  99ms
+  🟢  massive_news       healthy        50 items  99ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  2883ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1701ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:12:07
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1812.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  516.28  +5.71%    100  57.9  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  378.78 +10.54%    100  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.23  +1.17%     90  62.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.20  +1.10%     90  54.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.34  +0.80%     80  51.8  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  994.98  -0.10%     80  65.4  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.73  -0.28%     80  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.47  -1.57%     53  49.6  NEUTRAL  SMA50 EMA_STACK RSI_49.6
+SPY    $  741.73  +0.55%     40  47.3  NEUTRAL  SMA50 RSI_47.3
+TSLA   $  403.66  +1.12%     30  42.7  BEARISH  SMA50 MOM+1.12%
+AAPL   $  290.47  -1.70%     13  33.8  BEARISH  SMA50 DOWN-1.7%
+GOOGL  $  361.86  +1.11%     10  35.8  BEARISH  MOM+1.11%
+MSTR   $  123.27  +2.53%     10  28.8  BEARISH  MOM+2.53% LOW_LIQ
+XLE    $   57.75  +1.14%     10  42.2  BEARISH  MOM+1.14%
+SHOP   $  108.64  -1.62%      3  55.6  BEARISH  RSI_55.6 DOWN-1.62% LOW_LIQ
+NVDA   $  205.44  +0.28%      0  42.3  BEARISH  
+MSFT   $  387.75  -0.64%      0  37.9  BEARISH  
+AMZN   $  236.67  -1.97%      0  26.0  BEARISH  DOWN-1.97%
+META   $  566.54  -0.33%      0  35.7  BEARISH  LOW_LIQ
+PLTR   $  128.17  -2.19%      0  43.6  BEARISH  DOWN-2.19%
+COIN   $  160.92  +0.27%      0  36.6  BEARISH  LOW_LIQ
+CRM    $  164.75  -1.05%      0  40.6  BEARISH  DOWN-1.05% LOW_LIQ
+SMCI   $   30.41  -4.85%      0  44.2  BEARISH  DOWN-4.85%
+NFLX   $   80.78  -0.58%      0  14.7  BEARISH  
+UBER   $   68.28  -1.80%      0  38.4  BEARISH  DOWN-1.8%
+GLD    $  387.80  +0.40%      0  33.7  BEARISH  LOW_LIQ
+SOXS   $    4.60  -7.44%      0  33.3  BEARISH  DOWN-7.44%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:12
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:17
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (200ms)
+  OK  UW News:        25 articles  (99ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (100ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1609ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  18 events  (1784ms)
+
+  ✅  Saved 205 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | forex_factory=1 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  200ms
+  🟢  uw_news            healthy        25 items  99ms
+  🟢  massive_news       healthy        50 items  100ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1609ms
+  🟢  rss                healthy        47 items
+  🟢  forex_factory      healthy        18 items  1784ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:17:20
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1817.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  513.88  +5.21%    100  57.5  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  376.80  +9.97%    100  60.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.22  +1.13%     90  62.4  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  990.48  -0.56%     80  65.0  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.71  +0.83%     80  53.8  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.73  -0.27%     80  60.6  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.03  +0.61%     60  51.4  NEUTRAL  SMA50 EMA_STACK RSI_51.4
+NOW    $  101.37  -1.67%     53  49.5  NEUTRAL  SMA50 EMA_STACK RSI_49.5
+SPY    $  740.93  +0.44%     40  46.7  NEUTRAL  SMA50 RSI_46.7
+TSLA   $  403.40  +1.06%     30  42.6  BEARISH  SMA50 MOM+1.06%
+AAPL   $  290.18  -1.79%     13  33.6  BEARISH  SMA50 DOWN-1.79%
+GOOGL  $  361.71  +1.07%     10  35.4  BEARISH  MOM+1.07%
+MSTR   $  122.89  +2.22%     10  28.7  BEARISH  MOM+2.22% LOW_LIQ
+XLE    $   57.76  +1.15%     10  42.3  BEARISH  MOM+1.15%
+SHOP   $  108.44  -1.79%      3  55.4  BEARISH  RSI_55.4 DOWN-1.79% LOW_LIQ
+NVDA   $  204.59  -0.13%      0  41.7  BEARISH  
+MSFT   $  387.23  -0.78%      0  37.8  BEARISH  
+AMZN   $  236.35  -2.10%      0  25.9  BEARISH  DOWN-2.1%
+META   $  566.02  -0.42%      0  35.5  BEARISH  LOW_LIQ
+PLTR   $  128.09  -2.25%      0  43.6  BEARISH  DOWN-2.25%
+COIN   $  160.68  +0.12%      0  36.4  BEARISH  LOW_LIQ
+CRM    $  164.82  -1.00%      0  40.7  BEARISH  LOW_LIQ
+SMCI   $   30.34  -5.05%      0  44.1  BEARISH  DOWN-5.05%
+NFLX   $   80.78  -0.58%      0  14.7  BEARISH  
+UBER   $   68.22  -1.88%      0  38.2  BEARISH  DOWN-1.88%
+GLD    $  388.07  +0.47%      0  33.9  BEARISH  LOW_LIQ
+SOXS   $    4.66  -6.24%      0  33.5  BEARISH  DOWN-6.24%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:17
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:22
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (143ms)
+  OK  UW News:        25 articles  (54ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (83ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1476ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3303ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  143ms
+  🟢  uw_news            healthy        25 items  54ms
+  🟢  massive_news       healthy        50 items  83ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1476ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3303ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:22:32
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1822.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  512.40  +4.91%    100  57.4  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  376.81  +9.97%    100  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.22  +1.14%     90  62.5  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  989.08  -0.70%     80  64.9  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.59  +0.76%     80  53.7  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.74  -0.27%     80  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  720.59  +0.55%     60  51.2  NEUTRAL  SMA50 EMA_STACK RSI_51.2
+NOW    $  101.22  -1.81%     53  49.4  NEUTRAL  SMA50 EMA_STACK RSI_49.4
+SPY    $  740.55  +0.39%     40  46.5  NEUTRAL  SMA50 RSI_46.5
+TSLA   $  401.17  +0.50%     20  41.7  BEARISH  SMA50
+AAPL   $  290.10  -1.82%     13  33.6  BEARISH  SMA50 DOWN-1.82%
+XLE    $   57.73  +1.10%     10  42.3  BEARISH  MOM+1.1%
+SHOP   $  108.22  -1.99%      3  55.2  BEARISH  RSI_55.2 DOWN-1.99% LOW_LIQ
+NVDA   $  204.35  -0.25%      0  41.4  BEARISH  
+MSFT   $  387.12  -0.80%      0  37.7  BEARISH  
+AMZN   $  236.03  -2.23%      0  25.8  BEARISH  DOWN-2.23%
+GOOGL  $  361.40  +0.99%      0  35.5  BEARISH  
+META   $  565.41  -0.52%      0  35.4  BEARISH  LOW_LIQ
+PLTR   $  127.91  -2.39%      0  43.5  BEARISH  DOWN-2.39%
+COIN   $  160.17  -0.20%      0  36.2  BEARISH  LOW_LIQ
+CRM    $  164.83  -1.00%      0  40.6  BEARISH  LOW_LIQ
+SMCI   $   30.32  -5.12%      0  44.1  BEARISH  DOWN-5.12%
+NFLX   $   80.66  -0.73%      0  14.5  BEARISH  
+UBER   $   68.23  -1.86%      0  38.3  BEARISH  DOWN-1.86%
+MSTR   $  122.54  +1.93%      0  28.4  BEARISH  MOM+1.93% LOW_LIQ
+GLD    $  388.69  +0.63%      0  34.4  BEARISH  LOW_LIQ
+SOXS   $    4.68  -5.84%      0  33.5  BEARISH  DOWN-5.84%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:22
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:27
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (31ms)
+  OK  UW News:        25 articles  (62ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (101ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1486ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3284ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  31ms
+  🟢  uw_news            healthy        25 items  62ms
+  🟢  massive_news       healthy        50 items  101ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1486ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3284ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:27:45
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1827.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  513.56  +5.15%    100  57.5  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  378.11 +10.35%    100  60.5  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.23  +1.15%     90  62.5  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  992.07  -0.40%     80  65.0  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.80  +0.88%     80  53.8  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.74  -0.27%     80  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.24  +0.64%     60  51.3  NEUTRAL  SMA50 EMA_STACK RSI_51.3
+NOW    $  101.25  -1.78%     53  49.4  NEUTRAL  SMA50 EMA_STACK RSI_49.4
+SPY    $  740.93  +0.44%     40  46.6  NEUTRAL  SMA50 RSI_46.6
+TSLA   $  401.21  +0.51%     20  41.6  BEARISH  SMA50
+AAPL   $  290.17  -1.80%     13  33.7  BEARISH  SMA50 DOWN-1.8%
+MSTR   $  122.85  +2.18%     10  28.5  BEARISH  MOM+2.18% LOW_LIQ
+XLE    $   57.74  +1.13%     10  42.2  BEARISH  MOM+1.13%
+SHOP   $  108.24  -1.97%      3  55.2  BEARISH  RSI_55.2 DOWN-1.97% LOW_LIQ
+NVDA   $  204.61  -0.12%      0  41.6  BEARISH  
+MSFT   $  387.34  -0.75%      0  37.8  BEARISH  
+AMZN   $  236.32  -2.11%      0  25.8  BEARISH  DOWN-2.11%
+GOOGL  $  361.28  +0.95%      0  34.9  BEARISH  
+META   $  565.52  -0.50%      0  35.4  BEARISH  LOW_LIQ
+PLTR   $  128.02  -2.31%      0  43.6  BEARISH  DOWN-2.31%
+COIN   $  160.00  -0.31%      0  36.1  BEARISH  LOW_LIQ
+CRM    $  164.89  -0.96%      0  40.7  BEARISH  LOW_LIQ
+SMCI   $   30.39  -4.91%      0  44.1  BEARISH  DOWN-4.91%
+NFLX   $   80.73  -0.63%      0  14.5  BEARISH  
+UBER   $   68.17  -1.95%      0  38.2  BEARISH  DOWN-1.95%
+GLD    $  387.98  +0.45%      0  33.7  BEARISH  LOW_LIQ
+SOXS   $    4.65  -6.44%      0  33.5  BEARISH  DOWN-6.44%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:27
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:32
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (73ms)
+  OK  UW News:        25 articles  (66ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (148ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1672ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3254ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  73ms
+  🟢  uw_news            healthy        25 items  66ms
+  🟢  massive_news       healthy        50 items  148ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1672ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3254ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:32:57
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1832.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  515.46  +5.54%    100  57.7  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  379.81 +10.84%    100  60.8  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.25  +1.20%     90  62.6  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.24  +1.12%     90  54.0  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.35  +0.80%     80  51.6  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  994.03  -0.20%     80  65.2  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.77  -0.23%     80  60.9  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.36  -1.68%     53  49.4  NEUTRAL  SMA50 EMA_STACK RSI_49.4
+SPY    $  741.75  +0.55%     40  47.2  NEUTRAL  SMA50 RSI_47.2
+TSLA   $  401.37  +0.55%     27  41.6  BEARISH  SMA50 VOL_1.5x
+AAPL   $  290.55  -1.67%     13  33.8  BEARISH  SMA50 DOWN-1.67%
+MSTR   $  123.39  +2.63%     10  28.7  BEARISH  MOM+2.63% LOW_LIQ
+XLE    $   57.73  +1.10%     10  42.1  BEARISH  MOM+1.1%
+SHOP   $  108.32  -1.90%      3  55.2  BEARISH  RSI_55.2 DOWN-1.9% LOW_LIQ
+NVDA   $  205.13  +0.13%      0  42.0  BEARISH  
+MSFT   $  387.96  -0.59%      0  37.9  BEARISH  
+AMZN   $  236.60  -2.00%      0  26.0  BEARISH  DOWN-2.0%
+GOOGL  $  361.23  +0.94%      0  35.0  BEARISH  
+META   $  565.83  -0.45%      0  35.5  BEARISH  LOW_LIQ
+PLTR   $  128.17  -2.19%      0  43.6  BEARISH  DOWN-2.19%
+COIN   $  160.53  +0.02%      0  36.3  BEARISH  LOW_LIQ
+CRM    $  165.24  -0.75%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.46  -4.69%      0  44.2  BEARISH  DOWN-4.69%
+NFLX   $   80.78  -0.58%      0  14.6  BEARISH  
+UBER   $   68.21  -1.89%      0  38.2  BEARISH  DOWN-1.89%
+GLD    $  388.07  +0.47%      0  33.8  BEARISH  LOW_LIQ
+SOXS   $    4.61  -7.24%      0  33.4  BEARISH  DOWN-7.24%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:32
+====================================================
+Traceback (most recent call last):
+  File "/home/client_4319_1/basani_live/uw_client.py", line 273, in <module>
+    flow = fetch_flow()
+           ^^^^^^^^^^^^
+  File "/home/client_4319_1/basani_live/uw_client.py", line 105, in fetch_flow
+    data, status = get(path, params)
+                   ^^^^^^^^^^^^^^^^^
+  File "/home/client_4319_1/basani_live/uw_client.py", line 47, in get
+    return (json.loads(raw) if raw else {}), e.code
+            ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:38
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (99ms)
+  OK  UW News:        25 articles  (57ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (142ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1566ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3466ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  99ms
+  🟢  uw_news            healthy        25 items  57ms
+  🟢  massive_news       healthy        50 items  142ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1566ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3466ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:38:09
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1838.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  515.18  +5.48%    100  57.7  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  378.81 +10.55%    100  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.27  +1.23%     90  62.8  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.09  +1.04%     90  54.1  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.96  +0.74%     80  51.7  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  995.03  -0.10%     80  65.3  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.75  -0.26%     80  60.8  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.20  -1.83%     53  49.4  NEUTRAL  SMA50 EMA_STACK RSI_49.4
+SPY    $  741.66  +0.54%     40  47.2  NEUTRAL  SMA50 RSI_47.2
+TSLA   $  401.12  +0.48%     27  41.6  BEARISH  SMA50 VOL_1.5x
+AAPL   $  290.65  -1.63%     13  33.9  BEARISH  SMA50 DOWN-1.63%
+MSTR   $  122.88  +2.21%     10  28.5  BEARISH  MOM+2.21% LOW_LIQ
+XLE    $   57.68  +1.02%     10  41.9  BEARISH  MOM+1.02%
+SHOP   $  108.22  -1.99%      3  55.2  BEARISH  RSI_55.2 DOWN-1.99% LOW_LIQ
+NVDA   $  205.01  +0.07%      0  41.9  BEARISH  
+MSFT   $  388.19  -0.53%      0  38.0  BEARISH  
+AMZN   $  236.73  -1.94%      0  26.0  BEARISH  DOWN-1.94%
+GOOGL  $  361.37  +0.98%      0  35.2  BEARISH  
+META   $  566.57  -0.32%      0  35.7  BEARISH  LOW_LIQ
+PLTR   $  128.00  -2.32%      0  43.5  BEARISH  DOWN-2.32%
+COIN   $  160.29  -0.12%      0  36.2  BEARISH  LOW_LIQ
+CRM    $  165.04  -0.87%      0  40.8  BEARISH  LOW_LIQ
+SMCI   $   30.40  -4.88%      0  44.2  BEARISH  DOWN-4.88%
+NFLX   $   80.79  -0.57%      0  14.7  BEARISH  
+UBER   $   68.20  -1.91%      0  38.2  BEARISH  DOWN-1.91%
+GLD    $  387.93  +0.43%      0  33.8  BEARISH  LOW_LIQ
+SOXS   $    4.63  -6.84%      0  33.4  BEARISH  DOWN-6.84%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:38
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:43
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (78ms)
+  OK  UW News:        25 articles  (84ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (99ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1660ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3281ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  78ms
+  🟢  uw_news            healthy        25 items  84ms
+  🟢  massive_news       healthy        50 items  99ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1660ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3281ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:43:22
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1843.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  516.07  +5.66%    100  57.8  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  380.90 +11.16%    100  60.9  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.27  +1.24%     90  62.9  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.30  +1.15%     90  54.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.69  +0.85%     80  52.0  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  996.56  +0.05%     80  65.4  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.76  -0.24%     80  60.9  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.59  -1.46%     53  49.6  NEUTRAL  SMA50 EMA_STACK RSI_49.6
+SPY    $  742.18  +0.61%     40  47.5  NEUTRAL  SMA50 RSI_47.5
+TSLA   $  402.10  +0.73%     27  42.1  BEARISH  SMA50 VOL_1.5x
+AAPL   $  290.59  -1.65%     13  33.8  BEARISH  SMA50 DOWN-1.65%
+GOOGL  $  361.60  +1.04%     10  35.4  BEARISH  MOM+1.04%
+MSTR   $  123.72  +2.91%     10  29.2  BEARISH  MOM+2.91% LOW_LIQ
+SHOP   $  108.36  -1.86%      3  55.3  BEARISH  RSI_55.3 DOWN-1.86% LOW_LIQ
+NVDA   $  205.19  +0.16%      0  42.1  BEARISH  
+MSFT   $  388.56  -0.43%      0  38.1  BEARISH  
+AMZN   $  237.07  -1.80%      0  26.2  BEARISH  DOWN-1.8%
+META   $  566.52  -0.33%      0  35.7  BEARISH  LOW_LIQ
+PLTR   $  128.14  -2.22%      0  43.6  BEARISH  DOWN-2.22%
+COIN   $  161.82  +0.83%      0  37.0  BEARISH  LOW_LIQ
+CRM    $  165.41  -0.65%      0  41.0  BEARISH  LOW_LIQ
+SMCI   $   30.52  -4.51%      0  44.3  BEARISH  DOWN-4.51%
+NFLX   $   80.83  -0.52%      0  14.7  BEARISH  
+UBER   $   68.35  -1.69%      0  38.6  BEARISH  DOWN-1.69%
+XLE    $   57.64  +0.95%      0  41.7  BEARISH  
+GLD    $  387.97  +0.44%      0  33.8  BEARISH  LOW_LIQ
+SOXS   $    4.60  -7.44%      0  33.3  BEARISH  DOWN-7.44%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:43
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:48
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (19ms)
+  OK  UW News:        25 articles  (80ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (112ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1432ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3257ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  19ms
+  🟢  uw_news            healthy        25 items  80ms
+  🟢  massive_news       healthy        50 items  112ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1432ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3257ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:48:34
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1848.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  515.52  +5.55%    100  57.9  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  381.44 +11.32%    100  61.0  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.30  +1.28%     90  63.0  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.21  +1.10%     90  54.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.48  +0.82%     80  51.8  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  995.76  -0.03%     80  65.3  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.75  -0.26%     80  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.38  -1.66%     53  49.5  NEUTRAL  SMA50 EMA_STACK RSI_49.5
+SPY    $  741.88  +0.57%     40  47.4  NEUTRAL  SMA50 RSI_47.4
+TSLA   $  401.22  +0.51%     27  41.7  BEARISH  SMA50 VOL_1.5x
+AAPL   $  290.59  -1.65%     13  33.9  BEARISH  SMA50 DOWN-1.65%
+MSTR   $  123.87  +3.03%     10  29.3  BEARISH  MOM+3.03% LOW_LIQ
+SHOP   $  108.22  -1.99%      3  55.2  BEARISH  RSI_55.2 DOWN-1.99% LOW_LIQ
+NVDA   $  205.14  +0.14%      0  42.1  BEARISH  
+MSFT   $  388.61  -0.42%      0  38.2  BEARISH  
+AMZN   $  237.18  -1.76%      0  26.2  BEARISH  DOWN-1.76%
+GOOGL  $  361.11  +0.91%      0  35.1  BEARISH  
+META   $  566.37  -0.36%      0  35.6  BEARISH  LOW_LIQ
+PLTR   $  128.12  -2.23%      0  43.6  BEARISH  DOWN-2.23%
+COIN   $  161.31  +0.51%      0  37.0  BEARISH  LOW_LIQ
+CRM    $  165.51  -0.59%      0  41.0  BEARISH  LOW_LIQ
+SMCI   $   30.38  -4.96%      0  44.1  BEARISH  DOWN-4.96%
+NFLX   $   80.78  -0.57%      0  14.7  BEARISH  
+UBER   $   68.31  -1.75%      0  38.5  BEARISH  DOWN-1.75%
+XLE    $   57.62  +0.90%      0  41.5  BEARISH  
+GLD    $  387.82  +0.40%      0  33.9  BEARISH  LOW_LIQ
+SOXS   $    4.61  -7.24%      0  33.3  BEARISH  DOWN-7.24%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:48
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:53
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (133ms)
+  OK  UW News:        25 articles  (97ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (99ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1538ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3281ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  133ms
+  🟢  uw_news            healthy        25 items  97ms
+  🟢  massive_news       healthy        50 items  99ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1538ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3281ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:53:46
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1853.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  516.62  +5.78%    100  57.8  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  383.49 +11.92%    100  61.2  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.30  +1.30%     90  63.0  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.23  +1.11%     90  54.2  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.61  +0.83%     80  51.8  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  995.84  -0.02%     80  65.4  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.75  -0.26%     80  60.8  BULLISH  SMA20 SMA50 EMA_STACK
+NOW    $  101.16  -1.87%     53  49.4  NEUTRAL  SMA50 EMA_STACK RSI_49.4
+SPY    $  742.03  +0.59%     40  47.3  NEUTRAL  SMA50 RSI_47.3
+TSLA   $  400.85  +0.41%     27  41.5  BEARISH  SMA50 VOL_1.6x
+AAPL   $  290.57  -1.66%     13  33.9  BEARISH  SMA50 DOWN-1.66%
+MSTR   $  123.51  +2.73%     10  29.0  BEARISH  MOM+2.73% LOW_LIQ
+SHOP   $  108.27  -1.95%      3  55.2  BEARISH  RSI_55.2 DOWN-1.95% LOW_LIQ
+NVDA   $  205.23  +0.18%      0  42.0  BEARISH  
+MSFT   $  388.45  -0.46%      0  38.1  BEARISH  
+AMZN   $  237.47  -1.64%      0  26.3  BEARISH  DOWN-1.64%
+GOOGL  $  361.08  +0.90%      0  34.7  BEARISH  
+META   $  566.18  -0.39%      0  35.6  BEARISH  LOW_LIQ
+PLTR   $  128.06  -2.27%      0  43.6  BEARISH  DOWN-2.27%
+COIN   $  161.74  +0.78%      0  37.2  BEARISH  LOW_LIQ
+CRM    $  165.28  -0.73%      0  40.9  BEARISH  LOW_LIQ
+SMCI   $   30.41  -4.87%      0  44.2  BEARISH  DOWN-4.87%
+NFLX   $   80.75  -0.61%      0  14.6  BEARISH  
+UBER   $   68.36  -1.68%      0  38.5  BEARISH  DOWN-1.68%
+XLE    $   57.66  +0.99%      0  41.7  BEARISH  
+GLD    $  387.57  +0.34%      0  33.5  BEARISH  LOW_LIQ
+SOXS   $    4.61  -7.24%      0  33.3  BEARISH  DOWN-7.24%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:53
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 18:58
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (71ms)
+  OK  UW News:        25 articles  (65ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (126ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1529ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3237ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  71ms
+  🟢  uw_news            healthy        25 items  65ms
+  🟢  massive_news       healthy        50 items  126ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1529ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3237ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 18:58:57
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1858.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  512.99  +5.03%    100  57.6  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  382.10 +11.51%    100  61.0  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.30  +1.28%     90  63.1  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  991.39  -0.46%     80  64.9  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  184.77  +0.86%     80  53.8  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.70  -0.31%     80  60.7  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  721.30  +0.65%     60  51.5  NEUTRAL  SMA50 EMA_STACK RSI_51.5
+NOW    $  101.14  -1.89%     53  49.4  NEUTRAL  SMA50 EMA_STACK RSI_49.4
+SPY    $  741.31  +0.49%     40  47.0  NEUTRAL  SMA50 RSI_47.0
+TSLA   $  401.37  +0.55%     27  41.2  BEARISH  SMA50 VOL_1.6x
+AAPL   $  290.54  -1.67%     13  33.8  BEARISH  SMA50 DOWN-1.67%
+MSTR   $  123.25  +2.52%     10  28.9  BEARISH  MOM+2.52% LOW_LIQ
+SHOP   $  108.22  -1.99%      3  55.3  BEARISH  RSI_55.3 DOWN-1.99% LOW_LIQ
+NVDA   $  204.78  -0.04%      0  41.6  BEARISH  
+MSFT   $  388.80  -0.37%      0  38.2  BEARISH  
+AMZN   $  237.89  -1.46%      0  26.6  BEARISH  DOWN-1.46%
+GOOGL  $  360.80  +0.82%      0  35.0  BEARISH  
+META   $  566.12  -0.40%      0  35.7  BEARISH  LOW_LIQ
+PLTR   $  127.86  -2.43%      0  43.5  BEARISH  DOWN-2.43%
+COIN   $  161.15  +0.41%      0  36.7  BEARISH  LOW_LIQ
+CRM    $  165.54  -0.57%      0  41.0  BEARISH  LOW_LIQ
+SMCI   $   30.23  -5.41%      0  44.0  BEARISH  DOWN-5.41%
+NFLX   $   80.72  -0.65%      0  14.7  BEARISH  
+UBER   $   68.33  -1.72%      0  38.7  BEARISH  DOWN-1.72%
+XLE    $   57.65  +0.96%      0  41.9  BEARISH  
+GLD    $  386.94  +0.18%      0  33.2  BEARISH  LOW_LIQ
+SOXS   $    4.68  -5.84%      0  33.6  BEARISH  DOWN-5.84%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 18:58
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
+/home/client_4319_1/basani_live/live_scanner.py:105: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')} ET {h:02d}:{m:02d}] Market active — running feeds")
+
+============================================================
+  BASANI News Feed v3  --  2026-06-12 19:04
+============================================================
+  FAIL X API (401): Invalid bearer token — check X_BEARER_TOKEN
+  OK  Benzinga:       7 articles  (16ms)
+  OK  UW News:        25 articles  (59ms)  [headlines]
+  OK  Massive/Polygon: 50 articles  (133ms)
+  SKIP Truth Social: API blocked — check truthsocial.com directly
+  OK  Stocktwits:     75 messages  (1443ms)
+  OK  RSS feeds:      47 articles  (6/6 feeds healthy)
+  WARN Forex Factory (this): HTTP Error 429: Too Many Requests
+  WARN Forex Factory (next): HTTP Error 404: Not Found
+  OK  Forex Factory:  0 events  (3315ms)
+
+  ✅  Saved 204 items  →  news.json
+  Breakdown: benzinga=7 | cnbc=8 | marketwatch=8 | massive_news=50 | reuters=16 | seekingalpha=7 | stocktwits=75 | uw_news=25 | zerohedge=8
+
+  Source Health:
+  🔴  x_api              failed          0 items  [HTTP 401: {
+  "title": "Unauthorized",
+  "type": "about:blan]
+  🟢  benzinga           healthy         7 items  16ms
+  🟢  uw_news            healthy        25 items  59ms
+  🟢  massive_news       healthy        50 items  133ms
+  🟡  trump              unavailable     0 items  [Truth Social API blocked (403) — posts still visible at trut]
+  🟢  stocktwits         healthy        75 items  1443ms
+  🟢  rss                healthy        47 items
+  🟡  forex_factory      degraded        0 items  3315ms
+============================================================
+=================================================================
+  BASANI SCAN  —  2026-06-12 19:04:09
+=================================================================
+  Fetching live data from Alpaca...
+  ✅ Saved scan_output.json + history/20260612_1904.json
+
+TICKER     PRICE    CHG%  SCORE   RSI      DIR  SIGNALS
+----------------------------------------------------------------------
+AMD    $  515.35  +5.52%    100  57.7  BULLISH  SMA20 SMA50 EMA_STACK
+ARM    $  384.44 +12.20%    100  61.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLF    $   53.31  +1.32%     90  63.1  BULLISH  SMA20 SMA50 EMA_STACK
+QQQ    $  722.31  +0.79%     80  51.8  BULLISH  SMA20 SMA50 EMA_STACK
+MU     $  993.93  -0.21%     80  65.3  BULLISH  SMA20 SMA50 EMA_STACK
+XLK    $  185.00  +0.99%     80  54.1  BULLISH  SMA20 SMA50 EMA_STACK
+TLT    $   85.68  -0.34%     60  59.9  NEUTRAL  SMA20 EMA_STACK RSI_59.9
+NOW    $  101.16  -1.87%     53  49.4  NEUTRAL  SMA50 EMA_STACK RSI_49.4
+SPY    $  741.87  +0.57%     40  47.5  NEUTRAL  SMA50 RSI_47.5
+TSLA   $  402.87  +0.92%     27  42.4  BEARISH  SMA50 VOL_1.6x
+AAPL   $  290.94  -1.54%     13  34.1  BEARISH  SMA50 DOWN-1.54%
+MSTR   $  123.39  +2.63%     10  28.9  BEARISH  MOM+2.63% LOW_LIQ
+XLE    $   57.67  +1.01%     10  41.8  BEARISH  MOM+1.01%
+SHOP   $  108.24  -1.97%      3  55.2  BEARISH  RSI_55.2 DOWN-1.97% LOW_LIQ
+NVDA   $  204.87  +0.00%      0  41.9  BEARISH  
+MSFT   $  388.74  -0.39%      0  38.2  BEARISH  
+AMZN   $  237.94  -1.44%      0  26.5  BEARISH  DOWN-1.44%
+GOOGL  $  361.21  +0.93%      0  35.1  BEARISH  
+META   $  566.84  -0.27%      0  35.8  BEARISH  LOW_LIQ
+PLTR   $  127.87  -2.42%      0  43.5  BEARISH  DOWN-2.42%
+COIN   $  161.37  +0.55%      0  36.9  BEARISH  LOW_LIQ
+CRM    $  165.18  -0.79%      0  40.9  BEARISH  LOW_LIQ
+SMCI   $   30.27  -5.30%      0  44.0  BEARISH  DOWN-5.3%
+NFLX   $   80.67  -0.72%      0  14.5  BEARISH  
+UBER   $   68.32  -1.73%      0  38.5  BEARISH  DOWN-1.73%
+GLD    $  387.11  +0.22%      0  33.2  BEARISH  LOW_LIQ
+SOXS   $    4.64  -6.64%      0  33.4  BEARISH  DOWN-6.64%
+=================================================================
+  Done.
+
+====================================================
+  BASANI Unusual Whales  --  2026-06-12 19:04
+====================================================
+  flow endpoint: /api/option-trades/flow-alerts
+  flow alerts   → 200 captured
+  dark pool     → 50 captured
+  SKIP congress (404)
+  congressional → 0 captured
+  total saved   → 200 alerts in unusual_whales.json
+====================================================
+
+/home/client_4319_1/basani_live/live_scanner.py:77: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  print(f"\n[{datetime.utcnow().strftime('%H:%M:%S')}] Pushing to fork...")
+/home/client_4319_1/basani_live/live_scanner.py:65: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "message": f"live: update {remote_name} [{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC]",
