@@ -1,21 +1,21 @@
 {
-  "generated": "2026-06-19T17:02:08Z",
-  "generated_display": "2026-06-19 13:02 ET",
-  "count": 175,
+  "generated": "2026-06-19T17:12:18Z",
+  "generated_display": "2026-06-19 13:12 ET",
+  "count": 170,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-19T17:02:02.800266+00:00",
+      "last_error_ts": "2026-06-19T17:10:01.260797+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 2,
-      "latency_ms": 162,
-      "last_success": "2026-06-19T17:02:02.964775+00:00",
+      "latency_ms": 175,
+      "last_success": "2026-06-19T17:10:01.438523+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -24,14 +24,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-19T17:02:03.066950+00:00",
+      "last_error_ts": "2026-06-19T17:10:01.525212+00:00",
       "error": "HTTP Error 429: Too Many Requests"
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 253,
-      "last_success": "2026-06-19T17:02:03.324134+00:00",
+      "latency_ms": 188,
+      "last_success": "2026-06-19T17:10:01.719438+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-19T17:02:03.494272+00:00",
+      "last_error_ts": "2026-06-19T17:10:01.894336+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
-      "items_pulled": 75,
-      "latency_ms": 1926,
-      "last_success": "2026-06-19T17:02:05.420721+00:00",
+      "items_pulled": 70,
+      "latency_ms": 118749,
+      "last_success": "2026-06-19T17:12:00.644219+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-19T17:02:06.787614+00:00",
+      "last_success": "2026-06-19T17:12:01.982170+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 28,
-      "latency_ms": 1974,
-      "last_success": "2026-06-19T17:02:08.761833+00:00",
+      "latency_ms": 16331,
+      "last_success": "2026-06-19T17:12:18.314241+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 180
+          "latency_ms": 191
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 129
+          "latency_ms": 199
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 471
+          "latency_ms": 467
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 347
+          "latency_ms": 259
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 103
+          "latency_ms": 89
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 134
+          "latency_ms": 131
         }
       }
     }
@@ -109,13 +109,31 @@
     "cnbc": 8,
     "reuters": 16,
     "zerohedge": 8,
-    "stocktwits": 75,
+    "stocktwits": 70,
+    "massive_news": 50,
     "benzinga": 2,
     "seekingalpha": 7,
-    "massive_news": 50,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "e780e3d30495a8",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Fri, 19 Jun 2026 17:08:00 GMT",
+      "title": "Trump picked Kevin Warsh to cut rates. The new Fed chief just told us he has other plans.",
+      "body": "Here\u2019s what the central bank\u2019s hawkish agenda means for your money.",
+      "url": "https://www.marketwatch.com/story/trump-picked-kevin-warsh-to-cut-rates-the-new-fed-chief-just-told-us-he-has-other-plans-096bba56?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 11.0,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "Fri, 19 Jun 2026 17:08:00 GMT",
+      "text": "Trump picked Kevin Warsh to cut rates. The new Fed chief just told us he has other plans.",
+      "description": "Here\u2019s what the central bank\u2019s hawkish agenda means for your money."
+    },
     {
       "id": "93304e72e02c2e",
       "source": "marketwatch",
@@ -569,24 +587,6 @@
       "description": "\"No Greater Threat To America's Way Of Life\": Senate Unanimously Passes Resolution To Condemn CCP Leader Xi Jinping\n\n            Authored by Dorothy Li via The Epoch Times,\n\nU.S. senators have voiced support for ordinary Chinese people and denounced communist regime leader Xi Jinping for lying to Am"
     },
     {
-      "id": "e9b2a780fe525b",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Fri, 19 Jun 2026 13:11:00 GMT",
-      "title": "\u2018I\u2019ll probably be working until I die\u2019: I\u2019m 60, work as a waiter and have $2,000 in a Roth IRA. What will happen to me?",
-      "body": "\u201cI\u2019m afraid I\u2019m in a bad place.\u201d",
-      "url": "https://www.marketwatch.com/story/ill-probably-be-working-until-i-die-im-60-work-as-a-restaurant-server-and-have-2-000-in-an-ira-who-can-help-me-6e36253a?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 19 Jun 2026 13:11:00 GMT",
-      "text": "\u2018I\u2019ll probably be working until I die\u2019: I\u2019m 60, work as a waiter and have $2,000 in a Roth IRA. What will happen to me?",
-      "description": "\u201cI\u2019m afraid I\u2019m in a bad place.\u201d"
-    },
-    {
       "id": "3d10aafc67392c",
       "source": "zerohedge",
       "source_type": "rss",
@@ -605,6 +605,75 @@
       "description": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks\n\n            Summary:\n\nIsrael and Hezbollah Agree To Ceasefire\u00a0\n\tOpening Round Of US-Iran Nuclear Talks Postponed After Israel-Lebanon Clashes Erupt\u00a0\nIsrael and Hezbollah Agree To Ceasefire\n\nIsrael and Hez"
     },
     {
+      "id": "be257783f22a19",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:07:43Z",
+      "title": "$NRED.CSE $SPY $QQQ $DIA I want to be clear about one thing. I consider this kind of language unacceptable. Disagree with Kristi Noem. Question NovaRed\u2019s decision. Challenge her qualifications, potential conflicts and the value she may bring to shareholders. All of that is legitimate. \n \nBut languag",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656948245",
+      "author": "OreWatcher",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:07:43Z",
+      "text": "$NRED.CSE $SPY $QQQ $DIA I want to be clear about one thing. I consider this kind of language unacceptable. Disagree with Kristi Noem. Question NovaRed\u2019s decision. Challenge her qualifications, potential conflicts and the value she may bring to shareholders. All of that is legitimate. \n \nBut languag",
+      "description": "",
+      "handle": "OreWatcher",
+      "display_name": "Whowithme",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "789fad5e3d699a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:07:43Z",
+      "title": "$SPY $INTC $AAPL $DJT $OIL \n\nTRUMP WH IS A BUNCH OF MARKET MANIPULATING SCAMMERS! \n\nI posted \ud83d\udceb the info last night \ud83c\udf19 \n\nWatch \ud83d\udc40 this video \ud83d\udcf9 \n\nhttps://youtu.be/-L24MXKtzCo?is=uF8qHmcywJ_1b6dR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/656948244",
+      "author": "ospreyeye",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:07:43Z",
+      "text": "$SPY $INTC $AAPL $DJT $OIL \n\nTRUMP WH IS A BUNCH OF MARKET MANIPULATING SCAMMERS! \n\nI posted \ud83d\udceb the info last night \ud83c\udf19 \n\nWatch \ud83d\udc40 this video \ud83d\udcf9 \n\nhttps://youtu.be/-L24MXKtzCo?is=uF8qHmcywJ_1b6dR",
+      "description": "",
+      "handle": "ospreyeye",
+      "display_name": "Ospreyeye",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "713d8e080d1333",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:05:27Z",
+      "title": "$TSLA so today is some sort of black holiday. I\u2019m guessing?  Why the hell would they shut down the market for this bullshit?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/656948172",
+      "author": "FunktradEE2",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:05:27Z",
+      "text": "$TSLA so today is some sort of black holiday. I\u2019m guessing?  Why the hell would they shut down the market for this bullshit?",
+      "description": "",
+      "handle": "FunktradEE2",
+      "display_name": "D",
+      "platform": "stocktwits"
+    },
+    {
       "id": "6543b78abb4b48",
       "source": "zerohedge",
       "source_type": "rss",
@@ -621,6 +690,52 @@
       "time": "Fri, 19 Jun 2026 13:05:00 +0000",
       "text": "UK Gilt Yields Spike As Burnham Win Opens Door To Oust Starmer",
       "description": "UK Gilt Yields Spike As Burnham Win Opens Door To Oust Starmer\n\n            The odds of embattled UK Prime Minister Keir Starmer being ousted by the end of July are soaring this morning...\n\n\n\n...after Greater Manchester Mayor Andy Burnham won a decisive victory for the ruling Labour Party that deliv"
+    },
+    {
+      "id": "9c8f30790c8f4b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:02:45Z",
+      "title": "$BTC.X anyone who is truly pro Bitcoin knows Michael Saylor needs to go. $STRC $MSTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/656948083",
+      "author": "ArtisTheGreat",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-19T17:02:45Z",
+      "text": "$BTC.X anyone who is truly pro Bitcoin knows Michael Saylor needs to go. $STRC $MSTR",
+      "description": "",
+      "handle": "ArtisTheGreat",
+      "display_name": "Lucy DeElf",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b1aabd982978c3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:02:30Z",
+      "title": "$NRED.CSE Watched the Charlie Angus video. \n \nHonestly, it felt more like political theatre than any serious discussion of NovaRed. \n \nI\u2019m following $NRED.CSE for Wilmac, MetalCore, the permit process and the field program. \n \nPeople can argue about Noem all day. \n \nThe geology still has to speak fo",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656948076",
+      "author": "nervmay11",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:02:30Z",
+      "text": "$NRED.CSE Watched the Charlie Angus video. \n \nHonestly, it felt more like political theatre than any serious discussion of NovaRed. \n \nI\u2019m following $NRED.CSE for Wilmac, MetalCore, the permit process and the field program. \n \nPeople can argue about Noem all day. \n \nThe geology still has to speak fo",
+      "description": "",
+      "handle": "nervmay11",
+      "display_name": "Nervous Maybe",
+      "platform": "stocktwits"
     },
     {
       "id": "a4b7793fced671",
@@ -643,29 +758,6 @@
       "description": "",
       "handle": "Cpstrag",
       "display_name": "Christina Pstrag",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "1bb7f34cea0c5e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:01:11Z",
-      "title": "$DJT $SPY $TSLA $SPCX musk cucks be like",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656948038",
-      "author": "JesusHatesPedos",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-19T17:01:11Z",
-      "text": "$DJT $SPY $TSLA $SPCX musk cucks be like",
-      "description": "",
-      "handle": "JesusHatesPedos",
-      "display_name": "The Hashingz",
       "platform": "stocktwits"
     },
     {
@@ -692,29 +784,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "69f69f1e5ad098",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:00:49Z",
-      "title": "BULLISH is 1 letter away from BULLSHIT. which side are you on???   $SPY  $SMH",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656948025",
-      "author": "racernic",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T17:00:49Z",
-      "text": "BULLISH is 1 letter away from BULLSHIT. which side are you on???   $SPY  $SMH",
-      "description": "",
-      "handle": "racernic",
-      "display_name": "Nic",
-      "platform": "stocktwits"
-    },
-    {
       "id": "9beb36c623b129",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -738,73 +807,24 @@
       "platform": "stocktwits"
     },
     {
-      "id": "ecdfc0418a89eb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:58:59Z",
-      "title": "$SPY $BTC.X $JPM &gt;&gt;\n\nJ P MORGAN&#39;S JAMIE DIMON IS A SCAMMING LIAR: \n\nhttps://youtube.com/shorts/XFpIgiYZYvU?is=M7jtf3Dw5Q-1ObhH",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656947958",
-      "author": "ospreyeye",
+      "id": "b616c8a52ac4e7",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-19T17:00:00Z",
+      "title": "SPX Technologies Announces Leadership Transition in D&M Segment",
+      "body": "SPX Technologies announced a planned leadership transition in its Detection & Measurement segment. John Swann, who has led the segment and been with the company since 2004, will retire in January 2027. Eric Kaled will assume the role effective August 31, 2026. Swann will remain through year-end to s",
+      "url": "https://www.globenewswire.com/news-release/2026/06/19/3314859/0/en/SPX-Technologies-Announces-Leadership-Transition-in-D-M-Segment.html",
+      "author": "GlobeNewswire Inc.",
       "tickers": [
-        "SPY"
+        "SPXC"
       ],
       "tags": [],
-      "impact_score": 4.2,
+      "impact_score": 8.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-19T16:58:59Z",
-      "text": "$SPY $BTC.X $JPM &gt;&gt;\n\nJ P MORGAN&#39;S JAMIE DIMON IS A SCAMMING LIAR: \n\nhttps://youtube.com/shorts/XFpIgiYZYvU?is=M7jtf3Dw5Q-1ObhH",
-      "description": "",
-      "handle": "ospreyeye",
-      "display_name": "Ospreyeye",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "256bee42f3f968",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:58:29Z",
-      "title": "$SPY if you&#39;re not taking a phat nap \ud83d\udca4 today I&#39;m not sure you&#39;re a trader",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656947947",
-      "author": "CandlesBACKEDSECURITIES",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:58:29Z",
-      "text": "$SPY if you&#39;re not taking a phat nap \ud83d\udca4 today I&#39;m not sure you&#39;re a trader",
-      "description": "",
-      "handle": "CandlesBACKEDSECURITIES",
-      "display_name": "Candles",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "9157e64bfdf62f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:58:22Z",
-      "title": "$SPY \n\nBear cub became an expert on useless Iran geography \n\nBear cub remains broke",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656947945",
-      "author": "blancoBull",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:58:22Z",
-      "text": "$SPY \n\nBear cub became an expert on useless Iran geography \n\nBear cub remains broke",
-      "description": "",
-      "handle": "blancoBull",
-      "display_name": "Blanco",
-      "platform": "stocktwits"
+      "time": "2026-06-19T17:00:00Z",
+      "text": "SPX Technologies Announces Leadership Transition in D&M Segment",
+      "description": "SPX Technologies announced a planned leadership transition in its Detection & Measurement segment. John Swann, who has led the segment and been with the company since 2004, will retire in January 2027. Eric Kaled will assume the role effective August 31, 2026. Swann will remain through year-end to s"
     },
     {
       "id": "63fce27e736082",
@@ -991,50 +1011,40 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c76165adad7f25",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:53:45Z",
-      "title": "$ASML $QQQ $SPY only a matter of time until China has much cheaper and more powerful chips than the USA $SOXX",
+      "id": "be51d3e3b2ef53",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-19T16:53:19Z",
+      "title": "Dow Jones Futures Fall With U.S. Markets Shut; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656947802",
-      "author": "Wolfofwits",
-      "tickers": [
-        "QQQ"
-      ],
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-5-chips-buy-points-spacex-stock/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 4.2,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-19T16:53:45Z",
-      "text": "$ASML $QQQ $SPY only a matter of time until China has much cheaper and more powerful chips than the USA $SOXX",
-      "description": "",
-      "handle": "Wolfofwits",
-      "display_name": "Wolfofwits",
-      "platform": "stocktwits"
+      "time": "2026-06-19T16:53:19Z",
+      "text": "Dow Jones Futures Fall With U.S. Markets Shut; Nvidia Leads 5 Stocks Near Buy Points, SpaceX Needs This",
+      "description": ""
     },
     {
-      "id": "fba5261cd271f9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:52:57Z",
-      "title": "$QQQ",
+      "id": "8299c6487b9612",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-19T16:52:55Z",
+      "title": "Aegon (AEG) Announces Governance Agreement to Support Corporate Relocation to the US",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656947774",
-      "author": "crooner72",
-      "tickers": [
-        "QQQ"
-      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/aegon-aeg-announces-governance-agreement-165255887.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-19T16:52:57Z",
-      "text": "$QQQ",
-      "description": "",
-      "handle": "crooner72",
-      "display_name": "Trump 2028",
-      "platform": "stocktwits"
+      "time": "2026-06-19T16:52:55Z",
+      "text": "Aegon (AEG) Announces Governance Agreement to Support Corporate Relocation to the US",
+      "description": ""
     },
     {
       "id": "19c9d77af23935",
@@ -1060,21 +1070,93 @@
       "platform": "stocktwits"
     },
     {
-      "id": "cd3db73b3985ed",
+      "id": "4b7f6bdc699dcc",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-06-19T16:52:02Z",
-      "title": "Famous Wall Street Tech Analyst Names Meta and Amazon the Best Magnificent 7 Stock Buys Today",
+      "timestamp": "2026-06-19T16:52:43Z",
+      "title": "Nomura (NMR) Subsidiary Laser Digital Receives Conditional Approval for US National Trust Bank Charter",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/famous-wall-street-tech-analyst-165202653.html",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/nomura-nmr-subsidiary-laser-digital-165243512.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-19T16:52:02Z",
-      "text": "Famous Wall Street Tech Analyst Names Meta and Amazon the Best Magnificent 7 Stock Buys Today",
+      "time": "2026-06-19T16:52:43Z",
+      "text": "Nomura (NMR) Subsidiary Laser Digital Receives Conditional Approval for US National Trust Bank Charter",
+      "description": ""
+    },
+    {
+      "id": "0803241a36e0e7",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-19T16:52:37Z",
+      "title": "Melco Resorts & Entertainment (MLCO) Extends Credit Facility Maturity and Increases Total Commitment",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/melco-resorts-entertainment-mlco-extends-165237344.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T16:52:37Z",
+      "text": "Melco Resorts & Entertainment (MLCO) Extends Credit Facility Maturity and Increases Total Commitment",
+      "description": ""
+    },
+    {
+      "id": "dea70e971eb4d2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-19T16:52:31Z",
+      "title": "Grifols (GRFS) Launches FESILTY in the U.S. for Congenital Fibrinogen Deficiency Treatment",
+      "body": "",
+      "url": "https://finance.yahoo.com/healthcare/articles/grifols-grfs-launches-fesilty-u-165231770.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T16:52:31Z",
+      "text": "Grifols (GRFS) Launches FESILTY in the U.S. for Congenital Fibrinogen Deficiency Treatment",
+      "description": ""
+    },
+    {
+      "id": "8548a5f8b479d9",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-19T16:52:24Z",
+      "title": "Haleon (HLN) Issues Voluntary Nationwide Recall for Specific Gas-X Extra Strength Softgels",
+      "body": "",
+      "url": "https://finance.yahoo.com/healthcare/articles/haleon-hln-issues-voluntary-nationwide-165224414.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T16:52:24Z",
+      "text": "Haleon (HLN) Issues Voluntary Nationwide Recall for Specific Gas-X Extra Strength Softgels",
+      "description": ""
+    },
+    {
+      "id": "12d55cebfe6f3b",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-19T16:52:19Z",
+      "title": "Mizuho Financial Group (MFG): Top Value Stocks to Buy Under $10",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/mizuho-financial-group-mfg-top-165219045.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T16:52:19Z",
+      "text": "Mizuho Financial Group (MFG): Top Value Stocks to Buy Under $10",
       "description": ""
     },
     {
@@ -1099,6 +1181,29 @@
       "handle": "Wheel_Is_King",
       "display_name": "Eddie",
       "platform": "stocktwits"
+    },
+    {
+      "id": "47234623d00dc4",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-19T16:48:00Z",
+      "title": "BRODSKY & SMITH SHAREHOLDER UPDATE: Notifying Investors of the Following Investigations: AstroNova, Inc. (Nasdaq \u2013 ALOT), Open Lending Corporation (Nasdaq \u2013 LPRO), Huntsman Corporation (NYSE \u2013 HUN), Standard BioTools Inc. (Nasdaq \u2013 LAB)",
+      "body": "Brodsky & Smith law firm is investigating four merger transactions to determine whether company boards breached fiduciary duties to shareholders. The investigations concern AstroNova (being acquired by Arcline for $29.00/share), Open Lending (being acquired by ANV Group for $3.15/share), Huntsman (m",
+      "url": "https://www.globenewswire.com/news-release/2026/06/19/3314855/0/en/BRODSKY-SMITH-SHAREHOLDER-UPDATE-Notifying-Investors-of-the-Following-Investigations-AstroNova-Inc-Nasdaq-ALOT-Open-Lending-Corporation-Nasdaq-LPRO-Huntsman-Corporation-NYSE-HUN-St.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "ALOT",
+        "LPRO",
+        "HUN",
+        "LAB"
+      ],
+      "tags": [],
+      "impact_score": 13.0,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-06-19T16:48:00Z",
+      "text": "BRODSKY & SMITH SHAREHOLDER UPDATE: Notifying Investors of the Following Investigations: AstroNova, Inc. (Nasdaq \u2013 ALOT), Open Lending Corporation (Nasdaq \u2013 LPRO), Huntsman Corporation (NYSE \u2013 HUN), Standard BioTools Inc. (Nasdaq \u2013 LAB)",
+      "description": "Brodsky & Smith law firm is investigating four merger transactions to determine whether company boards breached fiduciary duties to shareholders. The investigations concern AstroNova (being acquired by Arcline for $29.00/share), Open Lending (being acquired by ANV Group for $3.15/share), Huntsman (m"
     },
     {
       "id": "a28452e66bf270",
@@ -1147,29 +1252,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "ba9b258e3bc12a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:47:10Z",
-      "title": "Texas Department of Transportation Executive Director Marc Williams says Tesla\u2019s Cybercab is proof that the future of transportation is already here.\n\nHe also said Cybercab will help \u201cdramatically scale\u201d Tesla Robotaxi operations in the coming months.\n\n\u2022 No steering wheel.\n\u2022 No accelerator.\n\u2022 No bra",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/656947559",
-      "author": "TheofficialElonMusk",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:47:10Z",
-      "text": "Texas Department of Transportation Executive Director Marc Williams says Tesla\u2019s Cybercab is proof that the future of transportation is already here.\n\nHe also said Cybercab will help \u201cdramatically scale\u201d Tesla Robotaxi operations in the coming months.\n\n\u2022 No steering wheel.\n\u2022 No accelerator.\n\u2022 No bra",
-      "description": "",
-      "handle": "TheofficialElonMusk",
-      "display_name": "Elon Musk",
-      "platform": "stocktwits"
-    },
-    {
       "id": "977da76d6479df",
       "source": "benzinga",
       "source_type": "benzinga_news",
@@ -1200,6 +1282,48 @@
         "New ETFs",
         "Top Stories"
       ]
+    },
+    {
+      "id": "059ec8f0e9cadd",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-19T16:46:00Z",
+      "title": "USW condemns decision to abolish the Canadian Ombudsperson for Responsible Enterprise",
+      "body": "The United Steelworkers union strongly opposes the federal government's decision to abolish the Office of the Canadian Ombudsperson for Responsible Enterprise (CORE), arguing that while the office had limitations, eliminating it removes an important tool for holding Canadian companies accountable fo",
+      "url": "https://www.globenewswire.com/news-release/2026/06/19/3314854/0/en/USW-condemns-decision-to-abolish-the-Canadian-Ombudsperson-for-Responsible-Enterprise.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "ASTL",
+        "ASTLW"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T16:46:00Z",
+      "text": "USW condemns decision to abolish the Canadian Ombudsperson for Responsible Enterprise",
+      "description": "The United Steelworkers union strongly opposes the federal government's decision to abolish the Office of the Canadian Ombudsperson for Responsible Enterprise (CORE), arguing that while the office had limitations, eliminating it removes an important tool for holding Canadian companies accountable fo"
+    },
+    {
+      "id": "8eed563a2e2d19",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-19T16:46:00Z",
+      "title": "Le Syndicat des M\u00e9tallos condamne la d\u00e9cision d\u2019abolir le poste d\u2019ombudsman canadien de la responsabilit\u00e9 des entreprises",
+      "body": "The United Steelworkers union strongly condemns the federal government's decision to close the Canadian Ombudsperson for Responsible Enterprise (CORE), arguing it removes a critical tool for holding Canadian companies accountable for human rights and labor violations abroad. While acknowledging CORE",
+      "url": "https://www.globenewswire.com/news-release/2026/06/19/3314854/0/fr/Le-Syndicat-des-M%C3%A9tallos-condamne-la-d%C3%A9cision-d-abolir-le-poste-d-ombudsman-canadien-de-la-responsabilit%C3%A9-des-entreprises.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "ASTL",
+        "ASTLW"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T16:46:00Z",
+      "text": "Le Syndicat des M\u00e9tallos condamne la d\u00e9cision d\u2019abolir le poste d\u2019ombudsman canadien de la responsabilit\u00e9 des entreprises",
+      "description": "The United Steelworkers union strongly condemns the federal government's decision to close the Canadian Ombudsperson for Responsible Enterprise (CORE), arguing it removes a critical tool for holding Canadian companies accountable for human rights and labor violations abroad. While acknowledging CORE"
     },
     {
       "id": "dddaf78ce13ff8",
@@ -1625,78 +1749,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "aa369fa94f5bfe",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-19T16:26:28Z",
-      "title": "Is Cipher Digital Inc. (CIFR) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/cipher-digital-inc-cifr-good-162628975.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:26:28Z",
-      "text": "Is Cipher Digital Inc. (CIFR) A Good Stock To Buy Now?",
-      "description": ""
-    },
-    {
-      "id": "b2648d8674a562",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-19T16:26:14Z",
-      "title": "Is Constellium SE (CSTM) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/constellium-se-cstm-good-stock-162614113.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:26:14Z",
-      "text": "Is Constellium SE (CSTM) A Good Stock To Buy Now?",
-      "description": ""
-    },
-    {
-      "id": "50bbc46b2f1fad",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-19T16:25:36Z",
-      "title": "Is Extreme Networks, Inc. (EXTR) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/extreme-networks-inc-extr-good-162536552.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:25:36Z",
-      "text": "Is Extreme Networks, Inc. (EXTR) A Good Stock To Buy Now?",
-      "description": ""
-    },
-    {
-      "id": "a1b5d99c1bee86",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-19T16:25:21Z",
-      "title": "Is FirstCash Holdings, Inc. (FCFS) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/firstcash-holdings-inc-fcfs-good-162521969.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:25:21Z",
-      "text": "Is FirstCash Holdings, Inc. (FCFS) A Good Stock To Buy Now?",
-      "description": ""
-    },
-    {
       "id": "50e821ca2d253e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1720,24 +1772,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "52a1db9e880643",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-19T16:25:06Z",
-      "title": "Is Granite Construction Incorporated (GVA) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/granite-construction-incorporated-gva-good-162506497.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:25:06Z",
-      "text": "Is Granite Construction Incorporated (GVA) A Good Stock To Buy Now?",
-      "description": ""
-    },
-    {
       "id": "e49dac9cef53f3",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1759,24 +1793,6 @@
       "handle": "212fab",
       "display_name": "212fab",
       "platform": "stocktwits"
-    },
-    {
-      "id": "0300b5adebfd26",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-19T16:24:51Z",
-      "title": "Is Veradermics, Incorporated (MANE) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/veradermics-incorporated-mane-good-stock-162451041.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:24:51Z",
-      "text": "Is Veradermics, Incorporated (MANE) A Good Stock To Buy Now?",
-      "description": ""
     },
     {
       "id": "563a0121c50cd3",
@@ -2095,29 +2111,6 @@
       "description": "",
       "handle": "PivotPoint_101",
       "display_name": "Brian P.",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b58dd5f2ee4a70",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:01:48Z",
-      "title": "$MSTR saylor weds himself to a dividend on the preferred, tied to an asset that generates nothing.\n\nthat is a real idiot move, change my mind.\n\nhe is now stuck selling bitcoin to whole the preferred, downward spiral\u2026",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/656945949",
-      "author": "amberajax2point0",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-19T16:01:48Z",
-      "text": "$MSTR saylor weds himself to a dividend on the preferred, tied to an asset that generates nothing.\n\nthat is a real idiot move, change my mind.\n\nhe is now stuck selling bitcoin to whole the preferred, downward spiral\u2026",
-      "description": "",
-      "handle": "amberajax2point0",
-      "display_name": "amberajax",
       "platform": "stocktwits"
     },
     {
@@ -2614,29 +2607,6 @@
       "description": "",
       "handle": "topstockalerts",
       "display_name": "Top Stock Alerts",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5a026b1eb81bc9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T15:18:09Z",
-      "title": "$AAPL $CCL $AAL Iran denies closing the Strait of Hormuz. MFA spokesperson Baqaei called the claims baseless, said commercial shipping continues under the June 18 ceasefire memorandum.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/656944324",
-      "author": "prstrader",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T15:18:09Z",
-      "text": "$AAPL $CCL $AAL Iran denies closing the Strait of Hormuz. MFA spokesperson Baqaei called the claims baseless, said commercial shipping continues under the June 18 ceasefire memorandum.",
-      "description": "",
-      "handle": "prstrader",
-      "display_name": "Russ",
       "platform": "stocktwits"
     },
     {
@@ -3675,96 +3645,6 @@
       "time": "2026-06-19T12:39:00Z",
       "text": "Kalshi Revenue Surge Could Reshape the Fintech IPO Pipeline",
       "description": "Prediction market platform Kalshi is in informal IPO discussions with investment banks after its annualized revenue surpassed $2 billion, double the March 2026 run rate. The company holds a $22 billion valuation and achieved $16.81 billion in May trading volume, 2.4x larger than competitor Polymarke"
-    },
-    {
-      "id": "fbd9aabba4c9f9",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-19T12:30:00Z",
-      "title": "West Bancorporation, Inc. to Announce Quarterly Results, Hold Conference Call",
-      "body": "West Bancorporation, Inc. (Nasdaq: WTBA), parent company of West Bank, announced it will report second quarter 2026 financial results on July 23, 2026, followed by a conference call at 2:00 p.m. Central Time. The company is a community bank serving customers since 1893 with operations across Iowa an",
-      "url": "https://www.globenewswire.com/news-release/2026/06/19/3314727/33544/en/West-Bancorporation-Inc-to-Announce-Quarterly-Results-Hold-Conference-Call.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "WTBA"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T12:30:00Z",
-      "text": "West Bancorporation, Inc. to Announce Quarterly Results, Hold Conference Call",
-      "description": "West Bancorporation, Inc. (Nasdaq: WTBA), parent company of West Bank, announced it will report second quarter 2026 financial results on July 23, 2026, followed by a conference call at 2:00 p.m. Central Time. The company is a community bank serving customers since 1893 with operations across Iowa an"
-    },
-    {
-      "id": "87bc8ffe3b83f5",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-19T12:30:00Z",
-      "title": "Lite Strategy to Attend Panel at Litecoin Foundation Summit in Amsterdam",
-      "body": "Lite Strategy, Inc. (NASDAQ: LITS), the first U.S. public company to adopt Litecoin as its primary treasury reserve asset, will participate in a featured panel at the Litecoin Foundation Summit on June 22-23, 2026 in Amsterdam. The panel will discuss Litecoin's institutional evolution, featuring CEO",
-      "url": "https://www.globenewswire.com/news-release/2026/06/19/3314726/0/en/Lite-Strategy-to-Attend-Panel-at-Litecoin-Foundation-Summit-in-Amsterdam.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "LITS",
-        "LTCN"
-      ],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T12:30:00Z",
-      "text": "Lite Strategy to Attend Panel at Litecoin Foundation Summit in Amsterdam",
-      "description": "Lite Strategy, Inc. (NASDAQ: LITS), the first U.S. public company to adopt Litecoin as its primary treasury reserve asset, will participate in a featured panel at the Litecoin Foundation Summit on June 22-23, 2026 in Amsterdam. The panel will discuss Litecoin's institutional evolution, featuring CEO"
-    },
-    {
-      "id": "e3a4957a07bcbc",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-19T12:25:00Z",
-      "title": "3 Elite Trillion-Dollar Giants Worth Loading Up On Right Now",
-      "body": "The article highlights three trillion-dollar companies\u2014Walmart, Costco, and Berkshire Hathaway\u2014as compelling investment opportunities. Walmart leverages AI and same-day delivery reaching 95% of U.S. households to drive growth. Costco maintains strong member loyalty with rising transaction sizes and ",
-      "url": "https://www.fool.com/investing/2026/06/19/3-elite-trillion-dollar-giants-worth-loading-up-on/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "WMT",
-        "COST",
-        "GOOG",
-        "GOOGL",
-        "GOOGM",
-        "GOOGN",
-        "AAPL",
-        "AXP"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T12:25:00Z",
-      "text": "3 Elite Trillion-Dollar Giants Worth Loading Up On Right Now",
-      "description": "The article highlights three trillion-dollar companies\u2014Walmart, Costco, and Berkshire Hathaway\u2014as compelling investment opportunities. Walmart leverages AI and same-day delivery reaching 95% of U.S. households to drive growth. Costco maintains strong member loyalty with rising transaction sizes and "
-    },
-    {
-      "id": "dfc7356f1e5569",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-19T12:04:00Z",
-      "title": "Visa and Mastercard Reportedly Want to Run Stablecoins, Not Fight Them. Here's What It Means for Investors.",
-      "body": "Visa and Mastercard are reportedly in talks with Stripe and potentially Coinbase to launch a joint stablecoin platform, rather than fighting the technology. With $303 billion in dollar-linked stablecoins dominated by Tether and USDC, the payment giants are leveraging their network effects and regula",
-      "url": "https://www.fool.com/investing/2026/06/19/visa-mastercard-stablecoins-what-means-investors/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "V",
-        "MA",
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T12:04:00Z",
-      "text": "Visa and Mastercard Reportedly Want to Run Stablecoins, Not Fight Them. Here's What It Means for Investors.",
-      "description": "Visa and Mastercard are reportedly in talks with Stripe and potentially Coinbase to launch a joint stablecoin platform, rather than fighting the technology. With $303 billion in dollar-linked stablecoins dominated by Tether and USDC, the payment giants are leveraging their network effects and regula"
     },
     {
       "id": "954a82d903fdb7",
