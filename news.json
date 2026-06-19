@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-19T17:52:30Z",
-  "generated_display": "2026-06-19 13:52 ET",
+  "generated": "2026-06-19T18:00:08Z",
+  "generated_display": "2026-06-19 14:00 ET",
   "count": 177,
   "source_health": {
     "x_api": {
@@ -8,14 +8,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-19T17:52:13.519450+00:00",
+      "last_error_ts": "2026-06-19T18:00:01.328391+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 178,
-      "last_success": "2026-06-19T17:52:13.700133+00:00",
+      "latency_ms": 214,
+      "last_success": "2026-06-19T18:00:01.546129+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -24,14 +24,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-19T17:52:24.641876+00:00",
-      "error": "[Errno 54] Connection reset by peer"
+      "last_error_ts": "2026-06-19T18:00:01.650920+00:00",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 401,
-      "last_success": "2026-06-19T17:52:25.050022+00:00",
+      "latency_ms": 256,
+      "last_success": "2026-06-19T18:00:01.911219+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-19T17:52:25.226384+00:00",
+      "last_error_ts": "2026-06-19T18:00:02.074100+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1925,
-      "last_success": "2026-06-19T17:52:27.151816+00:00",
+      "latency_ms": 3245,
+      "last_success": "2026-06-19T18:00:05.319491+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-19T17:52:28.525493+00:00",
+      "last_success": "2026-06-19T18:00:06.770043+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 28,
-      "latency_ms": 2020,
-      "last_success": "2026-06-19T17:52:30.545627+00:00",
+      "latency_ms": 2033,
+      "last_success": "2026-06-19T18:00:08.803576+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,41 +74,41 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 187
+          "latency_ms": 191
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 180
+          "latency_ms": 136
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 468
+          "latency_ms": 478
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 258
+          "latency_ms": 338
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 145
+          "latency_ms": 167
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 132
+          "latency_ms": 137
         }
       }
     }
   },
   "by_source": {
-    "marketwatch": 8,
-    "reuters": 16,
     "cnbc": 8,
     "zerohedge": 8,
+    "marketwatch": 8,
+    "reuters": 16,
     "stocktwits": 75,
     "benzinga": 4,
     "massive_news": 50,
@@ -116,6 +116,42 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "84cb81555bea70",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Fri, 19 Jun 2026 17:56:52 GMT",
+      "title": "Struggling to find a job? Try looking in Nevada",
+      "body": "The sparsely populated state known for its world-class casinos and dry climate has been a hiring hot spot.",
+      "url": "https://www.cnbc.com/2026/06/19/nevada-workforce-job-market.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 19 Jun 2026 17:56:52 GMT",
+      "text": "Struggling to find a job? Try looking in Nevada",
+      "description": "The sparsely populated state known for its world-class casinos and dry climate has been a hiring hot spot."
+    },
+    {
+      "id": "f7e7093d1fedbd",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Fri, 19 Jun 2026 17:45:00 +0000",
+      "title": "FundStrat's Newton: Why Not Replace The FOMC With AI?",
+      "body": "FundStrat's Newton: Why Not Replace The FOMC With AI?\n\n            Short of abolishing the Fed (much preferred), would automating the Fed make more sense than the current system? Should we trust Kevin Warsh, Jerome Powell, and Lisa Cook to read the tea leaves each month and decree rate changes for u",
+      "url": "https://www.zerohedge.com/markets/fundstrats-newton-why-not-replace-fomc-ai",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 14.0,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "Fri, 19 Jun 2026 17:45:00 +0000",
+      "text": "FundStrat's Newton: Why Not Replace The FOMC With AI?",
+      "description": "FundStrat's Newton: Why Not Replace The FOMC With AI?\n\n            Short of abolishing the Fed (much preferred), would automating the Fed make more sense than the current system? Should we trust Kevin Warsh, Jerome Powell, and Lisa Cook to read the tea leaves each month and decree rate changes for u"
+    },
     {
       "id": "ee9c0470469bcf",
       "source": "marketwatch",
@@ -151,6 +187,24 @@
       "time": "2026-06-19 17:24:30",
       "text": "Italy\u2019s Meloni says Trump \u2019totally invented\u2019 story that she begged him for photo",
       "description": ""
+    },
+    {
+      "id": "4b37b0eda49c70",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Fri, 19 Jun 2026 17:10:00 +0000",
+      "title": "Outrage As Suspect In UK Toddler Crocodile Attack Released On Bail; Identity Still Hidden",
+      "body": "Outrage As Suspect In UK Toddler Crocodile Attack Released On Bail; Identity Still Hidden\n\n            Authored by Steve Watson via Modernity,\n\nThe insane attack at a family-run zoo in Cambridgeshire, UK has now produced a fresh outrage.\n\n\n\nA three-year-old boy from the area remains in critical but ",
+      "url": "https://www.zerohedge.com/political/outrage-suspect-uk-toddler-crocodile-attack-released-bail-identity-still-hidden",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 19 Jun 2026 17:10:00 +0000",
+      "text": "Outrage As Suspect In UK Toddler Crocodile Attack Released On Bail; Identity Still Hidden",
+      "description": "Outrage As Suspect In UK Toddler Crocodile Attack Released On Bail; Identity Still Hidden\n\n            Authored by Steve Watson via Modernity,\n\nThe insane attack at a family-run zoo in Cambridgeshire, UK has now produced a fresh outrage.\n\n\n\nA three-year-old boy from the area remains in critical but "
     },
     {
       "id": "e780e3d30495a8",
@@ -407,6 +461,24 @@
       "description": "Federal Court Allows National Park Service To Replace Slavery Exhibit In Philadelphia\n\n            Authored by Jackson Richman via The Epoch Times (emphasis ours),\n\nA federal appeals court ruled on June 18 that the Trump administration can move forward with replacing a slavery-related exhibit at Ind"
     },
     {
+      "id": "3d10aafc67392c",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "title": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks",
+      "body": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks\n\n            Summary:\n\nIsrael and Hezbollah Agree To Ceasefire\u00a0\n\tOpening Round Of US-Iran Nuclear Talks Postponed After Israel-Lebanon Clashes Erupt\u00a0\nIsrael and Hezbollah Agree To Ceasefire\n\nIsrael and Hez",
+      "url": "https://www.zerohedge.com/geopolitical/opening-round-us-iran-nuclear-talks-postponed-after-lebanon-clashes-erupt",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 19 Jun 2026 16:00:00 +0000",
+      "text": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks",
+      "description": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks\n\n            Summary:\n\nIsrael and Hezbollah Agree To Ceasefire\u00a0\n\tOpening Round Of US-Iran Nuclear Talks Postponed After Israel-Lebanon Clashes Erupt\u00a0\nIsrael and Hezbollah Agree To Ceasefire\n\nIsrael and Hez"
+    },
+    {
       "id": "66973e81a56d25",
       "source": "cnbc",
       "source_type": "rss",
@@ -477,24 +549,6 @@
       "time": "Fri, 19 Jun 2026 15:10:00 +0000",
       "text": "Appeals Court Allows Ohio To Restrict Children's Use Of Social Media",
       "description": "Appeals Court Allows Ohio To Restrict Children's Use Of Social Media\n\n            Authored by Aldgra Fredly via The Epoch Times,\n\nA federal appeals court on Thursday allowed Ohio to enforce a law requiring social media companies to obtain parental consent before permitting children under 16 to acces"
-    },
-    {
-      "id": "84cb81555bea70",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Fri, 19 Jun 2026 15:01:59 GMT",
-      "title": "Struggling to find a job? Try looking in Nevada",
-      "body": "The sparsely populated state known for its world-class casinos and dry climate has been a hiring hot spot.",
-      "url": "https://www.cnbc.com/2026/06/19/nevada-workforce-job-market.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 19 Jun 2026 15:01:59 GMT",
-      "text": "Struggling to find a job? Try looking in Nevada",
-      "description": "The sparsely populated state known for its world-class casinos and dry climate has been a hiring hot spot."
     },
     {
       "id": "6f713cb5e4db0c",
@@ -569,6 +623,397 @@
       "description": "The health damage of loneliness is similar to heavy smoking and obesity"
     },
     {
+      "id": "bc3a7ea26d6f7f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:59:51Z",
+      "title": "$SPY i meant thursday lol",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656950030",
+      "author": "vanillagodzilla",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:59:51Z",
+      "text": "$SPY i meant thursday lol",
+      "description": "",
+      "handle": "vanillagodzilla",
+      "display_name": "dorje trolo",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1ce535bb79a33c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:59:09Z",
+      "title": "$SPY who went short at friday close? me",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656950013",
+      "author": "vanillagodzilla",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-19T17:59:09Z",
+      "text": "$SPY who went short at friday close? me",
+      "description": "",
+      "handle": "vanillagodzilla",
+      "display_name": "dorje trolo",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "48fff1d9b39388",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:58:57Z",
+      "title": "$SPY  \n \nhttps://youtube.com/shorts/g1atu1BJUFE?is=SWDVyxSP1y9L5oXj",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656950010",
+      "author": "Inoboatguy",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-19T17:58:57Z",
+      "text": "$SPY  \n \nhttps://youtube.com/shorts/g1atu1BJUFE?is=SWDVyxSP1y9L5oXj",
+      "description": "",
+      "handle": "Inoboatguy",
+      "display_name": "Ino Boat guy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d88ee36fdb73f0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:58:36Z",
+      "title": "Presenters at Confidential Computing Summit:  Linux, Opaque, $MSFT, $AAPL , Anthropic, $ALP , Encore Capital, UC Berkeley Sky Computing Lab, $NVDA, Red Hat, $GOOG .... https://ccsummit2026.sched.com/2026-06-24/list/simple",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/656949995",
+      "author": "Dirtymartini66",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-19T17:58:36Z",
+      "text": "Presenters at Confidential Computing Summit:  Linux, Opaque, $MSFT, $AAPL , Anthropic, $ALP , Encore Capital, UC Berkeley Sky Computing Lab, $NVDA, Red Hat, $GOOG .... https://ccsummit2026.sched.com/2026-06-24/list/simple",
+      "description": "",
+      "handle": "Dirtymartini66",
+      "display_name": "Amarante Scott",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "35f186448b4694",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:58:36Z",
+      "title": "Presenters at Confidential Computing Summit:  Linux, Opaque, $MSFT, $AAPL , Anthropic, $ALP , Encore Capital, UC Berkeley Sky Computing Lab, $NVDA, Red Hat, $GOOG .... https://ccsummit2026.sched.com/2026-06-24/list/simple",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/656949995",
+      "author": "Dirtymartini66",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-19T17:58:36Z",
+      "text": "Presenters at Confidential Computing Summit:  Linux, Opaque, $MSFT, $AAPL , Anthropic, $ALP , Encore Capital, UC Berkeley Sky Computing Lab, $NVDA, Red Hat, $GOOG .... https://ccsummit2026.sched.com/2026-06-24/list/simple",
+      "description": "",
+      "handle": "Dirtymartini66",
+      "display_name": "Amarante Scott",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ac16a2ae8971f7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:58:36Z",
+      "title": "Presenters at Confidential Computing Summit:  Linux, Opaque, $MSFT, $AAPL , Anthropic, $ALP , Encore Capital, UC Berkeley Sky Computing Lab, $NVDA, Red Hat, $GOOG .... https://ccsummit2026.sched.com/2026-06-24/list/simple",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/656949995",
+      "author": "Dirtymartini66",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-19T17:58:36Z",
+      "text": "Presenters at Confidential Computing Summit:  Linux, Opaque, $MSFT, $AAPL , Anthropic, $ALP , Encore Capital, UC Berkeley Sky Computing Lab, $NVDA, Red Hat, $GOOG .... https://ccsummit2026.sched.com/2026-06-24/list/simple",
+      "description": "",
+      "handle": "Dirtymartini66",
+      "display_name": "Amarante Scott",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "581d4273275814",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:58:31Z",
+      "title": "$AMZN The FTC issues here could affect seller/advertiser trust and future growth, though the company is massive (~$2.6T+ market cap) and billions in penalties would likely be absorbable financially. They\u2019re Gonna Make Them An Offer They Can&#39;t Refuse.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/656949991",
+      "author": "skcots_13",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-19T17:58:31Z",
+      "text": "$AMZN The FTC issues here could affect seller/advertiser trust and future growth, though the company is massive (~$2.6T+ market cap) and billions in penalties would likely be absorbable financially. They\u2019re Gonna Make Them An Offer They Can&#39;t Refuse.",
+      "description": "",
+      "handle": "skcots_13",
+      "display_name": "DelmonicaPerez",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "adf0d0a4731fed",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:58:26Z",
+      "title": "$QQQ yeah.. not surprised here after Israel latest bombing of Lebanon. US might need to start bombing Israel if they cant stay the course lol..\n\nhttps://nypost.com/2026/06/19/world-news/iran-declares-the-strait-of-hormuz-closed-again-after-us-lifts-blockade/\n\nGood thing I sold 30% of my QQQ holding ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656949986",
+      "author": "Zraw",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-19T17:58:26Z",
+      "text": "$QQQ yeah.. not surprised here after Israel latest bombing of Lebanon. US might need to start bombing Israel if they cant stay the course lol..\n\nhttps://nypost.com/2026/06/19/world-news/iran-declares-the-strait-of-hormuz-closed-again-after-us-lifts-blockade/\n\nGood thing I sold 30% of my QQQ holding ",
+      "description": "",
+      "handle": "Zraw",
+      "display_name": "Julien Geoffrion",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "170915dc5e3f0d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:57:29Z",
+      "title": "$DJT $SPY Know this to be true. Your kids will shy away from telling anyone you supported Trump. You yourself will stop. All will remember those like you and the red hats that enabled and supported the stain on America.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656949955",
+      "author": "JefferyT",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:57:29Z",
+      "text": "$DJT $SPY Know this to be true. Your kids will shy away from telling anyone you supported Trump. You yourself will stop. All will remember those like you and the red hats that enabled and supported the stain on America.",
+      "description": "",
+      "handle": "JefferyT",
+      "display_name": "W",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1e2ae62d436e6f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:57:28Z",
+      "title": "$PLTR a weekly overview with possible bullish path.  110-131 holds and 184$ level is retested , and bypassed to 223-244 area on solid follow on earnings. (using 107$ as litmus bull-bear test)",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/656949954",
+      "author": "oceanbleu",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:57:28Z",
+      "text": "$PLTR a weekly overview with possible bullish path.  110-131 holds and 184$ level is retested , and bypassed to 223-244 area on solid follow on earnings. (using 107$ as litmus bull-bear test)",
+      "description": "",
+      "handle": "oceanbleu",
+      "display_name": "Jean",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d6e7a09da39f90",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:57:00Z",
+      "title": "$SPY I am pulling out of this market Monday faster than I would a girl to avoid child support",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656949941",
+      "author": "Spacey30",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:57:00Z",
+      "text": "$SPY I am pulling out of this market Monday faster than I would a girl to avoid child support",
+      "description": "",
+      "handle": "Spacey30",
+      "display_name": "Joshua",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ce38ea51e682e9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:56:27Z",
+      "title": "UPDATE: U.S. State Department confirms that the next round of negotiations are set for June 23-25 in Washington. \n\n$SPY $USO $BTC.X $GLD $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/656949925",
+      "author": "FrankieSmilez",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:56:27Z",
+      "text": "UPDATE: U.S. State Department confirms that the next round of negotiations are set for June 23-25 in Washington. \n\n$SPY $USO $BTC.X $GLD $QQQ",
+      "description": "",
+      "handle": "FrankieSmilez",
+      "display_name": "\ud835\udd71\ud835\udd97\ud835\udd86\ud835\udd93\ud835\udd90\ud835\udd8e\ud835\udd8a \ud835\udd7e\ud835\udd92\ud835\udd8e\ud835\udd91\ud835\udd8a\ud835\udd9f",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bc71df92ae8caf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:56:27Z",
+      "title": "UPDATE: U.S. State Department confirms that the next round of negotiations are set for June 23-25 in Washington. \n\n$SPY $USO $BTC.X $GLD $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/656949925",
+      "author": "FrankieSmilez",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:56:27Z",
+      "text": "UPDATE: U.S. State Department confirms that the next round of negotiations are set for June 23-25 in Washington. \n\n$SPY $USO $BTC.X $GLD $QQQ",
+      "description": "",
+      "handle": "FrankieSmilez",
+      "display_name": "\ud835\udd71\ud835\udd97\ud835\udd86\ud835\udd93\ud835\udd90\ud835\udd8e\ud835\udd8a \ud835\udd7e\ud835\udd92\ud835\udd8e\ud835\udd91\ud835\udd8a\ud835\udd9f",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d406e7e4824c9c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:56:16Z",
+      "title": "$TSLA i can feel it 450\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/656949919",
+      "author": "thomasgt3rs",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-06-19T17:56:16Z",
+      "text": "$TSLA i can feel it 450\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80",
+      "description": "",
+      "handle": "thomasgt3rs",
+      "display_name": "thomasgt3rs",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6554d603115e8f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:56:10Z",
+      "title": "$META morale has never been this bad. Top talent is leaving \n \nhttps://finance.yahoo.com/technology/articles/needs-salary-x-nikita-bier-135223682.html",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/656949916",
+      "author": "MountCapital",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-19T17:56:10Z",
+      "text": "$META morale has never been this bad. Top talent is leaving \n \nhttps://finance.yahoo.com/technology/articles/needs-salary-x-nikita-bier-135223682.html",
+      "description": "",
+      "handle": "MountCapital",
+      "display_name": "BOB JOE",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2c75bd4e39818a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:52:26Z",
+      "title": "$SNAP looking good $META $GOOGL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/656949792",
+      "author": "quodo",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:52:26Z",
+      "text": "$SNAP looking good $META $GOOGL",
+      "description": "",
+      "handle": "quodo",
+      "display_name": "Chris",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "91640000856cbe",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-19T17:52:26Z",
+      "title": "$SNAP looking good $META $GOOGL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/656949792",
+      "author": "quodo",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-19T17:52:26Z",
+      "text": "$SNAP looking good $META $GOOGL",
+      "description": "",
+      "handle": "quodo",
+      "display_name": "Chris",
+      "platform": "stocktwits"
+    },
+    {
       "id": "6ad6aadc7e7feb",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -589,98 +1034,6 @@
       "description": "",
       "handle": "Biotech80",
       "display_name": "J",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c83603850889bb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:51:55Z",
-      "title": "$SPY $DJT $OIL we are bent over a barrel and Trump put us there.  Next up Iran could say Hormuz wont open until you bomb Isreal.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656949780",
-      "author": "yogibearacallz",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T17:51:55Z",
-      "text": "$SPY $DJT $OIL we are bent over a barrel and Trump put us there.  Next up Iran could say Hormuz wont open until you bomb Isreal.",
-      "description": "",
-      "handle": "yogibearacallz",
-      "display_name": "Yogi Berra",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "40ed890a95cf49",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:51:19Z",
-      "title": "$DJT $SPY also anti Semitic",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656949762",
-      "author": "thatsabingo1",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-19T17:51:19Z",
-      "text": "$DJT $SPY also anti Semitic",
-      "description": "",
-      "handle": "thatsabingo1",
-      "display_name": "thatsabingo1",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "059b7b8f9283ec",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:49:56Z",
-      "title": "Everybody is suddenly calling $SPY to $700 like it is a done deal. Round numbers make for loud headlines, but the tape decides, not the hype. \n\nWe don\u2019t follow the crowd. We are optimistic. Watch how price acts as we push higher, that tells you more than any target ever could. \ud83d\udc40  \n\nlet\u2019s see who is ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656949720",
-      "author": "MadStockAlerts1",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-19T17:49:56Z",
-      "text": "Everybody is suddenly calling $SPY to $700 like it is a done deal. Round numbers make for loud headlines, but the tape decides, not the hype. \n\nWe don\u2019t follow the crowd. We are optimistic. Watch how price acts as we push higher, that tells you more than any target ever could. \ud83d\udc40  \n\nlet\u2019s see who is ",
-      "description": "",
-      "handle": "MadStockAlerts1",
-      "display_name": "MadStockAlerts",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "1825129b727599",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:49:33Z",
-      "title": "$QQQ $SPY new fractal developing.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656949714",
-      "author": "C3PO2099",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-06-19T17:49:33Z",
-      "text": "$QQQ $SPY new fractal developing.",
-      "description": "",
-      "handle": "C3PO2099",
-      "display_name": "Munjit",
       "platform": "stocktwits"
     },
     {
@@ -707,27 +1060,22 @@
       "platform": "stocktwits"
     },
     {
-      "id": "05984eea5dfbfc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:48:32Z",
-      "title": "$SPY trump needs to check Israel. Bloody day on Monday",
+      "id": "c6fefeae12319d",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-19T17:47:00Z",
+      "title": "How low will gas prices fall?",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656949683",
-      "author": "Kulobreaker",
-      "tickers": [
-        "SPY"
-      ],
+      "url": "https://finance.yahoo.com/energy/articles/low-gas-prices-fall-174700725.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-06-19T17:48:32Z",
-      "text": "$SPY trump needs to check Israel. Bloody day on Monday",
-      "description": "",
-      "handle": "Kulobreaker",
-      "display_name": "D2",
-      "platform": "stocktwits"
+      "time": "2026-06-19T17:47:00Z",
+      "text": "How low will gas prices fall?",
+      "description": ""
     },
     {
       "id": "bec405fcccf673",
@@ -1018,52 +1366,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a99fb92920e3fd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:37:49Z",
-      "title": "$QQQ duck is real",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656949347",
-      "author": "GIG888888888",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T17:37:49Z",
-      "text": "$QQQ duck is real",
-      "description": "",
-      "handle": "GIG888888888",
-      "display_name": "GIG888888888",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "97aeb70d9a7893",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:37:37Z",
-      "title": "$QQQ $SPY me! $SOXX",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/656949336",
-      "author": "Wolfofwits",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T17:37:37Z",
-      "text": "$QQQ $SPY me! $SOXX",
-      "description": "",
-      "handle": "Wolfofwits",
-      "display_name": "Wolfofwits",
-      "platform": "stocktwits"
-    },
-    {
       "id": "878075e988ab2d",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1138,42 +1440,6 @@
       "channels": [
         "Options"
       ]
-    },
-    {
-      "id": "359a4486627516",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-19T17:33:00Z",
-      "title": "Nvidia's $6.9 billion side bet just paid off in a big way",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/articles/nvidias-6-9-billion-side-173300881.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T17:33:00Z",
-      "text": "Nvidia's $6.9 billion side bet just paid off in a big way",
-      "description": ""
-    },
-    {
-      "id": "79718451fed042",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Fri, 19 Jun 2026 13:30:00 +0000",
-      "title": "\"No Greater Threat To America's Way Of Life\": Senate Unanimously Passes Resolution To Condemn CCP Leader Xi Jinping",
-      "body": "\"No Greater Threat To America's Way Of Life\": Senate Unanimously Passes Resolution To Condemn CCP Leader Xi Jinping\n\n            Authored by Dorothy Li via The Epoch Times,\n\nU.S. senators have voiced support for ordinary Chinese people and denounced communist regime leader Xi Jinping for lying to Am",
-      "url": "https://www.zerohedge.com/geopolitical/no-greater-threat-americas-way-life-senate-unanimously-passes-resolution-condemn-ccp",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 19 Jun 2026 13:30:00 +0000",
-      "text": "\"No Greater Threat To America's Way Of Life\": Senate Unanimously Passes Resolution To Condemn CCP Leader Xi Jinping",
-      "description": "\"No Greater Threat To America's Way Of Life\": Senate Unanimously Passes Resolution To Condemn CCP Leader Xi Jinping\n\n            Authored by Dorothy Li via The Epoch Times,\n\nU.S. senators have voiced support for ordinary Chinese people and denounced communist regime leader Xi Jinping for lying to Am"
     },
     {
       "id": "b3c7ebdde75e16",
@@ -1383,29 +1649,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "82bfd7b90d2d06",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:20:28Z",
-      "title": "$NVDA $PLTR $CVX $TISI For Team Inc, Clinton Roeder is a seasoned financial executive with deep expertise in corporate turnarounds, operational efficiency, and strategic growth. His leadership record includes strengthening balance sheets, improving margins, and driving disciplined capital allocation",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/656948687",
-      "author": "LongBullish",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T17:20:28Z",
-      "text": "$NVDA $PLTR $CVX $TISI For Team Inc, Clinton Roeder is a seasoned financial executive with deep expertise in corporate turnarounds, operational efficiency, and strategic growth. His leadership record includes strengthening balance sheets, improving margins, and driving disciplined capital allocation",
-      "description": "",
-      "handle": "LongBullish",
-      "display_name": "Lloyd Reynolds",
-      "platform": "stocktwits"
-    },
-    {
       "id": "9bb4b5b94e0832",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1542,29 +1785,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c62f8fb9c5dae3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T17:17:52Z",
-      "title": "$SPCX $TSLA very odd, someone of serious size, has hidden agenda.\n\nspcx burns money, and has a better credit rating than tesla, with a clean balance sheet, and a ton of cash?\n\nsomeone has a big short bet on tesla, sees tesla using half their cash pile this year on sketchy stuff, and few car models.\n",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/656948598",
-      "author": "amberajax2point0",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-19T17:17:52Z",
-      "text": "$SPCX $TSLA very odd, someone of serious size, has hidden agenda.\n\nspcx burns money, and has a better credit rating than tesla, with a clean balance sheet, and a ton of cash?\n\nsomeone has a big short bet on tesla, sees tesla using half their cash pile this year on sketchy stuff, and few car models.\n",
-      "description": "",
-      "handle": "amberajax2point0",
-      "display_name": "amberajax",
-      "platform": "stocktwits"
-    },
-    {
       "id": "9e849021cada96",
       "source": "reuters",
       "source_type": "rss",
@@ -1606,24 +1826,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "3d10aafc67392c",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Fri, 19 Jun 2026 13:08:00 +0000",
-      "title": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks",
-      "body": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks\n\n            Summary:\n\nIsrael and Hezbollah Agree To Ceasefire\u00a0\n\tOpening Round Of US-Iran Nuclear Talks Postponed After Israel-Lebanon Clashes Erupt\u00a0\nIsrael and Hezbollah Agree To Ceasefire\n\nIsrael and Hez",
-      "url": "https://www.zerohedge.com/geopolitical/opening-round-us-iran-nuclear-talks-postponed-after-lebanon-clashes-erupt",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 19 Jun 2026 13:08:00 +0000",
-      "text": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks",
-      "description": "Israel-Hezbollah Agree To Ceasefire After Clashes Stall Opening Round Of US-Iran Nuclear Talks\n\n            Summary:\n\nIsrael and Hezbollah Agree To Ceasefire\u00a0\n\tOpening Round Of US-Iran Nuclear Talks Postponed After Israel-Lebanon Clashes Erupt\u00a0\nIsrael and Hezbollah Agree To Ceasefire\n\nIsrael and Hez"
-    },
-    {
       "id": "789fad5e3d699a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1645,24 +1847,6 @@
       "handle": "ospreyeye",
       "display_name": "Ospreyeye",
       "platform": "stocktwits"
-    },
-    {
-      "id": "6543b78abb4b48",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Fri, 19 Jun 2026 13:05:00 +0000",
-      "title": "UK Gilt Yields Spike As Burnham Win Opens Door To Oust Starmer",
-      "body": "UK Gilt Yields Spike As Burnham Win Opens Door To Oust Starmer\n\n            The odds of embattled UK Prime Minister Keir Starmer being ousted by the end of July are soaring this morning...\n\n\n\n...after Greater Manchester Mayor Andy Burnham won a decisive victory for the ruling Labour Party that deliv",
-      "url": "https://www.zerohedge.com/political/uk-gilt-yields-spike-burnham-win-opens-door-oust-starmer",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 19 Jun 2026 13:05:00 +0000",
-      "text": "UK Gilt Yields Spike As Burnham Win Opens Door To Oust Starmer",
-      "description": "UK Gilt Yields Spike As Burnham Win Opens Door To Oust Starmer\n\n            The odds of embattled UK Prime Minister Keir Starmer being ousted by the end of July are soaring this morning...\n\n\n\n...after Greater Manchester Mayor Andy Burnham won a decisive victory for the ruling Labour Party that deliv"
     },
     {
       "id": "9c8f30790c8f4b",
@@ -1751,29 +1935,6 @@
       "description": "",
       "handle": "makemoneyevery1",
       "display_name": "Patel Bhai",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "49efa541bd7fdd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:53:59Z",
-      "title": "$CRWV $META why isn\u2019t this news getting any action on here? Do we know what this means? Seems very good",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/656947810",
-      "author": "luckylance",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:53:59Z",
-      "text": "$CRWV $META why isn\u2019t this news getting any action on here? Do we know what this means? Seems very good",
-      "description": "",
-      "handle": "luckylance",
-      "display_name": "Lance",
       "platform": "stocktwits"
     },
     {
@@ -2094,29 +2255,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c423176bb9f774",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:35:21Z",
-      "title": "The need to be right is one of the most expensive habits in markets.\n\n\ud83d\udea8It keeps us in bad trades. \n\ud83d\udea8It makes us argue with price. \n\ud83d\udea8It makes us average down emotionally. \n\ud83d\udea8It makes us ignore better opportunities.\n\nThe goal is never to prove we are right. The goal is to always make money while keepin",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/656947179",
-      "author": "sethmarcus",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:35:21Z",
-      "text": "The need to be right is one of the most expensive habits in markets.\n\n\ud83d\udea8It keeps us in bad trades. \n\ud83d\udea8It makes us argue with price. \n\ud83d\udea8It makes us average down emotionally. \n\ud83d\udea8It makes us ignore better opportunities.\n\nThe goal is never to prove we are right. The goal is to always make money while keepin",
-      "description": "",
-      "handle": "sethmarcus",
-      "display_name": "seth marcus gold",
-      "platform": "stocktwits"
-    },
-    {
       "id": "88c026d1212b15",
       "source": "seekingalpha",
       "source_type": "rss",
@@ -2228,52 +2366,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e49dac9cef53f3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:25:04Z",
-      "title": "$NVDA \ud83d\udcaf",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/656946807",
-      "author": "212fab",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:25:04Z",
-      "text": "$NVDA \ud83d\udcaf",
-      "description": "",
-      "handle": "212fab",
-      "display_name": "212fab",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "563a0121c50cd3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:22:09Z",
-      "title": "$META the insiders knew US/Iran deal was going to fall apart so people shorted or sold in anticipation of down market this week.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/656946689",
-      "author": "AllAboutTheBread",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:22:09Z",
-      "text": "$META the insiders knew US/Iran deal was going to fall apart so people shorted or sold in anticipation of down market this week.",
-      "description": "",
-      "handle": "AllAboutTheBread",
-      "display_name": "Tony Shark",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6a3bd749878b87",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2318,29 +2410,6 @@
       "time": "2026-06-19T16:15:00Z",
       "text": "4 Space Stocks to Load Up On While SpaceX Gets All the Attention",
       "description": "While SpaceX dominates headlines following its IPO, four smaller public space companies\u2014Rocket Lab, Planet Labs, Intuitive Machines, and Redwire\u2014are building critical infrastructure and capabilities in the space economy. These companies are securing NASA contracts, achieving profitability milestones"
-    },
-    {
-      "id": "3c8ca10a34480a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T16:13:56Z",
-      "title": "$MSFT $AMZN $SOXX $NVDA $MU \n\nNadela published his thoughts last week. He is setting the stage to call it out this earnings on democratization of AI, cheaper compute models running locally which cover most of the complex agentic workloads, advent of advanced powerful local machines has set the stage",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/656946384",
-      "author": "SuperBigBoss",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T16:13:56Z",
-      "text": "$MSFT $AMZN $SOXX $NVDA $MU \n\nNadela published his thoughts last week. He is setting the stage to call it out this earnings on democratization of AI, cheaper compute models running locally which cover most of the complex agentic workloads, advent of advanced powerful local machines has set the stage",
-      "description": "",
-      "handle": "SuperBigBoss",
-      "display_name": "Boss",
-      "platform": "stocktwits"
     },
     {
       "id": "3938d10104141a",
@@ -2813,29 +2882,6 @@
       "description": "Coca-Cola investors would need approximately 472 shares (worth ~$37,760) to generate $1,000 in annual dividend income at the current yield of 2.65%. The beverage giant has raised dividends for 62 consecutive years and has grown its dividend payout at an average annual rate of 4.2% over the past deca"
     },
     {
-      "id": "c1d14b769be140",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T15:16:35Z",
-      "title": "SpaceXs record-breaking IPO boosted founder and CEO\u2019s Elon Musk\u2019s personal stake in the company to more than $1 trillion. But he isn\u2019t the only one seeing huge gains from SpaceX\u2019s blockbuster listing.\n\nThe IPO also minted thousands of new millionaires \u2014 and saw stakes of some shareholders surpass th",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMZN/message/656944257",
-      "author": "topstockalerts",
-      "tickers": [
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T15:16:35Z",
-      "text": "SpaceXs record-breaking IPO boosted founder and CEO\u2019s Elon Musk\u2019s personal stake in the company to more than $1 trillion. But he isn\u2019t the only one seeing huge gains from SpaceX\u2019s blockbuster listing.\n\nThe IPO also minted thousands of new millionaires \u2014 and saw stakes of some shareholders surpass th",
-      "description": "",
-      "handle": "topstockalerts",
-      "display_name": "Top Stock Alerts",
-      "platform": "stocktwits"
-    },
-    {
       "id": "71d4ac779037d6",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2922,29 +2968,6 @@
       "sentiment": "neutral",
       "time": "2026-06-19T15:06:46Z",
       "text": "$GLD EW (3/3): plan \u2014 let the A-B-C finish, then trade the break: lose $375 and the downtrend resumes; reclaim $446 to flip it.",
-      "description": "",
-      "handle": "Shaka_Wave",
-      "display_name": "Peter",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c1128317236ea7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T15:06:32Z",
-      "title": "$GLD EW (2/3): the current move is just unwinding that leg. Key retracements 419 (38%), 410 (50%), 402 (62%) \u2014 the decision zone.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GLD/message/656943840",
-      "author": "Shaka_Wave",
-      "tickers": [
-        "GLD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T15:06:32Z",
-      "text": "$GLD EW (2/3): the current move is just unwinding that leg. Key retracements 419 (38%), 410 (50%), 402 (62%) \u2014 the decision zone.",
       "description": "",
       "handle": "Shaka_Wave",
       "display_name": "Peter",
@@ -3687,29 +3710,6 @@
       "time": "2026-06-19T13:10:00Z",
       "text": "SpaceX Is Outperforming Everything. Is It Still the Smartest Buy Right Now?",
       "description": "SpaceX debuted with a $1.5 trillion valuation and surged nearly 20% in its first two trading days, reaching a $2.5 trillion market cap. While the company demonstrates strong fundamentals with 10,000+ Starlink satellites, 10+ million subscribers, and 80% of global mass-to-orbit capacity, the author c"
-    },
-    {
-      "id": "0081c4dd914485",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-19T13:09:00Z",
-      "title": "5/8: Meta seeks KOSA-linked federal preemption/limited immunity language amid youth-safety lawsuits; proposal could reshape liability for social platforms if adopted $META $GOOGL $COMM $XLC $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GOOGL/message/656938863",
-      "author": "PickAlpha",
-      "tickers": [
-        "GOOGL"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-19T13:09:00Z",
-      "text": "5/8: Meta seeks KOSA-linked federal preemption/limited immunity language amid youth-safety lawsuits; proposal could reshape liability for social platforms if adopted $META $GOOGL $COMM $XLC $QQQ",
-      "description": "",
-      "handle": "PickAlpha",
-      "display_name": "PickAlpha",
-      "platform": "stocktwits"
     },
     {
       "id": "b46dfdc14099e3",
