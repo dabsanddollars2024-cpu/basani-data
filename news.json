@@ -1,37 +1,37 @@
 {
-  "generated": "2026-06-21T03:27:54Z",
-  "generated_display": "2026-06-21 03:27 ET",
-  "count": 167,
+  "generated": "2026-06-21T03:30:09Z",
+  "generated_display": "2026-06-21 03:30 ET",
+  "count": 166,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-21T03:27:44.752208+00:00",
+      "last_error_ts": "2026-06-21T03:30:00.970400+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 6,
-      "latency_ms": 1171,
-      "last_success": "2026-06-21T03:27:45.925051+00:00",
+      "latency_ms": 469,
+      "last_success": "2026-06-21T03:30:01.441082+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 1098,
-      "last_success": "2026-06-21T03:27:47.024843+00:00",
+      "latency_ms": 266,
+      "last_success": "2026-06-21T03:30:01.708569+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 13,
-      "latency_ms": 431,
-      "last_success": "2026-06-21T03:27:47.457521+00:00",
+      "latency_ms": 306,
+      "last_success": "2026-06-21T03:30:02.015858+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-06-21T03:27:47.749180+00:00",
+      "last_error_ts": "2026-06-21T03:30:02.073549+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2873,
-      "last_success": "2026-06-21T03:27:50.623023+00:00",
+      "latency_ms": 3689,
+      "last_success": "2026-06-21T03:30:05.763517+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,16 +55,16 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-06-21T03:27:52.022814+00:00",
+      "last_success": "2026-06-21T03:30:06.390082+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
-      "status": "healthy",
-      "items_pulled": 28,
-      "latency_ms": 2100,
-      "last_success": "2026-06-21T03:27:54.123162+00:00",
-      "last_error_ts": null,
+      "status": "degraded",
+      "items_pulled": 0,
+      "latency_ms": 3242,
+      "last_success": null,
+      "last_error_ts": "2026-06-21T03:30:09.632274+00:00",
       "error": ""
     },
     "rss_feeds": {
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 171
+          "latency_ms": 72
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 299
+          "latency_ms": 156
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 128
+          "latency_ms": 38
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 503
+          "latency_ms": 230
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 125
+          "latency_ms": 46
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 171
+          "latency_ms": 83
         }
       }
     }
@@ -107,16 +107,125 @@
   "by_source": {
     "stocktwits": 75,
     "uw_news": 25,
-    "zerohedge": 8,
     "reuters": 16,
+    "zerohedge": 8,
     "massive_news": 13,
     "cnbc": 8,
     "seekingalpha": 7,
     "marketwatch": 8,
-    "benzinga": 6,
-    "forex_factory": 1
+    "benzinga": 6
   },
   "items": [
+    {
+      "id": "3c45da97c51d94",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-21T03:29:39Z",
+      "title": "$SPY Iran&#39;s expert humiliation tactics will now shift to JD Vance.  Not gonna be fun for him.  I&#39;ll bet they&#39;ll also tag-team to sleep deprive him like last time.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656985918",
+      "author": "NerpNerp",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-21T03:29:39Z",
+      "text": "$SPY Iran&#39;s expert humiliation tactics will now shift to JD Vance.  Not gonna be fun for him.  I&#39;ll bet they&#39;ll also tag-team to sleep deprive him like last time.",
+      "description": "",
+      "handle": "NerpNerp",
+      "display_name": "NerpNerp",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "770e0964ca4bde",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-06-21T03:29:16Z",
+      "title": "Colby College aids Maine town post-disaster. Supported by a construction magnate, shaping economics, culture & locale.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-21T03:29:16Z",
+      "text": "Colby College aids Maine town post-disaster. Supported by a construction magnate, shaping economics, culture & locale.",
+      "description": ""
+    },
+    {
+      "id": "2677f2954001f3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-21T03:29:16Z",
+      "title": "$META and $TTD are printing an absolute textbook accumulation signature. Volume structure indicates that long-term funds are locking up shares ahead of the next advertising spending data release. I am adding size to my core holdings right here.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/656985914",
+      "author": "NasdaqExplorer",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-21T03:29:16Z",
+      "text": "$META and $TTD are printing an absolute textbook accumulation signature. Volume structure indicates that long-term funds are locking up shares ahead of the next advertising spending data release. I am adding size to my core holdings right here.",
+      "description": "",
+      "handle": "NasdaqExplorer",
+      "display_name": "Shane Harris",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "32543f50e0ffa6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-21T03:28:59Z",
+      "title": "$SPY what BRILLIANT Team Maga doesn&#39;t get is....the Iranian proxys will keep taunting Israel and tossing bombs to keep having a reason to break the agreement.. Israel will never back down to them....so the cycle continues AND WILL CONTINUE as long as they kerp antagonizing Israel... lol",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/656985910",
+      "author": "Skimman",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-06-21T03:28:59Z",
+      "text": "$SPY what BRILLIANT Team Maga doesn&#39;t get is....the Iranian proxys will keep taunting Israel and tossing bombs to keep having a reason to break the agreement.. Israel will never back down to them....so the cycle continues AND WILL CONTINUE as long as they kerp antagonizing Israel... lol",
+      "description": "",
+      "handle": "Skimman",
+      "display_name": "joe brown",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9f795040a216ff",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-06-21T03:28:06Z",
+      "title": "$PLTR https://finance.yahoo.com/markets/stocks/articles/prediction-palantir-stock-hit-200-152316366.html",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/656985896",
+      "author": "IN0V8",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-21T03:28:06Z",
+      "text": "$PLTR https://finance.yahoo.com/markets/stocks/articles/prediction-palantir-stock-hit-200-152316366.html",
+      "description": "",
+      "handle": "IN0V8",
+      "display_name": "Rob Lewis",
+      "platform": "stocktwits"
+    },
     {
       "id": "3563d2bf300f06",
       "source": "stocktwits",
@@ -279,29 +388,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "8c987cffd88526",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-21T03:23:26Z",
-      "title": "$DJT $QQQ $SPY \n\nThis guy\n\nMr. Trustworthy \n\nCommerce Secretary Howard Lutnick\u2019s connection to Jeffrey Epstein has drawn heavy congressional and media scrutiny due to contradictory statements he made about his relationship with the late disgraced financier",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656985850",
-      "author": "2026TakeBackUSABegins",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-06-21T03:23:26Z",
-      "text": "$DJT $QQQ $SPY \n\nThis guy\n\nMr. Trustworthy \n\nCommerce Secretary Howard Lutnick\u2019s connection to Jeffrey Epstein has drawn heavy congressional and media scrutiny due to contradictory statements he made about his relationship with the late disgraced financier",
-      "description": "",
-      "handle": "2026TakeBackUSABegins",
-      "display_name": "CJ",
-      "platform": "stocktwits"
-    },
-    {
       "id": "52576ca201b02f",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -322,29 +408,6 @@
       "description": "",
       "handle": "2026TakeBackUSABegins",
       "display_name": "CJ",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "05ebab7a40e52b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-21T03:23:25Z",
-      "title": "$SPY yep and BTC up 1.3%\u2026.looks like strait closed news is bs lmao",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/656985849",
-      "author": "Jessdog77",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-21T03:23:25Z",
-      "text": "$SPY yep and BTC up 1.3%\u2026.looks like strait closed news is bs lmao",
-      "description": "",
-      "handle": "Jessdog77",
-      "display_name": "Jesse",
       "platform": "stocktwits"
     },
     {
@@ -484,6 +547,24 @@
       "handle": "Nuclear_Elvis",
       "display_name": "Nuclear_Elvis",
       "platform": "stocktwits"
+    },
+    {
+      "id": "45e5c86c77bc5e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-06-21 03:10:16",
+      "title": "Trump says Lincoln Memorial Reflecting Pool may be drained for repairs",
+      "body": "",
+      "url": "https://www.investing.com/news/economy-news/trump-says-lincoln-memorial-reflecting-pool-may-be-drained-for-repairs-4751646",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-06-21 03:10:16",
+      "text": "Trump says Lincoln Memorial Reflecting Pool may be drained for repairs",
+      "description": ""
     },
     {
       "id": "024a90188580e7",
@@ -946,29 +1027,6 @@
       "description": "",
       "handle": "Pedo_POTUS",
       "display_name": "Elrond",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "75377cb0898d12",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-21T02:21:53Z",
-      "title": "$PLTR thanks bears \ud83d\udc3b\u2026",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/656985060",
-      "author": "AshHydrogen",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-21T02:21:53Z",
-      "text": "$PLTR thanks bears \ud83d\udc3b\u2026",
-      "description": "",
-      "handle": "AshHydrogen",
-      "display_name": "Ashley Wolter",
       "platform": "stocktwits"
     },
     {
@@ -1959,47 +2017,6 @@
       "description": "Democratic Socialist Mamdani Wants Democratic Party To Move Further Left Ahead Of 2028\n\n            Authored by Chase Smith via The Epoch Times,\n\nNew York City Mayor Zohran Mamdani, a democratic socialist, issued one of his sharpest rebukes of the Democratic leadership Thursday night, saying that th"
     },
     {
-      "id": "1723aab34dd2c1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-06-20T23:49:41Z",
-      "title": "$META $MSFT",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/656982556",
-      "author": "Pugzoo",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-20T23:49:41Z",
-      "text": "$META $MSFT",
-      "description": "",
-      "handle": "Pugzoo",
-      "display_name": "Lol fishi",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "642a3d1aaaf260",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-06-20 23:34:13",
-      "title": "Thousands protest in Albania over Kushner-backed resort project",
-      "body": "",
-      "url": "https://www.investing.com/news/economy-news/thousands-protest-in-albania-over-kushnerbacked-resort-project-4751637",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-20 23:34:13",
-      "text": "Thousands protest in Albania over Kushner-backed resort project",
-      "description": ""
-    },
-    {
       "id": "232be5c65a1417",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2530,24 +2547,6 @@
       "sentiment": "neutral",
       "time": "2026-06-20T21:33:20Z",
       "text": "CRV price at $0.21 facing resistance from major MAs, momentum flat, retail bearish \u2013 eyeing $0.18 support.",
-      "description": ""
-    },
-    {
-      "id": "2d5a7007e1fed3",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-06-20T21:33:18Z",
-      "title": "INJ's price may hit $4.47 or $5.53 as smart money favors a 55.8% short position. Overhead resistance at $5.08.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-20T21:33:18Z",
-      "text": "INJ's price may hit $4.47 or $5.53 as smart money favors a 55.8% short position. Overhead resistance at $5.08.",
       "description": ""
     },
     {
@@ -3617,30 +3616,6 @@
       "time": "Fri, 19 Jun 2026 10:47:57 GMT",
       "text": "Musk's SpaceX stake is worth over $1 trillion. Here are the other billionaire shareholders",
       "description": "SpaceX shares were up 37% after its historic debut last week, which offered shares at a set price of $135."
-    },
-    {
-      "id": "7aa20ca4568b7d",
-      "source": "forex_factory",
-      "source_type": "calendar",
-      "timestamp": "2026-06-15T03:30:00-04:00",
-      "title": "ECB President Lagarde Speaks",
-      "body": "",
-      "url": "https://www.forexfactory.com/",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-06-15T03:30:00-04:00",
-      "text": "ECB President Lagarde Speaks",
-      "description": "",
-      "impact": "Medium",
-      "currency": "EUR",
-      "forecast": "",
-      "previous": "",
-      "actual": "",
-      "week": "this"
     }
   ]
 }
