@@ -1288,6 +1288,7 @@ body { background: var(--bg) !important; color: var(--text) !important; }
     <div class="tab" onclick="switchTab('stocks')">Stocks</div>
     <div class="tab" onclick="switchTab('risks')">Risk Radar</div>
     <div class="tab" onclick="switchTab('log')">Plays Log</div>
+    <div class="tab" onclick="switchTab('gamma')">Γ Gamma</div>
   </div>
 </div>
 
@@ -1300,18 +1301,19 @@ body { background: var(--bg) !important; color: var(--text) !important; }
       "symbols": [
         {"proName":"FOREXCOM:SPXUSD","title":"S&P 500"},
         {"proName":"FOREXCOM:NSXUSD","title":"Nasdaq 100"},
-        {"description":"Russell 2000","proName":"TVC:RUT"},
-        {"description":"VIX","proName":"CBOE:VIX"},
-        {"description":"DXY","proName":"TVC:DXY"},
-        {"description":"10Y Yield","proName":"TVC:US10Y"},
         {"description":"Gold","proName":"TVC:GOLD"},
         {"description":"Oil WTI","proName":"TVC:USOIL"},
         {"description":"BTC","proName":"BITSTAMP:BTCUSD"},
         {"description":"NVDA","proName":"NASDAQ:NVDA"},
         {"description":"AAPL","proName":"NASDAQ:AAPL"},
+        {"description":"MSFT","proName":"NASDAQ:MSFT"},
+        {"description":"META","proName":"NASDAQ:META"},
+        {"description":"AMD","proName":"NASDAQ:AMD"},
         {"description":"GOOGL","proName":"NASDAQ:GOOGL"},
         {"description":"TSLA","proName":"NASDAQ:TSLA"},
-        {"description":"AMZN","proName":"NASDAQ:AMZN"}
+        {"description":"AMZN","proName":"NASDAQ:AMZN"},
+        {"description":"SPY","proName":"AMEX:SPY"},
+        {"description":"QQQ","proName":"NASDAQ:QQQ"}
       ],
       "showSymbolLogo": false,
       "isTransparent": false,
@@ -1543,6 +1545,80 @@ body { background: var(--bg) !important; color: var(--text) !important; }
     </div>
   </div>
 
+  <!-- ═══ TAB: GAMMA (GEX profile + walls) ═══ -->
+  <div class="tab-panel" id="tab-gamma">
+    <div class="section">
+      <div class="section-label">Gamma Exposure — 17-Ticker Watchlist
+        <span id="gammaSubtitle">Daily refresh 9:35 AM ET · Unusual Whales API</span>
+      </div>
+
+      <!-- Search bar + Refresh -->
+      <div style="display:flex;gap:10px;align-items:center;margin-bottom:14px;flex-wrap:wrap">
+        <input id="gammaSearch" type="text" placeholder="Filter ticker…"
+          style="flex:1;min-width:180px;background:var(--card);color:var(--text);border:1px solid var(--border-g);
+                 padding:8px 12px;border-radius:4px;font-family:'Courier New',monospace;font-size:13px"
+          oninput="renderGammaTable()">
+        <button onclick="buildGammaView(true)"
+          style="background:var(--gold);color:#000;border:none;padding:8px 18px;border-radius:4px;
+                 cursor:pointer;font-weight:700;font-size:12px;letter-spacing:0.05em">
+          ⟳ REFRESH
+        </button>
+        <span id="gammaStatus" style="font-family:'Courier New',monospace;font-size:11px;color:#888"></span>
+      </div>
+
+      <!-- Status / data banner -->
+      <div id="gammaBanner" style="padding:10px 14px;border-radius:4px;background:rgba(232,184,75,0.08);
+           border:1px solid rgba(232,184,75,0.25);color:var(--gold);font-size:12px;
+           font-family:'Courier New',monospace;margin-bottom:14px;display:none"></div>
+
+      <!-- View B: Scanner table -->
+      <div style="overflow-x:auto;background:var(--card);border:1px solid var(--border-g);border-radius:6px">
+        <table style="width:100%;border-collapse:collapse;font-size:13px;color:var(--text);
+               font-family:'Courier New',monospace" id="gammaTable">
+          <thead>
+            <tr style="background:var(--card2);color:var(--gold);text-transform:uppercase;
+                       font-size:10px;letter-spacing:0.08em">
+              <th onclick="sortGammaTable('ticker')"  style="cursor:pointer;padding:12px;text-align:left">TICKER</th>
+              <th onclick="sortGammaTable('spot')"    style="cursor:pointer;padding:12px;text-align:right">SPOT</th>
+              <th onclick="sortGammaTable('signal')"  style="cursor:pointer;padding:12px;text-align:center">REGIME</th>
+              <th onclick="sortGammaTable('net_gex')" style="cursor:pointer;padding:12px;text-align:right">NET GEX ($M)</th>
+              <th onclick="sortGammaTable('call_wall')"   style="cursor:pointer;padding:12px;text-align:right;color:var(--green)">▲ CALL WALL</th>
+              <th onclick="sortGammaTable('put_wall')"    style="cursor:pointer;padding:12px;text-align:right;color:var(--red)">▼ PUT WALL</th>
+              <th onclick="sortGammaTable('max_pain')"    style="cursor:pointer;padding:12px;text-align:right;color:var(--gold)">◆ MAX PAIN</th>
+              <th onclick="sortGammaTable('expected_move_pct')" style="cursor:pointer;padding:12px;text-align:right">EXP MOVE %</th>
+              <th onclick="sortGammaTable('iv_rank')"   style="cursor:pointer;padding:12px;text-align:right">IV RANK</th>
+            </tr>
+          </thead>
+          <tbody id="gammaTableBody">
+            <tr><td colspan="9" style="padding:30px;text-align:center;color:#888;font-style:italic">Loading GEX data…</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- View A: Deep-dive modal (hidden by default) -->
+      <div id="gammaModal" style="display:none;position:fixed;top:0;left:0;width:100vw;height:100vh;
+           background:rgba(0,0,0,0.85);z-index:9999;overflow-y:auto">
+        <div style="max-width:1100px;margin:30px auto;background:var(--bg);border:1px solid var(--gold);
+                    border-radius:8px;padding:24px;position:relative">
+          <button onclick="closeGammaDetail()"
+            style="position:absolute;top:12px;right:12px;background:transparent;border:1px solid var(--border-g);
+                   color:var(--text);width:32px;height:32px;border-radius:4px;cursor:pointer;
+                   font-size:18px;line-height:1">×</button>
+          <h2 id="gammaModalTitle"
+            style="font-family:Georgia,serif;color:var(--gold);font-size:24px;margin:0 0 16px 0">
+            Loading…
+          </h2>
+          <div id="gammaModalContent"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="disclaimer">
+      Gamma exposure (GEX) reflects dealer positioning in options markets. Data from Unusual Whales.
+      Refreshes daily at 9:35 AM ET. For educational purposes only — not financial advice.
+    </div>
+  </div>
+
   <!-- ═══ TAB: RISK RADAR ═══ -->
   <div class="tab-panel" id="tab-risks">
     <div class="section">
@@ -1615,7 +1691,7 @@ const SUPABASE_ANON = ['sb','publishable','dy77qQrBEFQjC-fQLgHcyA_6iX3krzo'].joi
 
 // ── TAB SWITCHING ────────────────────────────────────────────────────────────
 function switchTab(name) {
-  const panels = ['overview','calendar','blubber','whales','feed','intel','options','futures','stocks','risks','log'];
+  const panels = ['overview','calendar','blubber','whales','feed','intel','options','futures','stocks','risks','log','gamma'];
   document.querySelectorAll('.tab').forEach((t, i) => {
     t.classList.toggle('active', panels[i] === name);
   });
@@ -1642,6 +1718,7 @@ function switchTab(name) {
       renderUWAlerts(Array.isArray(u) ? u : (u.items || []));
     }
   }, 50);
+  if (name === 'gamma')    setTimeout(function(){ if (typeof buildGammaView === 'function') buildGammaView(); }, 50);
 }
 
 // ── STATIC DATA ──────────────────────────────────────────────────────────────
@@ -2810,6 +2887,371 @@ if (!IS_COWORK) {
   if (logPanel) logPanel.style.display = 'none';
 }
 
+// ── GAMMA TAB: GEX profile + walls (Unusual Whales) ──────────────────────────
+var _gammaData = null;           // gex_data.json contents
+var _gammaSortKey = 'ticker';
+var _gammaSortAsc = true;
+
+function buildGammaView(force) {
+  // Try Supabase first, then GitHub raw fallback. Cache for the session.
+  if (_gammaData && !force) {
+    renderGammaTable();
+    return;
+  }
+  var statusEl = document.getElementById('gammaStatus');
+  if (statusEl) statusEl.textContent = 'Loading GEX data…';
+
+  // Supabase primary
+  var SB_URL = (typeof SUPABASE_URL !== 'undefined') ? SUPABASE_URL : 'https://lsvbhlgxedssgdpvwtq.supabase.co';
+  var SB_KEY = (typeof SUPABASE_ANON !== 'undefined') ? SUPABASE_ANON : 'sb_publishable_dy77qQrBEFQjC-fQLgHcyA_6iX3krzo';
+  var sbUrl  = SB_URL + '/rest/v1/gex?select=*&limit=1';
+
+  fetch(sbUrl, { headers: { 'apikey': SB_KEY, 'Authorization': 'Bearer ' + SB_KEY, 'Cache-Control': 'no-cache' } })
+    .then(function (r) {
+      if (!r.ok) throw new Error('Supabase ' + r.status);
+      return r.json();
+    })
+    .then(function (rows) {
+      var payload = (rows && rows[0]) || null;
+      if (!payload || !payload.summaries) throw new Error('No Supabase GEX data');
+      _gammaData = payload;
+      var generated = payload.generated_display || payload.generated || 'unknown';
+      if (statusEl) statusEl.textContent = 'Last refresh: ' + generated;
+      var banner = document.getElementById('gammaBanner');
+      if (banner) { banner.style.display = 'none'; }
+      renderGammaTable();
+    })
+    .catch(function () {
+      // Fallback: GitHub raw with cache-bust
+      var ghUrl = 'https://raw.githubusercontent.com/dabsanddollars2024-cpu/basani-data/main/gex_data.json?t=' + Date.now();
+      return fetch(ghUrl, { cache: 'no-store' });
+    })
+    .then(function (r) {
+      if (!r || !r.ok) throw new Error('GitHub ' + (r ? r.status : 'no-response'));
+      return r.json();
+    })
+    .then(function (data) {
+      _gammaData = data;
+      var generated = data.generated_display || data.generated || 'unknown';
+      if (statusEl) statusEl.textContent = 'Last refresh: ' + generated + ' (GitHub)';
+      var banner = document.getElementById('gammaBanner');
+      if (banner) {
+        banner.style.display = 'block';
+        banner.textContent = 'Showing GitHub raw data. Supabase primary feed unavailable right now.';
+      }
+      renderGammaTable();
+    })
+    .catch(function (e) {
+      if (statusEl) statusEl.textContent = 'Failed to load: ' + (e.message || e);
+      var body = document.getElementById('gammaTableBody');
+      if (body) body.innerHTML =
+        '<tr><td colspan="9" style="padding:40px;text-align:center;color:#c0392b">' +
+        '⚠ No GEX data yet. The poller runs daily at 9:35 AM ET. Quota may be exhausted. ' +
+        'Try again after 8 PM ET when the Unusual Whales daily limit resets.</td></tr>';
+    });
+}
+
+function renderGammaTable() {
+  if (!_gammaData || !Array.isArray(_gammaData.summaries)) return;
+  var body = document.getElementById('gammaTableBody');
+  if (!body) return;
+
+  // Apply search filter
+  var searchEl = document.getElementById('gammaSearch');
+  var q = (searchEl && searchEl.value || '').toUpperCase().trim();
+  var rows = _gammaData.summaries.filter(function (s) {
+    return !q || s.ticker.indexOf(q) >= 0;
+  });
+
+  // Sort
+  rows.sort(function (a, b) {
+    var av = a[_gammaSortKey], bv = b[_gammaSortKey];
+    if (av == null && bv == null) return 0;
+    if (av == null) return 1;
+    if (bv == null) return -1;
+    if (typeof av === 'string') return _gammaSortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
+    return _gammaSortAsc ? (av - bv) : (bv - av);
+  });
+
+  if (rows.length === 0) {
+    body.innerHTML = '<tr><td colspan="9" style="padding:30px;text-align:center;color:#888">No tickers match filter.</td></tr>';
+    return;
+  }
+
+  var html = '';
+  rows.forEach(function (s) {
+    var sig = (s.signal || '—').toUpperCase();
+    var sigClass = '';
+    var sigBg    = 'transparent';
+    if (sig === 'PIN')           { sigClass = 'color:#2ecc71;font-weight:700'; sigBg = 'rgba(46,204,113,0.12)'; }
+    else if (sig === 'FLOOR')    { sigClass = 'color:#e74c3c;font-weight:700'; sigBg = 'rgba(231,76,60,0.12)';  }
+    else if (sig === 'EXPAND')   { sigClass = 'color:#f39c12;font-weight:700'; sigBg = 'rgba(243,156,18,0.12)'; }
+    else if (sig === 'CHOP')     { sigClass = 'color:#888;font-weight:700';    sigBg = 'rgba(136,136,136,0.12)'; }
+
+    var netStr = s.net_gex != null
+      ? '$' + (s.net_gex / 1e6).toFixed(1) + 'M'
+      : '—';
+    var netColor = (s.net_gex || 0) >= 0 ? 'var(--green)' : 'var(--red)';
+
+    // ── CALL WALL / PUT WALL / MAX PAIN with sizes ──
+    // Each badge: $price (size $M) — size shows magnitude so user knows which wall dominates
+    function fmtSize(v) {
+      if (v == null) return '';
+      var m = Math.abs(v) / 1e6;
+      if (m >= 1000) return '$' + (m / 1000).toFixed(2) + 'B';
+      return '$' + m.toFixed(1) + 'M';
+    }
+    function wallBadge(price, size, arrow, color) {
+      if (price == null) return '<span style="color:#555">—</span>';
+      var sizeStr = fmtSize(size);
+      var pct = (s.spot && price) ? ((price - s.spot) / s.spot * 100) : 0;
+      var pctStr = (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%';
+      return '<div style="display:flex;flex-direction:column;align-items:flex-end;line-height:1.3">' +
+             '<span style="color:' + color + ';font-weight:700">' + arrow + ' $' + price.toFixed(2) + '</span>' +
+             '<span style="color:#888;font-size:10px">' + pctStr + ' · ' + sizeStr + '</span>' +
+             '</div>';
+    }
+    function painBadge(price) {
+      if (price == null) return '<span style="color:#555">—</span>';
+      var pct = (s.spot && price) ? ((price - s.spot) / s.spot * 100) : 0;
+      var pctStr = (pct >= 0 ? '+' : '') + pct.toFixed(2) + '%';
+      return '<div style="display:flex;flex-direction:column;align-items:flex-end;line-height:1.3">' +
+             '<span style="color:var(--gold);font-weight:700">◆ $' + price.toFixed(2) + '</span>' +
+             '<span style="color:#888;font-size:10px">' + pctStr + '</span>' +
+             '</div>';
+    }
+
+    html += '<tr onclick="openGammaDetail(\'' + s.ticker + '\')" style="cursor:pointer;border-bottom:1px solid var(--border-g);transition:background 0.15s" onmouseover="this.style.background=\'rgba(232,184,75,0.06)\'" onmouseout="this.style.background=\'transparent\'">';
+    html +=   '<td style="padding:10px 12px;color:var(--gold);font-weight:700">' + (s.ticker || '—') + '</td>';
+    html +=   '<td style="padding:10px 12px;text-align:right">$ ' + (s.spot != null ? s.spot.toFixed(2) : '—') + '</td>';
+    html +=   '<td style="padding:10px 12px;text-align:center;background:' + sigBg + '"><span style="' + sigClass + '">' + sig + '</span></td>';
+    html +=   '<td style="padding:10px 12px;text-align:right;color:' + netColor + '">' + netStr + '</td>';
+    html +=   '<td style="padding:10px 12px;text-align:right;font-size:11px">' + wallBadge(s.call_wall, s.call_wall_size, '▲', 'var(--green)') + '</td>';
+    html +=   '<td style="padding:10px 12px;text-align:right;font-size:11px">' + wallBadge(s.put_wall,  s.put_wall_size,  '▼', 'var(--red)')   + '</td>';
+    html +=   '<td style="padding:10px 12px;text-align:right;font-size:11px">' + painBadge(s.max_pain) + '</td>';
+    html +=   '<td style="padding:10px 12px;text-align:right">' + (s.expected_move_pct != null ? s.expected_move_pct.toFixed(2) + '%' : '—') + '</td>';
+    html +=   '<td style="padding:10px 12px;text-align:right">' + (s.iv_rank != null ? s.iv_rank.toFixed(1) : '—') + '</td>';
+    html += '</tr>';
+  });
+  body.innerHTML = html;
+}
+
+function sortGammaTable(key) {
+  if (_gammaSortKey === key) _gammaSortAsc = !_gammaSortAsc;
+  else { _gammaSortKey = key; _gammaSortAsc = true; }
+  renderGammaTable();
+}
+
+function openGammaDetail(ticker) {
+  var modal  = document.getElementById('gammaModal');
+  var title  = document.getElementById('gammaModalTitle');
+  var body   = document.getElementById('gammaModalContent');
+  if (!modal || !title || !body) return;
+
+  title.textContent = ticker + ' — GEX Profile';
+  body.innerHTML = '<div style="padding:40px;text-align:center;color:#888">Loading deep-dive…</div>';
+  modal.style.display = 'block';
+
+  // Pull detail JSON
+  var url = 'https://raw.githubusercontent.com/dabsanddollars2024-cpu/basani-data/main/gex_detail_' + ticker + '.json?t=' + Date.now();
+  fetch(url, { cache: 'no-store' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (data) {
+      renderGammaDetail(ticker, data);
+    })
+    .catch(function (e) {
+      body.innerHTML = '<div style="padding:30px;color:#c0392b">⚠ Failed to load detail data: ' + (e.message || e) + '</div>';
+    });
+}
+
+function closeGammaDetail() {
+  var modal = document.getElementById('gammaModal');
+  if (modal) modal.style.display = 'none';
+}
+
+function renderGammaDetail(ticker, data) {
+  var body = document.getElementById('gammaModalContent');
+  if (!body) return;
+
+  // Pull summary from main table
+  var summary = null;
+  if (_gammaData && _gammaData.summaries) {
+    summary = _gammaData.summaries.find(function (s) { return s.ticker === ticker; }) || null;
+  }
+
+  var exposures = (data.spot_exposures && data.spot_exposures.data) || data.spot_exposures || [];
+  var ivData = (data.iv && data.iv.data) || data.iv || {};
+  var volData = (data.options_volume && data.options_volume.data) || data.options_volume || {};
+
+  var html = '';
+
+  // ── Summary cards ──
+  if (summary) {
+    var sig = (summary.signal || '—').toUpperCase();
+    var sigColor = '#888';
+    if (sig === 'PIN') sigColor = '#2ecc71';
+    else if (sig === 'FLOOR') sigColor = '#e74c3c';
+    else if (sig === 'EXPAND') sigColor = '#f39c12';
+
+    html += '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:24px">';
+    html += statCard('SPOT',        summary.spot != null ? '$' + summary.spot.toFixed(2) : '—', '#e8b84b');
+    html += statCard('REGIME',      sig, sigColor);
+    html += statCard('NET GEX',     summary.net_gex != null ? '$' + (summary.net_gex/1e6).toFixed(1) + 'M' : '—', (summary.net_gex||0) >= 0 ? '#2ecc71' : '#e74c3c');
+    // Call wall + size
+    var cwSizeStr = summary.call_wall_size != null ? formatGex(summary.call_wall_size) : '';
+    html += statCard('CALL WALL',   summary.call_wall != null ? '$' + summary.call_wall.toFixed(2) + (cwSizeStr ? '<div style="font-size:11px;color:#888;margin-top:2px">' + cwSizeStr + '</div>' : '') : '—', '#2ecc71');
+    var pwSizeStr = summary.put_wall_size != null ? formatGex(summary.put_wall_size) : '';
+    html += statCard('PUT WALL',    summary.put_wall != null ? '$' + summary.put_wall.toFixed(2) + (pwSizeStr ? '<div style="font-size:11px;color:#888;margin-top:2px">' + pwSizeStr + '</div>' : '') : '—', '#e74c3c');
+    html += statCard('MAX PAIN',    summary.max_pain != null ? '$' + summary.max_pain.toFixed(2) : '—', '#e8b84b');
+    html += statCard('EXP MOVE',    summary.expected_move_pct != null ? summary.expected_move_pct.toFixed(2) + '%' : '—', '#e8b84b');
+    html += statCard('IV RANK',     summary.iv_rank != null ? summary.iv_rank.toFixed(1) : '—', '#e8b84b');
+    html += statCard('IV %ILE',     summary.iv_percentile != null ? (summary.iv_percentile * 100).toFixed(0) + '%' : '—', '#e8b84b');
+    html += '</div>';
+  }
+
+  // ── SUPPORT / RESISTANCE ZONES (top zones, easy visual scan) ──
+  if (summary && (summary.resistance_zones || summary.support_zones)) {
+    html += '<div style="background:var(--card);border:1px solid var(--border-g);border-radius:6px;padding:16px;margin-bottom:20px">';
+    html += '<h3 style="font-family:Georgia,serif;color:var(--gold);margin:0 0 4px 0;font-size:16px">Support &amp; Resistance Zones</h3>';
+    html += '<div style="font-size:11px;color:#888;margin-bottom:12px;font-family:Courier New,monospace">Where dealer positioning creates price magnets. Major = strongest magnet, Minor = secondary.</div>';
+
+    // Two-column layout: Resistance | Support
+    html += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">';
+
+    // Resistance column
+    html += '<div>';
+    html += '<div style="font-family:Georgia,serif;color:var(--green);font-size:13px;font-weight:700;margin-bottom:8px;letter-spacing:0.05em">▲ RESISTANCE (Dealers Sell Here)</div>';
+    var resZones = summary.resistance_zones || [];
+    if (resZones.length === 0) {
+      html += '<div style="color:#666;font-style:italic;font-size:12px;padding:8px 0">No resistance zones detected</div>';
+    } else {
+      resZones.forEach(function (z) {
+        var barColor = z.strength === 'MAJOR' ? 'var(--gold)' : '#888';
+        var bgColor  = z.strength === 'MAJOR' ? 'rgba(232,184,75,0.08)' : 'transparent';
+        html += '<div style="background:' + bgColor + ';border-left:3px solid ' + barColor + ';padding:8px 12px;margin-bottom:6px;border-radius:3px">';
+        html += '<div style="display:flex;justify-content:space-between;align-items:baseline">';
+        html +=   '<span style="font-family:Courier New,monospace;font-size:16px;font-weight:700;color:' + barColor + '">$' + z.level.toFixed(2) + '</span>';
+        html +=   '<span style="font-family:Courier New,monospace;font-size:11px;color:#888">' + (z.distance_pct >= 0 ? '+' : '') + z.distance_pct.toFixed(2) + '%</span>';
+        html += '</div>';
+        html += '<div style="font-family:Courier New,monospace;font-size:10px;color:#888;margin-top:2px">' + z.strike_count + ' strikes · GEX ' + formatGex(z.gex_total) + '</div>';
+        html += '</div>';
+      });
+    }
+    html += '</div>';
+
+    // Support column
+    html += '<div>';
+    html += '<div style="font-family:Georgia,serif;color:var(--red);font-size:13px;font-weight:700;margin-bottom:8px;letter-spacing:0.05em">▼ SUPPORT (Dealers Buy Here)</div>';
+    var supZones = summary.support_zones || [];
+    if (supZones.length === 0) {
+      html += '<div style="color:#666;font-style:italic;font-size:12px;padding:8px 0">No support zones detected</div>';
+    } else {
+      supZones.forEach(function (z) {
+        var barColor = z.strength === 'MAJOR' ? 'var(--gold)' : '#888';
+        var bgColor  = z.strength === 'MAJOR' ? 'rgba(232,184,75,0.08)' : 'transparent';
+        html += '<div style="background:' + bgColor + ';border-left:3px solid ' + barColor + ';padding:8px 12px;margin-bottom:6px;border-radius:3px">';
+        html += '<div style="display:flex;justify-content:space-between;align-items:baseline">';
+        html +=   '<span style="font-family:Courier New,monospace;font-size:16px;font-weight:700;color:' + barColor + '">$' + z.level.toFixed(2) + '</span>';
+        html +=   '<span style="font-family:Courier New,monospace;font-size:11px;color:#888">' + (z.distance_pct >= 0 ? '+' : '') + z.distance_pct.toFixed(2) + '%</span>';
+        html += '</div>';
+        html += '<div style="font-family:Courier New,monospace;font-size:10px;color:#888;margin-top:2px">' + z.strike_count + ' strikes · GEX ' + formatGex(z.gex_total) + '</div>';
+        html += '</div>';
+      });
+    }
+    html += '</div>';
+
+    html += '</div>';   // close grid
+    html += '</div>';   // close zones container
+  }
+
+  // ── GEX profile table (gamma by strike) ──
+  html += '<div style="background:var(--card);border:1px solid var(--border-g);border-radius:6px;padding:16px;margin-bottom:20px">';
+  html += '<h3 style="font-family:Georgia,serif;color:var(--gold);margin:0 0 12px 0;font-size:16px">Gamma by Strike</h3>';
+  if (Array.isArray(exposures) && exposures.length) {
+    html += '<div style="max-height:380px;overflow-y:auto">';
+    html += '<table style="width:100%;border-collapse:collapse;font-family:\'Courier New\',monospace;font-size:12px">';
+    html += '<thead><tr style="background:var(--card2);color:var(--gold);font-size:10px;text-transform:uppercase;letter-spacing:0.05em">';
+    html += '<th style="padding:8px;text-align:left">Strike</th>';
+    html += '<th style="padding:8px;text-align:right">Call GEX</th>';
+    html += '<th style="padding:8px;text-align:right">Put GEX</th>';
+    html += '<th style="padding:8px;text-align:right">Net GEX</th>';
+    html += '<th style="padding:8px;text-align:right">Distance</th>';
+    html += '</tr></thead><tbody>';
+    // Sort by strike
+    var sorted = exposures.slice().sort(function (a, b) { return (a.strike || 0) - (b.strike || 0); });
+    var spot = (summary && summary.spot) || sorted.find(function (e) { return e.underlying_price; }) || 0;
+    var maxAbs = 0;
+    sorted.forEach(function (e) {
+      var net = (e.call_gamma_exposure || 0) - (e.put_gamma_exposure || 0);
+      if (Math.abs(net) > maxAbs) maxAbs = Math.abs(net);
+    });
+    sorted.forEach(function (e) {
+      var cg = e.call_gamma_exposure || 0;
+      var pg = e.put_gamma_exposure || 0;
+      var net = cg - pg;
+      var dist = e.strike && spot ? ((e.strike - spot) / spot * 100).toFixed(2) + '%' : '—';
+      var barWidth = maxAbs > 0 ? (Math.abs(net) / maxAbs * 100).toFixed(1) : 0;
+      var barColor = net >= 0 ? 'var(--green)' : 'var(--red)';
+      var barAlign = net >= 0 ? 'right' : 'left';
+      html += '<tr style="border-bottom:1px solid var(--border-g)">';
+      html += '<td style="padding:6px 8px;color:var(--gold);font-weight:700">$' + (e.strike || 0).toFixed(2) + '</td>';
+      html += '<td style="padding:6px 8px;text-align:right;color:var(--green)">' + formatGex(cg) + '</td>';
+      html += '<td style="padding:6px 8px;text-align:right;color:var(--red)">' + formatGex(pg) + '</td>';
+      html += '<td style="padding:6px 8px;text-align:right;position:relative">';
+      html +=   '<div style="position:absolute;top:0;' + barAlign + ':50%;height:100%;width:' + barWidth + '%;background:' + barColor + ';opacity:0.18;pointer-events:none"></div>';
+      html +=   '<span style="position:relative;color:' + barColor + '">' + formatGex(net) + '</span>';
+      html += '</td>';
+      html += '<td style="padding:6px 8px;text-align:right;color:#888">' + dist + '</td>';
+      html += '</tr>';
+    });
+    html += '</tbody></table></div>';
+  } else {
+    html += '<div style="padding:30px;text-align:center;color:#888">No spot-exposure data available. UW quota may be exhausted.</div>';
+  }
+  html += '</div>';
+
+  // ── IV + Volume cards ──
+  html += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">';
+  html += '<div style="background:var(--card);border:1px solid var(--border-g);border-radius:6px;padding:14px">';
+  html += '<h4 style="font-family:Georgia,serif;color:var(--gold);margin:0 0 8px 0;font-size:14px">Implied Volatility</h4>';
+  html += '<div style="font-family:Courier New,monospace;font-size:12px;color:var(--text);line-height:1.6">';
+  html += '<div>IV Rank: <strong style="color:var(--gold)">' + (ivData.iv_rank != null ? ivData.iv_rank.toFixed(2) : '—') + '</strong></div>';
+  html += '<div>IV Percentile: <strong style="color:var(--gold)">' + (ivData.iv_percentile != null ? (ivData.iv_percentile * 100).toFixed(1) + '%' : '—') + '</strong></div>';
+  html += '<div>IV: <strong style="color:var(--gold)">' + (ivData.iv != null ? (ivData.iv * 100).toFixed(1) + '%' : '—') + '</strong></div>';
+  html += '</div></div>';
+  html += '<div style="background:var(--card);border:1px solid var(--border-g);border-radius:6px;padding:14px">';
+  html += '<h4 style="font-family:Georgia,serif;color:var(--gold);margin:0 0 8px 0;font-size:14px">Options Volume</h4>';
+  html += '<div style="font-family:Courier New,monospace;font-size:12px;color:var(--text);line-height:1.6">';
+  html += '<div>Call Vol: <strong style="color:var(--green)">' + (volData.call_volume || volData.call_vol || '—') + '</strong></div>';
+  html += '<div>Put Vol: <strong style="color:var(--red)">'   + (volData.put_volume  || volData.put_vol  || '—') + '</strong></div>';
+  html += '<div>P/C Ratio: <strong style="color:var(--gold)">' + (volData.pc_ratio || volData.put_call_ratio || '—') + '</strong></div>';
+  html += '</div></div>';
+  html += '</div>';
+
+  html += '<div style="margin-top:16px;font-size:11px;color:#666;font-family:Courier New,monospace">Last fetch: ' + (data.fetched_at || 'unknown') + '</div>';
+
+  body.innerHTML = html;
+}
+
+function statCard(label, value, color) {
+  return '<div style="background:var(--card);border:1px solid var(--border-g);border-radius:6px;padding:12px 14px">' +
+         '<div style="font-size:10px;color:#999;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px">' + label + '</div>' +
+         '<div style="font-family:Courier New,monospace;font-size:18px;font-weight:700;color:' + color + '">' + value + '</div>' +
+         '</div>';
+}
+
+function formatGex(v) {
+  if (v == null) return '—';
+  var abs = Math.abs(v);
+  if (abs >= 1e9) return (v / 1e9).toFixed(2) + 'B';
+  if (abs >= 1e6) return (v / 1e6).toFixed(2) + 'M';
+  if (abs >= 1e3) return (v / 1e3).toFixed(1) + 'K';
+  return v.toFixed(0);
+}
+
 // ── BLUBBER FEED: News + Calendar (left) | UW Flow Individual Trades (right) ──
 function buildBlubberFeed(uwData, calData) {
   var feedEl   = document.getElementById('blubberFeed');
@@ -3769,7 +4211,8 @@ async function loadAll() {
   // GitHub is the fallback so the dashboard works even without a backend.
 
   // Public data repo — no auth needed (separate from private code repo)
-  const GITHUB_RAW  = 'https://raw.githubusercontent.com/sumedhbasani/basani-data/main/';
+  // Direct raw URL is faster and more reliable than jsDelivr CDN (no cache layer)
+  const GITHUB_RAW  = 'https://raw.githubusercontent.com/dabsanddollars2024-cpu/basani-data/main/';
   const USE_SUPABASE = !!(SUPABASE_URL && SUPABASE_ANON && !SUPABASE_URL.includes('YOUR_PROJECT'));
 
   const fetchWithTimeout = (url, ms = 8000, extraHeaders = {}) => {
@@ -4784,12 +5227,108 @@ setInterval(updateScanBadge, 30 * 1000);
   }
 
   function start() {
-    fetchPrices();
+    fetchPrices();          // initial fill so ticker isn't blank
     fetchNews();
     fetchUWFlow();
-    setInterval(fetchPrices, mkt() ? 30000 : 300000);
+    // Keep polling as a fallback for when WS disconnects (every 60s during market)
+    setInterval(fetchPrices, mkt() ? 60000 : 300000);
     setInterval(fetchNews, 300000);
     setInterval(fetchUWFlow, mkt() ? 300000 : 900000);
+    // Start real-time WebSocket stream for live prices
+    startLiveStream();
+  }
+
+  // ── ALPACA REAL-TIME WEBSOCKET STREAM ────────────────────────────────────
+  // Replaces 30s polling with millisecond-latency push updates.
+  // Auto-reconnects on disconnect. Falls back to polling if WS unavailable.
+  var _ws = null;
+  var _wsReconnectDelay = 2000;
+  var _wsAuthed = false;
+  var _wsSubId = 1;
+
+  function startLiveStream() {
+    try {
+      _ws = new WebSocket('wss://stream.data.alpaca.markets/v2/iex');
+
+      _ws.onopen = function() {
+        // Auth
+        _ws.send(JSON.stringify({
+          action: 'auth',
+          key: AK,
+          secret: AS
+        }));
+      };
+
+      _ws.onmessage = function(evt) {
+        var msgs;
+        try { msgs = JSON.parse(evt.data); } catch (e) { return; }
+        if (!Array.isArray(msgs)) return;
+
+        msgs.forEach(function(m) {
+          // Trade update: { T: 't', S: 'AAPL', p: 285.30, s: 100, t: '...', i: 123 }
+          if (m.T === 't' && m.S && typeof m.p === 'number') {
+            applyLiveTrade(m.S, m.p);
+          }
+          // Bar update: { T: 'b', S: 'AAPL', c: 285.30, ... }
+          else if (m.T === 'b' && m.S && typeof m.c === 'number') {
+            applyLiveTrade(m.S, m.c);
+          }
+          // Auth response
+          else if (m.T === 'success' && m.msg === 'authenticated') {
+            _wsAuthed = true;
+            // Subscribe to trades for all ticker symbols
+            _ws.send(JSON.stringify({
+              action: 'subscribe',
+              trades: LTICKERS
+            }));
+            _wsReconnectDelay = 2000;  // reset backoff on success
+          }
+          // Error from server
+          else if (m.T === 'error') {
+            console.warn('Alpaca WS error:', m.msg || m.code);
+          }
+        });
+      };
+
+      _ws.onerror = function() {
+        // Browser will fire onclose after this — let reconnect logic handle it
+      };
+
+      _ws.onclose = function() {
+        _wsAuthed = false;
+        // Auto-reconnect with exponential backoff (capped at 30s)
+        setTimeout(function() {
+          _wsReconnectDelay = Math.min(_wsReconnectDelay * 1.5, 30000);
+          startLiveStream();
+        }, _wsReconnectDelay);
+      };
+    } catch (e) {
+      // WS not available (very old browser) — polling fallback above already covers us
+      console.warn('WebSocket unavailable, using polling only:', e);
+    }
+  }
+
+  // Apply a single live trade to the ticker + all price displays
+  function applyLiveTrade(sym, price) {
+    sym = sym.toUpperCase();
+    if (!window._liveSnaps) window._liveSnaps = {};
+    if (!window._liveSnaps[sym]) {
+      // First time seeing this symbol — seed prev close from any existing data
+      window._liveSnaps[sym] = {
+        latestTrade: { p: price },
+        dailyBar:    { c: price }
+      };
+    } else {
+      var snap = window._liveSnaps[sym];
+      if (!snap.latestTrade) snap.latestTrade = {};
+      snap.latestTrade.p = price;
+      // Don't overwrite prev close — but dailyBar.c should track the latest print
+      if (!snap.dailyBar) snap.dailyBar = {};
+      snap.dailyBar.c = price;
+    }
+    // Update ticker tape + price displays
+    updateTicker(window._liveSnaps);
+    updatePrices(window._liveSnaps);
   }
 
   if (document.readyState === 'complete') { start(); }
