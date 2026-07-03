@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-03T15:42:08Z",
-  "generated_display": "2026-07-03 15:42 ET",
+  "generated": "2026-07-03T15:47:06Z",
+  "generated_display": "2026-07-03 15:47 ET",
   "count": 201,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T15:42:02.477699+00:00",
+      "last_error_ts": "2026-07-03T15:47:01.578697+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 200,
-      "last_success": "2026-07-03T15:42:02.678532+00:00",
+      "latency_ms": 199,
+      "last_success": "2026-07-03T15:47:01.779131+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 68,
-      "last_success": "2026-07-03T15:42:02.777206+00:00",
+      "latency_ms": 65,
+      "last_success": "2026-07-03T15:47:01.878442+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 101,
-      "last_success": "2026-07-03T15:42:02.881513+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-03T15:47:01.980828+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T15:42:02.985453+00:00",
+      "last_error_ts": "2026-07-03T15:47:02.019927+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2397,
-      "last_success": "2026-07-03T15:42:05.382596+00:00",
+      "latency_ms": 2458,
+      "last_success": "2026-07-03T15:47:04.478397+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-03T15:42:06.141970+00:00",
+      "last_success": "2026-07-03T15:47:05.179145+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 2035,
-      "last_success": "2026-07-03T15:42:08.177839+00:00",
+      "latency_ms": 1799,
+      "last_success": "2026-07-03T15:47:06.978521+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,550 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 207
+          "latency_ms": 111
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 212
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 41
+          "latency_ms": 91
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 263
+          "latency_ms": 189
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 15
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 143
+          "latency_ms": 83
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
+    "uw_news": 25,
+    "marketwatch": 8,
     "reuters": 16,
     "zerohedge": 8,
     "massive_news": 50,
-    "marketwatch": 8,
     "cnbc": 8,
     "benzinga": 3,
     "seekingalpha": 7,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "7eef3f52c3192b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:46:47Z",
+      "title": "$QQQ $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658250336",
+      "author": "Rk6789",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:46:47Z",
+      "text": "$QQQ $SPY",
+      "description": "",
+      "handle": "Rk6789",
+      "display_name": "R",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5c4e88e07825ee",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:46:47Z",
+      "title": "$QQQ $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658250336",
+      "author": "Rk6789",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:46:47Z",
+      "text": "$QQQ $SPY",
+      "description": "",
+      "handle": "Rk6789",
+      "display_name": "R",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "23b5de79e6b31d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:46:42Z",
+      "title": "$SPY $QQQ $SOXX $BSX volume on the daily says we are bottoming",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658250332",
+      "author": "Thamb19",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T15:46:42Z",
+      "text": "$SPY $QQQ $SOXX $BSX volume on the daily says we are bottoming",
+      "description": "",
+      "handle": "Thamb19",
+      "display_name": "Michigan Dirt bike &amp; Trail rev",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5bfd54c6e10192",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:46:42Z",
+      "title": "$SPY $QQQ $SOXX $BSX volume on the daily says we are bottoming",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658250332",
+      "author": "Thamb19",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T15:46:42Z",
+      "text": "$SPY $QQQ $SOXX $BSX volume on the daily says we are bottoming",
+      "description": "",
+      "handle": "Thamb19",
+      "display_name": "Michigan Dirt bike &amp; Trail rev",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4f787ca4499632",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T15:46:29Z",
+      "title": "BIC: Disclosure of total number of voting rights and number of shares forming the capital as of 30 June 2026",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:46:29Z",
+      "text": "BIC: Disclosure of total number of voting rights and number of shares forming the capital as of 30 June 2026",
+      "description": ""
+    },
+    {
+      "id": "e01e3a976f4a3f",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T15:46:26Z",
+      "title": "Kvika banki hf.: Launch of Share Buyback Programme",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:46:26Z",
+      "text": "Kvika banki hf.: Launch of Share Buyback Programme",
+      "description": ""
+    },
+    {
+      "id": "0d889df00edec6",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T15:46:24Z",
+      "title": "BAILEY: ABSENT WAR, UK INFLATION WOULD BE AT TARGET",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 13.0,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:46:24Z",
+      "text": "BAILEY: ABSENT WAR, UK INFLATION WOULD BE AT TARGET",
+      "description": ""
+    },
+    {
+      "id": "504e1c3823d849",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:46:04Z",
+      "title": "$SPY The Cost Of Leverage \nhttps://heisenbergreport.com/2026/07/03/the-cost-of-leverage/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658250314",
+      "author": "realheisenberg",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:46:04Z",
+      "text": "$SPY The Cost Of Leverage \nhttps://heisenbergreport.com/2026/07/03/the-cost-of-leverage/",
+      "description": "",
+      "handle": "realheisenberg",
+      "display_name": "Heisenberg Report",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4d8da9071cc1d2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:46:00Z",
+      "title": "$PLTR you don&#39;t fully sell out of the ultimate tracker \ud83c\udfaf",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658250310",
+      "author": "WolfboyCapital",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T15:46:00Z",
+      "text": "$PLTR you don&#39;t fully sell out of the ultimate tracker \ud83c\udfaf",
+      "description": "",
+      "handle": "WolfboyCapital",
+      "display_name": "\ud83d\ude07WolfboyCapital\ud83d\ude07",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cb0a7282159002",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:45:24Z",
+      "title": "$META $MSFT $NVDA $AMZN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658250294",
+      "author": "emeraldbayrider",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:45:24Z",
+      "text": "$META $MSFT $NVDA $AMZN",
+      "description": "",
+      "handle": "emeraldbayrider",
+      "display_name": "Cingeon Smyth",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8a0176c4c59250",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:45:24Z",
+      "title": "$META $MSFT $NVDA $AMZN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658250294",
+      "author": "emeraldbayrider",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:45:24Z",
+      "text": "$META $MSFT $NVDA $AMZN",
+      "description": "",
+      "handle": "emeraldbayrider",
+      "display_name": "Cingeon Smyth",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "43f44d7247c1f6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:45:24Z",
+      "title": "$META $MSFT $NVDA $AMZN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658250294",
+      "author": "emeraldbayrider",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:45:24Z",
+      "text": "$META $MSFT $NVDA $AMZN",
+      "description": "",
+      "handle": "emeraldbayrider",
+      "display_name": "Cingeon Smyth",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "46cc5f1bacdb59",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:45:24Z",
+      "title": "$META $MSFT $NVDA $AMZN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658250294",
+      "author": "emeraldbayrider",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:45:24Z",
+      "text": "$META $MSFT $NVDA $AMZN",
+      "description": "",
+      "handle": "emeraldbayrider",
+      "display_name": "Cingeon Smyth",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "617132cc59921b",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T15:45:12Z",
+      "title": "Q-Day could compromise Bitcoin security as quantum computers may forge signatures, leading to unauthorized transactions.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:45:12Z",
+      "text": "Q-Day could compromise Bitcoin security as quantum computers may forge signatures, leading to unauthorized transactions.",
+      "description": ""
+    },
+    {
+      "id": "beb3aaaecc9af0",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T15:45:00Z",
+      "title": "Foreign Minister Andriy Sybiha: Ukraine has proposed a package of anti-crisis measures to Poland, including consultations between the foreign ministries, a meeting of historians, and involving religious leaders in a bilateral dialogue - REPORTS",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "BLX"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:45:00Z",
+      "text": "Foreign Minister Andriy Sybiha: Ukraine has proposed a package of anti-crisis measures to Poland, including consultations between the foreign ministries, a meeting of historians, and involving religious leaders in a bilateral dialogue - REPORTS",
+      "description": ""
+    },
+    {
+      "id": "e6e129ad60de0b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:44:49Z",
+      "title": "$SPY $QQQ $SOXX $BSX price is back to the dot com highs. \nI am playing for a bounce in a defensive sector the healthcare sector when spy and qqq  is showing weakness",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658250282",
+      "author": "Thamb19",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T15:44:49Z",
+      "text": "$SPY $QQQ $SOXX $BSX price is back to the dot com highs. \nI am playing for a bounce in a defensive sector the healthcare sector when spy and qqq  is showing weakness",
+      "description": "",
+      "handle": "Thamb19",
+      "display_name": "Michigan Dirt bike &amp; Trail rev",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "171f140402f730",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:44:49Z",
+      "title": "$SPY $QQQ $SOXX $BSX price is back to the dot com highs. \nI am playing for a bounce in a defensive sector the healthcare sector when spy and qqq  is showing weakness",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658250282",
+      "author": "Thamb19",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T15:44:49Z",
+      "text": "$SPY $QQQ $SOXX $BSX price is back to the dot com highs. \nI am playing for a bounce in a defensive sector the healthcare sector when spy and qqq  is showing weakness",
+      "description": "",
+      "handle": "Thamb19",
+      "display_name": "Michigan Dirt bike &amp; Trail rev",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4dd5448e8abdf2",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T15:44:31Z",
+      "title": "POPE LEO CALLS FOR LAWS THAT 'RECOGNIZE AND SAFEGUARD' LIFE, FROM CONCEPTION UNTIL DEATH",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:44:31Z",
+      "text": "POPE LEO CALLS FOR LAWS THAT 'RECOGNIZE AND SAFEGUARD' LIFE, FROM CONCEPTION UNTIL DEATH",
+      "description": ""
+    },
+    {
+      "id": "2cd46a84c9e3bc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:44:05Z",
+      "title": "$AMD $META $ORCL So, youre saying the chip shortage/demand narrative is fabricated and Meta is in over their head sinking over supply? This looks more like them supplying a demanding market rather to myself and other investors. Data centers are huge demand. The more you tap into this digital environ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658250260",
+      "author": "TheUnmaker",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T15:44:05Z",
+      "text": "$AMD $META $ORCL So, youre saying the chip shortage/demand narrative is fabricated and Meta is in over their head sinking over supply? This looks more like them supplying a demanding market rather to myself and other investors. Data centers are huge demand. The more you tap into this digital environ",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "523c2ba0637ae8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:44:05Z",
+      "title": "$AMD $META $ORCL So, youre saying the chip shortage/demand narrative is fabricated and Meta is in over their head sinking over supply? This looks more like them supplying a demanding market rather to myself and other investors. Data centers are huge demand. The more you tap into this digital environ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658250260",
+      "author": "TheUnmaker",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T15:44:05Z",
+      "text": "$AMD $META $ORCL So, youre saying the chip shortage/demand narrative is fabricated and Meta is in over their head sinking over supply? This looks more like them supplying a demanding market rather to myself and other investors. Data centers are huge demand. The more you tap into this digital environ",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "980d6d9fcc99b5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:43:59Z",
+      "title": "$AMZN still looks like one of the best risk/reward names here. \n \nNot trying to call the best stock for July \u2014 just one I\u2019m comfortable adding with a 3-5 year view. \n \nBig picture stays intact: scale, cash flow, and multiple levers across the business.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658250256",
+      "author": "NasdaqFrontier",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:43:59Z",
+      "text": "$AMZN still looks like one of the best risk/reward names here. \n \nNot trying to call the best stock for July \u2014 just one I\u2019m comfortable adding with a 3-5 year view. \n \nBig picture stays intact: scale, cash flow, and multiple levers across the business.",
+      "description": "",
+      "handle": "NasdaqFrontier",
+      "display_name": "Sarah Verville",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0bda392caddba6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:43:47Z",
+      "title": "$SPY See, even the Pope thinks Trump should go. \ud83d\udc4d \nhttps://www.youtube.com/watch?v=5MZqA2XhTQs",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658250245",
+      "author": "intel_investments",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:43:47Z",
+      "text": "$SPY See, even the Pope thinks Trump should go. \ud83d\udc4d \nhttps://www.youtube.com/watch?v=5MZqA2XhTQs",
+      "description": "",
+      "handle": "intel_investments",
+      "display_name": "Jimmy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c05a22f47c7dd0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T15:42:08Z",
+      "title": "$SPY $QQQ $SOXX how about that for a weekly candle after a 62% sell off? This the candle made by Boston scientific this week. The clearest reversal I&#39;ve seen $BSX",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658250202",
+      "author": "Thamb19",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T15:42:08Z",
+      "text": "$SPY $QQQ $SOXX how about that for a weekly candle after a 62% sell off? This the candle made by Boston scientific this week. The clearest reversal I&#39;ve seen $BSX",
+      "description": "",
+      "handle": "Thamb19",
+      "display_name": "Michigan Dirt bike &amp; Trail rev",
+      "platform": "stocktwits"
+    },
     {
       "id": "aa13ea3b8ed3b3",
       "source": "uw_news",
@@ -134,6 +635,24 @@
       "time": "2026-07-03T15:41:16Z",
       "text": "POPE LEO PRAISES UNITED STATES' HISTORY OF WELCOMING IMMIGRANTS",
       "description": ""
+    },
+    {
+      "id": "d2881e592efd48",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Fri, 03 Jul 2026 15:41:00 GMT",
+      "title": "AI infrastructure stocks have overtaken big tech hyperscalers in an \u2018extraordinary\u2019 shift, says UBS research arm",
+      "body": "A research team at UBS sees value creation in the artificial intelligence infrastructure sector soaring 600% in the space of four years, compared with just 100% for \u201chyperscalers\u201d",
+      "url": "https://www.marketwatch.com/story/ai-infrastructure-stocks-have-overtaken-big-tech-hyperscalers-in-an-extraordinary-shift-says-ubs-research-arm-7c425a02?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 03 Jul 2026 15:41:00 GMT",
+      "text": "AI infrastructure stocks have overtaken big tech hyperscalers in an \u2018extraordinary\u2019 shift, says UBS research arm",
+      "description": "A research team at UBS sees value creation in the artificial intelligence infrastructure sector soaring 600% in the space of four years, compared with just 100% for \u201chyperscalers\u201d"
     },
     {
       "id": "743e3fce9bc3e5",
@@ -356,29 +875,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "4ab65cb3fbd198",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:39:53Z",
-      "title": "$QQQ $SPY Palantir $PLTR CEO Alex Karp said that some \ud83c\uddfa\ud83c\uddf8 government customers have switched from proprietary AI models to Nvidia\u2019s $NVDA open-source Nemotron models - The Information\ud83e\udd14\ud83e\udd14",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658250140",
-      "author": "EconomyEngine",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:39:53Z",
-      "text": "$QQQ $SPY Palantir $PLTR CEO Alex Karp said that some \ud83c\uddfa\ud83c\uddf8 government customers have switched from proprietary AI models to Nvidia\u2019s $NVDA open-source Nemotron models - The Information\ud83e\udd14\ud83e\udd14",
-      "description": "",
-      "handle": "EconomyEngine",
-      "display_name": "Mb",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a2176c13e012fc",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -448,29 +944,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "4d6102c9c26b4e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:39:50Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658250139",
-      "author": "MarketProMax",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:39:50Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "MarketProMax",
-      "display_name": "brendan",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d27e06b0bbf825",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -487,52 +960,6 @@
       "time": "2026-07-03T15:39:39Z",
       "text": "ECB\u2019s Makhlouf: The ECB has the absolute will to deliver 2% inflation.",
       "description": ""
-    },
-    {
-      "id": "3d6ee97f93800b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:38:52Z",
-      "title": "If I was only allowed to make 5 investments the rest of my life. These would be my picks.. \n\n$SPY \n$QQQ \n$VXUS \n$BIL \n$DBC",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658250124",
-      "author": "SonGoku",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:38:52Z",
-      "text": "If I was only allowed to make 5 investments the rest of my life. These would be my picks.. \n\n$SPY \n$QQQ \n$VXUS \n$BIL \n$DBC",
-      "description": "",
-      "handle": "SonGoku",
-      "display_name": "Goku",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "27f9b5ccc718e7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:38:52Z",
-      "title": "If I was only allowed to make 5 investments the rest of my life. These would be my picks.. \n\n$SPY \n$QQQ \n$VXUS \n$BIL \n$DBC",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658250124",
-      "author": "SonGoku",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:38:52Z",
-      "text": "If I was only allowed to make 5 investments the rest of my life. These would be my picks.. \n\n$SPY \n$QQQ \n$VXUS \n$BIL \n$DBC",
-      "description": "",
-      "handle": "SonGoku",
-      "display_name": "Goku",
-      "platform": "stocktwits"
     },
     {
       "id": "2b4d71e1ad5741",
@@ -696,75 +1123,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c64ccf28c37c64",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:36:59Z",
-      "title": "$AMZN $META $MSFT $NVDA \n\nMeta ready to rip were I to \u201cguess\u201d",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658250076",
-      "author": "emeraldbayrider",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:36:59Z",
-      "text": "$AMZN $META $MSFT $NVDA \n\nMeta ready to rip were I to \u201cguess\u201d",
-      "description": "",
-      "handle": "emeraldbayrider",
-      "display_name": "Cingeon Smyth",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "acc2d302983963",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:36:59Z",
-      "title": "$AMZN $META $MSFT $NVDA \n\nMeta ready to rip were I to \u201cguess\u201d",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMZN/message/658250076",
-      "author": "emeraldbayrider",
-      "tickers": [
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:36:59Z",
-      "text": "$AMZN $META $MSFT $NVDA \n\nMeta ready to rip were I to \u201cguess\u201d",
-      "description": "",
-      "handle": "emeraldbayrider",
-      "display_name": "Cingeon Smyth",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "93e753d854a808",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:36:34Z",
-      "title": "$NVDA fix your stock",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658250063",
-      "author": "BashNew",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-03T15:36:34Z",
-      "text": "$NVDA fix your stock",
-      "description": "",
-      "handle": "BashNew",
-      "display_name": "BashNew",
-      "platform": "stocktwits"
-    },
-    {
       "id": "faa700e4fc3fbb",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -801,96 +1159,22 @@
       "description": ""
     },
     {
-      "id": "16cae625910e35",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:35:21Z",
-      "title": "July is should be a great month for $KORU and memory stocks along with the market:  \n \n\u25a0 $SKHY IPOs at $166 on July 10 \n\u25a0 $KORU splits 20 for 1 on July 15 \n\u25a0 Samsung and $SKHY ERs \n \n\u25a0 Expect &quot;cooled&quot; CPI, PPI, and PCE on oil crashing back to pre-war level and that&#39;ll sink USD and trea",
+      "id": "dcaf8b1b591823",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T15:34:15Z",
+      "title": "Moderna vs. Recursion: Which Cutting-Edge Pharma Stock Is a Better Buy in 2026?",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658250027",
-      "author": "AlphaBull_10M",
-      "tickers": [
-        "QQQ"
-      ],
+      "url": "https://finance.yahoo.com/healthcare/articles/moderna-vs-recursion-cutting-edge-153415948.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 11.3,
-      "impact_level": "MED",
-      "sentiment": "bullish",
-      "time": "2026-07-03T15:35:21Z",
-      "text": "July is should be a great month for $KORU and memory stocks along with the market:  \n \n\u25a0 $SKHY IPOs at $166 on July 10 \n\u25a0 $KORU splits 20 for 1 on July 15 \n\u25a0 Samsung and $SKHY ERs \n \n\u25a0 Expect &quot;cooled&quot; CPI, PPI, and PCE on oil crashing back to pre-war level and that&#39;ll sink USD and trea",
-      "description": "",
-      "handle": "AlphaBull_10M",
-      "display_name": "Alpha Bull",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0cea6c5c48adcf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:35:02Z",
-      "title": "$SPY https://www.nbcnews.com/business/markets/trump-stock-trades-before-tariff-pause-rcna352723",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658250016",
-      "author": "Intradaytrade100",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-03T15:35:02Z",
-      "text": "$SPY https://www.nbcnews.com/business/markets/trump-stock-trades-before-tariff-pause-rcna352723",
-      "description": "",
-      "handle": "Intradaytrade100",
-      "display_name": "James Allen",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "49ef13287334fc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:34:50Z",
-      "title": "$MSFT $350 next week.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658250010",
-      "author": "MountCapital",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-03T15:34:50Z",
-      "text": "$MSFT $350 next week.",
-      "description": "",
-      "handle": "MountCapital",
-      "display_name": "BOB JOE",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "9d099e92b48ce4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:34:43Z",
-      "title": "$SPY PAMP DAT.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658250008",
-      "author": "stevemnuchinn",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-03T15:34:43Z",
-      "text": "$SPY PAMP DAT.",
-      "description": "",
-      "handle": "stevemnuchinn",
-      "display_name": "g'day sir",
-      "platform": "stocktwits"
+      "time": "2026-07-03T15:34:15Z",
+      "text": "Moderna vs. Recursion: Which Cutting-Edge Pharma Stock Is a Better Buy in 2026?",
+      "description": ""
     },
     {
       "id": "a6d87f3dbd260c",
@@ -977,29 +1261,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "3bde28a75bb10b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:32:36Z",
-      "title": "$META \nRenting cloud compute\u2026 and selling chips. \n \nThat shift alone tells you how far this has evolved from a pure ad-driven platform into a full-stack AI infrastructure player. \n \nMore bullish than ever. \n \nWe\u2019re now at a point where Meta isn\u2019t just consuming compute  it\u2019s participating in the sup",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658249952",
-      "author": "AIWealthCircle",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:32:36Z",
-      "text": "$META \nRenting cloud compute\u2026 and selling chips. \n \nThat shift alone tells you how far this has evolved from a pure ad-driven platform into a full-stack AI infrastructure player. \n \nMore bullish than ever. \n \nWe\u2019re now at a point where Meta isn\u2019t just consuming compute  it\u2019s participating in the sup",
-      "description": "",
-      "handle": "AIWealthCircle",
-      "display_name": "Kevin Lawson",
-      "platform": "stocktwits"
-    },
-    {
       "id": "0e19936552e75f",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1020,29 +1281,6 @@
       "description": "",
       "handle": "AshHydrogen",
       "display_name": "Ashley Wolter",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "83fe77b8489014",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:32:15Z",
-      "title": "$BTC.X it\u2019s bouncing because people are exiting the AI chip sector. Crypto bros are back in crypto.  $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658249938",
-      "author": "Stonethrower2",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:32:15Z",
-      "text": "$BTC.X it\u2019s bouncing because people are exiting the AI chip sector. Crypto bros are back in crypto.  $QQQ",
-      "description": "",
-      "handle": "Stonethrower2",
-      "display_name": "John Stone",
       "platform": "stocktwits"
     },
     {
@@ -1067,6 +1305,24 @@
       "handle": "big_jim25",
       "display_name": "Jimmy Johnny",
       "platform": "stocktwits"
+    },
+    {
+      "id": "f1025a0d594bc5",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T15:31:10Z",
+      "title": "Is Rocket Lab (RKLB) The Best Space Stock to Buy Now?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-best-space-153110214.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T15:31:10Z",
+      "text": "Is Rocket Lab (RKLB) The Best Space Stock to Buy Now?",
+      "description": ""
     },
     {
       "id": "4484ec3a4c285a",
@@ -1174,29 +1430,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2961d59538afae",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:26:15Z",
-      "title": "Bill Ackman keeps telling you to buy Meta. \n \nIn 2022 he called: \n$GOOGL at $90\u2192 +300% \n \nIn 2025 he called: \n$AMZN at $170\u2192 +50% \n \nNow in 2026 he\u2019s calling: \n$META at $580 \n \nAre you going to ignore him again?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMZN/message/658249759",
-      "author": "MarketMaestro1",
-      "tickers": [
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:26:15Z",
-      "text": "Bill Ackman keeps telling you to buy Meta. \n \nIn 2022 he called: \n$GOOGL at $90\u2192 +300% \n \nIn 2025 he called: \n$AMZN at $170\u2192 +50% \n \nNow in 2026 he\u2019s calling: \n$META at $580 \n \nAre you going to ignore him again?",
-      "description": "",
-      "handle": "MarketMaestro1",
-      "display_name": "Mr. Denny",
-      "platform": "stocktwits"
-    },
-    {
       "id": "3f6fb6dc88d923",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1218,47 +1451,6 @@
       "handle": "MarketMaestro1",
       "display_name": "Mr. Denny",
       "platform": "stocktwits"
-    },
-    {
-      "id": "2d561a2a0a4bdb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:25:43Z",
-      "title": "$BTC.X $QQQ $SPY no way IMO. They emphasized that everything is too expensive (inflation). But .. we will see.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658249737",
-      "author": "LudwigVanBeethoven",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:25:43Z",
-      "text": "$BTC.X $QQQ $SPY no way IMO. They emphasized that everything is too expensive (inflation). But .. we will see.",
-      "description": "",
-      "handle": "LudwigVanBeethoven",
-      "display_name": "Ludwig Gluck",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "676d9e169f574a",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T15:25:00Z",
-      "title": "Will Costco Pay a Special Dividend in 2026? Here's What History Says.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/costco-pay-special-dividend-2026-152500505.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:25:00Z",
-      "text": "Will Costco Pay a Special Dividend in 2026? Here's What History Says.",
-      "description": ""
     },
     {
       "id": "66578a7dd24c5e",
@@ -1789,29 +1981,6 @@
       "description": ""
     },
     {
-      "id": "dbd9564d6afb4d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T15:03:05Z",
-      "title": "This is why I think $PLTR is a good suitor for $ALP - plus it should be cheap enough for them at this point. \n \n&quot;The two places that actually make money - like profit, free cash flow - are our application layer called Ontology and compute.&quot; - Alex Karp \n \nhttps://www.reddit.com/r/AlphaComp",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658248958",
-      "author": "fatpie68",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-03T15:03:05Z",
-      "text": "This is why I think $PLTR is a good suitor for $ALP - plus it should be cheap enough for them at this point. \n \n&quot;The two places that actually make money - like profit, free cash flow - are our application layer called Ontology and compute.&quot; - Alex Karp \n \nhttps://www.reddit.com/r/AlphaComp",
-      "description": "",
-      "handle": "fatpie68",
-      "display_name": "Lo' Ri-Der",
-      "platform": "stocktwits"
-    },
-    {
       "id": "bf6ec2843baaff",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1845,47 +2014,6 @@
       "sentiment": "neutral",
       "time": "2026-07-03T15:02:10Z",
       "text": "Ler\u00f8y Seafood Group ASA reports second quarter 2026 trading update.",
-      "description": ""
-    },
-    {
-      "id": "127a04f8f8e30a",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T15:01:06Z",
-      "title": "UPAY Inc. Announces Appointment of Wynand Jordaan as Non-Executive Director",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "UPYY"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:01:06Z",
-      "text": "UPAY Inc. Announces Appointment of Wynand Jordaan as Non-Executive Director",
-      "description": ""
-    },
-    {
-      "id": "4e972ef896a8ee",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T15:01:02Z",
-      "title": "Globex reports Gold assays of up to 1.88 g/t Au over 4.85 metres in the Main Antimony Zone at its Bald Hill Property",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "ATMY",
-        "ATMYF"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:01:02Z",
-      "text": "Globex reports Gold assays of up to 1.88 g/t Au over 4.85 metres in the Main Antimony Zone at its Bald Hill Property",
       "description": ""
     },
     {
@@ -2060,24 +2188,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "35da25d0ae381c",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T14:56:20Z",
-      "title": "RUSSIA'S NORSI OIL REFINERY HALTS CRUDE PROCESSING AFTER DRONE ATTACK ON JULY 2, REPORTS",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T14:56:20Z",
-      "text": "RUSSIA'S NORSI OIL REFINERY HALTS CRUDE PROCESSING AFTER DRONE ATTACK ON JULY 2, REPORTS",
-      "description": ""
-    },
-    {
       "id": "2b750cc310da3e",
       "source": "reuters",
       "source_type": "rss",
@@ -2165,24 +2275,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b397fb2a37d5f3",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T14:45:06Z",
-      "title": "Glenfarne Global Commodities Expands LNG Portfolio with 1 MTPA Heads of Agreement with BGN",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T14:45:06Z",
-      "text": "Glenfarne Global Commodities Expands LNG Portfolio with 1 MTPA Heads of Agreement with BGN",
-      "description": ""
-    },
-    {
       "id": "7c1a628b8cd07e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2267,42 +2359,6 @@
       "time": "2026-07-03T14:39:00Z",
       "text": "U.S. accounts for 96% of global Bitcoin ATM losses in H1 2026, Finbold report finds",
       "description": "The global Bitcoin ATM network declined from 39,158 machines at end of 2025 to 28,322 by June 30, 2026, losing 10,836 ATMs (27.7%). The U.S. accounted for 95.8% of losses, dropping from 30,617 to 20,237 machines. The contraction was largely driven by Bitcoin Depot's Chapter 11 bankruptcy filing in M"
-    },
-    {
-      "id": "88b00fcb469128",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T14:38:59Z",
-      "title": "Pepperstone Appoints Reed Sayer as Head of UK",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T14:38:59Z",
-      "text": "Pepperstone Appoints Reed Sayer as Head of UK",
-      "description": ""
-    },
-    {
-      "id": "ad34035af5b0f4",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T14:38:52Z",
-      "title": "\"The Power of Datafication\" Published: Observing the Evolution of Digital Civilization Through Chinese Practice",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T14:38:52Z",
-      "text": "\"The Power of Datafication\" Published: Observing the Evolution of Digital Civilization Through Chinese Practice",
-      "description": ""
     },
     {
       "id": "b6aac405d7bbc9",
@@ -2446,29 +2502,6 @@
       "description": "Ripple launched the XRP Ledger AI Starter Kit on June 10 to enable AI agents to autonomously pay for services using XRP and its stablecoin via the x402 protocol. However, the article argues this may not benefit XRP holders because the network's tokenomics burn transaction fees rather than distributi"
     },
     {
-      "id": "7de1229361bf0e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T14:20:32Z",
-      "title": "$NVDA $AMD $AVGO",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658247545",
-      "author": "BashNew",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-03T14:20:32Z",
-      "text": "$NVDA $AMD $AVGO",
-      "description": "",
-      "handle": "BashNew",
-      "display_name": "BashNew",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2ae817c23f93ff",
       "source": "zerohedge",
       "source_type": "rss",
@@ -2599,24 +2632,6 @@
       "time": "2026-07-03T14:14:01Z",
       "text": "MoonLake Immunotherapeutics' CFO Sells 39K Shares",
       "description": "MoonLake Immunotherapeutics CFO Matthias Bodenstedt sold 39,120 shares worth approximately $862,000 on June 22 through a pre-planned 10b5-1 trading plan. The sale represented 3.4% of his direct holdings, leaving him with over 1.1 million shares. While the transaction shouldn't concern investors due "
-    },
-    {
-      "id": "0cf2b4d2baee8f",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T14:03:59Z",
-      "title": "Vltava Fund Sold Lam Research Due (LRCX) to Overvaluation",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/vltava-fund-sold-lam-research-140359032.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T14:03:59Z",
-      "text": "Vltava Fund Sold Lam Research Due (LRCX) to Overvaluation",
-      "description": ""
     },
     {
       "id": "051e6af8b53730",
@@ -3517,24 +3532,6 @@
       "time": "Fri, 03 Jul 2026 12:00:00 GMT",
       "text": "Micron was started by a few guys in an Idaho basement. How it rose to be at the center of the AI boom.",
       "description": "Memory chips were once seen as an unglamorous business, but Micron is betting AI will change the game for good."
-    },
-    {
-      "id": "7cafc59d05d216",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Fri, 03 Jul 2026 12:00:00 GMT",
-      "title": "Am I better off claiming Social Security early and investing the money, or delaying until age 70?",
-      "body": "\u201cI have a monthly pension worth $11,000 and Social Security income of $4,000.\u201d",
-      "url": "https://www.marketwatch.com/story/am-i-better-off-claiming-social-security-early-and-investing-the-money-or-delaying-until-age-70-95f856d9?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 03 Jul 2026 12:00:00 GMT",
-      "text": "Am I better off claiming Social Security early and investing the money, or delaying until age 70?",
-      "description": "\u201cI have a monthly pension worth $11,000 and Social Security income of $4,000.\u201d"
     },
     {
       "id": "384186d6965486",
