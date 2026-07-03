@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-03T19:07:06Z",
-  "generated_display": "2026-07-03 19:07 ET",
+  "generated": "2026-07-03T19:12:07Z",
+  "generated_display": "2026-07-03 19:12 ET",
   "count": 202,
   "source_health": {
     "x_api": {
@@ -8,22 +8,22 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T19:07:02.407126+00:00",
+      "last_error_ts": "2026-07-03T19:12:02.471286+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 165,
-      "last_success": "2026-07-03T19:07:02.573871+00:00",
+      "latency_ms": 201,
+      "last_success": "2026-07-03T19:12:02.673744+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 97,
-      "last_success": "2026-07-03T19:07:02.672269+00:00",
+      "latency_ms": 197,
+      "last_success": "2026-07-03T19:12:02.871725+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 50,
       "latency_ms": 99,
-      "last_success": "2026-07-03T19:07:02.774175+00:00",
+      "last_success": "2026-07-03T19:12:02.974152+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T19:07:02.887612+00:00",
+      "last_error_ts": "2026-07-03T19:12:03.085286+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1484,
-      "last_success": "2026-07-03T19:07:04.372155+00:00",
+      "latency_ms": 2086,
+      "last_success": "2026-07-03T19:12:05.171857+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-03T19:07:05.070616+00:00",
+      "last_success": "2026-07-03T19:12:05.970933+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1857,
-      "last_success": "2026-07-03T19:07:06.927981+00:00",
+      "latency_ms": 1800,
+      "last_success": "2026-07-03T19:12:07.771281+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -79,36 +79,36 @@
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 183
+          "latency_ms": 115
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 98
+          "latency_ms": 161
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 197
+          "latency_ms": 203
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 16
+          "latency_ms": 9
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 78
+          "latency_ms": 185
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "marketwatch": 8,
     "uw_news": 25,
     "cnbc": 8,
-    "marketwatch": 8,
     "massive_news": 50,
     "zerohedge": 8,
     "reuters": 16,
@@ -117,6 +117,106 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "8aea03e364aaa6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T19:11:15Z",
+      "title": "$SPY Gonna run a skin head ticket this year.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658255596",
+      "author": "TheDarkRoom",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T19:11:15Z",
+      "text": "$SPY Gonna run a skin head ticket this year.",
+      "description": "",
+      "handle": "TheDarkRoom",
+      "display_name": "TheDarkStranger",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7c51874753800c",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Fri, 03 Jul 2026 19:10:00 GMT",
+      "title": "Opening a \u2018Trump account\u2019 for your children? Here is the risk you need to reckon with first.",
+      "body": "The new accounts ban bonds and international stocks, forcing parents to bet their children\u2019s financial future entirely on U.S. equities.",
+      "url": "https://www.marketwatch.com/story/opening-a-trump-account-for-your-children-here-is-the-risk-you-need-to-recognize-first-fe206bc0?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 03 Jul 2026 19:10:00 GMT",
+      "text": "Opening a \u2018Trump account\u2019 for your children? Here is the risk you need to reckon with first.",
+      "description": "The new accounts ban bonds and international stocks, forcing parents to bet their children\u2019s financial future entirely on U.S. equities."
+    },
+    {
+      "id": "feee1dd698970a",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T19:09:43Z",
+      "title": "France\u2019s President Macron: Accompanied by two frigates and a maritime patrol aircraft, these assets are ready to contribute, alongside our partners, to the full resumption of navigation and to ensure the safety of traffic in the Strait of Hormuz.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T19:09:43Z",
+      "text": "France\u2019s President Macron: Accompanied by two frigates and a maritime patrol aircraft, these assets are ready to contribute, alongside our partners, to the full resumption of navigation and to ensure the safety of traffic in the Strait of Hormuz.",
+      "description": ""
+    },
+    {
+      "id": "9d65ded83b9e68",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T19:09:19Z",
+      "title": "France\u2019s President Macron: France has deployed mine countermeasures assets to the Middle East, including two minehunters in particular - Post On X",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T19:09:19Z",
+      "text": "France\u2019s President Macron: France has deployed mine countermeasures assets to the Middle East, including two minehunters in particular - Post On X",
+      "description": ""
+    },
+    {
+      "id": "bd205964b00d84",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T19:08:26Z",
+      "title": "$PIGGYC.X \n\nCommunity space # 153\n\nhttps://x.com/piggycoinbsc/status/2073120436875903143?s=46\n\nTalking $BTC.X $MSTR $ETH.X  &amp; more!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658255512",
+      "author": "Jedi_Master",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T19:08:26Z",
+      "text": "$PIGGYC.X \n\nCommunity space # 153\n\nhttps://x.com/piggycoinbsc/status/2073120436875903143?s=46\n\nTalking $BTC.X $MSTR $ETH.X  &amp; more!",
+      "description": "",
+      "handle": "Jedi_Master",
+      "display_name": "Jedi Master",
+      "platform": "stocktwits"
+    },
     {
       "id": "1a0bb2dc7189ec",
       "source": "stocktwits",
@@ -518,29 +618,6 @@
       "time": "Fri, 03 Jul 2026 19:00:44 GMT",
       "text": "Extreme heat wave threatens U.S. power grids and July 4 travel",
       "description": "The heat wave threatens to overwhelm U.S. grids and may force some to change their plans on one of the busiest travel weeks of the year."
-    },
-    {
-      "id": "3b87b1b529642e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T19:00:41Z",
-      "title": "$BTC.X $SPY $MSTR  who made this lol https://x.com/xerias_x/status/2072656499797905662?s=20",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658255340",
-      "author": "TheSaint229",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-03T19:00:41Z",
-      "text": "$BTC.X $SPY $MSTR  who made this lol https://x.com/xerias_x/status/2072656499797905662?s=20",
-      "description": "",
-      "handle": "TheSaint229",
-      "display_name": "Charles",
-      "platform": "stocktwits"
     },
     {
       "id": "4107632993dcf8",
@@ -1283,29 +1360,6 @@
       "time": "2026-07-03T18:29:00Z",
       "text": "CREDIT AGRICOLE SA: Cr\u00e9dit Agricole now stands at 29.3% of Banco BPM\u2019s share capital",
       "description": "Cr\u00e9dit Agricole has increased its ownership stake in Banco BPM to 29.3% through market purchases and derivative instruments, crossing the 25% threshold. The French bank views this as a long-term investment consistent with its strategy and highlights the strength of their industrial partnerships in c"
-    },
-    {
-      "id": "714d756230ec02",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T18:28:32Z",
-      "title": "$MSTR $BTC.X $ASST Love BTC but Pompliano reminds me of Cramer, Bad calls!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658254605",
-      "author": "Hammer123",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-03T18:28:32Z",
-      "text": "$MSTR $BTC.X $ASST Love BTC but Pompliano reminds me of Cramer, Bad calls!",
-      "description": "",
-      "handle": "Hammer123",
-      "display_name": "KissArmy#1",
-      "platform": "stocktwits"
     },
     {
       "id": "2dab90e69a3fe5",
@@ -2127,44 +2181,6 @@
       "sentiment": "neutral",
       "time": "2026-07-03T17:54:26Z",
       "text": "Claude Code was accused of logging information about certain users \u2013 including whether they were using proxies or located in Chinese time zones",
-      "description": ""
-    },
-    {
-      "id": "a7e852175c0795",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T17:51:37Z",
-      "title": "Mytheresa Launches Mytheresa Out East, a Bespoke Mobile Boutique Experience in the Hamptons This Summer",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "EAST"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T17:51:37Z",
-      "text": "Mytheresa Launches Mytheresa Out East, a Bespoke Mobile Boutique Experience in the Hamptons This Summer",
-      "description": ""
-    },
-    {
-      "id": "d62ef29979c595",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T17:51:00Z",
-      "title": "Russian guided bombs struck Europe\u2019s largest poultry farm in Chornobaivka, Kherson region, triggering a massive fire that destroyed a significant part of the production complex, according to Ukrainian media.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T17:51:00Z",
-      "text": "Russian guided bombs struck Europe\u2019s largest poultry farm in Chornobaivka, Kherson region, triggering a massive fire that destroyed a significant part of the production complex, according to Ukrainian media.",
       "description": ""
     },
     {
@@ -3514,24 +3530,6 @@
       "description": "The Fuel-Mix Saving America's Largest Grid From Blackouts Today\n\n            Power prices soared on Thursday across PJM Interconnection, the nation's largest grid operator serving 67 million people across 13 states, as a brutal multi-day heat dome pushed electricity demand toward critically high lev"
     },
     {
-      "id": "7459a9cea5f5e4",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Fri, 03 Jul 2026 14:17:00 GMT",
-      "title": "A looming AI disappointment and rising yields. Why one research firm is hitting the brakes on U.S. stocks.",
-      "body": "In a market dominated by tech stocks, a big test is facing investors in the next 12 months, warns MacroResearchBoard",
-      "url": "https://www.marketwatch.com/story/a-looming-ai-disappointment-and-rising-yields-why-one-research-firm-is-hitting-the-brakes-on-u-s-stocks-4bfaa67b?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 03 Jul 2026 14:17:00 GMT",
-      "text": "A looming AI disappointment and rising yields. Why one research firm is hitting the brakes on U.S. stocks.",
-      "description": "In a market dominated by tech stocks, a big test is facing investors in the next 12 months, warns MacroResearchBoard"
-    },
-    {
       "id": "17bacd0b0c8874",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -4178,24 +4176,6 @@
       "description": ""
     },
     {
-      "id": "4c0d606c8b0199",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T09:08:00Z",
-      "title": "The S&P 500 Just Had Its Best Quarter Since 2020. The Stock Market Will Make a Big Move Next if History Repeats.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-just-had-best-090800894.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T09:08:00Z",
-      "text": "The S&P 500 Just Had Its Best Quarter Since 2020. The Stock Market Will Make a Big Move Next if History Repeats.",
-      "description": ""
-    },
-    {
       "id": "d70b57e843a7f0",
       "source": "reuters",
       "source_type": "rss",
@@ -4301,6 +4281,24 @@
       "sentiment": "neutral",
       "time": "2026-07-02T08:50:25Z",
       "text": "Citi  Starts Coverage of Energy Vault Holdings, Inc. (NRGV)",
+      "description": ""
+    },
+    {
+      "id": "5467d5b335a17b",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T08:49:55Z",
+      "title": "Here is What Analysts Think About Vistra Corp. (VST)",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/analysts-think-vistra-corp-vst-084955115.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T08:49:55Z",
+      "text": "Here is What Analysts Think About Vistra Corp. (VST)",
       "description": ""
     },
     {
