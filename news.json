@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-03T23:12:07Z",
-  "generated_display": "2026-07-03 23:12 ET",
-  "count": 196,
+  "generated": "2026-07-03T23:17:07Z",
+  "generated_display": "2026-07-03 23:17 ET",
+  "count": 199,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T23:12:02.212165+00:00",
+      "last_error_ts": "2026-07-03T23:17:02.127942+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 5,
-      "latency_ms": 79,
-      "last_success": "2026-07-03T23:12:02.292639+00:00",
+      "latency_ms": 242,
+      "last_success": "2026-07-03T23:17:02.371495+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 61,
-      "last_success": "2026-07-03T23:12:02.354458+00:00",
+      "latency_ms": 67,
+      "last_success": "2026-07-03T23:17:02.439845+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 48,
-      "latency_ms": 100,
-      "last_success": "2026-07-03T23:12:02.473696+00:00",
+      "items_pulled": 46,
+      "latency_ms": 131,
+      "last_success": "2026-07-03T23:17:02.573377+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T23:12:02.509269+00:00",
+      "last_error_ts": "2026-07-03T23:17:02.679535+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
-      "items_pulled": 70,
-      "latency_ms": 1980,
-      "last_success": "2026-07-03T23:12:04.489690+00:00",
+      "items_pulled": 75,
+      "latency_ms": 1590,
+      "last_success": "2026-07-03T23:17:04.270251+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-03T23:12:05.571157+00:00",
+      "last_success": "2026-07-03T23:17:05.327927+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1800,
-      "last_success": "2026-07-03T23:12:07.371920+00:00",
+      "latency_ms": 2013,
+      "last_success": "2026-07-03T23:17:07.341689+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,40 +74,40 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 187
+          "latency_ms": 127
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 197
+          "latency_ms": 172
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 102
+          "latency_ms": 108
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 325
+          "latency_ms": 396
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 151
+          "latency_ms": 117
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 117
+          "latency_ms": 135
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 70,
     "uw_news": 25,
-    "massive_news": 48,
+    "stocktwits": 75,
+    "massive_news": 46,
     "reuters": 16,
     "zerohedge": 8,
     "marketwatch": 8,
@@ -117,6 +117,221 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "8e7878bf32d511",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T23:16:56Z",
+      "title": "Fujimori declared Peru's president with 9,223,000 votes, as fraud allegations without evidence continue. Netanyahu at 39%.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:16:56Z",
+      "text": "Fujimori declared Peru's president with 9,223,000 votes, as fraud allegations without evidence continue. Netanyahu at 39%.",
+      "description": ""
+    },
+    {
+      "id": "ea917ace1b3bc7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:16:29Z",
+      "title": "$SPY $CRCL $QQQ $COIN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658261769",
+      "author": "Dogstocks12",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T23:16:29Z",
+      "text": "$SPY $CRCL $QQQ $COIN",
+      "description": "",
+      "handle": "Dogstocks12",
+      "display_name": "Dave",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ed30ff770ae1a3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:16:29Z",
+      "title": "$SPY $CRCL $QQQ $COIN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658261769",
+      "author": "Dogstocks12",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T23:16:29Z",
+      "text": "$SPY $CRCL $QQQ $COIN",
+      "description": "",
+      "handle": "Dogstocks12",
+      "display_name": "Dave",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "87945372166ac7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:16:29Z",
+      "title": "$SPY $CRCL $QQQ $COIN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658261769",
+      "author": "Dogstocks12",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T23:16:29Z",
+      "text": "$SPY $CRCL $QQQ $COIN",
+      "description": "",
+      "handle": "Dogstocks12",
+      "display_name": "Dave",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "06484091e8674a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:16:16Z",
+      "title": "$NVDA I think we see a recovery here next week.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658261763",
+      "author": "Fresh_1948",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:16:16Z",
+      "text": "$NVDA I think we see a recovery here next week.",
+      "description": "",
+      "handle": "Fresh_1948",
+      "display_name": "Your Pops",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "720f88e7ad608c",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T23:15:54Z",
+      "title": "Venezuela quake impact on US politics: Polymarket odds at 97.5% for Starmer. US Republicans divided on approach.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:15:54Z",
+      "text": "Venezuela quake impact on US politics: Polymarket odds at 97.5% for Starmer. US Republicans divided on approach.",
+      "description": ""
+    },
+    {
+      "id": "7277d36f7ebd80",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T23:15:50Z",
+      "title": "US Dollar holds strong as Polymarket odds for 2026 no-rate cut slide to 77.55%, Fed minutes in focus alongside new jobless claims.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 15.5,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:15:50Z",
+      "text": "US Dollar holds strong as Polymarket odds for 2026 no-rate cut slide to 77.55%, Fed minutes in focus alongside new jobless claims.",
+      "description": ""
+    },
+    {
+      "id": "4ba37138673fd7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:15:42Z",
+      "title": "$TSLA $SPCX \n\nBoth of these tickers are over-valued based on profits.  Hope is not an investment strategy.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658261754",
+      "author": "Honest_Abe",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:15:42Z",
+      "text": "$TSLA $SPCX \n\nBoth of these tickers are over-valued based on profits.  Hope is not an investment strategy.",
+      "description": "",
+      "handle": "Honest_Abe",
+      "display_name": "Abe",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5574f2ff6bc93a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:14:04Z",
+      "title": "$SPY hey haters, terrorists and bashers, this is for you, from me with \ud83d\udd95 https://x.com/realdonaldtrump/status/2072681271566708832?s=46",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658261720",
+      "author": "VictorTwits",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:14:04Z",
+      "text": "$SPY hey haters, terrorists and bashers, this is for you, from me with \ud83d\udd95 https://x.com/realdonaldtrump/status/2072681271566708832?s=46",
+      "description": "",
+      "handle": "VictorTwits",
+      "display_name": "VTS",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7632c0e5fbcb96",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:13:19Z",
+      "title": "$QQQ It&#39;s honestly getting to me. My friends and I all started trading around the same time, and somehow they&#39;re making money while I&#39;m still struggling. Starting to wonder if I&#39;m just missing something or if this is even real.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658261703",
+      "author": "celestino_jac",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:13:19Z",
+      "text": "$QQQ It&#39;s honestly getting to me. My friends and I all started trading around the same time, and somehow they&#39;re making money while I&#39;m still struggling. Starting to wonder if I&#39;m just missing something or if this is even real.",
+      "description": "",
+      "handle": "celestino_jac",
+      "display_name": "Michael jeson",
+      "platform": "stocktwits"
+    },
     {
       "id": "676dfa9addd672",
       "source": "stocktwits",
@@ -325,29 +540,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "043eaf0255f812",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T23:08:18Z",
-      "title": "$SPY $CRCL $QQQ $COIN\n\nhttps://finance.yahoo.com/markets/crypto/articles/clarity-act-gets-first-law-053052500.html",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658261603",
-      "author": "MomentumWins",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-03T23:08:18Z",
-      "text": "$SPY $CRCL $QQQ $COIN\n\nhttps://finance.yahoo.com/markets/crypto/articles/clarity-act-gets-first-law-053052500.html",
-      "description": "",
-      "handle": "MomentumWins",
-      "display_name": "MomentumWins",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b7442660ead3d2",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -414,6 +606,29 @@
       "description": "",
       "handle": "Warrent_jr",
       "display_name": "Warrent jr",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "302ff9645ac663",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:06:18Z",
+      "title": "$AMZN  $AAPL  $META  $GOOGL $NFLX  \n \nROTATION  into  SOFTWARE  and  SAFTY+GROWTH  continues:    \n  \n\u2026especially  when  institutions   come  back  from  Holliday  long  weekend  and  ACCELERATE  the  rotation  into  SOFTWARE and  quality  staples  like  Celsius\u2026they  are  slow  to  get  on  trends  ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658261562",
+      "author": "WunDumFuc",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T23:06:18Z",
+      "text": "$AMZN  $AAPL  $META  $GOOGL $NFLX  \n \nROTATION  into  SOFTWARE  and  SAFTY+GROWTH  continues:    \n  \n\u2026especially  when  institutions   come  back  from  Holliday  long  weekend  and  ACCELERATE  the  rotation  into  SOFTWARE and  quality  staples  like  Celsius\u2026they  are  slow  to  get  on  trends  ",
+      "description": "",
+      "handle": "WunDumFuc",
+      "display_name": "MJ MJ",
       "platform": "stocktwits"
     },
     {
@@ -506,29 +721,6 @@
       "description": "",
       "handle": "tradeordie24",
       "display_name": "Dave",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f5e821896f6630",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T23:04:50Z",
-      "title": "$SPY  $MU  $AMD  $NVDA  $BTC.X  \n \nROTATION  into  SOFTWARE  and  SAFTY+GROWTH  continues:   \n \n\u2026especially  when  institutions   come  back  from  Holliday  long  weekend  and  ACCELERATE  the  rotation  into  SOFTWARE and  quality  staples  like  Celsius\u2026they  are  slow  to  get  on  trends  due  ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658261527",
-      "author": "WunDumFuc",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 7.5,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-03T23:04:50Z",
-      "text": "$SPY  $MU  $AMD  $NVDA  $BTC.X  \n \nROTATION  into  SOFTWARE  and  SAFTY+GROWTH  continues:   \n \n\u2026especially  when  institutions   come  back  from  Holliday  long  weekend  and  ACCELERATE  the  rotation  into  SOFTWARE and  quality  staples  like  Celsius\u2026they  are  slow  to  get  on  trends  due  ",
-      "description": "",
-      "handle": "WunDumFuc",
-      "display_name": "MJ MJ",
       "platform": "stocktwits"
     },
     {
@@ -826,52 +1018,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "d3f2cefccbf0ec",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T22:54:27Z",
-      "title": "$QQQ $SPY irrelevant as futures traded today after KOSPI. A nothing burger here",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658261260",
-      "author": "5win5",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T22:54:27Z",
-      "text": "$QQQ $SPY irrelevant as futures traded today after KOSPI. A nothing burger here",
-      "description": "",
-      "handle": "5win5",
-      "display_name": "Bill",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "77b5931c8231fe",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T22:53:49Z",
-      "title": "$QQQ $SPY let\u2019s not joke. There could be a good number who are deep in puts. Many.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658261242",
-      "author": "5win5",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T22:53:49Z",
-      "text": "$QQQ $SPY let\u2019s not joke. There could be a good number who are deep in puts. Many.",
-      "description": "",
-      "handle": "5win5",
-      "display_name": "Bill",
-      "platform": "stocktwits"
-    },
-    {
       "id": "181b0f2cd12ecf",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1040,29 +1186,6 @@
       "sentiment": "neutral",
       "time": "2026-07-03T22:47:02Z",
       "text": "#Gold &amp; #Silver To Crash If #Fed Hikes Rates? $GLD $SLV https://talkmarkets.com/article/gold-silver-to-crash-if-fed-hikes-rates-1783107725",
-      "description": "",
-      "handle": "TalkMarkets",
-      "display_name": "TalkMarkets",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f0c5810c631339",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T22:44:43Z",
-      "title": "#SanDisk -14%, #Teradyne -14%, KLA -12%: The #AI Chip Divide Is Crushing Semiconductor Equipment Stocks $AVGO $KLAC $LRCX $NVDA $SNDK https://talkmarkets.com/article/sandisk--14-teradyne--14-kla--12-the-ai-chip-divide-is-crushing-semiconductor-equipment-stocks-1783106672",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658261059",
-      "author": "TalkMarkets",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T22:44:43Z",
-      "text": "#SanDisk -14%, #Teradyne -14%, KLA -12%: The #AI Chip Divide Is Crushing Semiconductor Equipment Stocks $AVGO $KLAC $LRCX $NVDA $SNDK https://talkmarkets.com/article/sandisk--14-teradyne--14-kla--12-the-ai-chip-divide-is-crushing-semiconductor-equipment-stocks-1783106672",
       "description": "",
       "handle": "TalkMarkets",
       "display_name": "TalkMarkets",
@@ -1306,6 +1429,29 @@
       "platform": "stocktwits"
     },
     {
+      "id": "71347de2211641",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T22:05:15Z",
+      "title": "TOM LEE on $NVDA: \n\u201cNvidia is having its Apple moment  and the re-rating may not be over.\u201d \n \nHe draws a direct parallel to $AAPL: \nApple was once treated as just a hardware/phone company trading around ~10x earnings \nAs the market re-understood the durability of its ecosystem, it re-rated closer to",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658260174",
+      "author": "SmartMoneyRadar",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T22:05:15Z",
+      "text": "TOM LEE on $NVDA: \n\u201cNvidia is having its Apple moment  and the re-rating may not be over.\u201d \n \nHe draws a direct parallel to $AAPL: \nApple was once treated as just a hardware/phone company trading around ~10x earnings \nAs the market re-understood the durability of its ecosystem, it re-rated closer to",
+      "description": "",
+      "handle": "SmartMoneyRadar",
+      "display_name": "Laurie Purser",
+      "platform": "stocktwits"
+    },
+    {
       "id": "51176572d4d535",
       "source": "reuters",
       "source_type": "rss",
@@ -1385,26 +1531,26 @@
       "description": ""
     },
     {
-      "id": "dc7ba76cb9ef01",
+      "id": "46e179329c6db5",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-03T22:02:09Z",
-      "title": "$SPY $TSLA $NVDA $SPCE $BTC.X \nMaga are peatoes...",
+      "timestamp": "2026-07-03T22:01:35Z",
+      "title": "$SPY maga so busy clogging grindr servers to even appreciate this... \ud83e\udd23\ud83e\udd23\ud83e\udd23 Gayyyyyyyyy $TSLA $DJT $AAPL $SPCX",
       "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658260111",
-      "author": "aprit",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658260098",
+      "author": "Tezzy",
       "tickers": [
-        "TSLA"
+        "AAPL"
       ],
       "tags": [],
-      "impact_score": 7.1,
+      "impact_score": 4.2,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-03T22:02:09Z",
-      "text": "$SPY $TSLA $NVDA $SPCE $BTC.X \nMaga are peatoes...",
+      "time": "2026-07-03T22:01:35Z",
+      "text": "$SPY maga so busy clogging grindr servers to even appreciate this... \ud83e\udd23\ud83e\udd23\ud83e\udd23 Gayyyyyyyyy $TSLA $DJT $AAPL $SPCX",
       "description": "",
-      "handle": "aprit",
-      "display_name": "apri turner",
+      "handle": "Tezzy",
+      "display_name": "Fern B",
       "platform": "stocktwits"
     },
     {
@@ -1992,6 +2138,29 @@
       "description": "Apple is closing in on Nvidia's position as the world's most valuable company, with a $190 billion gap (4%) separating them. Apple's upcoming July 30 earnings report and rumored new iPhone lineup could be catalysts to narrow the gap further, while Nvidia faces sentiment headwinds around AI spending "
     },
     {
+      "id": "d1af14fdfdffda",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T21:20:45Z",
+      "title": "Apple\u2019s Asian suppliers are catching a bid after reports of a bigger iPhone production ramp. \n \nNikkei says Apple is targeting at least 5 new iPhone models between 2H26 and 1H27.   \nThat\u2019s a clear setup for higher component demand if the rollout stays on track.$AAPL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658259038",
+      "author": "MichaelHarding605",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T21:20:45Z",
+      "text": "Apple\u2019s Asian suppliers are catching a bid after reports of a bigger iPhone production ramp. \n \nNikkei says Apple is targeting at least 5 new iPhone models between 2H26 and 1H27.   \nThat\u2019s a clear setup for higher component demand if the rollout stays on track.$AAPL",
+      "description": "",
+      "handle": "MichaelHarding605",
+      "display_name": "Michael Harding",
+      "platform": "stocktwits"
+    },
+    {
       "id": "807fd491d95e5f",
       "source": "reuters",
       "source_type": "rss",
@@ -2116,6 +2285,29 @@
       "time": "2026-07-03T21:14:57Z",
       "text": "Con Edison: Con Edison temporarily cuts power to 9,800 customers in southwest Queens",
       "description": ""
+    },
+    {
+      "id": "ca6230b86538af",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T21:09:26Z",
+      "title": "$SPY nothing would be more fitting for celebrating our nation&#39;s 250th anniversary than our amazing terrific greatest ever awesome big handed president ending this iran war for the 250th time. $QQQ  $AAPL $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658258740",
+      "author": "Probably_Drunk",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 7.1,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T21:09:26Z",
+      "text": "$SPY nothing would be more fitting for celebrating our nation&#39;s 250th anniversary than our amazing terrific greatest ever awesome big handed president ending this iran war for the 250th time. $QQQ  $AAPL $TSLA",
+      "description": "",
+      "handle": "Probably_Drunk",
+      "display_name": "just a guy with a beer",
+      "platform": "stocktwits"
     },
     {
       "id": "5238a78911de40",
@@ -2522,42 +2714,6 @@
       "description": "OpenAI and Anthropic are expected to go public in late 2026 or early 2027 with valuations around $1 trillion. While investors can gain pre-IPO exposure through secondary marketplaces, SPVs, and ETFs, the article warns of significant risks including potential share voidance by the companies, inflated"
     },
     {
-      "id": "dd4e375c5cf968",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T20:08:45Z",
-      "title": "Ed Freedman&apos;s Stable Road Foundation, Gov. Josh Green, the Michael &amp; Susan Dell Foundation, and Invest America Make Hawai&apos;i the First State to Fund Investment Accounts for Every Eligible Foster Child at Every Age",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T20:08:45Z",
-      "text": "Ed Freedman&apos;s Stable Road Foundation, Gov. Josh Green, the Michael &amp; Susan Dell Foundation, and Invest America Make Hawai&apos;i the First State to Fund Investment Accounts for Every Eligible Foster Child at Every Age",
-      "description": ""
-    },
-    {
-      "id": "1d9cc1a9f0bb73",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T20:02:56Z",
-      "title": "Transactions of Managers and Closely Associated Persons",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T20:02:56Z",
-      "text": "Transactions of Managers and Closely Associated Persons",
-      "description": ""
-    },
-    {
       "id": "a6259bf0e80e39",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2677,24 +2833,6 @@
       "time": "Fri, 03 Jul 2026 20:00:00 +0000",
       "text": "US Believed Israel Tried To Assassinate Iran's Top Negotiators As Ghalibaf's Plane Made Emergency Landing",
       "description": "US Believed Israel Tried To Assassinate Iran's Top Negotiators As Ghalibaf's Plane Made Emergency Landing\n\n            The New York Times has issued a new report citing unnamed US officials who believe that Israel came close to assassinating Iran's top negotiators Mohammad Bagher Ghalibaf and Foreig"
-    },
-    {
-      "id": "0d208ae8402e69",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T19:48:22Z",
-      "title": "Statement from Jenn Mack Candidate for Governor of Texas",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T19:48:22Z",
-      "text": "Statement from Jenn Mack Candidate for Governor of Texas",
-      "description": ""
     },
     {
       "id": "bd1121dd4857a1",
@@ -3459,29 +3597,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "d64be7f9d353d4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T16:06:26Z",
-      "title": "$COIN $MSFT $GTLB $LVMUY Bagholding all these great companies generating a lot of cash....but hey I&#39;m still +170% with overvalued $ARM \ud83e\udd37\u200d\u2640\ufe0f\ud83d\ude02",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658250933",
-      "author": "TheVoic",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T16:06:26Z",
-      "text": "$COIN $MSFT $GTLB $LVMUY Bagholding all these great companies generating a lot of cash....but hey I&#39;m still +170% with overvalued $ARM \ud83e\udd37\u200d\u2640\ufe0f\ud83d\ude02",
-      "description": "",
-      "handle": "TheVoic",
-      "display_name": "GitLab &amp; Coinbase Bagholder \ud83d\udecd\ufe0f",
-      "platform": "stocktwits"
-    },
-    {
       "id": "932b252e5e9d90",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3694,52 +3809,6 @@
       "time": "2026-07-03T15:30:00Z",
       "text": "This Is the Single Most Important Number from Micron's Monster Earnings Report",
       "description": "Micron Technology reported strong earnings, but the most significant development is its implementation of 16 strategic customer agreements (SCAs) with major clients across data center, consumer, and automotive segments. These multiyear contracts with a $100 billion minimum revenue commitment through"
-    },
-    {
-      "id": "94b5582243c8fe",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T15:15:00Z",
-      "title": "Where Will TransMedics Group Stock Be in 10 Years?",
-      "body": "TransMedics Group is building a vertically integrated logistics network for organ transplantation through its Organ Care System (OCS) and National OCS Program, which extends organ viability during transport. Despite a 45% stock decline following Q1 2026 earnings miss due to margin compression from e",
-      "url": "https://www.fool.com/investing/2026/07/03/where-will-transmedics-stock-be-in-10-years/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "TMDX"
-      ],
-      "tags": [],
-      "impact_score": 11.3,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:15:00Z",
-      "text": "Where Will TransMedics Group Stock Be in 10 Years?",
-      "description": "TransMedics Group is building a vertically integrated logistics network for organ transplantation through its Organ Care System (OCS) and National OCS Program, which extends organ viability during transport. Despite a 45% stock decline following Q1 2026 earnings miss due to margin compression from e"
-    },
-    {
-      "id": "4741f2af8453c2",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T15:14:15Z",
-      "title": "Moderna vs. Recursion: Which Cutting-Edge Pharma Stock Is a Better Buy in 2026?",
-      "body": "Moderna and Recursion Pharmaceuticals represent two distinct approaches to biotech innovation: Moderna leverages proven mRNA technology with diversifying pipeline into oncology and rare diseases, while Recursion uses AI-driven drug discovery. Despite both operating at losses, Moderna is favored for ",
-      "url": "https://www.fool.com/coverage/better-buy/2026/07/03/moderna-vs-recursion-which-cutting-edge-pharma-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "MRNA",
-        "RXRX",
-        "MRK",
-        "PFE",
-        "SNY",
-        "GSK",
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T15:14:15Z",
-      "text": "Moderna vs. Recursion: Which Cutting-Edge Pharma Stock Is a Better Buy in 2026?",
-      "description": "Moderna and Recursion Pharmaceuticals represent two distinct approaches to biotech innovation: Moderna leverages proven mRNA technology with diversifying pipeline into oncology and rare diseases, while Recursion uses AI-driven drug discovery. Despite both operating at losses, Moderna is favored for "
     },
     {
       "id": "16d46b7c35acb2",
