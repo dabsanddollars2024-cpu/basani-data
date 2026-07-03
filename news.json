@@ -1,29 +1,29 @@
 {
-  "generated": "2026-07-03T23:32:07Z",
-  "generated_display": "2026-07-03 23:32 ET",
-  "count": 193,
+  "generated": "2026-07-03T23:37:07Z",
+  "generated_display": "2026-07-03 23:37 ET",
+  "count": 198,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T23:32:01.904240+00:00",
+      "last_error_ts": "2026-07-03T23:37:02.370732+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 5,
-      "latency_ms": 275,
-      "last_success": "2026-07-03T23:32:02.180616+00:00",
+      "latency_ms": 202,
+      "last_success": "2026-07-03T23:37:02.573919+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 76,
-      "last_success": "2026-07-03T23:32:02.270001+00:00",
+      "latency_ms": 97,
+      "last_success": "2026-07-03T23:37:02.671735+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 45,
       "latency_ms": 100,
-      "last_success": "2026-07-03T23:32:02.373023+00:00",
+      "last_success": "2026-07-03T23:37:02.774606+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T23:32:02.402499+00:00",
+      "last_error_ts": "2026-07-03T23:37:02.882570+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
-      "items_pulled": 70,
-      "latency_ms": 1876,
-      "last_success": "2026-07-03T23:32:04.278932+00:00",
+      "items_pulled": 75,
+      "latency_ms": 1689,
+      "last_success": "2026-07-03T23:37:04.571619+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-03T23:32:05.170957+00:00",
+      "last_success": "2026-07-03T23:37:05.371637+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1984,
-      "last_success": "2026-07-03T23:32:07.155365+00:00",
+      "latency_ms": 1699,
+      "last_success": "2026-07-03T23:37:07.070867+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,38 +74,38 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 98
+          "latency_ms": 125
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 126
+          "latency_ms": 176
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 182
+          "latency_ms": 98
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 386
+          "latency_ms": 206
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 19
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 87
+          "latency_ms": 174
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 70,
+    "stocktwits": 75,
     "reuters": 16,
     "uw_news": 25,
     "massive_news": 45,
@@ -117,6 +117,75 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "867bda9c6cd243",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:35:44Z",
+      "title": "$META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658262126",
+      "author": "1green1",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:35:44Z",
+      "text": "$META",
+      "description": "",
+      "handle": "1green1",
+      "display_name": "Sam",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c2692f06e12e23",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:32:52Z",
+      "title": "$AXP $AAPL Amex and Apple Pay Enable Users to Pay With Points\nhttps://www.pymnts.com/apple/apple-pay-tracker/2026/amex-and-apple-pay-enable-users-to-pay-with-points?utm_content=381629271&amp;utm_medium=social&amp;utm_source=twitter&amp;hss_channel=tw-57376328",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658262063",
+      "author": "30DeltaSpy",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T23:32:52Z",
+      "text": "$AXP $AAPL Amex and Apple Pay Enable Users to Pay With Points\nhttps://www.pymnts.com/apple/apple-pay-tracker/2026/amex-and-apple-pay-enable-users-to-pay-with-points?utm_content=381629271&amp;utm_medium=social&amp;utm_source=twitter&amp;hss_channel=tw-57376328",
+      "description": "",
+      "handle": "30DeltaSpy",
+      "display_name": "30DeltaSpy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d6feea4e4a6a6e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:28:00Z",
+      "title": "$GLW &gt;&gt; Daily Chart &gt;&gt;\n\nWatching \ud83d\udc40 for a possible bounce off thd 50 SMA @ 188.43\n\nThe last couple of times this support level was tested it ended up holding and the up trend continued \n\nA bounce off the 50 SMA would need a close back above the middle Bollinger Band at 199.18\n\nIf $GLW bou",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658261981",
+      "author": "ospreyeye",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:28:00Z",
+      "text": "$GLW &gt;&gt; Daily Chart &gt;&gt;\n\nWatching \ud83d\udc40 for a possible bounce off thd 50 SMA @ 188.43\n\nThe last couple of times this support level was tested it ended up holding and the up trend continued \n\nA bounce off the 50 SMA would need a close back above the middle Bollinger Band at 199.18\n\nIf $GLW bou",
+      "description": "",
+      "handle": "ospreyeye",
+      "display_name": "Ospreyeye",
+      "platform": "stocktwits"
+    },
     {
       "id": "4a1c5af46bec0a",
       "source": "stocktwits",
@@ -138,6 +207,29 @@
       "description": "",
       "handle": "ospreyeye",
       "display_name": "Ospreyeye",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2213796e801889",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:27:51Z",
+      "title": "$NVDA $SPY $AMZN $MSFT  https://x.com/tomleetracker/status/2073074291688583237?s=12&amp;t=pzLROa0NZ-qz-q4YEZadow",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658261978",
+      "author": "Mercy_forever",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:27:51Z",
+      "text": "$NVDA $SPY $AMZN $MSFT  https://x.com/tomleetracker/status/2073074291688583237?s=12&amp;t=pzLROa0NZ-qz-q4YEZadow",
+      "description": "",
+      "handle": "Mercy_forever",
+      "display_name": "Caroline",
       "platform": "stocktwits"
     },
     {
@@ -256,6 +348,52 @@
       "platform": "stocktwits"
     },
     {
+      "id": "c782726f646166",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:26:29Z",
+      "title": "$SPY $JPM $KRE $XLF $BAC \n\nU-3 rate isn\u2019t the one to be watching. \nIt\u2019s the U-6 and it\u2019s not even accurate. \nKeep an eye on that chart. It\u2019s at 8% now. \nU-6 will move to 25+% \n\nSecond chart shows that wage increases are done and there\u2019s no way wages will keep up with madness still taking place in ou",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658261952",
+      "author": "rsmracks",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T23:26:29Z",
+      "text": "$SPY $JPM $KRE $XLF $BAC \n\nU-3 rate isn\u2019t the one to be watching. \nIt\u2019s the U-6 and it\u2019s not even accurate. \nKeep an eye on that chart. It\u2019s at 8% now. \nU-6 will move to 25+% \n\nSecond chart shows that wage increases are done and there\u2019s no way wages will keep up with madness still taking place in ou",
+      "description": "",
+      "handle": "rsmracks",
+      "display_name": "rsmracks",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5cb6985166a600",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:26:20Z",
+      "title": "$SPY $QQQ $SOXX  \n&quot;Barclays sees an &quot;extended&quot; interest rate hold by the Fed. Here\u2019s why.&quot; \n \nhttps://www.investing.com/news/economy-news/barclays-sees-an-extended-interest-rate-hold-by-the-fed-heres-why-4775216",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658261949",
+      "author": "TheUnmaker",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T23:26:20Z",
+      "text": "$SPY $QQQ $SOXX  \n&quot;Barclays sees an &quot;extended&quot; interest rate hold by the Fed. Here\u2019s why.&quot; \n \nhttps://www.investing.com/news/economy-news/barclays-sees-an-extended-interest-rate-hold-by-the-fed-heres-why-4775216",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
+    {
       "id": "0415643956a3be",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -345,6 +483,29 @@
       "description": "",
       "handle": "zullo72",
       "display_name": "zullo",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5262a2acdf3a3e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T23:22:45Z",
+      "title": "$DJIA $BTC.X $SPY $QQQ $DIA Life only gets worse from here.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658261879",
+      "author": "Tool8",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T23:22:45Z",
+      "text": "$DJIA $BTC.X $SPY $QQQ $DIA Life only gets worse from here.",
+      "description": "",
+      "handle": "Tool8",
+      "display_name": "Whom",
       "platform": "stocktwits"
     },
     {
@@ -1623,29 +1784,6 @@
       "description": "Backlash After Columbus, Ohio Announces It Will Raise Flag Of Somalia At City Hall\n\n            Via American Greatness,\n\nThe city of Columbus faced criticism from conservatives after a\u00a0now-deleted social media post\u00a0stated that City Hall would\u00a0raise the Somali flag\u00a0in recognition of Somali Independen"
     },
     {
-      "id": "118e142ed1a3b3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T21:59:39Z",
-      "title": "Long term, $META is starting to look cheap. \n \nI agree with Bill Ackman here  founder-led company, CEO still in his 40s. Feels similar to investing in Amazon when Jeff Bezos was around that same stage of scaling. \n \nWhat\u2019s interesting is the timing parallel\u2026 \n \nBezos was 42 in 2006  a pivotal year f",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658260050",
-      "author": "SmartMoneyRadar",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T21:59:39Z",
-      "text": "Long term, $META is starting to look cheap. \n \nI agree with Bill Ackman here  founder-led company, CEO still in his 40s. Feels similar to investing in Amazon when Jeff Bezos was around that same stage of scaling. \n \nWhat\u2019s interesting is the timing parallel\u2026 \n \nBezos was 42 in 2006  a pivotal year f",
-      "description": "",
-      "handle": "SmartMoneyRadar",
-      "display_name": "Laurie Purser",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6bfa09e9d7d1e0",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2080,29 +2218,6 @@
       "time": "2026-07-03T21:23:00Z",
       "text": "Apple Is About 4% Away From Overtaking Nvidia as the World's Most Valuable Company. Could It Happen This Month?",
       "description": "Apple is closing in on Nvidia's position as the world's most valuable company, with a $190 billion gap (4%) separating them. Apple's upcoming July 30 earnings report and rumored new iPhone lineup could be catalysts to narrow the gap further, while Nvidia faces sentiment headwinds around AI spending "
-    },
-    {
-      "id": "d1af14fdfdffda",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T21:20:45Z",
-      "title": "Apple\u2019s Asian suppliers are catching a bid after reports of a bigger iPhone production ramp. \n \nNikkei says Apple is targeting at least 5 new iPhone models between 2H26 and 1H27.   \nThat\u2019s a clear setup for higher component demand if the rollout stays on track.$AAPL",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658259038",
-      "author": "MichaelHarding605",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T21:20:45Z",
-      "text": "Apple\u2019s Asian suppliers are catching a bid after reports of a bigger iPhone production ramp. \n \nNikkei says Apple is targeting at least 5 new iPhone models between 2H26 and 1H27.   \nThat\u2019s a clear setup for higher component demand if the rollout stays on track.$AAPL",
-      "description": "",
-      "handle": "MichaelHarding605",
-      "display_name": "Michael Harding",
-      "platform": "stocktwits"
     },
     {
       "id": "807fd491d95e5f",
@@ -3987,60 +4102,6 @@
       "description": "The president defended his family's business and said he feels bad that the presidency creates a conflict of interest in any of his children's investments."
     },
     {
-      "id": "fef4c470ab0562",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T16:35:17Z",
-      "title": "Haleon Just Struck a Five-Year Deal With Microsoft. Here Is What It Means for Haleon Stock.",
-      "body": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/haleon-just-struck-five-deal-163517406.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T16:35:17Z",
-      "text": "Haleon Just Struck a Five-Year Deal With Microsoft. Here Is What It Means for Haleon Stock.",
-      "description": ""
-    },
-    {
-      "id": "d43d0406c1446b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T16:26:54Z",
-      "title": "Dividend Aristocrats Are Quietly Outrunning Software in 2026. Investors Are Piling Into This ETF",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dividend-aristocrats-quietly-outrunning-software-162654687.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.3,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T16:26:54Z",
-      "text": "Dividend Aristocrats Are Quietly Outrunning Software in 2026. Investors Are Piling Into This ETF",
-      "description": ""
-    },
-    {
-      "id": "83be225bd316e9",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T16:25:42Z",
-      "title": "Morgan Stanley Vs. JPMorgan: Which Big Bank Is the Better Buy This Year",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-vs-jpmorgan-big-162542056.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T16:25:42Z",
-      "text": "Morgan Stanley Vs. JPMorgan: Which Big Bank Is the Better Buy This Year",
-      "description": ""
-    },
-    {
       "id": "08d433a47ded09",
       "source": "reuters",
       "source_type": "rss",
@@ -4056,6 +4117,96 @@
       "sentiment": "neutral",
       "time": "2026-07-02T16:25:39Z",
       "text": "Will Oil Prices Keep Falling? WTI Futures Hit Pre-Iran War Lows",
+      "description": ""
+    },
+    {
+      "id": "08e63e681a90e2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T16:23:00Z",
+      "title": "Is the Clock Ticking on GameStop Stock?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/clock-ticking-gamestop-stock-162300711.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T16:23:00Z",
+      "text": "Is the Clock Ticking on GameStop Stock?",
+      "description": ""
+    },
+    {
+      "id": "d0ed968c0c6b36",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T16:20:13Z",
+      "title": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-hot-july-cpi-print-162013321.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T16:20:13Z",
+      "text": "Why a Hot July CPI Print Could Hit This Semiconductor Chip Hard",
+      "description": ""
+    },
+    {
+      "id": "97cc53a05836fd",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T16:10:09Z",
+      "title": "Union Pacific's Quarterly Earnings Preview: What You Need to Know",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/union-pacifics-quarterly-earnings-preview-161009899.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T16:10:09Z",
+      "text": "Union Pacific's Quarterly Earnings Preview: What You Need to Know",
+      "description": ""
+    },
+    {
+      "id": "8a3fd2dfea3f25",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T16:08:53Z",
+      "title": "Dear SpaceX Stock Fans, Mark Your Calendars for July 7",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-spacex-stock-fans-mark-160853344.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T16:08:53Z",
+      "text": "Dear SpaceX Stock Fans, Mark Your Calendars for July 7",
+      "description": ""
+    },
+    {
+      "id": "b800b672d59445",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T16:07:58Z",
+      "title": "Healthcare Stocks Rise To The Heart Of IBD's Elite List Of Growth Names",
+      "body": "",
+      "url": "https://www.investors.com/stock-lists/ibd-50/healthcare-stocks-sector-investing-markets-ibd-50-list-eli-lilly/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T16:07:58Z",
+      "text": "Healthcare Stocks Rise To The Heart Of IBD's Elite List Of Growth Names",
       "description": ""
     },
     {
@@ -4081,42 +4232,6 @@
       "previous": "",
       "actual": "",
       "week": "this"
-    },
-    {
-      "id": "4d1bd1a308f3b2",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-05-28T19:06:09Z",
-      "title": "Southwest limited-time offer: Earn up to 90,000 Rapid Rewards points before your summer vacation (expired)",
-      "body": "",
-      "url": "https://finance.yahoo.com/personal-finance/credit-cards/article/southwest-limited-time-offer-earn-up-to-90000-rapid-rewards-points-before-your-summer-vacation-expired-190609691.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-05-28T19:06:09Z",
-      "text": "Southwest limited-time offer: Earn up to 90,000 Rapid Rewards points before your summer vacation (expired)",
-      "description": ""
-    },
-    {
-      "id": "c09fa351ba2891",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-01-26T22:45:04Z",
-      "title": "Best 18-month CD rates for July 2026: Earn up to 4.05% APY",
-      "body": "",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/best-18-month-cd-rates-224504831.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-01-26T22:45:04Z",
-      "text": "Best 18-month CD rates for July 2026: Earn up to 4.05% APY",
-      "description": ""
     },
     {
       "id": "91b34296480100",
