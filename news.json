@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-03T17:52:07Z",
-  "generated_display": "2026-07-03 17:52 ET",
+  "generated": "2026-07-03T17:57:06Z",
+  "generated_display": "2026-07-03 17:57 ET",
   "count": 202,
   "source_health": {
     "x_api": {
@@ -8,22 +8,22 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T17:52:02.282403+00:00",
+      "last_error_ts": "2026-07-03T17:57:01.929377+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 188,
-      "last_success": "2026-07-03T17:52:02.472089+00:00",
+      "latency_ms": 141,
+      "last_success": "2026-07-03T17:57:02.072143+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-03T17:52:02.572761+00:00",
+      "latency_ms": 98,
+      "last_success": "2026-07-03T17:57:02.171940+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 50,
       "latency_ms": 99,
-      "last_success": "2026-07-03T17:52:02.674526+00:00",
+      "last_success": "2026-07-03T17:57:02.274270+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-03T17:52:02.787128+00:00",
+      "last_error_ts": "2026-07-03T17:57:02.304622+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1984,
-      "last_success": "2026-07-03T17:52:04.772057+00:00",
+      "latency_ms": 1866,
+      "last_success": "2026-07-03T17:57:04.171080+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-03T17:52:05.629111+00:00",
+      "last_success": "2026-07-03T17:57:04.859675+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1790,
-      "last_success": "2026-07-03T17:52:07.419666+00:00",
+      "latency_ms": 1685,
+      "last_success": "2026-07-03T17:57:06.544753+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,39 +74,39 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 206
+          "latency_ms": 112
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 193
+          "latency_ms": 140
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 105
+          "latency_ms": 147
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 199
+          "latency_ms": 202
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 18
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 134
+          "latency_ms": 68
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
+    "uw_news": 25,
     "cnbc": 8,
     "reuters": 16,
     "massive_news": 50,
@@ -117,6 +117,93 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "ddd1d6b276297b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T17:54:52Z",
+      "title": "$NFLX $SPY Has Nflx bottomed and heading higher? Thank you everyone that votes!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658253794",
+      "author": "Tmont87",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:54:52Z",
+      "text": "$NFLX $SPY Has Nflx bottomed and heading higher? Thank you everyone that votes!",
+      "description": "",
+      "handle": "Tmont87",
+      "display_name": "Tyler",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "621de8adc52f50",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-03T17:54:26Z",
+      "title": "Claude Code was accused of logging information about certain users \u2013 including whether they were using proxies or located in Chinese time zones",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:54:26Z",
+      "text": "Claude Code was accused of logging information about certain users \u2013 including whether they were using proxies or located in Chinese time zones",
+      "description": ""
+    },
+    {
+      "id": "e3b1f8b569a0f1",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T17:54:03Z",
+      "title": "$SPY Coincidence ES closed today at 7557. That is pretty much SPX 7500, where SPX market makers have some nice sized net long positions, which are primarily customer short calls. Will be watching if those customers start moving them higher or lower or closing them over the coming weeks as the option",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658253774",
+      "author": "Playthecasino",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:54:03Z",
+      "text": "$SPY Coincidence ES closed today at 7557. That is pretty much SPX 7500, where SPX market makers have some nice sized net long positions, which are primarily customer short calls. Will be watching if those customers start moving them higher or lower or closing them over the coming weeks as the option",
+      "description": "",
+      "handle": "Playthecasino",
+      "display_name": "Unknown",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8e395582deae4d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-03T17:53:41Z",
+      "title": "$SPY follow me if you want to make $$$$ I\u2019m not undefeated however my biggest shorts and longs always play out in my favor. Going to beat down $HIMS again because he hires victims and pedos",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658253767",
+      "author": "gunitfifty",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-03T17:53:41Z",
+      "text": "$SPY follow me if you want to make $$$$ I\u2019m not undefeated however my biggest shorts and longs always play out in my favor. Going to beat down $HIMS again because he hires victims and pedos",
+      "description": "",
+      "handle": "gunitfifty",
+      "display_name": "curtis jackson",
+      "platform": "stocktwits"
+    },
     {
       "id": "a7e852175c0795",
       "source": "uw_news",
@@ -243,29 +330,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "df1fdb815bc058",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T17:50:15Z",
-      "title": "$SOXS will I succeed? \n$SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658253685",
-      "author": "KABStockOptionCommunity",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T17:50:15Z",
-      "text": "$SOXS will I succeed? \n$SPY $QQQ",
-      "description": "",
-      "handle": "KABStockOptionCommunity",
-      "display_name": "KAB STOCK AND OPTION COMMUNITY",
-      "platform": "stocktwits"
-    },
-    {
       "id": "eb9da2b11f92ec",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -305,52 +369,6 @@
       "time": "2026-07-03T17:49:33Z",
       "text": "Real Estate Expert Jan Finley of Santa Ynez Highlights the Value of Local Expertise for HelloNation",
       "description": ""
-    },
-    {
-      "id": "988d5c7cd57040",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T17:49:31Z",
-      "title": "$SPY $SMH $SOXX $TSM $ASML &gt;&gt;\n\nThis is fascinating / checkout how chips are made......\n\nhttps://youtube.com/shorts/2tv6qO-vWAo?is=YJxDAGmKyKnSbdI7",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658253677",
-      "author": "ospreyeye",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T17:49:31Z",
-      "text": "$SPY $SMH $SOXX $TSM $ASML &gt;&gt;\n\nThis is fascinating / checkout how chips are made......\n\nhttps://youtube.com/shorts/2tv6qO-vWAo?is=YJxDAGmKyKnSbdI7",
-      "description": "",
-      "handle": "ospreyeye",
-      "display_name": "Ospreyeye",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "cc85960e08d45b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-03T17:48:55Z",
-      "title": "$SPY 3 day weekend just long enough for me to be like &quot;ugh.. alright I&#39;ll guess Ill give it another shot&quot; monday",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658253660",
-      "author": "JudLikesStocks",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T17:48:55Z",
-      "text": "$SPY 3 day weekend just long enough for me to be like &quot;ugh.. alright I&#39;ll guess Ill give it another shot&quot; monday",
-      "description": "",
-      "handle": "JudLikesStocks",
-      "display_name": "Jud Crandall",
-      "platform": "stocktwits"
     },
     {
       "id": "f262f4a26c8387",
@@ -438,24 +456,6 @@
       "time": "Fri, 03 Jul 2026 17:44:28 GMT",
       "text": "Acting DNI Pulte fires dozens of intelligence officials: MS Now",
       "description": "President Donald Trump's controversial pick to lead the office of the Director of National Intelligence has begun firing intel officials, MS NOW reported."
-    },
-    {
-      "id": "bae3238d53c969",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T17:44:01Z",
-      "title": "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ionq-vs-quantum-computing-inc-174401850.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T17:44:01Z",
-      "text": "IonQ vs. Quantum Computing Inc.: Which Quantum Computing Stock Is a Better Buy in 2026?",
-      "description": ""
     },
     {
       "id": "b0aa75f41d9d93",
@@ -780,6 +780,24 @@
       "sentiment": "neutral",
       "time": "2026-07-03T17:35:11Z",
       "text": "Is Peloton Interactive, Inc. (PTON) A Good Stock To Buy Now?",
+      "description": ""
+    },
+    {
+      "id": "4246396a2c6d55",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:34:56Z",
+      "title": "Is StandardAero, Inc. (SARO) A Good Stock To Buy Now?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/standardaero-inc-saro-good-stock-173456959.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:34:56Z",
+      "text": "Is StandardAero, Inc. (SARO) A Good Stock To Buy Now?",
       "description": ""
     },
     {
@@ -1654,24 +1672,6 @@
       "sentiment": "neutral",
       "time": "2026-07-03T16:57:49Z",
       "text": "UK\u2019S ANDY BURNHAM: COMMITMENT IN MANIFESTO ON TRIPLE LOCK STILL STANDS",
-      "description": ""
-    },
-    {
-      "id": "d853374cfa3fcd",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T16:57:26Z",
-      "title": "UK's Burnham: Will ensure defense investment plan is fully funded - Reddit Forum",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T16:57:26Z",
-      "text": "UK's Burnham: Will ensure defense investment plan is fully funded - Reddit Forum",
       "description": ""
     },
     {
