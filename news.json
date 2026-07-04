@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T10:22:07Z",
-  "generated_display": "2026-07-04 10:22 ET",
-  "count": 161,
+  "generated": "2026-07-04T10:27:07Z",
+  "generated_display": "2026-07-04 10:27 ET",
+  "count": 160,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T10:22:02.208472+00:00",
+      "last_error_ts": "2026-07-04T10:27:02.271930+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 110,
-      "last_success": "2026-07-04T10:22:02.319473+00:00",
+      "latency_ms": 71,
+      "last_success": "2026-07-04T10:27:02.343661+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 115,
-      "last_success": "2026-07-04T10:22:02.471769+00:00",
+      "latency_ms": 81,
+      "last_success": "2026-07-04T10:27:02.471992+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 13,
-      "latency_ms": 100,
-      "last_success": "2026-07-04T10:22:02.572894+00:00",
+      "items_pulled": 12,
+      "latency_ms": 28,
+      "last_success": "2026-07-04T10:27:02.500971+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T10:22:02.678201+00:00",
+      "last_error_ts": "2026-07-04T10:27:02.592899+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1994,
-      "last_success": "2026-07-04T10:22:04.672404+00:00",
+      "latency_ms": 1747,
+      "last_success": "2026-07-04T10:27:04.340183+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T10:22:05.629381+00:00",
+      "last_success": "2026-07-04T10:27:05.130846+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 2000,
-      "last_success": "2026-07-04T10:22:07.629933+00:00",
+      "latency_ms": 1909,
+      "last_success": "2026-07-04T10:27:07.040440+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,48 +74,71 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 204
+          "latency_ms": 143
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 37
+          "latency_ms": 45
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 157
+          "latency_ms": 142
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 404
+          "latency_ms": 325
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 15
+          "latency_ms": 11
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 136
+          "latency_ms": 121
         }
       }
     }
   },
   "by_source": {
-    "reuters": 16,
     "stocktwits": 75,
+    "reuters": 16,
     "uw_news": 25,
     "cnbc": 8,
-    "massive_news": 13,
+    "massive_news": 12,
     "zerohedge": 8,
     "seekingalpha": 7,
     "marketwatch": 8,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "382c75e51881ae",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T10:27:01Z",
+      "title": "$PLTR maybe the dumbest comment I\u2019ve ever seen on here. And it\u2019s Armed Forces \ud83e\udd21",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658268250",
+      "author": "BeyondGenius",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T10:27:01Z",
+      "text": "$PLTR maybe the dumbest comment I\u2019ve ever seen on here. And it\u2019s Armed Forces \ud83e\udd21",
+      "description": "",
+      "handle": "BeyondGenius",
+      "display_name": "Seth Colfax",
+      "platform": "stocktwits"
+    },
     {
       "id": "99d4ec4dae1ed1",
       "source": "reuters",
@@ -2581,29 +2604,6 @@
       "description": "TruBridge, Inc. (NASDAQ: TBRG) is facing a securities class action investigation after filing a late notification on March 17, 2026, revealing material errors in previously issued financial statements for 2023, 2024, and 2025. The errors involved revenue recognition, stock-based compensation, and ca"
     },
     {
-      "id": "a1014e7276e09b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T02:46:33Z",
-      "title": "$PLTR burry called all the shorts perfectly for $CAT $AMAT I guess next is palantir \ud83d\udea9\ud83d\udea9\ud83d\udea9\ud83c\udf39\ud83d\udc94\ud83d\udc80\ud83d\udc40\u274c\u203c\ufe0f\ud83e\ude78\u2764\ufe0f\u200d\ud83e\ude79\u2764\ufe0f\u200d\ud83d\udd25\ud83c\udf36\ufe0f\ud83d\udea9\ud83d\udea9\ud83d\udea9",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658264864",
-      "author": "ANALYZING",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T02:46:33Z",
-      "text": "$PLTR burry called all the shorts perfectly for $CAT $AMAT I guess next is palantir \ud83d\udea9\ud83d\udea9\ud83d\udea9\ud83c\udf39\ud83d\udc94\ud83d\udc80\ud83d\udc40\u274c\u203c\ufe0f\ud83e\ude78\u2764\ufe0f\u200d\ud83e\ude79\u2764\ufe0f\u200d\ud83d\udd25\ud83c\udf36\ufe0f\ud83d\udea9\ud83d\udea9\ud83d\udea9",
-      "description": "",
-      "handle": "ANALYZING",
-      "display_name": "CT",
-      "platform": "stocktwits"
-    },
-    {
       "id": "0a85afbb6b7081",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2643,26 +2643,6 @@
       "time": "Sat, 04 Jul 2026 02:40:00 +0000",
       "text": "First $1 Billion, Now $50 Million: Khanna Says Wealth Tax \"Must Not Stop At Billionaires\"",
       "description": "First $1 Billion, Now $50 Million: Khanna Says Wealth Tax \"Must Not Stop At Billionaires\"\n\n            Rep. Ro Khanna (D-CA) - fresh off endorsing California's November ballot measure to seize 5% of billionaire wealth - published a Substack essay Wednesday titled, no really, \"Why I Support a Billion"
-    },
-    {
-      "id": "f16a3507c1811b",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-04T02:26:00Z",
-      "title": "SpaceX Is Finally Public. Here's How Much a $1,000 Investment Would Get You.",
-      "body": "SpaceX has recently gone public, trading at $162 per share, allowing a $1,000 investment to purchase approximately six shares. While the company's Starlink division is highly profitable with $4.4 billion in operating profit, its space exploration and AI segments are losing billions annually. The ana",
-      "url": "https://www.fool.com/investing/2026/07/03/spacex-is-finally-public-heres-how-much-a-1000-inv/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "SPCX"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T02:26:00Z",
-      "text": "SpaceX Is Finally Public. Here's How Much a $1,000 Investment Would Get You.",
-      "description": "SpaceX has recently gone public, trading at $162 per share, allowing a $1,000 investment to purchase approximately six shares. While the company's Starlink division is highly profitable with $4.4 billion in operating profit, its space exploration and AI segments are losing billions annually. The ana"
     },
     {
       "id": "92c588e8b9cf9f",
@@ -3330,21 +3310,21 @@
       "description": ""
     },
     {
-      "id": "96d68e55cd8d79",
+      "id": "2005dd0d53d197",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-03T08:16:59Z",
-      "title": "Jim Cramer Calls Ultra Clean Holdings \u201cOne of the Hottest Stocks in the World\u201d",
+      "timestamp": "2026-07-03T08:17:46Z",
+      "title": "Jim Cramer on Paychex: \u201cThe Stock\u2019s Found Its Footing of Late\u201d",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-calls-ultra-clean-081659490.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-paychex-stock-found-081746481.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-03T08:16:59Z",
-      "text": "Jim Cramer Calls Ultra Clean Holdings \u201cOne of the Hottest Stocks in the World\u201d",
+      "time": "2026-07-03T08:17:46Z",
+      "text": "Jim Cramer on Paychex: \u201cThe Stock\u2019s Found Its Footing of Late\u201d",
       "description": ""
     },
     {
