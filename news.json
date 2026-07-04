@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T02:12:09Z",
-  "generated_display": "2026-07-04 02:12 ET",
-  "count": 200,
+  "generated": "2026-07-04T02:17:07Z",
+  "generated_display": "2026-07-04 02:17 ET",
+  "count": 199,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T02:12:02.303881+00:00",
+      "last_error_ts": "2026-07-04T02:17:02.470527+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 5,
-      "latency_ms": 2566,
-      "last_success": "2026-07-04T02:12:04.871755+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-04T02:17:02.572142+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 67,
-      "last_success": "2026-07-04T02:12:04.970639+00:00",
+      "latency_ms": 53,
+      "last_success": "2026-07-04T02:17:02.670681+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 47,
-      "latency_ms": 27,
-      "last_success": "2026-07-04T02:12:05.001362+00:00",
+      "items_pulled": 46,
+      "latency_ms": 101,
+      "last_success": "2026-07-04T02:17:02.774216+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T02:12:05.098987+00:00",
+      "last_error_ts": "2026-07-04T02:17:02.882883+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1772,
-      "last_success": "2026-07-04T02:12:06.871798+00:00",
+      "latency_ms": 1788,
+      "last_success": "2026-07-04T02:17:04.671097+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T02:12:07.835576+00:00",
+      "last_success": "2026-07-04T02:17:05.562391+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1892,
-      "last_success": "2026-07-04T02:12:09.728144+00:00",
+      "latency_ms": 1908,
+      "last_success": "2026-07-04T02:17:07.470860+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 110
+          "latency_ms": 128
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 58
+          "latency_ms": 172
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 130
+          "latency_ms": 65
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 403
+          "latency_ms": 363
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 119
+          "latency_ms": 93
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 141
+          "latency_ms": 67
         }
       }
     }
@@ -109,14 +109,60 @@
     "uw_news": 25,
     "reuters": 16,
     "zerohedge": 8,
-    "massive_news": 47,
+    "massive_news": 46,
     "cnbc": 8,
+    "seekingalpha": 7,
     "marketwatch": 8,
     "benzinga": 5,
-    "seekingalpha": 7,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "075d09faf466d3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T02:15:08Z",
+      "title": "$MSTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658264426",
+      "author": "StockInvestor_John",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T02:15:08Z",
+      "text": "$MSTR",
+      "description": "",
+      "handle": "StockInvestor_John",
+      "display_name": "John",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "db0f5e215dd181",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T02:14:32Z",
+      "title": "$STRC $MSTR \nCEO Phong Le Bought 11,000 Shares of MicroStrategy Preferred Stock.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658264421",
+      "author": "MacroHard26",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T02:14:32Z",
+      "text": "$STRC $MSTR \nCEO Phong Le Bought 11,000 Shares of MicroStrategy Preferred Stock.",
+      "description": "",
+      "handle": "MacroHard26",
+      "display_name": "Tony",
+      "platform": "stocktwits"
+    },
     {
       "id": "53a68002689f46",
       "source": "stocktwits",
@@ -1133,29 +1179,6 @@
       "description": ""
     },
     {
-      "id": "bf850354e4cfd9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T01:16:35Z",
-      "title": "$BTC.X $MSTR  this \u2018Saylor\u2019 is not saving anyone",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658263638",
-      "author": "Gator14",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-04T01:16:35Z",
-      "text": "$BTC.X $MSTR  this \u2018Saylor\u2019 is not saving anyone",
-      "description": "",
-      "handle": "Gator14",
-      "display_name": "Kyle",
-      "platform": "stocktwits"
-    },
-    {
       "id": "21bc15617a3c88",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1176,29 +1199,6 @@
       "time": "2026-07-04T01:15:00Z",
       "text": "Johnson & Johnson Is Walking Away From a $100 Billion Obesity Market. Could That Actually Make It the Better Long-Term Buy Than Eli Lilly?",
       "description": "Johnson & Johnson is deliberately avoiding the competitive GLP-1 weight-loss drug market, instead focusing on oncology and its medical device business where it has established strengths. This diversified strategy, combined with a lower valuation (P/E of 29x vs. Eli Lilly's 40x+) and higher dividend "
-    },
-    {
-      "id": "a38e74682e98bf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T01:11:00Z",
-      "title": "$MSTR SHORTS IN FULL PANIC MODE THIS WEEKEND \n\n@GypsyGirl2 @TopWaterSniper @MisterTim2020 @DanielsStorm",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658263559",
-      "author": "Elon_Trump69",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T01:11:00Z",
-      "text": "$MSTR SHORTS IN FULL PANIC MODE THIS WEEKEND \n\n@GypsyGirl2 @TopWaterSniper @MisterTim2020 @DanielsStorm",
-      "description": "",
-      "handle": "Elon_Trump69",
-      "display_name": "Elon_Trump69",
-      "platform": "stocktwits"
     },
     {
       "id": "de9f93e75541e1",
@@ -2556,6 +2556,24 @@
       "description": ""
     },
     {
+      "id": "794e28d596b5e3",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Fri, 03 Jul 2026 22:07:53 -0400",
+      "title": "GFL Environmental weighing potential take-private deal - Bloomberg",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4609903-gfl-environmental-weighing-potential-take-private-deal-bloomberg?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 03 Jul 2026 22:07:53 -0400",
+      "text": "GFL Environmental weighing potential take-private deal - Bloomberg",
+      "description": ""
+    },
+    {
       "id": "a191c491cbfb6e",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -3768,26 +3786,6 @@
       "description": "The SpaceX stock purchases come as Elon Musk\u2019s company deepens its role in federal contracting and remains closely tied to President Donald Trump\u2019s Washington."
     },
     {
-      "id": "c91f3ec26b3b2f",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T18:15:00Z",
-      "title": "After Skyrocketing 34% in 3 Months, Has Peloton Finally Turned the Corner?",
-      "body": "Peloton stock has surged 34% in three months and improved its financial position with positive net income, reduced debt, and strong free cash flow in Q3 2026. However, the company faces significant headwinds with projected revenue declining 2.3% in fiscal 2026\u2014marking the fifth consecutive year of d",
-      "url": "https://www.fool.com/investing/2026/07/03/after-skyrocketing-has-peloton-turned-corner/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "PTON"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T18:15:00Z",
-      "text": "After Skyrocketing 34% in 3 Months, Has Peloton Finally Turned the Corner?",
-      "description": "Peloton stock has surged 34% in three months and improved its financial position with positive net income, reduced debt, and strong free cash flow in Q3 2026. However, the company faces significant headwinds with projected revenue declining 2.3% in fiscal 2026\u2014marking the fifth consecutive year of d"
-    },
-    {
       "id": "a155270b53d709",
       "source": "cnbc",
       "source_type": "rss",
@@ -3976,24 +3974,6 @@
       "description": ""
     },
     {
-      "id": "d85ee24dd59ef1",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 03 Jul 2026 12:22:36 -0400",
-      "title": "Nuveen Mortgage and Income Fund declares $0.1535 dividend",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4609892-nuveen-mortgage-and-income-fund-declares-0_1535-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 03 Jul 2026 12:22:36 -0400",
-      "text": "Nuveen Mortgage and Income Fund declares $0.1535 dividend",
-      "description": ""
-    },
-    {
       "id": "0f0240060bcb9b",
       "source": "cnbc",
       "source_type": "rss",
@@ -4149,6 +4129,138 @@
       "description": "The president defended his family's business and said he feels bad that the presidency creates a conflict of interest in any of his children's investments."
     },
     {
+      "id": "19f259f1b9ec54",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T20:34:12Z",
+      "title": "Stock Indexes Settle Mixed as Chipmakers Retreat",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-indexes-settle-mixed-chipmakers-203412656.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T20:34:12Z",
+      "text": "Stock Indexes Settle Mixed as Chipmakers Retreat",
+      "description": ""
+    },
+    {
+      "id": "f73c8a52bca633",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T20:27:55Z",
+      "title": "RIVN Stock Pops as Rivian Raises Delivery Outlook",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rivn-stock-pops-rivian-raises-202755532.html",
+      "author": "",
+      "tickers": [
+        "RIVN"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T20:27:55Z",
+      "text": "RIVN Stock Pops as Rivian Raises Delivery Outlook",
+      "description": ""
+    },
+    {
+      "id": "c62b2a4e71914b",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T20:24:53Z",
+      "title": "MSFT Stock Alert: Microsoft Invests $2.5 Billion in AI Implementation Unit",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/msft-stock-alert-microsoft-invests-202453193.html",
+      "author": "",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 8.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T20:24:53Z",
+      "text": "MSFT Stock Alert: Microsoft Invests $2.5 Billion in AI Implementation Unit",
+      "description": ""
+    },
+    {
+      "id": "7490bb5d2197ea",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T20:22:39Z",
+      "title": "Marvell Stock: A Faster Lane On The Same Highway",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/marvell-stock-faster-lane-same-202239476.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T20:22:39Z",
+      "text": "Marvell Stock: A Faster Lane On The Same Highway",
+      "description": ""
+    },
+    {
+      "id": "13d60162ec5c6f",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T20:20:47Z",
+      "title": "Cognex, IBD Stock Of The Day, Called Play On Industrial Automation Trend",
+      "body": "",
+      "url": "https://www.investors.com/research/ibd-stock-of-the-day/cognex-stock-cgnx-winner-industrial-automation/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T20:20:47Z",
+      "text": "Cognex, IBD Stock Of The Day, Called Play On Industrial Automation Trend",
+      "description": ""
+    },
+    {
+      "id": "c360606b0e9581",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T20:19:00Z",
+      "title": "Broadcom vs. ON Semiconductor: Which Technology Stock Is a Better Buy in 2026?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/broadcom-vs-semiconductor-technology-stock-201900429.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T20:19:00Z",
+      "text": "Broadcom vs. ON Semiconductor: Which Technology Stock Is a Better Buy in 2026?",
+      "description": ""
+    },
+    {
+      "id": "602f9926cb188f",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T20:12:08Z",
+      "title": "HOOD Stock Alert: What to Know as Robinhood Rolls Out Public Blockhain",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hood-stock-alert-know-robinhood-201208404.html",
+      "author": "",
+      "tickers": [
+        "HOOD"
+      ],
+      "tags": [],
+      "impact_score": 8.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T20:12:08Z",
+      "text": "HOOD Stock Alert: What to Know as Robinhood Rolls Out Public Blockhain",
+      "description": ""
+    },
+    {
       "id": "538fa3107ef01f",
       "source": "reuters",
       "source_type": "rss",
@@ -4164,132 +4276,6 @@
       "sentiment": "neutral",
       "time": "2026-07-02T20:11:30Z",
       "text": "SanDisk Slumps 10% But BofA Stays Bullish. Here Is How to Play SanDisk Stock Here.",
-      "description": ""
-    },
-    {
-      "id": "3214d5f46b228d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:11:07Z",
-      "title": "'Grand Theft Auto 6' Video Game Sales Off To Strong Start",
-      "body": "",
-      "url": "https://www.investors.com/news/technology/ttwo-stock-gta-6-sales-off-to-strong-start/?src=A00220&yptr=yahoo",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:11:07Z",
-      "text": "'Grand Theft Auto 6' Video Game Sales Off To Strong Start",
-      "description": ""
-    },
-    {
-      "id": "0aed7ebab4edcc",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:09:58Z",
-      "title": "Is XRP (Ripple) Worth Holding Through 2026?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-ripple-worth-holding-2026-200958966.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:09:58Z",
-      "text": "Is XRP (Ripple) Worth Holding Through 2026?",
-      "description": ""
-    },
-    {
-      "id": "e5d210d5f5a170",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:08:22Z",
-      "title": "Is Sigma Lithium Corporation (SGML) Stock Strengthening After Favorable Brazilian Court Decision?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/sigma-lithium-corporation-sgml-stock-200822870.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:08:22Z",
-      "text": "Is Sigma Lithium Corporation (SGML) Stock Strengthening After Favorable Brazilian Court Decision?",
-      "description": ""
-    },
-    {
-      "id": "15bf6a8e75cc06",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:08:13Z",
-      "title": "Is American Resources Corporation (AREC) Stock Positioned to Benefit From ReElement\u2019s Critical Minerals Expansion?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/american-resources-corporation-arec-stock-200813315.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:08:13Z",
-      "text": "Is American Resources Corporation (AREC) Stock Positioned to Benefit From ReElement\u2019s Critical Minerals Expansion?",
-      "description": ""
-    },
-    {
-      "id": "6cbc4a93adb126",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:08:00Z",
-      "title": "Why SpaceX\u2019s Valuation Is \u2018Catastrophic\u2019",
-      "body": "",
-      "url": "https://www.barrons.com/articles/spacex-stock-price-target-rating-013abe4a?siteid=yhoof2&yptr=yahoo",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:08:00Z",
-      "text": "Why SpaceX\u2019s Valuation Is \u2018Catastrophic\u2019",
-      "description": ""
-    },
-    {
-      "id": "bdb1afb9159b3b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:07:52Z",
-      "title": "Is TMC the metals company Inc. (TMC) Stock a Critical Minerals Opportunity After NOAA Exploration Milestone?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/tmc-metals-company-inc-tmc-200752644.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:07:52Z",
-      "text": "Is TMC the metals company Inc. (TMC) Stock a Critical Minerals Opportunity After NOAA Exploration Milestone?",
-      "description": ""
-    },
-    {
-      "id": "3839b258f46cb7",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:07:11Z",
-      "title": "Is NioCorp Developments Ltd. (NB) Stock a Critical Minerals Opportunity With U.S. Supply Chain Potential?",
-      "body": "",
-      "url": "https://finance.yahoo.com/energy/articles/niocorp-developments-ltd-nb-stock-200711434.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:07:11Z",
-      "text": "Is NioCorp Developments Ltd. (NB) Stock a Critical Minerals Opportunity With U.S. Supply Chain Potential?",
       "description": ""
     },
     {
