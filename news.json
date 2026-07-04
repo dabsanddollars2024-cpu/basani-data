@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T05:42:07Z",
-  "generated_display": "2026-07-04 05:42 ET",
-  "count": 181,
+  "generated": "2026-07-04T05:47:06Z",
+  "generated_display": "2026-07-04 05:47 ET",
+  "count": 180,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T05:42:02.205675+00:00",
+      "last_error_ts": "2026-07-04T05:47:01.413659+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 5,
-      "latency_ms": 139,
-      "last_success": "2026-07-04T05:42:02.370624+00:00",
+      "latency_ms": 104,
+      "last_success": "2026-07-04T05:47:01.575706+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 65,
-      "last_success": "2026-07-04T05:42:02.436414+00:00",
+      "latency_ms": 95,
+      "last_success": "2026-07-04T05:47:01.672217+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 28,
-      "latency_ms": 66,
-      "last_success": "2026-07-04T05:42:02.503993+00:00",
+      "items_pulled": 27,
+      "latency_ms": 31,
+      "last_success": "2026-07-04T05:47:01.705560+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T05:42:02.599914+00:00",
+      "last_error_ts": "2026-07-04T05:47:01.808336+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2562,
-      "last_success": "2026-07-04T05:42:05.162498+00:00",
+      "latency_ms": 1975,
+      "last_success": "2026-07-04T05:47:03.784059+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T05:42:06.071287+00:00",
+      "last_success": "2026-07-04T05:47:04.671388+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1758,
-      "last_success": "2026-07-04T05:42:07.829825+00:00",
+      "latency_ms": 1957,
+      "last_success": "2026-07-04T05:47:06.629187+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 215
+          "latency_ms": 194
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 186
+          "latency_ms": 91
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 101
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 204
+          "latency_ms": 401
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 17
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 177
+          "latency_ms": 81
         }
       }
     }
@@ -108,7 +108,7 @@
     "stocktwits": 75,
     "reuters": 16,
     "uw_news": 25,
-    "massive_news": 28,
+    "massive_news": 27,
     "zerohedge": 8,
     "cnbc": 8,
     "seekingalpha": 7,
@@ -117,6 +117,29 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "7f91544cdabe31",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T05:45:02Z",
+      "title": "$FFAI $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658266726",
+      "author": "BullishAaFf",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T05:45:02Z",
+      "text": "$FFAI $TSLA",
+      "description": "",
+      "handle": "BullishAaFf",
+      "display_name": "Bullish",
+      "platform": "stocktwits"
+    },
     {
       "id": "3502c72862b9e3",
       "source": "stocktwits",
@@ -844,29 +867,6 @@
       "description": "",
       "handle": "TryinMyBest",
       "display_name": "TryinMyBest",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0a99086cfff5de",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T04:30:49Z",
-      "title": "$SOXL $TQQQ $SPY $TSLA $SPCX  \n \nSell \u200b\u200bbefore it&#39;s too late! \n \nhttps://youtu.be/32u5T6lO8qk?si=sJWaNOXJW3s3mGe1",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658266193",
-      "author": "Hiphoplover",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T04:30:49Z",
-      "text": "$SOXL $TQQQ $SPY $TSLA $SPCX  \n \nSell \u200b\u200bbefore it&#39;s too late! \n \nhttps://youtu.be/32u5T6lO8qk?si=sJWaNOXJW3s3mGe1",
-      "description": "",
-      "handle": "Hiphoplover",
-      "display_name": "Hiphoplover",
       "platform": "stocktwits"
     },
     {
@@ -3121,26 +3121,6 @@
       "time": "2026-07-03T21:45:30Z",
       "text": "Court Approval of a Restructuring Transaction Allowing Continuation of Uninterrupted Operations",
       "description": ""
-    },
-    {
-      "id": "297d666f69635d",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T21:43:00Z",
-      "title": "Court Approval of a Restructuring Transaction Allowing Continuation of Uninterrupted Operations",
-      "body": "Premier Health of America announced that the Qu\u00e9bec Superior Court has approved the acquisition of three of its affiliates (Solutions Staffing Inc., Canadian Health Care Agency Ltd., and Premier Soin Nordik Inc.) by Polar Valley Investments Limited through reverse vesting orders. The transaction, in",
-      "url": "https://www.globenewswire.com/news-release/2026/07/03/3321988/0/en/Court-Approval-of-a-Restructuring-Transaction-Allowing-Continuation-of-Uninterrupted-Operations.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "RY"
-      ],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T21:43:00Z",
-      "text": "Court Approval of a Restructuring Transaction Allowing Continuation of Uninterrupted Operations",
-      "description": "Premier Health of America announced that the Qu\u00e9bec Superior Court has approved the acquisition of three of its affiliates (Solutions Staffing Inc., Canadian Health Care Agency Ltd., and Premier Soin Nordik Inc.) by Polar Valley Investments Limited through reverse vesting orders. The transaction, in"
     },
     {
       "id": "a62b88be5d60b0",
