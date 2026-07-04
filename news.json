@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T20:12:07Z",
-  "generated_display": "2026-07-04 20:12 ET",
-  "count": 178,
+  "generated": "2026-07-04T20:17:07Z",
+  "generated_display": "2026-07-04 20:17 ET",
+  "count": 176,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T20:12:01.505453+00:00",
+      "last_error_ts": "2026-07-04T20:17:02.331686+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 133,
-      "last_success": "2026-07-04T20:12:01.671053+00:00",
+      "latency_ms": 139,
+      "last_success": "2026-07-04T20:17:02.471983+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 75,
-      "last_success": "2026-07-04T20:12:01.771053+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-04T20:17:02.572167+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 27,
-      "latency_ms": 431,
-      "last_success": "2026-07-04T20:12:02.203986+00:00",
+      "items_pulled": 25,
+      "latency_ms": 44,
+      "last_success": "2026-07-04T20:17:02.671454+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T20:12:02.293022+00:00",
+      "last_error_ts": "2026-07-04T20:17:02.770961+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2510,
-      "last_success": "2026-07-04T20:12:04.803686+00:00",
+      "latency_ms": 1785,
+      "last_success": "2026-07-04T20:17:04.556672+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T20:12:05.634262+00:00",
+      "last_success": "2026-07-04T20:17:05.371422+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1911,
-      "last_success": "2026-07-04T20:12:07.546234+00:00",
+      "latency_ms": 1951,
+      "last_success": "2026-07-04T20:17:07.322566+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,22 +74,22 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 177
+          "latency_ms": 148
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 125
+          "latency_ms": 88
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 164
+          "latency_ms": 98
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 207
+          "latency_ms": 383
         },
         "seekingalpha": {
           "status": "healthy",
@@ -99,7 +99,7 @@
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 136
+          "latency_ms": 76
         }
       }
     }
@@ -108,7 +108,7 @@
     "stocktwits": 75,
     "reuters": 16,
     "uw_news": 25,
-    "massive_news": 27,
+    "massive_news": 25,
     "marketwatch": 8,
     "zerohedge": 8,
     "seekingalpha": 7,
@@ -117,6 +117,29 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "632d7715f522f8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T20:15:18Z",
+      "title": "$SPY what price is SPY at now?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658278056",
+      "author": "Alessandrak",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T20:15:18Z",
+      "text": "$SPY what price is SPY at now?",
+      "description": "",
+      "handle": "Alessandrak",
+      "display_name": "Alessandrak",
+      "platform": "stocktwits"
+    },
     {
       "id": "ba390b10164579",
       "source": "stocktwits",
@@ -184,29 +207,6 @@
       "description": "",
       "handle": "AimeePerkins",
       "display_name": "Aimee",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "24b2ab412e18a9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T20:09:09Z",
-      "title": "$SPY but isnt  Bitcoin a cryptography? Aren&#39;t all cryptographies eventually decrypted?  \n \nDoesn&#39;t Malikie own the patents to eliptical curve cryptography?. Aren&#39;t they in the midst of going after miners first as a means to establish precident? \n \nIt all seems risky to pay money for some",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658277938",
-      "author": "AK77",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T20:09:09Z",
-      "text": "$SPY but isnt  Bitcoin a cryptography? Aren&#39;t all cryptographies eventually decrypted?  \n \nDoesn&#39;t Malikie own the patents to eliptical curve cryptography?. Aren&#39;t they in the midst of going after miners first as a means to establish precident? \n \nIt all seems risky to pay money for some",
-      "description": "",
-      "handle": "AK77",
-      "display_name": "Ak",
       "platform": "stocktwits"
     },
     {
@@ -3511,49 +3511,6 @@
       "time": "2026-07-04T12:29:00Z",
       "text": "Is D-Wave Quantum a Buy?",
       "description": "D-Wave Quantum, a quantum computing company, has begun landing commercial deals including a $20 million system sale and a $10 million cloud-access agreement. However, the analyst recommends holding off on buying the stock due to its extremely high valuation of 200x this year's estimated revenue ($42"
-    },
-    {
-      "id": "33f087388880a7",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-04T12:15:00Z",
-      "title": "2 High-Yield Dividend Stocks Just Got Kicked Out of the S&P 500. Is Either a Buy Now?",
-      "body": "Campbell's Company and Pool Corporation were removed from the S&P 500 on June 22, triggering mechanical selling pressure. Campbell's offers a rare 7%+ dividend yield backed by 51 years of payments and the growing Rao's brand, though dividend growth has been slow. Pool Corp. features a more modest 2.",
-      "url": "https://www.fool.com/investing/2026/07/04/2-high-yield-dividend-stocks-just-got-kicked-out-o/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "CPB",
-        "POOL"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T12:15:00Z",
-      "text": "2 High-Yield Dividend Stocks Just Got Kicked Out of the S&P 500. Is Either a Buy Now?",
-      "description": "Campbell's Company and Pool Corporation were removed from the S&P 500 on June 22, triggering mechanical selling pressure. Campbell's offers a rare 7%+ dividend yield backed by 51 years of payments and the growing Rao's brand, though dividend growth has been slow. Pool Corp. features a more modest 2."
-    },
-    {
-      "id": "eff2af4efdc4e9",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-04T12:15:00Z",
-      "title": "Massive News for Meta Stock Investors!",
-      "body": "Meta is reportedly renting excess computing capacity and building a cloud business to rival Amazon and Microsoft. This development could indicate that Meta's massive capital expenditure growth on AI infrastructure may be approaching its peak, potentially signaling a shift in the company's spending t",
-      "url": "https://www.fool.com/investing/2026/07/04/massive-news-for-meta-stock-investors/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "META",
-        "AMZN",
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T12:15:00Z",
-      "text": "Massive News for Meta Stock Investors!",
-      "description": "Meta is reportedly renting excess computing capacity and building a cloud business to rival Amazon and Microsoft. This development could indicate that Meta's massive capital expenditure growth on AI infrastructure may be approaching its peak, potentially signaling a shift in the company's spending t"
     },
     {
       "id": "f4fe750f1030ae",
