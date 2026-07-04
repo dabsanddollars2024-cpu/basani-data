@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T12:47:07Z",
-  "generated_display": "2026-07-04 12:47 ET",
+  "generated": "2026-07-04T12:52:07Z",
+  "generated_display": "2026-07-04 12:52 ET",
   "count": 161,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T12:47:02.306302+00:00",
+      "last_error_ts": "2026-07-04T12:52:02.213020+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 164,
-      "last_success": "2026-07-04T12:47:02.471610+00:00",
+      "latency_ms": 195,
+      "last_success": "2026-07-04T12:52:02.409089+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-04T12:47:02.572344+00:00",
+      "latency_ms": 161,
+      "last_success": "2026-07-04T12:52:02.571543+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 12,
-      "latency_ms": 32,
-      "last_success": "2026-07-04T12:47:02.671406+00:00",
+      "latency_ms": 27,
+      "last_success": "2026-07-04T12:52:02.670557+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T12:47:02.785902+00:00",
+      "last_error_ts": "2026-07-04T12:52:02.786054+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1685,
-      "last_success": "2026-07-04T12:47:04.471782+00:00",
+      "latency_ms": 1885,
+      "last_success": "2026-07-04T12:52:04.671684+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T12:47:05.771433+00:00",
+      "last_success": "2026-07-04T12:52:05.570905+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1857,
-      "last_success": "2026-07-04T12:47:07.629281+00:00",
+      "latency_ms": 1951,
+      "last_success": "2026-07-04T12:52:07.522618+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,41 +74,41 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 318
+          "latency_ms": 110
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 284
+          "latency_ms": 196
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 116
+          "latency_ms": 108
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 404
+          "latency_ms": 290
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 79
+          "latency_ms": 15
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 94
+          "latency_ms": 177
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "uw_news": 25,
     "reuters": 16,
     "zerohedge": 8,
-    "uw_news": 25,
     "massive_news": 12,
     "cnbc": 8,
     "seekingalpha": 7,
@@ -117,6 +117,70 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "4523e02c467dbf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T12:49:57Z",
+      "title": "$SPY https://youtu.be/-DFWcduXGXQ?is=E_3O6eqKN5PEQ_lb",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658269589",
+      "author": "P8perCh8ser",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T12:49:57Z",
+      "text": "$SPY https://youtu.be/-DFWcduXGXQ?is=E_3O6eqKN5PEQ_lb",
+      "description": "",
+      "handle": "P8perCh8ser",
+      "display_name": "P8perCh8ser",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3e845a08f33ae0",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T12:48:34Z",
+      "title": "Robinhood, Dell Lead 5 Stocks Near Buy Points With AI Tailwinds",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T12:48:34Z",
+      "text": "Robinhood, Dell Lead 5 Stocks Near Buy Points With AI Tailwinds",
+      "description": ""
+    },
+    {
+      "id": "b353c8edfdd528",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T12:48:11Z",
+      "title": "$QQQ Yes. 1.5 percent drop. 10 minutes after open is when the 1st circuit breaker will trigger",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658269566",
+      "author": "JayBeeZ83",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T12:48:11Z",
+      "text": "$QQQ Yes. 1.5 percent drop. 10 minutes after open is when the 1st circuit breaker will trigger",
+      "description": "",
+      "handle": "JayBeeZ83",
+      "display_name": "Jesse Bustrin",
+      "platform": "stocktwits"
+    },
     {
       "id": "6d55ede3305fe9",
       "source": "stocktwits",
@@ -276,29 +340,6 @@
       "description": "",
       "handle": "Stock_kingg",
       "display_name": "Stock_king",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ec61aa8563c1ff",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T12:42:24Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658269496",
-      "author": "Nullify",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T12:42:24Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "Nullify",
-      "display_name": "Ben Fallen",
       "platform": "stocktwits"
     },
     {
@@ -675,29 +716,6 @@
       "description": "",
       "handle": "Nosh",
       "display_name": "Nosh",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a2971f9187430c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T12:28:19Z",
-      "title": "$QQQ Expecting 1.5 percent in the premarket.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658269319",
-      "author": "Trader2k140",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T12:28:19Z",
-      "text": "$QQQ Expecting 1.5 percent in the premarket.",
-      "description": "",
-      "handle": "Trader2k140",
-      "display_name": "Trader2k140",
       "platform": "stocktwits"
     },
     {
@@ -2329,26 +2347,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04T08:40:10Z",
       "text": "R|Elan\u2122 Circular Design Challenge Celebrates Its 8th Season with a Landmark Global Edition Under the India\u2013France Year of Innovation 2026",
-      "description": ""
-    },
-    {
-      "id": "b46324a9a4698c",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-04T08:36:17Z",
-      "title": "Tim Draper refutes Bitcoin transfer, stands by $250K BTC forecast as wallet sent 1,000 BTC to Coinbase Prime.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "BTC"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T08:36:17Z",
-      "text": "Tim Draper refutes Bitcoin transfer, stands by $250K BTC forecast as wallet sent 1,000 BTC to Coinbase Prime.",
       "description": ""
     },
     {
