@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T06:27:06Z",
-  "generated_display": "2026-07-04 06:27 ET",
+  "generated": "2026-07-04T06:32:06Z",
+  "generated_display": "2026-07-04 06:32 ET",
   "count": 173,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T06:27:01.918783+00:00",
+      "last_error_ts": "2026-07-04T06:32:01.817239+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 95,
-      "last_success": "2026-07-04T06:27:02.014415+00:00",
+      "latency_ms": 136,
+      "last_success": "2026-07-04T06:32:01.954221+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 149,
-      "last_success": "2026-07-04T06:27:02.165583+00:00",
+      "latency_ms": 75,
+      "last_success": "2026-07-04T06:32:02.058229+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 98,
-      "last_success": "2026-07-04T06:27:02.265960+00:00",
+      "latency_ms": 30,
+      "last_success": "2026-07-04T06:32:02.090142+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T06:27:02.298139+00:00",
+      "last_error_ts": "2026-07-04T06:32:02.184606+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1944,
-      "last_success": "2026-07-04T06:27:04.242236+00:00",
+      "latency_ms": 1888,
+      "last_success": "2026-07-04T06:32:04.073328+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T06:27:04.994516+00:00",
+      "last_success": "2026-07-04T06:32:05.058192+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1869,
-      "last_success": "2026-07-04T06:27:06.864287+00:00",
+      "latency_ms": 1877,
+      "last_success": "2026-07-04T06:32:06.935584+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 133
+          "latency_ms": 190
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 35
+          "latency_ms": 103
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 84
+          "latency_ms": 91
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 379
+          "latency_ms": 403
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 11
+          "latency_ms": 18
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 108
+          "latency_ms": 177
         }
       }
     }
@@ -116,6 +116,29 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "e01f2caf0d6db3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T06:29:24Z",
+      "title": "$TSLA Setting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities..",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658267003",
+      "author": "AimeePerkins",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T06:29:24Z",
+      "text": "$TSLA Setting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities..",
+      "description": "",
+      "handle": "AimeePerkins",
+      "display_name": "Aimee",
+      "platform": "stocktwits"
+    },
     {
       "id": "485b322db90c7a",
       "source": "stocktwits",
@@ -161,24 +184,6 @@
       "handle": "TrumpTruthSocialBot",
       "display_name": "Trump",
       "platform": "stocktwits"
-    },
-    {
-      "id": "7783ec6f36ba44",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 06:18:25",
-      "title": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/irans-slain-leader-khamenei-laid-in-state-in-tehran-for-week-of-mass-funeral-events-4775171",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 06:18:25",
-      "text": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies",
-      "description": ""
     },
     {
       "id": "3be9fa7475adb2",
@@ -353,6 +358,24 @@
       "handle": "Hiphoplover",
       "display_name": "Hiphoplover",
       "platform": "stocktwits"
+    },
+    {
+      "id": "7783ec6f36ba44",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 06:00:30",
+      "title": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/irans-slain-leader-khamenei-laid-in-state-in-tehran-for-week-of-mass-funeral-events-4775171",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 06:00:30",
+      "text": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies",
+      "description": ""
     },
     {
       "id": "518c792c9d9264",
@@ -664,29 +687,6 @@
       "description": "",
       "handle": "Dulge_Gappana",
       "display_name": "Myles Kennedy",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8987914291e69d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T05:14:49Z",
-      "title": "$TSLA Tesla is the worst of the mag 7 and institutions are profit taking and moving to the mag6 while the TSLA retail is stuck buying calls expecially after this dip",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658266523",
-      "author": "JoeDirtay3",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T05:14:49Z",
-      "text": "$TSLA Tesla is the worst of the mag 7 and institutions are profit taking and moving to the mag6 while the TSLA retail is stuck buying calls expecially after this dip",
-      "description": "",
-      "handle": "JoeDirtay3",
-      "display_name": "JoeDirtay3",
       "platform": "stocktwits"
     },
     {
@@ -3520,6 +3520,78 @@
       "description": "Oman is using strategic ambiguity as talks over possible Strait of Hormuz fees raise legal, diplomatic and oil market concerns."
     },
     {
+      "id": "434443839a21f8",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T00:00:00Z",
+      "title": "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets",
+      "body": "",
+      "url": "https://finance.yahoo.com/energy/articles/uae-rewrites-offshore-oil-pricing-000000017.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T00:00:00Z",
+      "text": "UAE Rewrites Offshore Oil Pricing To Capture Asian Markets",
+      "description": ""
+    },
+    {
+      "id": "5de6eb34e890a0",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T23:52:26Z",
+      "title": "Blackstone files to take Jersey Mike's public",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/blackstone-files-jersey-mikes-public-235226854.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T23:52:26Z",
+      "text": "Blackstone files to take Jersey Mike's public",
+      "description": ""
+    },
+    {
+      "id": "f9885e4e79a755",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T23:39:06Z",
+      "title": "The \u201cG-Wagon Loophole\u201d: How Business Owners Write Off a $100,000 SUV the Year They Buy It",
+      "body": "",
+      "url": "https://finance.yahoo.com/small-business/articles/g-wagon-loophole-business-owners-233906696.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T23:39:06Z",
+      "text": "The \u201cG-Wagon Loophole\u201d: How Business Owners Write Off a $100,000 SUV the Year They Buy It",
+      "description": ""
+    },
+    {
+      "id": "1434a7202caa72",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T23:35:00Z",
+      "title": "3 Growth Stocks to Buy on the Dip",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-growth-stocks-buy-dip-233500731.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T23:35:00Z",
+      "text": "3 Growth Stocks to Buy on the Dip",
+      "description": ""
+    },
+    {
       "id": "330687fdfcf60a",
       "source": "reuters",
       "source_type": "rss",
@@ -3535,42 +3607,6 @@
       "sentiment": "neutral",
       "time": "2026-07-02T23:30:02Z",
       "text": "Nike Beat Wall Street Estimates by a Mile. Why Investors Are Still Not Convinced.",
-      "description": ""
-    },
-    {
-      "id": "0495eecd348f5c",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T23:29:50Z",
-      "title": "The Next 30% Crash Will Happen. These 3 ETFs Mean You Won\u2019t Panic-Sell at the Bottom",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/next-30-crash-happen-3-232950749.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T23:29:50Z",
-      "text": "The Next 30% Crash Will Happen. These 3 ETFs Mean You Won\u2019t Panic-Sell at the Bottom",
-      "description": ""
-    },
-    {
-      "id": "655bf10390ced4",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T23:22:48Z",
-      "title": "How Corporate Executives Stash $100,000+ Into a 401(k) Using the 415(c) Rule Most People Miss",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/corporate-executives-stash-100-000-232248920.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T23:22:48Z",
-      "text": "How Corporate Executives Stash $100,000+ Into a 401(k) Using the 415(c) Rule Most People Miss",
       "description": ""
     },
     {
@@ -3625,42 +3661,6 @@
       "sentiment": "neutral",
       "time": "2026-07-02T22:14:31Z",
       "text": "Petrobras (PBR) Approves $1.2B Investment for New Brazilian Biofuels Facility",
-      "description": ""
-    },
-    {
-      "id": "ca37a25f5d4493",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T22:13:41Z",
-      "title": "Alcoa Corporation (AA) to Acquire South32 Aluminum Assets in $4.1B Deal",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alcoa-corporation-aa-acquire-south32-221341636.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T22:13:41Z",
-      "text": "Alcoa Corporation (AA) to Acquire South32 Aluminum Assets in $4.1B Deal",
-      "description": ""
-    },
-    {
-      "id": "b9b01eb6ea1abe",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T22:13:33Z",
-      "title": "Here\u2019s Why Sony Group (SONY) is One of the Cheap Stocks That Are About to Explode",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-sony-group-sony-one-221431788.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T22:13:33Z",
-      "text": "Here\u2019s Why Sony Group (SONY) is One of the Cheap Stocks That Are About to Explode",
       "description": ""
     },
     {
