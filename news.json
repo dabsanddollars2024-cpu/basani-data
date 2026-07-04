@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T17:07:07Z",
-  "generated_display": "2026-07-04 17:07 ET",
-  "count": 175,
+  "generated": "2026-07-04T17:12:07Z",
+  "generated_display": "2026-07-04 17:12 ET",
+  "count": 174,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T17:07:02.405926+00:00",
+      "last_error_ts": "2026-07-04T17:12:01.907406+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 2,
-      "latency_ms": 118,
-      "last_success": "2026-07-04T17:07:02.571086+00:00",
+      "latency_ms": 193,
+      "last_success": "2026-07-04T17:12:02.101367+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 100,
-      "last_success": "2026-07-04T17:07:02.672143+00:00",
+      "latency_ms": 169,
+      "last_success": "2026-07-04T17:12:02.272184+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-04T17:07:02.772838+00:00",
+      "items_pulled": 24,
+      "latency_ms": 122,
+      "last_success": "2026-07-04T17:12:02.395671+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T17:07:02.878784+00:00",
+      "last_error_ts": "2026-07-04T17:12:02.479491+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1593,
-      "last_success": "2026-07-04T17:07:04.471949+00:00",
+      "latency_ms": 2292,
+      "last_success": "2026-07-04T17:12:04.771989+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T17:07:05.471240+00:00",
+      "last_success": "2026-07-04T17:12:05.765584+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1873,
-      "last_success": "2026-07-04T17:07:07.344540+00:00",
+      "latency_ms": 1863,
+      "last_success": "2026-07-04T17:12:07.628962+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 112
+          "latency_ms": 111
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 298
+          "latency_ms": 187
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 103
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 287
+          "latency_ms": 402
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 18
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 177
+          "latency_ms": 174
         }
       }
     }
@@ -108,8 +108,8 @@
     "stocktwits": 75,
     "uw_news": 25,
     "reuters": 16,
-    "massive_news": 25,
     "marketwatch": 8,
+    "massive_news": 24,
     "zerohedge": 8,
     "seekingalpha": 7,
     "cnbc": 8,
@@ -117,6 +117,177 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "3ca5a3985a9c44",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T17:11:24Z",
+      "title": "$PLTR black Monday inbound",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658274424",
+      "author": "ShmeadDaddy",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T17:11:24Z",
+      "text": "$PLTR black Monday inbound",
+      "description": "",
+      "handle": "ShmeadDaddy",
+      "display_name": "Options Daddy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cbab9f06d24e51",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T17:10:58Z",
+      "title": "Alarum Technologies Announces Temporary Operational Pause of Certain Network Services",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "ALAR"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T17:10:58Z",
+      "text": "Alarum Technologies Announces Temporary Operational Pause of Certain Network Services",
+      "description": ""
+    },
+    {
+      "id": "2a09a0ae3a76ee",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T17:09:58Z",
+      "title": "$NVDA \ud83e\udd21\ud83e\udd21",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658274397",
+      "author": "MIGA77",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T17:09:58Z",
+      "text": "$NVDA \ud83e\udd21\ud83e\udd21",
+      "description": "",
+      "handle": "MIGA77",
+      "display_name": "MIGA",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fc34ffaa9528f0",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 17:08:57",
+      "title": "Cardano Climbs 12% In Rally",
+      "body": "",
+      "url": "https://www.investing.com/news/cryptocurrency-news/cardano-climbs-12-in-rally-4775372",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 17:08:57",
+      "text": "Cardano Climbs 12% In Rally",
+      "description": ""
+    },
+    {
+      "id": "885ffd49cd2da6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T17:08:34Z",
+      "title": "End of the day price action doesn\u2019t lie - the charts on $MU $META $AMD all look like shit - whenever narrative you want to run with, run with! But price is the ultimate truth and price says lower!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658274363",
+      "author": "BustaCapital",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T17:08:34Z",
+      "text": "End of the day price action doesn\u2019t lie - the charts on $MU $META $AMD all look like shit - whenever narrative you want to run with, run with! But price is the ultimate truth and price says lower!",
+      "description": "",
+      "handle": "BustaCapital",
+      "display_name": "Busta",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "832a1706f6e8b4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T17:08:34Z",
+      "title": "End of the day price action doesn\u2019t lie - the charts on $MU $META $AMD all look like shit - whenever narrative you want to run with, run with! But price is the ultimate truth and price says lower!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658274363",
+      "author": "BustaCapital",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T17:08:34Z",
+      "text": "End of the day price action doesn\u2019t lie - the charts on $MU $META $AMD all look like shit - whenever narrative you want to run with, run with! But price is the ultimate truth and price says lower!",
+      "description": "",
+      "handle": "BustaCapital",
+      "display_name": "Busta",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "996290ee14d14a",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Sat, 04 Jul 2026 17:08:00 GMT",
+      "title": "\u2018I claimed Social Security at 62\u2019: At 76, I\u2019m working at Walmart. Why do I still owe payroll taxes?",
+      "body": "\u201cIt seems like half of the workforce at our local Walmart is over 65.\u201d",
+      "url": "https://www.marketwatch.com/story/i-claimed-social-security-at-62-at-76-im-working-at-walmart-why-do-i-still-owe-payroll-taxes-8e22a97c?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 04 Jul 2026 17:08:00 GMT",
+      "text": "\u2018I claimed Social Security at 62\u2019: At 76, I\u2019m working at Walmart. Why do I still owe payroll taxes?",
+      "description": "\u201cIt seems like half of the workforce at our local Walmart is over 65.\u201d"
+    },
+    {
+      "id": "e34f10041cb44d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T17:07:32Z",
+      "title": "$SPY polemic subjective fear mongering bs usually all derived from either social media or the nutt house  ?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658274339",
+      "author": "Liminal_Adept",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T17:07:32Z",
+      "text": "$SPY polemic subjective fear mongering bs usually all derived from either social media or the nutt house  ?",
+      "description": "",
+      "handle": "Liminal_Adept",
+      "display_name": "Liminal_Adept",
+      "platform": "stocktwits"
+    },
     {
       "id": "0886c9f89fa27a",
       "source": "stocktwits",
@@ -366,29 +537,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0fd9550a992e0d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T16:58:46Z",
-      "title": "$SPY https://x.com/paratroopbrady/status/2073365430278754767/video/1",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658274155",
-      "author": "MadMoneyScalper",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T16:58:46Z",
-      "text": "$SPY https://x.com/paratroopbrady/status/2073365430278754767/video/1",
-      "description": "",
-      "handle": "MadMoneyScalper",
-      "display_name": "Willie Wonka",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6365f432df837a",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -474,6 +622,24 @@
       "handle": "PivotPoint_101",
       "display_name": "Brian P.",
       "platform": "stocktwits"
+    },
+    {
+      "id": "d44e0d6db0abc8",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 16:54:27",
+      "title": "Thousands protest in Germany as far-right AfD sets sights on power",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/thousands-protest-in-germany-against-farright-afd-4775345",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 16:54:27",
+      "text": "Thousands protest in Germany as far-right AfD sets sights on power",
+      "description": ""
     },
     {
       "id": "0a916ac0271f0a",
@@ -698,29 +864,6 @@
       "description": "",
       "handle": "DocOctagon",
       "display_name": "DrOctagon",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a211f7a6ae6479",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T16:39:07Z",
-      "title": "$GLND The hype is about to explode. We are talking hundreds of billions of dollars \ud83d\udcb5 at these drill sites in Greenland \ud83c\uddec\ud83c\uddf1 Load the boat. $TSLA $NVDA $GOOG $AAPL We all should be buying this at will.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658273704",
-      "author": "Lord_Burglekutt",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T16:39:07Z",
-      "text": "$GLND The hype is about to explode. We are talking hundreds of billions of dollars \ud83d\udcb5 at these drill sites in Greenland \ud83c\uddec\ud83c\uddf1 Load the boat. $TSLA $NVDA $GOOG $AAPL We all should be buying this at will.",
-      "description": "",
-      "handle": "Lord_Burglekutt",
-      "display_name": "Lord Burglekutt",
       "platform": "stocktwits"
     },
     {
@@ -1098,29 +1241,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "bda23bbe92acca",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T16:20:19Z",
-      "title": "$SPY Happy 4th of July, everyone.\n\nAfter seeing how casually $SNDK and $MU disintegrated this week (-25% in 5 days), as well as $AMD sharply reversing off a one-day ATH candle, I think it\u2019s much safer now to assume than anytime earlier this year that the AI bubble is ACTUALLY beginning to burst.\n\nAs",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658273306",
-      "author": "AlexLanser",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-04T16:20:19Z",
-      "text": "$SPY Happy 4th of July, everyone.\n\nAfter seeing how casually $SNDK and $MU disintegrated this week (-25% in 5 days), as well as $AMD sharply reversing off a one-day ATH candle, I think it\u2019s much safer now to assume than anytime earlier this year that the AI bubble is ACTUALLY beginning to burst.\n\nAs",
-      "description": "",
-      "handle": "AlexLanser",
-      "display_name": "Alex Lanser",
-      "platform": "stocktwits"
-    },
-    {
       "id": "ff6ed961dbd30b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1187,29 +1307,6 @@
       "description": "",
       "handle": "ccdemuth",
       "display_name": "Chris DeMuth Jr",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0cbac996550dbd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T16:16:25Z",
-      "title": "$PLTR 145-150 this next week ?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658273235",
-      "author": "mil173rd",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T16:16:25Z",
-      "text": "$PLTR 145-150 this next week ?",
-      "description": "",
-      "handle": "mil173rd",
-      "display_name": "GJ",
       "platform": "stocktwits"
     },
     {
@@ -1718,29 +1815,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b7ce675c726b0b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T15:31:06Z",
-      "title": "$AMD $META #OPENAI $600 PT - If you know than you know.  \n \nhttps://letsdatascience.com/news/openai-offers-5-stake-to-us-government-ddb95e75",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658272347",
-      "author": "TheUnmaker",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T15:31:06Z",
-      "text": "$AMD $META #OPENAI $600 PT - If you know than you know.  \n \nhttps://letsdatascience.com/news/openai-offers-5-stake-to-us-government-ddb95e75",
-      "description": "",
-      "handle": "TheUnmaker",
-      "display_name": "TheUnmaker",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b901fda656dcd1",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1930,24 +2004,6 @@
       "handle": "StocktwitsNews",
       "display_name": "Stocktwits News",
       "platform": "stocktwits"
-    },
-    {
-      "id": "d44e0d6db0abc8",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 15:18:43",
-      "title": "Thousands protest in Germany as far-right AfD sets sights on power",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/thousands-protest-in-germany-against-farright-afd-4775345",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 15:18:43",
-      "text": "Thousands protest in Germany as far-right AfD sets sights on power",
-      "description": ""
     },
     {
       "id": "47e2491b638615",
@@ -2556,24 +2612,6 @@
       "handle": "JohnJackson031",
       "display_name": "John Jackson",
       "platform": "stocktwits"
-    },
-    {
-      "id": "4c608f276c6e6d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 14:06:06",
-      "title": "St Petersburg region oil terminal hit in major Ukrainian drone attack",
-      "body": "",
-      "url": "https://www.investing.com/news/commodities-news/st-petersburg-region-hit-by-major-ukrainian-drone-attack-russian-officials-say-4775344",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 14:06:06",
-      "text": "St Petersburg region oil terminal hit in major Ukrainian drone attack",
-      "description": ""
     },
     {
       "id": "882e4b774c12fd",
@@ -3252,24 +3290,6 @@
       "description": "Rosen Law Firm is soliciting investors who purchased shares of Embecta Corp. (EMBC), Zillow Group (ZG), and Barclays PLC (BCS) during specified periods to join securities class action lawsuits. The firm alleges that Embecta made false statements about its fiscal results and pen needle business guida"
     },
     {
-      "id": "768a45d97dde0d",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-04T10:48:27Z",
-      "title": "HBAR price at $0.07 facing resistance from major moving averages. Sellers dominant. Possible bounce to $0.075-$0.08 expected.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T10:48:27Z",
-      "text": "HBAR price at $0.07 facing resistance from major moving averages. Sellers dominant. Possible bounce to $0.075-$0.08 expected.",
-      "description": ""
-    },
-    {
       "id": "2fee0e7779a16f",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3479,28 +3499,6 @@
       ]
     },
     {
-      "id": "9b01dd7b477070",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-04T09:10:00Z",
-      "title": "Is Viking Therapeutics Stock Going to $50? Here's What the Bulls and Bears Are Saying",
-      "body": "Viking Therapeutics, a $4.3B biotech company, is developing VK2735, a weight loss drug candidate in late-stage trials. Bulls cite the massive $100B obesity drug market opportunity, potential acquisition interest, and positive historical stock reactions to data releases. Bears highlight competition f",
-      "url": "https://www.fool.com/investing/2026/07/04/is-viking-therapeutics-stock-going-to-50-heres-wha/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "VKTX",
-        "LLY",
-        "NVO"
-      ],
-      "tags": [],
-      "impact_score": 11.3,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-07-04T09:10:00Z",
-      "text": "Is Viking Therapeutics Stock Going to $50? Here's What the Bulls and Bears Are Saying",
-      "description": "Viking Therapeutics, a $4.3B biotech company, is developing VK2735, a weight loss drug candidate in late-stage trials. Bulls cite the massive $100B obesity drug market opportunity, potential acquisition interest, and positive historical stock reactions to data releases. Bears highlight competition f"
-    },
-    {
       "id": "bdeed6e49c9023",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -3671,24 +3669,6 @@
       "time": "Fri, 03 Jul 2026 19:00:00 GMT",
       "text": "\u2018I don\u2019t think I\u2019ll make it to 80\u2019: I\u2019m 70 and single. Do I take out a reverse mortgage or a home-equity agreement?",
       "description": "\u201cI\u2019m torn between these two options.\u201d"
-    },
-    {
-      "id": "f37117d234b6a0",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Fri, 03 Jul 2026 18:52:00 GMT",
-      "title": "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
-      "body": "CEO Jensen Huang has called humanoid robots a \u201cmultitrillion-dollar economic opportunity.\u201d",
-      "url": "https://www.marketwatch.com/story/nvidia-is-betting-on-a-trillion-dollar-robotics-boom-here-is-the-hidden-way-to-trade-it-c5b10c4e?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 03 Jul 2026 18:52:00 GMT",
-      "text": "Nvidia is betting on a trillion-dollar robotics boom. Here is the hidden way to trade it.",
-      "description": "CEO Jensen Huang has called humanoid robots a \u201cmultitrillion-dollar economic opportunity.\u201d"
     },
     {
       "id": "e7ccacf8401afa",
