@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T22:57:06Z",
-  "generated_display": "2026-07-04 22:57 ET",
-  "count": 172,
+  "generated": "2026-07-04T23:02:07Z",
+  "generated_display": "2026-07-04 23:02 ET",
+  "count": 175,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T22:57:01.622128+00:00",
+      "last_error_ts": "2026-07-04T23:02:01.722736+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 128,
-      "last_success": "2026-07-04T22:57:01.770710+00:00",
+      "latency_ms": 148,
+      "last_success": "2026-07-04T23:02:01.871975+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 100,
-      "last_success": "2026-07-04T22:57:01.872598+00:00",
+      "latency_ms": 67,
+      "last_success": "2026-07-04T23:02:01.940112+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 21,
-      "latency_ms": 31,
-      "last_success": "2026-07-04T22:57:01.971679+00:00",
+      "items_pulled": 24,
+      "latency_ms": 62,
+      "last_success": "2026-07-04T23:02:02.003635+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T22:57:02.011920+00:00",
+      "last_error_ts": "2026-07-04T23:02:02.099177+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2260,
-      "last_success": "2026-07-04T22:57:04.272283+00:00",
+      "latency_ms": 2572,
+      "last_success": "2026-07-04T23:02:04.671604+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T22:57:05.050849+00:00",
+      "last_success": "2026-07-04T23:02:05.546526+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1820,
-      "last_success": "2026-07-04T22:57:06.871375+00:00",
+      "latency_ms": 1883,
+      "last_success": "2026-07-04T23:02:07.430085+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,7 +74,7 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 112
+          "latency_ms": 124
         },
         "cnbc": {
           "status": "healthy",
@@ -84,32 +84,32 @@
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 96
+          "latency_ms": 100
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 404
+          "latency_ms": 399
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 16
+          "latency_ms": 26
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 58
+          "latency_ms": 133
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "zerohedge": 8,
     "reuters": 16,
+    "zerohedge": 8,
+    "massive_news": 24,
     "marketwatch": 8,
-    "massive_news": 21,
     "uw_news": 25,
     "seekingalpha": 7,
     "benzinga": 3,
@@ -117,6 +117,213 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "a064c6b518a6c5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:02:00Z",
+      "title": "$PLTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658280533",
+      "author": "AshHydrogen",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:02:00Z",
+      "text": "$PLTR",
+      "description": "",
+      "handle": "AshHydrogen",
+      "display_name": "Ashley Wolter",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cd7c8bd496d92a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:01:39Z",
+      "title": "https://x.com/i/status/2073542412186919388 $RBRK $SPY $QQQ $MRVL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658280529",
+      "author": "TradeMonkeyLLC",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T23:01:39Z",
+      "text": "https://x.com/i/status/2073542412186919388 $RBRK $SPY $QQQ $MRVL",
+      "description": "",
+      "handle": "TradeMonkeyLLC",
+      "display_name": "Justjay",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "715d4a03eee93c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:01:39Z",
+      "title": "https://x.com/i/status/2073542412186919388 $RBRK $SPY $QQQ $MRVL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658280529",
+      "author": "TradeMonkeyLLC",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T23:01:39Z",
+      "text": "https://x.com/i/status/2073542412186919388 $RBRK $SPY $QQQ $MRVL",
+      "description": "",
+      "handle": "TradeMonkeyLLC",
+      "display_name": "Justjay",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ad92d66f9fe207",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:00:49Z",
+      "title": "$BTC.X $MSTR \n\nI\u2019m so smart and hamsome. I\u2019m going to write a book. Short it and get rich, buy it and get poor. The bitcoin story.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658280518",
+      "author": "dooker",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T23:00:49Z",
+      "text": "$BTC.X $MSTR \n\nI\u2019m so smart and hamsome. I\u2019m going to write a book. Short it and get rich, buy it and get poor. The bitcoin story.",
+      "description": "",
+      "handle": "dooker",
+      "display_name": "dooker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "08c08e2066e195",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:00:11Z",
+      "title": "$PLTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658280509",
+      "author": "AshHydrogen",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:00:11Z",
+      "text": "$PLTR",
+      "description": "",
+      "handle": "AshHydrogen",
+      "display_name": "Ashley Wolter",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4775268cef18ec",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T22:59:22Z",
+      "title": "$QQQ $SPY  \nThe sentiment around the AI trade has been Fear from the start. Lots of skepticism and cynicism. A bubble happens when it is the opposite. Kinda like the 1000s of initial coin offerings per year in crypto, retarded products like nft, and buying $5 million organic banana art. Accompanied ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658280496",
+      "author": "C3PO2099",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T22:59:22Z",
+      "text": "$QQQ $SPY  \nThe sentiment around the AI trade has been Fear from the start. Lots of skepticism and cynicism. A bubble happens when it is the opposite. Kinda like the 1000s of initial coin offerings per year in crypto, retarded products like nft, and buying $5 million organic banana art. Accompanied ",
+      "description": "",
+      "handle": "C3PO2099",
+      "display_name": "Munjit",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5e407fa73af840",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T22:59:22Z",
+      "title": "$QQQ $SPY  \nThe sentiment around the AI trade has been Fear from the start. Lots of skepticism and cynicism. A bubble happens when it is the opposite. Kinda like the 1000s of initial coin offerings per year in crypto, retarded products like nft, and buying $5 million organic banana art. Accompanied ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658280496",
+      "author": "C3PO2099",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T22:59:22Z",
+      "text": "$QQQ $SPY  \nThe sentiment around the AI trade has been Fear from the start. Lots of skepticism and cynicism. A bubble happens when it is the opposite. Kinda like the 1000s of initial coin offerings per year in crypto, retarded products like nft, and buying $5 million organic banana art. Accompanied ",
+      "description": "",
+      "handle": "C3PO2099",
+      "display_name": "Munjit",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2b22d6940343df",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T22:59:10Z",
+      "title": "$DJT $TSLA $RUM Total scum",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658280493",
+      "author": "JCRedeemer",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T22:59:10Z",
+      "text": "$DJT $TSLA $RUM Total scum",
+      "description": "",
+      "handle": "JCRedeemer",
+      "display_name": "John Delaney",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d884bae224f252",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T22:58:01Z",
+      "title": "$DJT $TSLA $RUM Think the Big Dummy will take time to remember the flood victims? Or is that bad look because the parents are suing, and Noem messed up? I figured somebody on the Right would have honored the victims by now...",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658280486",
+      "author": "YNK",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T22:58:01Z",
+      "text": "$DJT $TSLA $RUM Think the Big Dummy will take time to remember the flood victims? Or is that bad look because the parents are suing, and Noem messed up? I figured somebody on the Right would have honored the victims by now...",
+      "description": "",
+      "handle": "YNK",
+      "display_name": "YNK",
+      "platform": "stocktwits"
+    },
     {
       "id": "3f42fe8ae3f756",
       "source": "stocktwits",
@@ -162,6 +369,42 @@
       "handle": "Jack_Danielss",
       "display_name": "Jack Daniel",
       "platform": "stocktwits"
+    },
+    {
+      "id": "b2c5580d5148e2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 22:54:51",
+      "title": "Trump offered over phone to help Putin find deal with Ukraine, Kremlin aide says",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/trump-offered-over-phone-to-help-putin-find-deal-with-ukraine-kremlin-aide-says-4775387",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 22:54:51",
+      "text": "Trump offered over phone to help Putin find deal with Ukraine, Kremlin aide says",
+      "description": ""
+    },
+    {
+      "id": "280e90fa0547aa",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 22:54:28",
+      "title": "Paul Pelosi faces hit-and-run charge after striking parked vehicle in California, law enforcement says",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/paul-pelosi-faces-hitandrun-charge-after-striking-parked-vehicle-in-california-media-reports-say-4775385",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 22:54:28",
+      "text": "Paul Pelosi faces hit-and-run charge after striking parked vehicle in California, law enforcement says",
+      "description": ""
     },
     {
       "id": "0b329ff6fff1b8",
@@ -509,98 +752,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "aa18540b393273",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:48:01Z",
-      "title": "$DJT $QQQ $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658280341",
-      "author": "GeniusintheFlesh",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T22:48:01Z",
-      "text": "$DJT $QQQ $SPY",
-      "description": "",
-      "handle": "GeniusintheFlesh",
-      "display_name": "Mister",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e2a62e98cd9661",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:48:01Z",
-      "title": "$DJT $QQQ $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658280341",
-      "author": "GeniusintheFlesh",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T22:48:01Z",
-      "text": "$DJT $QQQ $SPY",
-      "description": "",
-      "handle": "GeniusintheFlesh",
-      "display_name": "Mister",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "aaac213d2235fa",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:46:57Z",
-      "title": "$DJT $QQQ $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658280331",
-      "author": "GeniusintheFlesh",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T22:46:57Z",
-      "text": "$DJT $QQQ $SPY",
-      "description": "",
-      "handle": "GeniusintheFlesh",
-      "display_name": "Mister",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ebf40df7b0d383",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:46:57Z",
-      "title": "$DJT $QQQ $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658280331",
-      "author": "GeniusintheFlesh",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T22:46:57Z",
-      "text": "$DJT $QQQ $SPY",
-      "description": "",
-      "handle": "GeniusintheFlesh",
-      "display_name": "Mister",
-      "platform": "stocktwits"
-    },
-    {
       "id": "4f0718a6ec1a38",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -821,29 +972,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2594db959dcb38",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:37:11Z",
-      "title": "$TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658280217",
-      "author": "SouthernItUp",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T22:37:11Z",
-      "text": "$TSLA",
-      "description": "",
-      "handle": "SouthernItUp",
-      "display_name": "John",
-      "platform": "stocktwits"
-    },
-    {
       "id": "4d80b0fd5e8576",
       "source": "reuters",
       "source_type": "rss",
@@ -862,29 +990,6 @@
       "description": ""
     },
     {
-      "id": "fa6e3b955fe000",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:31:53Z",
-      "title": "$TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658280164",
-      "author": "DoubleUpwithChuck",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T22:31:53Z",
-      "text": "$TSLA",
-      "description": "",
-      "handle": "DoubleUpwithChuck",
-      "display_name": "Investing",
-      "platform": "stocktwits"
-    },
-    {
       "id": "0ec4c954e77ce4",
       "source": "reuters",
       "source_type": "rss",
@@ -901,6 +1006,27 @@
       "time": "2026-07-04T22:29:01Z",
       "text": "What This $905,000 Insider Sale at McGrath RentCorp Signals for Investors",
       "description": ""
+    },
+    {
+      "id": "f48681487f075a",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T22:23:00Z",
+      "title": "Micron Stock Has Soared Nearly 700% in a Year. Is a Stock Split Imminent?",
+      "body": "Micron Technology's stock has surged 698% over the past year, trading near $1,000 per share. The article discusses the possibility of a forward stock split to increase retail investor accessibility, similar to Nvidia's recent 10-for-1 split. Despite the rally, Micron remains attractively valued at 2",
+      "url": "https://www.fool.com/investing/2026/07/04/micron-stock-has-soared-nearly-700-in-a-year-is-a/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "MU",
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 11.3,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-07-04T22:23:00Z",
+      "text": "Micron Stock Has Soared Nearly 700% in a Year. Is a Stock Split Imminent?",
+      "description": "Micron Technology's stock has surged 698% over the past year, trading near $1,000 per share. The article discusses the possibility of a forward stock split to increase retail investor accessibility, similar to Nvidia's recent 10-for-1 split. Despite the rally, Micron remains attractively valued at 2"
     },
     {
       "id": "57aa84d6744c33",
@@ -947,6 +1073,26 @@
       "handle": "Ub3r5pAnK",
       "display_name": "Ub3r5pAnK",
       "platform": "stocktwits"
+    },
+    {
+      "id": "087957eef1f169",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T22:19:15Z",
+      "title": "What This Nearly $1 Million Ambarella Insider Sale Means With Shares Up 18% in a Year",
+      "body": "Ambarella's senior VP Ju Chi-Hong sold 10,000 shares worth $888,400 on July 1, 2026, reducing his stake by 5.75%. The sale appears opportunistic rather than concerning, executed near the day's high. Despite the insider sale, the company shows strong fundamentals with 16.9% revenue growth, record aut",
+      "url": "https://www.fool.com/coverage/filings/2026/07/04/what-this-nearly-usd1-million-ambarella-insider-sale-means-with-shares-up-18-in-a-year/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "AMBA"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T22:19:15Z",
+      "text": "What This Nearly $1 Million Ambarella Insider Sale Means With Shares Up 18% in a Year",
+      "description": "Ambarella's senior VP Ju Chi-Hong sold 10,000 shares worth $888,400 on July 1, 2026, reducing his stake by 5.75%. The sale appears opportunistic rather than concerning, executed near the day's high. Despite the insider sale, the company shows strong fundamentals with 16.9% revenue growth, record aut"
     },
     {
       "id": "91bfb961fffc56",
@@ -1016,6 +1162,26 @@
       "handle": "Ub3r5pAnK",
       "display_name": "Ub3r5pAnK",
       "platform": "stocktwits"
+    },
+    {
+      "id": "0824c3f31e0995",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T22:09:01Z",
+      "title": "What This $905,000 Insider Sale at McGrath RentCorp Signals for Investors",
+      "body": "McGrath RentCorp director Joseph F. Hanna sold 7,500 shares worth approximately $905,000 on July 1, 2026, reducing his stake by 4.7%. The article characterizes this as routine portfolio trimming rather than a red flag, noting Hanna still holds ~$18.3 million in stock. The company reported strong Q1 ",
+      "url": "https://www.fool.com/coverage/filings/2026/07/04/director-sells-mgrc-7500-shares-worth-905000/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "MGRC"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T22:09:01Z",
+      "text": "What This $905,000 Insider Sale at McGrath RentCorp Signals for Investors",
+      "description": "McGrath RentCorp director Joseph F. Hanna sold 7,500 shares worth approximately $905,000 on July 1, 2026, reducing his stake by 4.7%. The article characterizes this as routine portfolio trimming rather than a red flag, noting Hanna still holds ~$18.3 million in stock. The company reported strong Q1 "
     },
     {
       "id": "295e136505a840",
@@ -1093,29 +1259,6 @@
       "time": "Sat, 04 Jul 2026 22:05:00 +0000",
       "text": "Six California Cities Ranked Among Top 10 Least Educated In US",
       "description": "Six California Cities Ranked Among Top 10 Least Educated In US\n\n            Six California cities ranked among the top 10 least educated metropolitan areas in the United States, according to a report by WalletHub published on June 29.\n\nLooking at the 150 most populated metro areas, the city of Visal"
-    },
-    {
-      "id": "baf6f728bcb603",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:04:33Z",
-      "title": "$MSTR 120 Monday if it stays like this",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658279776",
-      "author": "AlwaysABullNeverABear",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T22:04:33Z",
-      "text": "$MSTR 120 Monday if it stays like this",
-      "description": "",
-      "handle": "AlwaysABullNeverABear",
-      "display_name": "Adam Stuhlfelder",
-      "platform": "stocktwits"
     },
     {
       "id": "002c0f58768a76",
@@ -1208,24 +1351,6 @@
       "handle": "PivotPoint_101",
       "display_name": "Brian P.",
       "platform": "stocktwits"
-    },
-    {
-      "id": "280e90fa0547aa",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 21:42:33",
-      "title": "Paul Pelosi faces hit-and-run charge after striking parked vehicle in California, media reports say",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/paul-pelosi-faces-hitandrun-charge-after-striking-parked-vehicle-in-california-media-reports-say-4775385",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 21:42:33",
-      "text": "Paul Pelosi faces hit-and-run charge after striking parked vehicle in California, media reports say",
-      "description": ""
     },
     {
       "id": "8bd2352a71f3d7",
@@ -1757,52 +1882,6 @@
       "description": "These Are The World's Top Destinations For Wealth Migration\n\n            Countries are increasingly competing to attract wealthy individuals alongside businesses and skilled workers. For many governments, internationally mobile wealth represents a source of investment, entrepreneurship, and long-ter"
     },
     {
-      "id": "885c433551f4aa",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T20:53:49Z",
-      "title": "$PLTR",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658278680",
-      "author": "stockmonkey6969",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T20:53:49Z",
-      "text": "$PLTR",
-      "description": "",
-      "handle": "stockmonkey6969",
-      "display_name": "stockmonkey6969",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f4fbe67b2746cf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T20:37:06Z",
-      "title": "$PLTR PLTR  hourly",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658278443",
-      "author": "iTrade_Price",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T20:37:06Z",
-      "text": "$PLTR PLTR  hourly",
-      "description": "",
-      "handle": "iTrade_Price",
-      "display_name": "UC",
-      "platform": "stocktwits"
-    },
-    {
       "id": "fef3cac1f36f20",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1885,24 +1964,6 @@
       "handle": "CUPandHANDLE_CHARTS",
       "display_name": "Edward Gofsky",
       "platform": "stocktwits"
-    },
-    {
-      "id": "423bcf71db1df6",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 20:25:25",
-      "title": "Iran holds state funeral for Khamenei as successor stays out of public view",
-      "body": "",
-      "url": "https://www.investing.com/news/economy-news/irans-supreme-leaders-funeral-begins-as-hormuz-security-remains-in-focus-4775328",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 20:25:25",
-      "text": "Iran holds state funeral for Khamenei as successor stays out of public view",
-      "description": ""
     },
     {
       "id": "63dcfb3c9380a6",
