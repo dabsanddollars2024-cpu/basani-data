@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T10:17:06Z",
-  "generated_display": "2026-07-04 10:17 ET",
-  "count": 162,
+  "generated": "2026-07-04T10:22:07Z",
+  "generated_display": "2026-07-04 10:22 ET",
+  "count": 161,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T10:17:02.234418+00:00",
+      "last_error_ts": "2026-07-04T10:22:02.208472+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 96,
-      "last_success": "2026-07-04T10:17:02.330860+00:00",
+      "latency_ms": 110,
+      "last_success": "2026-07-04T10:22:02.319473+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 141,
-      "last_success": "2026-07-04T10:17:02.473459+00:00",
+      "latency_ms": 115,
+      "last_success": "2026-07-04T10:22:02.471769+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 14,
-      "latency_ms": 29,
-      "last_success": "2026-07-04T10:17:02.504352+00:00",
+      "items_pulled": 13,
+      "latency_ms": 100,
+      "last_success": "2026-07-04T10:22:02.572894+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T10:17:02.604519+00:00",
+      "last_error_ts": "2026-07-04T10:22:02.678201+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1761,
-      "last_success": "2026-07-04T10:17:04.365908+00:00",
+      "latency_ms": 1994,
+      "last_success": "2026-07-04T10:22:04.672404+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T10:17:04.989964+00:00",
+      "last_success": "2026-07-04T10:22:05.629381+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1837,
-      "last_success": "2026-07-04T10:17:06.827864+00:00",
+      "latency_ms": 2000,
+      "last_success": "2026-07-04T10:22:07.629933+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,22 +74,22 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 118
+          "latency_ms": 204
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 37
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 157
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 203
+          "latency_ms": 404
         },
         "seekingalpha": {
           "status": "healthy",
@@ -99,23 +99,41 @@
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 98
+          "latency_ms": 136
         }
       }
     }
   },
   "by_source": {
+    "reuters": 16,
     "stocktwits": 75,
     "uw_news": 25,
     "cnbc": 8,
-    "reuters": 16,
-    "massive_news": 14,
+    "massive_news": 13,
     "zerohedge": 8,
     "seekingalpha": 7,
     "marketwatch": 8,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "99d4ec4dae1ed1",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 10:12:27",
+      "title": "Zelenskiy denies Russian capture of key eastern city Kostiantynivka",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/zelenskiy-denies-russian-capture-of-key-eastern-city-kostiantynivka-4775361",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 10:12:27",
+      "text": "Zelenskiy denies Russian capture of key eastern city Kostiantynivka",
+      "description": ""
+    },
     {
       "id": "b46c0172e8158f",
       "source": "stocktwits",
@@ -138,6 +156,24 @@
       "handle": "Ermergerd",
       "display_name": "Impeccablly Unique Insights",
       "platform": "stocktwits"
+    },
+    {
+      "id": "c78bfdd9726b34",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 10:07:37",
+      "title": "For one small business, AI was key to a quick start and expansion",
+      "body": "",
+      "url": "https://www.investing.com/news/economy-news/for-one-small-business-ai-was-key-to-a-quick-start-and-expansion-4775360",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 10:07:37",
+      "text": "For one small business, AI was key to a quick start and expansion",
+      "description": ""
     },
     {
       "id": "c3be9c973a9233",
@@ -163,6 +199,60 @@
       "platform": "stocktwits"
     },
     {
+      "id": "c2c3f696c311ec",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 10:07:16",
+      "title": "Trump to mark U.S. 250th anniversary with campaign-style rally on National Mall",
+      "body": "",
+      "url": "https://www.investing.com/news/politics-news/trump-to-mark-us-250th-anniversary-with-campaignstyle-rally-on-national-mall-4775359",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 10:07:16",
+      "text": "Trump to mark U.S. 250th anniversary with campaign-style rally on National Mall",
+      "description": ""
+    },
+    {
+      "id": "cee5e088739c23",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 10:06:55",
+      "title": "When their interests align, Trump and Roberts both win at Supreme Court",
+      "body": "",
+      "url": "https://www.investing.com/news/politics-news/when-their-interests-align-trump-and-roberts-both-win-at-supreme-court-4775358",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 10:06:55",
+      "text": "When their interests align, Trump and Roberts both win at Supreme Court",
+      "description": ""
+    },
+    {
+      "id": "ae8bf395931bbf",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 10:06:32",
+      "title": "Trump Accounts to debut as US kicks off 250th Independence Day celebrations",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/trump-accounts-to-debut-as-us-kicks-off-250th-independence-day-celebrations-4775357",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 10:06:32",
+      "text": "Trump Accounts to debut as US kicks off 250th Independence Day celebrations",
+      "description": ""
+    },
+    {
       "id": "2e20cb639de355",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -184,6 +274,24 @@
       "handle": "DARKAGE_IS_HERE",
       "display_name": "DARKAGE_IS_HERE",
       "platform": "stocktwits"
+    },
+    {
+      "id": "15be37ef31c49b",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04 10:03:32",
+      "title": "Continental sells ContiTech to Lone Star Funds for \u20ac4 bln",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/continental-sells-contitech-to-lone-star-funds-for-4-bln-4775356",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04 10:03:32",
+      "text": "Continental sells ContiTech to Lone Star Funds for \u20ac4 bln",
+      "description": ""
     },
     {
       "id": "ca093271e7424d",
@@ -350,24 +458,6 @@
       "description": ""
     },
     {
-      "id": "90695388edf33e",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 09:54:30",
-      "title": "Pope Leo urges US to welcome immigrants in July 4 appeal from Lampedusa",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/pope-leo-marks-us-anniversary-with-migrant-appeal-on-lampedusa-4775352",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 09:54:30",
-      "text": "Pope Leo urges US to welcome immigrants in July 4 appeal from Lampedusa",
-      "description": ""
-    },
-    {
       "id": "27a148e4196f3c",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -387,7 +477,7 @@
       "text": "$COIN  \n \nTLDR: Fking GD news. Strong Buy. Strong like GIGACHAD. \n \nMICA. This company is the only company that passed EURO regulations. Binance was slashed out from EURO and USA.  \n \nAsk ur AI agent on what MICA passing means for Clarity ACT and Coinbase. It probably will tell you that USA is force",
       "description": "",
       "handle": "DodgeyMask",
-      "display_name": "Kevin Keong",
+      "display_name": "MemeLords",
       "platform": "stocktwits"
     },
     {
@@ -449,24 +539,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04T09:40:00Z",
       "text": "PEPE saw an 8.84% jump during US holiday on $30M Binance volume, but lacking conviction. MACD bearish, RSI steady.",
-      "description": ""
-    },
-    {
-      "id": "03fb3273be28ab",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 09:36:27",
-      "title": "Trump extols America, rails at communism in US 250th celebration",
-      "body": "",
-      "url": "https://www.investing.com/news/politics-news/trump-extols-america-rails-at-communism-in-us-250th-celebration-4775337",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 09:36:27",
-      "text": "Trump extols America, rails at communism in US 250th celebration",
       "description": ""
     },
     {
@@ -705,24 +777,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04T09:32:51Z",
       "text": "Is FILE about to break out at $0.80 or fall into a bull trap? Stochastic at 84, historic trend foresees a significant move in 48-72 hrs.",
-      "description": ""
-    },
-    {
-      "id": "cc903054d8f64b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 09:32:05",
-      "title": "France faces high-stakes budget battle as fiscal risks mount",
-      "body": "",
-      "url": "https://www.investing.com/news/economy-news/france-faces-highstakes-budget-battle-as-fiscal-risks-mount-4775354",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 09:32:05",
-      "text": "France faces high-stakes budget battle as fiscal risks mount",
       "description": ""
     },
     {
@@ -1034,24 +1088,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "033bc3c2dfde94",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 09:12:49",
-      "title": "UK\u2019s Next plans takeover bid for Harvey Nichols, Sky News reports",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/uks-next-plans-takeover-bid-for-harvey-nichols-sky-news-reports-4775353",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 09:12:49",
-      "text": "UK\u2019s Next plans takeover bid for Harvey Nichols, Sky News reports",
-      "description": ""
-    },
-    {
       "id": "2bc23bc0f72706",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1189,24 +1225,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "197056a252d599",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 09:06:00",
-      "title": "Bitcoin slips as institutional inflows, corporate strategies remain in focus",
-      "body": "",
-      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-as-institutional-inflows-and-corporate-strategies-remain-in-focus-4775351",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 09:06:00",
-      "text": "Bitcoin slips as institutional inflows, corporate strategies remain in focus",
-      "description": ""
-    },
-    {
       "id": "1074689db77a70",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1251,24 +1269,6 @@
       "handle": "WunDumFuc",
       "display_name": "MJ MJ",
       "platform": "stocktwits"
-    },
-    {
-      "id": "423bcf71db1df6",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 09:04:24",
-      "title": "Iran Supreme Leader\u2019s funeral draws millions as Hormuz security remains in focus",
-      "body": "",
-      "url": "https://www.investing.com/news/economy-news/irans-supreme-leaders-funeral-begins-as-hormuz-security-remains-in-focus-4775328",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 09:04:24",
-      "text": "Iran Supreme Leader\u2019s funeral draws millions as Hormuz security remains in focus",
-      "description": ""
     },
     {
       "id": "ad04a4058cc3ea",
@@ -2663,26 +2663,6 @@
       "time": "2026-07-04T02:26:00Z",
       "text": "SpaceX Is Finally Public. Here's How Much a $1,000 Investment Would Get You.",
       "description": "SpaceX has recently gone public, trading at $162 per share, allowing a $1,000 investment to purchase approximately six shares. While the company's Starlink division is highly profitable with $4.4 billion in operating profit, its space exploration and AI segments are losing billions annually. The ana"
-    },
-    {
-      "id": "6cea344558993a",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-04T02:20:00Z",
-      "title": "ROSEN, SKILLED INVESTOR COUNSEL, Encourages Futu Holdings Limited Investors to Secure Counsel Before Important Deadline in Securities Class Action - FUTU",
-      "body": "Rosen Law Firm has filed a class action lawsuit against Futu Holdings Limited (NASDAQ: FUTU) on behalf of investors who purchased securities between May 24, 2023 and May 27, 2026. The lawsuit alleges that Futu made materially false and misleading statements regarding its compliance with China Securi",
-      "url": "https://www.globenewswire.com/news-release/2026/07/04/3322004/673/en/ROSEN-SKILLED-INVESTOR-COUNSEL-Encourages-Futu-Holdings-Limited-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-FUTU.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "FUTU"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T02:20:00Z",
-      "text": "ROSEN, SKILLED INVESTOR COUNSEL, Encourages Futu Holdings Limited Investors to Secure Counsel Before Important Deadline in Securities Class Action - FUTU",
-      "description": "Rosen Law Firm has filed a class action lawsuit against Futu Holdings Limited (NASDAQ: FUTU) on behalf of investors who purchased securities between May 24, 2023 and May 27, 2026. The lawsuit alleges that Futu made materially false and misleading statements regarding its compliance with China Securi"
     },
     {
       "id": "92c588e8b9cf9f",
