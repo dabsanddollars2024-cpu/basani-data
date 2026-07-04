@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T07:57:06Z",
-  "generated_display": "2026-07-04 07:57 ET",
-  "count": 169,
+  "generated": "2026-07-04T08:02:06Z",
+  "generated_display": "2026-07-04 08:02 ET",
+  "count": 171,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T07:57:01.633368+00:00",
+      "last_error_ts": "2026-07-04T08:02:02.035104+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 88,
-      "last_success": "2026-07-04T07:57:01.721554+00:00",
+      "latency_ms": 103,
+      "last_success": "2026-07-04T08:02:02.138377+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 117,
-      "last_success": "2026-07-04T07:57:01.878802+00:00",
+      "latency_ms": 142,
+      "last_success": "2026-07-04T08:02:02.282248+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 21,
+      "items_pulled": 23,
       "latency_ms": 99,
-      "last_success": "2026-07-04T07:57:01.979888+00:00",
+      "last_success": "2026-07-04T08:02:02.382591+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T07:57:02.086271+00:00",
+      "last_error_ts": "2026-07-04T08:02:02.481166+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1705,
-      "last_success": "2026-07-04T07:57:03.792045+00:00",
+      "latency_ms": 1700,
+      "last_success": "2026-07-04T08:02:04.181557+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T07:57:04.451783+00:00",
+      "last_success": "2026-07-04T08:02:05.142490+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1785,
-      "last_success": "2026-07-04T07:57:06.237422+00:00",
+      "latency_ms": 1696,
+      "last_success": "2026-07-04T08:02:06.839257+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 198
+          "latency_ms": 125
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 174
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 40
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 261
+          "latency_ms": 403
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 58
+          "latency_ms": 141
         }
       }
     }
@@ -107,8 +107,8 @@
   "by_source": {
     "stocktwits": 75,
     "reuters": 16,
+    "massive_news": 23,
     "uw_news": 25,
-    "massive_news": 21,
     "cnbc": 8,
     "zerohedge": 8,
     "seekingalpha": 7,
@@ -116,6 +116,29 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "61dc62b6395435",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T08:01:11Z",
+      "title": "$PLTR Setting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities....",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658267483",
+      "author": "AimeePerkins",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T08:01:11Z",
+      "text": "$PLTR Setting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities....",
+      "description": "",
+      "handle": "AimeePerkins",
+      "display_name": "Aimee",
+      "platform": "stocktwits"
+    },
     {
       "id": "6770574a1a54f5",
       "source": "stocktwits",
@@ -396,6 +419,33 @@
       "description": ""
     },
     {
+      "id": "ca39a1a636178b",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T07:30:00Z",
+      "title": "Stock Market Volatility: History Says This 1 Investing Move Is More Important Than Ever Before",
+      "body": "With the AI boom showing signs of exhaustion and the Magnificent Seven stocks underperforming, investors should pivot toward quality stocks with strong balance sheets and cash flow. The Invesco S&P 500 Quality ETF (SPHQ) is recommended as a defensive portfolio strategy that provides diversification ",
+      "url": "https://www.fool.com/investing/2026/07/04/stock-market-volatility-history-1-investing-move/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "AAPL",
+        "GOOG",
+        "GOOGL",
+        "GOOGM",
+        "GOOGN",
+        "MSFT",
+        "TSLA",
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 11.3,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-07-04T07:30:00Z",
+      "text": "Stock Market Volatility: History Says This 1 Investing Move Is More Important Than Ever Before",
+      "description": "With the AI boom showing signs of exhaustion and the Magnificent Seven stocks underperforming, investors should pivot toward quality stocks with strong balance sheets and cash flow. The Invesco S&P 500 Quality ETF (SPHQ) is recommended as a defensive portfolio strategy that provides diversification "
+    },
+    {
       "id": "d44e0d6db0abc8",
       "source": "reuters",
       "source_type": "rss",
@@ -504,6 +554,26 @@
       "handle": "ANALYZING",
       "display_name": "CT",
       "platform": "stocktwits"
+    },
+    {
+      "id": "37a0fa71deb2b6",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T07:05:00Z",
+      "title": "SpaceX Stock Rebounds Above $170. Here Is How Much Upside Analysts See Left.",
+      "body": "SpaceX stock has rebounded above $170 following its IPO, which priced at $135 per share. Wall Street analysts show wide disagreement on the stock's future, with price targets ranging from $115 to $400 per share, implying 30% average upside. However, Morningstar's independent analysis values the stoc",
+      "url": "https://www.fool.com/investing/2026/07/04/prediction-where-spacex-stock-will-trade-heading-i/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "SPCX"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T07:05:00Z",
+      "text": "SpaceX Stock Rebounds Above $170. Here Is How Much Upside Analysts See Left.",
+      "description": "SpaceX stock has rebounded above $170 following its IPO, which priced at $135 per share. Wall Street analysts show wide disagreement on the stock's future, with price targets ranging from $115 to $400 per share, implying 30% average upside. However, Morningstar's independent analysis values the stoc"
     },
     {
       "id": "3f883bd8b05a9f",
@@ -2108,29 +2178,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "cd87e51c009983",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T02:06:01Z",
-      "title": "Microsoft  is creating a new 6,000-person AI deployment organization to help enterprise customers implement artificial intelligence more effectively, reflecting growing demand for hands-on technical and strategic support as companies scale AI initiatives. The new division will combine engineers, ind",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658264308",
-      "author": "topstockalerts",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T02:06:01Z",
-      "text": "Microsoft  is creating a new 6,000-person AI deployment organization to help enterprise customers implement artificial intelligence more effectively, reflecting growing demand for hands-on technical and strategic support as companies scale AI initiatives. The new division will combine engineers, ind",
-      "description": "",
-      "handle": "topstockalerts",
-      "display_name": "Top Stock Alerts",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d00c73d4f9e3e3",
       "source": "zerohedge",
       "source_type": "rss",
@@ -3492,6 +3539,42 @@
       "description": ""
     },
     {
+      "id": "1c26239b249d73",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T03:17:00Z",
+      "title": "Fresh lawsuit drops bombshell on Micron stock price",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fresh-lawsuit-drops-bombshell-micron-031700372.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T03:17:00Z",
+      "text": "Fresh lawsuit drops bombshell on Micron stock price",
+      "description": ""
+    },
+    {
+      "id": "a1e50ad8c82089",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T03:16:10Z",
+      "title": "Solana Gets NYSE Boost as SOL Jumps 19% on Securitize Listing",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/solana-gets-nyse-boost-sol-031610156.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T03:16:10Z",
+      "text": "Solana Gets NYSE Boost as SOL Jumps 19% on Securitize Listing",
+      "description": ""
+    },
+    {
       "id": "287e3893a9591b",
       "source": "reuters",
       "source_type": "rss",
@@ -3507,42 +3590,6 @@
       "sentiment": "neutral",
       "time": "2026-07-03T03:05:29Z",
       "text": "Exclusive-Japan shifts to ambush intervention tactics against yen short sellers, sources say",
-      "description": ""
-    },
-    {
-      "id": "69f27b97fe71a2",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T03:03:31Z",
-      "title": "Rivian Raises Its Full-Year Delivery Forecast. Here\u2019s Why the Stock Is Soaring.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rivian-raises-full-delivery-forecast-030331228.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T03:03:31Z",
-      "text": "Rivian Raises Its Full-Year Delivery Forecast. Here\u2019s Why the Stock Is Soaring.",
-      "description": ""
-    },
-    {
-      "id": "ae2df8b0e62a69",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T02:58:16Z",
-      "title": "AI Memory and Storage Glut Fears Loom as SanDisk, Micron, Seagate All Plunge",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ai-memory-storage-glut-fears-025816447.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T02:58:16Z",
-      "text": "AI Memory and Storage Glut Fears Loom as SanDisk, Micron, Seagate All Plunge",
       "description": ""
     },
     {
