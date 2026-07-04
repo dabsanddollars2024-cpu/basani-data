@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T13:57:09Z",
-  "generated_display": "2026-07-04 13:57 ET",
-  "count": 166,
+  "generated": "2026-07-04T14:02:11Z",
+  "generated_display": "2026-07-04 14:02 ET",
+  "count": 169,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T13:57:01.821415+00:00",
+      "last_error_ts": "2026-07-04T14:02:01.904341+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 3348,
-      "last_success": "2026-07-04T13:57:05.170330+00:00",
+      "latency_ms": 166,
+      "last_success": "2026-07-04T14:02:02.071354+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 65,
-      "last_success": "2026-07-04T13:57:05.236464+00:00",
+      "latency_ms": 60,
+      "last_success": "2026-07-04T14:02:02.170920+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 17,
-      "latency_ms": 67,
-      "last_success": "2026-07-04T13:57:05.304958+00:00",
+      "items_pulled": 20,
+      "latency_ms": 220,
+      "last_success": "2026-07-04T14:02:02.392108+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T13:57:05.398376+00:00",
+      "last_error_ts": "2026-07-04T14:02:02.487496+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1573,
-      "last_success": "2026-07-04T13:57:06.971601+00:00",
+      "latency_ms": 6381,
+      "last_success": "2026-07-04T14:02:08.869392+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T13:57:08.035120+00:00",
+      "last_success": "2026-07-04T14:02:09.771836+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1799,
-      "last_success": "2026-07-04T13:57:09.834602+00:00",
+      "latency_ms": 2048,
+      "last_success": "2026-07-04T14:02:11.820542+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 125
+          "latency_ms": 114
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 274
+          "latency_ms": 189
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 98
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 403
+          "latency_ms": 402
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 18
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 142
+          "latency_ms": 87
         }
       }
     }
@@ -107,16 +107,154 @@
   "by_source": {
     "stocktwits": 75,
     "reuters": 16,
+    "massive_news": 20,
     "uw_news": 25,
     "marketwatch": 8,
     "cnbc": 8,
-    "massive_news": 17,
     "zerohedge": 8,
     "seekingalpha": 7,
     "benzinga": 1,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "d2054371e1c224",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T14:01:28Z",
+      "title": "$AAPL where Republican rest.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658270581",
+      "author": "BMakingMoney",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T14:01:28Z",
+      "text": "$AAPL where Republican rest.",
+      "description": "",
+      "handle": "BMakingMoney",
+      "display_name": "Bzone",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "88a0f2d7dbd24b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T14:00:18Z",
+      "title": "$AAPL this is the fourth phone in a row that has had the charger portal crapped out. Europeans are tired of scams and are mandating that they can change the batteries on their OWN PHONES. Time to switch away from Apple.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658270565",
+      "author": "BMakingMoney",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T14:00:18Z",
+      "text": "$AAPL this is the fourth phone in a row that has had the charger portal crapped out. Europeans are tired of scams and are mandating that they can change the batteries on their OWN PHONES. Time to switch away from Apple.",
+      "description": "",
+      "handle": "BMakingMoney",
+      "display_name": "Bzone",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ee9e7751be7115",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T13:59:42Z",
+      "title": "$AMD Institutional ownership exceeds 70%  \nhttps://www.marketbeat.com/stocks/NASDAQ/AMD/institutional-ownership/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658270559",
+      "author": "TheUnmaker",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T13:59:42Z",
+      "text": "$AMD Institutional ownership exceeds 70%  \nhttps://www.marketbeat.com/stocks/NASDAQ/AMD/institutional-ownership/",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4e689c377bd765",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T13:58:35Z",
+      "title": "$SPY $DJT $BTC.X \n\nJD Pants just got off one of these.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658270543",
+      "author": "SaLuSa_of_SIRIUS",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T13:58:35Z",
+      "text": "$SPY $DJT $BTC.X \n\nJD Pants just got off one of these.",
+      "description": "",
+      "handle": "SaLuSa_of_SIRIUS",
+      "display_name": "SaLuSa",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "915c5cab03a4f4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T13:57:50Z",
+      "title": "$ORCL $PLTR $TSLA Best wishes for Taylor.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658270529",
+      "author": "BMakingMoney",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T13:57:50Z",
+      "text": "$ORCL $PLTR $TSLA Best wishes for Taylor.",
+      "description": "",
+      "handle": "BMakingMoney",
+      "display_name": "Bzone",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d8d08f3bb0e5c2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T13:57:50Z",
+      "title": "$ORCL $PLTR $TSLA Best wishes for Taylor.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658270529",
+      "author": "BMakingMoney",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T13:57:50Z",
+      "text": "$ORCL $PLTR $TSLA Best wishes for Taylor.",
+      "description": "",
+      "handle": "BMakingMoney",
+      "display_name": "Bzone",
+      "platform": "stocktwits"
+    },
     {
       "id": "d4def5f0bc4d38",
       "source": "stocktwits",
@@ -348,6 +486,60 @@
       "platform": "stocktwits"
     },
     {
+      "id": "3b3566f3e20b0e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:53:03Z",
+      "title": "Strong SoC Platforms Demand Assert Ambarella, Inc. (AMBA) as a Top Robotics Stock to Buy According to Short Sellers",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/strong-soc-platforms-demand-assert-135303563.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:53:03Z",
+      "text": "Strong SoC Platforms Demand Assert Ambarella, Inc. (AMBA) as a Top Robotics Stock to Buy According to Short Sellers",
+      "description": ""
+    },
+    {
+      "id": "4243b797aa498a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:52:50Z",
+      "title": "Zebra Technologies Unveils CV70 CXP Camera for High-Speed Machine Vision Applications",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/articles/zebra-technologies-unveils-cv70-cxp-135250379.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:52:50Z",
+      "text": "Zebra Technologies Unveils CV70 CXP Camera for High-Speed Machine Vision Applications",
+      "description": ""
+    },
+    {
+      "id": "bf1c1ac64eb266",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:51:59Z",
+      "title": "Rockwell Automation, Inc. (ROK): One of the Best Robotics Stocks to Buy, Helping Manufacturers Move from Fragmented Automation",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rockwell-automation-inc-rok-one-135159666.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:51:59Z",
+      "text": "Rockwell Automation, Inc. (ROK): One of the Best Robotics Stocks to Buy, Helping Manufacturers Move from Fragmented Automation",
+      "description": ""
+    },
+    {
       "id": "a614d83b51298b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -394,27 +586,40 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a77132c53ba9ac",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T13:48:39Z",
-      "title": "$XLV \n\nSmart money moving into healthcare and financial sector, watching healthcare stocks next week $SPY",
+      "id": "7e26f713bd8e34",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:48:08Z",
+      "title": "\u200bHoneywell International Inc. (HON): One of The Best Robotics Stocks to Buy Poised for Manufacturing Automation Opportunities",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658270396",
-      "author": "TaylorEquityGroup",
-      "tickers": [
-        "SPY"
-      ],
+      "url": "https://finance.yahoo.com/technology/ai/articles/honeywell-international-inc-hon-one-134808247.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-04T13:48:39Z",
-      "text": "$XLV \n\nSmart money moving into healthcare and financial sector, watching healthcare stocks next week $SPY",
-      "description": "",
-      "handle": "TaylorEquityGroup",
-      "display_name": "TaylorEquityGroup",
-      "platform": "stocktwits"
+      "time": "2026-07-04T13:48:08Z",
+      "text": "\u200bHoneywell International Inc. (HON): One of The Best Robotics Stocks to Buy Poised for Manufacturing Automation Opportunities",
+      "description": ""
+    },
+    {
+      "id": "14d4d89e99ef85",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:48:01Z",
+      "title": "BofA Boosts Teradyne (TER) Price Target on Industry Growth",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-boosts-teradyne-ter-price-134801547.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:48:01Z",
+      "text": "BofA Boosts Teradyne (TER) Price Target on Industry Growth",
+      "description": ""
     },
     {
       "id": "fd8aeff98e6ab6",
@@ -438,6 +643,64 @@
       "handle": "ResearchTrends09",
       "display_name": "Brandon",
       "platform": "stocktwits"
+    },
+    {
+      "id": "23bcf621a0f3ca",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:47:53Z",
+      "title": "Here\u2019s Why Tesla Inc. (TSLA) is a Top Robotics Stock to Buy Amid Robotaxi and Optimus Developments",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/why-tesla-inc-tsla-top-134753521.html",
+      "author": "",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:47:53Z",
+      "text": "Here\u2019s Why Tesla Inc. (TSLA) is a Top Robotics Stock to Buy Amid Robotaxi and Optimus Developments",
+      "description": ""
+    },
+    {
+      "id": "e0299c3a094254",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:47:44Z",
+      "title": "Is NVIDIA Corporation (NVDA) The Best Robotics Stock to Buy According to Short Sellers?",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-best-robotics-134744460.html",
+      "author": "",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 9.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:47:44Z",
+      "text": "Is NVIDIA Corporation (NVDA) The Best Robotics Stock to Buy According to Short Sellers?",
+      "description": ""
+    },
+    {
+      "id": "2bc5c40d687f5a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:47:36Z",
+      "title": "Is Stryker Corp. (SYK) The Best Robotic Stock to Buy?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stryker-corp-syk-best-robotic-134736178.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:47:36Z",
+      "text": "Is Stryker Corp. (SYK) The Best Robotic Stock to Buy?",
+      "description": ""
     },
     {
       "id": "0738420e0b239e",
@@ -506,29 +769,6 @@
       "description": "",
       "handle": "Warrent_jr",
       "display_name": "Warrent jr",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "dec4bfbb0049bb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T13:45:14Z",
-      "title": "$TSLA Happy Fourth of July \ud83c\uddfa\ud83c\uddf8 everyone! Enjoy your weekend and let ready for bull run \ud83c\udfc3 and Monday. Sorry Mr. Bears \ud83d\udc3b you will be fucked up\ud83e\udd13\ud83c\uddfa\ud83c\uddf8\ud83c\udf86",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658270329",
-      "author": "Boonhome",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T13:45:14Z",
-      "text": "$TSLA Happy Fourth of July \ud83c\uddfa\ud83c\uddf8 everyone! Enjoy your weekend and let ready for bull run \ud83c\udfc3 and Monday. Sorry Mr. Bears \ud83d\udc3b you will be fucked up\ud83e\udd13\ud83c\uddfa\ud83c\uddf8\ud83c\udf86",
-      "description": "",
-      "handle": "Boonhome",
-      "display_name": "Tom Ma",
       "platform": "stocktwits"
     },
     {
@@ -716,24 +956,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "eb82191e907ca5",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:39:10Z",
-      "title": "Netflix Vs. Walt Disney: Netflix Prints Cold Hard Cash While Disney Bleeds to Fund Parks and Linear Cable Remnants",
-      "body": "",
-      "url": "https://finance.yahoo.com/media-advertising/articles/netflix-vs-walt-disney-netflix-133910854.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:39:10Z",
-      "text": "Netflix Vs. Walt Disney: Netflix Prints Cold Hard Cash While Disney Bleeds to Fund Parks and Linear Cable Remnants",
-      "description": ""
-    },
-    {
       "id": "32f1c4db5da18f",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -803,42 +1025,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "5b0653a01f2974",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:37:17Z",
-      "title": "Is Envista Holdings Corporation (NVST) a Top Ariel Investment Stock to Buy?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/envista-holdings-corporation-nvst-top-133717604.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:37:17Z",
-      "text": "Is Envista Holdings Corporation (NVST) a Top Ariel Investment Stock to Buy?",
-      "description": ""
-    },
-    {
-      "id": "08d46c30358c72",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:36:47Z",
-      "title": "Is BOK Financial Corporation (BOKF) a Top Stock to Buy According to Ariel Investments?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bok-financial-corporation-bokf-top-133647466.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:36:47Z",
-      "text": "Is BOK Financial Corporation (BOKF) a Top Stock to Buy According to Ariel Investments?",
-      "description": ""
-    },
-    {
       "id": "a512f151d917b6",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -862,42 +1048,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "8a3730cb87e058",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:36:38Z",
-      "title": "Knicks Success Assert Madison Square Garden Sports Corp. (MSGS) as a Top Stock to Buy According to Ariel Investments",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/knicks-success-assert-madison-square-133638551.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:36:38Z",
-      "text": "Knicks Success Assert Madison Square Garden Sports Corp. (MSGS) as a Top Stock to Buy According to Ariel Investments",
-      "description": ""
-    },
-    {
-      "id": "adb7bee3846836",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:36:30Z",
-      "title": "Why is Morgan Stanley Bullish on Charles River Laboratories International, Inc. (CRL) as a Top Stock to Buy According to Ariel Investment?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-morgan-stanley-bullish-charles-133630518.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:36:30Z",
-      "text": "Why is Morgan Stanley Bullish on Charles River Laboratories International, Inc. (CRL) as a Top Stock to Buy According to Ariel Investment?",
-      "description": ""
-    },
-    {
       "id": "7783ec6f36ba44",
       "source": "reuters",
       "source_type": "rss",
@@ -913,60 +1063,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04 13:36:27",
       "text": "Khamenei lies in state in Tehran as Iran begins week of funeral ceremonies",
-      "description": ""
-    },
-    {
-      "id": "755f3e5e73d435",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:36:20Z",
-      "title": "Prestige Consumer Healthcare Inc. (PBH): A Top Ariel Investments Stock to Buy Following Breathe Right Brand Acquisition",
-      "body": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/prestige-consumer-healthcare-inc-pbh-133620795.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:36:20Z",
-      "text": "Prestige Consumer Healthcare Inc. (PBH): A Top Ariel Investments Stock to Buy Following Breathe Right Brand Acquisition",
-      "description": ""
-    },
-    {
-      "id": "123604fcc6991d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:36:09Z",
-      "title": "Norwegian Cruise Line Holdings Ltd. (NCLH): A Top Cruise Stock to Buy According to Ariel Investments",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/norwegian-cruise-line-holdings-ltd-133609500.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:36:09Z",
-      "text": "Norwegian Cruise Line Holdings Ltd. (NCLH): A Top Cruise Stock to Buy According to Ariel Investments",
-      "description": ""
-    },
-    {
-      "id": "2801c3c4c1b654",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:35:57Z",
-      "title": "Solid Growth Prospects Assert Sphere Entertainment Co. (SPHR) as a Top Stock to Buy According to Ariel Investments",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/solid-growth-prospects-assert-sphere-133557447.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:35:57Z",
-      "text": "Solid Growth Prospects Assert Sphere Entertainment Co. (SPHR) as a Top Stock to Buy According to Ariel Investments",
       "description": ""
     },
     {
@@ -1057,6 +1153,28 @@
       "description": ""
     },
     {
+      "id": "9ae815cda28cee",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T13:30:00Z",
+      "title": "Sandisk Stock Was the Biggest Winner in the First Half of 2026. What's Next for the Second Half?",
+      "body": "Sandisk has surged 800% in the first half of 2026, making it the best-performing S&P 500 stock. The company benefits from severe NAND memory chip shortages driven by massive data center demand. Despite the massive run-up, analysts believe the stock has further upside potential given tight industry c",
+      "url": "https://www.fool.com/investing/2026/07/04/sandisk-stock-was-the-biggest-winner-in-the-first/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "SNDK",
+        "MU",
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:30:00Z",
+      "text": "Sandisk Stock Was the Biggest Winner in the First Half of 2026. What's Next for the Second Half?",
+      "description": "Sandisk has surged 800% in the first half of 2026, making it the best-performing S&P 500 stock. The company benefits from severe NAND memory chip shortages driven by massive data center demand. Despite the massive run-up, analysts believe the stock has further upside potential given tight industry c"
+    },
+    {
       "id": "a2d6f541d07c3e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1077,29 +1195,6 @@
       "description": "",
       "handle": "Toorichtocare",
       "display_name": "Robert Halfway",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f1a882b63b3002",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T13:24:56Z",
-      "title": "$PLTR AIP Evolve...game changer...",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658269995",
-      "author": "Bishop2D2",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T13:24:56Z",
-      "text": "$PLTR AIP Evolve...game changer...",
-      "description": "",
-      "handle": "Bishop2D2",
-      "display_name": "Dan Kim",
       "platform": "stocktwits"
     },
     {
@@ -1213,6 +1308,28 @@
       "time": "2026-07-04T13:18:19Z",
       "text": "Bollinger Bands architect predicts end of Bitcoin bear-market with 'W'-shaped reversal as BTC price may break downtrend.",
       "description": ""
+    },
+    {
+      "id": "ee746fa661e722",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T13:15:00Z",
+      "title": "Oil is Starting to Flow Out of the Strait of Hormuz Again. Should You Still Buy Oil Stocks?",
+      "body": "Following geopolitical tensions in the Middle East that temporarily spiked oil prices, the market has cooled and prices have returned to pre-conflict levels. Despite this, major oil companies warn that prices don't reflect true industry fundamentals. The article argues that oil and natural gas remai",
+      "url": "https://www.fool.com/investing/2026/07/04/oil-is-starting-to-flow-out-of-the-strait-of-hormu/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "CVX",
+        "DVN",
+        "FANG"
+      ],
+      "tags": [],
+      "impact_score": 13.8,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:15:00Z",
+      "text": "Oil is Starting to Flow Out of the Strait of Hormuz Again. Should You Still Buy Oil Stocks?",
+      "description": "Following geopolitical tensions in the Middle East that temporarily spiked oil prices, the market has cooled and prices have returned to pre-conflict levels. Despite this, major oil companies warn that prices don't reflect true industry fundamentals. The article argues that oil and natural gas remai"
     },
     {
       "id": "0b9df8b60b0f36",
@@ -1371,6 +1488,26 @@
       "platform": "stocktwits"
     },
     {
+      "id": "8250a4abf3e0b1",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T13:06:00Z",
+      "title": "Here's the Precise Timeline of When SpaceX Insiders Can Dump Their Shares on Retail Investors",
+      "body": "SpaceX's IPO raised a record $85.7 billion on June 12, 2026, but the company faces an accelerated lockup period expiring around August 6 when insiders can begin selling shares. The article warns that a massive insider sell-off, combined with potential share dilution from future capital raises, poses",
+      "url": "https://www.fool.com/investing/2026/07/04/precise-timeline-spacex-insider-dump-shares-retail/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "SPCX"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:06:00Z",
+      "text": "Here's the Precise Timeline of When SpaceX Insiders Can Dump Their Shares on Retail Investors",
+      "description": "SpaceX's IPO raised a record $85.7 billion on June 12, 2026, but the company faces an accelerated lockup period expiring around August 6 when insiders can begin selling shares. The article warns that a massive insider sell-off, combined with potential share dilution from future capital raises, poses"
+    },
+    {
       "id": "db71814ef6b6d1",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1468,29 +1605,6 @@
       "description": "",
       "handle": "KornieAwareness7",
       "display_name": "K. A.",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0de4142f485dfc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T12:54:58Z",
-      "title": "$SPCX  Anything stand out to you? $NVDA $GOOG $AAPL $MSFT",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658269635",
-      "author": "Mordorian",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T12:54:58Z",
-      "text": "$SPCX  Anything stand out to you? $NVDA $GOOG $AAPL $MSFT",
-      "description": "",
-      "handle": "Mordorian",
-      "display_name": "Buzz",
       "platform": "stocktwits"
     },
     {
@@ -1703,29 +1817,6 @@
       "description": "",
       "handle": "AshHydrogen",
       "display_name": "Ashley Wolter",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "adcaaf2e8508f9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T12:30:54Z",
-      "title": "$AAPL",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658269346",
-      "author": "ResearchTrends09",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T12:30:54Z",
-      "text": "$AAPL",
-      "description": "",
-      "handle": "ResearchTrends09",
-      "display_name": "Brandon",
       "platform": "stocktwits"
     },
     {
@@ -1981,29 +2072,6 @@
       "time": "2026-07-04 11:42:24",
       "text": "UK\u2019s Next plans takeover bid for Harvey Nichols, Sky News reports",
       "description": ""
-    },
-    {
-      "id": "6463cee63d4474",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T11:41:19Z",
-      "title": "$MU $NVDA $AMD $WDC $INTC",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658268790",
-      "author": "bullen1",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T11:41:19Z",
-      "text": "$MU $NVDA $AMD $WDC $INTC",
-      "description": "",
-      "handle": "bullen1",
-      "display_name": "Henrik August Linder",
-      "platform": "stocktwits"
     },
     {
       "id": "90695388edf33e",
