@@ -1,21 +1,21 @@
 {
-  "generated": "2026-07-04T02:57:06Z",
-  "generated_display": "2026-07-04 02:57 ET",
-  "count": 188,
+  "generated": "2026-07-04T03:02:07Z",
+  "generated_display": "2026-07-04 03:02 ET",
+  "count": 191,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T02:57:01.813910+00:00",
+      "last_error_ts": "2026-07-04T03:02:01.870951+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 5,
-      "latency_ms": 156,
-      "last_success": "2026-07-04T02:57:01.971033+00:00",
+      "latency_ms": 199,
+      "last_success": "2026-07-04T03:02:02.071482+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 99,
-      "last_success": "2026-07-04T02:57:02.071547+00:00",
+      "last_success": "2026-07-04T03:02:02.172007+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 35,
+      "items_pulled": 38,
       "latency_ms": 99,
-      "last_success": "2026-07-04T02:57:02.173327+00:00",
+      "last_success": "2026-07-04T03:02:02.273563+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T02:57:02.209927+00:00",
+      "last_error_ts": "2026-07-04T03:02:02.389498+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1761,
-      "last_success": "2026-07-04T02:57:03.971625+00:00",
+      "latency_ms": 1681,
+      "last_success": "2026-07-04T03:02:04.071264+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T02:57:05.032078+00:00",
+      "last_success": "2026-07-04T03:02:04.940014+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1916,
-      "last_success": "2026-07-04T02:57:06.948630+00:00",
+      "latency_ms": 2086,
+      "last_success": "2026-07-04T03:02:07.026159+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 124
+          "latency_ms": 112
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 352
+          "latency_ms": 79
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 60
+          "latency_ms": 44
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 268
+          "latency_ms": 465
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 192
+          "latency_ms": 34
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 61
+          "latency_ms": 132
         }
       }
     }
@@ -107,9 +107,9 @@
   "by_source": {
     "stocktwits": 75,
     "reuters": 16,
+    "massive_news": 38,
     "uw_news": 25,
     "zerohedge": 8,
-    "massive_news": 35,
     "cnbc": 8,
     "seekingalpha": 7,
     "marketwatch": 8,
@@ -117,6 +117,75 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "15b0b7113fbe1d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T02:59:00Z",
+      "title": "$SPY $QQQ Monday (you are here) \n\nGap higher and Run\u2026closing right near day highs.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658265037",
+      "author": "SparkySC",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T02:59:00Z",
+      "text": "$SPY $QQQ Monday (you are here) \n\nGap higher and Run\u2026closing right near day highs.",
+      "description": "",
+      "handle": "SparkySC",
+      "display_name": "SparkySC",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a11e2d26a32688",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T02:59:00Z",
+      "title": "$SPY $QQQ Monday (you are here) \n\nGap higher and Run\u2026closing right near day highs.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658265037",
+      "author": "SparkySC",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T02:59:00Z",
+      "text": "$SPY $QQQ Monday (you are here) \n\nGap higher and Run\u2026closing right near day highs.",
+      "description": "",
+      "handle": "SparkySC",
+      "display_name": "SparkySC",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4515a531a98b06",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T02:57:47Z",
+      "title": "$AAPL will get us to $500.00. Not hard if earnings grow.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658265020",
+      "author": "masonjoel99",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T02:57:47Z",
+      "text": "$AAPL will get us to $500.00. Not hard if earnings grow.",
+      "description": "",
+      "handle": "masonjoel99",
+      "display_name": "Joel Mason",
+      "platform": "stocktwits"
+    },
     {
       "id": "e025412458ba9c",
       "source": "stocktwits",
@@ -435,6 +504,26 @@
       "description": ""
     },
     {
+      "id": "40864ba58e48c4",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T02:48:00Z",
+      "title": "TruBridge Investor News: If You Have Suffered Losses in TruBridge, Inc. (NASDAQ: TBRG), You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
+      "body": "TruBridge, Inc. (NASDAQ: TBRG) is facing a securities class action investigation after filing a late notification on March 17, 2026, revealing material errors in previously issued financial statements for 2023, 2024, and 2025. The errors involved revenue recognition, stock-based compensation, and ca",
+      "url": "https://www.globenewswire.com/news-release/2026/07/04/3322005/673/en/TruBridge-Investor-News-If-You-Have-Suffered-Losses-in-TruBridge-Inc-NASDAQ-TBRG-You-Are-Encouraged-to-Contact-The-Rosen-Law-Firm-About-Your-Rights.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "TBRG"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T02:48:00Z",
+      "text": "TruBridge Investor News: If You Have Suffered Losses in TruBridge, Inc. (NASDAQ: TBRG), You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
+      "description": "TruBridge, Inc. (NASDAQ: TBRG) is facing a securities class action investigation after filing a late notification on March 17, 2026, revealing material errors in previously issued financial statements for 2023, 2024, and 2025. The errors involved revenue recognition, stock-based compensation, and ca"
+    },
+    {
       "id": "531c3edfeeb9f9",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -501,29 +590,6 @@
       "description": "",
       "handle": "GODDY1",
       "display_name": "AJA",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "3bdaca750b1a82",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T02:44:14Z",
-      "title": "$IWM\n\n$MRNA \ud83c\udf81\ud83d\udcaa \n\n$QQQ $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658264838",
-      "author": "PivotPoint_101",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T02:44:14Z",
-      "text": "$IWM\n\n$MRNA \ud83c\udf81\ud83d\udcaa \n\n$QQQ $SPY",
-      "description": "",
-      "handle": "PivotPoint_101",
-      "display_name": "Brian P.",
       "platform": "stocktwits"
     },
     {
@@ -683,29 +749,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a961098232e4f0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T02:32:29Z",
-      "title": "$DJT $SPY $QQQ &quot;May every day be another wonderful secret&quot; &#39;Donald Jm Trump \ud83e\udd2e\ud83e\udd2e\ud83e\udd2e",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658264661",
-      "author": "GeniusintheFlesh",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T02:32:29Z",
-      "text": "$DJT $SPY $QQQ &quot;May every day be another wonderful secret&quot; &#39;Donald Jm Trump \ud83e\udd2e\ud83e\udd2e\ud83e\udd2e",
-      "description": "",
-      "handle": "GeniusintheFlesh",
-      "display_name": "Mister",
-      "platform": "stocktwits"
-    },
-    {
       "id": "73b691e13eb1af",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -727,6 +770,26 @@
       "handle": "TalkMarkets",
       "display_name": "TalkMarkets",
       "platform": "stocktwits"
+    },
+    {
+      "id": "f16a3507c1811b",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T02:26:00Z",
+      "title": "SpaceX Is Finally Public. Here's How Much a $1,000 Investment Would Get You.",
+      "body": "SpaceX has recently gone public, trading at $162 per share, allowing a $1,000 investment to purchase approximately six shares. While the company's Starlink division is highly profitable with $4.4 billion in operating profit, its space exploration and AI segments are losing billions annually. The ana",
+      "url": "https://www.fool.com/investing/2026/07/03/spacex-is-finally-public-heres-how-much-a-1000-inv/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "SPCX"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T02:26:00Z",
+      "text": "SpaceX Is Finally Public. Here's How Much a $1,000 Investment Would Get You.",
+      "description": "SpaceX has recently gone public, trading at $162 per share, allowing a $1,000 investment to purchase approximately six shares. While the company's Starlink division is highly profitable with $4.4 billion in operating profit, its space exploration and AI segments are losing billions annually. The ana"
     },
     {
       "id": "650929bf4fc8f7",
@@ -796,6 +859,26 @@
       "platform": "stocktwits"
     },
     {
+      "id": "6cea344558993a",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T02:20:00Z",
+      "title": "ROSEN, SKILLED INVESTOR COUNSEL, Encourages Futu Holdings Limited Investors to Secure Counsel Before Important Deadline in Securities Class Action - FUTU",
+      "body": "Rosen Law Firm has filed a class action lawsuit against Futu Holdings Limited (NASDAQ: FUTU) on behalf of investors who purchased securities between May 24, 2023 and May 27, 2026. The lawsuit alleges that Futu made materially false and misleading statements regarding its compliance with China Securi",
+      "url": "https://www.globenewswire.com/news-release/2026/07/04/3322004/673/en/ROSEN-SKILLED-INVESTOR-COUNSEL-Encourages-Futu-Holdings-Limited-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-FUTU.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "FUTU"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T02:20:00Z",
+      "text": "ROSEN, SKILLED INVESTOR COUNSEL, Encourages Futu Holdings Limited Investors to Secure Counsel Before Important Deadline in Securities Class Action - FUTU",
+      "description": "Rosen Law Firm has filed a class action lawsuit against Futu Holdings Limited (NASDAQ: FUTU) on behalf of investors who purchased securities between May 24, 2023 and May 27, 2026. The lawsuit alleges that Futu made materially false and misleading statements regarding its compliance with China Securi"
+    },
+    {
       "id": "6e1222864e61ea",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -840,6 +923,30 @@
       "handle": "StockInvestor_John",
       "display_name": "John",
       "platform": "stocktwits"
+    },
+    {
+      "id": "6774bc9250a8f1",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T02:15:00Z",
+      "title": "Synchrony's Credit Numbers Are Improving Even as Inflation Bites. Is the Everyday Consumer Tougher Than Feared?",
+      "body": "Synchrony Financial's credit metrics are showing resilience despite inflationary pressures, with stable delinquency rates and improving charge-offs compared to year-ago figures. The company recently announced a 13% dividend increase and $6.5 billion stock repurchase program. However, the stock is tr",
+      "url": "https://www.fool.com/investing/2026/07/03/synchronys-credit-numbers-are-improving-even-as-in/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "SYF",
+        "SYFpA",
+        "SYFpB",
+        "AMZN",
+        "WMT"
+      ],
+      "tags": [],
+      "impact_score": 11.3,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-07-04T02:15:00Z",
+      "text": "Synchrony's Credit Numbers Are Improving Even as Inflation Bites. Is the Everyday Consumer Tougher Than Feared?",
+      "description": "Synchrony Financial's credit metrics are showing resilience despite inflationary pressures, with stable delinquency rates and improving charge-offs compared to year-ago figures. The company recently announced a 13% dividend increase and $6.5 billion stock repurchase program. However, the stock is tr"
     },
     {
       "id": "db0f5e215dd181",
@@ -1192,29 +1299,6 @@
       "description": "",
       "handle": "topstockalerts",
       "display_name": "Top Stock Alerts",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "67da170a695201",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T01:38:27Z",
-      "title": "$SPY $QQQ $IWM $AAPL \n#pivotgroup\ud83c\udf81\ud83d\udd10",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658263951",
-      "author": "PivotPoint_101",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T01:38:27Z",
-      "text": "$SPY $QQQ $IWM $AAPL \n#pivotgroup\ud83c\udf81\ud83d\udd10",
-      "description": "",
-      "handle": "PivotPoint_101",
-      "display_name": "Brian P.",
       "platform": "stocktwits"
     },
     {
@@ -3477,26 +3561,6 @@
       "description": "\u201cI\u2019m torn between these two options.\u201d"
     },
     {
-      "id": "75278f2f89d26f",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-03T18:59:00Z",
-      "title": "Resource Works welcomes Cooperative Prosperity Agreement and new oil pipeline proposal as landmark day for Canada\u2019s resource economy",
-      "body": "Canada and British Columbia signed a Cooperative Prosperity Agreement on July 2, 2026, committing over $200 billion in new resource sector investment. The same day, Alberta announced a new $35-44 billion west coast oil pipeline project from Bruderheim to southern B.C., expected to create 175,000 job",
-      "url": "https://www.globenewswire.com/news-release/2026/07/03/3321973/0/en/Resource-Works-welcomes-Cooperative-Prosperity-Agreement-and-new-oil-pipeline-proposal-as-landmark-day-for-Canada-s-resource-economy.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "PBA"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T18:59:00Z",
-      "text": "Resource Works welcomes Cooperative Prosperity Agreement and new oil pipeline proposal as landmark day for Canada\u2019s resource economy",
-      "description": "Canada and British Columbia signed a Cooperative Prosperity Agreement on July 2, 2026, committing over $200 billion in new resource sector investment. The same day, Alberta announced a new $35-44 billion west coast oil pipeline project from Bruderheim to southern B.C., expected to create 175,000 job"
-    },
-    {
       "id": "f37117d234b6a0",
       "source": "marketwatch",
       "source_type": "rss",
@@ -3592,7 +3656,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Fri, 03 Jul 2026 15:31:30 -0400",
       "title": "EXCLUSIVE: Top 12 Most-Searched Tickers For First Half of 2026 - Where Do Micron, Nvidia, Tesla, SanDisk Rank?",
-      "body": "Each trading day, Benzinga Pro features hundreds of headlines and press releases, allowing traders to access the latest&nbsp;market news and individual stock information.\n\n\n\nBelow is a look at the most-searched tickers for June, along with how interest compares to recent months.\n\n\n\nCurrent prices and year-to-date performance are based on July 1 closing prices and do not include dividends.\n\n\n\n1. SP",
+      "body": "3:31 PM EDT, July 03, 2026 (Benzinga Newswire) Each trading day, Benzinga Pro features hundreds of headlines and press releases, allowing traders to access the latest&nbsp;market news and individual stock information.\n\n\n\nBelow is a look at the most-searched tickers for June, along with how interest compares to recent months.\n\n\n\nCurrent prices and year-to-date performance are based on July 1 closin",
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60266829/exclusive-top-12-most-searched-tickers-for-first-half-of-2026-where-do-micron-nvidia-tesla-sandisk-rank",
       "author": "Chris Katje",
       "tickers": [
@@ -3606,12 +3670,12 @@
         "AMD"
       ],
       "tags": [],
-      "impact_score": 9.8,
+      "impact_score": 9.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
       "time": "Fri, 03 Jul 2026 15:31:30 -0400",
       "text": "EXCLUSIVE: Top 12 Most-Searched Tickers For First Half of 2026 - Where Do Micron, Nvidia, Tesla, SanDisk Rank?",
-      "description": "Each trading day, Benzinga Pro features hundreds of headlines and press releases, allowing traders to access the latest&nbsp;market news and individual stock information.\n\n\n\nBelow is a look at the most-searched tickers for June, along with how interest compares to recent months.\n\n\n\nCurrent prices and year-to-date performance are based on July 1 closing prices and do not include dividends.\n\n\n\n1. SP",
+      "description": "3:31 PM EDT, July 03, 2026 (Benzinga Newswire) Each trading day, Benzinga Pro features hundreds of headlines and press releases, allowing traders to access the latest&nbsp;market news and individual stock information.\n\n\n\nBelow is a look at the most-searched tickers for June, along with how interest compares to recent months.\n\n\n\nCurrent prices and year-to-date performance are based on July 1 closin",
       "channels": [
         "Trading Ideas",
         "Long Ideas",
@@ -3642,7 +3706,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Fri, 03 Jul 2026 13:35:24 -0400",
       "title": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-      "body": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often look for circumstances when the market estimation of an option diverges away from its normal worth. Abnormal amounts of trading activity could push option prices to hyperbolic or u",
+      "body": "1:35 PM EDT, July 03, 2026 (Benzinga Newswire) This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often look for circumstances when the market estimation of an option diverges away from its normal worth. Abnormal amounts of trading activ",
       "url": "https://www.benzinga.com/markets/options/26/07/60266614/10-information-technology-stocks-whale-activity-today-s-session",
       "author": "Benzinga Insights",
       "tickers": [
@@ -3661,7 +3725,7 @@
       "sentiment": "neutral",
       "time": "Fri, 03 Jul 2026 13:35:24 -0400",
       "text": "10 Information Technology Stocks Whale Activity In Today\u2019s Session",
-      "description": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often look for circumstances when the market estimation of an option diverges away from its normal worth. Abnormal amounts of trading activity could push option prices to hyperbolic or u",
+      "description": "1:35 PM EDT, July 03, 2026 (Benzinga Newswire) This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders often look for circumstances when the market estimation of an option diverges away from its normal worth. Abnormal amounts of trading activ",
       "channels": [
         "Options"
       ]
@@ -3780,7 +3844,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Fri, 03 Jul 2026 11:31:08 -0400",
       "title": "This AI Stock Beat Nvidia by 200%\u2014Then Zuckerberg Sparked a 17% Sell-Off",
-      "body": "Applied Optoelectronics, Inc. (NASDAQ:AAOI) just suffered one of its worst trading sessions of 2026. It still happens to be outperforming Nvidia Corp (NASDAQ:NVDA) by more than 200 percentage points this year.\n\n\n\nShares of the AI networking company plunged 17% Thursday after Meta Platforms, Inc. (NASDAQ:META) CEO Mark Zuckerberg&#8216;s comments on AI infrastructure spending sparked a broad sell-o",
+      "body": "11:31 AM EDT, July 03, 2026 (Benzinga Newswire) Applied Optoelectronics, Inc. (NASDAQ:AAOI) just suffered one of its worst trading sessions of 2026. It still happens to be outperforming Nvidia Corp (NASDAQ:NVDA) by more than 200 percentage points this year.\n\n\n\nShares of the AI networking company plunged 17% Thursday after Meta Platforms, Inc. (NASDAQ:META) CEO Mark Zuckerberg&#8216;s comments on A",
       "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60266223/this-ai-stock-beat-nvidia-by-200-then-zuckerberg-sparked-a-17-sell-off",
       "author": "Surbhi Jain",
       "tickers": [
@@ -3799,7 +3863,7 @@
       "sentiment": "neutral",
       "time": "Fri, 03 Jul 2026 11:31:08 -0400",
       "text": "This AI Stock Beat Nvidia by 200%\u2014Then Zuckerberg Sparked a 17% Sell-Off",
-      "description": "Applied Optoelectronics, Inc. (NASDAQ:AAOI) just suffered one of its worst trading sessions of 2026. It still happens to be outperforming Nvidia Corp (NASDAQ:NVDA) by more than 200 percentage points this year.\n\n\n\nShares of the AI networking company plunged 17% Thursday after Meta Platforms, Inc. (NASDAQ:META) CEO Mark Zuckerberg&#8216;s comments on AI infrastructure spending sparked a broad sell-o",
+      "description": "11:31 AM EDT, July 03, 2026 (Benzinga Newswire) Applied Optoelectronics, Inc. (NASDAQ:AAOI) just suffered one of its worst trading sessions of 2026. It still happens to be outperforming Nvidia Corp (NASDAQ:NVDA) by more than 200 percentage points this year.\n\n\n\nShares of the AI networking company plunged 17% Thursday after Meta Platforms, Inc. (NASDAQ:META) CEO Mark Zuckerberg&#8216;s comments on A",
       "channels": [
         "Tech",
         "Trading Ideas",
@@ -3831,7 +3895,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Fri, 03 Jul 2026 05:58:42 -0400",
       "title": "Market Analysis: Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-      "body": "Amidst the fast-paced and highly competitive business environment of today, conducting comprehensive company analysis is essential for investors and industry enthusiasts. In this article, we will delve into an extensive industry comparison, evaluating Apple (NASDAQ:AAPL) in comparison to its major competitors within the Technology Hardware, Storage &amp; Peripherals industry. By analyzing critical",
+      "body": "5:58 AM EDT, July 03, 2026 (Benzinga Newswire) Amidst the fast-paced and highly competitive business environment of today, conducting comprehensive company analysis is essential for investors and industry enthusiasts. In this article, we will delve into an extensive industry comparison, evaluating Apple (NASDAQ:AAPL) in comparison to its major competitors within the Technology Hardware, Storage &a",
       "url": "https://www.benzinga.com/news/26/07/60265069/market-analysis-apple-and-competitors-technology-hardware-storage-amp-peripherals-industry",
       "author": "Benzinga Insights",
       "tickers": [
@@ -3843,7 +3907,7 @@
       "sentiment": "neutral",
       "time": "Fri, 03 Jul 2026 05:58:42 -0400",
       "text": "Market Analysis: Apple And Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-      "description": "Amidst the fast-paced and highly competitive business environment of today, conducting comprehensive company analysis is essential for investors and industry enthusiasts. In this article, we will delve into an extensive industry comparison, evaluating Apple (NASDAQ:AAPL) in comparison to its major competitors within the Technology Hardware, Storage &amp; Peripherals industry. By analyzing critical",
+      "description": "5:58 AM EDT, July 03, 2026 (Benzinga Newswire) Amidst the fast-paced and highly competitive business environment of today, conducting comprehensive company analysis is essential for investors and industry enthusiasts. In this article, we will delve into an extensive industry comparison, evaluating Apple (NASDAQ:AAPL) in comparison to its major competitors within the Technology Hardware, Storage &a",
       "channels": [
         "News",
         "Trading Ideas",
@@ -3856,7 +3920,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Fri, 03 Jul 2026 05:58:34 -0400",
       "title": "Comparing Microsoft With Industry Competitors In Software Industry",
-      "body": "In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry out an in-depth industry comparison, assessing Microsoft (NASDAQ:MSFT) alongside its primary competitors in the Software industry. By meticulously examining key financial metrics, market positioning, a",
+      "body": "5:58 AM EDT, July 03, 2026 (Benzinga Newswire) In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry out an in-depth industry comparison, assessing Microsoft (NASDAQ:MSFT) alongside its primary competitors in the Software industry. By meticulously examini",
       "url": "https://www.benzinga.com/news/26/07/60265067/comparing-microsoft-industry-competitors-software-industry",
       "author": "Benzinga Insights",
       "tickers": [
@@ -3868,7 +3932,7 @@
       "sentiment": "neutral",
       "time": "Fri, 03 Jul 2026 05:58:34 -0400",
       "text": "Comparing Microsoft With Industry Competitors In Software Industry",
-      "description": "In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry out an in-depth industry comparison, assessing Microsoft (NASDAQ:MSFT) alongside its primary competitors in the Software industry. By meticulously examining key financial metrics, market positioning, a",
+      "description": "5:58 AM EDT, July 03, 2026 (Benzinga Newswire) In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry out an in-depth industry comparison, assessing Microsoft (NASDAQ:MSFT) alongside its primary competitors in the Software industry. By meticulously examini",
       "channels": [
         "News",
         "Trading Ideas",
@@ -3929,6 +3993,42 @@
       "sentiment": "neutral",
       "time": "2026-07-02T21:21:20Z",
       "text": "Can SpaceX Stock Sustain Its Stellar Valuation?",
+      "description": ""
+    },
+    {
+      "id": "30a8d320b0f491",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T21:06:01Z",
+      "title": "Private Credit Is Betting on Consumer Debt at a Precarious Time",
+      "body": "",
+      "url": "https://finance.yahoo.com/video/private-credit-betting-consumer-debt-210601965.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T21:06:01Z",
+      "text": "Private Credit Is Betting on Consumer Debt at a Precarious Time",
+      "description": ""
+    },
+    {
+      "id": "f09f73b8ce9d3e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T21:04:37Z",
+      "title": "Get Paid 11% A Year To Hold TT Stock You Already Own",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/options/articles/paid-11-hold-tt-stock-210437449.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T21:04:37Z",
+      "text": "Get Paid 11% A Year To Hold TT Stock You Already Own",
       "description": ""
     },
     {
@@ -4003,42 +4103,6 @@
       "sentiment": "neutral",
       "time": "2026-07-02T21:00:04Z",
       "text": "ETF League Tables: Direxion Inflows Total $237M",
-      "description": ""
-    },
-    {
-      "id": "c11e738f741295",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:57:32Z",
-      "title": "Got $1,000 to Invest? Buy These 2 Stocks Right Now and Hold Them for Decades.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/got-1-000-invest-buy-205732229.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:57:32Z",
-      "text": "Got $1,000 to Invest? Buy These 2 Stocks Right Now and Hold Them for Decades.",
-      "description": ""
-    },
-    {
-      "id": "356d81a7daca0c",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T20:52:28Z",
-      "title": "Get Paid 8.1% A Year To Hold RTX Stock You Already Own",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/paid-8-1-hold-rtx-205228476.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T20:52:28Z",
-      "text": "Get Paid 8.1% A Year To Hold RTX Stock You Already Own",
       "description": ""
     },
     {
