@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-04T06:42:07Z",
-  "generated_display": "2026-07-04 06:42 ET",
+  "generated": "2026-07-04T06:47:07Z",
+  "generated_display": "2026-07-04 06:47 ET",
   "count": 173,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T06:42:01.786585+00:00",
+      "last_error_ts": "2026-07-04T06:47:01.899913+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 113,
-      "last_success": "2026-07-04T06:42:01.899771+00:00",
+      "latency_ms": 149,
+      "last_success": "2026-07-04T06:47:02.049916+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 109,
-      "last_success": "2026-07-04T06:42:02.052206+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-04T06:47:02.150946+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 31,
-      "last_success": "2026-07-04T06:42:02.085525+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-04T06:47:02.251906+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T06:42:02.175053+00:00",
+      "last_error_ts": "2026-07-04T06:47:02.358187+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2186,
-      "last_success": "2026-07-04T06:42:04.361934+00:00",
+      "latency_ms": 1991,
+      "last_success": "2026-07-04T06:47:04.349581+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T06:42:05.063275+00:00",
+      "last_success": "2026-07-04T06:47:05.250373+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 2030,
-      "last_success": "2026-07-04T06:42:07.093815+00:00",
+      "latency_ms": 1942,
+      "last_success": "2026-07-04T06:47:07.193391+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 194
+          "latency_ms": 210
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 95
+          "latency_ms": 36
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 38
+          "latency_ms": 160
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 264
+          "latency_ms": 199
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 16
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 90
+          "latency_ms": 283
         }
       }
     }
@@ -107,15 +107,38 @@
   "by_source": {
     "stocktwits": 75,
     "reuters": 16,
+    "cnbc": 8,
     "uw_news": 25,
     "massive_news": 25,
     "zerohedge": 8,
-    "cnbc": 8,
     "seekingalpha": 7,
     "marketwatch": 8,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "25d2096e48f952",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T06:45:15Z",
+      "title": "$SPY Retail invested in memory more than anything before lmao $MU",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658267081",
+      "author": "ShortJon1999",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T06:45:15Z",
+      "text": "$SPY Retail invested in memory more than anything before lmao $MU",
+      "description": "",
+      "handle": "ShortJon1999",
+      "display_name": "Rej",
+      "platform": "stocktwits"
+    },
     {
       "id": "e01f2caf0d6db3",
       "source": "stocktwits",
@@ -355,29 +378,6 @@
       "description": ""
     },
     {
-      "id": "db0e70c2c47e11",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T06:01:40Z",
-      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nBREAKING: \n \nWhite House says President Trump might be impeached by few votes.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658266832",
-      "author": "Hiphoplover",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T06:01:40Z",
-      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nBREAKING: \n \nWhite House says President Trump might be impeached by few votes.",
-      "description": "",
-      "handle": "Hiphoplover",
-      "display_name": "Hiphoplover",
-      "platform": "stocktwits"
-    },
-    {
       "id": "518c792c9d9264",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -578,6 +578,24 @@
       "handle": "MomentumWins",
       "display_name": "MomentumWins",
       "platform": "stocktwits"
+    },
+    {
+      "id": "2ed46c9f9f99d0",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Sat, 04 Jul 2026 05:20:52 GMT",
+      "title": "Iran begins six-day funeral for Ayatollah Khamenei nearly four months after his death",
+      "body": "Iran plans a six-day funeral for Ayatollah Ali Khamenei, with ceremonies across Iran and Iraq before burial in Mashhad.",
+      "url": "https://www.cnbc.com/2026/07/04/-khamenei-funeral-procession-route.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 04 Jul 2026 05:20:52 GMT",
+      "text": "Iran begins six-day funeral for Ayatollah Khamenei nearly four months after his death",
+      "description": "Iran plans a six-day funeral for Ayatollah Ali Khamenei, with ceremonies across Iran and Iraq before burial in Mashhad."
     },
     {
       "id": "067fe35e660124",
@@ -3358,24 +3376,6 @@
       "description": "The SpaceX stock purchases come as Elon Musk\u2019s company deepens its role in federal contracting and remains closely tied to President Donald Trump\u2019s Washington."
     },
     {
-      "id": "a155270b53d709",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Fri, 03 Jul 2026 17:44:28 GMT",
-      "title": "Acting DNI Pulte fires dozens of intelligence officials: MS Now",
-      "body": "President Donald Trump's controversial pick to lead the office of the Director of National Intelligence has begun firing intel officials, MS NOW reported.",
-      "url": "https://www.cnbc.com/2026/07/03/acting-dni-pulte-fires-dozens-of-intelligence-officials-ms-now.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 03 Jul 2026 17:44:28 GMT",
-      "text": "Acting DNI Pulte fires dozens of intelligence officials: MS Now",
-      "description": "President Donald Trump's controversial pick to lead the office of the Director of National Intelligence has begun firing intel officials, MS NOW reported."
-    },
-    {
       "id": "16d46b7c35acb2",
       "source": "seekingalpha",
       "source_type": "rss",
@@ -3574,6 +3574,24 @@
       "description": ""
     },
     {
+      "id": "e9e0068515c7fd",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T23:55:00Z",
+      "title": "Review & Preview: AI Exodus",
+      "body": "",
+      "url": "https://www.barrons.com/articles/stocks-today-ai-rotation-defense-equities-dow-record-high-7c351681?siteid=yhoof2&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T23:55:00Z",
+      "text": "Review & Preview: AI Exodus",
+      "description": ""
+    },
+    {
       "id": "5de6eb34e890a0",
       "source": "reuters",
       "source_type": "rss",
@@ -3589,42 +3607,6 @@
       "sentiment": "neutral",
       "time": "2026-07-02T23:52:26Z",
       "text": "Blackstone files to take Jersey Mike's public",
-      "description": ""
-    },
-    {
-      "id": "19333b611ff55e",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T23:50:00Z",
-      "title": "Could SpaceX Become the First $10 Trillion Company? Here's What Would Need to Happen.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/could-spacex-become-first-10-235000512.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T23:50:00Z",
-      "text": "Could SpaceX Become the First $10 Trillion Company? Here's What Would Need to Happen.",
-      "description": ""
-    },
-    {
-      "id": "f9885e4e79a755",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-02T23:39:06Z",
-      "title": "The \u201cG-Wagon Loophole\u201d: How Business Owners Write Off a $100,000 SUV the Year They Buy It",
-      "body": "",
-      "url": "https://finance.yahoo.com/small-business/articles/g-wagon-loophole-business-owners-233906696.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-02T23:39:06Z",
-      "text": "The \u201cG-Wagon Loophole\u201d: How Business Owners Write Off a $100,000 SUV the Year They Buy It",
       "description": ""
     },
     {
@@ -3662,6 +3644,24 @@
       "time": "Thu, 02 Jul 2026 23:20:58 GMT",
       "text": "5 takeaways from President Donald Trump's interview with CNBC",
       "description": "The president defended his family's business and said he feels bad that the presidency creates a conflict of interest in any of his children's investments."
+    },
+    {
+      "id": "d6f8e25dee0502",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-02T22:16:53Z",
+      "title": "Blackstone's QTS terminates Digital Gateway data center project in Virginia",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/articles/blackstones-qts-terminates-digital-gateway-221653876.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-02T22:16:53Z",
+      "text": "Blackstone's QTS terminates Digital Gateway data center project in Virginia",
+      "description": ""
     },
     {
       "id": "020844681f2244",
