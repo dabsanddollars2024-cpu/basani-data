@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T21:27:06Z",
-  "generated_display": "2026-07-04 21:27 ET",
-  "count": 174,
+  "generated": "2026-07-04T21:32:07Z",
+  "generated_display": "2026-07-04 21:32 ET",
+  "count": 173,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T21:27:01.429486+00:00",
+      "last_error_ts": "2026-07-04T21:32:01.571104+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 141,
-      "last_success": "2026-07-04T21:27:01.571731+00:00",
+      "latency_ms": 200,
+      "last_success": "2026-07-04T21:32:01.772007+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 57,
-      "last_success": "2026-07-04T21:27:01.630504+00:00",
+      "latency_ms": 66,
+      "last_success": "2026-07-04T21:32:01.839686+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 23,
-      "latency_ms": 80,
-      "last_success": "2026-07-04T21:27:01.770983+00:00",
+      "items_pulled": 22,
+      "latency_ms": 33,
+      "last_success": "2026-07-04T21:32:01.904977+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T21:27:01.806375+00:00",
+      "last_error_ts": "2026-07-04T21:32:02.002756+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2065,
-      "last_success": "2026-07-04T21:27:03.872105+00:00",
+      "latency_ms": 2380,
+      "last_success": "2026-07-04T21:32:04.383520+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T21:27:04.671001+00:00",
+      "last_success": "2026-07-04T21:32:05.571152+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1857,
-      "last_success": "2026-07-04T21:27:06.528085+00:00",
+      "latency_ms": 1899,
+      "last_success": "2026-07-04T21:32:07.470672+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,12 +74,12 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 211
+          "latency_ms": 215
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 86
+          "latency_ms": 171
         },
         "yahoo_finance": {
           "status": "healthy",
@@ -89,26 +89,26 @@
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 206
+          "latency_ms": 404
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 18
+          "latency_ms": 12
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 174
+          "latency_ms": 282
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "marketwatch": 8,
     "reuters": 16,
-    "massive_news": 23,
+    "marketwatch": 8,
+    "massive_news": 22,
     "zerohedge": 8,
     "uw_news": 25,
     "seekingalpha": 7,
@@ -117,6 +117,167 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "0bff2a45e0d761",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T21:32:01Z",
+      "title": "$MSTR shorts beginning to worry ????",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658279284",
+      "author": "alwayscheaper",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T21:32:01Z",
+      "text": "$MSTR shorts beginning to worry ????",
+      "description": "",
+      "handle": "alwayscheaper",
+      "display_name": "lost it all",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "40563ee1ebed7c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T21:31:42Z",
+      "title": "$BTC.X $MSTR  UP, and UP, and UP...this must be bearish, right? \ud83e\uddd0",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658279279",
+      "author": "BabyMels",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T21:31:42Z",
+      "text": "$BTC.X $MSTR  UP, and UP, and UP...this must be bearish, right? \ud83e\uddd0",
+      "description": "",
+      "handle": "BabyMels",
+      "display_name": "BabyMels",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e4fb7cc8eec848",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T21:30:03Z",
+      "title": "$RUM $RDDT $ORCL This is a space race for chips and power access to win the AI race. Rumble just acquired 9 data centers, 22k $NVDA GPUs, 300k CPUs and 200 Megawatts of currently unmonetized power access. The 200 MW of power alone has a revnye value of $2 billion per year. RUM should easily be a $10",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658279251",
+      "author": "TheReal89",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T21:30:03Z",
+      "text": "$RUM $RDDT $ORCL This is a space race for chips and power access to win the AI race. Rumble just acquired 9 data centers, 22k $NVDA GPUs, 300k CPUs and 200 Megawatts of currently unmonetized power access. The 200 MW of power alone has a revnye value of $2 billion per year. RUM should easily be a $10",
+      "description": "",
+      "handle": "TheReal89",
+      "display_name": "Tom",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fb6ee2f8721027",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T21:29:22Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nAaaand for my next trade I\u2019ll be using the MACD with a 31 Alimony Support Index(ASX) crossover\u2026\ud83d\udc47",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658279244",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T21:29:22Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nAaaand for my next trade I\u2019ll be using the MACD with a 31 Alimony Support Index(ASX) crossover\u2026\ud83d\udc47",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "80daccd92edf65",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T21:28:56Z",
+      "title": "$PLTR Anthropic is a LLM aka NOTHING SPECIAL!!! \n \n \nhttps://media.stocktwits-cdn.com/api/3/media/12965646/default.webp",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658279233",
+      "author": "AshHydrogen",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T21:28:56Z",
+      "text": "$PLTR Anthropic is a LLM aka NOTHING SPECIAL!!! \n \n \nhttps://media.stocktwits-cdn.com/api/3/media/12965646/default.webp",
+      "description": "",
+      "handle": "AshHydrogen",
+      "display_name": "Ashley Wolter",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a81ecdfb4ffb51",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T21:28:12Z",
+      "title": "$SPY  &quot;Do we have to talk about this every July 4th?&quot;",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658279223",
+      "author": "Bag_Holder_DeLuxe",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T21:28:12Z",
+      "text": "$SPY  &quot;Do we have to talk about this every July 4th?&quot;",
+      "description": "",
+      "handle": "Bag_Holder_DeLuxe",
+      "display_name": "Charlie Murphy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "615c72cdc004cc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T21:28:01Z",
+      "title": "$MSTR bullish",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658279220",
+      "author": "eu_lern",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T21:28:01Z",
+      "text": "$MSTR bullish",
+      "description": "",
+      "handle": "eu_lern",
+      "display_name": "Leonhard",
+      "platform": "stocktwits"
+    },
     {
       "id": "533f41e4727dc4",
       "source": "stocktwits",
@@ -325,29 +486,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "36c347b5f40a7d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T21:20:56Z",
-      "title": "$CROX Went to the mall today and it\u2019s almost like all the folks who are here to watch the World Cup games are picking these up like it\u2019s a lottery ticket. Insanely trending company even today!! \n\n$SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658279110",
-      "author": "UltraInstinct",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T21:20:56Z",
-      "text": "$CROX Went to the mall today and it\u2019s almost like all the folks who are here to watch the World Cup games are picking these up like it\u2019s a lottery ticket. Insanely trending company even today!! \n\n$SPY $QQQ",
-      "description": "",
-      "handle": "UltraInstinct",
-      "display_name": "Shane G",
-      "platform": "stocktwits"
-    },
-    {
       "id": "249b50b7ae8ed0",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -369,6 +507,24 @@
       "handle": "UltraInstinct",
       "display_name": "Shane G",
       "platform": "stocktwits"
+    },
+    {
+      "id": "4c1074711364b9",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T21:20:00Z",
+      "title": "1 Reason to Buy This Wide-Moat Stock Right Now",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-reason-buy-wide-moat-212000234.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T21:20:00Z",
+      "text": "1 Reason to Buy This Wide-Moat Stock Right Now",
+      "description": ""
     },
     {
       "id": "6b5bb8d6123f1a",
@@ -414,29 +570,6 @@
       "description": "",
       "handle": "tradernomad",
       "display_name": "nomadtrader",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4a1678acf4f1cb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T21:17:24Z",
-      "title": "$BTC.X $ETH.X $MSTR $BMNR",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658279040",
-      "author": "trilingualretard",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T21:17:24Z",
-      "text": "$BTC.X $ETH.X $MSTR $BMNR",
-      "description": "",
-      "handle": "trilingualretard",
-      "display_name": "trilingualretard",
       "platform": "stocktwits"
     },
     {
@@ -578,6 +711,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "4da399fb88fda2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T21:10:00Z",
+      "title": "If You'd Put $10,000 Into Intel Stock at the Start of 2026, Here's How Much You'd Have Today",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/youd-put-10-000-intel-211000235.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T21:10:00Z",
+      "text": "If You'd Put $10,000 Into Intel Stock at the Start of 2026, Here's How Much You'd Have Today",
+      "description": ""
+    },
+    {
       "id": "596c3060d14ed5",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -670,29 +821,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "cfa97fd6d360b7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T21:07:11Z",
-      "title": "$MSTR 125 monday",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658278890",
-      "author": "barnabasreynolds",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T21:07:11Z",
-      "text": "$MSTR 125 monday",
-      "description": "",
-      "handle": "barnabasreynolds",
-      "display_name": "barnabas",
-      "platform": "stocktwits"
-    },
-    {
       "id": "798426b6cbfe3b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -713,52 +841,6 @@
       "description": "",
       "handle": "lilstatic66",
       "display_name": "Mr.options",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d1afaab00fd5dd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T21:04:59Z",
-      "title": "$MSTR one fitty next week",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658278859",
-      "author": "bultishch",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T21:04:59Z",
-      "text": "$MSTR one fitty next week",
-      "description": "",
-      "handle": "bultishch",
-      "display_name": "phil king",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8c3e576b762173",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T21:01:59Z",
-      "title": "$MSTR all the bears of the entire market shorting the usual names from Netflix, BTC, Sofi, software stocks are now flocking to shorting AI stocks.  If they get squeezed and burnt, we might finally be allowed to fly.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658278810",
-      "author": "RealWASP",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T21:01:59Z",
-      "text": "$MSTR all the bears of the entire market shorting the usual names from Netflix, BTC, Sofi, software stocks are now flocking to shorting AI stocks.  If they get squeezed and burnt, we might finally be allowed to fly.",
-      "description": "",
-      "handle": "RealWASP",
-      "display_name": "RealWASP",
       "platform": "stocktwits"
     },
     {
@@ -1056,24 +1138,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a6e5b86744f474",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T20:50:00Z",
-      "title": "Nvidia Stock Is Nearly Flat for 2026. Time to Cash Out, or Load Up on Shares?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-stock-nearly-flat-2026-205000376.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T20:50:00Z",
-      "text": "Nvidia Stock Is Nearly Flat for 2026. Time to Cash Out, or Load Up on Shares?",
-      "description": ""
-    },
-    {
       "id": "04221ed6473aea",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1095,24 +1159,6 @@
       "handle": "Ryu131",
       "display_name": "Ryu131",
       "platform": "stocktwits"
-    },
-    {
-      "id": "77950b1df8e5a6",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T20:45:29Z",
-      "title": "MicroStrategy CEO Calls Bitcoin \u2018United States of Money\u2019",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/microstrategy-ceo-calls-bitcoin-united-204529285.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T20:45:29Z",
-      "text": "MicroStrategy CEO Calls Bitcoin \u2018United States of Money\u2019",
-      "description": ""
     },
     {
       "id": "a1833f70311287",
@@ -1291,29 +1337,6 @@
       "description": "",
       "handle": "iTrade_Price",
       "display_name": "UC",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "7a838824ef5bf9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T20:32:52Z",
-      "title": "$TSLA  GOD BLESS AMERICA  $670 ON MONDAY $MSTR $NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658278351",
-      "author": "Hn20",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T20:32:52Z",
-      "text": "$TSLA  GOD BLESS AMERICA  $670 ON MONDAY $MSTR $NVDA",
-      "description": "",
-      "handle": "Hn20",
-      "display_name": "HNG",
       "platform": "stocktwits"
     },
     {
@@ -1504,29 +1527,6 @@
       "time": "2026-07-04 20:25:25",
       "text": "Iran holds state funeral for Khamenei as successor stays out of public view",
       "description": ""
-    },
-    {
-      "id": "43fb2bc61cabdd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T20:24:29Z",
-      "title": "$PLTR \u2014 Finally triggered an accumulation zone. This coming week could be a big one as institutions continue accumulating shares at these discounted levels. \n \nThe $160 area is the key resistance zone. A decisive breakout will likely require strong volume, but if buyers continue stepping in, the pat",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658278204",
-      "author": "omar_progressivetrading",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T20:24:29Z",
-      "text": "$PLTR \u2014 Finally triggered an accumulation zone. This coming week could be a big one as institutions continue accumulating shares at these discounted levels. \n \nThe $160 area is the key resistance zone. A decisive breakout will likely require strong volume, but if buyers continue stepping in, the pat",
-      "description": "",
-      "handle": "omar_progressivetrading",
-      "display_name": "Omar",
-      "platform": "stocktwits"
     },
     {
       "id": "801076c41d9be3",
@@ -3317,28 +3317,6 @@
       "time": "2026-07-04T14:05:21Z",
       "text": "Celebrating 250 Years of the Declaration of Independence",
       "description": ""
-    },
-    {
-      "id": "9ae815cda28cee",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-04T13:30:00Z",
-      "title": "Sandisk Stock Was the Biggest Winner in the First Half of 2026. What's Next for the Second Half?",
-      "body": "Sandisk has surged 800% in the first half of 2026, making it the best-performing S&P 500 stock. The company benefits from severe NAND memory chip shortages driven by massive data center demand. Despite the massive run-up, analysts believe the stock has further upside potential given tight industry c",
-      "url": "https://www.fool.com/investing/2026/07/04/sandisk-stock-was-the-biggest-winner-in-the-first/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "SNDK",
-        "MU",
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:30:00Z",
-      "text": "Sandisk Stock Was the Biggest Winner in the First Half of 2026. What's Next for the Second Half?",
-      "description": "Sandisk has surged 800% in the first half of 2026, making it the best-performing S&P 500 stock. The company benefits from severe NAND memory chip shortages driven by massive data center demand. Despite the massive run-up, analysts believe the stock has further upside potential given tight industry c"
     },
     {
       "id": "52ad004d4ff4ed",
