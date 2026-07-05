@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-05T01:57:06Z",
-  "generated_display": "2026-07-05 01:57 ET",
-  "count": 173,
+  "generated": "2026-07-05T02:02:06Z",
+  "generated_display": "2026-07-05 02:02 ET",
+  "count": 174,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T01:57:01.471132+00:00",
+      "last_error_ts": "2026-07-05T02:02:01.507851+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 100,
-      "last_success": "2026-07-05T01:57:01.571926+00:00",
+      "latency_ms": 121,
+      "last_success": "2026-07-05T02:02:01.629635+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 60,
-      "last_success": "2026-07-05T01:57:01.671368+00:00",
+      "latency_ms": 111,
+      "last_success": "2026-07-05T02:02:01.770938+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 22,
+      "items_pulled": 23,
       "latency_ms": 32,
-      "last_success": "2026-07-05T01:57:01.704783+00:00",
+      "last_success": "2026-07-05T02:02:01.805375+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T01:57:01.796572+00:00",
+      "last_error_ts": "2026-07-05T02:02:01.901389+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2174,
-      "last_success": "2026-07-05T01:57:03.971516+00:00",
+      "latency_ms": 2269,
+      "last_success": "2026-07-05T02:02:04.171388+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T01:57:04.734744+00:00",
+      "last_success": "2026-07-05T02:02:04.970771+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1886,
-      "last_success": "2026-07-05T01:57:06.621229+00:00",
+      "latency_ms": 1859,
+      "last_success": "2026-07-05T02:02:06.830395+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 112
+          "latency_ms": 206
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 87
+          "latency_ms": 42
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 81
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 331
+          "latency_ms": 274
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 74
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 58
+          "latency_ms": 177
         }
       }
     }
@@ -108,8 +108,8 @@
     "stocktwits": 75,
     "reuters": 16,
     "uw_news": 25,
+    "massive_news": 23,
     "zerohedge": 8,
-    "massive_news": 22,
     "marketwatch": 8,
     "seekingalpha": 7,
     "benzinga": 3,
@@ -117,6 +117,29 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "71a2ab8e843135",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T01:58:05Z",
+      "title": "$SPY endless wars in Europe",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658282927",
+      "author": "TriadDynamics",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T01:58:05Z",
+      "text": "$SPY endless wars in Europe",
+      "description": "",
+      "handle": "TriadDynamics",
+      "display_name": "EIII",
+      "platform": "stocktwits"
+    },
     {
       "id": "b3cc64211f1842",
       "source": "stocktwits",
@@ -276,29 +299,6 @@
       "description": "",
       "handle": "P8perCh8ser",
       "display_name": "P8perCh8ser",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "dbac7c15f7b6ef",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T01:43:27Z",
-      "title": "$SPY Happy 4th of July. 250 year celebration",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658282758",
-      "author": "SD_Trades4Gains",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T01:43:27Z",
-      "text": "$SPY Happy 4th of July. 250 year celebration",
-      "description": "",
-      "handle": "SD_Trades4Gains",
-      "display_name": "SD_trades",
       "platform": "stocktwits"
     },
     {
@@ -745,6 +745,27 @@
       "handle": "Makkaz",
       "display_name": "Rez",
       "platform": "stocktwits"
+    },
+    {
+      "id": "cd50d9de453510",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T01:20:00Z",
+      "title": "Nvidia Stock Is Now Cheaper Than Coca-Cola. Here's the Math.",
+      "body": "Nvidia now trades at a lower forward price-to-earnings ratio (22x) than Coca-Cola (26x), despite being the world's most valuable company. Nvidia's revenue grew 85% year-over-year while Coca-Cola guides for mid-single-digit growth, yet investors are pricing in fears of an AI spending slowdown. The an",
+      "url": "https://www.fool.com/investing/2026/07/04/nvidia-stock-is-now-cheaper-than-coca-cola-heres-t/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "NVDA",
+        "KO"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T01:20:00Z",
+      "text": "Nvidia Stock Is Now Cheaper Than Coca-Cola. Here's the Math.",
+      "description": "Nvidia now trades at a lower forward price-to-earnings ratio (22x) than Coca-Cola (26x), despite being the world's most valuable company. Nvidia's revenue grew 85% year-over-year while Coca-Cola guides for mid-single-digit growth, yet investors are pricing in fears of an AI spending slowdown. The an"
     },
     {
       "id": "2c46d3090d0a10",
@@ -3511,6 +3532,24 @@
       "description": "James Patten is the third person who will be sentenced in the stock manipulation scheme related to Hometown International, a company that owned just one deli."
     },
     {
+      "id": "2652d7b51df169",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T19:31:21Z",
+      "title": "Elon Musk's X Money \u2014 New Details On Bank Killer Super App",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/elon-musks-x-money-details-193121263.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T19:31:21Z",
+      "text": "Elon Musk's X Money \u2014 New Details On Bank Killer Super App",
+      "description": ""
+    },
+    {
       "id": "ace3a0d93e35c4",
       "source": "reuters",
       "source_type": "rss",
@@ -3529,56 +3568,38 @@
       "description": ""
     },
     {
-      "id": "17c7f096bd62c9",
+      "id": "f1ab8111ca7ad5",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-03T19:25:00Z",
-      "title": "Prediction: This Oil Stock Will Beat the S&P 500 in the Second Half of 2026",
+      "timestamp": "2026-07-03T19:30:00Z",
+      "title": "Content Creation Is Now Your Strongest Fundraising Asset. Here\u2019s Why.",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/prediction-oil-stock-beat-p-192500016.html",
+      "url": "https://finance.yahoo.com/small-business/articles/content-creation-now-strongest-fundraising-193000489.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-03T19:25:00Z",
-      "text": "Prediction: This Oil Stock Will Beat the S&P 500 in the Second Half of 2026",
+      "time": "2026-07-03T19:30:00Z",
+      "text": "Content Creation Is Now Your Strongest Fundraising Asset. Here\u2019s Why.",
       "description": ""
     },
     {
-      "id": "b77fef584243f0",
+      "id": "f95a38df6fa32a",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-03T19:24:17Z",
-      "title": "A $40,000 Capital Gain in 2025 Can Add Hundreds to Your 2027 Medicare Bill",
-      "body": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/40-000-capital-gain-2025-192417639.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T19:24:17Z",
-      "text": "A $40,000 Capital Gain in 2025 Can Add Hundreds to Your 2027 Medicare Bill",
-      "description": ""
-    },
-    {
-      "id": "f9dcf9d07dc10b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T19:09:01Z",
+      "timestamp": "2026-07-03T19:09:02Z",
       "title": "Oil prices little changed as US-Iran peace efforts hold",
       "body": "",
-      "url": "https://finance.yahoo.com/news/oil-prices-little-changed-ahead-075928204.html",
+      "url": "https://finance.yahoo.com/news/oil-slightly-ahead-long-us-020459668.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-03T19:09:01Z",
+      "time": "2026-07-03T19:09:02Z",
       "text": "Oil prices little changed as US-Iran peace efforts hold",
       "description": ""
     },
@@ -3601,60 +3622,6 @@
       "description": ""
     },
     {
-      "id": "c11cca84317524",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T18:28:10Z",
-      "title": "Is The Kraft Heinz Company (KHC) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/kraft-heinz-company-khc-good-182810435.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T18:28:10Z",
-      "text": "Is The Kraft Heinz Company (KHC) A Good Stock To Buy Now?",
-      "description": ""
-    },
-    {
-      "id": "874fad6f155f5f",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T18:27:58Z",
-      "title": "Is Moody\u2019s Corporation (MCO) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/moody-corporation-mco-good-stock-182758635.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T18:27:58Z",
-      "text": "Is Moody\u2019s Corporation (MCO) A Good Stock To Buy Now?",
-      "description": ""
-    },
-    {
-      "id": "0ee399c731d554",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T18:27:21Z",
-      "title": "Is The New York Times Company (NYT) A Good Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/york-times-company-nyt-good-182721750.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T18:27:21Z",
-      "text": "Is The New York Times Company (NYT) A Good Stock To Buy Now?",
-      "description": ""
-    },
-    {
       "id": "e7ccacf8401afa",
       "source": "cnbc",
       "source_type": "rss",
@@ -3671,6 +3638,60 @@
       "time": "Fri, 03 Jul 2026 18:16:43 GMT",
       "text": "First known congressional SpaceX stock buys surface after record IPO",
       "description": "The SpaceX stock purchases come as Elon Musk\u2019s company deepens its role in federal contracting and remains closely tied to President Donald Trump\u2019s Washington."
+    },
+    {
+      "id": "90d0098970b084",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:05:47Z",
+      "title": "Brown & Brown\u2019s Q2 2026 Earnings: What to Expect",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/brown-brown-q2-2026-earnings-170547841.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:05:47Z",
+      "text": "Brown & Brown\u2019s Q2 2026 Earnings: What to Expect",
+      "description": ""
+    },
+    {
+      "id": "5ef7bdb310df7f",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:03:53Z",
+      "title": "Is TIC Solutions, Inc. (TIC) A Good Stock To Buy Now?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tic-solutions-inc-tic-good-170353114.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:03:53Z",
+      "text": "Is TIC Solutions, Inc. (TIC) A Good Stock To Buy Now?",
+      "description": ""
+    },
+    {
+      "id": "d1c76fde9fcd52",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:03:38Z",
+      "title": "Is ServiceTitan, Inc. (TTAN) A Good Stock To Buy Now?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/servicetitan-inc-ttan-good-stock-170338592.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:03:38Z",
+      "text": "Is ServiceTitan, Inc. (TTAN) A Good Stock To Buy Now?",
+      "description": ""
     },
     {
       "id": "653757b9f3e693",
