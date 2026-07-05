@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-04T23:57:06Z",
-  "generated_display": "2026-07-04 23:57 ET",
-  "count": 176,
+  "generated": "2026-07-05T00:02:07Z",
+  "generated_display": "2026-07-05 00:02 ET",
+  "count": 181,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T23:57:01.903513+00:00",
+      "last_error_ts": "2026-07-05T00:02:02.271255+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 125,
-      "last_success": "2026-07-04T23:57:02.070742+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-05T00:02:02.372127+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 100,
-      "last_success": "2026-07-04T23:57:02.172361+00:00",
+      "latency_ms": 152,
+      "last_success": "2026-07-05T00:02:02.570901+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-04T23:57:02.273498+00:00",
+      "items_pulled": 30,
+      "latency_ms": 100,
+      "last_success": "2026-07-05T00:02:02.673292+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-04T23:57:02.307142+00:00",
+      "last_error_ts": "2026-07-05T00:02:02.788013+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1864,
-      "last_success": "2026-07-04T23:57:04.171988+00:00",
+      "latency_ms": 1583,
+      "last_success": "2026-07-05T00:02:04.371431+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-04T23:57:04.927924+00:00",
+      "last_success": "2026-07-05T00:02:05.394257+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1886,
-      "last_success": "2026-07-04T23:57:06.814940+00:00",
+      "latency_ms": 1933,
+      "last_success": "2026-07-05T00:02:07.327294+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,41 +74,41 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 125
+          "latency_ms": 212
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 174
+          "latency_ms": 199
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 38
+          "latency_ms": 106
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 268
+          "latency_ms": 288
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 17
+          "latency_ms": 93
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 131
+          "latency_ms": 122
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "massive_news": 30,
     "reuters": 16,
     "zerohedge": 8,
-    "massive_news": 25,
     "marketwatch": 8,
     "uw_news": 25,
     "seekingalpha": 7,
@@ -117,6 +117,213 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "1cd4dae40e0693",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T00:00:47Z",
+      "title": "$NVDA eat to survive eat $BTC.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658281365",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T00:00:47Z",
+      "text": "$NVDA eat to survive eat $BTC.X",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ec993c1dad17f1",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T00:00:34Z",
+      "title": "$SPY when is trump selling $INTC ?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658281362",
+      "author": "ShadyAggie40",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T00:00:34Z",
+      "text": "$SPY when is trump selling $INTC ?",
+      "description": "",
+      "handle": "ShadyAggie40",
+      "display_name": "Omied Bahri",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "314f1f303f9c26",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T00:00:34Z",
+      "title": "$QQQ $SPY LOL, a bartender with a sense of humor. Be thankful it wasn&#39;t brown and star shaped. \ud83e\udd23",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658281361",
+      "author": "Neotrin",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T00:00:34Z",
+      "text": "$QQQ $SPY LOL, a bartender with a sense of humor. Be thankful it wasn&#39;t brown and star shaped. \ud83e\udd23",
+      "description": "",
+      "handle": "Neotrin",
+      "display_name": "Neo and Trinity",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "83000866abe2fb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T00:00:34Z",
+      "title": "$QQQ $SPY LOL, a bartender with a sense of humor. Be thankful it wasn&#39;t brown and star shaped. \ud83e\udd23",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658281361",
+      "author": "Neotrin",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T00:00:34Z",
+      "text": "$QQQ $SPY LOL, a bartender with a sense of humor. Be thankful it wasn&#39;t brown and star shaped. \ud83e\udd23",
+      "description": "",
+      "handle": "Neotrin",
+      "display_name": "Neo and Trinity",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4120f7ab487661",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:59:49Z",
+      "title": "$PLTR \ud83d\udcc8\ud83d\udcc8\ud83d\udcc8\ud83d\udcc8\ud83d\udcc8\ud83d\udcc8",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658281352",
+      "author": "Fernando36",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T23:59:49Z",
+      "text": "$PLTR \ud83d\udcc8\ud83d\udcc8\ud83d\udcc8\ud83d\udcc8\ud83d\udcc8\ud83d\udcc8",
+      "description": "",
+      "handle": "Fernando36",
+      "display_name": "Fernando Fernandez",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5f5e9979e6d956",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:59:30Z",
+      "title": "$GLD so I guess we didnt get the gold revaluation announcement all the geniuses on you tube were calling for as part of the 250th... what a shock",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658281347",
+      "author": "Redding_CB",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:59:30Z",
+      "text": "$GLD so I guess we didnt get the gold revaluation announcement all the geniuses on you tube were calling for as part of the 250th... what a shock",
+      "description": "",
+      "handle": "Redding_CB",
+      "display_name": "Chris B",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "18b4cdb1dbf65e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:58:12Z",
+      "title": "$PLTR \ud83d\udcc9\ud83d\udcc9\ud83d\udcc9\ud83d\udcc9\ud83d\udcc9\ud83d\udcc9",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658281334",
+      "author": "ShmeadDaddy",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-04T23:58:12Z",
+      "text": "$PLTR \ud83d\udcc9\ud83d\udcc9\ud83d\udcc9\ud83d\udcc9\ud83d\udcc9\ud83d\udcc9",
+      "description": "",
+      "handle": "ShmeadDaddy",
+      "display_name": "Options Daddy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "25e18411f7d2fa",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:57:13Z",
+      "title": "$PLTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658281319",
+      "author": "Fernando36",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-04T23:57:13Z",
+      "text": "$PLTR",
+      "description": "",
+      "handle": "Fernando36",
+      "display_name": "Fernando Fernandez",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0f79799fd9378b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:57:07Z",
+      "title": "$AAPL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658281317",
+      "author": "ResearchTrends09",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:57:07Z",
+      "text": "$AAPL",
+      "description": "",
+      "handle": "ResearchTrends09",
+      "display_name": "Brandon",
+      "platform": "stocktwits"
+    },
     {
       "id": "762b196c6c9424",
       "source": "stocktwits",
@@ -233,6 +440,46 @@
       "platform": "stocktwits"
     },
     {
+      "id": "19db9180e20561",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T23:55:00Z",
+      "title": "GPK FINAL DEADLINE: ROSEN, LEADING TRIAL ATTORNEYS, Encourages Graphic Packaging Holding Company Investors with Losses in Excess of $100K to Secure Counsel Before Important July 6 Deadline in Securities Class Action \u2013 GPK",
+      "body": "Rosen Law Firm is reminding investors in Graphic Packaging Holding Company (GPK) who suffered losses exceeding $100,000 during the February 4, 2025 to February 2, 2026 period to secure legal counsel before the July 6, 2026 lead plaintiff deadline. The class action lawsuit alleges that GPK made false",
+      "url": "https://www.globenewswire.com/news-release/2026/07/04/3322050/673/en/GPK-FINAL-DEADLINE-ROSEN-LEADING-TRIAL-ATTORNEYS-Encourages-Graphic-Packaging-Holding-Company-Investors-with-Losses-in-Excess-of-100K-to-Secure-Counsel-Before-Important-July-6-Dead.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "GPK"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:55:00Z",
+      "text": "GPK FINAL DEADLINE: ROSEN, LEADING TRIAL ATTORNEYS, Encourages Graphic Packaging Holding Company Investors with Losses in Excess of $100K to Secure Counsel Before Important July 6 Deadline in Securities Class Action \u2013 GPK",
+      "description": "Rosen Law Firm is reminding investors in Graphic Packaging Holding Company (GPK) who suffered losses exceeding $100,000 during the February 4, 2025 to February 2, 2026 period to secure legal counsel before the July 6, 2026 lead plaintiff deadline. The class action lawsuit alleges that GPK made false"
+    },
+    {
+      "id": "d344389670a5fb",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T23:55:00Z",
+      "title": "\u05de\u05d5\u05e2\u05d3 \u05d0\u05d7\u05e8\u05d5\u05df \u05dc\u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05dc\u05e0\u05d9\u05d9\u05e8\u05d5\u05ea \u05e2\u05e8\u05da \u05e0\u05d2\u05d3 GPK: \u05e8\u05d5\u05d6\u05df, \u05de\u05e9\u05e8\u05d3 \u05e2\u05d5\u05e8\u05db\u05d9 \u05d3\u05d9\u05df \u05de\u05d5\u05d1\u05d9\u05dc, \u05de\u05e2\u05d5\u05d3\u05d3 \u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d1\u05d7\u05d1\u05e8\u05ea Graphic Packaging Holding \u05e2\u05dd \u05d4\u05e4\u05e1\u05d3\u05d9\u05dd \u05e9\u05dc \u05d9\u05d5\u05ea\u05e8 \u05de-100 \u05d0\u05dc\u05e3 \u05d3\u05d5\u05dc\u05e8 \u05dc\u05e7\u05d1\u05dc \u05d9\u05d9\u05e6\u05d5\u05d2 \u05de\u05e9\u05e4\u05d8\u05d9 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05de\u05d5\u05e2\u05d3 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05d4\u05d7\u05e9\u05d5\u05d1 \u05d1-6 \u05d1\u05d9\u05d5\u05dc\u05d9 \u05d1\u05de\u05e1\u05d2\u05e8\u05ea \u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05d1\u05e0\u05d9\u05d9\u05e8\u05d5\u05ea \u05e2\u05e8\u05da \u2013 GPK",
+      "body": "Rosen Law Firm reminds investors in Graphic Packaging Holding Company (NYSE: GPK) who purchased securities between February 4, 2025 and February 2, 2026 of the July 6, 2026 deadline to join a securities class action lawsuit. The lawsuit alleges that company defendants made false statements regarding",
+      "url": "https://www.globenewswire.com/news-release/2026/07/04/3322049/673/he/%D7%9E%D7%95%D7%A2%D7%93-%D7%90%D7%97%D7%A8%D7%95%D7%9F-%D7%9C%D7%AA%D7%91%D7%99%D7%A2%D7%94-%D7%99%D7%99%D7%A6%D7%95%D7%92%D7%99%D7%AA-%D7%9C%D7%A0%D7%99%D7%99%D7%A8%D7%95%D7%AA-%D7%A2%D7%A8%D7%9A-%D7%A0%D7%92%D7%93-GPK-%D7%A8%D7%95%D7%96%D7%9F-%D7%9E%D7%A9%D7%A8%D7%93-%D7%A2%D7%95%D7%A8%D7%9B%D7%99-%D7%93%D7%99%D7%9F-%D7%9E%D7%95%D7%91%D7%99%D7%9C-%D7%9E%D7%A2%D7%95%D7%93%D7%93-%D7%9E%D7%A9%D7%A7%D7%99%D7%A2%D7%99%D7%9D-%D7%91%D7%97%D7%91%D7%A8%D7%AA-Graphic-Packaging-Holding-%D7%A2%D7%9D-%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D-%D7%A9%D7%9C-%D7%99%D7%95%D7%AA%D7%A8-%D7%9E-100-%D7%90%D7%9C%D7%A3-%D7%93%D7%95%D7%9C%D7%A8-%D7%9C%D7%A7%D7%91%D7%9C-%D7%99%D7%99%D7%A6%D7%95%D7%92-%D7%9E%D7%A9%D7%A4%D7%98%D7%99-%D7%9C%D7%A4%D7%A0%D7%99-%D7%94%D7%9E%D7%95%D7%A2%D7%93-%D7%94.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "GPK"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:55:00Z",
+      "text": "\u05de\u05d5\u05e2\u05d3 \u05d0\u05d7\u05e8\u05d5\u05df \u05dc\u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05dc\u05e0\u05d9\u05d9\u05e8\u05d5\u05ea \u05e2\u05e8\u05da \u05e0\u05d2\u05d3 GPK: \u05e8\u05d5\u05d6\u05df, \u05de\u05e9\u05e8\u05d3 \u05e2\u05d5\u05e8\u05db\u05d9 \u05d3\u05d9\u05df \u05de\u05d5\u05d1\u05d9\u05dc, \u05de\u05e2\u05d5\u05d3\u05d3 \u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d1\u05d7\u05d1\u05e8\u05ea Graphic Packaging Holding \u05e2\u05dd \u05d4\u05e4\u05e1\u05d3\u05d9\u05dd \u05e9\u05dc \u05d9\u05d5\u05ea\u05e8 \u05de-100 \u05d0\u05dc\u05e3 \u05d3\u05d5\u05dc\u05e8 \u05dc\u05e7\u05d1\u05dc \u05d9\u05d9\u05e6\u05d5\u05d2 \u05de\u05e9\u05e4\u05d8\u05d9 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05de\u05d5\u05e2\u05d3 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05d4\u05d7\u05e9\u05d5\u05d1 \u05d1-6 \u05d1\u05d9\u05d5\u05dc\u05d9 \u05d1\u05de\u05e1\u05d2\u05e8\u05ea \u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05d1\u05e0\u05d9\u05d9\u05e8\u05d5\u05ea \u05e2\u05e8\u05da \u2013 GPK",
+      "description": "Rosen Law Firm reminds investors in Graphic Packaging Holding Company (NYSE: GPK) who purchased securities between February 4, 2025 and February 2, 2026 of the July 6, 2026 deadline to join a securities class action lawsuit. The lawsuit alleges that company defendants made false statements regarding"
+    },
+    {
       "id": "e5d9a09eb46596",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -302,29 +549,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "389fd27e444e58",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T23:53:33Z",
-      "title": "$SPY They are dipping buy now default later loans.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658281271",
-      "author": "Biostock",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T23:53:33Z",
-      "text": "$SPY They are dipping buy now default later loans.",
-      "description": "",
-      "handle": "Biostock",
-      "display_name": "Ticker Tape",
-      "platform": "stocktwits"
-    },
-    {
       "id": "198ac29fdd9119",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -345,29 +569,6 @@
       "description": "",
       "handle": "ResearchTrends09",
       "display_name": "Brandon",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8e318c150e4ced",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T23:52:44Z",
-      "title": "$SPY  \n \nThis is how we do JULY 4TH in TEXAS",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658281259",
-      "author": "PumperBoatGuy",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T23:52:44Z",
-      "text": "$SPY  \n \nThis is how we do JULY 4TH in TEXAS",
-      "description": "",
-      "handle": "PumperBoatGuy",
-      "display_name": "Pumper Boat Guy",
       "platform": "stocktwits"
     },
     {
@@ -486,29 +687,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "9df3a8cc527445",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T23:48:56Z",
-      "title": "Food for thought... people out here spending hundreds to thousands on fireworks without a penny invested. This is crazy work to me. \ud83e\udd14 to each their own I suppose. \n$SPY  \n $QQQ \n $MU  \n$BE  \n$SNDK",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658281202",
-      "author": "DjStockTrades",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T23:48:56Z",
-      "text": "Food for thought... people out here spending hundreds to thousands on fireworks without a penny invested. This is crazy work to me. \ud83e\udd14 to each their own I suppose. \n$SPY  \n $QQQ \n $MU  \n$BE  \n$SNDK",
-      "description": "",
-      "handle": "DjStockTrades",
-      "display_name": "Dj",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2d3eb30fa91928",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -576,6 +754,27 @@
       "handle": "jerchess",
       "display_name": "Joe Morgan",
       "platform": "stocktwits"
+    },
+    {
+      "id": "a20adc820763be",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T23:46:00Z",
+      "title": "LCID IMPORTANT DEADLINE: ROSEN, SKILLED INVESTOR COUNSEL, Encourages Lucid Group, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important Deadline in Securities Class Action - LCID",
+      "body": "Rosen Law Firm is notifying investors in Lucid Group (LCID) and Graphic Packaging Holding Company (GPK) about ongoing securities class action lawsuits. Lucid investors who purchased securities between February 25, 2026 and April 13, 2026 can join the class action with a July 28, 2026 deadline for le",
+      "url": "https://www.globenewswire.com/news-release/2026/07/04/3322048/673/en/LCID-IMPORTANT-DEADLINE-ROSEN-SKILLED-INVESTOR-COUNSEL-Encourages-Lucid-Group-Inc-Investors-with-Losses-in-Excess-of-100K-to-Secure-Counsel-Before-Important-Deadline-in-Securities-.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "LCID",
+        "GPK"
+      ],
+      "tags": [],
+      "impact_score": 8.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:46:00Z",
+      "text": "LCID IMPORTANT DEADLINE: ROSEN, SKILLED INVESTOR COUNSEL, Encourages Lucid Group, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important Deadline in Securities Class Action - LCID",
+      "description": "Rosen Law Firm is notifying investors in Lucid Group (LCID) and Graphic Packaging Holding Company (GPK) about ongoing securities class action lawsuits. Lucid investors who purchased securities between February 25, 2026 and April 13, 2026 can join the class action with a July 28, 2026 deadline for le"
     },
     {
       "id": "028333b133e124",
@@ -683,24 +882,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "40e99130b3c6e8",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T23:35:00Z",
-      "title": "Berkshire Hathaway Is Really a Financial Powerhouse in Disguise. Here's What That Means for Investors.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/berkshire-hathaway-really-financial-powerhouse-233500135.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T23:35:00Z",
-      "text": "Berkshire Hathaway Is Really a Financial Powerhouse in Disguise. Here's What That Means for Investors.",
-      "description": ""
-    },
-    {
       "id": "ed94dcb72a4bf9",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -768,24 +949,6 @@
       "handle": "WC25",
       "display_name": "WC25B",
       "platform": "stocktwits"
-    },
-    {
-      "id": "dd9e94783c178b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T23:31:52Z",
-      "title": "My parents didn\u2019t plan for retirement, but I\u2019ve got millions: what\u2019s the best way to help them?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/parents-didn-t-plan-retirement-141713265.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T23:31:52Z",
-      "text": "My parents didn\u2019t plan for retirement, but I\u2019ve got millions: what\u2019s the best way to help them?",
-      "description": ""
     },
     {
       "id": "2676f5a71b7219",
@@ -949,6 +1112,33 @@
       "platform": "stocktwits"
     },
     {
+      "id": "136ae338d648f4",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T23:15:00Z",
+      "title": "Berkshire Hathaway Is Really a Financial Powerhouse in Disguise. Here's What That Means for Investors.",
+      "body": "Despite appearing as an industrial conglomerate, Berkshire Hathaway is fundamentally a financial stock built on its insurance operations. The company's strength lies in investing insurance float\u2014premiums collected upfront before claims are paid. With nearly $400 billion in cash and new CEO Greg Abel",
+      "url": "https://www.fool.com/investing/2026/07/04/berkshire-hathaway-is-really-a-financial-powerhous/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "KO",
+        "AXP",
+        "MKL",
+        "BN",
+        "BNH",
+        "BNJ",
+        "BRK.A",
+        "BRK.B"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:15:00Z",
+      "text": "Berkshire Hathaway Is Really a Financial Powerhouse in Disguise. Here's What That Means for Investors.",
+      "description": "Despite appearing as an industrial conglomerate, Berkshire Hathaway is fundamentally a financial stock built on its insurance operations. The company's strength lies in investing insurance float\u2014premiums collected upfront before claims are paid. With nearly $400 billion in cash and new CEO Greg Abel"
+    },
+    {
       "id": "f698d9eada8d1b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -972,29 +1162,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c2fedad7261747",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T23:13:32Z",
-      "title": "$PLTR can\u2019t wait till open for a -5% day",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658280679",
-      "author": "ShmeadDaddy",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-04T23:13:32Z",
-      "text": "$PLTR can\u2019t wait till open for a -5% day",
-      "description": "",
-      "handle": "ShmeadDaddy",
-      "display_name": "Options Daddy",
-      "platform": "stocktwits"
-    },
-    {
       "id": "211e446ee047ba",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1012,29 +1179,6 @@
       "sentiment": "bullish",
       "time": "2026-07-04T23:09:43Z",
       "text": "$AMD Happy Julyteenth! The eagle will fly soon! I said it back in March and I&#39;m calling it again. The eagle will fly suckas. 4 weeks boys and girls, get ready you haven&#39;t seen shit yet!",
-      "description": "",
-      "handle": "TheUnmaker",
-      "display_name": "TheUnmaker",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "dec5877d9af2b0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T23:04:42Z",
-      "title": "$ONDS Erik is dropping the hints. He&#39;s setting the narrative. He knows that drones are a competitive industry and to win at this game leaders need to stay in the arena. Those who choose to invest are the winners. Ondas secured plenty of investor interests before the industry really takes a boom.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658280572",
-      "author": "TheUnmaker",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T23:04:42Z",
-      "text": "$ONDS Erik is dropping the hints. He&#39;s setting the narrative. He knows that drones are a competitive industry and to win at this game leaders need to stay in the arena. Those who choose to invest are the winners. Ondas secured plenty of investor interests before the industry really takes a boom.",
       "description": "",
       "handle": "TheUnmaker",
       "display_name": "TheUnmaker",
@@ -1087,29 +1231,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a064c6b518a6c5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T23:02:00Z",
-      "title": "$PLTR",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658280533",
-      "author": "AshHydrogen",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T23:02:00Z",
-      "text": "$PLTR",
-      "description": "",
-      "handle": "AshHydrogen",
-      "display_name": "Ashley Wolter",
-      "platform": "stocktwits"
-    },
-    {
       "id": "67709d6aff6550",
       "source": "reuters",
       "source_type": "rss",
@@ -1126,6 +1247,28 @@
       "time": "2026-07-04 23:01:40",
       "text": "Trump administration proposes 702 regulatory rollbacks in deregulatory push",
       "description": ""
+    },
+    {
+      "id": "28495c25dfad8b",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-04T23:01:01Z",
+      "title": "Chevron vs. Exxon Mobil: Which Energy Stock Is a Better Buy in 2026?",
+      "body": "The article compares two energy giants, Chevron and Exxon Mobil, as investment options for 2026. While both companies are well-managed with strong free cash flow and shareholder returns, the author recommends Exxon Mobil due to its record production in Guyana, growing Permian Basin operations, cost ",
+      "url": "https://www.fool.com/coverage/better-buy/2026/07/04/chevron-vs-exxon-mobil-which-energy-stock-is-a-better-buy-in-2026/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "CVX",
+        "SHEL",
+        "BP"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:01:01Z",
+      "text": "Chevron vs. Exxon Mobil: Which Energy Stock Is a Better Buy in 2026?",
+      "description": "The article compares two energy giants, Chevron and Exxon Mobil, as investment options for 2026. While both companies are well-managed with strong free cash flow and shareholder returns, the author recommends Exxon Mobil due to its record production in Guyana, growing Permian Basin operations, cost "
     },
     {
       "id": "ad92d66f9fe207",
@@ -1276,52 +1419,6 @@
       "description": "",
       "handle": "Rampart1",
       "display_name": "Doctor DD",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "7e2753bc722549",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:48:46Z",
-      "title": "$AAPL  well well well what do we have here?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658280350",
-      "author": "ResearchTrends09",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T22:48:46Z",
-      "text": "$AAPL  well well well what do we have here?",
-      "description": "",
-      "handle": "ResearchTrends09",
-      "display_name": "Brandon",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "9ff82eb3d55370",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T22:48:14Z",
-      "title": "$BTC.X $NVDA $AAPL $SPCX  We already won the greatest trade of our life by being born in the U.S.A BABY! GET OUT THERE AND SALUTE THE FLAG!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658280343",
-      "author": "Mordorian",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T22:48:14Z",
-      "text": "$BTC.X $NVDA $AAPL $SPCX  We already won the greatest trade of our life by being born in the U.S.A BABY! GET OUT THERE AND SALUTE THE FLAG!",
-      "description": "",
-      "handle": "Mordorian",
-      "display_name": "Buzz",
       "platform": "stocktwits"
     },
     {
@@ -2089,29 +2186,6 @@
       "description": "Despite Nvidia's stock being up only 5% in 2026 compared to its stellar performance in prior years, analyst Keithen Drury argues the stock remains an excellent buy. Trading at 21.7x forward earnings (in line with the S&P 500), Nvidia appears undervalued given Wall Street's projections of 82% revenue"
     },
     {
-      "id": "f26a3772d910dc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T20:26:15Z",
-      "title": "$SPPP ~ Platinum &amp; Palladium ETF. Weekly Close. Up 1.80% last week. This was the most bearish metals ETF out of all the ones i track closely (GLD/SLV/GDX/SILJ/COPX/CDNX) over the last few weeks. SPPP has now almost completely \u201cbacktested\u201d the 11.50 (CUP) breakout level from June 2025. You can se",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GLD/message/658278237",
-      "author": "CUPandHANDLE_CHARTS",
-      "tickers": [
-        "GLD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T20:26:15Z",
-      "text": "$SPPP ~ Platinum &amp; Palladium ETF. Weekly Close. Up 1.80% last week. This was the most bearish metals ETF out of all the ones i track closely (GLD/SLV/GDX/SILJ/COPX/CDNX) over the last few weeks. SPPP has now almost completely \u201cbacktested\u201d the 11.50 (CUP) breakout level from June 2025. You can se",
-      "description": "",
-      "handle": "CUPandHANDLE_CHARTS",
-      "display_name": "Edward Gofsky",
-      "platform": "stocktwits"
-    },
-    {
       "id": "63dcfb3c9380a6",
       "source": "zerohedge",
       "source_type": "rss",
@@ -2361,24 +2435,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e1c242c38fd1ee",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T19:17:31Z",
-      "title": "Why Did General Motors (GM) Just Partner With Micron?",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/articles/why-did-general-motors-gm-191731528.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T19:17:31Z",
-      "text": "Why Did General Motors (GM) Just Partner With Micron?",
-      "description": ""
-    },
-    {
       "id": "4667286e48d201",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2399,96 +2455,6 @@
       "time": "2026-07-04T19:16:00Z",
       "text": "Crypto News: Pepeto Ships Top Security Upgrade While XRP Price Prediction Targets $20 and Trump Reserve Deadline Nears",
       "description": "Pepeto announces a security upgrade for its DeFi exchange platform while XRP whale wallets reportedly invest in the presale. The article discusses XRP price predictions targeting $20 by 2029 and Trump's Strategic Bitcoin Reserve initiative expected to make federal BTC purchases by Q4 2026, suggestin"
-    },
-    {
-      "id": "b275a9580fc6a7",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T19:15:50Z",
-      "title": "Comcast (CMCSA) Stock Has Fallen 50%, Why Are Analysts Suddenly Turning Bullish On The Stock?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/comcast-cmcsa-stock-fallen-50-191550222.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T19:15:50Z",
-      "text": "Comcast (CMCSA) Stock Has Fallen 50%, Why Are Analysts Suddenly Turning Bullish On The Stock?",
-      "description": ""
-    },
-    {
-      "id": "16a9da043c649d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T19:15:42Z",
-      "title": "Travel Headwinds Result In Attractive Valuation For Global Payments (GPN) Stocks",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/travel-headwinds-result-attractive-valuation-191542312.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T19:15:42Z",
-      "text": "Travel Headwinds Result In Attractive Valuation For Global Payments (GPN) Stocks",
-      "description": ""
-    },
-    {
-      "id": "335c2e3a8d7ece",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T19:15:33Z",
-      "title": "Here\u2019s Why Analysts Are Still Bullish On Alcoa Corp (AA) Stock Despite The Selloff",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-analysts-still-bullish-alcoa-191533264.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T19:15:33Z",
-      "text": "Here\u2019s Why Analysts Are Still Bullish On Alcoa Corp (AA) Stock Despite The Selloff",
-      "description": ""
-    },
-    {
-      "id": "121865c3b373c3",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T19:15:14Z",
-      "title": "Wall Street Is Losing Confidence In PVH Corp (PVH), Is The Stock A Buy?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-losing-confidence-pvh-191514572.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T19:15:14Z",
-      "text": "Wall Street Is Losing Confidence In PVH Corp (PVH), Is The Stock A Buy?",
-      "description": ""
-    },
-    {
-      "id": "a8d21a3ea95dbe",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T19:15:06Z",
-      "title": "Lincoln National Corporation (LNC) Is One Of The Top Extreme Value Stocks To Buy Now",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/lincoln-national-corporation-lnc-one-191506722.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T19:15:06Z",
-      "text": "Lincoln National Corporation (LNC) Is One Of The Top Extreme Value Stocks To Buy Now",
-      "description": ""
     },
     {
       "id": "bc5d24151a9b30",
@@ -3741,6 +3707,156 @@
       "time": "Fri, 03 Jul 2026 18:16:43 GMT",
       "text": "First known congressional SpaceX stock buys surface after record IPO",
       "description": "The SpaceX stock purchases come as Elon Musk\u2019s company deepens its role in federal contracting and remains closely tied to President Donald Trump\u2019s Washington."
+    },
+    {
+      "id": "d9176b1a6b5840",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:51:13Z",
+      "title": "Jim Cramer Explains What Microsoft Needs to Do to \u201cReverse Its Fortunes\u201d",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-microsoft-needs-081813422.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:51:13Z",
+      "text": "Jim Cramer Explains What Microsoft Needs to Do to \u201cReverse Its Fortunes\u201d",
+      "description": ""
+    },
+    {
+      "id": "86b10545d0baa0",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:50:22Z",
+      "title": "Here\u2019s Why Jim Cramer Thinks Amazon (AMZN) is Punished by the Markets",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-amazon-see-bountiful-081822860.html",
+      "author": "",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:50:22Z",
+      "text": "Here\u2019s Why Jim Cramer Thinks Amazon (AMZN) is Punished by the Markets",
+      "description": ""
+    },
+    {
+      "id": "6f28bb215055ef",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:50:00Z",
+      "title": "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/skyrocketing-nearly-200-too-buy-175000542.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:50:00Z",
+      "text": "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?",
+      "description": ""
+    },
+    {
+      "id": "2415e7c98268ec",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:48:29Z",
+      "title": "Here is Why Jim Cramer Thinks Meta Platforms (META) is Misunderstood",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-meta-spending-081829530.html",
+      "author": "",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:48:29Z",
+      "text": "Here is Why Jim Cramer Thinks Meta Platforms (META) is Misunderstood",
+      "description": ""
+    },
+    {
+      "id": "d6168a8211815d",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:47:40Z",
+      "title": "Jim Cramer\u2019s Latest Thought on Apple Inc. (AAPL)",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-apple-see-quarter-081840061.html",
+      "author": "",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:47:40Z",
+      "text": "Jim Cramer\u2019s Latest Thought on Apple Inc. (AAPL)",
+      "description": ""
+    },
+    {
+      "id": "549a7d91f6e226",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:45:47Z",
+      "title": "Here\u2019s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-says-alphabet-getting-081847382.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:45:47Z",
+      "text": "Here\u2019s Why Jim Cramer Thinks Alphabet Is Still Cheap",
+      "description": ""
+    },
+    {
+      "id": "908f479a353a5c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:44:56Z",
+      "title": "Jim Cramer Explains Why You Need to Own NVIDIA Now",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-explains-nvidia-change-082356845.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:44:56Z",
+      "text": "Jim Cramer Explains Why You Need to Own NVIDIA Now",
+      "description": ""
+    },
+    {
+      "id": "9b9c6bcbbb4af5",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T17:43:54Z",
+      "title": "Here is Why HEICO Corporation (HEI.A) Is a Good Investment Right Now",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-heico-corporation-hei-investment-120154208.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T17:43:54Z",
+      "text": "Here is Why HEICO Corporation (HEI.A) Is a Good Investment Right Now",
+      "description": ""
     },
     {
       "id": "653757b9f3e693",
