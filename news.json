@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-05T14:57:07Z",
-  "generated_display": "2026-07-05 14:57 ET",
-  "count": 195,
+  "generated": "2026-07-05T15:02:06Z",
+  "generated_display": "2026-07-05 15:02 ET",
+  "count": 202,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T14:57:01.675369+00:00",
+      "last_error_ts": "2026-07-05T15:02:02.074645+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 5,
-      "latency_ms": 102,
-      "last_success": "2026-07-05T14:57:01.778367+00:00",
+      "latency_ms": 110,
+      "last_success": "2026-07-05T15:02:02.185740+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 97,
-      "last_success": "2026-07-05T14:57:01.876491+00:00",
+      "latency_ms": 88,
+      "last_success": "2026-07-05T15:02:02.275445+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 42,
-      "latency_ms": 227,
-      "last_success": "2026-07-05T14:57:02.105811+00:00",
+      "items_pulled": 49,
+      "latency_ms": 100,
+      "last_success": "2026-07-05T15:02:02.378491+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T14:57:02.210557+00:00",
+      "last_error_ts": "2026-07-05T15:02:02.483847+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2265,
-      "last_success": "2026-07-05T14:57:04.475731+00:00",
+      "latency_ms": 1591,
+      "last_success": "2026-07-05T15:02:04.075260+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T14:57:05.275539+00:00",
+      "last_success": "2026-07-05T15:02:04.798161+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1899,
-      "last_success": "2026-07-05T14:57:07.175200+00:00",
+      "latency_ms": 2076,
+      "last_success": "2026-07-05T15:02:06.874603+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -79,27 +79,27 @@
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 176
+          "latency_ms": 174
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 104
+          "latency_ms": 100
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 199
+          "latency_ms": 205
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 20
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 173
+          "latency_ms": 100
         }
       }
     }
@@ -107,11 +107,11 @@
   "by_source": {
     "forex_factory": 1,
     "stocktwits": 75,
+    "massive_news": 49,
     "cnbc": 8,
+    "reuters": 16,
     "zerohedge": 8,
     "marketwatch": 8,
-    "reuters": 16,
-    "massive_news": 42,
     "uw_news": 25,
     "benzinga": 5,
     "seekingalpha": 7
@@ -140,6 +140,394 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "c2567c30f899be",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T15:01:52Z",
+      "title": "$NVDA \nThe headline is missing key context. \n \nThe comparison being referenced is against Nvidia\u2019s A100, a GPU released back in 2020  and Nvidia is already multiple generations ahead of that architecture today. \n \nThe \u201c478x faster\u201d claim also comes from a very narrow benchmark: brain surface reconst",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658289769",
+      "author": "AIWealthCircle",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T15:01:52Z",
+      "text": "$NVDA \nThe headline is missing key context. \n \nThe comparison being referenced is against Nvidia\u2019s A100, a GPU released back in 2020  and Nvidia is already multiple generations ahead of that architecture today. \n \nThe \u201c478x faster\u201d claim also comes from a very narrow benchmark: brain surface reconst",
+      "description": "",
+      "handle": "AIWealthCircle",
+      "display_name": "Kevin Lawson",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4568ee4ce94b73",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T15:01:51Z",
+      "title": "$SMH is showing wide, loose price action near highs, suggesting semi momentum is tiring as capital rotates into Software &amp; Healthcare. $AMD and $INTC still show the best relative strength and structure. \n \nHigh volatility means it&#39;s time to be selective. Avoid chasing the broader semi sector",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658289767",
+      "author": "CosmicMiner",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T15:01:51Z",
+      "text": "$SMH is showing wide, loose price action near highs, suggesting semi momentum is tiring as capital rotates into Software &amp; Healthcare. $AMD and $INTC still show the best relative strength and structure. \n \nHigh volatility means it&#39;s time to be selective. Avoid chasing the broader semi sector",
+      "description": "",
+      "handle": "CosmicMiner",
+      "display_name": "Kuhn Dark",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c74e630e2a945f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T15:01:30Z",
+      "title": "2026 key watchlist names \n \n$CRCL \u2192 $60 Must buy \n$TSLA\u2192 $388 Must buy \n$NBIS \u2192 $208 Must buy \n$MRVL \u2192 $250 Must buy \n$AMD  \u2192 $508 Must buy \n \nThe next list is about to be released!  Are you going to miss out again?     \n    \nI\u2019m not financially struggling, so I choose to share it for free.   NFA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658289762",
+      "author": "BreakoutLife",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T15:01:30Z",
+      "text": "2026 key watchlist names \n \n$CRCL \u2192 $60 Must buy \n$TSLA\u2192 $388 Must buy \n$NBIS \u2192 $208 Must buy \n$MRVL \u2192 $250 Must buy \n$AMD  \u2192 $508 Must buy \n \nThe next list is about to be released!  Are you going to miss out again?     \n    \nI\u2019m not financially struggling, so I choose to share it for free.   NFA",
+      "description": "",
+      "handle": "BreakoutLife",
+      "display_name": "Thien Bien",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ff4dada3e641a0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T15:01:30Z",
+      "title": "2026 key watchlist names \n \n$CRCL \u2192 $60 Must buy \n$TSLA\u2192 $388 Must buy \n$NBIS \u2192 $208 Must buy \n$MRVL \u2192 $250 Must buy \n$AMD  \u2192 $508 Must buy \n \nThe next list is about to be released!  Are you going to miss out again?     \n    \nI\u2019m not financially struggling, so I choose to share it for free.   NFA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658289762",
+      "author": "BreakoutLife",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T15:01:30Z",
+      "text": "2026 key watchlist names \n \n$CRCL \u2192 $60 Must buy \n$TSLA\u2192 $388 Must buy \n$NBIS \u2192 $208 Must buy \n$MRVL \u2192 $250 Must buy \n$AMD  \u2192 $508 Must buy \n \nThe next list is about to be released!  Are you going to miss out again?     \n    \nI\u2019m not financially struggling, so I choose to share it for free.   NFA",
+      "description": "",
+      "handle": "BreakoutLife",
+      "display_name": "Thien Bien",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e9aef0bb9f2798",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T15:00:30Z",
+      "title": "$DJT $SPY \n\nThe POtuS",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658289740",
+      "author": "2026TakeBackUSABegins",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-05T15:00:30Z",
+      "text": "$DJT $SPY \n\nThe POtuS",
+      "description": "",
+      "handle": "2026TakeBackUSABegins",
+      "display_name": "CJ",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ae34473127fba1",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T15:00:20Z",
+      "title": "$META $SNDK\n\nhttps://www.thelattehq.com/p/the-first-half-nobody-saw-coming",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658289733",
+      "author": "thelattehq",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T15:00:20Z",
+      "text": "$META $SNDK\n\nhttps://www.thelattehq.com/p/the-first-half-nobody-saw-coming",
+      "description": "",
+      "handle": "thelattehq",
+      "display_name": "George the Latte Maker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8636c3c9581921",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T15:00:00Z",
+      "title": "Peabody Energy Corporation (BTU) Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller Rudman & Dowd LLP Announces",
+      "body": "A class action lawsuit has been filed against Peabody Energy Corporation for allegedly making false and misleading statements regarding its Centurion mine ramp-up. The company failed to meet its March 2026 deadline and issued guidance cuts, resulting in stock price declines of approximately 10% and ",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322084/0/en/Peabody-Energy-Corporation-BTU-Investors-with-Substantial-Losses-Have-Opportunity-to-Lead-Class-Action-Lawsuit-Robbins-Geller-Rudman-Dowd-LLP-Announces.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "BTU"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T15:00:00Z",
+      "text": "Peabody Energy Corporation (BTU) Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller Rudman & Dowd LLP Announces",
+      "description": "A class action lawsuit has been filed against Peabody Energy Corporation for allegedly making false and misleading statements regarding its Centurion mine ramp-up. The company failed to meet its March 2026 deadline and issued guidance cuts, resulting in stock price declines of approximately 10% and "
+    },
+    {
+      "id": "82a1eee999d88e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:59:46Z",
+      "title": "$TSLA who&#39;s ready for 410+ tomorrow?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658289716",
+      "author": "tradeordie24",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T14:59:46Z",
+      "text": "$TSLA who&#39;s ready for 410+ tomorrow?",
+      "description": "",
+      "handle": "tradeordie24",
+      "display_name": "Dave",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "79f74817d96834",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:59:30Z",
+      "title": "$VMHG Victory Marine Holdings&#39; Subsidiary Dunn &amp; Groux Beverage Holdings Activates Distribution Across Six U.S. Markets https://finance.yahoo.com/small-business/articles/victory-marine-holdings-subsidiary-dunn-201500164.html  \n \n$SLS $DJT $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658289712",
+      "author": "BasiliaHeadricka",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:59:30Z",
+      "text": "$VMHG Victory Marine Holdings&#39; Subsidiary Dunn &amp; Groux Beverage Holdings Activates Distribution Across Six U.S. Markets https://finance.yahoo.com/small-business/articles/victory-marine-holdings-subsidiary-dunn-201500164.html  \n \n$SLS $DJT $SPY",
+      "description": "",
+      "handle": "BasiliaHeadricka",
+      "display_name": "BasiliaHeadrick",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b1f71f80baafe2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:59:06Z",
+      "title": "$PLTR nice retracement to the previous highs from last year. no position but looking good.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658289706",
+      "author": "KingTrades09",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:59:06Z",
+      "text": "$PLTR nice retracement to the previous highs from last year. no position but looking good.",
+      "description": "",
+      "handle": "KingTrades09",
+      "display_name": "KingTrades09",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4a12e3e92adc26",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:59:00Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658289704",
+      "author": "PierceC",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T14:59:00Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "PierceC",
+      "display_name": "PierceC",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c14066c407db68",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:58:33Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658289692",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:58:33Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "49f9dc7ed05273",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:58:22Z",
+      "title": "$SPY $QQQ Most traders think conviction is a feeling. A gut sense that this one is going to work. That is not conviction. That is hope wearing a costume, and hope will get you carried out of this business faster than any single losing trade ever could. A conviction model is a structure. It is a repe",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658289686",
+      "author": "TheDarkRoom",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:58:22Z",
+      "text": "$SPY $QQQ Most traders think conviction is a feeling. A gut sense that this one is going to work. That is not conviction. That is hope wearing a costume, and hope will get you carried out of this business faster than any single losing trade ever could. A conviction model is a structure. It is a repe",
+      "description": "",
+      "handle": "TheDarkRoom",
+      "display_name": "TheDarkStranger",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "93d86ecd9201d1",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:58:22Z",
+      "title": "$SPY $QQQ Most traders think conviction is a feeling. A gut sense that this one is going to work. That is not conviction. That is hope wearing a costume, and hope will get you carried out of this business faster than any single losing trade ever could. A conviction model is a structure. It is a repe",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658289686",
+      "author": "TheDarkRoom",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:58:22Z",
+      "text": "$SPY $QQQ Most traders think conviction is a feeling. A gut sense that this one is going to work. That is not conviction. That is hope wearing a costume, and hope will get you carried out of this business faster than any single losing trade ever could. A conviction model is a structure. It is a repe",
+      "description": "",
+      "handle": "TheDarkRoom",
+      "display_name": "TheDarkStranger",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1c8163dc62f309",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:57:55Z",
+      "title": "@Danny280zx So what&#39;s that mean for $NVDA?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658289681",
+      "author": "intramachine",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:57:55Z",
+      "text": "@Danny280zx So what&#39;s that mean for $NVDA?",
+      "description": "",
+      "handle": "intramachine",
+      "display_name": "IntraMachine",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b967be002b964f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:57:49Z",
+      "title": "$AAPL I&#39;ve been big on that 317.82 level for a while. It&#39;s sure looking good now.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658289680",
+      "author": "RobertLemire",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T14:57:49Z",
+      "text": "$AAPL I&#39;ve been big on that 317.82 level for a while. It&#39;s sure looking good now.",
+      "description": "",
+      "handle": "RobertLemire",
+      "display_name": "Robert Lemire",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "78ca720c3df8e8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T14:57:32Z",
+      "title": "$GOOGL is increasingly being priced as a full-stack AI compounding machine, not just a search ad business. \n \nIf profit truly trends toward near doubling by 2028, the market is really anchoring on one idea: compute economics. When tokens become the new unit of production, the winner is whoever produ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658289675",
+      "author": "DeepSeaTurtle",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:57:32Z",
+      "text": "$GOOGL is increasingly being priced as a full-stack AI compounding machine, not just a search ad business. \n \nIf profit truly trends toward near doubling by 2028, the market is really anchoring on one idea: compute economics. When tokens become the new unit of production, the winner is whoever produ",
+      "description": "",
+      "handle": "DeepSeaTurtle",
+      "display_name": "DeepSeaTurtle",
+      "platform": "stocktwits"
     },
     {
       "id": "58efcf384c281e",
@@ -303,6 +691,26 @@
       "platform": "stocktwits"
     },
     {
+      "id": "e46a0418e357fd",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T14:55:00Z",
+      "title": "LCID CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Lucid Group (LCID) Investors of Securities Class Action Lawsuit Deadline on July 28, 2026",
+      "body": "Faruqi & Faruqi, LLP is investigating a federal securities class action against Lucid Group for allegedly making false and misleading statements about supplier quality issues that disrupted Lucid Gravity deliveries and overstating manufacturing capabilities. The lawsuit covers investors who purchase",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322082/683/en/LCID-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-Lucid-Group-LCID-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-July-28-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "LCID"
+      ],
+      "tags": [],
+      "impact_score": 10.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:55:00Z",
+      "text": "LCID CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Lucid Group (LCID) Investors of Securities Class Action Lawsuit Deadline on July 28, 2026",
+      "description": "Faruqi & Faruqi, LLP is investigating a federal securities class action against Lucid Group for allegedly making false and misleading statements about supplier quality issues that disrupted Lucid Gravity deliveries and overstating manufacturing capabilities. The lawsuit covers investors who purchase"
+    },
+    {
       "id": "c934cead0f0bd3",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -326,52 +734,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2d67617afe9093",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:54:48Z",
-      "title": "UPDATE: Polymarket odds currently show a 68% probability of the S&amp;P 500 ($SPY) reaching $760 in July. \n \nMarkets are clearly still pricing in strong momentum and liquidity support, especially with positioning staying heavily trend-driven rather than defensive. \n \nWhether you believe the number o",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658289617",
-      "author": "SmartMoneyRadar",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:54:48Z",
-      "text": "UPDATE: Polymarket odds currently show a 68% probability of the S&amp;P 500 ($SPY) reaching $760 in July. \n \nMarkets are clearly still pricing in strong momentum and liquidity support, especially with positioning staying heavily trend-driven rather than defensive. \n \nWhether you believe the number o",
-      "description": "",
-      "handle": "SmartMoneyRadar",
-      "display_name": "Laurie Purser",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "71f973511b6f40",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:54:12Z",
-      "title": "250 years of America, the guy running it spent 15 of them calling Jeffrey Epstein a \u201cterrific guy\u201d \ud83c\uddfa\ud83c\uddf8\n\n$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658289607",
-      "author": "MDrive",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T14:54:12Z",
-      "text": "250 years of America, the guy running it spent 15 of them calling Jeffrey Epstein a \u201cterrific guy\u201d \ud83c\uddfa\ud83c\uddf8\n\n$SPY",
-      "description": "",
-      "handle": "MDrive",
-      "display_name": "A",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d7612a25f09eb7",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -392,52 +754,6 @@
       "description": "",
       "handle": "KingTrades09",
       "display_name": "KingTrades09",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ab6416688464e0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:53:15Z",
-      "title": "$SPY \ud83d\ude0e\ud83d\udeac\n\nhttps://youtu.be/etAIpkdhU9Q?si=bGfnGEb0XcVc79dL",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658289581",
-      "author": "PierceC",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:53:15Z",
-      "text": "$SPY \ud83d\ude0e\ud83d\udeac\n\nhttps://youtu.be/etAIpkdhU9Q?si=bGfnGEb0XcVc79dL",
-      "description": "",
-      "handle": "PierceC",
-      "display_name": "PierceC",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "44a3e491f39ce8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:53:06Z",
-      "title": "$SPY 751 tomorrow?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658289574",
-      "author": "Alessandrak",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:53:06Z",
-      "text": "$SPY 751 tomorrow?",
-      "description": "",
-      "handle": "Alessandrak",
-      "display_name": "Alessandrak",
       "platform": "stocktwits"
     },
     {
@@ -1011,29 +1327,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "201da9147a4577",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:39:44Z",
-      "title": "Elon Musk\u2019s Galaxy  \n \nBeyond $TSLA and SpaceX sits an expanding ecosystem of companies that are increasingly feeding into each other  energy, AI, autonomy, robotics, and space all converging into one interconnected value network  \n \n$SPCX is essentially a way the market is trying to package that ex",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658289346",
-      "author": "SmartMoneyRadar",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:39:44Z",
-      "text": "Elon Musk\u2019s Galaxy  \n \nBeyond $TSLA and SpaceX sits an expanding ecosystem of companies that are increasingly feeding into each other  energy, AI, autonomy, robotics, and space all converging into one interconnected value network  \n \n$SPCX is essentially a way the market is trying to package that ex",
-      "description": "",
-      "handle": "SmartMoneyRadar",
-      "display_name": "Laurie Purser",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a27736f29a8d74",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1080,50 +1373,22 @@
       "platform": "stocktwits"
     },
     {
-      "id": "1dcfa90196058b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:38:13Z",
-      "title": "$NVDA \ud83e\udde0",
+      "id": "6bfe736ac574fa",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05 14:37:00",
+      "title": "OPEC+ adds 188,000 bpd to August quota amid cooling oil market",
       "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658289307",
-      "author": "Gedbub",
-      "tickers": [
-        "NVDA"
-      ],
+      "url": "https://www.investing.com/news/commodities-news/opec-adds-188000-bpd-to-august-quota-as-gulf-flows-resume-4775453",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.8,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T14:38:13Z",
-      "text": "$NVDA \ud83e\udde0",
-      "description": "",
-      "handle": "Gedbub",
-      "display_name": "Alex",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "1a4f4fed1e7433",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:36:46Z",
-      "title": "$VMHG Victory Marine Holdings&#39; Subsidiary Dunn &amp; Groux Beverage Holdings Activates Distribution Across Six U.S. Markets https://finance.yahoo.com/small-business/articles/victory-marine-holdings-subsidiary-dunn-201500164.html  \n \n$MSTR $TSLA $ETH",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658289280",
-      "author": "CarmonGraybilla",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:36:46Z",
-      "text": "$VMHG Victory Marine Holdings&#39; Subsidiary Dunn &amp; Groux Beverage Holdings Activates Distribution Across Six U.S. Markets https://finance.yahoo.com/small-business/articles/victory-marine-holdings-subsidiary-dunn-201500164.html  \n \n$MSTR $TSLA $ETH",
-      "description": "",
-      "handle": "CarmonGraybilla",
-      "display_name": "CarmonGraybill",
-      "platform": "stocktwits"
+      "time": "2026-07-05 14:37:00",
+      "text": "OPEC+ adds 188,000 bpd to August quota amid cooling oil market",
+      "description": ""
     },
     {
       "id": "1b0c621a1cdbc2",
@@ -1146,52 +1411,6 @@
       "description": "",
       "handle": "CarmonGraybilla",
       "display_name": "CarmonGraybill",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "92b2a73b037fa3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:34:46Z",
-      "title": "$MSTR",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658289247",
-      "author": "SouthernItUp",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T14:34:46Z",
-      "text": "$MSTR",
-      "description": "",
-      "handle": "SouthernItUp",
-      "display_name": "John",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "abc7e7968bab47",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:30:45Z",
-      "title": "$SPCX SpaceX reportedly being added to the Nasdaq 100 ($QQQ) this week. \n \nIf this flows through, it\u2019s not just headline noise  it would force passive inflows and shift positioning across the index, especially in high-growth / AI-adjacent exposure baskets where liquidity follows narrative first. \n \n",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658289171",
-      "author": "SmartMoneyRadar",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:30:45Z",
-      "text": "$SPCX SpaceX reportedly being added to the Nasdaq 100 ($QQQ) this week. \n \nIf this flows through, it\u2019s not just headline noise  it would force passive inflows and shift positioning across the index, especially in high-growth / AI-adjacent exposure baskets where liquidity follows narrative first. \n \n",
-      "description": "",
-      "handle": "SmartMoneyRadar",
-      "display_name": "Laurie Purser",
       "platform": "stocktwits"
     },
     {
@@ -1236,6 +1455,26 @@
       "description": "UK Government's Shocking Bid To Rig YouTube Algorithm To Force-Feed BBC Propaganda\n\n            Authored by Steve Watson via Modernity News,\n\nIn a brazen move that reeks of authoritarian control, the UK government is pushing plans to seize influence over YouTube's recommendation system. Their goal i"
     },
     {
+      "id": "09a0791454f7d3",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T14:29:00Z",
+      "title": "SRAD CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Sportradar (SRAD) Investors of Securities Class Action Lawsuit Deadline on July 17, 2026",
+      "body": "A securities class action lawsuit has been filed against Sportradar Group AG alleging the company made false statements about its compliance practices and knowingly worked with black-market gambling operators while claiming strict regulatory compliance. Investors who purchased SRAD securities betwee",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322081/683/en/SRAD-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-Sportradar-SRAD-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-July-17-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "SRAD"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:29:00Z",
+      "text": "SRAD CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Sportradar (SRAD) Investors of Securities Class Action Lawsuit Deadline on July 17, 2026",
+      "description": "A securities class action lawsuit has been filed against Sportradar Group AG alleging the company made false statements about its compliance practices and knowingly worked with black-market gambling operators while claiming strict regulatory compliance. Investors who purchased SRAD securities betwee"
+    },
+    {
       "id": "24ffd1ed3e20ff",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1256,29 +1495,6 @@
       "description": "",
       "handle": "CosmicMiner",
       "display_name": "Kuhn Dark",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "50d942eebe877e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:24:05Z",
-      "title": "Following Alex Karp\u2019s strong FCF outlook on CNBC, $PLTR long-term fair value potential is expanding. Price action is currently consolidating after the news-driven pump. \n \n Fundamentals look increasingly robust, but avoid chasing the spike here. Let the market digest the move. Look to accumulate on ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658289054",
-      "author": "ETAlpha",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:24:05Z",
-      "text": "Following Alex Karp\u2019s strong FCF outlook on CNBC, $PLTR long-term fair value potential is expanding. Price action is currently consolidating after the news-driven pump. \n \n Fundamentals look increasingly robust, but avoid chasing the spike here. Let the market digest the move. Look to accumulate on ",
-      "description": "",
-      "handle": "ETAlpha",
-      "display_name": "ET Alpha",
       "platform": "stocktwits"
     },
     {
@@ -1351,73 +1567,70 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e851b68b7f7760",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:15:07Z",
-      "title": "Running a 5-stock heavy portfolio: \n$NVDA 44% | $NBIS 24% | \n $HIMS 14% | $GRAB 9% | $PATH 8% \n \nAnyone else running a setup this concentrated? \n \n $NVDA and $NBIS make up nearly 70%, making this highly aggressive. Don&#39;t chase highs here. Watch NVDA&#39;s key support closely-if market sentiment ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658288902",
-      "author": "ETAlpha",
+      "id": "827d4695cad9b8",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T14:17:00Z",
+      "title": "FUTU CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Futu Holdings Limited (FUTU) Investors of Securities Class Action Lawsuit Deadline on August 25, 2026",
+      "body": "Futu Holdings Limited faces a federal securities class action lawsuit alleging the company made false statements about its regulatory compliance. The CSRC notified Futu on May 22, 2026 that certain entities conducted securities, public fund sales, and futures businesses in mainland China without req",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322080/683/en/FUTU-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-Futu-Holdings-Limited-FUTU-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-August-25-2026.html",
+      "author": "GlobeNewswire Inc.",
       "tickers": [
+        "FUTU"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T14:17:00Z",
+      "text": "FUTU CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Futu Holdings Limited (FUTU) Investors of Securities Class Action Lawsuit Deadline on August 25, 2026",
+      "description": "Futu Holdings Limited faces a federal securities class action lawsuit alleging the company made false statements about its regulatory compliance. The CSRC notified Futu on May 22, 2026 that certain entities conducted securities, public fund sales, and futures businesses in mainland China without req"
+    },
+    {
+      "id": "890a25b376467b",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T14:16:08Z",
+      "title": "Here's Why Intel Stock Soared Last Month",
+      "body": "Intel stock surged 21.8% in June due to two key developments: a potential agreement with Apple to design and manufacture chips in the U.S., which would strengthen Intel's foundry business, and growing recognition of CPU demand in AI inference applications. As AI infrastructure shifts from training t",
+      "url": "https://www.fool.com/investing/2026/07/05/heres-why-intel-stock-soared-last-month/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "INTC",
+        "AAPL",
+        "TSM",
         "NVDA"
       ],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 8.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T14:15:07Z",
-      "text": "Running a 5-stock heavy portfolio: \n$NVDA 44% | $NBIS 24% | \n $HIMS 14% | $GRAB 9% | $PATH 8% \n \nAnyone else running a setup this concentrated? \n \n $NVDA and $NBIS make up nearly 70%, making this highly aggressive. Don&#39;t chase highs here. Watch NVDA&#39;s key support closely-if market sentiment ",
-      "description": "",
-      "handle": "ETAlpha",
-      "display_name": "ET Alpha",
-      "platform": "stocktwits"
+      "time": "2026-07-05T14:16:08Z",
+      "text": "Here's Why Intel Stock Soared Last Month",
+      "description": "Intel stock surged 21.8% in June due to two key developments: a potential agreement with Apple to design and manufacture chips in the U.S., which would strengthen Intel's foundry business, and growing recognition of CPU demand in AI inference applications. As AI infrastructure shifts from training t"
     },
     {
-      "id": "24219fd851bb29",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:14:36Z",
-      "title": "Top 10 S&amp;P 500 winners YTD. \n \n$STX +192% - benefiting from the broader storage cycle expansion and enterprise demand recovery. \n \n$MRNA +169% - volatility-driven repricing as markets reassess long-term pipeline expectations. \n \n$AMD +137% - AI compute narrative + data center demand keeping sent",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658288894",
-      "author": "WhaleTracker_",
+      "id": "204533aeb1cef4",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T14:15:00Z",
+      "title": "Where Will Intel Stock Be in 5 Years?",
+      "body": "Intel stock has surged 425% over the past year under new CEO Lip-Bu Tan's leadership, driven by breakthroughs in chip manufacturing technology like the 18A process. However, the gains appear largely speculative as Intel's actual revenue growth remains modest at 7% year-over-year, with continued net ",
+      "url": "https://www.fool.com/investing/2026/07/05/where-will-intel-stock-be-in-5-years/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
       "tickers": [
-        "AMD"
+        "INTC",
+        "AMD",
+        "TSM",
+        "NVDA"
       ],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 8.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T14:14:36Z",
-      "text": "Top 10 S&amp;P 500 winners YTD. \n \n$STX +192% - benefiting from the broader storage cycle expansion and enterprise demand recovery. \n \n$MRNA +169% - volatility-driven repricing as markets reassess long-term pipeline expectations. \n \n$AMD +137% - AI compute narrative + data center demand keeping sent",
-      "description": "",
-      "handle": "WhaleTracker_",
-      "display_name": "Bradly",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d5af25f8b4a2c9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:12:45Z",
-      "title": "High-power cylindrical cell / BBU supply looks tight. \n \n$SAMSUNG SDI supplies cells to Simplo, which turns them into BBUs for $META and $AMZN.   \nWith data center demand rising, this chain looks like the bottleneck.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658288871",
-      "author": "MarketExplorerr",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:12:45Z",
-      "text": "High-power cylindrical cell / BBU supply looks tight. \n \n$SAMSUNG SDI supplies cells to Simplo, which turns them into BBUs for $META and $AMZN.   \nWith data center demand rising, this chain looks like the bottleneck.",
-      "description": "",
-      "handle": "MarketExplorerr",
-      "display_name": "Patsy Greenwood",
-      "platform": "stocktwits"
+      "time": "2026-07-05T14:15:00Z",
+      "text": "Where Will Intel Stock Be in 5 Years?",
+      "description": "Intel stock has surged 425% over the past year under new CEO Lip-Bu Tan's leadership, driven by breakthroughs in chip manufacturing technology like the 18A process. However, the gains appear largely speculative as Intel's actual revenue growth remains modest at 7% year-over-year, with continued net "
     },
     {
       "id": "e1a0d112f6a2ac",
@@ -1443,27 +1656,24 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f1f87f25116520",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:11:45Z",
-      "title": "$AAPL  just so you know\u2026",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658288853",
-      "author": "ResearchTrends09",
+      "id": "0050b0d7fbf165",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T14:08:00Z",
+      "title": "VIA CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Via Transportation (VIA) Investors of Securities Class Action Lawsuit Deadline on August 10, 2026",
+      "body": "A securities class action lawsuit has been filed against Via Transportation alleging that IPO offering documents contained false and misleading statements regarding the company's Platform Annual Run-Rate Revenue and growth challenges in Germany. The stock has declined approximately 70% from its $46 ",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322079/683/en/VIA-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-Via-Transportation-VIA-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-August-10-2026.html",
+      "author": "GlobeNewswire Inc.",
       "tickers": [
-        "AAPL"
+        "VIA"
       ],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 8.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T14:11:45Z",
-      "text": "$AAPL  just so you know\u2026",
-      "description": "",
-      "handle": "ResearchTrends09",
-      "display_name": "Brandon",
-      "platform": "stocktwits"
+      "time": "2026-07-05T14:08:00Z",
+      "text": "VIA CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Via Transportation (VIA) Investors of Securities Class Action Lawsuit Deadline on August 10, 2026",
+      "description": "A securities class action lawsuit has been filed against Via Transportation alleging that IPO offering documents contained false and misleading statements regarding the company's Platform Annual Run-Rate Revenue and growth challenges in Germany. The stock has declined approximately 70% from its $46 "
     },
     {
       "id": "0dd010e975da87",
@@ -1582,29 +1792,6 @@
       "time": "Sun, 05 Jul 2026 13:55:00 +0000",
       "text": "Red Sea Blockage Fears: Cargo Ship Attacked Off Southwest Yemen",
       "description": "Red Sea Blockage Fears: Cargo Ship Attacked Off Southwest Yemen\n\n            A Red Sea disruption would be terrible timing for global shipping and energy markets, coming just as vessel traffic through the Strait of Hormuz has started to normalize in recent weeks.\n\nAn overnight report that a cargo sh"
-    },
-    {
-      "id": "2f7fff89c7496e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T13:54:06Z",
-      "title": "$AMD Consistent forward guidance beats with growing revenue and EPS is why over 70% of the stock is owned by institutional investors. $NVDA $INTC $MU $ARM",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658288561",
-      "author": "TheUnmaker",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 7.5,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T13:54:06Z",
-      "text": "$AMD Consistent forward guidance beats with growing revenue and EPS is why over 70% of the stock is owned by institutional investors. $NVDA $INTC $MU $ARM",
-      "description": "",
-      "handle": "TheUnmaker",
-      "display_name": "TheUnmaker",
-      "platform": "stocktwits"
     },
     {
       "id": "19c17d9131c46c",
@@ -1801,29 +1988,6 @@
       "time": "2026-07-05T13:27:00Z",
       "text": "ZG and Z CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Zillow Group (ZG, Z) Investors of Securities Class Action Lawsuit Deadline on August 10, 2026",
       "description": "Faruqi & Faruqi, LLP announced a securities class action lawsuit against Zillow Group (ZG, Z) alleging the company made false and misleading statements regarding its Redfin agreement, mischaracterizing it as a partnership rather than an acquisition, and downplaying antitrust risks and regulatory scr"
-    },
-    {
-      "id": "c8a04721cbe16b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T13:26:53Z",
-      "title": "$GITBANK.X Love Gitbank as another extremely early $TOS.X type play\ud83d\udc40. \nThis can easily be the next 10X-100X gem \ud83d\udc8e (NFA DYOR) \n\n$AMZN $MSFT $GOOGL \n\nhttps://gitbank.io/\n\n\ud83d\ude80 Gitbank ($GITBANK.X) Bullish Snapshot\n\n\u2022 ~$135K market cap\n\u2022 ~$180K+ liquidity (above market cap)\n\u2022 2.6K+ holders in ~30 days\n\u2022 R",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GOOGL/message/658288134",
-      "author": "ForRealz325",
-      "tickers": [
-        "GOOGL"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T13:26:53Z",
-      "text": "$GITBANK.X Love Gitbank as another extremely early $TOS.X type play\ud83d\udc40. \nThis can easily be the next 10X-100X gem \ud83d\udc8e (NFA DYOR) \n\n$AMZN $MSFT $GOOGL \n\nhttps://gitbank.io/\n\n\ud83d\ude80 Gitbank ($GITBANK.X) Bullish Snapshot\n\n\u2022 ~$135K market cap\n\u2022 ~$180K+ liquidity (above market cap)\n\u2022 2.6K+ holders in ~30 days\n\u2022 R",
-      "description": "",
-      "handle": "ForRealz325",
-      "display_name": "ForRealz325",
-      "platform": "stocktwits"
     },
     {
       "id": "40ecf94da1db6f",
@@ -2771,24 +2935,6 @@
       "time": "2026-07-05T11:15:00Z",
       "text": "Dutch Bros Stock Just Hit a 52-Week High. 3 Reasons Why It's Still a Great Buy in July.",
       "description": "Dutch Bros has reached a 52-week high of $74.65, driven by strong quarterly results with 31% revenue growth and 8.3% same-shop sales increase. The company raised full-year guidance and demonstrated five consecutive quarters of transaction growth. With 1,177 locations across 25 states and plans to ex"
-    },
-    {
-      "id": "d80d08ef6bac76",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05 11:10:21",
-      "title": "IHS Holding validates Fair Value analysis with 84% return in 29 months",
-      "body": "",
-      "url": "https://www.investing.com/news/investment-ideas/ihs-holding-validates-fair-value-analysis-with-84-return-in-29-months-93CH-4775425",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05 11:10:21",
-      "text": "IHS Holding validates Fair Value analysis with 84% return in 29 months",
-      "description": ""
     },
     {
       "id": "8b9af2f6344845",
@@ -4074,6 +4220,60 @@
       "description": "Older workers are fighting ageism by starting their own businesses \u2014 and they\u2019re outperforming younger entrepreneurs"
     },
     {
+      "id": "adef729372b59c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:25:01Z",
+      "title": "A Veracyte Insider Sold 24,000 Company Shares for $1.1 Million. Here's a Deeper Look at the Transaction.",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/veracyte-insider-sold-24-000-132501389.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:25:01Z",
+      "text": "A Veracyte Insider Sold 24,000 Company Shares for $1.1 Million. Here's a Deeper Look at the Transaction.",
+      "description": ""
+    },
+    {
+      "id": "a384a9ad530367",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:23:45Z",
+      "title": "NIQ (NIQ) Completes Acquisition of Flywheel\u2019s China and Southeast Asia Business",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/articles/niq-niq-completes-acquisition-flywheel-132345200.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:23:45Z",
+      "text": "NIQ (NIQ) Completes Acquisition of Flywheel\u2019s China and Southeast Asia Business",
+      "description": ""
+    },
+    {
+      "id": "f88c6db29a92e4",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:23:23Z",
+      "title": "Sharon AI (SHAZ): 10 Best New Tech Stocks to Buy According to Analysts",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/sharon-ai-shaz-10-best-132323884.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:23:23Z",
+      "text": "Sharon AI (SHAZ): 10 Best New Tech Stocks to Buy According to Analysts",
+      "description": ""
+    },
+    {
       "id": "067aaa5692f7e6",
       "source": "reuters",
       "source_type": "rss",
@@ -4128,6 +4328,26 @@
       "description": ""
     },
     {
+      "id": "ad340f8cc68ae6",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T13:22:42Z",
+      "title": "WeRide (WRD), Uber (UBER) Announce Commercial Robotaxi Launch in Zurich",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/weride-wrd-uber-uber-announce-132242940.html",
+      "author": "",
+      "tickers": [
+        "UBER"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T13:22:42Z",
+      "text": "WeRide (WRD), Uber (UBER) Announce Commercial Robotaxi Launch in Zurich",
+      "description": ""
+    },
+    {
       "id": "541b7566686f7c",
       "source": "reuters",
       "source_type": "rss",
@@ -4143,78 +4363,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04T13:22:36Z",
       "text": "Rezolve AI (RZLV) is One of the Best New Tech Stocks to Buy According to Analysts",
-      "description": ""
-    },
-    {
-      "id": "17533335c9450c",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:16:00Z",
-      "title": "Visa Is Having a Rare Down Year. Is the Cash Flow Machine Finally a Bargain?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/visa-having-rare-down-cash-131600177.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:16:00Z",
-      "text": "Visa Is Having a Rare Down Year. Is the Cash Flow Machine Finally a Bargain?",
-      "description": ""
-    },
-    {
-      "id": "ca4f19e4b71c27",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:07:01Z",
-      "title": "The EPR Insider Sale Is Noise \u2014 The Signal Is Rising Demand for Experiences",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/epr-insider-sale-noise-signal-130701765.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:07:01Z",
-      "text": "The EPR Insider Sale Is Noise \u2014 The Signal Is Rising Demand for Experiences",
-      "description": ""
-    },
-    {
-      "id": "f2e7887c8ac6db",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:00:02Z",
-      "title": "Why the Current Selloff in Big Tech Stocks Is a Springboard for a New Rally",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-current-selloff-big-tech-130002898.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:00:02Z",
-      "text": "Why the Current Selloff in Big Tech Stocks Is a Springboard for a New Rally",
-      "description": ""
-    },
-    {
-      "id": "5e32eff88e5feb",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T13:00:02Z",
-      "title": "DigitalOcean Just Joined the Russell 1000. DOCN Stock Is Still Worth Buying Here After a 350% Surge.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/digitalocean-just-joined-russell-1000-130002481.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T13:00:02Z",
-      "text": "DigitalOcean Just Joined the Russell 1000. DOCN Stock Is Still Worth Buying Here After a 350% Surge.",
       "description": ""
     },
     {
