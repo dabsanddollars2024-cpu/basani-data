@@ -1,21 +1,21 @@
 {
-  "generated": "2026-07-05T13:02:07Z",
-  "generated_display": "2026-07-05 13:02 ET",
-  "count": 173,
+  "generated": "2026-07-05T13:07:07Z",
+  "generated_display": "2026-07-05 13:07 ET",
+  "count": 180,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T13:02:02.371856+00:00",
+      "last_error_ts": "2026-07-05T13:07:02.472071+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
       "latency_ms": 200,
-      "last_success": "2026-07-05T13:02:02.572644+00:00",
+      "last_success": "2026-07-05T13:07:02.673127+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 99,
-      "last_success": "2026-07-05T13:02:02.673017+00:00",
+      "last_success": "2026-07-05T13:07:02.773763+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 23,
-      "latency_ms": 34,
-      "last_success": "2026-07-05T13:02:02.771957+00:00",
+      "items_pulled": 30,
+      "latency_ms": 98,
+      "last_success": "2026-07-05T13:07:02.874208+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T13:02:02.871787+00:00",
+      "last_error_ts": "2026-07-05T13:07:02.980964+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 74,
-      "latency_ms": 1509,
-      "last_success": "2026-07-05T13:02:04.381473+00:00",
+      "latency_ms": 1891,
+      "last_success": "2026-07-05T13:07:04.872496+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T13:02:05.472294+00:00",
+      "last_success": "2026-07-05T13:07:05.872362+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1699,
-      "last_success": "2026-07-05T13:02:07.171724+00:00",
+      "latency_ms": 1999,
+      "last_success": "2026-07-05T13:07:07.871777+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 114
+          "latency_ms": 124
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 208
+          "latency_ms": 105
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 100
+          "latency_ms": 98
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 394
+          "latency_ms": 471
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 76
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 196
+          "latency_ms": 183
         }
       }
     }
@@ -107,10 +107,10 @@
   "by_source": {
     "forex_factory": 1,
     "stocktwits": 74,
-    "cnbc": 8,
     "marketwatch": 8,
+    "cnbc": 8,
+    "massive_news": 30,
     "reuters": 16,
-    "massive_news": 23,
     "zerohedge": 8,
     "uw_news": 25,
     "benzinga": 3,
@@ -142,6 +142,162 @@
       "week": "this"
     },
     {
+      "id": "256d74abc6a140",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T13:05:29Z",
+      "title": "$SPY $QQQ nobody likes them",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658287794",
+      "author": "Nullify",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T13:05:29Z",
+      "text": "$SPY $QQQ nobody likes them",
+      "description": "",
+      "handle": "Nullify",
+      "display_name": "Ben Fallen",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3b79bdb894182f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T13:05:29Z",
+      "title": "$SPY $QQQ nobody likes them",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658287794",
+      "author": "Nullify",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T13:05:29Z",
+      "text": "$SPY $QQQ nobody likes them",
+      "description": "",
+      "handle": "Nullify",
+      "display_name": "Ben Fallen",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "825e6523671ad3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T13:05:17Z",
+      "title": "$BMNR $BTC.X $ETH.X $MSTR so Tommy now predicts Bitcoin $50,000-$60,000 August through October???? After calling the winter over a few months ago? What a prophet! The ultimate clowns Saylor and Lee. They will go down as footnotes in history as guys that fucked crypto credibility.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658287791",
+      "author": "TopWaterSniper",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T13:05:17Z",
+      "text": "$BMNR $BTC.X $ETH.X $MSTR so Tommy now predicts Bitcoin $50,000-$60,000 August through October???? After calling the winter over a few months ago? What a prophet! The ultimate clowns Saylor and Lee. They will go down as footnotes in history as guys that fucked crypto credibility.",
+      "description": "",
+      "handle": "TopWaterSniper",
+      "display_name": "CJ",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "59cfe66983f0e6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T13:05:11Z",
+      "title": "saylor liquidation talk is noise until btc loses $60K. right now $61,300 is still holding and $63,360 is the repair gate. $BTC.X $MSTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658287790",
+      "author": "Jonos_SC",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T13:05:11Z",
+      "text": "saylor liquidation talk is noise until btc loses $60K. right now $61,300 is still holding and $63,360 is the repair gate. $BTC.X $MSTR",
+      "description": "",
+      "handle": "Jonos_SC",
+      "display_name": "jonos",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "90a107f1a1ed21",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T13:04:26Z",
+      "title": "Current (July 2026) AI market share:  \n  \nChatGPT = 51%  \nGoogle Gemini = 26%  \nClaude = 10%  \nXAI Grok = 3%  \n  \nAnd their data centers / cloud computing partners:  \n  \nOpenAI &gt; Oracle  \nGoogle &gt; Google  \nAnthropic Claude &gt; Google &amp; Amazon  \nXAI Grok &gt; SpaceX (in house buildout)  \n ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658287776",
+      "author": "sellthetop",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T13:04:26Z",
+      "text": "Current (July 2026) AI market share:  \n  \nChatGPT = 51%  \nGoogle Gemini = 26%  \nClaude = 10%  \nXAI Grok = 3%  \n  \nAnd their data centers / cloud computing partners:  \n  \nOpenAI &gt; Oracle  \nGoogle &gt; Google  \nAnthropic Claude &gt; Google &amp; Amazon  \nXAI Grok &gt; SpaceX (in house buildout)  \n ",
+      "description": "",
+      "handle": "sellthetop",
+      "display_name": "Stephen",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c906dac9744b37",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Sun, 05 Jul 2026 13:03:00 GMT",
+      "title": "Hybrids are the breakout star of the U.S. car market as EV demand fades",
+      "body": "Hybrids aren\u2019t a bridge to EVs anymore \u2014 instead, they\u2019re winning on function and price.",
+      "url": "https://www.marketwatch.com/story/hybrids-are-the-breakout-star-of-the-u-s-car-market-as-ev-demand-fades-96dce1c3?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 05 Jul 2026 13:03:00 GMT",
+      "text": "Hybrids are the breakout star of the U.S. car market as EV demand fades",
+      "description": "Hybrids aren\u2019t a bridge to EVs anymore \u2014 instead, they\u2019re winning on function and price."
+    },
+    {
+      "id": "0ad106dfeea5c5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T13:02:47Z",
+      "title": "$SPY https://youtu.be/4jKjwNcMnJI?is=nMoH37tOquUN6pZq",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658287760",
+      "author": "P8perCh8ser",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T13:02:47Z",
+      "text": "$SPY https://youtu.be/4jKjwNcMnJI?is=nMoH37tOquUN6pZq",
+      "description": "",
+      "handle": "P8perCh8ser",
+      "display_name": "P8perCh8ser",
+      "platform": "stocktwits"
+    },
+    {
       "id": "ff49c5290b3873",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -162,29 +318,6 @@
       "description": "",
       "handle": "WhaleTracker_",
       "display_name": "Bradly",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8991d9b150236b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T13:01:51Z",
-      "title": "Current (July 2026) AI market share: \n \nChatGPT = 51% \nGoogle Gemini = 26% \nClaude = 10% \nXAI Grok = 3% \n \nAnd their data centers / cloud computing partners: \n \nOpenAI &gt; Oracle \nGoogle &gt; Google \nAnthropic Claude &gt; Google &amp; Amazon \nXAI Grok &gt; SpaceX (in house buildout) \n$SPCX $GOOGL $",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GOOGL/message/658287743",
-      "author": "sellthetop",
-      "tickers": [
-        "GOOGL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T13:01:51Z",
-      "text": "Current (July 2026) AI market share: \n \nChatGPT = 51% \nGoogle Gemini = 26% \nClaude = 10% \nXAI Grok = 3% \n \nAnd their data centers / cloud computing partners: \n \nOpenAI &gt; Oracle \nGoogle &gt; Google \nAnthropic Claude &gt; Google &amp; Amazon \nXAI Grok &gt; SpaceX (in house buildout) \n$SPCX $GOOGL $",
-      "description": "",
-      "handle": "sellthetop",
-      "display_name": "Stephen",
       "platform": "stocktwits"
     },
     {
@@ -255,6 +388,24 @@
       "handle": "ghoosa39",
       "display_name": "Mark Owen",
       "platform": "stocktwits"
+    },
+    {
+      "id": "cd8eb372d8fb80",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Sun, 05 Jul 2026 13:00:00 GMT",
+      "title": "Why the stock-market\u2019s red-hot momentum trade might be headed for a violent unwind this month",
+      "body": "Momentum trades tend to struggle in July \u2014 but this year may be particularly volatile, says one strategist. The rumblings have already started.",
+      "url": "https://www.marketwatch.com/story/why-the-stock-markets-red-hot-momentum-trade-might-be-headed-for-a-violent-unwind-this-month-78a45397?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 05 Jul 2026 13:00:00 GMT",
+      "text": "Why the stock-market\u2019s red-hot momentum trade might be headed for a violent unwind this month",
+      "description": "Momentum trades tend to struggle in July \u2014 but this year may be particularly volatile, says one strategist. The rumblings have already started."
     },
     {
       "id": "137c35a3f14e27",
@@ -413,27 +564,24 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2741f7cf506cb1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T12:52:55Z",
-      "title": "$SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658287630",
-      "author": "Nullify",
+      "id": "6929582e57ade3",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T12:55:00Z",
+      "title": "GTM CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds ZoomInfo Investors of Securities Class Action Lawsuit Deadline on August 24, 2026",
+      "body": "Faruqi & Faruqi, LLP is investigating securities fraud claims against ZoomInfo Technologies (NASDAQ: GTM) for allegedly making false statements about business conditions. The company concealed slowing growth in legacy platforms and weakening customer retention before announcing sharply lowered 2026 ",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322068/683/en/GTM-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-ZoomInfo-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-August-24-2026.html",
+      "author": "GlobeNewswire Inc.",
       "tickers": [
-        "SPY"
+        "GTM"
       ],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 10.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T12:52:55Z",
-      "text": "$SPY $QQQ",
-      "description": "",
-      "handle": "Nullify",
-      "display_name": "Ben Fallen",
-      "platform": "stocktwits"
+      "time": "2026-07-05T12:55:00Z",
+      "text": "GTM CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds ZoomInfo Investors of Securities Class Action Lawsuit Deadline on August 24, 2026",
+      "description": "Faruqi & Faruqi, LLP is investigating securities fraud claims against ZoomInfo Technologies (NASDAQ: GTM) for allegedly making false statements about business conditions. The company concealed slowing growth in legacy platforms and weakening customer retention before announcing sharply lowered 2026 "
     },
     {
       "id": "9ead5708b80284",
@@ -456,29 +604,6 @@
       "description": "",
       "handle": "Nullify",
       "display_name": "Ben Fallen",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "759a29ef8b2892",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T12:51:23Z",
-      "title": "$SPY odds to hit 760 in July are now 68% on Polymarket. \n \nMarket still leaning bullish here, with the tape pricing in more upside. That\u2019s a pretty strong probability for a big move this month.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658287617",
-      "author": "NasdaqFrontier",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T12:51:23Z",
-      "text": "$SPY odds to hit 760 in July are now 68% on Polymarket. \n \nMarket still leaning bullish here, with the tape pricing in more upside. That\u2019s a pretty strong probability for a big move this month.",
-      "description": "",
-      "handle": "NasdaqFrontier",
-      "display_name": "Sarah Verville",
       "platform": "stocktwits"
     },
     {
@@ -585,6 +710,26 @@
       "time": "2026-07-05 12:45:03",
       "text": "Saudi Arabia stocks lower at close of trade; Tadawul All Share down 0.26%",
       "description": ""
+    },
+    {
+      "id": "fe8d0b29cbfe62",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T12:45:00Z",
+      "title": "VERI CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Veritone (VERI) Investors of Securities Class Action Lawsuit Deadline on July 20, 2026",
+      "body": "Faruqi & Faruqi, LLP is investigating securities fraud claims against Veritone, Inc., alleging the company made false statements about its financial performance, including overstating revenue and assets, maintaining deficient internal controls, and requiring financial restatements. Investors who pur",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322067/683/en/VERI-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-Veritone-VERI-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-July-20-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "VERI"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T12:45:00Z",
+      "text": "VERI CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Veritone (VERI) Investors of Securities Class Action Lawsuit Deadline on July 20, 2026",
+      "description": "Faruqi & Faruqi, LLP is investigating securities fraud claims against Veritone, Inc., alleging the company made false statements about its financial performance, including overstating revenue and assets, maintaining deficient internal controls, and requiring financial restatements. Investors who pur"
     },
     {
       "id": "e08c5ad67ed60f",
@@ -794,6 +939,26 @@
       "platform": "stocktwits"
     },
     {
+      "id": "0810eb4e63ae9c",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T12:41:00Z",
+      "title": "FSLR CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds First Solar (FSLR) Investors of Securities Class Action Lawsuit Deadline on August 24, 2026",
+      "body": "A securities class action lawsuit has been filed against First Solar, Inc. alleging that the company and its executives made false or misleading statements regarding their ability to manage U.S. tariff policy impacts and overstated projected 2026 financial performance. The lawsuit covers investors w",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322066/683/en/FSLR-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-First-Solar-FSLR-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-August-24-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "FSLR"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T12:41:00Z",
+      "text": "FSLR CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds First Solar (FSLR) Investors of Securities Class Action Lawsuit Deadline on August 24, 2026",
+      "description": "A securities class action lawsuit has been filed against First Solar, Inc. alleging that the company and its executives made false or misleading statements regarding their ability to manage U.S. tariff policy impacts and overstated projected 2026 financial performance. The lawsuit covers investors w"
+    },
+    {
       "id": "aca9b3d1146fae",
       "source": "reuters",
       "source_type": "rss",
@@ -942,6 +1107,26 @@
       "description": "With thousands of dividend-paying companies to choose from, identifying the right stocks can be challenging."
     },
     {
+      "id": "77545559de5fdb",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T12:29:00Z",
+      "title": "CLASS ACTION INVESTIGATION: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Zscaler",
+      "body": "Securities law firm Faruqi & Faruqi is investigating potential claims against Zscaler following the company's May 27, 2026 announcement of weaker-than-expected guidance and sales leadership disruptions. Despite beating quarterly expectations, Zscaler's stock plummeted 31.52% in a single day due to i",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322064/683/en/CLASS-ACTION-INVESTIGATION-Faruqi-Faruqi-LLP-Investigates-Claims-on-Behalf-of-Investors-of-Zscaler.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "ZS"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T12:29:00Z",
+      "text": "CLASS ACTION INVESTIGATION: Faruqi & Faruqi, LLP Investigates Claims on Behalf of Investors of Zscaler",
+      "description": "Securities law firm Faruqi & Faruqi is investigating potential claims against Zscaler following the company's May 27, 2026 announcement of weaker-than-expected guidance and sales leadership disruptions. Despite beating quarterly expectations, Zscaler's stock plummeted 31.52% in a single day due to i"
+    },
+    {
       "id": "5ae4dfa2c7dc9f",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -960,6 +1145,68 @@
       "time": "2026-07-05T12:24:01Z",
       "text": "Butterfly Network Insider Sheds 399K Shares \u2014 This Stock May Be Ready to Take Flight",
       "description": "Butterfly Network's Chief Business Officer Steve Cashman sold 399,461 shares (19.68% of his direct holdings) for approximately $1.9 million in June 2026. The sale marks his largest single open-market transaction to date. While the stock has surged 291.8% over the past year, the analyst suggests the "
+    },
+    {
+      "id": "0fe91559ea60be",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T12:21:00Z",
+      "title": "BRCB CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Black Rock Coffee (BRCB) Investors of Securities Class Action Lawsuit Deadline on August 17, 2026",
+      "body": "A federal securities class action has been filed against Black Rock Coffee Bar, Inc. (NASDAQ: BRCB) alleging that the company and its executives made false and misleading statements about its expansion strategy. The complaint claims that new store openings were cannibalizing revenue from existing lo",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322063/683/en/BRCB-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-Black-Rock-Coffee-BRCB-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-August-17-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "BRCB"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T12:21:00Z",
+      "text": "BRCB CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Black Rock Coffee (BRCB) Investors of Securities Class Action Lawsuit Deadline on August 17, 2026",
+      "description": "A federal securities class action has been filed against Black Rock Coffee Bar, Inc. (NASDAQ: BRCB) alleging that the company and its executives made false and misleading statements about its expansion strategy. The complaint claims that new store openings were cannibalizing revenue from existing lo"
+    },
+    {
+      "id": "5b4c2decf6c41f",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T12:20:00Z",
+      "title": "ROSEN, A TRUSTED AND LEADING LAW FIRM, Encourages First Solar, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 FSLR",
+      "body": "Rosen Law Firm has filed securities class action lawsuits against First Solar, Hub Group, and ADMA Biologics on behalf of investors. The First Solar lawsuit alleges the company made false statements regarding its capacity to manage U.S. tariff policy impacts and overstated projected performance. Inv",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322062/673/en/ROSEN-A-TRUSTED-AND-LEADING-LAW-FIRM-Encourages-First-Solar-Inc-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-FSLR.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "FSLR",
+        "HUBG",
+        "ADMA"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T12:20:00Z",
+      "text": "ROSEN, A TRUSTED AND LEADING LAW FIRM, Encourages First Solar, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 FSLR",
+      "description": "Rosen Law Firm has filed securities class action lawsuits against First Solar, Hub Group, and ADMA Biologics on behalf of investors. The First Solar lawsuit alleges the company made false statements regarding its capacity to manage U.S. tariff policy impacts and overstated projected performance. Inv"
+    },
+    {
+      "id": "ffabec163c947c",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T12:19:00Z",
+      "title": "PICS CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds PicS N.V. (PICS) Investors of Securities Class Action Lawsuit Deadline on August 4, 2026",
+      "body": "A federal securities class action has been filed against PicS N.V. (NASDAQ: PICS) alleging that the company and its executives made false and misleading statements in connection with its January 30, 2026 IPO. The complaint claims PicS concealed deficiencies in its credit evaluation procedures discov",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322061/683/en/PICS-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-PicS-N-V-PICS-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-August-4-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "PICS"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T12:19:00Z",
+      "text": "PICS CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds PicS N.V. (PICS) Investors of Securities Class Action Lawsuit Deadline on August 4, 2026",
+      "description": "A federal securities class action has been filed against PicS N.V. (NASDAQ: PICS) alleging that the company and its executives made false and misleading statements in connection with its January 30, 2026 IPO. The complaint claims PicS concealed deficiencies in its credit evaluation procedures discov"
     },
     {
       "id": "ed1cf40a2facd4",
@@ -981,29 +1228,6 @@
       "time": "2026-07-05T12:16:12Z",
       "text": "Here's Why Shares in USA Rare Earth Slumped 23% in June",
       "description": "USA Rare Earth's stock fell 23% in June due to three factors: an SEC filing revealing potential share overhang of 93.8 million shares (35.2% of outstanding stock), China's blacklisting of the company restricting access to Chinese technology and components, and a legal dispute with competitor MP Mate"
-    },
-    {
-      "id": "d6fd81adede408",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T12:15:50Z",
-      "title": "$SPY $QQQ Best place to live! Best time to live here! I am a proud patriot! \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83e\udd18",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658287231",
-      "author": "NastyPelosi",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T12:15:50Z",
-      "text": "$SPY $QQQ Best place to live! Best time to live here! I am a proud patriot! \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83e\udd18",
-      "description": "",
-      "handle": "NastyPelosi",
-      "display_name": "Insider Trading Specialist",
-      "platform": "stocktwits"
     },
     {
       "id": "d7badb89605b71",
@@ -1098,6 +1322,26 @@
       "handle": "NatoshiSakomoto",
       "display_name": "SN",
       "platform": "stocktwits"
+    },
+    {
+      "id": "b9bc3a112365bf",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T12:10:00Z",
+      "title": "BMI CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Badger Meter (BMI) Investors of Securities Class Action Lawsuit Deadline on August 3, 2026",
+      "body": "Faruqi & Faruqi, LLP is investigating securities fraud claims against Badger Meter, Inc. (NASDAQ: BMI) for allegedly making false and misleading statements about strong demand and growth prospects while concealing unsustainable financial results. The lawsuit covers investors who purchased BMI stock ",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322060/683/en/BMI-CLASS-ACTION-NOTICE-Faruqi-Faruqi-LLP-Reminds-Badger-Meter-BMI-Investors-of-Securities-Class-Action-Lawsuit-Deadline-on-August-3-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "BMI"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T12:10:00Z",
+      "text": "BMI CLASS ACTION NOTICE: Faruqi & Faruqi, LLP Reminds Badger Meter (BMI) Investors of Securities Class Action Lawsuit Deadline on August 3, 2026",
+      "description": "Faruqi & Faruqi, LLP is investigating securities fraud claims against Badger Meter, Inc. (NASDAQ: BMI) for allegedly making false and misleading statements about strong demand and growth prospects while concealing unsustainable financial results. The lawsuit covers investors who purchased BMI stock "
     },
     {
       "id": "48f9ca726fe2e8",
@@ -1601,29 +1845,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "5552a0ee0da043",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T11:05:42Z",
-      "title": "$UPDOG.X It has been a solid week for crypto \n\n-Nearly $200 billion has been added to the crypto market cap.\n\n-$BTC.X reclaimed $63,000.\n\n-$ETH.X reclaimed $1,800 for the first time in 17 days.\n\n-Bitcoin ETFs bought $221.72 million in BTC in a single day, the largest daily buy in 59 days\n\n-$MSTR is ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658286592",
-      "author": "Swaggy_P",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T11:05:42Z",
-      "text": "$UPDOG.X It has been a solid week for crypto \n\n-Nearly $200 billion has been added to the crypto market cap.\n\n-$BTC.X reclaimed $63,000.\n\n-$ETH.X reclaimed $1,800 for the first time in 17 days.\n\n-Bitcoin ETFs bought $221.72 million in BTC in a single day, the largest daily buy in 59 days\n\n-$MSTR is ",
-      "description": "",
-      "handle": "Swaggy_P",
-      "display_name": "Philly",
-      "platform": "stocktwits"
-    },
-    {
       "id": "8b9af2f6344845",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2024,29 +2245,6 @@
       "time": "2026-07-05T10:12:00Z",
       "text": "Should SpaceX Buy T-Mobile and Build a Direct-to-Device Global Internet Giant?",
       "description": "While SpaceX's Starlink satellite broadband and T-Mobile's terrestrial mobile service appear complementary, the article argues the $180 billion acquisition would be strategically flawed. The deal would complicate SpaceX's operations, alienate potential partners AT&T and Verizon, face regulatory hurd"
-    },
-    {
-      "id": "75ff21bca505a3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T10:03:07Z",
-      "title": "$BTC.X $XXI $MSTR $CLSK he who is last will pay the most",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658286259",
-      "author": "I_HODL_GOLD",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T10:03:07Z",
-      "text": "$BTC.X $XXI $MSTR $CLSK he who is last will pay the most",
-      "description": "",
-      "handle": "I_HODL_GOLD",
-      "display_name": "John doe",
-      "platform": "stocktwits"
     },
     {
       "id": "519603206d17dc",
@@ -3054,28 +3252,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "89c11ea51352ad",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-05T05:05:00Z",
-      "title": "How Much Could $1,000 Invested in Viking Therapeutics Be Worth by 2030?",
-      "body": "Viking Therapeutics' obesity drug candidate VK2735 could potentially grow a $1,000 investment to $2,500-$3,400 by 2030 under favorable conditions, but faces significant competition from established players Eli Lilly and Novo Nordisk. The company will likely need to dilute shares through fundraising,",
-      "url": "https://www.fool.com/investing/2026/07/05/how-much-could-1000-invested-in-viking-therapeutic/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "VKTX",
-        "LLY",
-        "NVO"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T05:05:00Z",
-      "text": "How Much Could $1,000 Invested in Viking Therapeutics Be Worth by 2030?",
-      "description": "Viking Therapeutics' obesity drug candidate VK2735 could potentially grow a $1,000 investment to $2,500-$3,400 by 2030 under favorable conditions, but faces significant competition from established players Eli Lilly and Novo Nordisk. The company will likely need to dilute shares through fundraising,"
-    },
-    {
       "id": "b8b47daa177faa",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -3446,42 +3622,6 @@
       "time": "Sat, 04 Jul 2026 18:37:00 GMT",
       "text": "Why June\u2019s jobs and inflation data are bullish for bonds",
       "description": "The new jobs report is worse than many people realize."
-    },
-    {
-      "id": "d218d1d18c567b",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Sat, 04 Jul 2026 18:19:00 GMT",
-      "title": "Insurers shifted roof-replacement costs onto homeowners thanks to a new federal rule \u2014 just in time for hail and hurricane season",
-      "body": "Those who find extensive damage to their roofs might be stuck between two options: File an insurance claim, which could trigger a premium increase, or cough up the cash for the necessary repairs or replacement.",
-      "url": "https://www.marketwatch.com/story/insurers-shifted-roof-replacement-costs-onto-homeowners-thanks-to-a-new-federal-rule-just-in-time-for-hail-and-hurricane-season-e86068df?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 04 Jul 2026 18:19:00 GMT",
-      "text": "Insurers shifted roof-replacement costs onto homeowners thanks to a new federal rule \u2014 just in time for hail and hurricane season",
-      "description": "Those who find extensive damage to their roofs might be stuck between two options: File an insurance claim, which could trigger a premium increase, or cough up the cash for the necessary repairs or replacement."
-    },
-    {
-      "id": "7ffec6d1fba5b5",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Sat, 04 Jul 2026 17:59:00 GMT",
-      "title": "Where can I invest my kid\u2019s \u2018Trump account\u2019 money? The Treasury Department just answered that question.",
-      "body": "The money in \u201cTrump accounts\u201d has to be invested in low-cost index funds \u2014 and now parents and investors are learning which funds they can actually use.",
-      "url": "https://www.marketwatch.com/story/where-can-i-invest-my-kids-trump-account-money-the-treasury-department-just-answered-that-question-4f656574?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 04 Jul 2026 17:59:00 GMT",
-      "text": "Where can I invest my kid\u2019s \u2018Trump account\u2019 money? The Treasury Department just answered that question.",
-      "description": "The money in \u201cTrump accounts\u201d has to be invested in low-cost index funds \u2014 and now parents and investors are learning which funds they can actually use."
     },
     {
       "id": "12708a93b7d4bb",
