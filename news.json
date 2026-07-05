@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-05T02:57:06Z",
-  "generated_display": "2026-07-05 02:57 ET",
-  "count": 169,
+  "generated": "2026-07-05T03:02:07Z",
+  "generated_display": "2026-07-05 03:02 ET",
+  "count": 175,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T02:57:02.123541+00:00",
+      "last_error_ts": "2026-07-05T03:02:01.533171+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 146,
-      "last_success": "2026-07-05T02:57:02.271032+00:00",
+      "latency_ms": 137,
+      "last_success": "2026-07-05T03:02:01.671279+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-05T02:57:02.371190+00:00",
+      "latency_ms": 54,
+      "last_success": "2026-07-05T03:02:01.770644+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 23,
-      "latency_ms": 37,
-      "last_success": "2026-07-05T02:57:02.470759+00:00",
+      "items_pulled": 24,
+      "latency_ms": 100,
+      "last_success": "2026-07-05T03:02:01.872281+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T02:57:02.585333+00:00",
+      "last_error_ts": "2026-07-05T03:02:01.901384+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
-      "items_pulled": 70,
-      "latency_ms": 1611,
-      "last_success": "2026-07-05T02:57:04.196395+00:00",
+      "items_pulled": 75,
+      "latency_ms": 2245,
+      "last_success": "2026-07-05T03:02:04.146625+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T02:57:05.170737+00:00",
+      "last_success": "2026-07-05T03:02:05.125338+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1758,
-      "last_success": "2026-07-05T02:57:06.929556+00:00",
+      "latency_ms": 1991,
+      "last_success": "2026-07-05T03:02:07.116697+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,42 +74,42 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 180
+          "latency_ms": 136
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 194
+          "latency_ms": 187
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 37
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 465
+          "latency_ms": 402
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 16
+          "latency_ms": 21
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 80
+          "latency_ms": 130
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 70,
+    "stocktwits": 75,
     "reuters": 16,
+    "massive_news": 24,
     "zerohedge": 8,
     "uw_news": 25,
-    "massive_news": 23,
     "marketwatch": 8,
     "seekingalpha": 7,
     "benzinga": 3,
@@ -117,6 +117,52 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "f21cc81ba75cad",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T02:58:55Z",
+      "title": "$DJT $SPY Maybe you can pass this on to AmericaDeams. He blocked me awhile ago. Apparently you give money to the enemy first before you Liberate them...",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658283701",
+      "author": "YNK",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-05T02:58:55Z",
+      "text": "$DJT $SPY Maybe you can pass this on to AmericaDeams. He blocked me awhile ago. Apparently you give money to the enemy first before you Liberate them...",
+      "description": "",
+      "handle": "YNK",
+      "display_name": "YNK",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5edfff53273c12",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T02:58:37Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nGonna need something stronger than coffee for this one sweetie!\ud83d\udc47",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658283695",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T02:58:37Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nGonna need something stronger than coffee for this one sweetie!\ud83d\udc47",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
     {
       "id": "040e0e099b333a",
       "source": "stocktwits",
@@ -299,29 +345,6 @@
       "description": "",
       "handle": "WolfofWalgreensXXS",
       "display_name": "Wolf",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "fe9726ae9d9882",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T02:47:35Z",
-      "title": "$SPY   News update!!!\nPt1\nIran continues to use threats and force to compel commercial vessels to transit through its illegal traffic separation scheme in the Strait of Hormuz. Alternative transit routes such as the route along Oman\u2019s coast undermine Iran\u2019s efforts to establish complete control over",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658283563",
-      "author": "rob_baker",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T02:47:35Z",
-      "text": "$SPY   News update!!!\nPt1\nIran continues to use threats and force to compel commercial vessels to transit through its illegal traffic separation scheme in the Strait of Hormuz. Alternative transit routes such as the route along Oman\u2019s coast undermine Iran\u2019s efforts to establish complete control over",
-      "description": "",
-      "handle": "rob_baker",
-      "display_name": "Rob Baker",
       "platform": "stocktwits"
     },
     {
@@ -780,6 +803,26 @@
       "platform": "stocktwits"
     },
     {
+      "id": "020485f5b9b038",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T02:32:00Z",
+      "title": "JASIWAY Best-Selling Modern Sleeper Sofa Chair Launches on Wayfair, Bringing Flexible Small-Space Living to Modern American Homes",
+      "body": "JASIWAY, a modern furniture brand, announced its best-selling Modern Sleeper Sofa Chair is now available on Wayfair. The launch addresses growing demand for multifunctional, space-efficient furniture solutions driven by rising housing density, hybrid work patterns, and evolving consumer preferences ",
+      "url": "https://www.globenewswire.com/news-release/2026/07/05/3322054/0/en/JASIWAY-Best-Selling-Modern-Sleeper-Sofa-Chair-Launches-on-Wayfair-Bringing-Flexible-Small-Space-Living-to-Modern-American-Homes.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "W"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T02:32:00Z",
+      "text": "JASIWAY Best-Selling Modern Sleeper Sofa Chair Launches on Wayfair, Bringing Flexible Small-Space Living to Modern American Homes",
+      "description": "JASIWAY, a modern furniture brand, announced its best-selling Modern Sleeper Sofa Chair is now available on Wayfair. The launch addresses growing demand for multifunctional, space-efficient furniture solutions driven by rising housing density, hybrid work patterns, and evolving consumer preferences "
+    },
+    {
       "id": "58c005ab3a9fb7",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -915,29 +958,6 @@
       "description": "",
       "handle": "farDoc",
       "display_name": "R Doc",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "88c2e3ec2e067d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T02:25:50Z",
-      "title": "$BTC.X $MSTR \n\nAre you referring to its use of communicating with humans or referring to the life-like physical human  form?\n\nIf physical, they would likely have silicone and it would still feel rubbery and if they didn\u2019t add heat, they would feel cold to the touch.\n\nIf communications, ask about sui",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658283285",
-      "author": "TMStrader",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T02:25:50Z",
-      "text": "$BTC.X $MSTR \n\nAre you referring to its use of communicating with humans or referring to the life-like physical human  form?\n\nIf physical, they would likely have silicone and it would still feel rubbery and if they didn\u2019t add heat, they would feel cold to the touch.\n\nIf communications, ask about sui",
-      "description": "",
-      "handle": "TMStrader",
-      "display_name": "Monica Macez",
       "platform": "stocktwits"
     },
     {
@@ -1202,6 +1222,29 @@
       "description": ""
     },
     {
+      "id": "7e8301c6933aac",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T01:47:43Z",
+      "title": "$BTC.X $GLD $SPY This is a 100 year chart of US market.  So when does it crash like your screen shots? Other than periodical pullbacks before resuming the rally.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658282812",
+      "author": "AlphaBull_10M",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T01:47:43Z",
+      "text": "$BTC.X $GLD $SPY This is a 100 year chart of US market.  So when does it crash like your screen shots? Other than periodical pullbacks before resuming the rally.",
+      "description": "",
+      "handle": "AlphaBull_10M",
+      "display_name": "Alpha Bull",
+      "platform": "stocktwits"
+    },
+    {
       "id": "b375b11fab609a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1281,6 +1324,29 @@
       "description": "",
       "handle": "dooker",
       "display_name": "dooker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "99651c573bca02",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T01:36:00Z",
+      "title": "$SPY $BTC.X $GLD",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658282647",
+      "author": "SonGoku",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T01:36:00Z",
+      "text": "$SPY $BTC.X $GLD",
+      "description": "",
+      "handle": "SonGoku",
+      "display_name": "Goku",
       "platform": "stocktwits"
     },
     {
@@ -1699,6 +1765,29 @@
       "platform": "stocktwits"
     },
     {
+      "id": "5f5e9979e6d956",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:59:30Z",
+      "title": "$GLD so I guess we didnt get the gold revaluation announcement all the geniuses on you tube were calling for as part of the 250th... what a shock",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658281347",
+      "author": "Redding_CB",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:59:30Z",
+      "text": "$GLD so I guess we didnt get the gold revaluation announcement all the geniuses on you tube were calling for as part of the 250th... what a shock",
+      "description": "",
+      "handle": "Redding_CB",
+      "display_name": "Chris B",
+      "platform": "stocktwits"
+    },
+    {
       "id": "19db9180e20561",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1890,6 +1979,29 @@
       "time": "2026-07-04T23:15:00Z",
       "text": "Berkshire Hathaway Is Really a Financial Powerhouse in Disguise. Here's What That Means for Investors.",
       "description": "Despite appearing as an industrial conglomerate, Berkshire Hathaway is fundamentally a financial stock built on its insurance operations. The company's strength lies in investing insurance float\u2014premiums collected upfront before claims are paid. With nearly $400 billion in cash and new CEO Greg Abel"
+    },
+    {
+      "id": "f698d9eada8d1b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T23:14:56Z",
+      "title": "$SPY $GLD why not just wear a piece of gold on your wrist...Yes why not indeed...$BTC.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658280696",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T23:14:56Z",
+      "text": "$SPY $GLD why not just wear a piece of gold on your wrist...Yes why not indeed...$BTC.X",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
     },
     {
       "id": "28495c25dfad8b",
@@ -2097,6 +2209,29 @@
       "time": "2026-07-04T22:09:01Z",
       "text": "What This $905,000 Insider Sale at McGrath RentCorp Signals for Investors",
       "description": "McGrath RentCorp director Joseph F. Hanna sold 7,500 shares worth approximately $905,000 on July 1, 2026, reducing his stake by 4.7%. The article characterizes this as routine portfolio trimming rather than a red flag, noting Hanna still holds ~$18.3 million in stock. The company reported strong Q1 "
+    },
+    {
+      "id": "295e136505a840",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-04T22:08:42Z",
+      "title": "$SPY  \n\nas traders.\n\nsometimes we have to push the ChildHood Traumas aside inorder to make a breakthrough\n \n$QQQ $GLD $BTC.X \n#pivotgroup\ud83d\udee0\ufe0f\ud83d\udd10",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658279861",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T22:08:42Z",
+      "text": "$SPY  \n\nas traders.\n\nsometimes we have to push the ChildHood Traumas aside inorder to make a breakthrough\n \n$QQQ $GLD $BTC.X \n#pivotgroup\ud83d\udee0\ufe0f\ud83d\udd10",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
     },
     {
       "id": "b4d1488f74f184",
@@ -3471,39 +3606,39 @@
       "description": ""
     },
     {
-      "id": "e9ace7906178e7",
+      "id": "d0614cf634ba2f",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-03T20:31:08Z",
-      "title": "Could China\u2019s Cheap AI Models \u2018Crash\u2019 The US Stock Market In 2026? CEO Issues Stark Warning For OpenAI And Anthropic: \u2018The Bubble Is\u2026. About To Pop\u2019",
+      "timestamp": "2026-07-03T20:37:00Z",
+      "title": "3 Reasons You Should Buy Carnival Stock in July",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/could-china-cheap-ai-models-203108779.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-03T20:31:08Z",
-      "text": "Could China\u2019s Cheap AI Models \u2018Crash\u2019 The US Stock Market In 2026? CEO Issues Stark Warning For OpenAI And Anthropic: \u2018The Bubble Is\u2026. About To Pop\u2019",
-      "description": ""
-    },
-    {
-      "id": "405de8c57c25ac",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-03T20:29:54Z",
-      "title": "How to Buy Pre-IPO Shares in Anthropic and OpenAI (And Why You Might Not Want To)",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-pre-ipo-shares-anthropic-202954054.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-reasons-buy-carnival-stock-203700600.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-03T20:29:54Z",
-      "text": "How to Buy Pre-IPO Shares in Anthropic and OpenAI (And Why You Might Not Want To)",
+      "time": "2026-07-03T20:37:00Z",
+      "text": "3 Reasons You Should Buy Carnival Stock in July",
+      "description": ""
+    },
+    {
+      "id": "62fd473324d346",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-03T20:34:58Z",
+      "title": "Dave Ramsey to Man With $83K on 16 Credit Cards Terrified to Sell His Hunting Land: \u2018You Just Stacked Up a Bunch of Stuff\u2019",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/articles/dave-ramsey-man-83k-16-203458100.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-03T20:34:58Z",
+      "text": "Dave Ramsey to Man With $83K on 16 Credit Cards Terrified to Sell His Hunting Land: \u2018You Just Stacked Up a Bunch of Stuff\u2019",
       "description": ""
     },
     {
@@ -3525,20 +3660,20 @@
       "description": ""
     },
     {
-      "id": "f95a38df6fa32a",
+      "id": "f9dcf9d07dc10b",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-03T19:09:02Z",
+      "timestamp": "2026-07-03T19:09:01Z",
       "title": "Oil prices little changed as US-Iran peace efforts hold",
       "body": "",
-      "url": "https://finance.yahoo.com/news/oil-slightly-ahead-long-us-020459668.html",
+      "url": "https://finance.yahoo.com/news/oil-prices-little-changed-ahead-075928204.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-03T19:09:02Z",
+      "time": "2026-07-03T19:09:01Z",
       "text": "Oil prices little changed as US-Iran peace efforts hold",
       "description": ""
     },
