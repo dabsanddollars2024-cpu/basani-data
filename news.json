@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-05T04:02:06Z",
-  "generated_display": "2026-07-05 04:02 ET",
-  "count": 174,
+  "generated": "2026-07-05T04:07:06Z",
+  "generated_display": "2026-07-05 04:07 ET",
+  "count": 169,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T04:02:01.532967+00:00",
+      "last_error_ts": "2026-07-05T04:07:01.427968+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 108,
-      "last_success": "2026-07-05T04:02:01.642205+00:00",
+      "latency_ms": 242,
+      "last_success": "2026-07-05T04:07:01.671086+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 128,
-      "last_success": "2026-07-05T04:02:01.771356+00:00",
+      "latency_ms": 67,
+      "last_success": "2026-07-05T04:07:01.739114+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 23,
-      "latency_ms": 99,
-      "last_success": "2026-07-05T04:02:01.872486+00:00",
+      "latency_ms": 131,
+      "last_success": "2026-07-05T04:07:01.871559+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T04:02:01.978423+00:00",
+      "last_error_ts": "2026-07-05T04:07:01.978449+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
-      "items_pulled": 75,
-      "latency_ms": 1897,
-      "last_success": "2026-07-05T04:02:03.876429+00:00",
+      "items_pulled": 70,
+      "latency_ms": 1812,
+      "last_success": "2026-07-05T04:07:03.790513+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T04:02:04.647871+00:00",
+      "last_success": "2026-07-05T04:07:04.771281+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1793,
-      "last_success": "2026-07-05T04:02:06.441842+00:00",
+      "latency_ms": 1959,
+      "last_success": "2026-07-05T04:07:06.730959+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,38 +74,38 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 106
+          "latency_ms": 188
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 91
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 30
+          "latency_ms": 41
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 390
+          "latency_ms": 461
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 81
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 73
+          "latency_ms": 180
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 75,
+    "stocktwits": 70,
     "uw_news": 25,
     "massive_news": 23,
     "reuters": 16,
@@ -117,6 +117,29 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "71ae6c2e385762",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T04:05:30Z",
+      "title": "$SPY I am convinced we will hit 820 by EOY , but which stocks will carry us to it ???",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658284314",
+      "author": "ShadyAggie40",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T04:05:30Z",
+      "text": "$SPY I am convinced we will hit 820 by EOY , but which stocks will carry us to it ???",
+      "description": "",
+      "handle": "ShadyAggie40",
+      "display_name": "Omied Bahri",
+      "platform": "stocktwits"
+    },
     {
       "id": "43b0194a716655",
       "source": "stocktwits",
@@ -297,29 +320,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "85bf91757c924c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T03:56:55Z",
-      "title": "$COIN so youre saying theres a chance",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658284258",
-      "author": "holdingbags",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T03:56:55Z",
-      "text": "$COIN so youre saying theres a chance",
-      "description": "",
-      "handle": "holdingbags",
-      "display_name": "aka Daddy Bags aka Farmer Bags",
-      "platform": "stocktwits"
-    },
-    {
       "id": "baa14f527d7d33",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -452,29 +452,6 @@
       "description": "",
       "handle": "yogibearacallz",
       "display_name": "Yogi Berra",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "bb1f92f6c5c7d8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T03:47:29Z",
-      "title": "$SPY my sons Trump bucks claims it\u2019s in $SPYM  wonder if we see a Monday pump from all the contributions over the weekend.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658284170",
-      "author": "Stinkfist",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T03:47:29Z",
-      "text": "$SPY my sons Trump bucks claims it\u2019s in $SPYM  wonder if we see a Monday pump from all the contributions over the weekend.",
-      "description": "",
-      "handle": "Stinkfist",
-      "display_name": "Stink",
       "platform": "stocktwits"
     },
     {
@@ -1585,29 +1562,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b375b11fab609a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T01:37:43Z",
-      "title": "$COIN open 200",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658282674",
-      "author": "mookmook169",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T01:37:43Z",
-      "text": "$COIN open 200",
-      "description": "",
-      "handle": "mookmook169",
-      "display_name": "mookmook169",
-      "platform": "stocktwits"
-    },
-    {
       "id": "84e5fecdd54ef3",
       "source": "reuters",
       "source_type": "rss",
@@ -1898,29 +1852,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "cf53792e189a7c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T00:50:32Z",
-      "title": "$COIN +10% day on Monday?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658282012",
-      "author": "Hdeez2",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T00:50:32Z",
-      "text": "$COIN +10% day on Monday?",
-      "description": "",
-      "handle": "Hdeez2",
-      "display_name": "Hamza",
-      "platform": "stocktwits"
-    },
-    {
       "id": "8c8c9f3eb593cf",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2118,29 +2049,6 @@
       "time": "2026-07-04T23:46:00Z",
       "text": "LCID IMPORTANT DEADLINE: ROSEN, SKILLED INVESTOR COUNSEL, Encourages Lucid Group, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important Deadline in Securities Class Action - LCID",
       "description": "Rosen Law Firm is notifying investors in Lucid Group (LCID) and Graphic Packaging Holding Company (GPK) about ongoing securities class action lawsuits. Lucid investors who purchased securities between February 25, 2026 and April 13, 2026 can join the class action with a July 28, 2026 deadline for le"
-    },
-    {
-      "id": "1656cb3cc07077",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T23:43:47Z",
-      "title": "$SOFI  You don&#39;t love SoFi Technologies enough at this level, or Coinbase Global!  $COIN",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658281128",
-      "author": "WC25",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T23:43:47Z",
-      "text": "$SOFI  You don&#39;t love SoFi Technologies enough at this level, or Coinbase Global!  $COIN",
-      "description": "",
-      "handle": "WC25",
-      "display_name": "WC25B",
-      "platform": "stocktwits"
     },
     {
       "id": "136ae338d648f4",
@@ -2392,29 +2300,6 @@
       "time": "2026-07-04T22:02:00Z",
       "text": "\u05d4\u05ea\u05e8\u05d0\u05ea \u05de\u05d5\u05e2\u05d3 \u05d0\u05d7\u05e8\u05d5\u05df \u05dc\u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05e0\u05d2\u05d3 FSK: \u05e8\u05d5\u05d6\u05df, \u05de\u05e9\u05e8\u05d3 \u05e2\u05d5\u05e8\u05db\u05d9 \u05d3\u05d9\u05df \u05de\u05d5\u05e2\u05e8\u05da \u05d1\u05e8\u05d7\u05d1\u05d9 \u05d4\u05e2\u05d5\u05dc\u05dd, \u05de\u05e2\u05d5\u05d3\u05d3\u05d9\u05dd \u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d1- FS\u00a0KKR\u00a0Capital Corp. \u05e2\u05dd \u05d4\u05e4\u05e1\u05d3\u05d9\u05dd \u05e9\u05dc \u05d9\u05d5\u05ea\u05e8 \u05de-100 \u05d0\u05dc\u05e3 \u05d3\u05d5\u05dc\u05e8 \u05dc\u05e7\u05d1\u05dc \u05d9\u05d9\u05e2\u05d5\u05e5 \u05de\u05e9\u05e4\u05d8\u05d9 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05de\u05d5\u05e2\u05d3 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05d4\u05d7\u05e9\u05d5\u05d1 \u05d1-6 \u05d1\u05d9\u05d5\u05dc\u05d9 \u05d1\u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05d1\u05e0\u05d9\u05d9\u05e8\u05d5\u05ea \u05e2\u05e8\u05da \u2013 FSK",
       "description": "Rosen Law Firm announces class action securities lawsuits against FS KKR Capital Corp. (FSK) and ChampionX Corporation (CHX). Investors who suffered losses exceeding $100,000 during specified periods are encouraged to join the lawsuits. FSK is accused of overstating portfolio reorganization efforts,"
-    },
-    {
-      "id": "8bd2352a71f3d7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T21:40:00Z",
-      "title": "$COIN",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658279424",
-      "author": "Michael_MDC",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T21:40:00Z",
-      "text": "$COIN",
-      "description": "",
-      "handle": "Michael_MDC",
-      "display_name": "AgentATE",
-      "platform": "stocktwits"
     },
     {
       "id": "0412225d86eea6",
