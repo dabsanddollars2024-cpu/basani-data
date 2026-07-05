@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T09:32:06Z",
-  "generated_display": "2026-07-05 09:32 ET",
+  "generated": "2026-07-05T09:37:07Z",
+  "generated_display": "2026-07-05 09:37 ET",
   "count": 162,
   "source_health": {
     "x_api": {
@@ -8,14 +8,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T09:32:02.171582+00:00",
+      "last_error_ts": "2026-07-05T09:37:02.071405+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 99,
-      "last_success": "2026-07-05T09:32:02.271809+00:00",
+      "latency_ms": 199,
+      "last_success": "2026-07-05T09:37:02.271678+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 99,
-      "last_success": "2026-07-05T09:32:02.372517+00:00",
+      "last_success": "2026-07-05T09:37:02.371842+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 13,
-      "latency_ms": 30,
-      "last_success": "2026-07-05T09:32:02.403829+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-05T09:37:02.471825+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T09:32:02.498379+00:00",
+      "last_error_ts": "2026-07-05T09:37:02.580185+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1673,
-      "last_success": "2026-07-05T09:32:04.172245+00:00",
+      "latency_ms": 1703,
+      "last_success": "2026-07-05T09:37:04.284073+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T09:32:04.889794+00:00",
+      "last_success": "2026-07-05T09:37:05.171199+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1981,
-      "last_success": "2026-07-05T09:32:06.871434+00:00",
+      "latency_ms": 1999,
+      "last_success": "2026-07-05T09:37:07.170869+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 122
+          "latency_ms": 120
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 106
+          "latency_ms": 87
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 92
+          "latency_ms": 94
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 281
+          "latency_ms": 401
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 9
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 103
+          "latency_ms": 167
         }
       }
     }
@@ -107,8 +107,8 @@
   "by_source": {
     "forex_factory": 1,
     "stocktwits": 75,
-    "uw_news": 25,
     "reuters": 16,
+    "uw_news": 25,
     "massive_news": 13,
     "seekingalpha": 7,
     "zerohedge": 8,
@@ -140,6 +140,75 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "fb602cd373dacd",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T09:35:35Z",
+      "title": "$SMCI $NVDA $MSFT $META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658286115",
+      "author": "Jamesf36",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T09:35:35Z",
+      "text": "$SMCI $NVDA $MSFT $META",
+      "description": "",
+      "handle": "Jamesf36",
+      "display_name": "James",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2974b44ca14517",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T09:35:35Z",
+      "title": "$SMCI $NVDA $MSFT $META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658286115",
+      "author": "Jamesf36",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T09:35:35Z",
+      "text": "$SMCI $NVDA $MSFT $META",
+      "description": "",
+      "handle": "Jamesf36",
+      "display_name": "James",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "68651ade8bbcdd",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T09:35:35Z",
+      "title": "$SMCI $NVDA $MSFT $META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658286115",
+      "author": "Jamesf36",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T09:35:35Z",
+      "text": "$SMCI $NVDA $MSFT $META",
+      "description": "",
+      "handle": "Jamesf36",
+      "display_name": "James",
+      "platform": "stocktwits"
     },
     {
       "id": "44bbb7bfcb7e02",
@@ -186,6 +255,42 @@
       "handle": "NYChichas",
       "display_name": "Chicha",
       "platform": "stocktwits"
+    },
+    {
+      "id": "99ea8d84c859cc",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05 09:30:27",
+      "title": "OPEC+ set to approve another oil output increase, sources say",
+      "body": "",
+      "url": "https://www.investing.com/news/commodities-news/opec-set-to-approve-another-oil-output-increase-sources-say-4775414",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05 09:30:27",
+      "text": "OPEC+ set to approve another oil output increase, sources say",
+      "description": ""
+    },
+    {
+      "id": "96230ab7266941",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05 09:29:47",
+      "title": "OPEC+ reportedly expected to approve another oil output increase for August",
+      "body": "",
+      "url": "https://www.investing.com/news/economy-news/opec-expected-to-approve-another-oil-output-increase-for-august-4775413",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05 09:29:47",
+      "text": "OPEC+ reportedly expected to approve another oil output increase for August",
+      "description": ""
     },
     {
       "id": "d1d373ebf1980f",
@@ -338,24 +443,6 @@
       "sentiment": "neutral",
       "time": "2026-07-05 09:12:08",
       "text": "At least eight shot, including four children, in New York, ABC News reports",
-      "description": ""
-    },
-    {
-      "id": "96230ab7266941",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05 09:11:39",
-      "title": "OPEC+ expected to approve another oil output increase for August",
-      "body": "",
-      "url": "https://www.investing.com/news/economy-news/opec-expected-to-approve-another-oil-output-increase-for-august-4775413",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05 09:11:39",
-      "text": "OPEC+ expected to approve another oil output increase for August",
       "description": ""
     },
     {
@@ -1473,24 +1560,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c8e72c028b8ed3",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05 07:24:15",
-      "title": "Millions mourn Khamenei as Trump says Iran talks to resume soon",
-      "body": "",
-      "url": "https://www.investing.com/news/economy-news/millions-mourn-khamenei-as-trump-says-iran-talks-to-resume-soon-4775407",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05 07:24:15",
-      "text": "Millions mourn Khamenei as Trump says Iran talks to resume soon",
-      "description": ""
-    },
-    {
       "id": "9c398c274a0f89",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1947,29 +2016,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2ddde392aaec57",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T05:48:27Z",
-      "title": "Clues for Stock market directions..                        \n                                                                                                                                         \n MAG 7 &amp; SPY&amp;  QQQ &amp;  Tech Stocks Trend &amp; Technical:                                  ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658285061",
-      "author": "ArcValueTrade",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T05:48:27Z",
-      "text": "Clues for Stock market directions..                        \n                                                                                                                                         \n MAG 7 &amp; SPY&amp;  QQQ &amp;  Tech Stocks Trend &amp; Technical:                                  ",
-      "description": "",
-      "handle": "ArcValueTrade",
-      "display_name": "Check out my YouTube",
-      "platform": "stocktwits"
-    },
-    {
       "id": "552cad0296f385",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2379,29 +2425,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f94cd6b98a3506",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T03:57:09Z",
-      "title": "@jhnklly @BaoPhan5 I would rather wait too see how ER is\u2026 somebody has to lose for intel to win\u2026. Intel was kicking $AMD $NVDA ass in 90s, early to mid 2000s. Then, they just fell apart in 2010",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658284259",
-      "author": "ShadyAggie40",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T03:57:09Z",
-      "text": "@jhnklly @BaoPhan5 I would rather wait too see how ER is\u2026 somebody has to lose for intel to win\u2026. Intel was kicking $AMD $NVDA ass in 90s, early to mid 2000s. Then, they just fell apart in 2010",
-      "description": "",
-      "handle": "ShadyAggie40",
-      "display_name": "Omied Bahri",
-      "platform": "stocktwits"
-    },
-    {
       "id": "85bf91757c924c",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2488,29 +2511,6 @@
       "description": "",
       "handle": "TincopaStonks",
       "display_name": "Daniel Tincopa",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d0730303d0775a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T03:30:40Z",
-      "title": "$MSFT regard in action",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658284015",
-      "author": "justanaveragekid",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T03:30:40Z",
-      "text": "$MSFT regard in action",
-      "description": "",
-      "handle": "justanaveragekid",
-      "display_name": "Lil Kid",
       "platform": "stocktwits"
     },
     {
