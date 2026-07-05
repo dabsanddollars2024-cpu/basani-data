@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T16:52:07Z",
-  "generated_display": "2026-07-05 16:52 ET",
+  "generated": "2026-07-05T16:57:06Z",
+  "generated_display": "2026-07-05 16:57 ET",
   "count": 203,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T16:52:02.076987+00:00",
+      "last_error_ts": "2026-07-05T16:57:01.581801+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 5,
-      "latency_ms": 264,
-      "last_success": "2026-07-05T16:52:02.342073+00:00",
+      "latency_ms": 155,
+      "last_success": "2026-07-05T16:57:01.738450+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 98,
-      "last_success": "2026-07-05T16:52:02.442072+00:00",
+      "latency_ms": 57,
+      "last_success": "2026-07-05T16:57:01.837892+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 99,
-      "last_success": "2026-07-05T16:52:02.544076+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-05T16:57:01.940903+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T16:52:02.575303+00:00",
+      "last_error_ts": "2026-07-05T16:57:02.046231+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1766,
-      "last_success": "2026-07-05T16:52:04.341526+00:00",
+      "latency_ms": 1701,
+      "last_success": "2026-07-05T16:57:03.747815+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T16:52:05.241153+00:00",
+      "last_success": "2026-07-05T16:57:04.438149+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1855,
-      "last_success": "2026-07-05T16:52:07.096900+00:00",
+      "latency_ms": 1868,
+      "last_success": "2026-07-05T16:57:06.306994+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 108
+          "latency_ms": 199
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 55
+          "latency_ms": 91
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 136
+          "latency_ms": 39
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 403
+          "latency_ms": 264
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 186
+          "latency_ms": 78
         }
       }
     }
@@ -107,8 +107,8 @@
   "by_source": {
     "forex_factory": 1,
     "stocktwits": 75,
-    "reuters": 16,
     "uw_news": 25,
+    "reuters": 16,
     "massive_news": 50,
     "zerohedge": 8,
     "cnbc": 8,
@@ -140,6 +140,231 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "d50efa57a1ed7b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:55:28Z",
+      "title": "$djt $spy",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658292203",
+      "author": "jm4",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T16:55:28Z",
+      "text": "$djt $spy",
+      "description": "",
+      "handle": "jm4",
+      "display_name": "JM",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "63a26d5dceb59f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:55:06Z",
+      "title": "$TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658292197",
+      "author": "SouthernItUp",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T16:55:06Z",
+      "text": "$TSLA",
+      "description": "",
+      "handle": "SouthernItUp",
+      "display_name": "John",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a2173c98261750",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-05T16:54:09Z",
+      "title": "Expect Fireworks As Dow Jones Futures Open; Apple, SpaceX, Sandisk, Robinhood In Focus",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T16:54:09Z",
+      "text": "Expect Fireworks As Dow Jones Futures Open; Apple, SpaceX, Sandisk, Robinhood In Focus",
+      "description": ""
+    },
+    {
+      "id": "5127dffcf5f5db",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:53:44Z",
+      "title": "$SPY when war back on talks.  Oil in WH pool \ud83d\ude02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658292178",
+      "author": "Twocyprus6",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T16:53:44Z",
+      "text": "$SPY when war back on talks.  Oil in WH pool \ud83d\ude02",
+      "description": "",
+      "handle": "Twocyprus6",
+      "display_name": "Banks",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d87f4a091ce522",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:53:39Z",
+      "title": "$META Goggle just put out a article saying how Meta is the top company for Ai well maybe broke Capital is smarter ha ha \ud83d\ude02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658292177",
+      "author": "Kevin4540",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T16:53:39Z",
+      "text": "$META Goggle just put out a article saying how Meta is the top company for Ai well maybe broke Capital is smarter ha ha \ud83d\ude02",
+      "description": "",
+      "handle": "Kevin4540",
+      "display_name": "Kevin Will",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d12d2b2d016ebc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:53:29Z",
+      "title": "https://youtube.com/watch?v=GT0rmXr3gkc&amp;is=LB9YLysjza84cDiQ\n$smh $aapl $tsla\nSMH - Short: Following a breakdown from an upsloping parallel channel, Lawton suggests looking for a short entry on a retrace back to the $610\u2013$620. He eyes a potential target of the gap fill around $522 (2:40\u20132:47), wi",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658292170",
+      "author": "parcha",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T16:53:29Z",
+      "text": "https://youtube.com/watch?v=GT0rmXr3gkc&amp;is=LB9YLysjza84cDiQ\n$smh $aapl $tsla\nSMH - Short: Following a breakdown from an upsloping parallel channel, Lawton suggests looking for a short entry on a retrace back to the $610\u2013$620. He eyes a potential target of the gap fill around $522 (2:40\u20132:47), wi",
+      "description": "",
+      "handle": "parcha",
+      "display_name": "par cha",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8536ef4f7676fa",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:53:29Z",
+      "title": "https://youtube.com/watch?v=GT0rmXr3gkc&amp;is=LB9YLysjza84cDiQ\n$smh $aapl $tsla\nSMH - Short: Following a breakdown from an upsloping parallel channel, Lawton suggests looking for a short entry on a retrace back to the $610\u2013$620. He eyes a potential target of the gap fill around $522 (2:40\u20132:47), wi",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658292170",
+      "author": "parcha",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T16:53:29Z",
+      "text": "https://youtube.com/watch?v=GT0rmXr3gkc&amp;is=LB9YLysjza84cDiQ\n$smh $aapl $tsla\nSMH - Short: Following a breakdown from an upsloping parallel channel, Lawton suggests looking for a short entry on a retrace back to the $610\u2013$620. He eyes a potential target of the gap fill around $522 (2:40\u20132:47), wi",
+      "description": "",
+      "handle": "parcha",
+      "display_name": "par cha",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "603f915b49e012",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:53:11Z",
+      "title": "$PLTR 7 hours gentlemen!!! , we have just s\u201d7 hours to go before overnight trading begins \ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ufffc",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658292162",
+      "author": "Cardwizard",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T16:53:11Z",
+      "text": "$PLTR 7 hours gentlemen!!! , we have just s\u201d7 hours to go before overnight trading begins \ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ufffc",
+      "description": "",
+      "handle": "Cardwizard",
+      "display_name": "Joseph mcwee",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fea7da6064c473",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:52:24Z",
+      "title": "$BTC.X $ETH.X $MSTR $XRP.X \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658292142",
+      "author": "Web30",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T16:52:24Z",
+      "text": "$BTC.X $ETH.X $MSTR $XRP.X \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "description": "",
+      "handle": "Web30",
+      "display_name": "Timmy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cef0c710072fa7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T16:52:05Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nLittle Mikey is losing favor with his creditors\u2026pretty soon only vulture capital will entertain his harebrained ponzi at twice the premium signaling the end of a long line of reckless failures. Ultimately he will disappear in a cloud of obscurity never to be heard or seen",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658292134",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T16:52:05Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nLittle Mikey is losing favor with his creditors\u2026pretty soon only vulture capital will entertain his harebrained ponzi at twice the premium signaling the end of a long line of reckless failures. Ultimately he will disappear in a cloud of obscurity never to be heard or seen",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
     },
     {
       "id": "62fa6587fd3e07",
@@ -303,29 +528,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0ec7f4adf9fddc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T16:48:00Z",
-      "title": "$DJT $SPY moron\u2026.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658292045",
-      "author": "extremeinvestor",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-05T16:48:00Z",
-      "text": "$DJT $SPY moron\u2026.",
-      "description": "",
-      "handle": "extremeinvestor",
-      "display_name": "Longterm",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d3bb32f239657e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -369,29 +571,6 @@
       "description": "",
       "handle": "Laynester",
       "display_name": "Mr. Layne",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "1c97992de8aad6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T16:47:41Z",
-      "title": "$DJT $SPY $RUM .",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658292035",
-      "author": "wisdon",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T16:47:41Z",
-      "text": "$DJT $SPY $RUM .",
-      "description": "",
-      "handle": "wisdon",
-      "display_name": "wisdon",
       "platform": "stocktwits"
     },
     {
@@ -597,29 +776,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b91d70bfc31e8c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T16:43:25Z",
-      "title": "$META https://www.yahoo.com/news/us/articles/meta-paid-hundreds-contractors-pretend-130200038.html",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658291957",
-      "author": "AlanGreen5pan",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-05T16:43:25Z",
-      "text": "$META https://www.yahoo.com/news/us/articles/meta-paid-hundreds-contractors-pretend-130200038.html",
-      "description": "",
-      "handle": "AlanGreen5pan",
-      "display_name": "FutureMan",
-      "platform": "stocktwits"
-    },
-    {
       "id": "34d8eedb19f2b5",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -712,29 +868,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2c13e00974f5d3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T16:37:39Z",
-      "title": "$BTC.X $MSTR",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658291841",
-      "author": "TopWaterSniper",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-05T16:37:39Z",
-      "text": "$BTC.X $MSTR",
-      "description": "",
-      "handle": "TopWaterSniper",
-      "display_name": "CJ",
-      "platform": "stocktwits"
-    },
-    {
       "id": "187a773f96fbb8",
       "source": "reuters",
       "source_type": "rss",
@@ -751,29 +884,6 @@
       "time": "2026-07-05 16:36:53",
       "text": "easyJet agrees in principle on Castlelake\u2019s sweetened \u00a36.90 per share bid",
       "description": ""
-    },
-    {
-      "id": "9341101a695389",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T16:36:34Z",
-      "title": "$BTC.X $MSTR with or without you Strategy is taking Bitcoin higher! Might as well just get on the train and enjoy the ride!!! $STRC $DOGE.X \ufffc",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658291828",
-      "author": "JDRebel",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T16:36:34Z",
-      "text": "$BTC.X $MSTR with or without you Strategy is taking Bitcoin higher! Might as well just get on the train and enjoy the ride!!! $STRC $DOGE.X \ufffc",
-      "description": "",
-      "handle": "JDRebel",
-      "display_name": "James Dean",
-      "platform": "stocktwits"
     },
     {
       "id": "8d29551f27d39a",
@@ -1101,29 +1211,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e5bebd16bf2a48",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T16:18:00Z",
-      "title": "Choosing between $NBIS, $RKLB, or $PLTR? $NBIS offers high AI-infrastructure beta but is currently basing after the Meta headline. $RKLB shows strong growth momentum in space/launch, while $PLTR has the sturdiest commercial execution. \n \nFor lower risk, stick with accumulating $PLTR on major dips. F",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658291460",
-      "author": "ETAlpha",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T16:18:00Z",
-      "text": "Choosing between $NBIS, $RKLB, or $PLTR? $NBIS offers high AI-infrastructure beta but is currently basing after the Meta headline. $RKLB shows strong growth momentum in space/launch, while $PLTR has the sturdiest commercial execution. \n \nFor lower risk, stick with accumulating $PLTR on major dips. F",
-      "description": "",
-      "handle": "ETAlpha",
-      "display_name": "ET Alpha",
-      "platform": "stocktwits"
-    },
-    {
       "id": "5d2b6ffb5d37b1",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1259,29 +1346,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "68d9f32b73928c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T16:10:19Z",
-      "title": "California vs. Elon Musk: Tesla Snubbed as New EV Incentives Boost Rivian, Lucid: https://finance.yahoo.com/economy/policy/articles/california-vs-elon-musk-tesla-133101472.html $LCID $RIVN $TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658291295",
-      "author": "LibertarianTreehugger",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T16:10:19Z",
-      "text": "California vs. Elon Musk: Tesla Snubbed as New EV Incentives Boost Rivian, Lucid: https://finance.yahoo.com/economy/policy/articles/california-vs-elon-musk-tesla-133101472.html $LCID $RIVN $TSLA",
-      "description": "",
-      "handle": "LibertarianTreehugger",
-      "display_name": "Jeff Siegel",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2e9b0c52c8ad15",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1325,29 +1389,6 @@
       "description": "",
       "handle": "DeepSeaTurtle",
       "display_name": "DeepSeaTurtle",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5b0d6dab42e274",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T16:03:30Z",
-      "title": "$MU according to ai\n\na 2026 $TSLA Model Y Premium AWD: $50,600\n\nif memory prices triple and $TSLA passes the price to they buyers a 2027  Model Y Premium AWD: $54,200\n\nthe us government should give tax breaks per gb of memory in a new product bought.  memory will likely be 5x in 5 years.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658291164",
-      "author": "ShadowBanningIsBad",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T16:03:30Z",
-      "text": "$MU according to ai\n\na 2026 $TSLA Model Y Premium AWD: $50,600\n\nif memory prices triple and $TSLA passes the price to they buyers a 2027  Model Y Premium AWD: $54,200\n\nthe us government should give tax breaks per gb of memory in a new product bought.  memory will likely be 5x in 5 years.",
-      "description": "",
-      "handle": "ShadowBanningIsBad",
-      "display_name": "Sofa King",
       "platform": "stocktwits"
     },
     {
@@ -2181,29 +2222,6 @@
       "time": "2026-07-05T15:00:00Z",
       "text": "Peabody Energy Corporation (BTU) Investors with Substantial Losses Have Opportunity to Lead Class Action Lawsuit, Robbins Geller Rudman & Dowd LLP Announces",
       "description": "A class action lawsuit has been filed against Peabody Energy Corporation for allegedly making false and misleading statements regarding its Centurion mine ramp-up. The company failed to meet its March 2026 deadline and issued guidance cuts, resulting in stock price declines of approximately 10% and "
-    },
-    {
-      "id": "b967be002b964f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T14:57:49Z",
-      "title": "$AAPL I&#39;ve been big on that 317.82 level for a while. It&#39;s sure looking good now.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658289680",
-      "author": "RobertLemire",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T14:57:49Z",
-      "text": "$AAPL I&#39;ve been big on that 317.82 level for a while. It&#39;s sure looking good now.",
-      "description": "",
-      "handle": "RobertLemire",
-      "display_name": "Robert Lemire",
-      "platform": "stocktwits"
     },
     {
       "id": "78ca720c3df8e8",
@@ -4081,24 +4099,6 @@
       "sentiment": "neutral",
       "time": "2026-07-05T08:56:22Z",
       "text": "TRX price at $0.32 facing critical resistance at $0.33. Potential 15% breakout to $0.37 in 30 days. Sell pressure high.",
-      "description": ""
-    },
-    {
-      "id": "1f43b5723acaf0",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-05T08:56:21Z",
-      "title": "XLM hovers at $0.20, indicators exhausted. Traders eyeing long positions; close over $0.21 in 48 hours may lead to $0.25.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T08:56:21Z",
-      "text": "XLM hovers at $0.20, indicators exhausted. Traders eyeing long positions; close over $0.21 in 48 hours may lead to $0.25.",
       "description": ""
     },
     {
