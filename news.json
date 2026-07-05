@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T12:37:07Z",
-  "generated_display": "2026-07-05 12:37 ET",
+  "generated": "2026-07-05T12:42:06Z",
+  "generated_display": "2026-07-05 12:42 ET",
   "count": 168,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T12:37:01.602256+00:00",
+      "last_error_ts": "2026-07-05T12:42:01.602214+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 162,
-      "last_success": "2026-07-05T12:37:01.764902+00:00",
+      "latency_ms": 124,
+      "last_success": "2026-07-05T12:42:01.767016+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 62,
-      "last_success": "2026-07-05T12:37:01.863754+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-05T12:42:01.868145+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 18,
-      "latency_ms": 100,
-      "last_success": "2026-07-05T12:37:01.965344+00:00",
+      "latency_ms": 31,
+      "last_success": "2026-07-05T12:42:01.900215+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T12:37:01.999268+00:00",
+      "last_error_ts": "2026-07-05T12:42:02.002916+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 74,
-      "latency_ms": 2565,
-      "last_success": "2026-07-05T12:37:04.565098+00:00",
+      "latency_ms": 2346,
+      "last_success": "2026-07-05T12:42:04.349617+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T12:37:05.239597+00:00",
+      "last_success": "2026-07-05T12:42:05.167721+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 2024,
-      "last_success": "2026-07-05T12:37:07.264169+00:00",
+      "latency_ms": 1662,
+      "last_success": "2026-07-05T12:42:06.830014+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 204
+          "latency_ms": 129
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 94
+          "latency_ms": 64
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 55
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 208
+          "latency_ms": 400
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 9
+          "latency_ms": 77
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 56
+          "latency_ms": 91
         }
       }
     }
@@ -140,6 +140,52 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "fb17af233f4c7b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T12:41:26Z",
+      "title": "$SPCX $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658287482",
+      "author": "MarianoItaliano",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T12:41:26Z",
+      "text": "$SPCX $TSLA",
+      "description": "",
+      "handle": "MarianoItaliano",
+      "display_name": "Marian Kowalski",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4b4613ae8d41df",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T12:40:43Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658287470",
+      "author": "Meeso",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-05T12:40:43Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "Meeso",
+      "display_name": "Alan",
+      "platform": "stocktwits"
     },
     {
       "id": "7c2bec14580770",
@@ -433,29 +479,6 @@
       "description": "",
       "handle": "peterpan124",
       "display_name": "Joshua Peterson",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b3ac1f936e95d1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T12:11:37Z",
-      "title": "$BTC.X $SPY $NVDA $SPCX $AAPL",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658287184",
-      "author": "NatoshiSakomoto",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T12:11:37Z",
-      "text": "$BTC.X $SPY $NVDA $SPCX $AAPL",
-      "description": "",
-      "handle": "NatoshiSakomoto",
-      "display_name": "SN",
       "platform": "stocktwits"
     },
     {
@@ -1014,29 +1037,6 @@
       "description": "",
       "handle": "ray1313",
       "display_name": "Raymond",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ef4fb25cc2b710",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T11:25:25Z",
-      "title": "10M robots a year is the scale Andrew Kang points to as the real gap. \n \nMost humanoid players are still in the thousands. \nTesla is building for a market 2-3 orders of magnitude bigger. \n \nBullish on the category, but execution still has to prove it.$TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658286749",
-      "author": "VisionAlpha",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T11:25:25Z",
-      "text": "10M robots a year is the scale Andrew Kang points to as the real gap. \n \nMost humanoid players are still in the thousands. \nTesla is building for a market 2-3 orders of magnitude bigger. \n \nBullish on the category, but execution still has to prove it.$TSLA",
-      "description": "",
-      "handle": "VisionAlpha",
-      "display_name": "Diane Butler",
       "platform": "stocktwits"
     },
     {
@@ -3501,6 +3501,42 @@
       "description": ""
     },
     {
+      "id": "e4b83c4e8aa838",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T11:21:48Z",
+      "title": "Study: AI Is Actually Creating More Jobs, Not Killing Them (But There\u2019s a Catch)",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/study-ai-actually-creating-more-112148300.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T11:21:48Z",
+      "text": "Study: AI Is Actually Creating More Jobs, Not Killing Them (But There\u2019s a Catch)",
+      "description": ""
+    },
+    {
+      "id": "6a899f278bad1e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T11:20:00Z",
+      "title": "The S&P 500 Is Up 10% in 2026 -- What Long-Term Investors Should Do Next",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-10-2026-long-112000562.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T11:20:00Z",
+      "text": "The S&P 500 Is Up 10% in 2026 -- What Long-Term Investors Should Do Next",
+      "description": ""
+    },
+    {
       "id": "8ec7d3c5bb4886",
       "source": "reuters",
       "source_type": "rss",
@@ -3516,42 +3552,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04T11:15:00Z",
       "text": "\u2018Buy yourself a buffer\u2019: Amplifi CEO Braiden Shaw\u2019s 5-step plan for where your money should be invested",
-      "description": ""
-    },
-    {
-      "id": "e92060b0da10f6",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T11:15:00Z",
-      "title": "Congress Is Moving Forward With the Clarity Act. That Makes Ethereum the Best Crypto to Buy This Summer",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/congress-moving-forward-clarity-act-111500182.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T11:15:00Z",
-      "text": "Congress Is Moving Forward With the Clarity Act. That Makes Ethereum the Best Crypto to Buy This Summer",
-      "description": ""
-    },
-    {
-      "id": "9cad9cd02682f5",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T11:00:00Z",
-      "title": "1.25 million kids have their Social Security Numbers stolen \u2014 and 75% of the time, the thief is someone they know",
-      "body": "",
-      "url": "https://finance.yahoo.com/small-business/articles/1-25-million-kids-social-110000792.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T11:00:00Z",
-      "text": "1.25 million kids have their Social Security Numbers stolen \u2014 and 75% of the time, the thief is someone they know",
       "description": ""
     },
     {
@@ -3573,21 +3573,21 @@
       "description": ""
     },
     {
-      "id": "6730884dcae9d2",
+      "id": "9cad9cd02682f5",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-04T10:45:00Z",
-      "title": "GM lays off over 1,000 workers at Detroit plant, adds 50 robots: \u2018We are in a fight for humanity.\u2019 Progress or betrayal?",
+      "timestamp": "2026-07-04T11:00:00Z",
+      "title": "1.25 million kids have their Social Security Numbers stolen \u2014 and 75% of the time, the thief is someone they know",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/gm-lays-off-over-1-104500251.html",
+      "url": "https://finance.yahoo.com/small-business/articles/1-25-million-kids-social-110000792.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-04T10:45:00Z",
-      "text": "GM lays off over 1,000 workers at Detroit plant, adds 50 robots: \u2018We are in a fight for humanity.\u2019 Progress or betrayal?",
+      "time": "2026-07-04T11:00:00Z",
+      "text": "1.25 million kids have their Social Security Numbers stolen \u2014 and 75% of the time, the thief is someone they know",
       "description": ""
     },
     {
