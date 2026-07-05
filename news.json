@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-05T01:37:07Z",
-  "generated_display": "2026-07-05 01:37 ET",
+  "generated": "2026-07-05T01:42:07Z",
+  "generated_display": "2026-07-05 01:42 ET",
   "count": 173,
   "source_health": {
     "x_api": {
@@ -8,14 +8,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T01:37:02.270875+00:00",
+      "last_error_ts": "2026-07-05T01:42:02.271008+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 100,
-      "last_success": "2026-07-05T01:37:02.371574+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-05T01:42:02.371646+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 99,
-      "last_success": "2026-07-05T01:37:02.471676+00:00",
+      "last_success": "2026-07-05T01:42:02.472025+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 22,
-      "latency_ms": 99,
-      "last_success": "2026-07-05T01:37:02.572906+00:00",
+      "latency_ms": 30,
+      "last_success": "2026-07-05T01:42:02.504095+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-05T01:37:02.679752+00:00",
+      "last_error_ts": "2026-07-05T01:42:02.608614+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1991,
-      "last_success": "2026-07-05T01:37:04.671395+00:00",
+      "latency_ms": 2662,
+      "last_success": "2026-07-05T01:42:05.271364+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-05T01:37:05.671537+00:00",
+      "last_success": "2026-07-05T01:42:06.152184+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 1899,
-      "last_success": "2026-07-05T01:37:07.570894+00:00",
+      "latency_ms": 1778,
+      "last_success": "2026-07-05T01:42:07.930520+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,40 +74,40 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 198
+          "latency_ms": 108
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 102
+          "latency_ms": 118
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 36
+          "latency_ms": 103
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 465
+          "latency_ms": 398
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 16
+          "latency_ms": 79
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 180
+          "latency_ms": 72
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "uw_news": 25,
     "reuters": 16,
+    "uw_news": 25,
     "zerohedge": 8,
     "massive_news": 22,
     "marketwatch": 8,
@@ -117,6 +117,157 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "3a3261d92c9862",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T01:41:51Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658282740",
+      "author": "SD_Trades4Gains",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T01:41:51Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "SD_Trades4Gains",
+      "display_name": "SD_trades",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "db5bc6ffd9f516",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T01:39:40Z",
+      "title": "$SPY bow before the United States of America \ud83c\uddfa\ud83c\uddf8",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658282700",
+      "author": "TriadDynamics",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T01:39:40Z",
+      "text": "$SPY bow before the United States of America \ud83c\uddfa\ud83c\uddf8",
+      "description": "",
+      "handle": "TriadDynamics",
+      "display_name": "EIII",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d61d2b497e9b30",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T01:39:12Z",
+      "title": "$BTC.X $MSTR \n\nSaylor be loving this liquidity. He say buy and you buy it. Then he sells",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658282691",
+      "author": "dooker",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-05T01:39:12Z",
+      "text": "$BTC.X $MSTR \n\nSaylor be loving this liquidity. He say buy and you buy it. Then he sells",
+      "description": "",
+      "handle": "dooker",
+      "display_name": "dooker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8d7182bd099112",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T01:37:57Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658282678",
+      "author": "Kyungri_P1206K",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T01:37:57Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "Kyungri_P1206K",
+      "display_name": "Kyungri 9M",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b375b11fab609a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-05T01:37:43Z",
+      "title": "$COIN open 200",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658282674",
+      "author": "mookmook169",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-05T01:37:43Z",
+      "text": "$COIN open 200",
+      "description": "",
+      "handle": "mookmook169",
+      "display_name": "mookmook169",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "84e5fecdd54ef3",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05 01:36:57",
+      "title": "Heat wave disrupts Fourth of July events across US, strains power grids",
+      "body": "",
+      "url": "https://www.investing.com/news/commodities-news/heat-wave-disrupts-fourth-of-july-events-across-eastern-us-4775312",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05 01:36:57",
+      "text": "Heat wave disrupts Fourth of July events across US, strains power grids",
+      "description": ""
+    },
+    {
+      "id": "c2c3f696c311ec",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05 01:36:33",
+      "title": "Trump vows July 4 speech will happen \u2019no matter what\u2019 after storms threaten Washington rally",
+      "body": "",
+      "url": "https://www.investing.com/news/politics-news/trump-to-mark-us-250th-anniversary-with-campaignstyle-rally-on-national-mall-4775359",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05 01:36:33",
+      "text": "Trump vows July 4 speech will happen \u2019no matter what\u2019 after storms threaten Washington rally",
+      "description": ""
+    },
     {
       "id": "f9af36c9088ea7",
       "source": "stocktwits",
@@ -233,29 +384,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "271528e1d7deec",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T01:35:39Z",
-      "title": "$SOXL $SOXS $SPY $SQQQ $TQQQ \nThis is what happens when a person is born with defect pessimism genes \u2026the sky is about to fall every moment.   \n\nChina is outbuilding ships, therefore the global AI boom will fail???   LOL\n\nI\u2019ll block and add to my dumbo list.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658282639",
-      "author": "AlphaBull_10M",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T01:35:39Z",
-      "text": "$SOXL $SOXS $SPY $SQQQ $TQQQ \nThis is what happens when a person is born with defect pessimism genes \u2026the sky is about to fall every moment.   \n\nChina is outbuilding ships, therefore the global AI boom will fail???   LOL\n\nI\u2019ll block and add to my dumbo list.",
-      "description": "",
-      "handle": "AlphaBull_10M",
-      "display_name": "Alpha Bull",
-      "platform": "stocktwits"
-    },
-    {
       "id": "7e83f3d36c0782",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -276,52 +404,6 @@
       "description": "",
       "handle": "Iamwillwexler",
       "display_name": "William Wexler",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "301b042cc96570",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T01:34:47Z",
-      "title": "$DJT $SPY What are you talking about?! They don\u2019t get a penny from us. Quit believing the liberal media. They don\u2019t get one penny of American taxpayer money. You guys are so gullible and get all riled up like a bunch of useful idiots",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658282623",
-      "author": "AmericanDeams",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T01:34:47Z",
-      "text": "$DJT $SPY What are you talking about?! They don\u2019t get a penny from us. Quit believing the liberal media. They don\u2019t get one penny of American taxpayer money. You guys are so gullible and get all riled up like a bunch of useful idiots",
-      "description": "",
-      "handle": "AmericanDeams",
-      "display_name": "Stefan Umst",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5c0a54d4d7f28b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T01:33:32Z",
-      "title": "$SPY Markets gonna rip! Trump!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658282606",
-      "author": "KingTrade13",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T01:33:32Z",
-      "text": "$SPY Markets gonna rip! Trump!",
-      "description": "",
-      "handle": "KingTrade13",
-      "display_name": "KingTrade13",
       "platform": "stocktwits"
     },
     {
@@ -1156,24 +1238,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c2c3f696c311ec",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05 00:42:24",
-      "title": "Storms threaten Trump rally to mark U.S. 250th anniversary in Washington",
-      "body": "",
-      "url": "https://www.investing.com/news/politics-news/trump-to-mark-us-250th-anniversary-with-campaignstyle-rally-on-national-mall-4775359",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05 00:42:24",
-      "text": "Storms threaten Trump rally to mark U.S. 250th anniversary in Washington",
-      "description": ""
-    },
-    {
       "id": "7c6e642c8552c8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1338,29 +1402,6 @@
       "time": "Sun, 05 Jul 2026 00:25:00 +0000",
       "text": "Is Tesla About To Use Facial Recognition Before Activating Full Self-Driving",
       "description": "Is Tesla About To Use Facial Recognition Before Activating Full Self-Driving\n\n            Tesla is reportedly preparing a series of updates, including one that would use a vehicle's cabin camera to verify a driver's identity before activating Full Self-Driving.\n\nIt sounds a bit dystopian, but this i"
-    },
-    {
-      "id": "afaf549282881b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-05T00:19:48Z",
-      "title": "$BTC.X $MSTR $STRC \n\nSHORTS ARE IN FULL DENIAL",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658281608",
-      "author": "Elon_Trump69",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-05T00:19:48Z",
-      "text": "$BTC.X $MSTR $STRC \n\nSHORTS ARE IN FULL DENIAL",
-      "description": "",
-      "handle": "Elon_Trump69",
-      "display_name": "Elon_Trump69",
-      "platform": "stocktwits"
     },
     {
       "id": "e45f2136a1f23c",
@@ -1767,24 +1808,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04 22:54:51",
       "text": "Trump offered over phone to help Putin find deal with Ukraine, Kremlin aide says",
-      "description": ""
-    },
-    {
-      "id": "280e90fa0547aa",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04 22:54:28",
-      "title": "Paul Pelosi faces hit-and-run charge after striking parked vehicle in California, law enforcement says",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/paul-pelosi-faces-hitandrun-charge-after-striking-parked-vehicle-in-california-media-reports-say-4775385",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04 22:54:28",
-      "text": "Paul Pelosi faces hit-and-run charge after striking parked vehicle in California, law enforcement says",
       "description": ""
     },
     {
@@ -2542,29 +2565,6 @@
       "description": "",
       "handle": "AimeePerkins",
       "display_name": "Aimee",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a42f8499afb26e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-04T19:39:14Z",
-      "title": "$BTC.X $IBIT $COIN",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658277426",
-      "author": "THE_TRADE",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-04T19:39:14Z",
-      "text": "$BTC.X $IBIT $COIN",
-      "description": "",
-      "handle": "THE_TRADE",
-      "display_name": "THE TRADE",
       "platform": "stocktwits"
     },
     {
