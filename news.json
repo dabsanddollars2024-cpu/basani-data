@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T23:27:07Z",
-  "generated_display": "2026-07-06 23:27 ET",
+  "generated": "2026-07-06T23:32:07Z",
+  "generated_display": "2026-07-06 23:32 ET",
   "count": 223,
   "source_health": {
     "x_api": {
@@ -8,22 +8,22 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-06T23:27:01.480248+00:00",
+      "last_error_ts": "2026-07-06T23:32:02.271772+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 124,
-      "last_success": "2026-07-06T23:27:01.606961+00:00",
+      "latency_ms": 117,
+      "last_success": "2026-07-06T23:32:02.391659+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 164,
-      "last_success": "2026-07-06T23:27:01.771887+00:00",
+      "latency_ms": 56,
+      "last_success": "2026-07-06T23:32:02.471165+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 50,
       "latency_ms": 100,
-      "last_success": "2026-07-06T23:27:01.875157+00:00",
+      "last_success": "2026-07-06T23:32:02.574712+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-06T23:27:01.910498+00:00",
+      "last_error_ts": "2026-07-06T23:32:02.609299+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2561,
-      "last_success": "2026-07-06T23:27:04.471966+00:00",
+      "latency_ms": 2061,
+      "last_success": "2026-07-06T23:32:04.670948+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-06T23:27:05.171577+00:00",
+      "last_success": "2026-07-06T23:32:05.733345+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1859,
-      "last_success": "2026-07-06T23:27:07.031609+00:00",
+      "latency_ms": 2137,
+      "last_success": "2026-07-06T23:32:07.871364+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,12 +74,12 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 104
+          "latency_ms": 128
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 95
+          "latency_ms": 272
         },
         "yahoo_finance": {
           "status": "healthy",
@@ -89,27 +89,27 @@
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 269
+          "latency_ms": 392
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 117
+          "latency_ms": 110
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 79
+          "latency_ms": 125
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 75,
     "uw_news": 25,
+    "stocktwits": 75,
+    "marketwatch": 8,
     "cnbc": 8,
     "massive_news": 50,
-    "marketwatch": 8,
     "zerohedge": 8,
     "reuters": 16,
     "seekingalpha": 7,
@@ -117,6 +117,433 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "9b9dd839927435",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T23:31:44Z",
+      "title": "Japan monthly household spending jumps 3.7%, government data shows (Poll 1.4%)",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:31:44Z",
+      "text": "Japan monthly household spending jumps 3.7%, government data shows (Poll 1.4%)",
+      "description": ""
+    },
+    {
+      "id": "45dad2e2b43d0d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:31:20Z",
+      "title": "$LCID is way better than $TSLA  and always will be   just wait till we get space  thats tge plan",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658394237",
+      "author": "Swompthing2023",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:31:20Z",
+      "text": "$LCID is way better than $TSLA  and always will be   just wait till we get space  thats tge plan",
+      "description": "",
+      "handle": "Swompthing2023",
+      "display_name": "Elon is fool",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "11268bbd9fc17c",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T23:31:16Z",
+      "title": "Burnham urged to end freeze in salary threshold for student loan repayments - FT",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:31:16Z",
+      "text": "Burnham urged to end freeze in salary threshold for student loan repayments - FT",
+      "description": ""
+    },
+    {
+      "id": "b3bba2cd226db1",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T23:31:14Z",
+      "title": "JAPANESE AVERAGE CASH EARNINGS YOY ACTUAL 3.2% (FORECAST 3.4%, PREVIOUS 3.5% ,REVISION 3.6%) $MACRO",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "CASH"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:31:14Z",
+      "text": "JAPANESE AVERAGE CASH EARNINGS YOY ACTUAL 3.2% (FORECAST 3.4%, PREVIOUS 3.5% ,REVISION 3.6%) $MACRO",
+      "description": ""
+    },
+    {
+      "id": "872cbe52a5c7b4",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T23:31:14Z",
+      "title": "Japan overtime pay rises 2.9% year on year: govt",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:31:14Z",
+      "text": "Japan overtime pay rises 2.9% year on year: govt",
+      "description": ""
+    },
+    {
+      "id": "d1067dbc5278f7",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T23:31:14Z",
+      "title": "Japan\u2019s inflation-adjusted real wages rise 1.4% year-on-year: government",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:31:14Z",
+      "text": "Japan\u2019s inflation-adjusted real wages rise 1.4% year-on-year: government",
+      "description": ""
+    },
+    {
+      "id": "2f9c378e6205bd",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T23:31:13Z",
+      "title": "Japan May household spending down 0.3% year/year: government, poll had forecast 2.5% decline",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:31:13Z",
+      "text": "Japan May household spending down 0.3% year/year: government, poll had forecast 2.5% decline",
+      "description": ""
+    },
+    {
+      "id": "3276a42735f487",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:30:10Z",
+      "title": "$NVDA sniffing snow.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658394182",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:30:10Z",
+      "text": "$NVDA sniffing snow.",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4aa6964e96ae01",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:30:09Z",
+      "title": "$AAPL is about to dip.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658394180",
+      "author": "WallStreetForecaster",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:30:09Z",
+      "text": "$AAPL is about to dip.",
+      "description": "",
+      "handle": "WallStreetForecaster",
+      "display_name": "OSS Traders",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e2b00aaec69b5b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:29:28Z",
+      "title": "$NVDA monster quarter by Samsung, bye bye Jensens no longer king \n\n$QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658394141",
+      "author": "BashNew",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-06T23:29:28Z",
+      "text": "$NVDA monster quarter by Samsung, bye bye Jensens no longer king \n\n$QQQ",
+      "description": "",
+      "handle": "BashNew",
+      "display_name": "BashNew",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2bd141a682586f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:29:28Z",
+      "title": "$NVDA monster quarter by Samsung, bye bye Jensens no longer king \n\n$QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658394141",
+      "author": "BashNew",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-06T23:29:28Z",
+      "text": "$NVDA monster quarter by Samsung, bye bye Jensens no longer king \n\n$QQQ",
+      "description": "",
+      "handle": "BashNew",
+      "display_name": "BashNew",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "da54c8a818ea59",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:29:22Z",
+      "title": "$MSFT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658394135",
+      "author": "jonztown",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-06T23:29:22Z",
+      "text": "$MSFT",
+      "description": "",
+      "handle": "jonztown",
+      "display_name": "scott",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b15002d2abed4b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:29:08Z",
+      "title": "$MSFT just after hour shake out \u2026we rally tomorrow",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658394116",
+      "author": "OPEN_LIFE",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-06T23:29:08Z",
+      "text": "$MSFT just after hour shake out \u2026we rally tomorrow",
+      "description": "",
+      "handle": "OPEN_LIFE",
+      "display_name": "Bobb chows",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e63749f317e363",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:28:34Z",
+      "title": "$NVDA fuckin non pc people investing in memory is wild",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658394088",
+      "author": "The_RealAndrew_Left",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:28:34Z",
+      "text": "$NVDA fuckin non pc people investing in memory is wild",
+      "description": "",
+      "handle": "The_RealAndrew_Left",
+      "display_name": "Jerome's my dad",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ca04f4b6f51aa9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:28:23Z",
+      "title": "$META WATERMELON!!!!!!!! hERE",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658394075",
+      "author": "eric3432",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:28:23Z",
+      "text": "$META WATERMELON!!!!!!!! hERE",
+      "description": "",
+      "handle": "eric3432",
+      "display_name": "Big E",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e265e5af018dd3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:27:49Z",
+      "title": "$MSFT more bleeding out of its ass in after hours god i hate this piece of shit . God forbid this to ever move up with the markets then start nose diving off a cliff while everything else only gives up a little bit of their gains but we had none. Just everyday fuckery",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658394047",
+      "author": "AnaIyze",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:27:49Z",
+      "text": "$MSFT more bleeding out of its ass in after hours god i hate this piece of shit . God forbid this to ever move up with the markets then start nose diving off a cliff while everything else only gives up a little bit of their gains but we had none. Just everyday fuckery",
+      "description": "",
+      "handle": "AnaIyze",
+      "display_name": "AnaIyze",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b2d4a65ac7dfb2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:27:34Z",
+      "title": "$CHIP.X nice consolidation for the next leg to .05 , imaaaaa bout to busttttt $MSTR $ETH.X $XRP.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658394034",
+      "author": "thePENNYdropper_",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:27:34Z",
+      "text": "$CHIP.X nice consolidation for the next leg to .05 , imaaaaa bout to busttttt $MSTR $ETH.X $XRP.X",
+      "description": "",
+      "handle": "thePENNYdropper_",
+      "display_name": "JP",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "63b9477115279f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:27:28Z",
+      "title": "$OPEN it&#39;s very rare a company tries to revolutionize an entire market.  $AAPL did it with the iPhone, $NFLX did it with streaming, $TSLA did it with electric cars. \n \nNow $OPEN is trying to do it with online real-estate and digital tokenization on the blockchain.  The only difference is.... hou",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658394031",
+      "author": "MyBodyIsReady",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-06T23:27:28Z",
+      "text": "$OPEN it&#39;s very rare a company tries to revolutionize an entire market.  $AAPL did it with the iPhone, $NFLX did it with streaming, $TSLA did it with electric cars. \n \nNow $OPEN is trying to do it with online real-estate and digital tokenization on the blockchain.  The only difference is.... hou",
+      "description": "",
+      "handle": "MyBodyIsReady",
+      "display_name": "My Body Is Ready",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9939a119f5b1c6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:27:28Z",
+      "title": "$OPEN it&#39;s very rare a company tries to revolutionize an entire market.  $AAPL did it with the iPhone, $NFLX did it with streaming, $TSLA did it with electric cars. \n \nNow $OPEN is trying to do it with online real-estate and digital tokenization on the blockchain.  The only difference is.... hou",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658394031",
+      "author": "MyBodyIsReady",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-06T23:27:28Z",
+      "text": "$OPEN it&#39;s very rare a company tries to revolutionize an entire market.  $AAPL did it with the iPhone, $NFLX did it with streaming, $TSLA did it with electric cars. \n \nNow $OPEN is trying to do it with online real-estate and digital tokenization on the blockchain.  The only difference is.... hou",
+      "description": "",
+      "handle": "MyBodyIsReady",
+      "display_name": "My Body Is Ready",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cec8fbd3d39b3f",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Mon, 06 Jul 2026 23:27:00 GMT",
+      "title": "Trump calls Walmart \u2018patriotic\u2019 for cutting beef prices \u2014 in a stark change of tune",
+      "body": "The president hasn\u2019t always approved of Walmart\u2019s moves, having criticized the chain\u2019s response to tariffs last year.",
+      "url": "https://www.marketwatch.com/story/trump-calls-walmart-patriotic-for-cutting-beef-prices-in-a-stark-change-of-tune-96c32712?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Mon, 06 Jul 2026 23:27:00 GMT",
+      "text": "Trump calls Walmart \u2018patriotic\u2019 for cutting beef prices \u2014 in a stark change of tune",
+      "description": "The president hasn\u2019t always approved of Walmart\u2019s moves, having criticized the chain\u2019s response to tariffs last year."
+    },
     {
       "id": "dde1e10c83f116",
       "source": "stocktwits",
@@ -678,52 +1105,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "ab2a38d7aa0ec7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:22:30Z",
-      "title": "$NVDA $QQQ $SMH $SOXX $SPY  \nBear look at historical chart and keep thinking &quot;Market will crash&quot; \n \nKeep shorting , boys \nI love your bear tears",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658393750",
-      "author": "ChickenLOVEACDC",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:22:30Z",
-      "text": "$NVDA $QQQ $SMH $SOXX $SPY  \nBear look at historical chart and keep thinking &quot;Market will crash&quot; \n \nKeep shorting , boys \nI love your bear tears",
-      "description": "",
-      "handle": "ChickenLOVEACDC",
-      "display_name": "DaChickenMan",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a1450dfe932343",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:22:29Z",
-      "title": "$QQQ ~ AI Bubble: &#39;Frontier AI models have run their course&#39; - \u201cI think we&#39;re basically in kind of like a massive technical Ponzi scheme in the Big Tech AI sector\u201d ~ Eli the Computer Guy. July 2026. $DRAM $SOXX $SMH $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658393749",
-      "author": "CUPandHANDLE_CHARTS",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:22:29Z",
-      "text": "$QQQ ~ AI Bubble: &#39;Frontier AI models have run their course&#39; - \u201cI think we&#39;re basically in kind of like a massive technical Ponzi scheme in the Big Tech AI sector\u201d ~ Eli the Computer Guy. July 2026. $DRAM $SOXX $SMH $SPY",
-      "description": "",
-      "handle": "CUPandHANDLE_CHARTS",
-      "display_name": "Edward Gofsky",
-      "platform": "stocktwits"
-    },
-    {
       "id": "1719d2b1ea2223",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -747,52 +1128,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "9aadcb31d4144f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:22:04Z",
-      "title": "$MSFT def $400+ this week",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658393722",
-      "author": "rxptgh",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-06T23:22:04Z",
-      "text": "$MSFT def $400+ this week",
-      "description": "",
-      "handle": "rxptgh",
-      "display_name": "Tim",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f6c9d91bbdbe83",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:22:00Z",
-      "title": "$NVDA U.S. power grids are experiencing acute capacity constraints driven by AI data center electricity demand, with spot wholesale prices surging and emergency demand reduction measures being implemented. Learn more: https://axlfi.com/themes/410",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658393716",
-      "author": "AXLFI_HQ",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:22:00Z",
-      "text": "$NVDA U.S. power grids are experiencing acute capacity constraints driven by AI data center electricity demand, with spot wholesale prices surging and emergency demand reduction measures being implemented. Learn more: https://axlfi.com/themes/410",
-      "description": "",
-      "handle": "AXLFI_HQ",
-      "display_name": "AXLFI_HQ",
-      "platform": "stocktwits"
-    },
-    {
       "id": "fbddc641bfb548",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -813,52 +1148,6 @@
       "description": "",
       "handle": "RagsToBiches",
       "display_name": "Superior Returns",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b7b7a0b798f685",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:19:59Z",
-      "title": "$MSFT $387 GONE!!!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658393602",
-      "author": "NetflixUser",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-06T23:19:59Z",
-      "text": "$MSFT $387 GONE!!!",
-      "description": "",
-      "handle": "NetflixUser",
-      "display_name": "Henry",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "dc9e40d5cbc93b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:19:56Z",
-      "title": "$NVDA $QQQ there was no selloff $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658393596",
-      "author": "5win5",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:19:56Z",
-      "text": "$NVDA $QQQ there was no selloff $SPY",
-      "description": "",
-      "handle": "5win5",
-      "display_name": "Bill",
       "platform": "stocktwits"
     },
     {
@@ -896,29 +1185,6 @@
       "time": "2026-07-06T23:19:27Z",
       "text": "OFFICIAL: SAMSUNG OVERTAKES NVIDIA TO BECOME THE MOST PROFITABLE COMPANY IN THE WORLD",
       "description": ""
-    },
-    {
-      "id": "dd75a47a591484",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:17:40Z",
-      "title": "$MSFT market all time high and this nearing 52 week low. Yikes",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658393455",
-      "author": "NetflixUser",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-06T23:17:40Z",
-      "text": "$MSFT market all time high and this nearing 52 week low. Yikes",
-      "description": "",
-      "handle": "NetflixUser",
-      "display_name": "Henry",
-      "platform": "stocktwits"
     },
     {
       "id": "54c275e5d06a86",
@@ -1036,29 +1302,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "85eedff784a6d1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:15:29Z",
-      "title": "$META delusional. \n$550 by Friday",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658393334",
-      "author": "MountCapital",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-06T23:15:29Z",
-      "text": "$META delusional. \n$550 by Friday",
-      "description": "",
-      "handle": "MountCapital",
-      "display_name": "BOB JOE",
-      "platform": "stocktwits"
-    },
-    {
       "id": "4702b0436307cd",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1148,29 +1391,6 @@
       "description": "",
       "handle": "mrhammo",
       "display_name": "Yo",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0506d1aa471da1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:14:27Z",
-      "title": "$MSTR has this disconnect from BTC looks like BTC ripping past $65 this should be in the 120s",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658393272",
-      "author": "Themadogtrader",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:14:27Z",
-      "text": "$MSTR has this disconnect from BTC looks like BTC ripping past $65 this should be in the 120s",
-      "description": "",
-      "handle": "Themadogtrader",
-      "display_name": "jjv",
       "platform": "stocktwits"
     },
     {
@@ -1396,29 +1616,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "10925ddb2d63ff",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:05:49Z",
-      "title": "Why does $AAPL respect Elliott Wave levels even during volatility? Understanding its structure helps you anticipate continuation or reversal with confidence. Check out this \ud83d\udc49 https://elliottwave-forecast.com/stock-market/apple-stock-aapl-elliott-wave-forecasting-the-next-move/  \n \n#stocks #elliottwa",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658392712",
-      "author": "ElliottwaveForecast",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:05:49Z",
-      "text": "Why does $AAPL respect Elliott Wave levels even during volatility? Understanding its structure helps you anticipate continuation or reversal with confidence. Check out this \ud83d\udc49 https://elliottwave-forecast.com/stock-market/apple-stock-aapl-elliott-wave-forecasting-the-next-move/  \n \n#stocks #elliottwa",
-      "description": "",
-      "handle": "ElliottwaveForecast",
-      "display_name": "Elliottwave Forecast",
-      "platform": "stocktwits"
-    },
-    {
       "id": "9b1bd365a8d668",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1457,29 +1654,6 @@
       "description": "",
       "handle": "RicoElite",
       "display_name": "WatchTheLevels",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4d44f2562eabd8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:03:00Z",
-      "title": "$TSLA $450 by Friday",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658392552",
-      "author": "Czechmeout99",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:03:00Z",
-      "text": "$TSLA $450 by Friday",
-      "description": "",
-      "handle": "Czechmeout99",
-      "display_name": "Billy B",
       "platform": "stocktwits"
     },
     {
@@ -1544,29 +1718,6 @@
       "description": ""
     },
     {
-      "id": "f2235e0c04c6bd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:02:23Z",
-      "title": "$TSLA hey guys is this normal actions?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658392510",
-      "author": "hkm_trader",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:02:23Z",
-      "text": "$TSLA hey guys is this normal actions?",
-      "description": "",
-      "handle": "hkm_trader",
-      "display_name": "hkmtrader",
-      "platform": "stocktwits"
-    },
-    {
       "id": "8ee15960e56615",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1624,29 +1775,6 @@
       "time": "2026-07-06T23:00:29Z",
       "text": "Stock Market Today: Dow Up, AI Stock Tests Entry; SpaceX Tumbles As Elon Musk Makes This Boast (Live Coverage)",
       "description": ""
-    },
-    {
-      "id": "b3168bc4ea8a7b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T23:00:26Z",
-      "title": "$AAPL Hyperscaler AI capex returns are deteriorating while infrastructure suppliers capture disproportionate value through long-term contracts, creating bifurcation in economic profit generation and valuation compression risk for hyperscalers. Learn more: https://axlfi.com/themes/406",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658392373",
-      "author": "AXLFI_HQ",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:00:26Z",
-      "text": "$AAPL Hyperscaler AI capex returns are deteriorating while infrastructure suppliers capture disproportionate value through long-term contracts, creating bifurcation in economic profit generation and valuation compression risk for hyperscalers. Learn more: https://axlfi.com/themes/406",
-      "description": "",
-      "handle": "AXLFI_HQ",
-      "display_name": "AXLFI_HQ",
-      "platform": "stocktwits"
     },
     {
       "id": "8b104da9c3a35a",
@@ -1796,44 +1924,6 @@
       "description": ""
     },
     {
-      "id": "9699122049c1f6",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T22:55:12Z",
-      "title": "State Department: China fires nuclear-capable ballistic missile into Pacific Ocean",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "STT"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T22:55:12Z",
-      "text": "State Department: China fires nuclear-capable ballistic missile into Pacific Ocean",
-      "description": ""
-    },
-    {
-      "id": "09e0eb06fefac7",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T22:53:44Z",
-      "title": "Idaho Copper Corporation Announces Closing of Offering",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T22:53:44Z",
-      "text": "Idaho Copper Corporation Announces Closing of Offering",
-      "description": ""
-    },
-    {
       "id": "a695fac605d607",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1898,26 +1988,6 @@
       "description": "Law firm Levi & Korsinsky has filed a class action lawsuit against Photronics, Inc. alleging the company made materially false statements about its product pipeline and demand while concealing critical bottlenecks. Following the company's May 28, 2026 earnings announcement revealing a 11% sequential"
     },
     {
-      "id": "5b33ee23cb9d2d",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T22:46:37Z",
-      "title": "Antilles Gold issues update on U.S. sanctions tied to Cuban mining joint venture.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "GOLD"
-      ],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T22:46:37Z",
-      "text": "Antilles Gold issues update on U.S. sanctions tied to Cuban mining joint venture.",
-      "description": ""
-    },
-    {
       "id": "bfba6058a26fb8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1941,24 +2011,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "392c3c1e659cb9",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T22:40:20Z",
-      "title": "SAMSUNG 2Q OPER PROFIT 89.40T WON, EST. 84.2T WON",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T22:40:20Z",
-      "text": "SAMSUNG 2Q OPER PROFIT 89.40T WON, EST. 84.2T WON",
-      "description": ""
-    },
-    {
       "id": "e3709bb04f02b8",
       "source": "marketwatch",
       "source_type": "rss",
@@ -1975,44 +2027,6 @@
       "time": "Mon, 06 Jul 2026 22:39:00 GMT",
       "text": "The Nasdaq-100 has been far more volatile than the S&P 500. Now add SpaceX to the mix.",
       "description": "While SpaceX is due to join the Nasdaq-100 on Tuesday, it won\u2019t become part of the S&P 500 for at least another year \u2014 likely furthering the volatility spread between those two indexes."
-    },
-    {
-      "id": "9297661cc411d7",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T22:36:44Z",
-      "title": "ZETA PHI BETA SORORITY, INCORPORATED TO CONVENE THOUSANDS IN NASHVILLE FOR 2026 GRAND BOUL\u00c9",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T22:36:44Z",
-      "text": "ZETA PHI BETA SORORITY, INCORPORATED TO CONVENE THOUSANDS IN NASHVILLE FOR 2026 GRAND BOUL\u00c9",
-      "description": ""
-    },
-    {
-      "id": "26f0083e049118",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T22:35:37Z",
-      "title": "LGI Homes, Inc. Reports June and Second Quarter 2026 Home Closings and Announces Date for Second Quarter Earnings Conference Call",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "LGIH"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T22:35:37Z",
-      "text": "LGI Homes, Inc. Reports June and Second Quarter 2026 Home Closings and Announces Date for Second Quarter Earnings Conference Call",
-      "description": ""
     },
     {
       "id": "326a722ff34120",
@@ -3197,24 +3211,6 @@
       "time": "Mon, 06 Jul 2026 21:00:00 +0000",
       "text": "Dramatic Video Shows BJ's Wholesale Club Roof Collapse In New Jersey",
       "description": "Dramatic Video Shows BJ's Wholesale Club Roof Collapse In New Jersey\n\n            After last week's brutal heat dome baked the Mid-Atlantic and Northeast with triple-digit temperatures, dangerous storms struck the tri-state area on Monday, triggering flash flooding and high winds.\n\n\nBREAKING: Coasta"
-    },
-    {
-      "id": "f1a33376d7a9f8",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Mon, 06 Jul 2026 20:53:00 GMT",
-      "title": "Your 5 biggest \u2018Trump account\u2019 questions, answered",
-      "body": "Here\u2019s who is eligible for $1,000 in free money \u2014 and how to sign up.",
-      "url": "https://www.marketwatch.com/story/your-5-biggest-questions-about-trump-accounts-answered-421d9f6f?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Mon, 06 Jul 2026 20:53:00 GMT",
-      "text": "Your 5 biggest \u2018Trump account\u2019 questions, answered",
-      "description": "Here\u2019s who is eligible for $1,000 in free money \u2014 and how to sign up."
     },
     {
       "id": "b862e5407c0b2f",
@@ -4856,21 +4852,21 @@
       "description": ""
     },
     {
-      "id": "5f2e99c506d12c",
+      "id": "240dfde66d0a93",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T15:01:05Z",
-      "title": "Rich, Young Investors Are Losing Faith In The Stock Market To Deliver \u2018Above Average Returns\u2019 \u2014 Here\u2019s Where They\u2019re Putting Their Money Instead",
+      "timestamp": "2026-07-05T15:00:02Z",
+      "title": "Dear Netflix Stock Fans, Mark Your Calendars for July 16",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/rich-young-investors-losing-faith-150105846.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-netflix-stock-fans-mark-150002883.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T15:01:05Z",
-      "text": "Rich, Young Investors Are Losing Faith In The Stock Market To Deliver \u2018Above Average Returns\u2019 \u2014 Here\u2019s Where They\u2019re Putting Their Money Instead",
+      "time": "2026-07-05T15:00:02Z",
+      "text": "Dear Netflix Stock Fans, Mark Your Calendars for July 16",
       "description": ""
     },
     {
@@ -4892,21 +4888,23 @@
       "description": ""
     },
     {
-      "id": "240dfde66d0a93",
+      "id": "6c290a196c3715",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T15:00:02Z",
-      "title": "Dear Netflix Stock Fans, Mark Your Calendars for July 16",
+      "timestamp": "2026-07-05T14:57:15Z",
+      "title": "Will Bitcoin Rise in July? 4 AI Models Predict BTC's Next Target",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/dear-netflix-stock-fans-mark-150002883.html",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-rise-july-4-ai-145715557.html",
       "author": "",
-      "tickers": [],
+      "tickers": [
+        "BTC"
+      ],
       "tags": [],
-      "impact_score": 7.0,
+      "impact_score": 7.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T15:00:02Z",
-      "text": "Dear Netflix Stock Fans, Mark Your Calendars for July 16",
+      "time": "2026-07-05T14:57:15Z",
+      "text": "Will Bitcoin Rise in July? 4 AI Models Predict BTC's Next Target",
       "description": ""
     },
     {
