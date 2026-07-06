@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T08:47:06Z",
-  "generated_display": "2026-07-06 08:47 ET",
+  "generated": "2026-07-06T08:52:07Z",
+  "generated_display": "2026-07-06 08:52 ET",
   "count": 186,
   "source_health": {
     "x_api": {
@@ -8,14 +8,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-06T08:47:02.207976+00:00",
+      "last_error_ts": "2026-07-06T08:52:02.070706+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 263,
-      "last_success": "2026-07-06T08:47:02.472117+00:00",
+      "latency_ms": 101,
+      "last_success": "2026-07-06T08:52:02.172529+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 98,
-      "last_success": "2026-07-06T08:47:02.572017+00:00",
+      "last_success": "2026-07-06T08:52:02.271659+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 34,
-      "latency_ms": 98,
-      "last_success": "2026-07-06T08:47:02.672402+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-06T08:52:02.374593+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-06T08:47:02.778255+00:00",
+      "last_error_ts": "2026-07-06T08:52:02.470717+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1721,
-      "last_success": "2026-07-06T08:47:04.499773+00:00",
+      "latency_ms": 2100,
+      "last_success": "2026-07-06T08:52:04.571627+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,7 +55,7 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-06T08:47:05.171025+00:00",
+      "last_success": "2026-07-06T08:52:05.571485+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -63,7 +63,7 @@
       "status": "healthy",
       "items_pulled": 10,
       "latency_ms": 1699,
-      "last_success": "2026-07-06T08:47:06.870694+00:00",
+      "last_success": "2026-07-06T08:52:07.270593+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 180
+          "latency_ms": 208
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 91
+          "latency_ms": 92
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 104
+          "latency_ms": 98
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 200
+          "latency_ms": 403
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 15
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 77
+          "latency_ms": 180
         }
       }
     }
@@ -107,8 +107,8 @@
   "by_source": {
     "forex_factory": 1,
     "stocktwits": 75,
-    "cnbc": 8,
     "uw_news": 25,
+    "cnbc": 8,
     "reuters": 16,
     "massive_news": 34,
     "marketwatch": 8,
@@ -140,6 +140,149 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "58f1497c6f59f9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T08:51:20Z",
+      "title": "$NVDA again tge other chips ripping 2-3% and this POS barely green",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658314740",
+      "author": "JJG1005",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T08:51:20Z",
+      "text": "$NVDA again tge other chips ripping 2-3% and this POS barely green",
+      "description": "",
+      "handle": "JJG1005",
+      "display_name": "Joseph",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "26cd921572bc19",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T08:51:09Z",
+      "title": "World's First International Patient Begins Treatment with Newly Approved Solid Tumor CAR-T Therapy at Jiahui International Cancer Center",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "CAR"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T08:51:09Z",
+      "text": "World's First International Patient Begins Treatment with Newly Approved Solid Tumor CAR-T Therapy at Jiahui International Cancer Center",
+      "description": ""
+    },
+    {
+      "id": "11d7a915548aea",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T08:51:06Z",
+      "title": "$NKE $AMD $ONDS",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658314732",
+      "author": "TheUnmaker",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-06T08:51:06Z",
+      "text": "$NKE $AMD $ONDS",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "06ef45432f8df1",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Mon, 06 Jul 2026 08:50:04 GMT",
+      "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
+      "body": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv.",
+      "url": "https://www.cnbc.com/2026/07/06/ukraine-russia-kyiv-trump-putin-zelenskyy.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Mon, 06 Jul 2026 08:50:04 GMT",
+      "text": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
+      "description": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv."
+    },
+    {
+      "id": "6c31c559fd88b7",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T08:48:29Z",
+      "title": "UN rights council orders urgent Sudan al-Obeid inquiry",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T08:48:29Z",
+      "text": "UN rights council orders urgent Sudan al-Obeid inquiry",
+      "description": ""
+    },
+    {
+      "id": "6c72634c432f89",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T08:47:20Z",
+      "title": "$SPY brutal",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658314685",
+      "author": "Makkaz",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-06T08:47:20Z",
+      "text": "$SPY brutal",
+      "description": "",
+      "handle": "Makkaz",
+      "display_name": "Rez",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f242dfa78b2f8a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06 08:46:57",
+      "title": "Piper Sandler initiates Forbright stock with Neutral rating",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/piper-sandler-initiates-forbright-stock-with-neutral-rating-93CH-4775772",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06 08:46:57",
+      "text": "Piper Sandler initiates Forbright stock with Neutral rating",
+      "description": ""
     },
     {
       "id": "72efd2b4ff74dc",
@@ -321,6 +464,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "3b01a1b109d33c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06 08:44:12",
+      "title": "Earnings call transcript: Catena posts strong Q2 2026 growth as shares slip",
+      "body": "",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-catena-posts-strong-q2-2026-growth-as-shares-slip-93CH-4775770",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06 08:44:12",
+      "text": "Earnings call transcript: Catena posts strong Q2 2026 growth as shares slip",
+      "description": ""
+    },
+    {
       "id": "20245d2f1f472e",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -364,22 +525,22 @@
       "platform": "stocktwits"
     },
     {
-      "id": "06ef45432f8df1",
-      "source": "cnbc",
+      "id": "56e3ea057c88d0",
+      "source": "reuters",
       "source_type": "rss",
-      "timestamp": "Mon, 06 Jul 2026 08:43:40 GMT",
-      "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
-      "body": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv.",
-      "url": "https://www.cnbc.com/2026/07/06/ukraine-russia-kyiv-trump-putin-zelenskyy.html",
+      "timestamp": "2026-07-06 08:43:15",
+      "title": "UK construction sector decline eases in June from May\u2019s low",
+      "body": "",
+      "url": "https://www.investing.com/news/economic-indicators/uk-construction-sector-decline-eases-in-june-from-mays-low-93CH-4775762",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 10.3,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Mon, 06 Jul 2026 08:43:40 GMT",
-      "text": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
-      "description": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv."
+      "time": "2026-07-06 08:43:15",
+      "text": "UK construction sector decline eases in June from May\u2019s low",
+      "description": ""
     },
     {
       "id": "a78177b9fe89b1",
@@ -451,6 +612,42 @@
       "platform": "stocktwits"
     },
     {
+      "id": "ea15077e93489f",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06 08:43:13",
+      "title": "UK construction downturn eases slightly in June, PMI shows",
+      "body": "",
+      "url": "https://www.investing.com/news/economic-indicators/uk-construction-downturn-eases-slightly-in-june-pmi-shows-4775757",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06 08:43:13",
+      "text": "UK construction downturn eases slightly in June, PMI shows",
+      "description": ""
+    },
+    {
+      "id": "40abbae1ce7098",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06 08:42:38",
+      "title": "Stocks inch up as oil weighed by supply while earnings loom",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/shares-edge-higher-in-asia-as-oil-dips-earnings-loom-4775508",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06 08:42:38",
+      "text": "Stocks inch up as oil weighed by supply while earnings loom",
+      "description": ""
+    },
+    {
       "id": "8597ae90e94840",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -497,6 +694,42 @@
       "platform": "stocktwits"
     },
     {
+      "id": "b0eb62ce326f74",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06 08:40:50",
+      "title": "JPMorgan downgrades EHang stock on regulatory delays",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-downgrades-ehang-stock-on-regulatory-delays-93CH-4775761",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06 08:40:50",
+      "text": "JPMorgan downgrades EHang stock on regulatory delays",
+      "description": ""
+    },
+    {
+      "id": "4efeed1f53fe20",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06 08:40:31",
+      "title": "Why is Prosus stock rallying today?",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/why-is-prosus-stock-rallying-today-93CH-4775760",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06 08:40:31",
+      "text": "Why is Prosus stock rallying today?",
+      "description": ""
+    },
+    {
       "id": "27ceb71eafead7",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -520,50 +753,22 @@
       "platform": "stocktwits"
     },
     {
-      "id": "d61d94ebd72214",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T08:39:10Z",
-      "title": "$AMD BOOOOOM\ud83d\udca5\ud83d\udca5\ud83d\udca5 One of my BEST alerts\ud83d\udc47 Thousands of my discord members crushin\u2019\ud83e\udd11",
+      "id": "1bf7b14f28dcec",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06 08:38:05",
+      "title": "SK Hynix attracts $7 billion interest from major investors in U.S. ADR sale",
       "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658314548",
-      "author": "VMAESA",
-      "tickers": [
-        "AMD"
-      ],
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-attracts-7-billion-interest-from-major-investors-in-us-adr-sale-93CH-4775759",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-06T08:39:10Z",
-      "text": "$AMD BOOOOOM\ud83d\udca5\ud83d\udca5\ud83d\udca5 One of my BEST alerts\ud83d\udc47 Thousands of my discord members crushin\u2019\ud83e\udd11",
-      "description": "",
-      "handle": "VMAESA",
-      "display_name": "T",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "367576b8c853e3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T08:36:17Z",
-      "title": "$SPY https://youtu.be/RipuJZ5HS-4?is=EuDEVuAL8eXKVokG",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658314507",
-      "author": "P8perCh8ser",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-06T08:36:17Z",
-      "text": "$SPY https://youtu.be/RipuJZ5HS-4?is=EuDEVuAL8eXKVokG",
-      "description": "",
-      "handle": "P8perCh8ser",
-      "display_name": "P8perCh8ser",
-      "platform": "stocktwits"
+      "time": "2026-07-06 08:38:05",
+      "text": "SK Hynix attracts $7 billion interest from major investors in U.S. ADR sale",
+      "description": ""
     },
     {
       "id": "180bfb58d41ddd",
@@ -1279,80 +1484,6 @@
       "description": ""
     },
     {
-      "id": "5a37f7e292bc6c",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 08:14:55",
-      "title": "Why is OC Oerlikon stock surging today?",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-oc-oerlikon-stock-surging-today-93CH-4775726",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 08:14:55",
-      "text": "Why is OC Oerlikon stock surging today?",
-      "description": ""
-    },
-    {
-      "id": "f221499a769d64",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T08:14:54Z",
-      "title": "SOL trading at $80.68, facing resistance at $83.63\u2013$83.68. MACD shows potential breakout to $88+.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "SOL"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T08:14:54Z",
-      "text": "SOL trading at $80.68, facing resistance at $83.63\u2013$83.68. MACD shows potential breakout to $88+.",
-      "description": ""
-    },
-    {
-      "id": "94e439a84d1b15",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T08:14:52Z",
-      "title": "DOGE price stagnates at $0.077, below key averages. Over 70% of futures market is long. Beware the $0.065 target.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T08:14:52Z",
-      "text": "DOGE price stagnates at $0.077, below key averages. Over 70% of futures market is long. Beware the $0.065 target.",
-      "description": ""
-    },
-    {
-      "id": "9594a04ea689b3",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 08:12:33",
-      "title": "Oil falls by more than 1% after OPEC+ agrees to raise output targets",
-      "body": "",
-      "url": "https://www.investing.com/news/commodities-news/oil-slips-after-opec-agrees-to-raise-output-targets-4775506",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 08:12:33",
-      "text": "Oil falls by more than 1% after OPEC+ agrees to raise output targets",
-      "description": ""
-    },
-    {
       "id": "5923fc97aed5a3",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1374,24 +1505,6 @@
       "handle": "TalkMarkets",
       "display_name": "TalkMarkets",
       "platform": "stocktwits"
-    },
-    {
-      "id": "dd666b44e1f0d0",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 08:10:51",
-      "title": "Why is Close Bros stock sliding today?",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-close-bros-stock-sliding-today-93CH-4775705",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 08:10:51",
-      "text": "Why is Close Bros stock sliding today?",
-      "description": ""
     },
     {
       "id": "383e868b44cad5",
@@ -1440,96 +1553,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "271d80ee854ea0",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 08:08:58",
-      "title": "Why is Thales stock sliding today?",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-thales-stock-sliding-today-93CH-4775704",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 08:08:58",
-      "text": "Why is Thales stock sliding today?",
-      "description": ""
-    },
-    {
-      "id": "412c8dd3bc6bf2",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 08:08:49",
-      "title": "TD Cowen upgrades Flagstar Bank stock rating on earnings recovery",
-      "body": "",
-      "url": "https://www.investing.com/news/analyst-ratings/td-cowen-upgrades-flagstar-bank-stock-rating-on-earnings-recovery-93CH-4775703",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 08:08:49",
-      "text": "TD Cowen upgrades Flagstar Bank stock rating on earnings recovery",
-      "description": ""
-    },
-    {
-      "id": "080166facf90fc",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 08:08:47",
-      "title": "TD Cowen cuts Bank OZK stock rating on credit concerns",
-      "body": "",
-      "url": "https://www.investing.com/news/analyst-ratings/td-cowen-cuts-bank-ozk-stock-rating-on-credit-concerns-93CH-4775702",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 08:08:47",
-      "text": "TD Cowen cuts Bank OZK stock rating on credit concerns",
-      "description": ""
-    },
-    {
-      "id": "0fbf35b2465bc6",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 08:08:02",
-      "title": "Eurozone yields consolodate as Germany\u2019s 10-year pulls back from 2-week high",
-      "body": "",
-      "url": "https://www.investing.com/news/forex-news/eurozone-yields-consolodate-as-germanys-10year-pulls-back-from-2week-high-4775701",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 08:08:02",
-      "text": "Eurozone yields consolodate as Germany\u2019s 10-year pulls back from 2-week high",
-      "description": ""
-    },
-    {
-      "id": "dba0eac6fabbc1",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 08:07:22",
-      "title": "Close Brothers shares drop 5% following RBC downgrade over motor finance fears",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/close-brothers-shares-drop-5-following-rbc-downgrade-over-motor-finance-fears-4775700",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 08:07:22",
-      "text": "Close Brothers shares drop 5% following RBC downgrade over motor finance fears",
-      "description": ""
-    },
-    {
       "id": "062d6833d28c51",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1550,29 +1573,6 @@
       "description": "",
       "handle": "JDRebel",
       "display_name": "James Dean",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "06fd6475d94cb7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T08:04:22Z",
-      "title": "$AMD https://finance.yahoo.com/markets/stocks/articles/analysts-ubs-advanced-micro-devices-185517010.html \n \n$NVDA $INTC $MRVL $ORCL",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658313977",
-      "author": "TheUnmaker",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-06T08:04:22Z",
-      "text": "$AMD https://finance.yahoo.com/markets/stocks/articles/analysts-ubs-advanced-micro-devices-185517010.html \n \n$NVDA $INTC $MRVL $ORCL",
-      "description": "",
-      "handle": "TheUnmaker",
-      "display_name": "TheUnmaker",
       "platform": "stocktwits"
     },
     {
@@ -2717,6 +2717,26 @@
       "description": "Foreign aid cuts have \"demonstrably worsened\" the Ebola crisis, a virologist told CNBC."
     },
     {
+      "id": "cc892281a2cb1d",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Mon, 06 Jul 2026 04:47:49 -0400",
+      "title": "Biggest stock movers Monday: Crypto stocks, TSLA, and more",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4611558-biggest-stock-movers-monday-crypto-stocks-tsla-and-more?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 5.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Mon, 06 Jul 2026 04:47:49 -0400",
+      "text": "Biggest stock movers Monday: Crypto stocks, TSLA, and more",
+      "description": ""
+    },
+    {
       "id": "910371a49dc097",
       "source": "seekingalpha",
       "source_type": "rss",
@@ -3135,24 +3155,6 @@
       "time": "2026-07-06T03:15:00Z",
       "text": "The Retail Trading Boom Is Back. Charles Schwab Is Quietly Cashing In.",
       "description": "Charles Schwab is benefiting significantly from the retail trading boom despite being an established player in the discount brokerage industry. The company reported $13.1 trillion in customer assets in May 2026, with 27% year-over-year growth, 461,000 new accounts (up 37%), and record daily trading "
-    },
-    {
-      "id": "ef602e497063f3",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Mon, 06 Jul 2026 03:14:51 -0400",
-      "title": "United Microelectronics June revenue jumps ~23% Y/Y",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4611551-united-microelectronics-june-revenue-jumps-23-yy?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Mon, 06 Jul 2026 03:14:51 -0400",
-      "text": "United Microelectronics June revenue jumps ~23% Y/Y",
-      "description": ""
     },
     {
       "id": "7bd48103985e7a",
@@ -3955,6 +3957,24 @@
       "description": ""
     },
     {
+      "id": "3ccef67d19eaea",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T21:58:01Z",
+      "title": "Which Banking ETF Is Better, State Street's KBE or iShares' U.S. Regional Bank-Focused IAT?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/banking-etf-better-state-streets-215801395.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T21:58:01Z",
+      "text": "Which Banking ETF Is Better, State Street's KBE or iShares' U.S. Regional Bank-Focused IAT?",
+      "description": ""
+    },
+    {
       "id": "2f77b6ab4887ab",
       "source": "reuters",
       "source_type": "rss",
@@ -3970,24 +3990,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04T21:55:00Z",
       "text": "The Smartest Dividend Stock to Buy With $1,000 Right Now",
-      "description": ""
-    },
-    {
-      "id": "38ee73b4adebe2",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T21:47:00Z",
-      "title": "Meta\u2019s next AI bet has one major catch for investors",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/meta-next-ai-bet-one-214700848.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T21:47:00Z",
-      "text": "Meta\u2019s next AI bet has one major catch for investors",
       "description": ""
     },
     {
