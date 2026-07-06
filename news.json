@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-06T08:27:07Z",
-  "generated_display": "2026-07-06 08:27 ET",
-  "count": 185,
+  "generated": "2026-07-06T08:32:06Z",
+  "generated_display": "2026-07-06 08:32 ET",
+  "count": 186,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-06T08:27:01.938669+00:00",
+      "last_error_ts": "2026-07-06T08:32:02.013557+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
-      "items_pulled": 3,
-      "latency_ms": 532,
-      "last_success": "2026-07-06T08:27:02.471781+00:00",
+      "items_pulled": 4,
+      "latency_ms": 190,
+      "last_success": "2026-07-06T08:32:02.271120+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 71,
-      "last_success": "2026-07-06T08:27:02.570434+00:00",
+      "latency_ms": 53,
+      "last_success": "2026-07-06T08:32:02.370622+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 34,
-      "latency_ms": 101,
-      "last_success": "2026-07-06T08:27:02.673371+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-06T08:32:02.473353+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-06T08:27:02.777451+00:00",
+      "last_error_ts": "2026-07-06T08:32:02.509136+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1813,
-      "last_success": "2026-07-06T08:27:04.590530+00:00",
+      "latency_ms": 1762,
+      "last_success": "2026-07-06T08:32:04.271306+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-06T08:27:05.471236+00:00",
+      "last_success": "2026-07-06T08:32:05.060238+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1758,
-      "last_success": "2026-07-06T08:27:07.229895+00:00",
+      "latency_ms": 1810,
+      "last_success": "2026-07-06T08:32:06.870750+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,46 +74,46 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 189
+          "latency_ms": 108
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 71
+          "latency_ms": 38
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 119
+          "latency_ms": 85
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 402
+          "latency_ms": 470
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 16
+          "latency_ms": 9
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 80
+          "latency_ms": 76
         }
       }
     }
   },
   "by_source": {
     "forex_factory": 1,
-    "stocktwits": 75,
     "uw_news": 25,
+    "stocktwits": 75,
+    "cnbc": 8,
     "reuters": 16,
     "massive_news": 34,
     "marketwatch": 8,
-    "cnbc": 8,
     "zerohedge": 8,
-    "benzinga": 3,
+    "benzinga": 4,
     "seekingalpha": 7
   },
   "items": [
@@ -140,6 +140,149 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "75f8e7c73fd7ee",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T08:31:12Z",
+      "title": "UK S&P Global Construction PMI Jun: 38.4 (est 40.0; prev 38.2) - All Sector PMI: 48.4 (prev 48.7)",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T08:31:12Z",
+      "text": "UK S&P Global Construction PMI Jun: 38.4 (est 40.0; prev 38.2) - All Sector PMI: 48.4 (prev 48.7)",
+      "description": ""
+    },
+    {
+      "id": "eb357651ab77d5",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T08:31:04Z",
+      "title": "EUROZONE SENTIX INVESTOR CONFIDENCE INDEX ACTUAL -3.1 (FORECAST -10, PREVIOUS -13.4) $MACRO",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T08:31:04Z",
+      "text": "EUROZONE SENTIX INVESTOR CONFIDENCE INDEX ACTUAL -3.1 (FORECAST -10, PREVIOUS -13.4) $MACRO",
+      "description": ""
+    },
+    {
+      "id": "91b21d52e2785e",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T08:31:03Z",
+      "title": "UK CONSTRUCTION PMI ACTUAL 38.4 (FORECAST 40, PREVIOUS 38.2) $MACRO",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "ROAD"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T08:31:03Z",
+      "text": "UK CONSTRUCTION PMI ACTUAL 38.4 (FORECAST 40, PREVIOUS 38.2) $MACRO",
+      "description": ""
+    },
+    {
+      "id": "77371cfb5ca7a9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T08:27:40Z",
+      "title": "$AMD Trending this morning!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658314380",
+      "author": "NewsPaperNQ",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T08:27:40Z",
+      "text": "$AMD Trending this morning!",
+      "description": "",
+      "handle": "NewsPaperNQ",
+      "display_name": "NewsPaperNQ",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "06ef45432f8df1",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Mon, 06 Jul 2026 08:27:36 GMT",
+      "title": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
+      "body": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv.",
+      "url": "https://www.cnbc.com/2026/07/06/ukraine-russia-kyiv-trump-putin-zelenskyy.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Mon, 06 Jul 2026 08:27:36 GMT",
+      "text": "Trump's calls, Ukraine's strikes and Russia's barrage on Kyiv put markets on alert",
+      "description": "Trump reportedly spoke with Putin and Zelenskyy as Ukraine struck Russian targets and Moscow launched another deadly attack on Kyiv."
+    },
+    {
+      "id": "156b6b3d4d44de",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T08:27:31Z",
+      "title": "$NKE $46.30 today \n$ONDS Reclaim $9.20 with heavy buyers eating dips \n$AMD reclaim $538.50 and break $546.60",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658314378",
+      "author": "TheUnmaker",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-06T08:27:31Z",
+      "text": "$NKE $46.30 today \n$ONDS Reclaim $9.20 with heavy buyers eating dips \n$AMD reclaim $538.50 and break $546.60",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7e61023a63436c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T08:27:13Z",
+      "title": "$SPY I said so, that\u2019s good enough.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658314372",
+      "author": "JohnnyCocksville",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-06T08:27:13Z",
+      "text": "$SPY I said so, that\u2019s good enough.",
+      "description": "",
+      "handle": "JohnnyCocksville",
+      "display_name": "MagnusVonCrites",
+      "platform": "stocktwits"
     },
     {
       "id": "373c0c9882c140",
@@ -444,29 +587,6 @@
       "description": "",
       "handle": "007Aston",
       "display_name": "Nigel brown",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c3696645a50033",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T08:19:47Z",
-      "title": "$SPY Fix your crap ST you losers",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658314229",
-      "author": "Iwannagofast1",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T08:19:47Z",
-      "text": "$SPY Fix your crap ST you losers",
-      "description": "",
-      "handle": "Iwannagofast1",
-      "display_name": "RickyBobby",
       "platform": "stocktwits"
     },
     {
@@ -941,65 +1061,6 @@
       "description": ""
     },
     {
-      "id": "fadddc38b9e83d",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T08:14:41Z",
-      "title": "UNI may hit $3.26 but faces resistance, MACD flat at zero. Chances of $2.74-$2 test at 60%. Bulls seek catalyst.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T08:14:41Z",
-      "text": "UNI may hit $3.26 but faces resistance, MACD flat at zero. Chances of $2.74-$2 test at 60%. Bulls seek catalyst.",
-      "description": ""
-    },
-    {
-      "id": "7674cb78fbf5bf",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T08:14:38Z",
-      "title": "BCH at $240.50 near upper Bollinger Band. 50-Day SMA crucial. Smart money 67.6% long. Price to move dramatically soon.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "BCH",
-        "SMA"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T08:14:38Z",
-      "text": "BCH at $240.50 near upper Bollinger Band. 50-Day SMA crucial. Smart money 67.6% long. Price to move dramatically soon.",
-      "description": ""
-    },
-    {
-      "id": "757b5d7ebe4f6f",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T08:14:36Z",
-      "title": "ATOM's price prediction: Testing $1.43 mark, likely to drop further. Currently at $1.66 support level, facing bearish trend.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "ATOM"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T08:14:36Z",
-      "text": "ATOM's price prediction: Testing $1.43 mark, likely to drop further. Currently at $1.66 support level, facing bearish trend.",
-      "description": ""
-    },
-    {
       "id": "d931c7e71d4fcd",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1287,29 +1348,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "77497d903bf603",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T08:04:22Z",
-      "title": "$AMD https://finance.yahoo.com/markets/stocks/articles/analysts-ubs-advanced-micro-devices-185517010.html \n \n$NVDA $INTC $MRVL $ORCL",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658313977",
-      "author": "TheUnmaker",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-06T08:04:22Z",
-      "text": "$AMD https://finance.yahoo.com/markets/stocks/articles/analysts-ubs-advanced-micro-devices-185517010.html \n \n$NVDA $INTC $MRVL $ORCL",
-      "description": "",
-      "handle": "TheUnmaker",
-      "display_name": "TheUnmaker",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2b197c3894e5dc",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1373,29 +1411,6 @@
       "sentiment": "neutral",
       "time": "2026-07-06T08:00:31Z",
       "text": "$NVDA .,Iranian military spokesman Mohammad Akhrami-Niya participated in the funeral procession of Supreme Leader Ali Khamenei, and threatened: &quot;We are on full alert. We took advantage of the ceasefire to improve our combat capabilities.&quot;",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c31eb61ff17143",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T07:59:45Z",
-      "title": "$AMD Iranian military spokesman Mohammad Akhrami-Niya participated in the funeral procession of Supreme Leader Ali Khamenei, and threatened: &quot;We are on full alert. We took advantage of the ceasefire to improve our combat capabilities.&quot;",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658313901",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T07:59:45Z",
-      "text": "$AMD Iranian military spokesman Mohammad Akhrami-Niya participated in the funeral procession of Supreme Leader Ali Khamenei, and threatened: &quot;We are on full alert. We took advantage of the ceasefire to improve our combat capabilities.&quot;",
       "description": "",
       "handle": "Mipel",
       "display_name": "Natan h",
@@ -2676,6 +2691,35 @@
       "platform": "stocktwits"
     },
     {
+      "id": "511293a773a1be",
+      "source": "benzinga",
+      "source_type": "benzinga_news",
+      "timestamp": "Mon, 06 Jul 2026 04:30:50 -0400",
+      "title": "Dan Niles Sees Apple Winning China Memory Exemption, Calls AI Chip Selloff a 'Speed Bump' as Nvidia's Vera Rubin Fuels Long-Term Demand",
+      "body": "Tech investor Dan Niles on Sunday said that the recent pullback in AI semiconductor stocks is a temporary setback rather than the end of the artificial intelligence rally, arguing that long-term demand remains intact despite growing investor concerns.\n\n\n\nAI Chip Selloff Driven By Apple, Meta Concerns\n\n\n\nIn a post on X, Niles said AI-related stocks underperformed last week even as the broader marke",
+      "url": "https://www.benzinga.com/markets/tech/26/07/60271710/dan-niles-sees-apple-winning-china-memory-exemption-calls-ai-chip-selloff-a-speed-bump-as-nvidias-vera-rubin-fuels-long-term-demand",
+      "author": "Ananya Gairola",
+      "tickers": [
+        "AAPL",
+        "META",
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 9.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Mon, 06 Jul 2026 04:30:50 -0400",
+      "text": "Dan Niles Sees Apple Winning China Memory Exemption, Calls AI Chip Selloff a 'Speed Bump' as Nvidia's Vera Rubin Fuels Long-Term Demand",
+      "description": "Tech investor Dan Niles on Sunday said that the recent pullback in AI semiconductor stocks is a temporary setback rather than the end of the artificial intelligence rally, arguing that long-term demand remains intact despite growing investor concerns.\n\n\n\nAI Chip Selloff Driven By Apple, Meta Concerns\n\n\n\nIn a post on X, Niles said AI-related stocks underperformed last week even as the broader marke",
+      "channels": [
+        "Markets",
+        "Tech",
+        "Politics",
+        "Global",
+        "Equities"
+      ]
+    },
+    {
       "id": "5a6e5e7e74f216",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2761,6 +2805,24 @@
       "handle": "MountCapital",
       "display_name": "BOB JOE",
       "platform": "stocktwits"
+    },
+    {
+      "id": "2e8f4aa0a0ee29",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Mon, 06 Jul 2026 04:27:29 -0400",
+      "title": "Stock futures rise as Wall Street looks to extend last week's gains",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4611557-sp500-nasdaq-dow-jones-outlook-stock-market?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Mon, 06 Jul 2026 04:27:29 -0400",
+      "text": "Stock futures rise as Wall Street looks to extend last week's gains",
+      "description": ""
     },
     {
       "id": "fa77877e438215",
@@ -3124,24 +3186,6 @@
       "time": "2026-07-06T02:54:00Z",
       "text": "ROSEN, A RANKED AND LEADING LAW FIRM, Encourages GRAIL, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 GRAL",
       "description": "Rosen Law Firm is reminding investors who purchased GRAIL, Inc. common stock between May 13, 2025 and February 19, 2026 of an important August 4, 2026 lead plaintiff deadline in an ongoing securities class action. The lawsuit alleges that GRAIL provided overwhelmingly positive statements while conce"
-    },
-    {
-      "id": "e64aa974d50066",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Mon, 06 Jul 2026 02:52:31 -0400",
-      "title": "EQT agrees to acquire Australian smart parking tech firm Orikan",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4611548-eqt-agrees-to-acquire-australian-smart-parking-tech-firm-orikan?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Mon, 06 Jul 2026 02:52:31 -0400",
-      "text": "EQT agrees to acquire Australian smart parking tech firm Orikan",
-      "description": ""
     },
     {
       "id": "606d4bdde47242",
@@ -3926,58 +3970,40 @@
       "description": "While some collectors may plan to hoard their physical media, one Columbus gamer decided to liquidate his collection"
     },
     {
-      "id": "227882fd7d498f",
+      "id": "9e80e0a447297b",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-04T21:25:01Z",
-      "title": "Which Is the Better High Dividend ETF, iShares' HDV or Fidelity's FDVV?",
+      "timestamp": "2026-07-04T21:35:00Z",
+      "title": "JPMorgan Chase Just Authorized a $50 Billion Buyback and Raised Its Dividend. Is the Stock a Buy Near Record Highs?",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/better-high-dividend-etf-ishares-212501924.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-chase-just-authorized-50-213500718.html",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 7.8,
+      "impact_score": 10.3,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-04T21:25:01Z",
-      "text": "Which Is the Better High Dividend ETF, iShares' HDV or Fidelity's FDVV?",
+      "time": "2026-07-04T21:35:00Z",
+      "text": "JPMorgan Chase Just Authorized a $50 Billion Buyback and Raised Its Dividend. Is the Stock a Buy Near Record Highs?",
       "description": ""
     },
     {
-      "id": "4c1074711364b9",
+      "id": "7256f7a91e60e6",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-04T21:20:00Z",
-      "title": "1 Reason to Buy This Wide-Moat Stock Right Now",
+      "timestamp": "2026-07-04T21:33:49Z",
+      "title": "Elon Musk Calls Report on SpaceX AI Handheld Device \u2018Utterly False\u2019 After Claims of an iPhone Rival Sparks Online Buzz",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-reason-buy-wide-moat-212000234.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-calls-report-spacex-213349921.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-04T21:20:00Z",
-      "text": "1 Reason to Buy This Wide-Moat Stock Right Now",
+      "time": "2026-07-04T21:33:49Z",
+      "text": "Elon Musk Calls Report on SpaceX AI Handheld Device \u2018Utterly False\u2019 After Claims of an iPhone Rival Sparks Online Buzz",
       "description": ""
-    },
-    {
-      "id": "fe4768266a3254",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Sat, 04 Jul 2026 12:54:04 GMT",
-      "title": "The World Cup sends prediction market volumes soaring to record highs",
-      "body": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume.",
-      "url": "https://www.cnbc.com/2026/07/04/2026-fifa-world-cup-boosts-prediction-market-volumes.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 04 Jul 2026 12:54:04 GMT",
-      "text": "The World Cup sends prediction market volumes soaring to record highs",
-      "description": "Trading volumes on Kalshi and Polymarket both hit record highs in June. Rothera, a new prediction market platform, was also able to manage $2 billion in volume."
     }
   ]
 }
