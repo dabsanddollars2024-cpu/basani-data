@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-06T03:07:06Z",
-  "generated_display": "2026-07-06 03:07 ET",
+  "generated": "2026-07-06T03:12:07Z",
+  "generated_display": "2026-07-06 03:12 ET",
   "count": 172,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-06T03:07:01.628270+00:00",
+      "last_error_ts": "2026-07-06T03:12:01.810815+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 6,
-      "latency_ms": 242,
-      "last_success": "2026-07-06T03:07:01.871872+00:00",
+      "latency_ms": 160,
+      "last_success": "2026-07-06T03:12:01.972453+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-06T03:07:01.972284+00:00",
+      "latency_ms": 67,
+      "last_success": "2026-07-06T03:12:02.040897+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 18,
-      "latency_ms": 98,
-      "last_success": "2026-07-06T03:07:02.071843+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-06T03:12:02.172392+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-06T03:07:02.181052+00:00",
+      "last_error_ts": "2026-07-06T03:12:02.210121+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1792,
-      "last_success": "2026-07-06T03:07:03.973098+00:00",
+      "latency_ms": 2344,
+      "last_success": "2026-07-06T03:12:04.554339+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-06T03:07:04.742560+00:00",
+      "last_success": "2026-07-06T03:12:05.271590+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1702,
-      "last_success": "2026-07-06T03:07:06.445424+00:00",
+      "latency_ms": 1774,
+      "last_success": "2026-07-06T03:12:07.045842+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,45 +74,45 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 110
+          "latency_ms": 122
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 87
+          "latency_ms": 72
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 52
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 329
+          "latency_ms": 272
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 81
+          "latency_ms": 33
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 60
+          "latency_ms": 162
         }
       }
     }
   },
   "by_source": {
     "forex_factory": 1,
-    "uw_news": 25,
     "stocktwits": 75,
+    "uw_news": 25,
+    "marketwatch": 8,
     "reuters": 16,
     "massive_news": 18,
     "cnbc": 8,
     "zerohedge": 8,
-    "marketwatch": 8,
     "seekingalpha": 7,
     "benzinga": 6
   },
@@ -140,6 +140,341 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "d1c095725b48b2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:11:46Z",
+      "title": "$QQQ adding a put on $NQ here",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658309957",
+      "author": "TurboWago",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-06T03:11:46Z",
+      "text": "$QQQ adding a put on $NQ here",
+      "description": "",
+      "handle": "TurboWago",
+      "display_name": "T",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "84267617511f8f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:11:30Z",
+      "title": "$QQQ Fking scam. Why did it even go down.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658309951",
+      "author": "Saving4boat",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:11:30Z",
+      "text": "$QQQ Fking scam. Why did it even go down.",
+      "description": "",
+      "handle": "Saving4boat",
+      "display_name": "TYLER BENNETT",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "18ceb7de32842f",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T03:11:18Z",
+      "title": "Update on Trump cases: 2028 bets surge; Vance kept at 20% by Polymarket. Report states unresolved criminal cases with uncertain schedules.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:11:18Z",
+      "text": "Update on Trump cases: 2028 bets surge; Vance kept at 20% by Polymarket. Report states unresolved criminal cases with uncertain schedules.",
+      "description": ""
+    },
+    {
+      "id": "54e73f2c76a8c4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:11:03Z",
+      "title": "$POWR &gt;&gt; Daily Chart &gt;&gt;\n\nWatching \ud83d\udc40 this zone between the 100  SMA @ 26.84 &amp; the middle Bollinger Band &amp; 50 SMA in the 27.50 zone\n\nA close back above the 50 SMA would be bullish signaling more upside potential \n\nIf the 100 SMA is tested and holds it could be a good level to trade",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658309934",
+      "author": "ospreyeye",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:11:03Z",
+      "text": "$POWR &gt;&gt; Daily Chart &gt;&gt;\n\nWatching \ud83d\udc40 this zone between the 100  SMA @ 26.84 &amp; the middle Bollinger Band &amp; 50 SMA in the 27.50 zone\n\nA close back above the 50 SMA would be bullish signaling more upside potential \n\nIf the 100 SMA is tested and holds it could be a good level to trade",
+      "description": "",
+      "handle": "ospreyeye",
+      "display_name": "Ospreyeye",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2fac61a1e4e9cf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:11:03Z",
+      "title": "$POWR &gt;&gt; Daily Chart &gt;&gt;\n\nWatching \ud83d\udc40 this zone between the 100  SMA @ 26.84 &amp; the middle Bollinger Band &amp; 50 SMA in the 27.50 zone\n\nA close back above the 50 SMA would be bullish signaling more upside potential \n\nIf the 100 SMA is tested and holds it could be a good level to trade",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658309934",
+      "author": "ospreyeye",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:11:03Z",
+      "text": "$POWR &gt;&gt; Daily Chart &gt;&gt;\n\nWatching \ud83d\udc40 this zone between the 100  SMA @ 26.84 &amp; the middle Bollinger Band &amp; 50 SMA in the 27.50 zone\n\nA close back above the 50 SMA would be bullish signaling more upside potential \n\nIf the 100 SMA is tested and holds it could be a good level to trade",
+      "description": "",
+      "handle": "ospreyeye",
+      "display_name": "Ospreyeye",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "556734d1821f47",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T03:10:15Z",
+      "title": "Trump's speech at Mount Rushmore boosts Polymarket to 97.45% amid Starmer's departure speculation. Traders eye political aftermath.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:10:15Z",
+      "text": "Trump's speech at Mount Rushmore boosts Polymarket to 97.45% amid Starmer's departure speculation. Traders eye political aftermath.",
+      "description": ""
+    },
+    {
+      "id": "e9bdf43e97069e",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T03:10:13Z",
+      "title": "Impeachment buzz around Ex-President Trump reignites as GOP 2028 odds for RFK Jr at 49%. Read more.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "GOP"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:10:13Z",
+      "text": "Impeachment buzz around Ex-President Trump reignites as GOP 2028 odds for RFK Jr at 49%. Read more.",
+      "description": ""
+    },
+    {
+      "id": "22744be7c42195",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T03:10:10Z",
+      "title": "Khamenei funeral starts; Polymarket lowers Iran regime-fall odds to 6.5%. Funeral attendees chant hostile slogans.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:10:10Z",
+      "text": "Khamenei funeral starts; Polymarket lowers Iran regime-fall odds to 6.5%. Funeral attendees chant hostile slogans.",
+      "description": ""
+    },
+    {
+      "id": "a517fd83b03c74",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T03:10:09Z",
+      "title": "Bitcoin rises above $62,000 as weak jobs data increases odds of Fed holding rates at 89.5%. Macro factors impact crypto.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:10:09Z",
+      "text": "Bitcoin rises above $62,000 as weak jobs data increases odds of Fed holding rates at 89.5%. Macro factors impact crypto.",
+      "description": ""
+    },
+    {
+      "id": "61fb741926a5d0",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-06T03:09:10Z",
+      "title": "MGI Tech and Shanghai AI Laboratory Unveil ProtoPilot and BioLab Bench, Pioneering Physical AI for Life Sciences",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:09:10Z",
+      "text": "MGI Tech and Shanghai AI Laboratory Unveil ProtoPilot and BioLab Bench, Pioneering Physical AI for Life Sciences",
+      "description": ""
+    },
+    {
+      "id": "7bd48103985e7a",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Mon, 06 Jul 2026 03:09:00 GMT",
+      "title": "U.S. stock futures rise as Wall Street looks to extend its rally coming off the holiday weekend",
+      "body": "U.S. stock-index futures gained on Sunday, with Wall Street looking to extend last week\u2019s gains.",
+      "url": "https://www.marketwatch.com/story/u-s-stock-futures-rise-as-wall-street-looks-to-extend-its-rally-coming-off-the-holiday-weekend-5e5a9102?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Mon, 06 Jul 2026 03:09:00 GMT",
+      "text": "U.S. stock futures rise as Wall Street looks to extend its rally coming off the holiday weekend",
+      "description": "U.S. stock-index futures gained on Sunday, with Wall Street looking to extend last week\u2019s gains."
+    },
+    {
+      "id": "1e2d330a8e4802",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:08:57Z",
+      "title": "$MSFT what a predicament here. Become completely detached from the market. The indexes are all shitty ChipShits so QQQ going up means MSFT goes down. Vice versa.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658309904",
+      "author": "BearVirus",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:08:57Z",
+      "text": "$MSFT what a predicament here. Become completely detached from the market. The indexes are all shitty ChipShits so QQQ going up means MSFT goes down. Vice versa.",
+      "description": "",
+      "handle": "BearVirus",
+      "display_name": "Solo",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d66f8c80dedc34",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:08:44Z",
+      "title": "$LAC $LAC.TSX  $SPY The U.S. Department of Defense has launched a five-year lithium carbonate strategic stockpiling program, with an initial purchase of approximately 3,657 metric tons. \n \nThis will directly affect  LAC.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658309896",
+      "author": "DrSilbergleit",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:08:44Z",
+      "text": "$LAC $LAC.TSX  $SPY The U.S. Department of Defense has launched a five-year lithium carbonate strategic stockpiling program, with an initial purchase of approximately 3,657 metric tons. \n \nThis will directly affect  LAC.",
+      "description": "",
+      "handle": "DrSilbergleit",
+      "display_name": "Doc Silbergleit",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d780c040f79f83",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:07:52Z",
+      "title": "$SPY longest bull flag  ever",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658309868",
+      "author": "moneysoldier",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-06T03:07:52Z",
+      "text": "$SPY longest bull flag  ever",
+      "description": "",
+      "handle": "moneysoldier",
+      "display_name": "money soldier",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b77d1b27b48b79",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:07:49Z",
+      "title": "$MSFT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658309865",
+      "author": "NetflixUser",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T03:07:49Z",
+      "text": "$MSFT",
+      "description": "",
+      "handle": "NetflixUser",
+      "display_name": "Henry",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "02beff59fc1e02",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T03:07:46Z",
+      "title": "$QQQ not done going down, I took profit on 2 puts there riding rest",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658309864",
+      "author": "TurboWago",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-06T03:07:46Z",
+      "text": "$QQQ not done going down, I took profit on 2 puts there riding rest",
+      "description": "",
+      "handle": "TurboWago",
+      "display_name": "T",
+      "platform": "stocktwits"
     },
     {
       "id": "d7c12ae081cff5",
@@ -275,29 +610,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "ea48c583f9099a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T03:02:38Z",
-      "title": "Momentum Monday - AI Stocks Under Pressure, Healthcare Leads https://ivanhoff.com/2026/07/05/ai-stocks-under-pressure-healthcare-leads/ @MarketSurge @howardlindzon $SMH $IGV $XBI $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658309750",
-      "author": "ivanhoff",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T03:02:38Z",
-      "text": "Momentum Monday - AI Stocks Under Pressure, Healthcare Leads https://ivanhoff.com/2026/07/05/ai-stocks-under-pressure-healthcare-leads/ @MarketSurge @howardlindzon $SMH $IGV $XBI $QQQ",
-      "description": "",
-      "handle": "ivanhoff",
-      "display_name": "ivanhoff",
-      "platform": "stocktwits"
-    },
-    {
       "id": "559d3f37319ae8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -367,52 +679,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "854b97d539d86e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T03:00:32Z",
-      "title": "$SPY $QQQ  I&#39;m not really following the World Cup, but that red card overturn from Lutnick intervening at FIFA is wild.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658309720",
-      "author": "Citten",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-06T03:00:32Z",
-      "text": "$SPY $QQQ  I&#39;m not really following the World Cup, but that red card overturn from Lutnick intervening at FIFA is wild.",
-      "description": "",
-      "handle": "Citten",
-      "display_name": "Citten",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f10c0b48a941a7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T03:00:32Z",
-      "title": "$SPY $QQQ  I&#39;m not really following the World Cup, but that red card overturn from Lutnick intervening at FIFA is wild.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658309720",
-      "author": "Citten",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-06T03:00:32Z",
-      "text": "$SPY $QQQ  I&#39;m not really following the World Cup, but that red card overturn from Lutnick intervening at FIFA is wild.",
-      "description": "",
-      "handle": "Citten",
-      "display_name": "Citten",
-      "platform": "stocktwits"
-    },
-    {
       "id": "87e6ca045ab605",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -433,29 +699,6 @@
       "description": "",
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "57d07fc9495374",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T02:59:45Z",
-      "title": "$QQQ 725 open",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658309704",
-      "author": "ymuniz23",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-06T02:59:45Z",
-      "text": "$QQQ 725 open",
-      "description": "",
-      "handle": "ymuniz23",
-      "display_name": "Yahel Muniz",
       "platform": "stocktwits"
     },
     {
@@ -482,52 +725,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "6be9b1f71ff365",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T02:58:20Z",
-      "title": "$QQQ I think they will dip it and then rip it. Bear trap in the morning.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658309666",
-      "author": "LongShlong33",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T02:58:20Z",
-      "text": "$QQQ I think they will dip it and then rip it. Bear trap in the morning.",
-      "description": "",
-      "handle": "LongShlong33",
-      "display_name": "Daddy",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "467ed13ece43ed",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T02:57:16Z",
-      "title": "\ud83d\udea8 JAPAN&#39;S 10-YEAR BOND YIELD HITS HIGHEST LEVEL SINCE 1996 AMID INFLATION, FISCAL RISK CONCERNS\n\nJapan&#39;s 10-year JGB yield rose for a sixth straight session to 2.79%, near Friday&#39;s 2.81% intraday high, the highest since October 1996.\n\nRising energy-driven inflation, a weaker yen, and con",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658309646",
-      "author": "BigBreakingWire",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T02:57:16Z",
-      "text": "\ud83d\udea8 JAPAN&#39;S 10-YEAR BOND YIELD HITS HIGHEST LEVEL SINCE 1996 AMID INFLATION, FISCAL RISK CONCERNS\n\nJapan&#39;s 10-year JGB yield rose for a sixth straight session to 2.79%, near Friday&#39;s 2.81% intraday high, the highest since October 1996.\n\nRising energy-driven inflation, a weaker yen, and con",
-      "description": "",
-      "handle": "BigBreakingWire",
-      "display_name": "BigBreakingWire",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b872bcceddb34d",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -546,29 +743,6 @@
       "time": "2026-07-06T02:57:10Z",
       "text": "Lockheed Martin seen as frontrunner for $3.5 billion deal to acquire Ultra Maritime, CNBC says.",
       "description": ""
-    },
-    {
-      "id": "0de8da241d1bcf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T02:56:16Z",
-      "title": "$SPY to those of you worried about what the Korean index is doing (lol) might I remind you the kospi was up 100% YTD - of course anything that volatile is due for a correction. The S&amp;P is up a modest 8% in comparison.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658309625",
-      "author": "HedgedLongTermInvestor",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T02:56:16Z",
-      "text": "$SPY to those of you worried about what the Korean index is doing (lol) might I remind you the kospi was up 100% YTD - of course anything that volatile is due for a correction. The S&amp;P is up a modest 8% in comparison.",
-      "description": "",
-      "handle": "HedgedLongTermInvestor",
-      "display_name": "Mr. Nonyer Business",
-      "platform": "stocktwits"
     },
     {
       "id": "a15dfdf0842280",
@@ -1414,52 +1588,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "634df2dd6f6cf7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T02:23:18Z",
-      "title": "$MSFT the price action I think we\u2019ll be seeing, some chop, a dip back to 370, that\u2019ll wipe out all the BullTards that bought short term options, and then retest 450s leading up to ER",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658308713",
-      "author": "Grkgy88",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T02:23:18Z",
-      "text": "$MSFT the price action I think we\u2019ll be seeing, some chop, a dip back to 370, that\u2019ll wipe out all the BullTards that bought short term options, and then retest 450s leading up to ER",
-      "description": "",
-      "handle": "Grkgy88",
-      "display_name": "Grkgy88",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "44840a85f41ffd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T02:19:42Z",
-      "title": "$MSFT the forced selloff across index funds will amount to roughly $216 million worth of Microsoft shares. Considering Microsoft routinely trades over $15 billion to $20 billion daily (with over 42 million shares moving in its last standard session), a $216 million programmatic sell-off represents j",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658308601",
-      "author": "Toorichtocare",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-06T02:19:42Z",
-      "text": "$MSFT the forced selloff across index funds will amount to roughly $216 million worth of Microsoft shares. Considering Microsoft routinely trades over $15 billion to $20 billion daily (with over 42 million shares moving in its last standard session), a $216 million programmatic sell-off represents j",
-      "description": "",
-      "handle": "Toorichtocare",
-      "display_name": "Robert Halfway",
-      "platform": "stocktwits"
-    },
-    {
       "id": "7cbc0cbcc2fa7d",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1717,24 +1845,6 @@
       "time": "2026-07-06T01:57:14Z",
       "text": "Dubai leads in Asian crypto hubs, Taiwan enacts crypto laws. Japan's SBI Crypto closes 12th biggest Bitcoin mining pool, Russia proceeds with digital ruble amid EU sanctions.",
       "description": ""
-    },
-    {
-      "id": "7bd48103985e7a",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Mon, 06 Jul 2026 01:57:00 GMT",
-      "title": "U.S. stock futures rise as Wall Street looks to extend its rally coming off the holiday weekend",
-      "body": "U.S. stock-index futures gained on Sunday, with Wall Street looking to extend last week\u2019s gains.",
-      "url": "https://www.marketwatch.com/story/u-s-stock-futures-rise-as-wall-street-looks-to-extend-its-rally-coming-off-the-holiday-weekend-5e5a9102?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Mon, 06 Jul 2026 01:57:00 GMT",
-      "text": "U.S. stock futures rise as Wall Street looks to extend its rally coming off the holiday weekend",
-      "description": "U.S. stock-index futures gained on Sunday, with Wall Street looking to extend last week\u2019s gains."
     },
     {
       "id": "74f2471eb40357",
@@ -2059,102 +2169,6 @@
       "description": ""
     },
     {
-      "id": "589ff6a2e6d438",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T01:41:13Z",
-      "title": "S.Korea central bank: sells 91-day monetary stabilization bonds at 2.7% yield",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T01:41:13Z",
-      "text": "S.Korea central bank: sells 91-day monetary stabilization bonds at 2.7% yield",
-      "description": ""
-    },
-    {
-      "id": "1a9e20adf40d97",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T01:40:41Z",
-      "title": "AscentHR Acquires OS HRS to Strengthen APAC Payroll Leadership",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T01:40:41Z",
-      "text": "AscentHR Acquires OS HRS to Strengthen APAC Payroll Leadership",
-      "description": ""
-    },
-    {
-      "id": "c6ecd33a15623b",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T01:39:55Z",
-      "title": "Fiji PM Rabuka: agreements signal major boost in bilateral ties",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "PM"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T01:39:55Z",
-      "text": "Fiji PM Rabuka: agreements signal major boost in bilateral ties",
-      "description": ""
-    },
-    {
-      "id": "b9b188493efc1e",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T01:39:17Z",
-      "title": "Fiji PM Rabuka: Australian PM Albanese and I sign Vuvale treaty, ocean of peace defense pact",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "PM"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T01:39:17Z",
-      "text": "Fiji PM Rabuka: Australian PM Albanese and I sign Vuvale treaty, ocean of peace defense pact",
-      "description": ""
-    },
-    {
-      "id": "e4ebdefc5d0fb1",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T01:36:14Z",
-      "title": "Dollar near two-week lows as rate-hike bets recede, embattled yen in focus-CNBC",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "NEAR"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T01:36:14Z",
-      "text": "Dollar near two-week lows as rate-hike bets recede, embattled yen in focus-CNBC",
-      "description": ""
-    },
-    {
       "id": "5851ca04c67dc0",
       "source": "zerohedge",
       "source_type": "rss",
@@ -2171,24 +2185,6 @@
       "time": "Mon, 06 Jul 2026 01:35:00 +0000",
       "text": "Former Sen. Warren Staffer Attends Ayatollah's Funeral, Calls Him \"Greatest Leader Of Our Lifetime\"",
       "description": "Former Sen. Warren Staffer Attends Ayatollah's Funeral, Calls Him \"Greatest Leader Of Our Lifetime\"  \n\n            A former Democratic Party operative who worked on campaigns linked to prominent unhinged left-wing politicians such as Elizabeth Warren, Ed Markey, and others has become a case study in"
-    },
-    {
-      "id": "dca2bc15547c87",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T01:33:06Z",
-      "title": "China\u2019s yuan starts trading at 6.7855 per dollar, slightly weaker than the last close of 6.7780.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T01:33:06Z",
-      "text": "China\u2019s yuan starts trading at 6.7855 per dollar, slightly weaker than the last close of 6.7780.",
-      "description": ""
     },
     {
       "id": "324d22f7468129",
@@ -3584,24 +3580,6 @@
       "description": "\u201cHe lived rent-free, helping her with health-related issues and other tasks.\u201d"
     },
     {
-      "id": "2f0275db65ad9d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T19:14:25Z",
-      "title": "Is Equitable Holdings (EQH) A Top Extreme Value Stock To Buy Now?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/equitable-holdings-eqh-top-extreme-191425576.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T19:14:25Z",
-      "text": "Is Equitable Holdings (EQH) A Top Extreme Value Stock To Buy Now?",
-      "description": ""
-    },
-    {
       "id": "37c01744475f7b",
       "source": "reuters",
       "source_type": "rss",
@@ -3617,6 +3595,42 @@
       "sentiment": "neutral",
       "time": "2026-07-04T17:30:02Z",
       "text": "FedEx Is Abandoning Its Supply Chain Business. FDX Stock Investors Need the Logistics Giant to Protect Its Core Network.",
+      "description": ""
+    },
+    {
+      "id": "fb3cac5e1d3ee5",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T16:07:00Z",
+      "title": "XRP Is Down 22% in 30 Days. Here's What Could Happen Next.",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/xrp-down-22-30-days-160700596.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T16:07:00Z",
+      "text": "XRP Is Down 22% in 30 Days. Here's What Could Happen Next.",
+      "description": ""
+    },
+    {
+      "id": "63e6a1a22bcdbd",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-04T16:05:00Z",
+      "title": "1 Unstoppable Stock to Buy Before It Joins Google, Apple, Microsoft, and Nvidia in the $3 Trillion Club",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-unstoppable-stock-buy-joins-160500600.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-04T16:05:00Z",
+      "text": "1 Unstoppable Stock to Buy Before It Joins Google, Apple, Microsoft, and Nvidia in the $3 Trillion Club",
       "description": ""
     },
     {
@@ -3674,24 +3688,6 @@
       "sentiment": "neutral",
       "time": "2026-07-04T16:00:02Z",
       "text": "AMD Beats NVDA in 1H26 Returns. Here\u2019s What's Next for 2H26.",
-      "description": ""
-    },
-    {
-      "id": "869049981a81e3",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-04T15:58:00Z",
-      "title": "Is SpaceX Stock Officially Overvalued?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-stock-officially-overvalued-155800692.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-04T15:58:00Z",
-      "text": "Is SpaceX Stock Officially Overvalued?",
       "description": ""
     },
     {
