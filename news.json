@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T06:17:06Z",
-  "generated_display": "2026-07-07 06:17 ET",
+  "generated": "2026-07-07T06:22:06Z",
+  "generated_display": "2026-07-07 06:22 ET",
   "count": 197,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T06:17:01.596040+00:00",
+      "last_error_ts": "2026-07-07T06:22:01.660896+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 117,
-      "last_success": "2026-07-07T06:17:01.714088+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-07T06:22:01.760202+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 148,
-      "last_success": "2026-07-07T06:17:01.863629+00:00",
+      "latency_ms": 200,
+      "last_success": "2026-07-07T06:22:01.962098+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 49,
-      "latency_ms": 99,
-      "last_success": "2026-07-07T06:17:01.965486+00:00",
+      "latency_ms": 98,
+      "last_success": "2026-07-07T06:22:02.063468+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T06:17:02.071574+00:00",
+      "last_error_ts": "2026-07-07T06:22:02.171351+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2191,
-      "last_success": "2026-07-07T06:17:04.263344+00:00",
+      "latency_ms": 1890,
+      "last_success": "2026-07-07T06:22:04.061565+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T06:17:04.962978+00:00",
+      "last_success": "2026-07-07T06:22:04.661041+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1799,
-      "last_success": "2026-07-07T06:17:06.762301+00:00",
+      "latency_ms": 1899,
+      "last_success": "2026-07-07T06:22:06.560098+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -79,7 +79,7 @@
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 85
+          "latency_ms": 89
         },
         "yahoo_finance": {
           "status": "healthy",
@@ -89,26 +89,26 @@
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 314
+          "latency_ms": 287
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 79
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 95
+          "latency_ms": 86
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "reuters": 16,
     "uw_news": 25,
     "massive_news": 49,
-    "reuters": 16,
     "cnbc": 8,
     "zerohedge": 8,
     "seekingalpha": 7,
@@ -116,6 +116,206 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "93e30c91035373",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:21:57Z",
+      "title": "$QQQ I knew I should have bought puts \ud83e\udd26\u200d\u2642\ufe0f",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409149",
+      "author": "BuffaloRider",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T06:21:57Z",
+      "text": "$QQQ I knew I should have bought puts \ud83e\udd26\u200d\u2642\ufe0f",
+      "description": "",
+      "handle": "BuffaloRider",
+      "display_name": "Buffalo Rider",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "02993032740f80",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 06:20:26",
+      "title": "NCC Group launches \u00a3170m tender offer at 145p per share",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/ncc-group-launches-170m-tender-offer-at-145p-per-share-93CH-4778246",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 06:20:26",
+      "text": "NCC Group launches \u00a3170m tender offer at 145p per share",
+      "description": ""
+    },
+    {
+      "id": "9328e408b3d6fa",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:20:10Z",
+      "title": "$SPY \ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409125",
+      "author": "10X_Magoo",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T06:20:10Z",
+      "text": "$SPY \ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "description": "",
+      "handle": "10X_Magoo",
+      "display_name": "10X_Magoo",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e85d9e32cafe0a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:19:22Z",
+      "title": "$META $OKLO There&#39;s plenty of need for cheaper energy outside of just compute. Also factor in the Isotope line of business as well.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658409121",
+      "author": "SweetGreenCandle",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:19:22Z",
+      "text": "$META $OKLO There&#39;s plenty of need for cheaper energy outside of just compute. Also factor in the Isotope line of business as well.",
+      "description": "",
+      "handle": "SweetGreenCandle",
+      "display_name": "JD",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9d932eaffdca49",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T06:18:59Z",
+      "title": "Skanska signs additional contract for data center in Virginia, USA, for USD 94M about SEK 870M",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:18:59Z",
+      "text": "Skanska signs additional contract for data center in Virginia, USA, for USD 94M about SEK 870M",
+      "description": ""
+    },
+    {
+      "id": "d16a1b8580080c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 06:18:24",
+      "title": "German industrial output rises more than expected in May",
+      "body": "",
+      "url": "https://www.investing.com/news/economic-indicators/german-industrial-output-rises-more-than-expected-in-may-4778239",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 06:18:24",
+      "text": "German industrial output rises more than expected in May",
+      "description": ""
+    },
+    {
+      "id": "31c2ab4ffb06e2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 06:18:06",
+      "title": "ABG Sundal reports 27% revenue growth in second quarter",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/abg-sundal-reports-27-revenue-growth-in-second-quarter-93CH-4778245",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 06:18:06",
+      "text": "ABG Sundal reports 27% revenue growth in second quarter",
+      "description": ""
+    },
+    {
+      "id": "69eaa36ae680a8",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 06:17:40",
+      "title": "Tencent trims stake in China\u2019s Kuaishou, shares slide",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/tencent-trims-stake-in-chinas-kuaishou-shares-slide-4778244",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 06:17:40",
+      "text": "Tencent trims stake in China\u2019s Kuaishou, shares slide",
+      "description": ""
+    },
+    {
+      "id": "a0290959a582cb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:17:38Z",
+      "title": "$AAPL Setting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658409099",
+      "author": "Newman999",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T06:17:38Z",
+      "text": "$AAPL Setting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities",
+      "description": "",
+      "handle": "Newman999",
+      "display_name": "Newman",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "21097aa0f9e382",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 06:17:09",
+      "title": "Innovative Eyewear to launch products in 345 Canadian stores",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/innovative-eyewear-to-launch-products-in-345-canadian-stores-93CH-4778243",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 06:17:09",
+      "text": "Innovative Eyewear to launch products in 345 Canadian stores",
+      "description": ""
+    },
     {
       "id": "359e623c2b596a",
       "source": "stocktwits",
@@ -138,6 +338,24 @@
       "handle": "ProphitCapital",
       "display_name": "ProphitCapital",
       "platform": "stocktwits"
+    },
+    {
+      "id": "eb2c4a87acee0c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 06:16:40",
+      "title": "German industrial production rises 0.9% in May on auto sector",
+      "body": "",
+      "url": "https://www.investing.com/news/economic-indicators/german-industrial-production-rises-09-in-may-on-auto-sector-93CH-4778242",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 06:16:40",
+      "text": "German industrial production rises 0.9% in May on auto sector",
+      "description": ""
     },
     {
       "id": "b1bc865657f6b4",
@@ -209,6 +427,24 @@
       "sentiment": "neutral",
       "time": "2026-07-07T06:14:08Z",
       "text": "AUSTRALIA'S S&P/ASX 200 INDEX FALLS 0.3% TO 8,803.90 AT CLOSE",
+      "description": ""
+    },
+    {
+      "id": "84474b5e5f7b3e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 06:13:40",
+      "title": "Coiled Therapeutics develops new formulation for AO-252",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/coiled-therapeutics-develops-new-formulation-for-ao252-93CH-4778240",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 06:13:40",
+      "text": "Coiled Therapeutics develops new formulation for AO-252",
       "description": ""
     },
     {
@@ -325,6 +561,24 @@
       "handle": "jazz97",
       "display_name": "Jazz B",
       "platform": "stocktwits"
+    },
+    {
+      "id": "f64f86b92a33a8",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 06:12:05",
+      "title": "S. Korea\u2019s KOSPI triggers circuit breaker despite Samsung earnings windfall",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/s-koreas-kospi-triggers-circuit-breaker-despite-samsung-earnings-windfall-4778238",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 06:12:05",
+      "text": "S. Korea\u2019s KOSPI triggers circuit breaker despite Samsung earnings windfall",
+      "description": ""
     },
     {
       "id": "133215abe7a3a8",
@@ -560,52 +814,6 @@
       "time": "2026-07-07T06:07:39Z",
       "text": "Kosmos Energy to Host Second Quarter 2026 Results and Webcast on August 3, 2026",
       "description": ""
-    },
-    {
-      "id": "48312f8b7e29cf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:07:07Z",
-      "title": "$QQQ when was the last -1k DOWN day?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658408950",
-      "author": "HotNHornyBoy",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:07:07Z",
-      "text": "$QQQ when was the last -1k DOWN day?",
-      "description": "",
-      "handle": "HotNHornyBoy",
-      "display_name": "BoyToy",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "84249b86f6f1db",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:06:48Z",
-      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY BREAKING NEWS: Fifa reported to be developing nuclear weapons.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658408945",
-      "author": "Shergasmic",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:06:48Z",
-      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY BREAKING NEWS: Fifa reported to be developing nuclear weapons.",
-      "description": "",
-      "handle": "Shergasmic",
-      "display_name": "Shergasmic",
-      "platform": "stocktwits"
     },
     {
       "id": "94087bbf4b5755",
@@ -1306,24 +1514,6 @@
       "description": ""
     },
     {
-      "id": "bc9f2f19ba9657",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 05:58:05",
-      "title": "Saipem secures $2 billion Indonesia offshore contract",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/saipem-secures-2-billion-indonesia-offshore-contract-93CH-4778222",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 05:58:05",
-      "text": "Saipem secures $2 billion Indonesia offshore contract",
-      "description": ""
-    },
-    {
       "id": "9bf114dde7e74c",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1526,26 +1716,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "db730cd8ac08cc",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T05:49:39Z",
-      "title": "GERMAN STARTUP PROXIMA FUSION SECURES \u20ac411 MILLION IN FUNDING FROM INVESTORS LIKE RWE AND GOOGLE TO BUILD A NUCLEAR FUSION PLANT TARGETING OPERATION IN THE 2030S.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "GABC"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T05:49:39Z",
-      "text": "GERMAN STARTUP PROXIMA FUSION SECURES \u20ac411 MILLION IN FUNDING FROM INVESTORS LIKE RWE AND GOOGLE TO BUILD A NUCLEAR FUSION PLANT TARGETING OPERATION IN THE 2030S.",
-      "description": ""
-    },
-    {
       "id": "42d34c660c3cdc",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1589,29 +1759,6 @@
       "description": "",
       "handle": "Jdc5bangin9",
       "display_name": "JR bernal",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e0b0f1d9c3384b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T05:46:30Z",
-      "title": "$META I dislike when they post a bearish news articles after hours. With a curious George headline.  &quot;Meta says us states are seeking 1.4 trill penalties in August youth safety trial&quot; . This can trigger emotions \ud83e\udd23",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658408585",
-      "author": "20contractbuy",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T05:46:30Z",
-      "text": "$META I dislike when they post a bearish news articles after hours. With a curious George headline.  &quot;Meta says us states are seeking 1.4 trill penalties in August youth safety trial&quot; . This can trigger emotions \ud83e\udd23",
-      "description": "",
-      "handle": "20contractbuy",
-      "display_name": "Taloot B",
       "platform": "stocktwits"
     },
     {
@@ -1684,24 +1831,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "cc69b166a50140",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 05:44:30",
-      "title": "Morgan Stanley upgrades Kion Group citing automation growth, cost savings",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/morgan-stanley-upgrades-kion-group-citing-automation-growth-cost-savings-4778218",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 05:44:30",
-      "text": "Morgan Stanley upgrades Kion Group citing automation growth, cost savings",
-      "description": ""
-    },
-    {
       "id": "0b9bc8192bb77b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1771,47 +1900,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0e43dc1a92ae95",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 05:38:35",
-      "title": "SK Hynix plans to bring ADR funds to South Korea by mid-July- Reuters",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-plans-to-bring-adr-funds-to-south-korea-by-midjuly-reuters-93CH-4778217",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 05:38:35",
-      "text": "SK Hynix plans to bring ADR funds to South Korea by mid-July- Reuters",
-      "description": ""
-    },
-    {
-      "id": "e1080b79280d05",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T05:37:03Z",
-      "title": "$AMD using High/Low ticker data today helped early detection of these top daily runners. $TSLA $AAPL",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658408376",
-      "author": "TopTierNewswire",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T05:37:03Z",
-      "text": "$AMD using High/Low ticker data today helped early detection of these top daily runners. $TSLA $AAPL",
-      "description": "",
-      "handle": "TopTierNewswire",
-      "display_name": "Top Tier",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b654569497e171",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1833,42 +1921,6 @@
       "handle": "TopTierNewswire",
       "display_name": "Top Tier",
       "platform": "stocktwits"
-    },
-    {
-      "id": "a8c2c3085774c0",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 05:36:44",
-      "title": "Samsung flags 19-fold jump in profit, but shares slump on jitters AI boom may stall",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/samsung-estimates-19fold-rise-in-q2-operating-profit-beating-expectations-4777937",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 05:36:44",
-      "text": "Samsung flags 19-fold jump in profit, but shares slump on jitters AI boom may stall",
-      "description": ""
-    },
-    {
-      "id": "6fff92994e6c6b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 05:33:20",
-      "title": "Oil prices edge higher as Hormuz risks offset Saudi price cuts, OPEC+ supply boost",
-      "body": "",
-      "url": "https://www.investing.com/news/commodities-news/oil-prices-edge-higher-as-hormuz-risks-offset-saudi-price-cuts-opec-supply-boost-4778147",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 05:33:20",
-      "text": "Oil prices edge higher as Hormuz risks offset Saudi price cuts, OPEC+ supply boost",
-      "description": ""
     },
     {
       "id": "24519703f43cdb",
@@ -1958,24 +2010,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b37d4bc4a6853e",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 05:24:26",
-      "title": "NATO to unveil big arms deals in Ankara before summit with Trump",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/nato-to-unveil-big-arms-deals-in-ankara-before-summit-with-trump-4778196",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 05:24:26",
-      "text": "NATO to unveil big arms deals in Ankara before summit with Trump",
-      "description": ""
-    },
-    {
       "id": "5edbf26ba7f240",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2060,24 +2094,6 @@
       "description": "The Motley Fool analyzes Upstart, an AI platform that uses artificial intelligence to make lending recommendations. The article examines whether the company's proven business model in AI-driven lending represents a buy or sell opportunity for investors, with stock prices referenced from July 4, 2026"
     },
     {
-      "id": "a3d3dfcf37a664",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 05:18:29",
-      "title": "Trump expected to tell Turkey he is ready to restore access to F-35 jets, NYT reports",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/trump-expected-to-tell-turkey-he-is-ready-to-restore-access-to-f35-jets-nyt-reports-4778201",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 05:18:29",
-      "text": "Trump expected to tell Turkey he is ready to restore access to F-35 jets, NYT reports",
-      "description": ""
-    },
-    {
       "id": "96a1200a5a4a37",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2097,24 +2113,6 @@
       "time": "2026-07-07T05:18:20Z",
       "text": "Fiverr Stock vs. Upwork Stock: Which is the Better Stock to Buy?",
       "description": "Fiverr International and Upwork, two gig economy platform companies, are trading at cheap valuations due to risks posed by artificial intelligence. The article compares these two stocks as investment options in the context of AI-related challenges facing the gig economy sector."
-    },
-    {
-      "id": "05449ab8b20377",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 05:18:09",
-      "title": "Graffiti artist accused of scaling Australian bridge tower and painting giant cartoon bird",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/graffiti-artist-scales-australian-bridge-tower-paints-bird-cartoon-disrupts-traffic-4778194",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 05:18:09",
-      "text": "Graffiti artist accused of scaling Australian bridge tower and painting giant cartoon bird",
-      "description": ""
     },
     {
       "id": "615e7862c800cc",
@@ -2977,24 +2975,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "4cb600458a4d45",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 02:45:13 GMT",
-      "title": "World Cup in photos: Belgium beats U.S. 4-1 after Balogun controversy, Ronaldo exits",
-      "body": "The U.S. is out of the World Cup, losing 4-1 to Belgium in the Round of 16 in a match blemished by suspension of Folarin Balogun's red card. Ronaldo exits.",
-      "url": "https://www.cnbc.com/2026/07/07/world-cup-in-photos-balogun-and-us-belgium-match-ronaldo-bows-out.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 02:45:13 GMT",
-      "text": "World Cup in photos: Belgium beats U.S. 4-1 after Balogun controversy, Ronaldo exits",
-      "description": "The U.S. is out of the World Cup, losing 4-1 to Belgium in the Round of 16 in a match blemished by suspension of Folarin Balogun's red card. Ronaldo exits."
-    },
-    {
       "id": "63cc3b656bbfa5",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3712,6 +3692,24 @@
       "description": "IPO fundraising in 2026 has reached levels not seen since 1929 and 2000, historically preceding market downturns. JPMorgan predicts $260 billion will be raised this year through new stock issuances. While this high volume suggests potential 'irrational exuberance' and overconfidence, the article cau"
     },
     {
+      "id": "a14face83d4ad8",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Mon, 06 Jul 2026 23:12:43 GMT",
+      "title": "Graham Platner denies sex assault claim as Democrats urge him to quit Maine Senate race",
+      "body": "Graham Platner hopes to unseat Republican Sen. Susan Collins, but the Democrat's campaign is reeling from a bombshell allegation by Jenny Racicot.",
+      "url": "https://www.cnbc.com/2026/07/06/graham-platner-maine-senate-allegation-response.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Mon, 06 Jul 2026 23:12:43 GMT",
+      "text": "Graham Platner denies sex assault claim as Democrats urge him to quit Maine Senate race",
+      "description": "Graham Platner hopes to unseat Republican Sen. Susan Collins, but the Democrat's campaign is reeling from a bombshell allegation by Jenny Racicot."
+    },
+    {
       "id": "449bb6ff5a66bb",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -4084,39 +4082,39 @@
       "week": "this"
     },
     {
-      "id": "bf2ae7409cfed7",
+      "id": "78b27289604b9d",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:06:17Z",
-      "title": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?",
+      "timestamp": "2026-07-05T20:06:44Z",
+      "title": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/n-able-nabl-one-best-200617423.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/petco-woof-one-best-value-200644831.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:06:17Z",
-      "text": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?",
+      "time": "2026-07-05T20:06:44Z",
+      "text": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
       "description": ""
     },
     {
-      "id": "df44987e86b3a0",
+      "id": "b56a2efe074767",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:06:03Z",
-      "title": "Clarivate (CLVT) Launches IPOne AI-Powered Intelligence Platform for IP Workflows",
+      "timestamp": "2026-07-05T20:06:34Z",
+      "title": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/clarivate-clvt-launches-ipone-ai-200603192.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/galiano-gold-gau-best-value-200634573.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:06:03Z",
-      "text": "Clarivate (CLVT) Launches IPOne AI-Powered Intelligence Platform for IP Workflows",
+      "time": "2026-07-05T20:06:34Z",
+      "text": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds",
       "description": ""
     },
     {
@@ -4174,21 +4172,21 @@
       "description": ""
     },
     {
-      "id": "ff219ad69abd31",
+      "id": "148d4aa33acf63",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T18:31:08Z",
-      "title": "Jeff Bezos Held 60 Meetings To Secure Amazon Investors But 40 Declined His Offer Of $50K For 1% Ownership \u2014 Today, That Would Be Worth $25B",
+      "timestamp": "2026-07-05T18:45:00Z",
+      "title": "What a $1,000 Investment in a SpaceX Could Be Worth in 5 Years",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/jeff-bezos-held-60-meetings-183108743.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/1-000-investment-spacex-could-184500978.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T18:31:08Z",
-      "text": "Jeff Bezos Held 60 Meetings To Secure Amazon Investors But 40 Declined His Offer Of $50K For 1% Ownership \u2014 Today, That Would Be Worth $25B",
+      "time": "2026-07-05T18:45:00Z",
+      "text": "What a $1,000 Investment in a SpaceX Could Be Worth in 5 Years",
       "description": ""
     },
     {
