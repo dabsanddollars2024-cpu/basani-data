@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-07T07:47:06Z",
-  "generated_display": "2026-07-07 07:47 ET",
-  "count": 195,
+  "generated": "2026-07-07T07:52:06Z",
+  "generated_display": "2026-07-07 07:52 ET",
+  "count": 200,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T07:47:02.289070+00:00",
+      "last_error_ts": "2026-07-07T07:52:01.550897+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 145,
-      "last_success": "2026-07-07T07:47:02.435115+00:00",
+      "latency_ms": 105,
+      "last_success": "2026-07-07T07:52:01.656952+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-07T07:47:02.535698+00:00",
+      "latency_ms": 94,
+      "last_success": "2026-07-07T07:52:01.751879+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 49,
-      "latency_ms": 30,
-      "last_success": "2026-07-07T07:47:02.569088+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-07T07:52:01.854419+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T07:47:02.657425+00:00",
+      "last_error_ts": "2026-07-07T07:52:01.886789+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
-      "items_pulled": 70,
-      "latency_ms": 1777,
-      "last_success": "2026-07-07T07:47:04.435340+00:00",
+      "items_pulled": 75,
+      "latency_ms": 2081,
+      "last_success": "2026-07-07T07:52:03.968637+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T07:47:05.034557+00:00",
+      "last_success": "2026-07-07T07:52:04.751680+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1767,
-      "last_success": "2026-07-07T07:47:06.801769+00:00",
+      "latency_ms": 1861,
+      "last_success": "2026-07-07T07:52:06.613716+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,22 +74,22 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 124
+          "latency_ms": 208
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 93
+          "latency_ms": 173
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 80
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 203
+          "latency_ms": 204
         },
         "seekingalpha": {
           "status": "healthy",
@@ -105,7 +105,7 @@
     }
   },
   "by_source": {
-    "stocktwits": 70,
+    "stocktwits": 75,
     "uw_news": 25,
     "reuters": 16,
     "cnbc": 8,
@@ -117,6 +117,164 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "8012cd384d283a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:51:50Z",
+      "title": "$SPY we are going down , aren\u2019t we ?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658410405",
+      "author": "toko34",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:51:50Z",
+      "text": "$SPY we are going down , aren\u2019t we ?",
+      "description": "",
+      "handle": "toko34",
+      "display_name": "More machine than Man",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "17abd6e318fd14",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T07:50:00Z",
+      "title": "Flytxt Partners with Digicel Trinidad &amp; Tobago to transform AI-Led Customer Engagement",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "UAE"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:50:00Z",
+      "text": "Flytxt Partners with Digicel Trinidad &amp; Tobago to transform AI-Led Customer Engagement",
+      "description": ""
+    },
+    {
+      "id": "028ec064cd71ce",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:49:56Z",
+      "title": "$QQQ $SPY Immigration has worked out great for England. The grooming gangs that rape children have been a healthy unifier",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658410372",
+      "author": "AmericanDeams",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:49:56Z",
+      "text": "$QQQ $SPY Immigration has worked out great for England. The grooming gangs that rape children have been a healthy unifier",
+      "description": "",
+      "handle": "AmericanDeams",
+      "display_name": "Stefan Umst",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "02b66517402ece",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:49:56Z",
+      "title": "$QQQ $SPY Immigration has worked out great for England. The grooming gangs that rape children have been a healthy unifier",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658410372",
+      "author": "AmericanDeams",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:49:56Z",
+      "text": "$QQQ $SPY Immigration has worked out great for England. The grooming gangs that rape children have been a healthy unifier",
+      "description": "",
+      "handle": "AmericanDeams",
+      "display_name": "Stefan Umst",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3fe1442258342b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:47:23Z",
+      "title": "$SPY They make it so damn hard to be a bear it f&#39;d. $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658410340",
+      "author": "Tezzy",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:47:23Z",
+      "text": "$SPY They make it so damn hard to be a bear it f&#39;d. $QQQ",
+      "description": "",
+      "handle": "Tezzy",
+      "display_name": "Fern B",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a65bfb1b1aa006",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:47:23Z",
+      "title": "$SPY They make it so damn hard to be a bear it f&#39;d. $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658410340",
+      "author": "Tezzy",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:47:23Z",
+      "text": "$SPY They make it so damn hard to be a bear it f&#39;d. $QQQ",
+      "description": "",
+      "handle": "Tezzy",
+      "display_name": "Fern B",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6ecd4b2ab08047",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:47:21Z",
+      "title": "$MSTR \n$98.99\nJust buy \nLater we go to see Bitcoin bingo Pingo and baboochee \nTaco \ud83c\udf2e",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658410339",
+      "author": "whale88",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:47:21Z",
+      "text": "$MSTR \n$98.99\nJust buy \nLater we go to see Bitcoin bingo Pingo and baboochee \nTaco \ud83c\udf2e",
+      "description": "",
+      "handle": "whale88",
+      "display_name": "golden whales8",
+      "platform": "stocktwits"
+    },
     {
       "id": "52dc2d45b3bfc7",
       "source": "stocktwits",
@@ -184,29 +342,6 @@
       "description": "",
       "handle": "PCX_Trading",
       "display_name": "PCX_Trading",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "587c992199cb4d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:41:05Z",
-      "title": "Stock Watchlist:  \n \n$SPY  \n$QQQ  \n$GOOG \n$BABA  \n \nSetting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658410263",
-      "author": "Newman999",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T07:41:05Z",
-      "text": "Stock Watchlist:  \n \n$SPY  \n$QQQ  \n$GOOG \n$BABA  \n \nSetting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities",
-      "description": "",
-      "handle": "Newman999",
-      "display_name": "Newman",
       "platform": "stocktwits"
     },
     {
@@ -320,29 +455,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "24927bfe6470d8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:36:18Z",
-      "title": "$SPY tacooooo",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658410207",
-      "author": "Offyourrocker",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T07:36:18Z",
-      "text": "$SPY tacooooo",
-      "description": "",
-      "handle": "Offyourrocker",
-      "display_name": "Eric",
-      "platform": "stocktwits"
-    },
-    {
       "id": "1149fedd69fc8a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -386,6 +498,29 @@
       "description": "",
       "handle": "GiantsfanVJ",
       "display_name": "Vijay Katukota",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ed9b26715a2286",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:34:21Z",
+      "title": "$META Rumors that Meta planned to rent out spare computing capacity recently triggered a sharp market sell-off, fueling widespread worries that Meta might step back from the AI computing arms race.  \n \nMeta only intends to lease outdated H100/H200 GPUs mainly for inference, while reserving cutting-e",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658410177",
+      "author": "LBdolphin",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:34:21Z",
+      "text": "$META Rumors that Meta planned to rent out spare computing capacity recently triggered a sharp market sell-off, fueling widespread worries that Meta might step back from the AI computing arms race.  \n \nMeta only intends to lease outdated H100/H200 GPUs mainly for inference, while reserving cutting-e",
+      "description": "",
+      "handle": "LBdolphin",
+      "display_name": "Longbridge Dolphin Research",
       "platform": "stocktwits"
     },
     {
@@ -446,29 +581,6 @@
       "time": "2026-07-07T07:33:51Z",
       "text": "ACTC No 1 (Lot Q) PTY LTD ANNOUNCES OFFERING OF AUD 1,200,000 SENIOR SECURED LOAN NOTE OFFER",
       "description": ""
-    },
-    {
-      "id": "9329dfb4f87f21",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:33:30Z",
-      "title": "$SPCX Added to Nasdaq \nExpect volatility $QQQ $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658410159",
-      "author": "Pavarotti",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:33:30Z",
-      "text": "$SPCX Added to Nasdaq \nExpect volatility $QQQ $SPY",
-      "description": "",
-      "handle": "Pavarotti",
-      "display_name": "Luciano",
-      "platform": "stocktwits"
     },
     {
       "id": "626c2a8d300651",
@@ -1048,29 +1160,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "3dd744017b3afc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:19:53Z",
-      "title": "$QQQ why did it drop?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658410001",
-      "author": "withknowledge",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:19:53Z",
-      "text": "$QQQ why did it drop?",
-      "description": "",
-      "handle": "withknowledge",
-      "display_name": "to",
-      "platform": "stocktwits"
-    },
-    {
       "id": "39f8078645b785",
       "source": "cnbc",
       "source_type": "rss",
@@ -1153,29 +1242,6 @@
       "description": ""
     },
     {
-      "id": "045c59a89db948",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:17:18Z",
-      "title": "$DJT $SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409972",
-      "author": "FarrUkk",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T07:17:18Z",
-      "text": "$DJT $SPY $QQQ",
-      "description": "",
-      "handle": "FarrUkk",
-      "display_name": "FarUk",
-      "platform": "stocktwits"
-    },
-    {
       "id": "dc8cd03151c3e2",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1240,6 +1306,29 @@
       "time": "2026-07-07T07:08:32Z",
       "text": "SALESFORCE DEEPENS COMMITMENT TO SWITZERLAND WITH $1 BILLION INVESTMENT TO ACCELERATE AGENTIC AI TRANSFORMATION",
       "description": ""
+    },
+    {
+      "id": "b7694001103223",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:07:44Z",
+      "title": "Stock Watchlist:  \n \n$AMZN  \n$META  \n \nSetting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658409855",
+      "author": "Newman999",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:07:44Z",
+      "text": "Stock Watchlist:  \n \n$AMZN  \n$META  \n \nSetting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities",
+      "description": "",
+      "handle": "Newman999",
+      "display_name": "Newman",
+      "platform": "stocktwits"
     },
     {
       "id": "ec4ebfea675916",
@@ -1574,24 +1663,27 @@
       "description": ""
     },
     {
-      "id": "a6eb608d9194e8",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T07:01:15Z",
-      "title": "Switzerland Foreign Currency Reserves (CHF) Jun: 758.8B (prev 710.8B; prev R 710.9B)",
+      "id": "a98b14e8f01bb9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:00:07Z",
+      "title": "$META lets squeeze some bears",
       "body": "",
-      "url": "",
-      "author": "",
+      "url": "https://stocktwits.com/symbol/META/message/658409748",
+      "author": "Brucemail41",
       "tickers": [
-        "R"
+        "META"
       ],
       "tags": [],
-      "impact_score": 8.0,
+      "impact_score": 3.4,
       "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:01:15Z",
-      "text": "Switzerland Foreign Currency Reserves (CHF) Jun: 758.8B (prev 710.8B; prev R 710.9B)",
-      "description": ""
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:00:07Z",
+      "text": "$META lets squeeze some bears",
+      "description": "",
+      "handle": "Brucemail41",
+      "display_name": "Bruce",
+      "platform": "stocktwits"
     },
     {
       "id": "0359e3b195c8d9",
@@ -1752,6 +1844,29 @@
       "platform": "stocktwits"
     },
     {
+      "id": "e40920e1e8525e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:54:53Z",
+      "title": "$META .http://Investing.com - South Korea&#39;s benchmark KOSPI index plunged as much as 8% on Tuesday, triggering a market-wide sell-off as investors dumped technology heavyweights on concerns that the AI-driven rally had come to an end \u2014 despite impressive results from Samsung Electronics (KS:0059",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658409667",
+      "author": "Mipel",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:54:53Z",
+      "text": "$META .http://Investing.com - South Korea&#39;s benchmark KOSPI index plunged as much as 8% on Tuesday, triggering a market-wide sell-off as investors dumped technology heavyweights on concerns that the AI-driven rally had come to an end \u2014 despite impressive results from Samsung Electronics (KS:0059",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
       "id": "76d358225b3424",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1816,6 +1931,29 @@
       "time": "2026-07-07T06:49:00Z",
       "text": "LIFEPODS unveils its next-generation survival capsules at VivaTech and Eurosatory 2026",
       "description": "Momentum Technologies, a French deeptech company, presented its LIFEPODS survival capsules at VivaTech and Eurosatory 2026. The company offers two models: the B-01 multi-hazard land capsule and the W-01 floating capsule for climate disasters. The B-01 has entered industrialisation with validated bal"
+    },
+    {
+      "id": "a66efa97913f1d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:48:31Z",
+      "title": "$META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658409578",
+      "author": "Mipel",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:48:31Z",
+      "text": "$META",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
     },
     {
       "id": "8df1c4df94e4fa",
@@ -2160,29 +2298,6 @@
       "description": "",
       "handle": "yogibearacallz",
       "display_name": "Yogi Berra",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a4f19e39e2cd01",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:26:02Z",
-      "title": "$MSTR",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658409217",
-      "author": "stphb",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T06:26:02Z",
-      "text": "$MSTR",
-      "description": "",
-      "handle": "stphb",
-      "display_name": "stphb",
       "platform": "stocktwits"
     },
     {
@@ -2863,6 +2978,24 @@
       "handle": "SparkySC",
       "display_name": "SparkySC",
       "platform": "stocktwits"
+    },
+    {
+      "id": "c0d5bb6b963195",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 03:47:36 -0400",
+      "title": "Fluor wins long-term agreement to support Aramco\u2019s global capital projects",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4611836-fluor-wins-long-term-agreement-to-support-aramcos-global-capital-projects?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 03:47:36 -0400",
+      "text": "Fluor wins long-term agreement to support Aramco\u2019s global capital projects",
+      "description": ""
     },
     {
       "id": "143dff6c96dfaf",
@@ -3554,24 +3687,6 @@
       "description": "Air Force Engineer Accused Of Cutting Down AI Cameras Becomes Unlikely Hero, Raises Thousands For Legal Defense\n\n            A U.S. Air Force engineer charged with allegedly destroying a series of AI-powered license plate surveillance cameras has become an unlikely cause c\u00e9l\u00e8bre among privacy advoca"
     },
     {
-      "id": "23a42068d3dcd3",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 02:08:52 -0400",
-      "title": "Ag Growth International names Haaris Uddin as CFO, succeeding interim CFO",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4611832-ag-growth-international-names-haaris-uddin-as-cfo-succeeding-interim-cfo?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 02:08:52 -0400",
-      "text": "Ag Growth International names Haaris Uddin as CFO, succeeding interim CFO",
-      "description": ""
-    },
-    {
       "id": "308ef277710982",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -4062,21 +4177,21 @@
       "description": ""
     },
     {
-      "id": "ad2be372811d1e",
+      "id": "1c3c4a9a921d26",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:33:52Z",
-      "title": "The $82 Annual Fee Is Just the Start: TQQQ\u2019s Hidden Cost Structure Explained",
+      "timestamp": "2026-07-05T20:50:00Z",
+      "title": "Bitcoin Is Down 53%. Is It Finally Time to Buy?",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/82-annual-fee-just-start-203352514.html",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitcoin-down-53-finally-time-205000614.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:33:52Z",
-      "text": "The $82 Annual Fee Is Just the Start: TQQQ\u2019s Hidden Cost Structure Explained",
+      "time": "2026-07-05T20:50:00Z",
+      "text": "Bitcoin Is Down 53%. Is It Finally Time to Buy?",
       "description": ""
     },
     {
@@ -4152,21 +4267,21 @@
       "description": ""
     },
     {
-      "id": "b56a2efe074767",
+      "id": "030efd9b7ae817",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:06:34Z",
-      "title": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds",
+      "timestamp": "2026-07-05T20:06:24Z",
+      "title": "Here is Why Yext (YEXT) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/galiano-gold-gau-best-value-200634573.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-yext-yext-one-best-200624657.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:06:34Z",
-      "text": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds",
+      "time": "2026-07-05T20:06:24Z",
+      "text": "Here is Why Yext (YEXT) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
       "description": ""
     }
   ]
