@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-07T07:02:06Z",
-  "generated_display": "2026-07-07 07:02 ET",
-  "count": 195,
+  "generated": "2026-07-07T07:07:07Z",
+  "generated_display": "2026-07-07 07:07 ET",
+  "count": 199,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T07:02:01.669815+00:00",
+      "last_error_ts": "2026-07-07T07:07:02.128731+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 100,
-      "last_success": "2026-07-07T07:02:01.770665+00:00",
+      "latency_ms": 105,
+      "last_success": "2026-07-07T07:07:02.235170+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-07T07:02:01.871220+00:00",
+      "latency_ms": 93,
+      "last_success": "2026-07-07T07:07:02.329416+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 46,
-      "latency_ms": 32,
-      "last_success": "2026-07-07T07:02:01.972109+00:00",
+      "items_pulled": 50,
+      "latency_ms": 70,
+      "last_success": "2026-07-07T07:07:02.473103+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T07:02:02.005466+00:00",
+      "last_error_ts": "2026-07-07T07:07:02.577899+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2069,
-      "last_success": "2026-07-07T07:02:04.075474+00:00",
+      "latency_ms": 1893,
+      "last_success": "2026-07-07T07:07:04.470992+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T07:02:04.769195+00:00",
+      "last_success": "2026-07-07T07:07:05.370523+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1770,
-      "last_success": "2026-07-07T07:02:06.539928+00:00",
+      "latency_ms": 1671,
+      "last_success": "2026-07-07T07:07:07.042524+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,41 +74,41 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 106
+          "latency_ms": 113
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 90
+          "latency_ms": 187
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 10
+          "latency_ms": 114
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 323
+          "latency_ms": 309
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 67
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 95
+          "latency_ms": 164
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
+    "uw_news": 25,
+    "massive_news": 50,
     "reuters": 16,
-    "massive_news": 46,
     "cnbc": 8,
     "zerohedge": 8,
     "seekingalpha": 7,
@@ -117,6 +117,266 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "9e660f491ddfda",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:06:31Z",
+      "title": "$SPY $QQQ I mean if it daq, it dont crack",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409840",
+      "author": "viggizags",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:06:31Z",
+      "text": "$SPY $QQQ I mean if it daq, it dont crack",
+      "description": "",
+      "handle": "viggizags",
+      "display_name": "My Guy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "aafd771fe258ec",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:06:31Z",
+      "title": "$SPY $QQQ I mean if it daq, it dont crack",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409840",
+      "author": "viggizags",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:06:31Z",
+      "text": "$SPY $QQQ I mean if it daq, it dont crack",
+      "description": "",
+      "handle": "viggizags",
+      "display_name": "My Guy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1644a65c227284",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T07:05:38Z",
+      "title": "EcoOnline launches EcoOne for connected intelligence and real-time visibility across safety and sustainability operations",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:05:38Z",
+      "text": "EcoOnline launches EcoOne for connected intelligence and real-time visibility across safety and sustainability operations",
+      "description": ""
+    },
+    {
+      "id": "2f61bec99d5471",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T07:05:35Z",
+      "title": "Capvidia Announces 2026 R1 Software Release to Strengthen MBD Readiness, QIF Workflows, and Digital Thread Automation",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:05:35Z",
+      "text": "Capvidia Announces 2026 R1 Software Release to Strengthen MBD Readiness, QIF Workflows, and Digital Thread Automation",
+      "description": ""
+    },
+    {
+      "id": "37260bcf366a1f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:05:23Z",
+      "title": "$PLTR \u2026http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658409829",
+      "author": "Mipel",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:05:23Z",
+      "text": "$PLTR \u2026http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b67dd36df8ee89",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:04:57Z",
+      "title": "$PLTR \u2026.http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling al",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658409824",
+      "author": "Mipel",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:04:57Z",
+      "text": "$PLTR \u2026.http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling al",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "95845848d8fd9a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:04:45Z",
+      "title": "$MSFT \u2026http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658409821",
+      "author": "Mipel",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:04:45Z",
+      "text": "$MSFT \u2026http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "be6b0cdea7a9a4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:04:18Z",
+      "title": "$NVDA .http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658409815",
+      "author": "Mipel",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:04:18Z",
+      "text": "$NVDA .http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "331dcbc03ce90f",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T07:03:30Z",
+      "title": "Diner24 to Debut at EMMES Group of Companies' Reimagined 1674 Broadway",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "YORK"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:03:30Z",
+      "text": "Diner24 to Debut at EMMES Group of Companies' Reimagined 1674 Broadway",
+      "description": ""
+    },
+    {
+      "id": "4be2c478edec18",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:03:15Z",
+      "title": "$AMD time 500$ coming",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658409801",
+      "author": "Mipel",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:03:15Z",
+      "text": "$AMD time 500$ coming",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f0b65c8868af1e",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T07:02:46Z",
+      "title": "Currency Strength Chart: Strongest: JPY, USD, CAD, GBP, CHF, EUR, NZD, AUD - Weakest",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "USD"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:02:46Z",
+      "text": "Currency Strength Chart: Strongest: JPY, USD, CAD, GBP, CHF, EUR, NZD, AUD - Weakest",
+      "description": ""
+    },
+    {
+      "id": "fbd23caf891c03",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:02:13Z",
+      "title": "$AMD http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling along",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658409787",
+      "author": "Mipel",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:02:13Z",
+      "text": "$AMD http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling along",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
     {
       "id": "6fd1242efd4655",
       "source": "uw_news",
@@ -269,6 +529,26 @@
       "handle": "Brucemail41",
       "display_name": "Bruce",
       "platform": "stocktwits"
+    },
+    {
+      "id": "0359e3b195c8d9",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T07:00:00Z",
+      "title": "LACROIX : Bilan semestriel du contrat de liquidit\u00e9.",
+      "body": "LACROIX Group released its H1 2026 liquidity contract report showing 5,256 shares and \u20ac73,233.86 in cash as of June 30, 2026. The company reported Q1 2026 revenue of \u20ac122.8 million, up 5.9% year-over-year, with stabilization in Electronics activity and strong growth in the Environment segment. The g",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3322872/0/fr/LACROIX-Bilan-semestriel-du-contrat-de-liquidit%C3%A9.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "LCRXF"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:00:00Z",
+      "text": "LACROIX : Bilan semestriel du contrat de liquidit\u00e9.",
+      "description": "LACROIX Group released its H1 2026 liquidity contract report showing 5,256 shares and \u20ac73,233.86 in cash as of June 30, 2026. The company reported Q1 2026 revenue of \u20ac122.8 million, up 5.9% year-over-year, with stabilization in Electronics activity and strong growth in the Environment segment. The g"
     },
     {
       "id": "9d280d94dca84d",
@@ -777,29 +1057,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "7f1a6611abb986",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:51:21Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409624",
-      "author": "Shergasmic",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:51:21Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "Shergasmic",
-      "display_name": "Shergasmic",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6000b2e7855da0",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -949,6 +1206,26 @@
       "handle": "Mipel",
       "display_name": "Natan h",
       "platform": "stocktwits"
+    },
+    {
+      "id": "b487cb042593bb",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T06:49:00Z",
+      "title": "LIFEPODS unveils its next-generation survival capsules at VivaTech and Eurosatory 2026",
+      "body": "Momentum Technologies, a French deeptech company, presented its LIFEPODS survival capsules at VivaTech and Eurosatory 2026. The company offers two models: the B-01 multi-hazard land capsule and the W-01 floating capsule for climate disasters. The B-01 has entered industrialisation with validated bal",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3322870/0/en/LIFEPODS-unveils-its-next-generation-survival-capsules-at-VivaTech-and-Eurosatory-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "YAMCY"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:49:00Z",
+      "text": "LIFEPODS unveils its next-generation survival capsules at VivaTech and Eurosatory 2026",
+      "description": "Momentum Technologies, a French deeptech company, presented its LIFEPODS survival capsules at VivaTech and Eurosatory 2026. The company offers two models: the B-01 multi-hazard land capsule and the W-01 floating capsule for climate disasters. The B-01 has entered industrialisation with validated bal"
     },
     {
       "id": "a66efa97913f1d",
@@ -1242,27 +1519,84 @@
       "platform": "stocktwits"
     },
     {
-      "id": "eac36d192cdfdd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:44:57Z",
-      "title": "$NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658409523",
-      "author": "Horseblushew",
+      "id": "8df1c4df94e4fa",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T06:45:00Z",
+      "title": "Premi\u00e8re phase de la strat\u00e9gie de refinancement d\u2019Atos Group achev\u00e9e",
+      "body": "Atos Group successfully completed the full refinancing of the 1L tranche of its financial debt on July 7, 2026, with the voluntary early repayment of remaining 1L bonds. This refinancing represents a significant milestone in implementing the group's sustainable financial restructuring strategy.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3322869/0/fr/Premi%C3%A8re-phase-de-la-strat%C3%A9gie-de-refinancement-d-Atos-Group-achev%C3%A9e.html",
+      "author": "GlobeNewswire Inc.",
       "tickers": [
-        "NVDA"
+        "AEXAY"
       ],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 8.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T06:44:57Z",
-      "text": "$NVDA",
-      "description": "",
-      "handle": "Horseblushew",
-      "display_name": "Skip",
-      "platform": "stocktwits"
+      "time": "2026-07-07T06:45:00Z",
+      "text": "Premi\u00e8re phase de la strat\u00e9gie de refinancement d\u2019Atos Group achev\u00e9e",
+      "description": "Atos Group successfully completed the full refinancing of the 1L tranche of its financial debt on July 7, 2026, with the voluntary early repayment of remaining 1L bonds. This refinancing represents a significant milestone in implementing the group's sustainable financial restructuring strategy."
+    },
+    {
+      "id": "76e5bc97eb33d1",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T06:45:00Z",
+      "title": "First phase of the refinancing strategy completed",
+      "body": "Atos Group successfully completed the full refinancing of its 1L tranche of financial debt on July 7, 2026, with voluntary early redemption of outstanding 1L bonds. This milestone represents progress in the company's strategy to strengthen its financial structure sustainably.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3322868/0/en/First-phase-of-the-refinancing-strategy-completed.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "AEXAY"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:45:00Z",
+      "text": "First phase of the refinancing strategy completed",
+      "description": "Atos Group successfully completed the full refinancing of its 1L tranche of financial debt on July 7, 2026, with voluntary early redemption of outstanding 1L bonds. This milestone represents progress in the company's strategy to strengthen its financial structure sustainably."
+    },
+    {
+      "id": "3d13c85ccb9be4",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T06:45:00Z",
+      "title": "Atos Group - First phase of the  refinancing strategy completed",
+      "body": "Atos Group successfully completed the full refinancing of its 1L tranche of financial debt through voluntary early redemption of outstanding bonds. This milestone represents an important step in the Group's strategy to strengthen its financial structure sustainably.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3322869/0/en/Atos-Group-First-phase-of-the-refinancing-strategy-completed.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "AEXAY"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:45:00Z",
+      "text": "Atos Group - First phase of the  refinancing strategy completed",
+      "description": "Atos Group successfully completed the full refinancing of its 1L tranche of financial debt through voluntary early redemption of outstanding bonds. This milestone represents an important step in the Group's strategy to strengthen its financial structure sustainably."
+    },
+    {
+      "id": "42e899b1e68d72",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T06:45:00Z",
+      "title": "Premi\u00e8re phase de la strat\u00e9gie de refinancement d\u2019Atos Group achev\u00e9e",
+      "body": "Atos Group successfully completed the full refinancing of its 1L debt tranche on July 7, 2026, including the voluntary early repayment of remaining 1L bonds. This refinancing represents a significant milestone in the company's sustainable financial restructuring strategy.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/07/3322868/0/fr/Premi%C3%A8re-phase-de-la-strat%C3%A9gie-de-refinancement-d-Atos-Group-achev%C3%A9e.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "AEXAY"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:45:00Z",
+      "text": "Premi\u00e8re phase de la strat\u00e9gie de refinancement d\u2019Atos Group achev\u00e9e",
+      "description": "Atos Group successfully completed the full refinancing of its 1L debt tranche on July 7, 2026, including the voluntary early repayment of remaining 1L bonds. This refinancing represents a significant milestone in the company's sustainable financial restructuring strategy."
     },
     {
       "id": "072e9146b44d5d",
@@ -1416,52 +1750,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b41febd4c7f514",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:42:30Z",
-      "title": "$AMD http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658409478",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:42:30Z",
-      "text": "$AMD http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "455c4d724b8622",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:41:48Z",
-      "title": "$QQQ Even though price has not yet agreed with him on this latest move yet, everyting this guy says about Ai turns out to be true, it all checks out. If what hes thinking happens, there is really far downside.\nhttps://youtu.be/TtmPccUTDP8?si=1yBepr69I66JYd_P",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409462",
-      "author": "zonties",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:41:48Z",
-      "text": "$QQQ Even though price has not yet agreed with him on this latest move yet, everyting this guy says about Ai turns out to be true, it all checks out. If what hes thinking happens, there is really far downside.\nhttps://youtu.be/TtmPccUTDP8?si=1yBepr69I66JYd_P",
-      "description": "",
-      "handle": "zonties",
-      "display_name": "bren",
-      "platform": "stocktwits"
-    },
-    {
       "id": "db1cf2ed8d9349",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1508,29 +1796,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "8e29d4316a2550",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:41:41Z",
-      "title": "$AMD .http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.\n\nThe firm noted that leverage in the Korean stock market has rise",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658409457",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:41:41Z",
-      "text": "$AMD .http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.\n\nThe firm noted that leverage in the Korean stock market has rise",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
       "id": "4cfd7ab651c69a",
       "source": "reuters",
       "source_type": "rss",
@@ -1570,24 +1835,6 @@
       "handle": "tievLeaf",
       "display_name": "Aloe Ha",
       "platform": "stocktwits"
-    },
-    {
-      "id": "27e722d65fd0e3",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T06:35:51Z",
-      "title": "VW WEIGHS DOWNSIZING EXECUTIVE BOARD- WIWO",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:35:51Z",
-      "text": "VW WEIGHS DOWNSIZING EXECUTIVE BOARD- WIWO",
-      "description": ""
     },
     {
       "id": "6781213593ba55",
@@ -1634,45 +1881,6 @@
       "handle": "StockCigar",
       "display_name": "Stock Cigar",
       "platform": "stocktwits"
-    },
-    {
-      "id": "771e026099d080",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T06:32:47Z",
-      "title": "Join Hexagon Purus ASA for Q2 2026 results presentation. Don't miss out on important updates and numbers.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "ASA",
-        "CET"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:32:47Z",
-      "text": "Join Hexagon Purus ASA for Q2 2026 results presentation. Don't miss out on important updates and numbers.",
-      "description": ""
-    },
-    {
-      "id": "cb4087a2848369",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T06:31:28Z",
-      "title": "AUSTRALIA END-JUNE FOREIGN RESERVES A$102.52B",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:31:28Z",
-      "text": "AUSTRALIA END-JUNE FOREIGN RESERVES A$102.52B",
-      "description": ""
     },
     {
       "id": "ae949ae52077d7",
@@ -1807,24 +2015,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "fbe3aedf7079d1",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T06:24:36Z",
-      "title": "SOUTH AFRICA\u2019S NATIONAL TREASURY WILL WITHHOLD STATE FUNDING FOR JOHANNESBURG AND DOZENS OF OTHER MUNICIPALITIES THIS MONTH OVER THEIR FAILURE TO MANAGE THEIR FINANCES PROPERLY",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:24:36Z",
-      "text": "SOUTH AFRICA\u2019S NATIONAL TREASURY WILL WITHHOLD STATE FUNDING FOR JOHANNESBURG AND DOZENS OF OTHER MUNICIPALITIES THIS MONTH OVER THEIR FAILURE TO MANAGE THEIR FINANCES PROPERLY",
-      "description": ""
-    },
-    {
       "id": "d561f49f87d9ac",
       "source": "cnbc",
       "source_type": "rss",
@@ -1886,29 +2076,6 @@
       "description": "",
       "handle": "Newman999",
       "display_name": "Newman",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "359e623c2b596a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:17:01Z",
-      "title": "Four names I&#39;m watching closely \n \n$DGXX \n$NIXX \n$PLTR \n$ISRG \n \nDifferent industries. One common theme. \n \nAI is reshaping defense, infrastructure, enterprise software, and healthcare. \n \nThe biggest opportunities often come from following the megatrend not just the headlines.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658409087",
-      "author": "ProphitCapital",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T06:17:01Z",
-      "text": "Four names I&#39;m watching closely \n \n$DGXX \n$NIXX \n$PLTR \n$ISRG \n \nDifferent industries. One common theme. \n \nAI is reshaping defense, infrastructure, enterprise software, and healthcare. \n \nThe biggest opportunities often come from following the megatrend not just the headlines.",
-      "description": "",
-      "handle": "ProphitCapital",
-      "display_name": "ProphitCapital",
       "platform": "stocktwits"
     },
     {
@@ -2093,29 +2260,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f88adcce12f8e4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:01:02Z",
-      "title": "$TSLA $SPY  $AMZN $MSFT  \n\nSouth Korea!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658408862",
-      "author": "ninja_trad3r",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:01:02Z",
-      "text": "$TSLA $SPY  $AMZN $MSFT  \n\nSouth Korea!",
-      "description": "",
-      "handle": "ninja_trad3r",
-      "display_name": "ninja_trader",
-      "platform": "stocktwits"
-    },
-    {
       "id": "aa774a4fcbc6ee",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2283,29 +2427,6 @@
       "description": "",
       "handle": "Judy11",
       "display_name": "Judith",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0b9bc8192bb77b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T05:43:56Z",
-      "title": "$JKS Watchlist: \n \n$JKS  \nRevenue: $10 billion \nMarketcap: $0.8 billion (why is the marketcap so so low with such a big revenue and future technolog???) \n \n$TSLA  \nRevenue: $97 billion \nMarketcap: $1.6 T  \n \n$SEDG  \nRevenue: $1.2 billion \nMarketcap: $3.5 billion  \n \n$QS  \nRevenue: $0 \nMarketcap: $4.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658408525",
-      "author": "FlipFlop12",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T05:43:56Z",
-      "text": "$JKS Watchlist: \n \n$JKS  \nRevenue: $10 billion \nMarketcap: $0.8 billion (why is the marketcap so so low with such a big revenue and future technolog???) \n \n$TSLA  \nRevenue: $97 billion \nMarketcap: $1.6 T  \n \n$SEDG  \nRevenue: $1.2 billion \nMarketcap: $3.5 billion  \n \n$QS  \nRevenue: $0 \nMarketcap: $4.",
-      "description": "",
-      "handle": "FlipFlop12",
-      "display_name": "David",
       "platform": "stocktwits"
     },
     {
@@ -3804,57 +3925,6 @@
       "time": "2026-07-06T23:45:00Z",
       "text": "Spring Valley Acquisition Corp. III Shareholders Approve Business Combination with General Fusion",
       "description": "General Fusion shareholders approved a business combination with Spring Valley Acquisition Corp. III (SVAC), with the combined company expected to begin trading on Nasdaq under ticker 'GFUZ' on July 10, 2026. The transaction marks a significant milestone for General Fusion's Magnetized Target Fusion"
-    },
-    {
-      "id": "9b79e55aa32a3b",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T23:30:00Z",
-      "title": "The Last Times IPO Volume Was This High Were 1929 and 2000. Should That Scare You?",
-      "body": "IPO fundraising in 2026 has reached levels not seen since 1929 and 2000, historically preceding market downturns. JPMorgan predicts $260 billion will be raised this year through new stock issuances. While this high volume suggests potential 'irrational exuberance' and overconfidence, the article cau",
-      "url": "https://www.fool.com/investing/2026/07/06/the-last-times-ipo-volume-was-this-high-were-1929/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "AMJB",
-        "JPM",
-        "JPMpC",
-        "JPMpD",
-        "JPMpJ",
-        "JPMpK",
-        "JPMpL",
-        "JPMpM"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:30:00Z",
-      "text": "The Last Times IPO Volume Was This High Were 1929 and 2000. Should That Scare You?",
-      "description": "IPO fundraising in 2026 has reached levels not seen since 1929 and 2000, historically preceding market downturns. JPMorgan predicts $260 billion will be raised this year through new stock issuances. While this high volume suggests potential 'irrational exuberance' and overconfidence, the article cau"
-    },
-    {
-      "id": "449bb6ff5a66bb",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T23:05:00Z",
-      "title": "Want Durable Dividend Income That Can Last for Decades? Buy This Stock and Never Look Back.",
-      "body": "MPLX LP, a midstream pipeline operator, is highlighted as an attractive dividend stock with a 7.3% yield and a track record of consistent payout growth. The company benefits from long-term contracts with Marathon Petroleum, strategic acquisitions in the Permian and Marcellus regions, and exposure to",
-      "url": "https://www.fool.com/investing/2026/07/06/want-durable-dividend-income-that-can-last-for-dec/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "MPLX",
-        "MPC",
-        "ENB",
-        "ET",
-        "ETpI"
-      ],
-      "tags": [],
-      "impact_score": 11.3,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-07-06T23:05:00Z",
-      "text": "Want Durable Dividend Income That Can Last for Decades? Buy This Stock and Never Look Back.",
-      "description": "MPLX LP, a midstream pipeline operator, is highlighted as an attractive dividend stock with a 7.3% yield and a track record of consistent payout growth. The company benefits from long-term contracts with Marathon Petroleum, strategic acquisitions in the Permian and Marcellus regions, and exposure to"
     },
     {
       "id": "e3709bb04f02b8",
