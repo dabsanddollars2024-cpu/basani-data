@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T07:17:07Z",
-  "generated_display": "2026-07-07 07:17 ET",
+  "generated": "2026-07-07T07:22:07Z",
+  "generated_display": "2026-07-07 07:22 ET",
   "count": 200,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T07:17:02.213710+00:00",
+      "last_error_ts": "2026-07-07T07:22:01.901655+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 2,
-      "latency_ms": 147,
-      "last_success": "2026-07-07T07:17:02.361589+00:00",
+      "latency_ms": 1467,
+      "last_success": "2026-07-07T07:22:03.369846+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-07T07:17:02.461714+00:00",
+      "latency_ms": 60,
+      "last_success": "2026-07-07T07:22:03.451785+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 31,
-      "last_success": "2026-07-07T07:17:02.495743+00:00",
+      "latency_ms": 117,
+      "last_success": "2026-07-07T07:22:03.571532+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T07:17:02.590060+00:00",
+      "last_error_ts": "2026-07-07T07:22:03.663582+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1970,
-      "last_success": "2026-07-07T07:17:04.560235+00:00",
+      "latency_ms": 1589,
+      "last_success": "2026-07-07T07:22:05.252901+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T07:17:05.348951+00:00",
+      "last_success": "2026-07-07T07:22:05.828955+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1877,
-      "last_success": "2026-07-07T07:17:07.226305+00:00",
+      "latency_ms": 1822,
+      "last_success": "2026-07-07T07:22:07.651633+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,356 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 112
+          "latency_ms": 111
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 87
+          "latency_ms": 86
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 23
+          "latency_ms": 25
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 397
+          "latency_ms": 277
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 12
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 155
+          "latency_ms": 64
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "reuters": 16,
     "uw_news": 25,
+    "cnbc": 8,
+    "reuters": 16,
     "massive_news": 50,
     "zerohedge": 8,
-    "cnbc": 8,
     "seekingalpha": 7,
     "benzinga": 2,
     "marketwatch": 8,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "0da17462425bda",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:21:25Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658410022",
+      "author": "Shergasmic",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:21:25Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "Shergasmic",
+      "display_name": "Shergasmic",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5771296439e771",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:21:02Z",
+      "title": "$AMD back to 520 at open or below. MMs are just scum for their constant pump and dump",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658410018",
+      "author": "SPD2025",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:21:02Z",
+      "text": "$AMD back to 520 at open or below. MMs are just scum for their constant pump and dump",
+      "description": "",
+      "handle": "SPD2025",
+      "display_name": "G",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8b289380785b9a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:20:56Z",
+      "title": "$MSFT AI infrastructure spending may continue to accelerate faster than revenue.\n* Margins could remain under pressure for several years because depreciation and operating costs will rise.\n* Returns on AI investments may take very long time to materialize .",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658410015",
+      "author": "MissionImpossibl",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:20:56Z",
+      "text": "$MSFT AI infrastructure spending may continue to accelerate faster than revenue.\n* Margins could remain under pressure for several years because depreciation and operating costs will rise.\n* Returns on AI investments may take very long time to materialize .",
+      "description": "",
+      "handle": "MissionImpossibl",
+      "display_name": "Um1067XhudG",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f7bbe4b837efbf",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T07:20:49Z",
+      "title": "Bitcoin Suisse Advances Middle East Expansion, Receiving Financial Services Permission in Abu Dhabi",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:20:49Z",
+      "text": "Bitcoin Suisse Advances Middle East Expansion, Receiving Financial Services Permission in Abu Dhabi",
+      "description": ""
+    },
+    {
+      "id": "9b8223ac147c32",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:20:24Z",
+      "title": "$QQQ yall folks dont speak",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658410005",
+      "author": "withknowledge",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:20:24Z",
+      "text": "$QQQ yall folks dont speak",
+      "description": "",
+      "handle": "withknowledge",
+      "display_name": "to",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bcc769478e0bd8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:20:16Z",
+      "title": "$ASST $BTC.X $MSTR $MSTR \nhttps://www.tradingview.com/news/cointelegraph:61e87113c094b:0-strategy-s-bitcoin-sale-may-give-btc-a-durable-bottom-grayscale-says/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658410004",
+      "author": "7SamuraiScalper",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:20:16Z",
+      "text": "$ASST $BTC.X $MSTR $MSTR \nhttps://www.tradingview.com/news/cointelegraph:61e87113c094b:0-strategy-s-bitcoin-sale-may-give-btc-a-durable-bottom-grayscale-says/",
+      "description": "",
+      "handle": "7SamuraiScalper",
+      "display_name": "Jack",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3dd744017b3afc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:19:53Z",
+      "title": "$QQQ why did it drop?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658410001",
+      "author": "withknowledge",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:19:53Z",
+      "text": "$QQQ why did it drop?",
+      "description": "",
+      "handle": "withknowledge",
+      "display_name": "to",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "39f8078645b785",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 07:18:55 GMT",
+      "title": "Trump heads to Turkey as NATO is strained by Russian attacks, U.S. impatience",
+      "body": "Trump frequently vented about NATO members' refusal to heed U.S. calls for help clearing the Strait of Hormuz during its campaign against Iran.",
+      "url": "https://www.cnbc.com/2026/07/07/trump-nato-turkey-russia-ukraine-spending.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 07:18:55 GMT",
+      "text": "Trump heads to Turkey as NATO is strained by Russian attacks, U.S. impatience",
+      "description": "Trump frequently vented about NATO members' refusal to heed U.S. calls for help clearing the Strait of Hormuz during its campaign against Iran."
+    },
+    {
+      "id": "931e9380cc3a79",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:18:50Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409991",
+      "author": "ShadyAggie40",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:18:50Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "ShadyAggie40",
+      "display_name": "Omied Bahri",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "356610881d956d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:18:47Z",
+      "title": "$SPCX $TSLA  \nUnfortunately, You Need to Know What the Jevons Paradox is https://youtu.be/a6sYYrLTOjQ?si=R5gabAdwz11PZ-FK",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658409990",
+      "author": "silentmax",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:18:47Z",
+      "text": "$SPCX $TSLA  \nUnfortunately, You Need to Know What the Jevons Paradox is https://youtu.be/a6sYYrLTOjQ?si=R5gabAdwz11PZ-FK",
+      "description": "",
+      "handle": "silentmax",
+      "display_name": "SilentMax",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7c579dbf706aa7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:17:58Z",
+      "title": "$MSFT this sure is trading at historically low valuations but ER will bring more spending to the forefront ! Effectively they will burn every penny they are going to make next 4-5 yrs !!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658409982",
+      "author": "MissionImpossibl",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:17:58Z",
+      "text": "$MSFT this sure is trading at historically low valuations but ER will bring more spending to the forefront ! Effectively they will burn every penny they are going to make next 4-5 yrs !!",
+      "description": "",
+      "handle": "MissionImpossibl",
+      "display_name": "Um1067XhudG",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "dfe0d89a57edf5",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T07:17:39Z",
+      "title": "Kanazawa University research: Watching Molecules Change Shape in Slow Motion",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:17:39Z",
+      "text": "Kanazawa University research: Watching Molecules Change Shape in Slow Motion",
+      "description": ""
+    },
+    {
+      "id": "9099fe0566e4c6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:17:18Z",
+      "title": "$DJT $SPY $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409972",
+      "author": "FarrUkk",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T07:17:18Z",
+      "text": "$DJT $SPY $QQQ",
+      "description": "",
+      "handle": "FarrUkk",
+      "display_name": "FarUk",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "045c59a89db948",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:17:18Z",
+      "title": "$DJT $SPY $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409972",
+      "author": "FarrUkk",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T07:17:18Z",
+      "text": "$DJT $SPY $QQQ",
+      "description": "",
+      "handle": "FarrUkk",
+      "display_name": "FarUk",
+      "platform": "stocktwits"
+    },
     {
       "id": "f2ba4476b7b254",
       "source": "stocktwits",
@@ -210,29 +517,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "27611d7efc4445",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:15:09Z",
-      "title": "$SPY $QQQ \nYOU COULD PUT ALL THE ROCKET EMOJIES YOU WANT",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409949",
-      "author": "Specialist001",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T07:15:09Z",
-      "text": "$SPY $QQQ \nYOU COULD PUT ALL THE ROCKET EMOJIES YOU WANT",
-      "description": "",
-      "handle": "Specialist001",
-      "display_name": "Specialist001",
-      "platform": "stocktwits"
-    },
-    {
       "id": "08062a923c15a5",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -279,52 +563,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "55ed6d79a31fa9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:14:32Z",
-      "title": "$SPY Voltmap Request \u26a1\ufe0f \n \nStronger of the 2 indexes of $QQQ which has been getting mauled by memory names. \n \nDownside to $745 today on a break and hold of $750.  \n \nThat was our key level and VOLT today. voltick.io",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409941",
-      "author": "BullTradeFinder",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:14:32Z",
-      "text": "$SPY Voltmap Request \u26a1\ufe0f \n \nStronger of the 2 indexes of $QQQ which has been getting mauled by memory names. \n \nDownside to $745 today on a break and hold of $750.  \n \nThat was our key level and VOLT today. voltick.io",
-      "description": "",
-      "handle": "BullTradeFinder",
-      "display_name": "BullTradeFinder",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c11afb532af6cc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:14:32Z",
-      "title": "$SPY Voltmap Request \u26a1\ufe0f \n \nStronger of the 2 indexes of $QQQ which has been getting mauled by memory names. \n \nDownside to $745 today on a break and hold of $750.  \n \nThat was our key level and VOLT today. voltick.io",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409941",
-      "author": "BullTradeFinder",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:14:32Z",
-      "text": "$SPY Voltmap Request \u26a1\ufe0f \n \nStronger of the 2 indexes of $QQQ which has been getting mauled by memory names. \n \nDownside to $745 today on a break and hold of $750.  \n \nThat was our key level and VOLT today. voltick.io",
-      "description": "",
-      "handle": "BullTradeFinder",
-      "display_name": "BullTradeFinder",
-      "platform": "stocktwits"
-    },
-    {
       "id": "8ee00330f95803",
       "source": "reuters",
       "source_type": "rss",
@@ -359,52 +597,6 @@
       "time": "2026-07-07 07:12:31",
       "text": "German industrial output rises more than expected in May",
       "description": ""
-    },
-    {
-      "id": "d3ff02e2e905a8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:12:28Z",
-      "title": "$SPY $QQQ $DIA \nhttps://www.commondreams.org/news/ai-bubble-treasury-department",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409914",
-      "author": "Specialist001",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T07:12:28Z",
-      "text": "$SPY $QQQ $DIA \nhttps://www.commondreams.org/news/ai-bubble-treasury-department",
-      "description": "",
-      "handle": "Specialist001",
-      "display_name": "Specialist001",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "99bab418eb1f09",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:12:28Z",
-      "title": "$SPY $QQQ $DIA \nhttps://www.commondreams.org/news/ai-bubble-treasury-department",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409914",
-      "author": "Specialist001",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T07:12:28Z",
-      "text": "$SPY $QQQ $DIA \nhttps://www.commondreams.org/news/ai-bubble-treasury-department",
-      "description": "",
-      "handle": "Specialist001",
-      "display_name": "Specialist001",
-      "platform": "stocktwits"
     },
     {
       "id": "4788bd12e5e56a",
@@ -568,29 +760,6 @@
       "description": "",
       "handle": "Mipel",
       "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "38b066793dc14c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:07:19Z",
-      "title": "$SPY $UCO $QQQ $DJI \nChina restocking their oil. Lots of buying pressure on crude. War is not over in Ukraine, Lebanon or Iran",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409851",
-      "author": "ANALYZING",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T07:07:19Z",
-      "text": "$SPY $UCO $QQQ $DJI \nChina restocking their oil. Lots of buying pressure on crude. War is not over in Ukraine, Lebanon or Iran",
-      "description": "",
-      "handle": "ANALYZING",
-      "display_name": "CT",
       "platform": "stocktwits"
     },
     {
@@ -1495,29 +1664,6 @@
       "description": ""
     },
     {
-      "id": "e6503ac1c2b3a5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:49:05Z",
-      "title": "$AMD !!!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658409585",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:49:05Z",
-      "text": "$AMD !!!",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b487cb042593bb",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1657,42 +1803,6 @@
       "description": ""
     },
     {
-      "id": "063636eddcb794",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T06:46:22Z",
-      "title": "Goldman Sachs Initiates SpaceX Coverage With Buy Rating; Price Target $205",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:46:22Z",
-      "text": "Goldman Sachs Initiates SpaceX Coverage With Buy Rating; Price Target $205",
-      "description": ""
-    },
-    {
-      "id": "e1263deeeff03a",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T06:45:51Z",
-      "title": "FRENCH TRADE BALANCE SA ACTUAL -6.928227B (FORECAST -, PREVIOUS -5.64B) $MACRO",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:45:51Z",
-      "text": "FRENCH TRADE BALANCE SA ACTUAL -6.928227B (FORECAST -, PREVIOUS -5.64B) $MACRO",
-      "description": ""
-    },
-    {
       "id": "1d06f76b3c919e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1710,29 +1820,6 @@
       "sentiment": "neutral",
       "time": "2026-07-07T06:45:29Z",
       "text": "$META \u2026.http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.\n\nThe firm noted that leverage in the Korean stock market has ri",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "74f0f45ba419b5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:45:09Z",
-      "title": "$MSFT ?http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.\n\nThe firm noted that leverage in the Korean stock market has ris",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658409526",
-      "author": "Mipel",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:45:09Z",
-      "text": "$MSFT ?http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.\n\nThe firm noted that leverage in the Korean stock market has ris",
       "description": "",
       "handle": "Mipel",
       "display_name": "Natan h",
@@ -1906,29 +1993,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "db1cf2ed8d9349",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:41:45Z",
-      "title": "Today\u2026 \ud83d\ude05\ud83d\ude2e\u200d\ud83d\udca8 $SPY $AVGO $TSLA $GOOGL $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658409460",
-      "author": "Jordanoneal",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:41:45Z",
-      "text": "Today\u2026 \ud83d\ude05\ud83d\ude2e\u200d\ud83d\udca8 $SPY $AVGO $TSLA $GOOGL $QQQ",
-      "description": "",
-      "handle": "Jordanoneal",
-      "display_name": "Jordanoneal",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b93787c74dbad3",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2084,29 +2148,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f88d16fbca2033",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:28:12Z",
-      "title": "$MSFT Microsoft says we lost 64 cents for every dollar we invested into game studios.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658409254",
-      "author": "jaydongs",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T06:28:12Z",
-      "text": "$MSFT Microsoft says we lost 64 cents for every dollar we invested into game studios.",
-      "description": "",
-      "handle": "jaydongs",
-      "display_name": "Kevin",
-      "platform": "stocktwits"
-    },
-    {
       "id": "66b300d1a22651",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2232,29 +2273,6 @@
       "description": "",
       "handle": "Lurker_Investor",
       "display_name": "Lurker - Zerg",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5b740e83bfad5d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:11:14Z",
-      "title": "$MSTR today we will see 8x$",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658409011",
-      "author": "Brznx",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T06:11:14Z",
-      "text": "$MSTR today we will see 8x$",
-      "description": "",
-      "handle": "Brznx",
-      "display_name": "Wojciech Borz\u0119cki",
       "platform": "stocktwits"
     },
     {
@@ -3032,6 +3050,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "9127be4fca3653",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 03:17:18 -0400",
+      "title": "Google backs nuclear fusion startup Proxima Fusion",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4611841-google-backs-nuclear-fusion-startup-proxima-fusion?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 03:17:18 -0400",
+      "text": "Google backs nuclear fusion startup Proxima Fusion",
+      "description": ""
+    },
+    {
       "id": "dd422caa064df3",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -3538,24 +3574,6 @@
       "description": "FIFA reversed Folarin Balogun\u2019s suspension after Trump sought a review, letting the U.S. striker play Belgium over objections."
     },
     {
-      "id": "39f8078645b785",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 02:18:31 GMT",
-      "title": "Trump heads to Turkey as NATO is strained by Russian attacks, U.S. impatience",
-      "body": "Trump frequently vented about NATO members' refusal to heed U.S. calls for help clearing the Strait of Hormuz during its campaign against Iran.",
-      "url": "https://www.cnbc.com/2026/07/07/trump-nato-turkey-russia-ukraine-spending.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 02:18:31 GMT",
-      "text": "Trump heads to Turkey as NATO is strained by Russian attacks, U.S. impatience",
-      "description": "Trump frequently vented about NATO members' refusal to heed U.S. calls for help clearing the Strait of Hormuz during its campaign against Iran."
-    },
-    {
       "id": "25bbb0d28b9921",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3671,24 +3689,6 @@
       "sentiment": "neutral",
       "time": "Tue, 07 Jul 2026 02:01:56 -0400",
       "text": "Energy Transfer LP announces pricing of $1.75B dual-tranche junior subordinated notes offering",
-      "description": ""
-    },
-    {
-      "id": "3a843f8cee2e37",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 01:59:35 -0400",
-      "title": "Equinox Gold reduces Versamet stake to 2.7% in C$130M sale",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4611830-equinox-gold-reduces-versamet-stake-to-27-in-c130m-sale?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 01:59:35 -0400",
-      "text": "Equinox Gold reduces Versamet stake to 2.7% in C$130M sale",
       "description": ""
     },
     {
@@ -4165,39 +4165,57 @@
       "week": "this"
     },
     {
-      "id": "c780c41259583c",
+      "id": "58d2a670a36445",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:07:45Z",
-      "title": "LG Display (LPL) Earns ASPICE Level 2 Certification for Automotive Displays",
+      "timestamp": "2026-07-05T20:07:01Z",
+      "title": "Integra Resources (ITGR) Appoints Ausenco to Lead Detailed Engineering for DeLamar Project",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/articles/lg-display-lpl-earns-aspice-200745096.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/integra-resources-itgr-appoints-ausenco-200701299.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:07:45Z",
-      "text": "LG Display (LPL) Earns ASPICE Level 2 Certification for Automotive Displays",
+      "time": "2026-07-05T20:07:01Z",
+      "text": "Integra Resources (ITGR) Appoints Ausenco to Lead Detailed Engineering for DeLamar Project",
       "description": ""
     },
     {
-      "id": "e95de35870998a",
+      "id": "95cf5096c3867f",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:07:25Z",
-      "title": "Wipro (WIT) Completes Data Center Migration for METRO AG",
+      "timestamp": "2026-07-05T20:06:53Z",
+      "title": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/wipro-wit-completes-data-center-200725808.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/repay-holdings-rpay-receives-unsolicited-200653568.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T20:06:53Z",
+      "text": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management",
+      "description": ""
+    },
+    {
+      "id": "78b27289604b9d",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05T20:06:44Z",
+      "title": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/petco-woof-one-best-value-200644831.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:07:25Z",
-      "text": "Wipro (WIT) Completes Data Center Migration for METRO AG",
+      "time": "2026-07-05T20:06:44Z",
+      "text": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
       "description": ""
     },
     {
@@ -4270,24 +4288,6 @@
       "sentiment": "neutral",
       "time": "2026-07-05T20:05:54Z",
       "text": "Kosmos Energy (KOS) Completes Sale of Equatorial Guinea Interests to Panoro Energy",
-      "description": ""
-    },
-    {
-      "id": "d8245c3d7675e9",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05T20:05:00Z",
-      "title": "1 Big Reason Nike's Turnaround Is Taking Longer Than Expected",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/1-big-reason-nikes-turnaround-200500762.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T20:05:00Z",
-      "text": "1 Big Reason Nike's Turnaround Is Taking Longer Than Expected",
       "description": ""
     }
   ]
