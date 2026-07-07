@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T08:52:06Z",
-  "generated_display": "2026-07-07 08:52 ET",
+  "generated": "2026-07-07T08:57:06Z",
+  "generated_display": "2026-07-07 08:57 ET",
   "count": 201,
   "source_health": {
     "x_api": {
@@ -8,22 +8,22 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T08:52:02.440279+00:00",
+      "last_error_ts": "2026-07-07T08:57:02.103046+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 105,
-      "last_success": "2026-07-07T08:52:02.546501+00:00",
+      "latency_ms": 186,
+      "last_success": "2026-07-07T08:57:02.290124+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 145,
-      "last_success": "2026-07-07T08:52:02.692542+00:00",
+      "latency_ms": 56,
+      "last_success": "2026-07-07T08:57:02.389186+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 50,
       "latency_ms": 99,
-      "last_success": "2026-07-07T08:52:02.794751+00:00",
+      "last_success": "2026-07-07T08:57:02.491719+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T08:52:02.826699+00:00",
+      "last_error_ts": "2026-07-07T08:57:02.527885+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1765,
-      "last_success": "2026-07-07T08:52:04.592631+00:00",
+      "latency_ms": 1878,
+      "last_success": "2026-07-07T08:57:04.405908+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T08:52:05.211006+00:00",
+      "last_success": "2026-07-07T08:57:05.189769+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1731,
-      "last_success": "2026-07-07T08:52:06.942160+00:00",
+      "latency_ms": 1762,
+      "last_success": "2026-07-07T08:57:06.952087+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,39 +74,39 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 112
+          "latency_ms": 189
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 88
+          "latency_ms": 26
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 97
+          "latency_ms": 73
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 203
+          "latency_ms": 394
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 11
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 104
+          "latency_ms": 89
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
+    "uw_news": 25,
     "reuters": 16,
     "cnbc": 8,
     "marketwatch": 8,
@@ -117,6 +117,345 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "be2916953e6811",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:56:47Z",
+      "title": "$TSLA \ud83e\udd23I can use this post again.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658411502",
+      "author": "khoamaubao",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:56:47Z",
+      "text": "$TSLA \ud83e\udd23I can use this post again.",
+      "description": "",
+      "handle": "khoamaubao",
+      "display_name": "khoamaubao",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "19572c2786ea1d",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T08:56:40Z",
+      "title": "Euro Could Remain in Narrow Range Vs Dollar Over Summer - WSJ",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "EEFT"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:56:40Z",
+      "text": "Euro Could Remain in Narrow Range Vs Dollar Over Summer - WSJ",
+      "description": ""
+    },
+    {
+      "id": "57148a97cde9ed",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T08:56:40Z",
+      "title": "Gold Falls After Iran\u2019s Attacks Near Hormuz - WSJ",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "GOLD"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:56:40Z",
+      "text": "Gold Falls After Iran\u2019s Attacks Near Hormuz - WSJ",
+      "description": ""
+    },
+    {
+      "id": "3725b12239b3ac",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:55:43Z",
+      "title": "\ud83d\udea8 BREAKING: Hedge funds&#39; bearish bets on the Japanese yen hit the highest level since 2007 as USD/JPY surges above 162, the yen&#39;s weakest level since 1986.\n\nCFTC data shows net short yen positions at ~146,000 contracts (as of June 30), the largest since 2007.\n\nUSD/JPY breaks above 162 on wid",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658411483",
+      "author": "BigBreakingWire",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:55:43Z",
+      "text": "\ud83d\udea8 BREAKING: Hedge funds&#39; bearish bets on the Japanese yen hit the highest level since 2007 as USD/JPY surges above 162, the yen&#39;s weakest level since 1986.\n\nCFTC data shows net short yen positions at ~146,000 contracts (as of June 30), the largest since 2007.\n\nUSD/JPY breaks above 162 on wid",
+      "description": "",
+      "handle": "BigBreakingWire",
+      "display_name": "BigBreakingWire",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6def81581d5fa0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:55:43Z",
+      "title": "\ud83d\udea8 BREAKING: Hedge funds&#39; bearish bets on the Japanese yen hit the highest level since 2007 as USD/JPY surges above 162, the yen&#39;s weakest level since 1986.\n\nCFTC data shows net short yen positions at ~146,000 contracts (as of June 30), the largest since 2007.\n\nUSD/JPY breaks above 162 on wid",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658411483",
+      "author": "BigBreakingWire",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:55:43Z",
+      "text": "\ud83d\udea8 BREAKING: Hedge funds&#39; bearish bets on the Japanese yen hit the highest level since 2007 as USD/JPY surges above 162, the yen&#39;s weakest level since 1986.\n\nCFTC data shows net short yen positions at ~146,000 contracts (as of June 30), the largest since 2007.\n\nUSD/JPY breaks above 162 on wid",
+      "description": "",
+      "handle": "BigBreakingWire",
+      "display_name": "BigBreakingWire",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ab71743bdb6a2c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:55:27Z",
+      "title": "$PLTR \u2026..http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658411476",
+      "author": "Mipel",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:55:27Z",
+      "text": "$PLTR \u2026..http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "281e6cf4dc162e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:54:56Z",
+      "title": "$GOOGL .,http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658411462",
+      "author": "Mipel",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:54:56Z",
+      "text": "$GOOGL .,http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e6b22d46f7d28d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:54:45Z",
+      "title": "$AAPL \u2026.http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658411458",
+      "author": "Mipel",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:54:45Z",
+      "text": "$AAPL \u2026.http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "12593e630b6973",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:54:44Z",
+      "title": "$MSFT 400\ud83c\udfaf",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658411455",
+      "author": "YEHONATAN101",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T08:54:44Z",
+      "text": "$MSFT 400\ud83c\udfaf",
+      "description": "",
+      "handle": "YEHONATAN101",
+      "display_name": "YEHONATAN GERSHON",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "eaef8e1f495492",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:53:57Z",
+      "title": "$NVDA \u2026http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658411440",
+      "author": "Mipel",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:53:57Z",
+      "text": "$NVDA \u2026http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3e2035f8fd614b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:53:41Z",
+      "title": "$MSFT .http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658411434",
+      "author": "Mipel",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:53:41Z",
+      "text": "$MSFT .http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a015b9e2c0ef38",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:53:22Z",
+      "title": "$PLTR $ORCL $MSFT $IGV $NOW the past  week or two may have been the perfect Wall Street rotation trap. Retails capitulated, dumped software near 52-week lows, and piled into semis and memory at historical highs. \ncapital is rotating back into software, they sold the bottom and bought the top.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658411422",
+      "author": "JDKING",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T08:53:22Z",
+      "text": "$PLTR $ORCL $MSFT $IGV $NOW the past  week or two may have been the perfect Wall Street rotation trap. Retails capitulated, dumped software near 52-week lows, and piled into semis and memory at historical highs. \ncapital is rotating back into software, they sold the bottom and bought the top.",
+      "description": "",
+      "handle": "JDKING",
+      "display_name": "JDKING",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "27511c2b396bbc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:53:22Z",
+      "title": "$PLTR $ORCL $MSFT $IGV $NOW the past  week or two may have been the perfect Wall Street rotation trap. Retails capitulated, dumped software near 52-week lows, and piled into semis and memory at historical highs. \ncapital is rotating back into software, they sold the bottom and bought the top.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658411422",
+      "author": "JDKING",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T08:53:22Z",
+      "text": "$PLTR $ORCL $MSFT $IGV $NOW the past  week or two may have been the perfect Wall Street rotation trap. Retails capitulated, dumped software near 52-week lows, and piled into semis and memory at historical highs. \ncapital is rotating back into software, they sold the bottom and bought the top.",
+      "description": "",
+      "handle": "JDKING",
+      "display_name": "JDKING",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "373d800793ad67",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:53:15Z",
+      "title": "$AMD http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658411419",
+      "author": "Mipel",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:53:15Z",
+      "text": "$AMD http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "98800cfeb602ea",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T08:53:07Z",
+      "title": "$NVDA loses on winning days, loses more on losing days..I don&#39;t get it",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658411415",
+      "author": "JJG1005",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T08:53:07Z",
+      "text": "$NVDA loses on winning days, loses more on losing days..I don&#39;t get it",
+      "description": "",
+      "handle": "JJG1005",
+      "display_name": "Joseph",
+      "platform": "stocktwits"
+    },
     {
       "id": "bfb5167b9f1ce3",
       "source": "uw_news",
@@ -778,29 +1117,6 @@
       "description": ""
     },
     {
-      "id": "bcd80e699c3e38",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:31:05Z",
-      "title": "$MSFT  \nLosing 64 cents on every dollar invested sounds terrible. But for Microsoft, this isn&#39;t a disaster, it&#39;s a necessary reset. Game Pass has likely reached its limits, hardware keeps getting more expensive, and gaming simply can&#39;t match the margins of cloud and AI. \nIt&#39;s a huge ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658411043",
-      "author": "Sunnyskakao",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:31:05Z",
-      "text": "$MSFT  \nLosing 64 cents on every dollar invested sounds terrible. But for Microsoft, this isn&#39;t a disaster, it&#39;s a necessary reset. Game Pass has likely reached its limits, hardware keeps getting more expensive, and gaming simply can&#39;t match the margins of cloud and AI. \nIt&#39;s a huge ",
-      "description": "",
-      "handle": "Sunnyskakao",
-      "display_name": "Ines May",
-      "platform": "stocktwits"
-    },
-    {
       "id": "dff6dc580e175f",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -867,29 +1183,6 @@
       "description": "",
       "handle": "Meatballtrades",
       "display_name": "Meatball 23",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e37b6b3dfa85dc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:28:01Z",
-      "title": "$SPY $QQQ $SOXL $SOXS $BTC.X looks like Belgium need some liberation after that match.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658410987",
-      "author": "newmoneyking",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T08:28:01Z",
-      "text": "$SPY $QQQ $SOXL $SOXS $BTC.X looks like Belgium need some liberation after that match.",
-      "description": "",
-      "handle": "newmoneyking",
-      "display_name": "Newmoneyking",
       "platform": "stocktwits"
     },
     {
@@ -1067,29 +1360,6 @@
       "description": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz."
     },
     {
-      "id": "719f4c18bc243d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:23:10Z",
-      "title": "$MSFT will not see $400. \nDead cat bounce pre market before holders get smacked at open",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658410904",
-      "author": "MountCapital",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T08:23:10Z",
-      "text": "$MSFT will not see $400. \nDead cat bounce pre market before holders get smacked at open",
-      "description": "",
-      "handle": "MountCapital",
-      "display_name": "BOB JOE",
-      "platform": "stocktwits"
-    },
-    {
       "id": "e6fb9be9051ce4",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1113,52 +1383,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "655263d17e2150",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:21:52Z",
-      "title": "NBIS Stock Down About 30% From Peak Amid Meta AI Cloud Threat \u2014 But Retail Still Believes In Neocloud Opportunity  \n \n$NBIS $CRWV $SPY $QQQ  \n \nhttps://stocktwits.com/news-articles/markets/equity/nbis-stock-down-about-30-from-peak-amid-meta-ai-cloud-threat-but-retail-still-believes-in-neocloud-oppor",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658410877",
-      "author": "CapitaLit",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:21:52Z",
-      "text": "NBIS Stock Down About 30% From Peak Amid Meta AI Cloud Threat \u2014 But Retail Still Believes In Neocloud Opportunity  \n \n$NBIS $CRWV $SPY $QQQ  \n \nhttps://stocktwits.com/news-articles/markets/equity/nbis-stock-down-about-30-from-peak-amid-meta-ai-cloud-threat-but-retail-still-believes-in-neocloud-oppor",
-      "description": "",
-      "handle": "CapitaLit",
-      "display_name": "Yuvraj Malik",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "12e13fbbbcda75",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:21:01Z",
-      "title": "MSFT Stock Climbs Overnight: Microsoft Swings Axe On Over 3,000 Xbox Jobs As Game Pass Reportedly Falls Well Short Of Internal Goals   \n \n$MSFT $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/msft-stock-climbs-overnight-microsoft-swings-axe-on-over-3-000-xbox-jobs-as-game-pass-report",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658410849",
-      "author": "CapitaLit",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:21:01Z",
-      "text": "MSFT Stock Climbs Overnight: Microsoft Swings Axe On Over 3,000 Xbox Jobs As Game Pass Reportedly Falls Well Short Of Internal Goals   \n \n$MSFT $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/msft-stock-climbs-overnight-microsoft-swings-axe-on-over-3-000-xbox-jobs-as-game-pass-report",
-      "description": "",
-      "handle": "CapitaLit",
-      "display_name": "Yuvraj Malik",
-      "platform": "stocktwits"
-    },
-    {
       "id": "aab42bf484d46a",
       "source": "marketwatch",
       "source_type": "rss",
@@ -1175,52 +1399,6 @@
       "time": "Tue, 07 Jul 2026 08:20:00 GMT",
       "text": "SpaceX\u2019s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
       "description": "The two lead underwriters on SpaceX\u2019s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy."
-    },
-    {
-      "id": "29df579eefffb7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:18:55Z",
-      "title": "$NVDA THE 200 day is $191.13",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658410809",
-      "author": "Napoliblue",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T08:18:55Z",
-      "text": "$NVDA THE 200 day is $191.13",
-      "description": "",
-      "handle": "Napoliblue",
-      "display_name": "Napoliblue",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "34f11bf373f538",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:18:20Z",
-      "title": "$PLTR + $DGXX great picks ;-)",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658410792",
-      "author": "SebastianDGXX",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:18:20Z",
-      "text": "$PLTR + $DGXX great picks ;-)",
-      "description": "",
-      "handle": "SebastianDGXX",
-      "display_name": "Sebastian",
-      "platform": "stocktwits"
     },
     {
       "id": "f58083caea2d5c",
@@ -1303,29 +1481,6 @@
       "time": "2026-07-07T08:12:26Z",
       "text": "TECNO and Ang\u00e9lica Dass Co-Launched \"100 Portraits of Becoming,\" A Living Archive of Human Possibilities",
       "description": ""
-    },
-    {
-      "id": "d93e4760908a2b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:11:20Z",
-      "title": "$TSLA never sees 420 again, most stress free short in history",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658410688",
-      "author": "dipbuyer0326",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T08:11:20Z",
-      "text": "$TSLA never sees 420 again, most stress free short in history",
-      "description": "",
-      "handle": "dipbuyer0326",
-      "display_name": "Options Trading Rants",
-      "platform": "stocktwits"
     },
     {
       "id": "1ca9a717d81c45",
@@ -1572,65 +1727,6 @@
       "description": "",
       "handle": "lalaloopsyies",
       "display_name": "Steve",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2dcd1ad9aaf570",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T08:02:15Z",
-      "title": "Trade Nation Launches its Regulated Products and Services in Europe",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:02:15Z",
-      "text": "Trade Nation Launches its Regulated Products and Services in Europe",
-      "description": ""
-    },
-    {
-      "id": "f85da9cae1c6b9",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T08:02:13Z",
-      "title": "Temu Becomes First E-Commerce Marketplace to Join Italy's National Anti-Counterfeiting Initiative VER.O",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:02:13Z",
-      "text": "Temu Becomes First E-Commerce Marketplace to Join Italy's National Anti-Counterfeiting Initiative VER.O",
-      "description": ""
-    },
-    {
-      "id": "20a2e57ee699da",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:01:26Z",
-      "title": "$AMZN  $NVDA $SPY $QQQ \n\nBond yields \ud83d\udcc8 \nOil \ud83d\udcc8 \nVix \ud83d\udcc8 \n\nStonks \ud83d\udcc9 \n\nThis market isn\u2019t having it.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658410528",
-      "author": "o_0_O_0_o",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:01:26Z",
-      "text": "$AMZN  $NVDA $SPY $QQQ \n\nBond yields \ud83d\udcc8 \nOil \ud83d\udcc8 \nVix \ud83d\udcc8 \n\nStonks \ud83d\udcc9 \n\nThis market isn\u2019t having it.",
-      "description": "",
-      "handle": "o_0_O_0_o",
-      "display_name": "o_0_O_0_o",
       "platform": "stocktwits"
     },
     {
@@ -1974,29 +2070,6 @@
       "description": "The global Power Line Communication (PLC) market, valued at USD 10.32 billion in 2025, is expected to grow to USD 27.28 billion by 2035 at a 10.23% CAGR. Growth is driven by smart grid modernization, digital utility infrastructure expansion, and increasing adoption of IoT-based smart homes and build"
     },
     {
-      "id": "5771296439e771",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:21:02Z",
-      "title": "$AMD back to 520 at open or below. MMs are just scum for their constant pump and dump",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658410018",
-      "author": "SPD2025",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:21:02Z",
-      "text": "$AMD back to 520 at open or below. MMs are just scum for their constant pump and dump",
-      "description": "",
-      "handle": "SPD2025",
-      "display_name": "G",
-      "platform": "stocktwits"
-    },
-    {
       "id": "bcc769478e0bd8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2078,29 +2151,6 @@
       "sentiment": "neutral",
       "time": "2026-07-07T07:07:27Z",
       "text": "$AAPL \u2026http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "37260bcf366a1f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:05:23Z",
-      "title": "$PLTR \u2026http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658409829",
-      "author": "Mipel",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:05:23Z",
-      "text": "$PLTR \u2026http://Investing.com - Semiconductor stocks in Asia fell on Tuesday after Samsung Electronics&#39; impressive quarterly results failed to convince investors that soaring profits thanks to artificial intelligence justified the sector&#39;s high valuation, leading to a fresh wave of selling alo",
       "description": "",
       "handle": "Mipel",
       "display_name": "Natan h",
@@ -2317,29 +2367,6 @@
       "description": "Lithuania To Lift Ban On Nuclear Weapons, Following Finland\n\n            First it was Finland which lifted its ban on the deployment of nuclear weapons, declaring its willingness to host NATO's arsenal (which is largely provided by the US), and now Lithuania has become the latest European country to"
     },
     {
-      "id": "359070a0119eeb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:44:14Z",
-      "title": "$AAPL -http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.\n\nThe firm noted that leverage in the Korean stock market has ris",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658409509",
-      "author": "Mipel",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:44:14Z",
-      "text": "$AAPL -http://nvesting.com - South Korea&#39;s KOSPI index retreated on Monday as investors weighed a combination of technical, policy and sentiment concerns following the market&#39;s recent sharp rally, according to Citrine Research.\n\nThe firm noted that leverage in the Korean stock market has ris",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
       "id": "c36c6916bd73be",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2383,29 +2410,6 @@
       "description": "",
       "handle": "Jordanoneal",
       "display_name": "Jordanoneal",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8df3253d2471fc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:37:49Z",
-      "title": "$INFQ THERE IS A FUCKING CLOSED-DOOR QUANTUM MEETING AT THE WHITE HOUSE TOMORROW!! TIME TO FUCK THE SHORTS UP. WE ALL KNOW INFLEQTION, $GOOGL AND $IBM IS GONNA BE THERE!!!! NOW WE JUST HAVE TO WAIT FOR THE GUESTS LIST. $IONQ WON&#39;T BE THERE, $QNT MIGHT BE. WE SHALL SEE. TIME TO RUN UP.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GOOGL/message/658409400",
-      "author": "tievLeaf",
-      "tickers": [
-        "GOOGL"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T06:37:49Z",
-      "text": "$INFQ THERE IS A FUCKING CLOSED-DOOR QUANTUM MEETING AT THE WHITE HOUSE TOMORROW!! TIME TO FUCK THE SHORTS UP. WE ALL KNOW INFLEQTION, $GOOGL AND $IBM IS GONNA BE THERE!!!! NOW WE JUST HAVE TO WAIT FOR THE GUESTS LIST. $IONQ WON&#39;T BE THERE, $QNT MIGHT BE. WE SHALL SEE. TIME TO RUN UP.",
-      "description": "",
-      "handle": "tievLeaf",
-      "display_name": "Aloe Ha",
       "platform": "stocktwits"
     },
     {
@@ -4184,21 +4188,39 @@
       "week": "this"
     },
     {
-      "id": "f0ab0e3c046199",
+      "id": "655feaeb157f14",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T22:08:23Z",
-      "title": "Perspective Therapeutics (CATX) Reports Encouraging Early Data Across Multiple Radiopharmaceutical Trials",
+      "timestamp": "2026-07-05T22:08:58Z",
+      "title": "NICE (NICE) Expands AI Reach With Sopra Steria CXone Deployment",
       "body": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/perspective-therapeutics-catx-reports-encouraging-220823316.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nice-nice-expands-ai-reach-220858505.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T22:08:23Z",
-      "text": "Perspective Therapeutics (CATX) Reports Encouraging Early Data Across Multiple Radiopharmaceutical Trials",
+      "time": "2026-07-05T22:08:58Z",
+      "text": "NICE (NICE) Expands AI Reach With Sopra Steria CXone Deployment",
+      "description": ""
+    },
+    {
+      "id": "23fbf7136ccb4a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05T22:07:41Z",
+      "title": "What Does Tilray Brands (TLRY) Gain From The HelloMD Corporation Acquisition?",
+      "body": "",
+      "url": "https://finance.yahoo.com/healthcare/articles/does-tilray-brands-tlry-gain-220741121.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T22:07:41Z",
+      "text": "What Does Tilray Brands (TLRY) Gain From The HelloMD Corporation Acquisition?",
       "description": ""
     },
     {
@@ -4276,39 +4298,21 @@
       "description": ""
     },
     {
-      "id": "1c9e911e76c1a2",
+      "id": "b40e85aeed14c8",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T21:26:00Z",
-      "title": "The First Half of 2026 Is Over. These 2 Spectacular Artificial Intelligence (AI) Stocks Can Soar in the Second Half.",
+      "timestamp": "2026-07-05T21:31:09Z",
+      "title": "America\u2019s 250th Birthday Just Set a Silver World Record \u2014 Literally",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/first-half-2026-over-2-212600683.html",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/america-250th-birthday-just-set-213109191.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T21:26:00Z",
-      "text": "The First Half of 2026 Is Over. These 2 Spectacular Artificial Intelligence (AI) Stocks Can Soar in the Second Half.",
-      "description": ""
-    },
-    {
-      "id": "d4f051dcf1eb0f",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05T21:00:00Z",
-      "title": "Five Energy Stocks Riding Texas's Data Center Power Boom",
-      "body": "",
-      "url": "https://finance.yahoo.com/energy/articles/five-energy-stocks-riding-texass-210000847.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T21:00:00Z",
-      "text": "Five Energy Stocks Riding Texas's Data Center Power Boom",
+      "time": "2026-07-05T21:31:09Z",
+      "text": "America\u2019s 250th Birthday Just Set a Silver World Record \u2014 Literally",
       "description": ""
     }
   ]
