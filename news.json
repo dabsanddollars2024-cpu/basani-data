@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-07T01:47:32Z",
-  "generated_display": "2026-07-07 01:47 ET",
-  "count": 173,
+  "generated": "2026-07-07T01:52:07Z",
+  "generated_display": "2026-07-07 01:52 ET",
+  "count": 223,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T01:47:02.071564+00:00",
+      "last_error_ts": "2026-07-07T01:52:01.671606+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 108,
-      "last_success": "2026-07-07T01:47:02.182235+00:00",
+      "latency_ms": 199,
+      "last_success": "2026-07-07T01:52:01.873720+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 89,
-      "last_success": "2026-07-07T01:47:02.272578+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-07T01:52:01.974711+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 100,
-      "last_success": "2026-07-07T01:47:02.378692+00:00",
+      "latency_ms": 196,
+      "last_success": "2026-07-07T01:52:02.173804+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T01:47:02.482162+00:00",
+      "last_error_ts": "2026-07-07T01:52:02.208115+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
-      "items_pulled": 25,
-      "latency_ms": 27489,
-      "last_success": "2026-07-07T01:47:29.971401+00:00",
+      "items_pulled": 75,
+      "latency_ms": 2174,
+      "last_success": "2026-07-07T01:52:04.382423+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T01:47:30.771739+00:00",
+      "last_success": "2026-07-07T01:52:05.372375+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1999,
-      "last_success": "2026-07-07T01:47:32.771434+00:00",
+      "latency_ms": 1799,
+      "last_success": "2026-07-07T01:52:07.171715+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,366 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 120
+          "latency_ms": 104
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 179
+          "latency_ms": 91
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 30
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 207
+          "latency_ms": 463
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 92
+          "latency_ms": 121
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 177
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
-    "stocktwits": 25,
+    "stocktwits": 75,
     "cnbc": 8,
+    "uw_news": 25,
+    "reuters": 16,
     "zerohedge": 8,
     "massive_news": 50,
     "marketwatch": 8,
-    "reuters": 16,
     "seekingalpha": 7,
     "benzinga": 25,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "4158565dfc11e6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:51:50Z",
+      "title": "$TSLA up today, down tomorrow\u2026 the cycle continues.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658401283",
+      "author": "gloryb",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:51:50Z",
+      "text": "$TSLA up today, down tomorrow\u2026 the cycle continues.",
+      "description": "",
+      "handle": "gloryb",
+      "display_name": "ebjm",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bef37cb92c5539",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:51:22Z",
+      "title": "$SPY American market doesn\u2019t follow any other market.. \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658401269",
+      "author": "Richandbroke",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:51:22Z",
+      "text": "$SPY American market doesn\u2019t follow any other market.. \ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8",
+      "description": "",
+      "handle": "Richandbroke",
+      "display_name": "Richandbroke",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "39d62650f8c2b0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:51:22Z",
+      "title": "$MSFT Need to break 401$. Tidal wave formation.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658401268",
+      "author": "Miracolo",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:51:22Z",
+      "text": "$MSFT Need to break 401$. Tidal wave formation.",
+      "description": "",
+      "handle": "Miracolo",
+      "display_name": "Miracle",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0fdff7c88010e1",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 01:50:45 GMT",
+      "title": "Hanwha Ocean shares sink 23% as it loses bid to build Canada's next fleet of submarines",
+      "body": "Canadian Prime Minister Mark Carney announced Monday that\u00a0Germany's Thyssenkrupp Marine Systems would be the preferred supplier for delivering the submarines.",
+      "url": "https://www.cnbc.com/2026/07/07/hanwha-ocean-shares-sink-canada-submarines-tkms.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 01:50:45 GMT",
+      "text": "Hanwha Ocean shares sink 23% as it loses bid to build Canada's next fleet of submarines",
+      "description": "Canadian Prime Minister Mark Carney announced Monday that\u00a0Germany's Thyssenkrupp Marine Systems would be the preferred supplier for delivering the submarines."
+    },
+    {
+      "id": "8263caf52aedfb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:50:22Z",
+      "title": "$QQQ will open over 725. Guaranteed. Good night everyone",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658401235",
+      "author": "ghoosa39",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:50:22Z",
+      "text": "$QQQ will open over 725. Guaranteed. Good night everyone",
+      "description": "",
+      "handle": "ghoosa39",
+      "display_name": "Mark Owen",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b2bd5ae154791a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:50:11Z",
+      "title": "$QQQ imaging if Korean \u201cmeme\u201d stock index pump back to green . It will trigger short squeeze in /nq straight above 30k . Eyeing gap fill from last week\u2019s drop",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658401227",
+      "author": "qzz5013",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:50:11Z",
+      "text": "$QQQ imaging if Korean \u201cmeme\u201d stock index pump back to green . It will trigger short squeeze in /nq straight above 30k . Eyeing gap fill from last week\u2019s drop",
+      "description": "",
+      "handle": "qzz5013",
+      "display_name": "Quin",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "62170e90c72850",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:49:28Z",
+      "title": "$SPY question is, did you buy $740\nOn Friday or not. \n$QQQ \ud83d\udd10\ud83c\udfe6\ud83d\ude02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658401206",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:49:28Z",
+      "text": "$SPY question is, did you buy $740\nOn Friday or not. \n$QQQ \ud83d\udd10\ud83c\udfe6\ud83d\ude02",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8c5f7ad0c2342a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:49:28Z",
+      "title": "$SPY question is, did you buy $740\nOn Friday or not. \n$QQQ \ud83d\udd10\ud83c\udfe6\ud83d\ude02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658401206",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:49:28Z",
+      "text": "$SPY question is, did you buy $740\nOn Friday or not. \n$QQQ \ud83d\udd10\ud83c\udfe6\ud83d\ude02",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a1d0b3deb4d426",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:49:18Z",
+      "title": "$QQQ Eating your words yet?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658401194",
+      "author": "Danny280zx",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:49:18Z",
+      "text": "$QQQ Eating your words yet?",
+      "description": "",
+      "handle": "Danny280zx",
+      "display_name": "Daniel Jones",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "34925010b94cb6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:49:13Z",
+      "title": "$AMD 600 coming this week",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658401191",
+      "author": "Srinivas111",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:49:13Z",
+      "text": "$AMD 600 coming this week",
+      "description": "",
+      "handle": "Srinivas111",
+      "display_name": "Bullish2026-2030",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bf61cc8b1e0cd0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:48:48Z",
+      "title": "$SPY  \n \nI mean...team USA&#39;s hockey goalie received a medal from uncle Donny \n \n...",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658401170",
+      "author": "MurdaCwrote",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:48:48Z",
+      "text": "$SPY  \n \nI mean...team USA&#39;s hockey goalie received a medal from uncle Donny \n \n...",
+      "description": "",
+      "handle": "MurdaCwrote",
+      "display_name": "Theodore Karabatsos",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bce984d2367e58",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:48:42Z",
+      "title": "$SPY 50 pts on nq booked. I\u2019m out until next level+ setup.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658401167",
+      "author": "icharted",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:48:42Z",
+      "text": "$SPY 50 pts on nq booked. I\u2019m out until next level+ setup.",
+      "description": "",
+      "handle": "icharted",
+      "display_name": "Damon",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "adbcabb16d5435",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:48:10Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nYour tiny money means nothing\u2026there will be no mass adoption, no shift in global logic, and certainly no move to decimate the Dollar \ud83d\udcb5 world reserve currency \ud83d\ude02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658401144",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:48:10Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nYour tiny money means nothing\u2026there will be no mass adoption, no shift in global logic, and certainly no move to decimate the Dollar \ud83d\udcb5 world reserve currency \ud83d\ude02",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "39a02dcbbfb767",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:48:06Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658401142",
+      "author": "jm4",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:48:06Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "jm4",
+      "display_name": "JM",
+      "platform": "stocktwits"
+    },
     {
       "id": "2d16839172b11f",
       "source": "uw_news",
@@ -136,26 +453,26 @@
       "description": ""
     },
     {
-      "id": "b90e2dcf80ccd5",
+      "id": "f743fb8ea9b5d7",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-07T01:46:27Z",
-      "title": "$SPY $QqQ $Soxx \nGoing to be a pump n dump summer. \nThats how Wall Street rolls during scammy times. Its all the same.",
+      "timestamp": "2026-07-07T01:46:29Z",
+      "title": "$PLTR More nonsense. Stop lying. Or if you\u2019re not lying and just a moron, go do some research. Even your own nonsensical posts contradict each other.",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658401086",
-      "author": "jmoonstocks",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658401090",
+      "author": "TaterRater",
       "tickers": [
-        "SPY"
+        "PLTR"
       ],
       "tags": [],
       "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T01:46:27Z",
-      "text": "$SPY $QqQ $Soxx \nGoing to be a pump n dump summer. \nThats how Wall Street rolls during scammy times. Its all the same.",
+      "time": "2026-07-07T01:46:29Z",
+      "text": "$PLTR More nonsense. Stop lying. Or if you\u2019re not lying and just a moron, go do some research. Even your own nonsensical posts contradict each other.",
       "description": "",
-      "handle": "jmoonstocks",
-      "display_name": "jmoonstocks",
+      "handle": "TaterRater",
+      "display_name": "Jeaves",
       "platform": "stocktwits"
     },
     {
@@ -182,27 +499,40 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0bd27965aa9b26",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T01:46:23Z",
-      "title": "$SPY where\u2019s Mitch",
+      "id": "7bf08d2323279f",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 01:46:13",
+      "title": "Form 4 Astera Labs Inc For: 6 July",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658401082",
-      "author": "jm4",
-      "tickers": [
-        "SPY"
-      ],
+      "url": "https://www.investing.com/news/filings/form-4-astera-labs-inc-for-6-july-93CH-4778183",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T01:46:23Z",
-      "text": "$SPY where\u2019s Mitch",
-      "description": "",
-      "handle": "jm4",
-      "display_name": "JM",
-      "platform": "stocktwits"
+      "time": "2026-07-07 01:46:13",
+      "text": "Form 4 Astera Labs Inc For: 6 July",
+      "description": ""
+    },
+    {
+      "id": "5d115faabdecf1",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 01:45:55",
+      "title": "Ani Pharmaceuticals SVP & CFO Stephen Carey sells $284k in stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/ani-pharmaceuticals-svp--cfo-stephen-carey-sells-284k-in-stock-93CH-4778182",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 01:45:55",
+      "text": "Ani Pharmaceuticals SVP & CFO Stephen Carey sells $284k in stock",
+      "description": ""
     },
     {
       "id": "dbb214afefc56c",
@@ -228,136 +558,67 @@
       "platform": "stocktwits"
     },
     {
-      "id": "284c3de09e76b9",
+      "id": "ee1dd8541d1b43",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-07T01:44:55Z",
-      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nIRAN FIRED AT LEAST TWO MISSILES AT COMMERCIAL SHIPS TRANSITING THROUGH STRAIT OF HORMUZ -AXIOS, CITING U.S. OFFICIAL",
+      "timestamp": "2026-07-07T01:45:34Z",
+      "title": "$SMCI $AMD $NVDA  \nNeither AMD nor Nvidia has had their official corporate offices raided. However, authorities have raided facilities belonging to third-party tech firms, notably U.S.-based server maker Supermicro and some of its partners in Taiwan. \n \nNice try though! \ud83e\udd21",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658401011",
-      "author": "chamono1942",
+      "url": "https://stocktwits.com/symbol/AMD/message/658401040",
+      "author": "TheUnmaker",
       "tickers": [
-        "SPY"
+        "AMD"
       ],
       "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T01:44:55Z",
-      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nIRAN FIRED AT LEAST TWO MISSILES AT COMMERCIAL SHIPS TRANSITING THROUGH STRAIT OF HORMUZ -AXIOS, CITING U.S. OFFICIAL",
-      "description": "",
-      "handle": "chamono1942",
-      "display_name": "\uc774\ucca0\uc131",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "383ddeba8ee2f2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T01:44:41Z",
-      "title": "$SPY $QQQ \nUSA still 60-0 in Super Bowls.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658401003",
-      "author": "ItTakes2toContango",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 4.2,
       "impact_level": "LOW",
       "sentiment": "bullish",
-      "time": "2026-07-07T01:44:41Z",
-      "text": "$SPY $QQQ \nUSA still 60-0 in Super Bowls.",
+      "time": "2026-07-07T01:45:34Z",
+      "text": "$SMCI $AMD $NVDA  \nNeither AMD nor Nvidia has had their official corporate offices raided. However, authorities have raided facilities belonging to third-party tech firms, notably U.S.-based server maker Supermicro and some of its partners in Taiwan. \n \nNice try though! \ud83e\udd21",
       "description": "",
-      "handle": "ItTakes2toContango",
-      "display_name": "ItTakes2toContango",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
       "platform": "stocktwits"
     },
     {
-      "id": "91482af254a99b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T01:44:41Z",
-      "title": "$SPY $QQQ \nUSA still 60-0 in Super Bowls.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658401003",
-      "author": "ItTakes2toContango",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T01:44:41Z",
-      "text": "$SPY $QQQ \nUSA still 60-0 in Super Bowls.",
-      "description": "",
-      "handle": "ItTakes2toContango",
-      "display_name": "ItTakes2toContango",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "608155952b51c3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T01:44:18Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658400990",
-      "author": "MicroMachine1",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T01:44:18Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "MicroMachine1",
-      "display_name": "N",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0fdff7c88010e1",
-      "source": "cnbc",
+      "id": "84e2147b1b77bf",
+      "source": "reuters",
       "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 01:43:04 GMT",
-      "title": "Hanwha Ocean shares sink 23% as it loses bid to build Canada's next fleet of submarines",
-      "body": "Shares of Hanwha Ocean fell over 20% after the company lost the bidding war to Germany's ThyssenKrupp Marine Systems to build Canada's next fleet of submarines.",
-      "url": "https://www.cnbc.com/2026/07/07/hanwha-ocean-shares-sink-canada-submarines-tkms.html",
+      "timestamp": "2026-07-07 01:42:56",
+      "title": "Astera Labs director Manuel Alba sells $3.89m in company stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/astera-labs-director-manuel-alba-sells-389m-in-company-stock-93CH-4778181",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 9.5,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 01:43:04 GMT",
-      "text": "Hanwha Ocean shares sink 23% as it loses bid to build Canada's next fleet of submarines",
-      "description": "Shares of Hanwha Ocean fell over 20% after the company lost the bidding war to Germany's ThyssenKrupp Marine Systems to build Canada's next fleet of submarines."
+      "time": "2026-07-07 01:42:56",
+      "text": "Astera Labs director Manuel Alba sells $3.89m in company stock",
+      "description": ""
     },
     {
-      "id": "604fc996a3e9fe",
+      "id": "d8670e24483761",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-07T01:42:48Z",
-      "title": "$QQQ buying now around $700",
+      "timestamp": "2026-07-07T01:42:52Z",
+      "title": "$INFQ $GOOGL $IBM $SPY",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658400924",
-      "author": "stockandsex",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658400930",
+      "author": "MicroMachine1",
       "tickers": [
-        "QQQ"
+        "GOOGL"
       ],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 4.2,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T01:42:48Z",
-      "text": "$QQQ buying now around $700",
+      "time": "2026-07-07T01:42:52Z",
+      "text": "$INFQ $GOOGL $IBM $SPY",
       "description": "",
-      "handle": "stockandsex",
-      "display_name": "Stock Hunting",
+      "handle": "MicroMachine1",
+      "display_name": "N",
       "platform": "stocktwits"
     },
     {
@@ -430,16 +691,34 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e6128fc86db3ab",
+      "id": "d2cd9fb0e1fc6e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 01:42:27",
+      "title": "Soccer-FIFA rejects Belgium challenge over Balogun eligibility, Trump calls red card U-turn \u2019brilliant\u2019",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/uefa-says-fifa-crossed-a-red-line-with-balogun-red-card-uturn-at-world-cup-4776704",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 01:42:27",
+      "text": "Soccer-FIFA rejects Belgium challenge over Balogun eligibility, Trump calls red card U-turn \u2019brilliant\u2019",
+      "description": ""
+    },
+    {
+      "id": "0702e6c4c6735f",
       "source": "stocktwits",
       "source_type": "x_post",
       "timestamp": "2026-07-07T01:41:40Z",
       "title": "$SPY $QQQ $IWM \n\n$NOW  impressive bounce for the swing team today. Flows from 7/1",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658400865",
+      "url": "https://stocktwits.com/symbol/IWM/message/658400865",
       "author": "PivotPoint_101",
       "tickers": [
-        "QQQ"
+        "IWM"
       ],
       "tags": [],
       "impact_score": 4.2,
@@ -522,6 +801,29 @@
       "platform": "stocktwits"
     },
     {
+      "id": "b07b90d7b15c94",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:40:47Z",
+      "title": "$SMCI $AMD $NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658400817",
+      "author": "MicroMachine1",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:40:47Z",
+      "text": "$SMCI $AMD $NVDA",
+      "description": "",
+      "handle": "MicroMachine1",
+      "display_name": "N",
+      "platform": "stocktwits"
+    },
+    {
       "id": "ad1a0224805784",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -545,26 +847,90 @@
       "platform": "stocktwits"
     },
     {
-      "id": "49bbfdf0793b60",
+      "id": "a1f1894f2885a3",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-07T01:40:36Z",
-      "title": "$SPY $QQQ \nTrump firing off another letter to FIFA to have the result overturned.",
+      "timestamp": "2026-07-07T01:40:43Z",
+      "title": "$AMD $NVDA $SMCI",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658400806",
-      "author": "ItTakes2toContango",
+      "url": "https://stocktwits.com/symbol/AMD/message/658400811",
+      "author": "MicroMachine1",
       "tickers": [
-        "QQQ"
+        "AMD"
       ],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 4.2,
       "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T01:40:36Z",
-      "text": "$SPY $QQQ \nTrump firing off another letter to FIFA to have the result overturned.",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:40:43Z",
+      "text": "$AMD $NVDA $SMCI",
       "description": "",
-      "handle": "ItTakes2toContango",
-      "display_name": "ItTakes2toContango",
+      "handle": "MicroMachine1",
+      "display_name": "N",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "168aaf99378b04",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 01:40:07",
+      "title": "Form 4 Astera Labs Inc For: 6 July",
+      "body": "",
+      "url": "https://www.investing.com/news/filings/form-4-astera-labs-inc-for-6-july-93CH-4778180",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 01:40:07",
+      "text": "Form 4 Astera Labs Inc For: 6 July",
+      "description": ""
+    },
+    {
+      "id": "a5ed7d01eebe77",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:39:52Z",
+      "title": "$META Mark Cuckberg",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658400775",
+      "author": "bullishforeverbrah",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T01:39:52Z",
+      "text": "$META Mark Cuckberg",
+      "description": "",
+      "handle": "bullishforeverbrah",
+      "display_name": "bullishbrah",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "156b32c89c0359",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:39:28Z",
+      "title": "$AMD deport Lisa",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658400752",
+      "author": "bullishforeverbrah",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T01:39:28Z",
+      "text": "$AMD deport Lisa",
+      "description": "",
+      "handle": "bullishforeverbrah",
+      "display_name": "bullishbrah",
       "platform": "stocktwits"
     },
     {
@@ -591,27 +957,45 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0788f869e46fb3",
+      "id": "637e62e6ebbf83",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-07T01:39:17Z",
-      "title": "$TSLA deport Elon",
+      "timestamp": "2026-07-07T01:39:06Z",
+      "title": "$GOOGL &quot;BREAKOUT ALERT&quot; 36K TOTAL SUPPLY. 100K PRICE TARGET. https://yearn.fi/",
       "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658400739",
-      "author": "bullishforeverbrah",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658400728",
+      "author": "Sak12345",
       "tickers": [
-        "TSLA"
+        "GOOGL"
       ],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 4.2,
       "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T01:39:17Z",
-      "text": "$TSLA deport Elon",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:39:06Z",
+      "text": "$GOOGL &quot;BREAKOUT ALERT&quot; 36K TOTAL SUPPLY. 100K PRICE TARGET. https://yearn.fi/",
       "description": "",
-      "handle": "bullishforeverbrah",
-      "display_name": "bullishbrah",
+      "handle": "Sak12345",
+      "display_name": "Shane Allan",
       "platform": "stocktwits"
+    },
+    {
+      "id": "03798c63c20366",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 01:39:05",
+      "title": "Form 13D/A Abivax S.A. For: 6 July",
+      "body": "",
+      "url": "https://www.investing.com/news/filings/form-13da-abivax-sa-for-6-july-93CH-4778179",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 01:39:05",
+      "text": "Form 13D/A Abivax S.A. For: 6 July",
+      "description": ""
     },
     {
       "id": "d67b401cbad7a9",
@@ -630,6 +1014,111 @@
       "time": "2026-07-07T01:38:28Z",
       "text": "YEN GAINS VERSUS DOLLAR AS KIUCHI SPEAKS",
       "description": ""
+    },
+    {
+      "id": "cbb106851ccb50",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 01:37:48",
+      "title": "Form 4 Fold Holdings Inc For: 6 July",
+      "body": "",
+      "url": "https://www.investing.com/news/filings/form-4-fold-holdings-inc-for-6-july-93CH-4778178",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 01:37:48",
+      "text": "Form 4 Fold Holdings Inc For: 6 July",
+      "description": ""
+    },
+    {
+      "id": "8fd8f052af570d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:37:41Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nLooks like we have a surge of optimism here!\u2026let\u2019s watch how quickly that circlejerk gets squashed by real money grownups lol \ud83d\ude02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658400652",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:37:41Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nLooks like we have a surge of optimism here!\u2026let\u2019s watch how quickly that circlejerk gets squashed by real money grownups lol \ud83d\ude02",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fbf273d6387e27",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 01:37:28",
+      "title": "Form 4 Fold Holdings Inc For: 6 July",
+      "body": "",
+      "url": "https://www.investing.com/news/filings/form-4-fold-holdings-inc-for-6-july-93CH-4778177",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 01:37:28",
+      "text": "Form 4 Fold Holdings Inc For: 6 July",
+      "description": ""
+    },
+    {
+      "id": "ddc8ef21b41f23",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:36:33Z",
+      "title": "$AFRM $COIN $HOOD $MSTR $SOFI",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658400605",
+      "author": "Savvyguy",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:36:33Z",
+      "text": "$AFRM $COIN $HOOD $MSTR $SOFI",
+      "description": "",
+      "handle": "Savvyguy",
+      "display_name": "Bozo kindred",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "be069851df6215",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:36:33Z",
+      "title": "$AFRM $COIN $HOOD $MSTR $SOFI",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658400605",
+      "author": "Savvyguy",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:36:33Z",
+      "text": "$AFRM $COIN $HOOD $MSTR $SOFI",
+      "description": "",
+      "handle": "Savvyguy",
+      "display_name": "Bozo kindred",
+      "platform": "stocktwits"
     },
     {
       "id": "5eb4328b6471ab",
@@ -675,6 +1164,29 @@
       "description": "",
       "handle": "Kyurtt",
       "display_name": "Kyvon Tatham",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2c2c23f2621c4e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:34:57Z",
+      "title": "$MSTR &quot;BREAKOUT ALERT&quot; 36K TOTAL SUPPLY 100K PRICE TARGET. https://yearn.fi/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658400514",
+      "author": "Sak12345",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:34:57Z",
+      "text": "$MSTR &quot;BREAKOUT ALERT&quot; 36K TOTAL SUPPLY 100K PRICE TARGET. https://yearn.fi/",
+      "description": "",
+      "handle": "Sak12345",
+      "display_name": "Shane Allan",
       "platform": "stocktwits"
     },
     {
@@ -755,6 +1267,75 @@
       "description": ""
     },
     {
+      "id": "75499c9fb7d892",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:30:38Z",
+      "title": "$PLTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658400290",
+      "author": "Fernando36",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:30:38Z",
+      "text": "$PLTR",
+      "description": "",
+      "handle": "Fernando36",
+      "display_name": "Fernando Fernandez",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0988b1c1a8c344",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:30:29Z",
+      "title": "$AMZN selloff before close.. check out the volume.. nearly 3 million\u2026 240p ?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658400283",
+      "author": "Marcusmccord",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:30:29Z",
+      "text": "$AMZN selloff before close.. check out the volume.. nearly 3 million\u2026 240p ?",
+      "description": "",
+      "handle": "Marcusmccord",
+      "display_name": "G",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ad4bf767652c53",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:30:24Z",
+      "title": "2 Day Trades on $AMD and $COIN + $BA views on the chart! \n \nhttps://longvolreport.com/p/2-day-trades-1-value-play",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658400277",
+      "author": "BustaCapital",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:30:24Z",
+      "text": "2 Day Trades on $AMD and $COIN + $BA views on the chart! \n \nhttps://longvolreport.com/p/2-day-trades-1-value-play",
+      "description": "",
+      "handle": "BustaCapital",
+      "display_name": "Busta",
+      "platform": "stocktwits"
+    },
+    {
       "id": "9359d2761f3980",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -771,6 +1352,29 @@
       "time": "2026-07-07T01:30:00Z",
       "text": "Japan econmin Kiuchi: government blueprint\u2019s mention of monetary policy aligns with prior stance",
       "description": ""
+    },
+    {
+      "id": "5f82e5d703e7fe",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:29:57Z",
+      "title": "$GLD Wow!  The demolition crew is working late tonight!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658400252",
+      "author": "wysoserious",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:29:57Z",
+      "text": "$GLD Wow!  The demolition crew is working late tonight!",
+      "description": "",
+      "handle": "wysoserious",
+      "display_name": "wysoserious",
+      "platform": "stocktwits"
     },
     {
       "id": "e8c582aa8d6db2",
@@ -793,6 +1397,75 @@
       "description": "",
       "handle": "YouVSYou",
       "display_name": "Justin",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "09556b50c5095b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:29:24Z",
+      "title": "President Donald Trump said he expects to host Chinese President Xi Jinping in the U.S. around Sept. 24, a visit that would coincide with the U.N. General Assembly in New York. Trump mentioned the potential trip while discussing plans for a new White House ballroom, saying it would accommodate large",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658400218",
+      "author": "topstockalerts",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:29:24Z",
+      "text": "President Donald Trump said he expects to host Chinese President Xi Jinping in the U.S. around Sept. 24, a visit that would coincide with the U.N. General Assembly in New York. Trump mentioned the potential trip while discussing plans for a new White House ballroom, saying it would accommodate large",
+      "description": "",
+      "handle": "topstockalerts",
+      "display_name": "Top Stock Alerts",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1a26fc5e419336",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:28:58Z",
+      "title": "$MSFT 4 for 1 stock split \ud83d\ude33 \nBS aside to the moon boys!!! \nhttps://www.reddit.com/r/Palantir_Investors/s/DOGdLIHhQ5",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658400191",
+      "author": "Jdc5bangin9",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:28:58Z",
+      "text": "$MSFT 4 for 1 stock split \ud83d\ude33 \nBS aside to the moon boys!!! \nhttps://www.reddit.com/r/Palantir_Investors/s/DOGdLIHhQ5",
+      "description": "",
+      "handle": "Jdc5bangin9",
+      "display_name": "JR bernal",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "249b3f2c38440d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:28:19Z",
+      "title": "$BTC.X $ETH.X $MSTR $XRP.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658400155",
+      "author": "Whiplash_Investor",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:28:19Z",
+      "text": "$BTC.X $ETH.X $MSTR $XRP.X",
+      "description": "",
+      "handle": "Whiplash_Investor",
+      "display_name": "The Alchemist",
       "platform": "stocktwits"
     },
     {
@@ -819,6 +1492,29 @@
       "platform": "stocktwits"
     },
     {
+      "id": "474578aa790992",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:27:36Z",
+      "title": "Stocks And Precious Metals Charts - Falling VIX $BTC.X $GLD $SLV $SPX $VIX https://talkmarkets.com/article/stocks-and-precious-metals-charts---falling-vix-1783387592",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658400113",
+      "author": "TalkMarkets",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:27:36Z",
+      "text": "Stocks And Precious Metals Charts - Falling VIX $BTC.X $GLD $SLV $SPX $VIX https://talkmarkets.com/article/stocks-and-precious-metals-charts---falling-vix-1783387592",
+      "description": "",
+      "handle": "TalkMarkets",
+      "display_name": "TalkMarkets",
+      "platform": "stocktwits"
+    },
+    {
       "id": "3dfff90b5b3fe8",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -835,6 +1531,121 @@
       "time": "2026-07-07T01:27:01Z",
       "text": "CHINA CSI 300 INDEX FALLS 0.6% TO 4,813.87 AT OPEN",
       "description": ""
+    },
+    {
+      "id": "fc5c59f9af0d78",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:26:57Z",
+      "title": "$META expect the biggest announcement in the history of META any  day now I mean any day buy as much as you can before it goes to 700 am\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ufffc\ufffc\ufffc\ufffc",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658400073",
+      "author": "eric3432",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:26:57Z",
+      "text": "$META expect the biggest announcement in the history of META any  day now I mean any day buy as much as you can before it goes to 700 am\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ufffc\ufffc\ufffc\ufffc",
+      "description": "",
+      "handle": "eric3432",
+      "display_name": "Big E",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "17bf72916eb683",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:25:49Z",
+      "title": "@Ecafnaem seen you in 2 hours under 930. This stock since one month is the biggest pos i ever seen. Even $MSFT and $META doing  better now",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658400016",
+      "author": "Matth4550",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:25:49Z",
+      "text": "@Ecafnaem seen you in 2 hours under 930. This stock since one month is the biggest pos i ever seen. Even $MSFT and $META doing  better now",
+      "description": "",
+      "handle": "Matth4550",
+      "display_name": "Matth 4550",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b40185b4871d3f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:25:49Z",
+      "title": "@Ecafnaem seen you in 2 hours under 930. This stock since one month is the biggest pos i ever seen. Even $MSFT and $META doing  better now",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658400016",
+      "author": "Matth4550",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:25:49Z",
+      "text": "@Ecafnaem seen you in 2 hours under 930. This stock since one month is the biggest pos i ever seen. Even $MSFT and $META doing  better now",
+      "description": "",
+      "handle": "Matth4550",
+      "display_name": "Matth 4550",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "43b65a0dc58e70",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:25:28Z",
+      "title": "$PLTR Bulls/Bears, found this chart. What do you guys think?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658399992",
+      "author": "brainiac119",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:25:28Z",
+      "text": "$PLTR Bulls/Bears, found this chart. What do you guys think?",
+      "description": "",
+      "handle": "brainiac119",
+      "display_name": "Brian",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "82d61a54074a97",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:25:27Z",
+      "title": "$META next stop. the moon",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658399989",
+      "author": "Jimsonlima",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:25:27Z",
+      "text": "$META next stop. the moon",
+      "description": "",
+      "handle": "Jimsonlima",
+      "display_name": "Jimson Lima",
+      "platform": "stocktwits"
     },
     {
       "id": "a6b93ae334e0de",
@@ -873,6 +1684,52 @@
       "description": ""
     },
     {
+      "id": "abc06859cf0517",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:22:48Z",
+      "title": "$IWM buckle up were heading over 300",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658399838",
+      "author": "65creedmore",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:22:48Z",
+      "text": "$IWM buckle up were heading over 300",
+      "description": "",
+      "handle": "65creedmore",
+      "display_name": "A s",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "452d0b4a43ec41",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:21:37Z",
+      "title": "$AMZN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658399779",
+      "author": "Optomystic",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:21:37Z",
+      "text": "$AMZN",
+      "description": "",
+      "handle": "Optomystic",
+      "display_name": "Ed lvr",
+      "platform": "stocktwits"
+    },
+    {
       "id": "a078239e6d3c5c",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -909,6 +1766,29 @@
       "description": ""
     },
     {
+      "id": "bbc7059e0ead4a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:18:46Z",
+      "title": "$NVDA $SPY yeah I heard on closing bell on CNBC that there was hundred of millions of dollars bet on Nvidia in a short term to get to $200 $AMD $MU $MSFT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658399647",
+      "author": "Mercy_forever",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:18:46Z",
+      "text": "$NVDA $SPY yeah I heard on closing bell on CNBC that there was hundred of millions of dollars bet on Nvidia in a short term to get to $200 $AMD $MU $MSFT",
+      "description": "",
+      "handle": "Mercy_forever",
+      "display_name": "Caroline",
+      "platform": "stocktwits"
+    },
+    {
       "id": "99fa245e30447d",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -927,6 +1807,52 @@
       "description": ""
     },
     {
+      "id": "9b1b2a76f0be60",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:18:20Z",
+      "title": "$COIN BUY TRUMP COIN RAREST MEME IN THE WORLD 1 BILLION OUTSTANDING MOST MEMES ARE TRILLIONS OR UNLIMITED SUPPLY. https://gettrumpmemes.com/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658399625",
+      "author": "Sak12345",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:18:20Z",
+      "text": "$COIN BUY TRUMP COIN RAREST MEME IN THE WORLD 1 BILLION OUTSTANDING MOST MEMES ARE TRILLIONS OR UNLIMITED SUPPLY. https://gettrumpmemes.com/",
+      "description": "",
+      "handle": "Sak12345",
+      "display_name": "Shane Allan",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e26444b9273f2a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:18:03Z",
+      "title": "$AMZN Why does this never go up anywhere significant?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658399618",
+      "author": "sgmd2000",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:18:03Z",
+      "text": "$AMZN Why does this never go up anywhere significant?",
+      "description": "",
+      "handle": "sgmd2000",
+      "display_name": "Supriya Sood",
+      "platform": "stocktwits"
+    },
+    {
       "id": "250f0951f9e8d1",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -943,6 +1869,144 @@
       "time": "2026-07-07T01:17:54Z",
       "text": "People\u2019s Bank of China governor Pan: Southbound bond connect limit raised from 500 billion to 800 billion yuan",
       "description": ""
+    },
+    {
+      "id": "773bc9839e6b73",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:16:30Z",
+      "title": "$MSFT deport Nutella",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658399558",
+      "author": "bullishforeverbrah",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T01:16:30Z",
+      "text": "$MSFT deport Nutella",
+      "description": "",
+      "handle": "bullishforeverbrah",
+      "display_name": "bullishbrah",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a9584de811078b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:15:15Z",
+      "title": "https://open.substack.com/pub/jfdi/p/jupiter-in-leo-the-courage-to-be?r=35113j&amp;utm_campaign=post-expanded-share&amp;utm_medium=web \n \n$SPY $QQQ $IWM",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658399498",
+      "author": "JFDI",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:15:15Z",
+      "text": "https://open.substack.com/pub/jfdi/p/jupiter-in-leo-the-courage-to-be?r=35113j&amp;utm_campaign=post-expanded-share&amp;utm_medium=web \n \n$SPY $QQQ $IWM",
+      "description": "",
+      "handle": "JFDI",
+      "display_name": "Nicholas",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "30e646c26f4700",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:14:37Z",
+      "title": "$IWM  $SPY  $TLT  \n \nFor decades, traders have been misled by price\u2011based education that treats candles, patterns, and breakouts as if they reveal the market\u2019s intention. This approach is fundamentally flawed. Price is lagging, reactive, and easily distorted, yet it remains the centerpiece of retail",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658399472",
+      "author": "SmartMoneyGuy",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:14:37Z",
+      "text": "$IWM  $SPY  $TLT  \n \nFor decades, traders have been misled by price\u2011based education that treats candles, patterns, and breakouts as if they reveal the market\u2019s intention. This approach is fundamentally flawed. Price is lagging, reactive, and easily distorted, yet it remains the centerpiece of retail",
+      "description": "",
+      "handle": "SmartMoneyGuy",
+      "display_name": "SmartMoneyGuy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6d924bb95cbed3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:12:40Z",
+      "title": "$SLV $GLD Rates aren&#39;t going up. Debt is too high and rates need to be below inflation for government to dig out. It&#39;s also an election year, it&#39;s a fakeout.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658399385",
+      "author": "afterhoursearnings",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:12:40Z",
+      "text": "$SLV $GLD Rates aren&#39;t going up. Debt is too high and rates need to be below inflation for government to dig out. It&#39;s also an election year, it&#39;s a fakeout.",
+      "description": "",
+      "handle": "afterhoursearnings",
+      "display_name": "Unknown",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "06fe0d61b51c04",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:11:21Z",
+      "title": "$QQQ $SPCX the moment we all been waiting for $META $RDDT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658399327",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T01:11:21Z",
+      "text": "$QQQ $SPCX the moment we all been waiting for $META $RDDT",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b90ea537629a2d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T01:10:31Z",
+      "title": "$COIN $HOOD \nOnly swings currently active.\n40-50% cash currently",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658399294",
+      "author": "john_rubias",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T01:10:31Z",
+      "text": "$COIN $HOOD \nOnly swings currently active.\n40-50% cash currently",
+      "description": "",
+      "handle": "john_rubias",
+      "display_name": "John Rubias",
+      "platform": "stocktwits"
     },
     {
       "id": "1bbe0b06ab92fd",
@@ -1099,6 +2163,29 @@
       "description": ""
     },
     {
+      "id": "3bc8183cbfbd41",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T00:57:42Z",
+      "title": "$COIN proud purchase this morning, how much more can you give me",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658398587",
+      "author": "Terra_Inc",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T00:57:42Z",
+      "text": "$COIN proud purchase this morning, how much more can you give me",
+      "description": "",
+      "handle": "Terra_Inc",
+      "display_name": "Terra Inc",
+      "platform": "stocktwits"
+    },
+    {
       "id": "1f24d225516692",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1139,6 +2226,52 @@
       "description": ""
     },
     {
+      "id": "4dbf78642dfbee",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T00:55:40Z",
+      "title": "$AMZN if we could get a full rotation into hyperscalers that&#39;d be great",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658398483",
+      "author": "Maverickyo1",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T00:55:40Z",
+      "text": "$AMZN if we could get a full rotation into hyperscalers that&#39;d be great",
+      "description": "",
+      "handle": "Maverickyo1",
+      "display_name": "Mav Luke",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d5637b61aef4be",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T00:55:29Z",
+      "title": "$PLTR More sell off comming.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658398472",
+      "author": "DookieDungaroos",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T00:55:29Z",
+      "text": "$PLTR More sell off comming.",
+      "description": "",
+      "handle": "DookieDungaroos",
+      "display_name": "Dookie Williams",
+      "platform": "stocktwits"
+    },
+    {
       "id": "9b65cbd69ad7bb",
       "source": "zerohedge",
       "source_type": "rss",
@@ -1175,6 +2308,52 @@
       "time": "2026-07-07T00:54:31Z",
       "text": "Pender Growth Fund Portfolio Company, General Fusion, Receives Shareholder Approval for Proposed Business Combination",
       "description": ""
+    },
+    {
+      "id": "4c8f95cbd21375",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T00:51:11Z",
+      "title": "$AMZN 240\u2019s again? None will touch it until 251 per most options subscription fella s.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658398301",
+      "author": "Marcusmccord",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T00:51:11Z",
+      "text": "$AMZN 240\u2019s again? None will touch it until 251 per most options subscription fella s.",
+      "description": "",
+      "handle": "Marcusmccord",
+      "display_name": "G",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cc854b09700bf5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T00:44:53Z",
+      "title": "$PLTR SOLD (4000) PLTR @ $133.37 \nSOLD (2500) PLTR @ $133.39 - Cost $122.24 \nREALIZED GAIN of $72,400 \nStill Long (23,500) \nTotal Realized Gain to Date is $305,400",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658398056",
+      "author": "albabynyr",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T00:44:53Z",
+      "text": "$PLTR SOLD (4000) PLTR @ $133.37 \nSOLD (2500) PLTR @ $133.39 - Cost $122.24 \nREALIZED GAIN of $72,400 \nStill Long (23,500) \nTotal Realized Gain to Date is $305,400",
+      "description": "",
+      "handle": "albabynyr",
+      "display_name": "albabynyr",
+      "platform": "stocktwits"
     },
     {
       "id": "5fa82b717dcc89",
@@ -1368,6 +2547,52 @@
       "description": "Micron Breaks Ground On $9 Billion Hiroshima Memory Chip Plant\n\n            US memory giant Micron Technology on Saturday broke ground on the expansion of its factory in Japan's Hiroshima Prefecture, a \u00a51.5 trillion ($9.3 billion) undertaking to produce advanced memory chips, Bloomberg reported.\u00a0\n\nT"
     },
     {
+      "id": "b6ef7fbf938d65",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T00:03:17Z",
+      "title": "$JNUG $GDX $B $SLV $GLD  \n\u274cHong Kong US dollar gold futures trading hits record high ahead of clearing system launch\u274c \n \nThe surge comes as the city pushes to become a global bullion trading and storage hub \n \n\u27a1\ufe0f&quot;...an important step... supporting Hong Kong&#39;s development as a leading intern",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658396012",
+      "author": "FatDuck3",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T00:03:17Z",
+      "text": "$JNUG $GDX $B $SLV $GLD  \n\u274cHong Kong US dollar gold futures trading hits record high ahead of clearing system launch\u274c \n \nThe surge comes as the city pushes to become a global bullion trading and storage hub \n \n\u27a1\ufe0f&quot;...an important step... supporting Hong Kong&#39;s development as a leading intern",
+      "description": "",
+      "handle": "FatDuck3",
+      "display_name": "Richard Costri",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "558c041c1679bc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:52:20Z",
+      "title": "BMO Capital Markets reaffirmed Alphabet as its top pick in the internet sector, maintaining an Outperform rating and arguing that recent AI talent departures have created an attractive buying opportunity. \nThe firm said Alphabet shares have fallen about 10% since prominent AI researchers, including ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658395392",
+      "author": "topstockalerts",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:52:20Z",
+      "text": "BMO Capital Markets reaffirmed Alphabet as its top pick in the internet sector, maintaining an Outperform rating and arguing that recent AI talent departures have created an attractive buying opportunity. \nThe firm said Alphabet shares have fallen about 10% since prominent AI researchers, including ",
+      "description": "",
+      "handle": "topstockalerts",
+      "display_name": "Top Stock Alerts",
+      "platform": "stocktwits"
+    },
+    {
       "id": "62aee518b99b0b",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1451,6 +2676,29 @@
       "time": "Mon, 06 Jul 2026 23:19:34 GMT",
       "text": "Balogun to start for U.S. vs. Belgium after Trump defends call to FIFA",
       "description": "FIFA reversed Folarin Balogun\u2019s suspension after Trump sought a review, letting the U.S. striker play Belgium as officials objected."
+    },
+    {
+      "id": "44b26d49b6e59f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T23:15:35Z",
+      "title": "$SLV int rates going higher not good for slv $GLD",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658393341",
+      "author": "GreatGP",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T23:15:35Z",
+      "text": "$SLV int rates going higher not good for slv $GLD",
+      "description": "",
+      "handle": "GreatGP",
+      "display_name": "gp weidinger",
+      "platform": "stocktwits"
     },
     {
       "id": "381cb82e97393b",
@@ -1610,6 +2858,29 @@
       "description": "LGI Homes reported closing 496 homes in June 2026, an 8.5% increase year-over-year, and 1,440 homes in Q2 2026, an 8.8% increase compared to Q2 2025. The company operates 151 active selling communities across 36 markets in 21 states and will release detailed financial results on August 4, 2026."
     },
     {
+      "id": "41abece672181e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T22:32:58Z",
+      "title": "AI infrastructure spending remains the biggest market theme to watch  \n \nCurrent hyperscaler 2026 capex estimates: ~$725B \n \nMajor spenders: \n \n$AMZN - ~$200B \n$MSFT - ~$190B \n$GOOGL - ~$190B \n$META - ~$145B \n \nAll four report earnings in late July, and updated 2026 capex guidance could become a maj",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658390768",
+      "author": "SwingTraderPro1",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T22:32:58Z",
+      "text": "AI infrastructure spending remains the biggest market theme to watch  \n \nCurrent hyperscaler 2026 capex estimates: ~$725B \n \nMajor spenders: \n \n$AMZN - ~$200B \n$MSFT - ~$190B \n$GOOGL - ~$190B \n$META - ~$145B \n \nAll four report earnings in late July, and updated 2026 capex guidance could become a maj",
+      "description": "",
+      "handle": "SwingTraderPro1",
+      "display_name": "Judy Reade",
+      "platform": "stocktwits"
+    },
+    {
       "id": "46c4d0c323e11f",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1688,6 +2959,29 @@
       "time": "2026-07-06T22:28:00Z",
       "text": "Hub Group, Inc. (HUBG) Faces Securities Class Action \u2014 Hagens Berman Investigates Claims of False Financial Reporting",
       "description": "Hub Group faces a securities class action lawsuit for materially misstated financial reports dating back to 2023, involving premature revenue recognition and understatement of costs. The company's stock plummeted following disclosures in February and May 2026, resulting in over $890 million in marke"
+    },
+    {
+      "id": "ed553e68afd967",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-06T22:26:29Z",
+      "title": "$GOOGL $DASH $UBER \n \nGoogle may be quietly expanding Gemini deeper into everyday consumer behavior. \n \nReports suggest Google Maps is working on an AI-powered feature that could let users discover restaurants and place food orders directly inside the app. \n \nIf rolled out at scale, this could resha",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658390429",
+      "author": "WhaleTracker_",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T22:26:29Z",
+      "text": "$GOOGL $DASH $UBER \n \nGoogle may be quietly expanding Gemini deeper into everyday consumer behavior. \n \nReports suggest Google Maps is working on an AI-powered feature that could let users discover restaurants and place food orders directly inside the app. \n \nIf rolled out at scale, this could resha",
+      "description": "",
+      "handle": "WhaleTracker_",
+      "display_name": "Bradly",
+      "platform": "stocktwits"
     },
     {
       "id": "6f63eb4434ff18",
@@ -1922,114 +3216,6 @@
       "description": "Exyn Technologies reported Q1 2026 results following its May 2026 IPO on Nasdaq, raising $19.4 million. Revenue declined slightly to $1.19 million from $1.22 million year-over-year, but gross margin improved significantly to 42.2% from 35.6%. The company launched Exyn Defense as a dedicated defense-"
     },
     {
-      "id": "b0952983733771",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 21:30:44",
-      "title": "JELD-WEN EVP & CFO Stoddard sells $1,775 in JELD stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/jeldwen-evp--cfo-stoddard-sells-1775-in-jeld-stock-93CH-4777730",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 21:30:44",
-      "text": "JELD-WEN EVP & CFO Stoddard sells $1,775 in JELD stock",
-      "description": ""
-    },
-    {
-      "id": "97c5aeee72e45d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 21:30:44",
-      "title": "Form 4 Arteris Inc For: 6 July",
-      "body": "",
-      "url": "https://www.investing.com/news/filings/form-4-arteris-inc-for-6-july-93CH-4777729",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 21:30:44",
-      "text": "Form 4 Arteris Inc For: 6 July",
-      "description": ""
-    },
-    {
-      "id": "5f4e9a15284675",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 21:30:41",
-      "title": "Rivian forecasts quarterly revenue above estimates",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/rivian-forecasts-quarterly-revenue-above-estimates-4777728",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 21:30:41",
-      "text": "Rivian forecasts quarterly revenue above estimates",
-      "description": ""
-    },
-    {
-      "id": "8afb3d5f0d3638",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 21:30:10",
-      "title": "Form 4 AeroVironment Inc For: 6 July",
-      "body": "",
-      "url": "https://www.investing.com/news/filings/form-4-aerovironment-inc-for-6-july-93CH-4777727",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 21:30:10",
-      "text": "Form 4 AeroVironment Inc For: 6 July",
-      "description": ""
-    },
-    {
-      "id": "f1db4518777583",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 21:30:06",
-      "title": "Form 4 Covenant Logistics Group Inc For: 6 July",
-      "body": "",
-      "url": "https://www.investing.com/news/filings/form-4-covenant-logistics-group-inc-for-6-july-93CH-4777726",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 21:30:06",
-      "text": "Form 4 Covenant Logistics Group Inc For: 6 July",
-      "description": ""
-    },
-    {
-      "id": "b40f35069c0acd",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 21:30:03",
-      "title": "Mexico stocks higher at close of trade; S&P/BMV IPC up 0.61%",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/mexico-stocks-higher-at-close-of-trade-spbmv-ipc-up-061-4777725",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 21:30:03",
-      "text": "Mexico stocks higher at close of trade; S&P/BMV IPC up 0.61%",
-      "description": ""
-    },
-    {
       "id": "c8ebbf655c240f",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2050,42 +3236,6 @@
       "time": "2026-07-06T21:30:00Z",
       "text": "Meta Platforms Is Entering the Neocloud Business. Here's Why CoreWeave Investors Should Not Worry.",
       "description": "CoreWeave stock dropped 18% after Meta announced entry into the neocloud business. However, the article argues CoreWeave investors shouldn't worry due to the industry's rapid 46% CAGR growth, CoreWeave's 112% yearly revenue increase, its Nvidia partnership providing competitive advantages, and an at"
-    },
-    {
-      "id": "46879e0a636818",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 21:29:38",
-      "title": "Rivian stock tumbles on 75 million share offering announcement",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/rivian-stock-tumbles-on-75-million-share-offering-announcement-93CH-4777724",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 21:29:38",
-      "text": "Rivian stock tumbles on 75 million share offering announcement",
-      "description": ""
-    },
-    {
-      "id": "e72a25fcba486f",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06 21:28:50",
-      "title": "Cloudastructure revises capital structure, eliminates variable conversion feature",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/cloudastructure-revises-capital-structure-eliminates-variable-conversion-feature-93CH-4777723",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06 21:28:50",
-      "text": "Cloudastructure revises capital structure, eliminates variable conversion feature",
-      "description": ""
     },
     {
       "id": "36d052fa9ce5a3",
@@ -2941,7 +4091,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 16:54:57 -0400",
       "title": "'China\u2019s Alibaba bans Anthropic AI for employees after \u2018distillation attack\u2019 accusation'- CNBC",
-      "body": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html?&amp;qsearchterm=alibaba",
+      "body": "4:54 PM EDT, July 06, 2026 (Benzinga Newswire) https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html?&amp;qsearchterm=alibabaWrite to Benzinga at editorial@benzinga.com",
       "url": "https://www.benzinga.com/news/26/07/60293715/china-s-alibaba-bans-anthropic-ai-employees-after-distillation-attack-accusation-cnbc",
       "author": "Benzinga Newsdesk",
       "tickers": [
@@ -2957,7 +4107,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 16:54:57 -0400",
       "text": "'China\u2019s Alibaba bans Anthropic AI for employees after \u2018distillation attack\u2019 accusation'- CNBC",
-      "description": "https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html?&amp;qsearchterm=alibaba",
+      "description": "4:54 PM EDT, July 06, 2026 (Benzinga Newswire) https://www.cnbc.com/2026/07/06/alibaba-anthropic-ai-ban-claude-china.html?&amp;qsearchterm=alibabaWrite to Benzinga at editorial@benzinga.com",
       "channels": [
         "News"
       ]
@@ -2968,7 +4118,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 16:24:05 -0400",
       "title": "Microsoft is Cutting 4,800 Jobs: Is AI To Blame? Yes And No",
-      "body": "Microsoft Corporation (NASDAQ:MSFT) announced 4,800 job eliminations on Monday in a company note. The job cuts have sparked fears of artificial intelligence replacing human roles at one of the largest companies in the world, but the company has an explanation.\n\n\n\nMicrosoft Job Cuts\n\n\n\nOn Monday, Microsoft confirmed recent reports that the technology giant is cutting jobs.\n\n\n\nMicrosoft\u2019s Chief Peop",
+      "body": "4:24 PM EDT, July 06, 2026 (Benzinga Newswire) Microsoft Corporation (NASDAQ:MSFT) announced 4,800 job eliminations on Monday in a company note. The job cuts have sparked fears of artificial intelligence replacing human roles at one of the largest companies in the world, but the company has an explanation.\n\n\n\nMicrosoft Job Cuts\n\n\n\nOn Monday, Microsoft confirmed recent reports that the technology g",
       "url": "https://www.benzinga.com/markets/tech/26/07/60292782/microsoft-is-cutting-4800-jobs-is-ai-to-blame-yes-and-no",
       "author": "Chris Katje",
       "tickers": [
@@ -2983,7 +4133,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 16:24:05 -0400",
       "text": "Microsoft is Cutting 4,800 Jobs: Is AI To Blame? Yes And No",
-      "description": "Microsoft Corporation (NASDAQ:MSFT) announced 4,800 job eliminations on Monday in a company note. The job cuts have sparked fears of artificial intelligence replacing human roles at one of the largest companies in the world, but the company has an explanation.\n\n\n\nMicrosoft Job Cuts\n\n\n\nOn Monday, Microsoft confirmed recent reports that the technology giant is cutting jobs.\n\n\n\nMicrosoft\u2019s Chief Peop",
+      "description": "4:24 PM EDT, July 06, 2026 (Benzinga Newswire) Microsoft Corporation (NASDAQ:MSFT) announced 4,800 job eliminations on Monday in a company note. The job cuts have sparked fears of artificial intelligence replacing human roles at one of the largest companies in the world, but the company has an explanation.\n\n\n\nMicrosoft Job Cuts\n\n\n\nOn Monday, Microsoft confirmed recent reports that the technology g",
       "channels": [
         "Tech"
       ]
@@ -2994,7 +4144,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 16:16:14 -0400",
       "title": "Corgi's ETF Pack Grows Yet Again with 24 New Leveraged and Buffer Launches",
-      "body": "Corgi has continued its aggressive expansion in the ETF market with the launch of 24 new funds on the Cboe BZX Exchange, adding 15 leveraged 2x Daily ETFs and nine July Series Structured Buffer ETFs last week. \n\n\n\nThe latest rollout follows an extraordinary June for the issuer, when Corgi launched 95 ETFs \u2014 accounting for around 44% of the 214 ETF debuts during the month \u2014 as it rapidly built out ",
+      "body": "4:16 PM EDT, July 06, 2026 (Benzinga Newswire) Corgi has continued its aggressive expansion in the ETF market with the launch of 24 new funds on the Cboe BZX Exchange, adding 15 leveraged 2x Daily ETFs and nine July Series Structured Buffer ETFs last week. \n\n\n\nThe latest rollout follows an extraordinary June for the issuer, when Corgi launched 95 ETFs \u2014 accounting for around 44% of the 214 ETF deb",
       "url": "https://www.benzinga.com/etfs/new-etfs/26/07/60292541/corgis-etf-pack-grows-yet-again-with-24-new-leveraged-and-buffer-launches",
       "author": "Chandrima Sanyal",
       "tickers": [
@@ -3013,7 +4163,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 16:16:14 -0400",
       "text": "Corgi's ETF Pack Grows Yet Again with 24 New Leveraged and Buffer Launches",
-      "description": "Corgi has continued its aggressive expansion in the ETF market with the launch of 24 new funds on the Cboe BZX Exchange, adding 15 leveraged 2x Daily ETFs and nine July Series Structured Buffer ETFs last week. \n\n\n\nThe latest rollout follows an extraordinary June for the issuer, when Corgi launched 95 ETFs \u2014 accounting for around 44% of the 214 ETF debuts during the month \u2014 as it rapidly built out ",
+      "description": "4:16 PM EDT, July 06, 2026 (Benzinga Newswire) Corgi has continued its aggressive expansion in the ETF market with the launch of 24 new funds on the Cboe BZX Exchange, adding 15 leveraged 2x Daily ETFs and nine July Series Structured Buffer ETFs last week. \n\n\n\nThe latest rollout follows an extraordinary June for the issuer, when Corgi launched 95 ETFs \u2014 accounting for around 44% of the 214 ETF deb",
       "channels": [
         "Trading Ideas",
         "ETFs",
@@ -3026,7 +4176,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 15:32:05 -0400",
       "title": "Samsung 147% Stock Gain Helps Chairman Double Net Worth In 2026",
-      "body": "Rising demand for semiconductors has helped boost the valuation of Samsung Electronics (OTC:SSNLF) and the wealth of its largest shareholders. The company\u2019s chairman has quietly doubled his net worth in 2026.\n\n\n\nSamsung Chairman Doubles Net Worth\n\n\n\nSamsung is set to report quarterly financial results this week, an event that could help further boost shares of the semiconductor company that are al",
+      "body": "3:32 PM EDT, July 06, 2026 (Benzinga Newswire) Rising demand for semiconductors has helped boost the valuation of Samsung Electronics (OTC:SSNLF) and the wealth of its largest shareholders. The company\u2019s chairman has quietly doubled his net worth in 2026.\n\n\n\nSamsung Chairman Doubles Net Worth\n\n\n\nSamsung is set to report quarterly financial results this week, an event that could help further boost ",
       "url": "https://www.benzinga.com/markets/asia/26/07/60290901/samsung-147-stock-gain-helps-chairman-double-net-worth-in-2026",
       "author": "Chris Katje",
       "tickers": [
@@ -3042,7 +4192,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 15:32:05 -0400",
       "text": "Samsung 147% Stock Gain Helps Chairman Double Net Worth In 2026",
-      "description": "Rising demand for semiconductors has helped boost the valuation of Samsung Electronics (OTC:SSNLF) and the wealth of its largest shareholders. The company\u2019s chairman has quietly doubled his net worth in 2026.\n\n\n\nSamsung Chairman Doubles Net Worth\n\n\n\nSamsung is set to report quarterly financial results this week, an event that could help further boost shares of the semiconductor company that are al",
+      "description": "3:32 PM EDT, July 06, 2026 (Benzinga Newswire) Rising demand for semiconductors has helped boost the valuation of Samsung Electronics (OTC:SSNLF) and the wealth of its largest shareholders. The company\u2019s chairman has quietly doubled his net worth in 2026.\n\n\n\nSamsung Chairman Doubles Net Worth\n\n\n\nSamsung is set to report quarterly financial results this week, an event that could help further boost ",
       "channels": [
         "Management",
         "Asia"
@@ -3054,7 +4204,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 15:07:29 -0400",
       "title": "ALAB Shares Rise as Sector Rebounds from June Slump",
-      "body": "Astera Labs Inc (NASDAQ: ALAB) shares are climbing Monday as strength returns to the semiconductor group, with chip stocks bouncing back from a choppy late June on renewed conviction in demand across the sector.\n\n\n\n\nAstera Labs stock is among Monday&#8217;s top performers. Why is ALAB stock up today?\n\n\n\n\nDRAM Demand and AI Conviction Lift the Group\n\n\n\nThe memory market set the tone. DRAM names sur",
+      "body": "3:07 PM EDT, July 06, 2026 (Benzinga Newswire) Astera Labs Inc (NASDAQ: ALAB) shares are climbing Monday as strength returns to the semiconductor group, with chip stocks bouncing back from a choppy late June on renewed conviction in demand across the sector.\n\n\n\n\nAstera Labs stock is among Monday&#8217;s top performers. Why is ALAB stock up today?\n\n\n\n\nDRAM Demand and AI Conviction Lift the Group\n\n\n",
       "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60290296/alab-shares-rise-as-sector-rebounds-from-june-slump",
       "author": "Evette Mitkov",
       "tickers": [
@@ -3068,7 +4218,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 15:07:29 -0400",
       "text": "ALAB Shares Rise as Sector Rebounds from June Slump",
-      "description": "Astera Labs Inc (NASDAQ: ALAB) shares are climbing Monday as strength returns to the semiconductor group, with chip stocks bouncing back from a choppy late June on renewed conviction in demand across the sector.\n\n\n\n\nAstera Labs stock is among Monday&#8217;s top performers. Why is ALAB stock up today?\n\n\n\n\nDRAM Demand and AI Conviction Lift the Group\n\n\n\nThe memory market set the tone. DRAM names sur",
+      "description": "3:07 PM EDT, July 06, 2026 (Benzinga Newswire) Astera Labs Inc (NASDAQ: ALAB) shares are climbing Monday as strength returns to the semiconductor group, with chip stocks bouncing back from a choppy late June on renewed conviction in demand across the sector.\n\n\n\n\nAstera Labs stock is among Monday&#8217;s top performers. Why is ALAB stock up today?\n\n\n\n\nDRAM Demand and AI Conviction Lift the Group\n\n\n",
       "channels": [
         "Trading Ideas",
         "Movers",
@@ -3081,7 +4231,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 14:15:00 -0400",
       "title": "Why Apple And Palantir Could Become Wall Street's New AI Favorites",
-      "body": "For much of the past two years, investors have poured billions into the semiconductor businesses that are powering the artificial intelligence boom. \n\n\n\nBut after a spectacular rise that propelled many semiconductor stocks to stratospheric prices, institutional money is starting to migrate elsewhere.\n\n\n\nRecently, that trend has favored Apple Inc. (NASDAQ:AAPL) and Palantir Technologies Inc. (NASDA",
+      "body": "2:15 PM EDT, July 06, 2026 (Benzinga Newswire) For much of the past two years, investors have poured billions into the semiconductor businesses that are powering the artificial intelligence boom. \n\n\n\nBut after a spectacular rise that propelled many semiconductor stocks to stratospheric prices, institutional money is starting to migrate elsewhere.\n\n\n\nRecently, that trend has favored Apple Inc. (NAS",
       "url": "https://www.benzinga.com/Opinion/26/07/60289007/why-apple-and-palantir-could-become-wall-streets-new-ai-favorites",
       "author": "Victor Olanrewaju",
       "tickers": [
@@ -3092,12 +4242,12 @@
         "CAT"
       ],
       "tags": [],
-      "impact_score": 9.4,
+      "impact_score": 9.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 14:15:00 -0400",
       "text": "Why Apple And Palantir Could Become Wall Street's New AI Favorites",
-      "description": "For much of the past two years, investors have poured billions into the semiconductor businesses that are powering the artificial intelligence boom. \n\n\n\nBut after a spectacular rise that propelled many semiconductor stocks to stratospheric prices, institutional money is starting to migrate elsewhere.\n\n\n\nRecently, that trend has favored Apple Inc. (NASDAQ:AAPL) and Palantir Technologies Inc. (NASDA",
+      "description": "2:15 PM EDT, July 06, 2026 (Benzinga Newswire) For much of the past two years, investors have poured billions into the semiconductor businesses that are powering the artificial intelligence boom. \n\n\n\nBut after a spectacular rise that propelled many semiconductor stocks to stratospheric prices, institutional money is starting to migrate elsewhere.\n\n\n\nRecently, that trend has favored Apple Inc. (NAS",
       "channels": [
         "Trading Ideas",
         "Equities",
@@ -3110,7 +4260,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 14:04:53 -0400",
       "title": "Microsoft Lays Off 4,800 Employees: What Next for MSFT Stock",
-      "body": "Microsoft Corp. (NASDAQ:MSFT) is starting its new fiscal year with a substantial personnel cut. \n\n\n\nThe tech behemoth announced Monday it will cut about 4,800 jobs. That\u2019s around 2.1% of its worldwide staff. According to Benzinga&#8217;s findings, most of the cutbacks are in the company&#8217;s sales, consultancy, and Xbox gaming units.&nbsp;\n\n\n\nMicrosoft Layoffs Happen Again: Why? \n\n\n\nSo why is t",
+      "body": "2:04 PM EDT, July 06, 2026 (Benzinga Newswire) Microsoft Corp. (NASDAQ:MSFT) is starting its new fiscal year with a substantial personnel cut. \n\n\n\nThe tech behemoth announced Monday it will cut about 4,800 jobs. That\u2019s around 2.1% of its worldwide staff. According to Benzinga&#8217;s findings, most of the cutbacks are in the company&#8217;s sales, consultancy, and Xbox gaming units.&nbsp;\n\n\n\nMicro",
       "url": "https://www.benzinga.com/Opinion/26/07/60288743/microsoft-lays-off-4800-employees-what-next-for-msft-stock",
       "author": "Victor Olanrewaju",
       "tickers": [
@@ -3122,7 +4272,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 14:04:53 -0400",
       "text": "Microsoft Lays Off 4,800 Employees: What Next for MSFT Stock",
-      "description": "Microsoft Corp. (NASDAQ:MSFT) is starting its new fiscal year with a substantial personnel cut. \n\n\n\nThe tech behemoth announced Monday it will cut about 4,800 jobs. That\u2019s around 2.1% of its worldwide staff. According to Benzinga&#8217;s findings, most of the cutbacks are in the company&#8217;s sales, consultancy, and Xbox gaming units.&nbsp;\n\n\n\nMicrosoft Layoffs Happen Again: Why? \n\n\n\nSo why is t",
+      "description": "2:04 PM EDT, July 06, 2026 (Benzinga Newswire) Microsoft Corp. (NASDAQ:MSFT) is starting its new fiscal year with a substantial personnel cut. \n\n\n\nThe tech behemoth announced Monday it will cut about 4,800 jobs. That\u2019s around 2.1% of its worldwide staff. According to Benzinga&#8217;s findings, most of the cutbacks are in the company&#8217;s sales, consultancy, and Xbox gaming units.&nbsp;\n\n\n\nMicro",
       "channels": [
         "Tech",
         "Trading Ideas",
@@ -3137,7 +4287,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 14:02:25 -0400",
       "title": "'U.S. Supreme Court Declines To Block Texas Law Requiring Age Verification And Parental Consent To Download Apps' - Reuters News",
-      "body": "Law imposes app store age, parental consent requirementsStudents, tech industry filed free speech challengesLaw reflects broader regulation of devices, social mediaWASHINGTON, July 6 (Reuters) - The U.S. Supreme Court declined on Monday to block a Texas law requiring app stores and developers to verify the age of mobile device users, and for minors to obtain parental consent, to download apps or m",
+      "body": "2:02 PM EDT, July 06, 2026 (Benzinga Newswire) Law imposes app store age, parental consent requirementsStudents, tech industry filed free speech challengesLaw reflects broader regulation of devices, social mediaWASHINGTON, July 6 (Reuters) - The U.S. Supreme Court declined on Monday to block a Texas law requiring app stores and developers to verify the age of mobile device users, and for minors to",
       "url": "https://www.benzinga.com/news/26/07/60288659/u-s-supreme-court-declines-block-texas-law-requiring-age-verification-and-parental-consent-download-",
       "author": "Benzinga Newsdesk",
       "tickers": [
@@ -3154,7 +4304,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 14:02:25 -0400",
       "text": "'U.S. Supreme Court Declines To Block Texas Law Requiring Age Verification And Parental Consent To Download Apps' - Reuters News",
-      "description": "Law imposes app store age, parental consent requirementsStudents, tech industry filed free speech challengesLaw reflects broader regulation of devices, social mediaWASHINGTON, July 6 (Reuters) - The U.S. Supreme Court declined on Monday to block a Texas law requiring app stores and developers to verify the age of mobile device users, and for minors to obtain parental consent, to download apps or m",
+      "description": "2:02 PM EDT, July 06, 2026 (Benzinga Newswire) Law imposes app store age, parental consent requirementsStudents, tech industry filed free speech challengesLaw reflects broader regulation of devices, social mediaWASHINGTON, July 6 (Reuters) - The U.S. Supreme Court declined on Monday to block a Texas law requiring app stores and developers to verify the age of mobile device users, and for minors to",
       "channels": [
         "News"
       ]
@@ -3189,7 +4339,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 13:48:43 -0400",
       "title": "Semi Stocks Gain Ahead Of Samsung Earnings And SK Hynix US Listing; Yields Ease",
-      "body": "\n\n\n\nTech Rebound\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been driving the stock market higher.&nbsp; SOXL is the momo crowd\u2019s favorite semiconductor ETF.\n\n\n\nThe chart shows SOXL fell on Thursday into zone 2 (support).\n\n\n\nThe chart shows a large move from the recent ",
+      "body": "1:48 PM EDT, July 06, 2026 (Benzinga Newswire) \n\n\n\nTech Rebound\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been driving the stock market higher.&nbsp; SOXL is the momo crowd\u2019s favorite semiconductor ETF.\n\n\n\nThe chart shows SOXL fell on Thursday into zone 2 (support).\n\n",
       "url": "https://www.benzinga.com/Opinion/26/07/60288211/semi-stocks-gain-ahead-of-samsung-earnings-and-sk-hynix-us-listing-yields-ease",
       "author": "The Arora Report",
       "tickers": [
@@ -3208,7 +4358,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 13:48:43 -0400",
       "text": "Semi Stocks Gain Ahead Of Samsung Earnings And SK Hynix US Listing; Yields Ease",
-      "description": "\n\n\n\nTech Rebound\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been driving the stock market higher.&nbsp; SOXL is the momo crowd\u2019s favorite semiconductor ETF.\n\n\n\nThe chart shows SOXL fell on Thursday into zone 2 (support).\n\n\n\nThe chart shows a large move from the recent ",
+      "description": "1:48 PM EDT, July 06, 2026 (Benzinga Newswire) \n\n\n\nTech Rebound\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been driving the stock market higher.&nbsp; SOXL is the momo crowd\u2019s favorite semiconductor ETF.\n\n\n\nThe chart shows SOXL fell on Thursday into zone 2 (support).\n\n",
       "channels": [
         "Opinion",
         "Market Summary"
@@ -3220,7 +4370,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 13:04:06 -0400",
       "title": "Chip Rally Ignites Nasdaq 100 Rebound Ahead of SK Hynix's US Listing: Stock Market Today",
-      "body": "A powerful rebound in semiconductor stocks lifted Wall Street on Monday, driving the tech-heavy Nasdaq 100 sharply higher, as investors dumped defensive corners of the market in a broad risk-on rotation.\n\n\n\nThe session&#8217;s driving force was memory. A DRAM-sector surge rippled across chipmakers ahead of Samsung&#8216;s quarterly sales updates and&nbsp;SK Hynix&#8216;s planned U.S. listing this ",
+      "body": "1:04 PM EDT, July 06, 2026 (Benzinga Newswire) A powerful rebound in semiconductor stocks lifted Wall Street on Monday, driving the tech-heavy Nasdaq 100 sharply higher, as investors dumped defensive corners of the market in a broad risk-on rotation.\n\n\n\nThe session&#8217;s driving force was memory. A DRAM-sector surge rippled across chipmakers ahead of Samsung&#8216;s quarterly sales updates and&n",
       "url": "https://www.benzinga.com/markets/equities/26/07/60286777/chip-rally-nasdaq-100-rebounds-semiconductors-monday-wall-street-news-stock-today",
       "author": "Piero Cingari",
       "tickers": [
@@ -3239,7 +4389,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 13:04:06 -0400",
       "text": "Chip Rally Ignites Nasdaq 100 Rebound Ahead of SK Hynix's US Listing: Stock Market Today",
-      "description": "A powerful rebound in semiconductor stocks lifted Wall Street on Monday, driving the tech-heavy Nasdaq 100 sharply higher, as investors dumped defensive corners of the market in a broad risk-on rotation.\n\n\n\nThe session&#8217;s driving force was memory. A DRAM-sector surge rippled across chipmakers ahead of Samsung&#8216;s quarterly sales updates and&nbsp;SK Hynix&#8216;s planned U.S. listing this ",
+      "description": "1:04 PM EDT, July 06, 2026 (Benzinga Newswire) A powerful rebound in semiconductor stocks lifted Wall Street on Monday, driving the tech-heavy Nasdaq 100 sharply higher, as investors dumped defensive corners of the market in a broad risk-on rotation.\n\n\n\nThe session&#8217;s driving force was memory. A DRAM-sector surge rippled across chipmakers ahead of Samsung&#8216;s quarterly sales updates and&n",
       "channels": [
         "Tech",
         "ETFs",
@@ -3283,7 +4433,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 12:39:59 -0400",
       "title": "Xbox in Chaos: Why Microsoft Just Axed 4,800 Jobs",
-      "body": "Microsoft Corp. (NASDAQ:MSFT) stock fell more than 1% on Monday after the company unveiled another round of layoffs, even as technology stocks rallied. The Nasdaq gained 1.83%, and the S&amp;P 500 rose 0.83%.\n\n\n\n4,800 Job Cuts\n\n\n\nMicrosoft will cut about 4,800 jobs, or roughly 2% of its workforce, as it resets its Xbox division. The company described the gaming industry as &#8220;facing the most s",
+      "body": "12:39 PM EDT, July 06, 2026 (Benzinga Newswire) Microsoft Corp. (NASDAQ:MSFT) stock fell more than 1% on Monday after the company unveiled another round of layoffs, even as technology stocks rallied. The Nasdaq gained 1.83%, and the S&amp;P 500 rose 0.83%.\n\n\n\n4,800 Job Cuts\n\n\n\nMicrosoft will cut about 4,800 jobs, or roughly 2% of its workforce, as it resets its Xbox division. The company described",
       "url": "https://www.benzinga.com/markets/tech/26/07/60285905/worst-hardware-crisis-ever-why-microsoft-just-axed-4800-jobs",
       "author": "Anusuya Lahiri",
       "tickers": [
@@ -3298,7 +4448,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 12:39:59 -0400",
       "text": "Xbox in Chaos: Why Microsoft Just Axed 4,800 Jobs",
-      "description": "Microsoft Corp. (NASDAQ:MSFT) stock fell more than 1% on Monday after the company unveiled another round of layoffs, even as technology stocks rallied. The Nasdaq gained 1.83%, and the S&amp;P 500 rose 0.83%.\n\n\n\n4,800 Job Cuts\n\n\n\nMicrosoft will cut about 4,800 jobs, or roughly 2% of its workforce, as it resets its Xbox division. The company described the gaming industry as &#8220;facing the most s",
+      "description": "12:39 PM EDT, July 06, 2026 (Benzinga Newswire) Microsoft Corp. (NASDAQ:MSFT) stock fell more than 1% on Monday after the company unveiled another round of layoffs, even as technology stocks rallied. The Nasdaq gained 1.83%, and the S&amp;P 500 rose 0.83%.\n\n\n\n4,800 Job Cuts\n\n\n\nMicrosoft will cut about 4,800 jobs, or roughly 2% of its workforce, as it resets its Xbox division. The company described",
       "channels": [
         "Media",
         "Tech",
@@ -3313,7 +4463,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 11:50:57 -0400",
       "title": "Microsoft Plans To Eliminate 605 Positions In Redmond, Washington, Effective Sept. 4",
-      "body": "https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-database",
+      "body": "11:50 AM EDT, July 06, 2026 (Benzinga Newswire) https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-databaseWrite to Benzinga at editorial@benzinga.com",
       "url": "https://www.benzinga.com/news/26/07/60284192/microsoft-plans-eliminate-605-positions-redmond-washington-effective-sept-4",
       "author": "Benzinga Newsdesk",
       "tickers": [
@@ -3325,7 +4475,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 11:50:57 -0400",
       "text": "Microsoft Plans To Eliminate 605 Positions In Redmond, Washington, Effective Sept. 4",
-      "description": "https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-database",
+      "description": "11:50 AM EDT, July 06, 2026 (Benzinga Newswire) https://esd.wa.gov/employer-requirements/layoffs-and-employee-notifications/worker-adjustment-and-retraining-notification-warn-layoff-and-closure-databaseWrite to Benzinga at editorial@benzinga.com",
       "channels": [
         "News"
       ]
@@ -3336,7 +4486,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 10:11:31 -0400",
       "title": "Trump Targets EU Digital Taxes With 100% Tariff Threat, Raising Stakes For Transatlantic Trade",
-      "body": "President Donald Trump has opened a new front in the transatlantic trade fight, warning that any European digital tax targeting US tech giants will trigger a 100% tariff on all goods shipped to the US.\n\n\n\nHis threat arrived days after the EU and US ratified a trade deal. It capped most European export tariffs at 15% through 2029. The agreement excluded digital services taxes, leaving a major unres",
+      "body": "10:11 AM EDT, July 06, 2026 (Benzinga Newswire) President Donald Trump has opened a new front in the transatlantic trade fight, warning that any European digital tax targeting US tech giants will trigger a 100% tariff on all goods shipped to the US.\n\n\n\nHis threat arrived days after the EU and US ratified a trade deal. It capped most European export tariffs at 15% through 2029. The agreement exclud",
       "url": "https://www.benzinga.com/news/26/07/60280192/trump-targets-eu-digital-taxes-with-100-tariff-threat-raising-stakes-for-transatlantic-trade",
       "author": "European Capital Insights ECI",
       "tickers": [
@@ -3351,7 +4501,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 10:11:31 -0400",
       "text": "Trump Targets EU Digital Taxes With 100% Tariff Threat, Raising Stakes For Transatlantic Trade",
-      "description": "President Donald Trump has opened a new front in the transatlantic trade fight, warning that any European digital tax targeting US tech giants will trigger a 100% tariff on all goods shipped to the US.\n\n\n\nHis threat arrived days after the EU and US ratified a trade deal. It capped most European export tariffs at 15% through 2029. The agreement excluded digital services taxes, leaving a major unres",
+      "description": "10:11 AM EDT, July 06, 2026 (Benzinga Newswire) President Donald Trump has opened a new front in the transatlantic trade fight, warning that any European digital tax targeting US tech giants will trigger a 100% tariff on all goods shipped to the US.\n\n\n\nHis threat arrived days after the EU and US ratified a trade deal. It capped most European export tariffs at 15% through 2029. The agreement exclud",
       "channels": [
         "Politics",
         "Government",
@@ -3367,7 +4517,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 09:34:33 -0400",
       "title": "'Microsoft cuts 4,800 jobs across sales and Xbox' - Business Insider",
-      "body": "https://www.businessinsider.com/microsoft-jobs-cuts-across-sales-and-xbox-read-the-memo-2026-7",
+      "body": "9:34 AM EDT, July 06, 2026 (Benzinga Newswire) https://www.businessinsider.com/microsoft-jobs-cuts-across-sales-and-xbox-read-the-memo-2026-7Write to Benzinga at editorial@benzinga.com",
       "url": "https://www.benzinga.com/news/26/07/60277889/microsoft-cuts-4-800-jobs-across-sales-and-xbox-business-insider",
       "author": "Benzinga Newsdesk",
       "tickers": [
@@ -3379,7 +4529,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 09:34:33 -0400",
       "text": "'Microsoft cuts 4,800 jobs across sales and Xbox' - Business Insider",
-      "description": "https://www.businessinsider.com/microsoft-jobs-cuts-across-sales-and-xbox-read-the-memo-2026-7",
+      "description": "9:34 AM EDT, July 06, 2026 (Benzinga Newswire) https://www.businessinsider.com/microsoft-jobs-cuts-across-sales-and-xbox-read-the-memo-2026-7Write to Benzinga at editorial@benzinga.com",
       "channels": [
         "News"
       ]
@@ -3390,7 +4540,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 08:38:28 -0400",
       "title": "Broadcom Stock Climbs on Report of Apple Chip Deal Extension to 2031",
-      "body": "Broadcom Inc. (NASDAQ:AVGO) shares are trading higher following a report suggesting that the company and Apple Inc. (NASDAQ:AAPL) will expand their partnership through 2031.\n\n\n\nThe Deal\n\n\n\nAccording to Reuters, Broadcom and Apple have agreed to expand their partnership through 2031, covering the development and supply of a range of custom chips. Broadcom has been a long-standing supplier to Apple,",
+      "body": "8:38 AM EDT, July 06, 2026 (Benzinga Newswire) Broadcom Inc. (NASDAQ:AVGO) shares are trading higher following a report suggesting that the company and Apple Inc. (NASDAQ:AAPL) will expand their partnership through 2031.\n\n\n\nThe Deal\n\n\n\nAccording to Reuters, Broadcom and Apple have agreed to expand their partnership through 2031, covering the development and supply of a range of custom chips. Broad",
       "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60276440/broadcom-stock-climbs-on-report-of-apple-chip-deal-extension-to-2031",
       "author": "Dylan Berman",
       "tickers": [
@@ -3404,7 +4554,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 08:38:28 -0400",
       "text": "Broadcom Stock Climbs on Report of Apple Chip Deal Extension to 2031",
-      "description": "Broadcom Inc. (NASDAQ:AVGO) shares are trading higher following a report suggesting that the company and Apple Inc. (NASDAQ:AAPL) will expand their partnership through 2031.\n\n\n\nThe Deal\n\n\n\nAccording to Reuters, Broadcom and Apple have agreed to expand their partnership through 2031, covering the development and supply of a range of custom chips. Broadcom has been a long-standing supplier to Apple,",
+      "description": "8:38 AM EDT, July 06, 2026 (Benzinga Newswire) Broadcom Inc. (NASDAQ:AVGO) shares are trading higher following a report suggesting that the company and Apple Inc. (NASDAQ:AAPL) will expand their partnership through 2031.\n\n\n\nThe Deal\n\n\n\nAccording to Reuters, Broadcom and Apple have agreed to expand their partnership through 2031, covering the development and supply of a range of custom chips. Broad",
       "channels": [
         "Trading Ideas",
         "Movers",
@@ -3417,7 +4567,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 08:04:05 -0400",
       "title": "Broadcom, Apple To Expand Collaboration Through 2031 To Develop, Supply Tailored ASIC Products For Apple",
-      "body": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+      "body": "8:04 AM EDT, July 06, 2026 (Benzinga Newswire) https://www.sec.gov/ix?doc=/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htmWrite to Benzinga at editorial@benzinga.com",
       "url": "https://www.benzinga.com/news/26/07/60275429/broadcom-apple-expand-collaboration-through-2031-develop-supply-tailored-asic-products-apple",
       "author": "Benzinga Newsdesk",
       "tickers": [
@@ -3430,7 +4580,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 08:04:05 -0400",
       "text": "Broadcom, Apple To Expand Collaboration Through 2031 To Develop, Supply Tailored ASIC Products For Apple",
-      "description": "https://www.sec.gov/ix?doc=/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htm",
+      "description": "8:04 AM EDT, July 06, 2026 (Benzinga Newswire) https://www.sec.gov/ix?doc=/Archives/edgar/data/1730168/000119312526295589/d84378d8k.htmWrite to Benzinga at editorial@benzinga.com",
       "channels": [
         "News"
       ]
@@ -3441,7 +4591,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 06:38:32 -0400",
       "title": "After Apple, Intel Raises Chip Prices by Up to $50, Citing 'Market Dynamics'",
-      "body": "Silicon Valley giants are aggressively hiking hardware prices as a wave of macroeconomic inflation sweeps through the technology sector.\n\n\n\nFollowing Apple Inc.\u2019s (NASDAQ:AAPL) recent consumer price jumps, semiconductor titan Intel Corp. (NASDAQ:INTC) has instituted markups across both its consumer desktop and enterprise server chip lineups, attributing it to shifting market dynamics and productio",
+      "body": "6:38 AM EDT, July 06, 2026 (Benzinga Newswire) Silicon Valley giants are aggressively hiking hardware prices as a wave of macroeconomic inflation sweeps through the technology sector.\n\n\n\nFollowing Apple Inc.\u2019s (NASDAQ:AAPL) recent consumer price jumps, semiconductor titan Intel Corp. (NASDAQ:INTC) has instituted markups across both its consumer desktop and enterprise server chip lineups, attributi",
       "url": "https://www.benzinga.com/markets/equities/26/07/60273487/after-apple-intel-raises-chip-prices-by-up-to-50-citing-market-dynamics",
       "author": "Rishabh Mishra",
       "tickers": [
@@ -3455,7 +4605,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 06:38:32 -0400",
       "text": "After Apple, Intel Raises Chip Prices by Up to $50, Citing 'Market Dynamics'",
-      "description": "Silicon Valley giants are aggressively hiking hardware prices as a wave of macroeconomic inflation sweeps through the technology sector.\n\n\n\nFollowing Apple Inc.\u2019s (NASDAQ:AAPL) recent consumer price jumps, semiconductor titan Intel Corp. (NASDAQ:INTC) has instituted markups across both its consumer desktop and enterprise server chip lineups, attributing it to shifting market dynamics and productio",
+      "description": "6:38 AM EDT, July 06, 2026 (Benzinga Newswire) Silicon Valley giants are aggressively hiking hardware prices as a wave of macroeconomic inflation sweeps through the technology sector.\n\n\n\nFollowing Apple Inc.\u2019s (NASDAQ:AAPL) recent consumer price jumps, semiconductor titan Intel Corp. (NASDAQ:INTC) has instituted markups across both its consumer desktop and enterprise server chip lineups, attributi",
       "channels": [
         "Markets",
         "News",
@@ -3471,7 +4621,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 06:23:27 -0400",
       "title": "Tech Is Winning Wall Street's Cash: Tech Funds Draw $14.3 Billion in Second-Biggest Weekly Inflow on Record",
-      "body": "U.S. technology funds attracted $14.3 billion in the week ended July 1, marking the second-largest weekly inflow on record, even as broader U.S. equity funds posted their biggest weekly withdrawals since March, according to Bank of America Global Research data shared by The Kobeissi Letter.\n\n\n\nThe inflows lifted the four-week average for technology fund investments to a record $9 billion per week,",
+      "body": "6:23 AM EDT, July 06, 2026 (Benzinga Newswire) U.S. technology funds attracted $14.3 billion in the week ended July 1, marking the second-largest weekly inflow on record, even as broader U.S. equity funds posted their biggest weekly withdrawals since March, according to Bank of America Global Research data shared by The Kobeissi Letter.\n\n\n\nThe inflows lifted the four-week average for technology fu",
       "url": "https://www.benzinga.com/markets/tech/26/07/60272983/tech-is-winning-wall-streets-cash-tech-funds-draw-14-3-billion-in-second-biggest-weekly-inflow-on-record",
       "author": "Radhika Anilkumar Nadig",
       "tickers": [
@@ -3490,7 +4640,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 06:23:27 -0400",
       "text": "Tech Is Winning Wall Street's Cash: Tech Funds Draw $14.3 Billion in Second-Biggest Weekly Inflow on Record",
-      "description": "U.S. technology funds attracted $14.3 billion in the week ended July 1, marking the second-largest weekly inflow on record, even as broader U.S. equity funds posted their biggest weekly withdrawals since March, according to Bank of America Global Research data shared by The Kobeissi Letter.\n\n\n\nThe inflows lifted the four-week average for technology fund investments to a record $9 billion per week,",
+      "description": "6:23 AM EDT, July 06, 2026 (Benzinga Newswire) U.S. technology funds attracted $14.3 billion in the week ended July 1, marking the second-largest weekly inflow on record, even as broader U.S. equity funds posted their biggest weekly withdrawals since March, according to Bank of America Global Research data shared by The Kobeissi Letter.\n\n\n\nThe inflows lifted the four-week average for technology fu",
       "channels": [
         "Tech",
         "ETFs",
@@ -3503,7 +4653,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 05:58:44 -0400",
       "title": "Industry Comparison: Evaluating Apple Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-      "body": "In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry out an in-depth industry comparison, assessing Apple (NASDAQ:AAPL) alongside its primary competitors in the Technology Hardware, Storage &amp; Peripherals industry. By meticulously examining key financ",
+      "body": "5:58 AM EDT, July 06, 2026 (Benzinga Newswire) In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry out an in-depth industry comparison, assessing Apple (NASDAQ:AAPL) alongside its primary competitors in the Technology Hardware, Storage &amp; Peripherals",
       "url": "https://www.benzinga.com/news/26/07/60272386/industry-comparison-evaluating-apple-against-competitors-technology-hardware-storage-amp-peripherals",
       "author": "Benzinga Insights",
       "tickers": [
@@ -3515,7 +4665,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 05:58:44 -0400",
       "text": "Industry Comparison: Evaluating Apple Against Competitors In Technology Hardware, Storage &amp; Peripherals Industry",
-      "description": "In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry out an in-depth industry comparison, assessing Apple (NASDAQ:AAPL) alongside its primary competitors in the Technology Hardware, Storage &amp; Peripherals industry. By meticulously examining key financ",
+      "description": "5:58 AM EDT, July 06, 2026 (Benzinga Newswire) In the ever-evolving and intensely competitive business landscape, conducting a thorough company analysis is of utmost importance for investors and industry followers. In this article, we will carry out an in-depth industry comparison, assessing Apple (NASDAQ:AAPL) alongside its primary competitors in the Technology Hardware, Storage &amp; Peripherals",
       "channels": [
         "News",
         "Trading Ideas",
@@ -3528,7 +4678,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 05:58:35 -0400",
       "title": "Competitor Analysis: Evaluating Microsoft And Competitors In Software Industry",
-      "body": "In today's fast-paced and highly competitive business world, it is crucial for investors and industry followers to conduct comprehensive company evaluations. In this article, we will delve into an extensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) in relation to its major competitors in the Software industry. By closely examining key financial metrics, market standing, and growth pr",
+      "body": "5:58 AM EDT, July 06, 2026 (Benzinga Newswire) In today's fast-paced and highly competitive business world, it is crucial for investors and industry followers to conduct comprehensive company evaluations. In this article, we will delve into an extensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) in relation to its major competitors in the Software industry. By closely examining key fi",
       "url": "https://www.benzinga.com/news/26/07/60272384/competitor-analysis-evaluating-microsoft-and-competitors-software-industry",
       "author": "Benzinga Insights",
       "tickers": [
@@ -3540,7 +4690,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 05:58:35 -0400",
       "text": "Competitor Analysis: Evaluating Microsoft And Competitors In Software Industry",
-      "description": "In today's fast-paced and highly competitive business world, it is crucial for investors and industry followers to conduct comprehensive company evaluations. In this article, we will delve into an extensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) in relation to its major competitors in the Software industry. By closely examining key financial metrics, market standing, and growth pr",
+      "description": "5:58 AM EDT, July 06, 2026 (Benzinga Newswire) In today's fast-paced and highly competitive business world, it is crucial for investors and industry followers to conduct comprehensive company evaluations. In this article, we will delve into an extensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) in relation to its major competitors in the Software industry. By closely examining key fi",
       "channels": [
         "News",
         "Trading Ideas",
@@ -3553,7 +4703,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 05:40:13 -0400",
       "title": "US Tech Sector Pushes Back Against UK\u2019s Child Safety Social Media Regulations",
-      "body": "Britain\u2019s plan to bar under\u201116s from major social platforms has opened a new front in its increasingly strained relationship with Washington and the US tech sector.\n\n\n\nThe government has announced new restrictions preventing social media companies from offering services to children under the age of 16. The proposal, unveiled on June 15, would require most platforms to prevent under-16s from access",
+      "body": "5:40 AM EDT, July 06, 2026 (Benzinga Newswire) Britain\u2019s plan to bar under\u201116s from major social platforms has opened a new front in its increasingly strained relationship with Washington and the US tech sector.\n\n\n\nThe government has announced new restrictions preventing social media companies from offering services to children under the age of 16. The proposal, unveiled on June 15, would require ",
       "url": "https://www.benzinga.com/Opinion/26/07/60272189/us-tech-sector-pushes-back-against-uk-child-safety-social-media-regulations",
       "author": "European Capital Insights ECI",
       "tickers": [
@@ -3569,7 +4719,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 05:40:13 -0400",
       "text": "US Tech Sector Pushes Back Against UK\u2019s Child Safety Social Media Regulations",
-      "description": "Britain\u2019s plan to bar under\u201116s from major social platforms has opened a new front in its increasingly strained relationship with Washington and the US tech sector.\n\n\n\nThe government has announced new restrictions preventing social media companies from offering services to children under the age of 16. The proposal, unveiled on June 15, would require most platforms to prevent under-16s from access",
+      "description": "5:40 AM EDT, July 06, 2026 (Benzinga Newswire) Britain\u2019s plan to bar under\u201116s from major social platforms has opened a new front in its increasingly strained relationship with Washington and the US tech sector.\n\n\n\nThe government has announced new restrictions preventing social media companies from offering services to children under the age of 16. The proposal, unveiled on June 15, would require ",
       "channels": [
         "Markets",
         "Tech",
@@ -3587,7 +4737,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 04:30:50 -0400",
       "title": "Dan Niles Sees Apple Winning China Memory Exemption, Calls AI Chip Selloff a 'Speed Bump' as Nvidia's Vera Rubin Fuels Long-Term Demand",
-      "body": "Tech investor Dan Niles on Sunday said that the recent pullback in AI semiconductor stocks is a temporary setback rather than the end of the artificial intelligence rally, arguing that long-term demand remains intact despite growing investor concerns.\n\n\n\nAI Chip Selloff Driven By Apple, Meta Concerns\n\n\n\nIn a post on X, Niles said AI-related stocks underperformed last week even as the broader marke",
+      "body": "4:30 AM EDT, July 06, 2026 (Benzinga Newswire) Tech investor Dan Niles on Sunday said that the recent pullback in AI semiconductor stocks is a temporary setback rather than the end of the artificial intelligence rally, arguing that long-term demand remains intact despite growing investor concerns.\n\n\n\nAI Chip Selloff Driven By Apple, Meta Concerns\n\n\n\nIn a post on X, Niles said AI-related stocks und",
       "url": "https://www.benzinga.com/markets/tech/26/07/60271710/dan-niles-sees-apple-winning-china-memory-exemption-calls-ai-chip-selloff-a-speed-bump-as-nvidias-vera-rubin-fuels-long-term-demand",
       "author": "Ananya Gairola",
       "tickers": [
@@ -3596,12 +4746,12 @@
         "NVDA"
       ],
       "tags": [],
-      "impact_score": 9.8,
+      "impact_score": 9.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 04:30:50 -0400",
       "text": "Dan Niles Sees Apple Winning China Memory Exemption, Calls AI Chip Selloff a 'Speed Bump' as Nvidia's Vera Rubin Fuels Long-Term Demand",
-      "description": "Tech investor Dan Niles on Sunday said that the recent pullback in AI semiconductor stocks is a temporary setback rather than the end of the artificial intelligence rally, arguing that long-term demand remains intact despite growing investor concerns.\n\n\n\nAI Chip Selloff Driven By Apple, Meta Concerns\n\n\n\nIn a post on X, Niles said AI-related stocks underperformed last week even as the broader marke",
+      "description": "4:30 AM EDT, July 06, 2026 (Benzinga Newswire) Tech investor Dan Niles on Sunday said that the recent pullback in AI semiconductor stocks is a temporary setback rather than the end of the artificial intelligence rally, arguing that long-term demand remains intact despite growing investor concerns.\n\n\n\nAI Chip Selloff Driven By Apple, Meta Concerns\n\n\n\nIn a post on X, Niles said AI-related stocks und",
       "channels": [
         "Markets",
         "Tech",
@@ -3616,7 +4766,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 04:16:14 -0400",
       "title": "AI-Native Startups Hire Fewer Junior Workers and More Senior Talent, Harvard Study Finds",
-      "body": "Researchers from Harvard Business School and INSEAD said in a working paper published in June that AI-native startups are building smaller, flatter organizations while hiring fewer entry-level workers and more experienced technical talent than traditional startups.\n\n\n\nThe study, titled &#8220;AI-Native Firms,&#8221; analyzed Y Combinator startups from 2020 through 2024 and a broader group of U.S. ",
+      "body": "4:16 AM EDT, July 06, 2026 (Benzinga Newswire) Researchers from Harvard Business School and INSEAD said in a working paper published in June that AI-native startups are building smaller, flatter organizations while hiring fewer entry-level workers and more experienced technical talent than traditional startups.\n\n\n\nThe study, titled &#8220;AI-Native Firms,&#8221; analyzed Y Combinator startups from",
       "url": "https://www.benzinga.com/markets/tech/26/07/60271678/ai-native-startups-hire-fewer-junior-workers-and-more-senior-talent-harvard-study-finds",
       "author": "Tanya Rawat",
       "tickers": [
@@ -3628,7 +4778,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 04:16:14 -0400",
       "text": "AI-Native Startups Hire Fewer Junior Workers and More Senior Talent, Harvard Study Finds",
-      "description": "Researchers from Harvard Business School and INSEAD said in a working paper published in June that AI-native startups are building smaller, flatter organizations while hiring fewer entry-level workers and more experienced technical talent than traditional startups.\n\n\n\nThe study, titled &#8220;AI-Native Firms,&#8221; analyzed Y Combinator startups from 2020 through 2024 and a broader group of U.S. ",
+      "description": "4:16 AM EDT, July 06, 2026 (Benzinga Newswire) Researchers from Harvard Business School and INSEAD said in a working paper published in June that AI-native startups are building smaller, flatter organizations while hiring fewer entry-level workers and more experienced technical talent than traditional startups.\n\n\n\nThe study, titled &#8220;AI-Native Firms,&#8221; analyzed Y Combinator startups from",
       "channels": [
         "Tech"
       ]
@@ -3639,7 +4789,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Mon, 06 Jul 2026 00:39:53 -0400",
       "title": "Foldable iPhone May Not Hit Store Shelves Until Months After iPhone 18 Launch, Says Ming-Chi Kuo: Apple Analyst Predicts Strong Demand, Limited Supply",
-      "body": "Apple Inc.&#8217;s (NASDAQ:AAPL) long-rumored foldable iPhone could arrive later than the rest of the iPhone 18 lineup, with supply constraints potentially delaying preorders and sales until the fourth quarter of 2026, according to prominent analyst Ming-Chi Kuo.\n\n\n\nFoldable iPhone Launch Could Mirror iPhone X Rollout\n\n\n\nIn a post on X over the weekend, Kuo said his latest supply-chain checks indi",
+      "body": "12:39 AM EDT, July 06, 2026 (Benzinga Newswire) Apple Inc.&#8217;s (NASDAQ:AAPL) long-rumored foldable iPhone could arrive later than the rest of the iPhone 18 lineup, with supply constraints potentially delaying preorders and sales until the fourth quarter of 2026, according to prominent analyst Ming-Chi Kuo.\n\n\n\nFoldable iPhone Launch Could Mirror iPhone X Rollout\n\n\n\nIn a post on X over the weeke",
       "url": "https://www.benzinga.com/markets/tech/26/07/60270749/ming-chi-kuo-says-foldable-iphone-may-launch-months-after-iphone-18-with-strong-demand-and-limited-supply",
       "author": "Ananya Gairola",
       "tickers": [
@@ -3651,7 +4801,7 @@
       "sentiment": "neutral",
       "time": "Mon, 06 Jul 2026 00:39:53 -0400",
       "text": "Foldable iPhone May Not Hit Store Shelves Until Months After iPhone 18 Launch, Says Ming-Chi Kuo: Apple Analyst Predicts Strong Demand, Limited Supply",
-      "description": "Apple Inc.&#8217;s (NASDAQ:AAPL) long-rumored foldable iPhone could arrive later than the rest of the iPhone 18 lineup, with supply constraints potentially delaying preorders and sales until the fourth quarter of 2026, according to prominent analyst Ming-Chi Kuo.\n\n\n\nFoldable iPhone Launch Could Mirror iPhone X Rollout\n\n\n\nIn a post on X over the weekend, Kuo said his latest supply-chain checks indi",
+      "description": "12:39 AM EDT, July 06, 2026 (Benzinga Newswire) Apple Inc.&#8217;s (NASDAQ:AAPL) long-rumored foldable iPhone could arrive later than the rest of the iPhone 18 lineup, with supply constraints potentially delaying preorders and sales until the fourth quarter of 2026, according to prominent analyst Ming-Chi Kuo.\n\n\n\nFoldable iPhone Launch Could Mirror iPhone X Rollout\n\n\n\nIn a post on X over the weeke",
       "channels": [
         "Media",
         "Tech",
