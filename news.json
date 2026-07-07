@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T07:12:06Z",
-  "generated_display": "2026-07-07 07:12 ET",
+  "generated": "2026-07-07T07:17:07Z",
+  "generated_display": "2026-07-07 07:17 ET",
   "count": 200,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T07:12:02.034724+00:00",
+      "last_error_ts": "2026-07-07T07:17:02.213710+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 2,
-      "latency_ms": 136,
-      "last_success": "2026-07-07T07:12:02.171695+00:00",
+      "latency_ms": 147,
+      "last_success": "2026-07-07T07:17:02.361589+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 59,
-      "last_success": "2026-07-07T07:12:02.271095+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-07T07:17:02.461714+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 35,
-      "last_success": "2026-07-07T07:12:02.373351+00:00",
+      "latency_ms": 31,
+      "last_success": "2026-07-07T07:17:02.495743+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T07:12:02.408059+00:00",
+      "last_error_ts": "2026-07-07T07:17:02.590060+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2064,
-      "last_success": "2026-07-07T07:12:04.472503+00:00",
+      "latency_ms": 1970,
+      "last_success": "2026-07-07T07:17:04.560235+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T07:12:05.129484+00:00",
+      "last_success": "2026-07-07T07:17:05.348951+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1797,
-      "last_success": "2026-07-07T07:12:06.926581+00:00",
+      "latency_ms": 1877,
+      "last_success": "2026-07-07T07:17:07.226305+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,392 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 105
+          "latency_ms": 112
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 92
+          "latency_ms": 87
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 10
+          "latency_ms": 23
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 309
+          "latency_ms": 397
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 12
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 127
+          "latency_ms": 155
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
-    "massive_news": 50,
     "reuters": 16,
-    "cnbc": 8,
+    "uw_news": 25,
+    "massive_news": 50,
     "zerohedge": 8,
-    "benzinga": 2,
+    "cnbc": 8,
     "seekingalpha": 7,
+    "benzinga": 2,
     "marketwatch": 8,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "f2ba4476b7b254",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:16:41Z",
+      "title": "$DJT $SPY @qqq",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409965",
+      "author": "FarrUkk",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T07:16:41Z",
+      "text": "$DJT $SPY @qqq",
+      "description": "",
+      "handle": "FarrUkk",
+      "display_name": "FarUk",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "39d6377ba62100",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:16:07Z",
+      "title": "$QQQ Don\u2019t see any reason to sell off for a company which can\u2019t show profit because of their unionized employees asking for profits.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409958",
+      "author": "jazz97",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:16:07Z",
+      "text": "$QQQ Don\u2019t see any reason to sell off for a company which can\u2019t show profit because of their unionized employees asking for profits.",
+      "description": "",
+      "handle": "jazz97",
+      "display_name": "Jazz B",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "dc8cd03151c3e2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:16:06Z",
+      "title": "$MSFT Voltmap Request \u26a1\ufe0f \n \nBreak over $390 sets this up for a run to $395 and $400.  \n \nLooking clean here with a hold of $380 as support, which it did today. voltick.io",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658409957",
+      "author": "BullTradeFinder",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T07:16:06Z",
+      "text": "$MSFT Voltmap Request \u26a1\ufe0f \n \nBreak over $390 sets this up for a run to $395 and $400.  \n \nLooking clean here with a hold of $380 as support, which it did today. voltick.io",
+      "description": "",
+      "handle": "BullTradeFinder",
+      "display_name": "BullTradeFinder",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "215fe9727433a7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:15:12Z",
+      "title": "$SPY the reason I\u2019m poor is because other people are rich.\n\nTrue or false?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409950",
+      "author": "Jahanamanan",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:15:12Z",
+      "text": "$SPY the reason I\u2019m poor is because other people are rich.\n\nTrue or false?",
+      "description": "",
+      "handle": "Jahanamanan",
+      "display_name": "Derek August",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "27611d7efc4445",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:15:09Z",
+      "title": "$SPY $QQQ \nYOU COULD PUT ALL THE ROCKET EMOJIES YOU WANT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409949",
+      "author": "Specialist001",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T07:15:09Z",
+      "text": "$SPY $QQQ \nYOU COULD PUT ALL THE ROCKET EMOJIES YOU WANT",
+      "description": "",
+      "handle": "Specialist001",
+      "display_name": "Specialist001",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "08062a923c15a5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:15:09Z",
+      "title": "$SPY $QQQ \nYOU COULD PUT ALL THE ROCKET EMOJIES YOU WANT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409949",
+      "author": "Specialist001",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T07:15:09Z",
+      "text": "$SPY $QQQ \nYOU COULD PUT ALL THE ROCKET EMOJIES YOU WANT",
+      "description": "",
+      "handle": "Specialist001",
+      "display_name": "Specialist001",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cc3a63c73cbdea",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:14:40Z",
+      "title": "$AAPL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658409944",
+      "author": "moshedashiff",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:14:40Z",
+      "text": "$AAPL",
+      "description": "",
+      "handle": "moshedashiff",
+      "display_name": "\u05de\u05e9\u05d4 \u05d3\u05d0\u05e9\u05d9\u05e3",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "55ed6d79a31fa9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:14:32Z",
+      "title": "$SPY Voltmap Request \u26a1\ufe0f \n \nStronger of the 2 indexes of $QQQ which has been getting mauled by memory names. \n \nDownside to $745 today on a break and hold of $750.  \n \nThat was our key level and VOLT today. voltick.io",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409941",
+      "author": "BullTradeFinder",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:14:32Z",
+      "text": "$SPY Voltmap Request \u26a1\ufe0f \n \nStronger of the 2 indexes of $QQQ which has been getting mauled by memory names. \n \nDownside to $745 today on a break and hold of $750.  \n \nThat was our key level and VOLT today. voltick.io",
+      "description": "",
+      "handle": "BullTradeFinder",
+      "display_name": "BullTradeFinder",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c11afb532af6cc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:14:32Z",
+      "title": "$SPY Voltmap Request \u26a1\ufe0f \n \nStronger of the 2 indexes of $QQQ which has been getting mauled by memory names. \n \nDownside to $745 today on a break and hold of $750.  \n \nThat was our key level and VOLT today. voltick.io",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409941",
+      "author": "BullTradeFinder",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T07:14:32Z",
+      "text": "$SPY Voltmap Request \u26a1\ufe0f \n \nStronger of the 2 indexes of $QQQ which has been getting mauled by memory names. \n \nDownside to $745 today on a break and hold of $750.  \n \nThat was our key level and VOLT today. voltick.io",
+      "description": "",
+      "handle": "BullTradeFinder",
+      "display_name": "BullTradeFinder",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8ee00330f95803",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 07:12:47",
+      "title": "Walmart rolls back barbecue staple prices after Trump says retailer acted at his request",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/trump-says-walmart-will-lower-prices-on-many-products-4777584",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 07:12:47",
+      "text": "Walmart rolls back barbecue staple prices after Trump says retailer acted at his request",
+      "description": ""
+    },
+    {
+      "id": "d16a1b8580080c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 07:12:31",
+      "title": "German industrial output rises more than expected in May",
+      "body": "",
+      "url": "https://www.investing.com/news/economic-indicators/german-industrial-output-rises-more-than-expected-in-may-4778239",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 07:12:31",
+      "text": "German industrial output rises more than expected in May",
+      "description": ""
+    },
+    {
+      "id": "d3ff02e2e905a8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:12:28Z",
+      "title": "$SPY $QQQ $DIA \nhttps://www.commondreams.org/news/ai-bubble-treasury-department",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409914",
+      "author": "Specialist001",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T07:12:28Z",
+      "text": "$SPY $QQQ $DIA \nhttps://www.commondreams.org/news/ai-bubble-treasury-department",
+      "description": "",
+      "handle": "Specialist001",
+      "display_name": "Specialist001",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "99bab418eb1f09",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T07:12:28Z",
+      "title": "$SPY $QQQ $DIA \nhttps://www.commondreams.org/news/ai-bubble-treasury-department",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409914",
+      "author": "Specialist001",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T07:12:28Z",
+      "text": "$SPY $QQQ $DIA \nhttps://www.commondreams.org/news/ai-bubble-treasury-department",
+      "description": "",
+      "handle": "Specialist001",
+      "display_name": "Specialist001",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4788bd12e5e56a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 07:12:28",
+      "title": "FTSE 100 today: Stocks climb as UK house prices rebound; NATO summit begins",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/ftse-100-today-stocks-climb-as-uk-house-prices-rebound-nato-summit-begins-4778273",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 07:12:28",
+      "text": "FTSE 100 today: Stocks climb as UK house prices rebound; NATO summit begins",
+      "description": ""
+    },
+    {
+      "id": "5d610d69182a1d",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 07:09:31",
+      "title": "Rentokil rises after Goldman Sachs upgrades to Buy on North America recovery",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/rentokil-rises-after-goldman-sachs-upgrades-to-buy-on-north-america-recovery-4778271",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 07:09:31",
+      "text": "Rentokil rises after Goldman Sachs upgrades to Buy on North America recovery",
+      "description": ""
+    },
+    {
+      "id": "b85a6f78e51bef",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 07:09:23",
+      "title": "STOXX 600 eases from peaks as investors lock in gains ahead of Fed cues",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/stoxx-600-eases-from-peaks-as-investors-lock-in-gains-ahead-of-fed-cues-4778220",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 07:09:23",
+      "text": "STOXX 600 eases from peaks as investors lock in gains ahead of Fed cues",
+      "description": ""
+    },
     {
       "id": "d76feb8d9c2d19",
       "source": "uw_news",
@@ -228,29 +571,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "af876d9764009f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:07:19Z",
-      "title": "$SPY $UCO $QQQ $DJI \nChina restocking their oil. Lots of buying pressure on crude. War is not over in Ukraine, Lebanon or Iran",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409851",
-      "author": "ANALYZING",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T07:07:19Z",
-      "text": "$SPY $UCO $QQQ $DJI \nChina restocking their oil. Lots of buying pressure on crude. War is not over in Ukraine, Lebanon or Iran",
-      "description": "",
-      "handle": "ANALYZING",
-      "display_name": "CT",
-      "platform": "stocktwits"
-    },
-    {
       "id": "38b066793dc14c",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -274,50 +594,40 @@
       "platform": "stocktwits"
     },
     {
-      "id": "9e660f491ddfda",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:06:31Z",
-      "title": "$SPY $QQQ I mean if it daq, it dont crack",
+      "id": "d2cd9fb0e1fc6e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 07:06:31",
+      "title": "US crashes out of World Cup as storm over Trump interference overshadows tournament",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409840",
-      "author": "viggizags",
-      "tickers": [
-        "SPY"
-      ],
+      "url": "https://www.investing.com/news/world-news/uefa-says-fifa-crossed-a-red-line-with-balogun-red-card-uturn-at-world-cup-4776704",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T07:06:31Z",
-      "text": "$SPY $QQQ I mean if it daq, it dont crack",
-      "description": "",
-      "handle": "viggizags",
-      "display_name": "My Guy",
-      "platform": "stocktwits"
+      "time": "2026-07-07 07:06:31",
+      "text": "US crashes out of World Cup as storm over Trump interference overshadows tournament",
+      "description": ""
     },
     {
-      "id": "aafd771fe258ec",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:06:31Z",
-      "title": "$SPY $QQQ I mean if it daq, it dont crack",
+      "id": "33545d00939566",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 07:06:26",
+      "title": "Czech inflation slows to 1.5% in June, below forecasts",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409840",
-      "author": "viggizags",
-      "tickers": [
-        "QQQ"
-      ],
+      "url": "https://www.investing.com/news/economic-indicators/czech-inflation-slows-to-15-in-june-below-forecasts-93CH-4778270",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 9.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T07:06:31Z",
-      "text": "$SPY $QQQ I mean if it daq, it dont crack",
-      "description": "",
-      "handle": "viggizags",
-      "display_name": "My Guy",
-      "platform": "stocktwits"
+      "time": "2026-07-07 07:06:26",
+      "text": "Czech inflation slows to 1.5% in June, below forecasts",
+      "description": ""
     },
     {
       "id": "1644a65c227284",
@@ -664,6 +974,24 @@
       "description": ""
     },
     {
+      "id": "d147f903324343",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 07:00:27",
+      "title": "Analysis-China\u2019s booming gig economy masks job market pain, strains welfare system",
+      "body": "",
+      "url": "https://www.investing.com/news/economy-news/analysischinas-booming-gig-economy-masks-job-market-pain-strains-welfare-system-4777969",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 07:00:27",
+      "text": "Analysis-China\u2019s booming gig economy masks job market pain, strains welfare system",
+      "description": ""
+    },
+    {
       "id": "a98b14e8f01bb9",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -705,29 +1033,6 @@
       "time": "2026-07-07T07:00:00Z",
       "text": "LACROIX : Bilan semestriel du contrat de liquidit\u00e9.",
       "description": "LACROIX Group released its H1 2026 liquidity contract report showing 5,256 shares and \u20ac73,233.86 in cash as of June 30, 2026. The company reported Q1 2026 revenue of \u20ac122.8 million, up 5.9% year-over-year, with stabilization in Electronics activity and strong growth in the Environment segment. The g"
-    },
-    {
-      "id": "9d280d94dca84d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:59:40Z",
-      "title": "Stock Watchlist:  \n \n$SPY  \n$WMT  \n \nSetting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities,",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409738",
-      "author": "Newman999",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T06:59:40Z",
-      "text": "Stock Watchlist:  \n \n$SPY  \n$WMT  \n \nSetting up nicely today. Remember: discipline over emotion, process over outcome. Let\u2019s trade smart and finish green. Stay informed about market trends and opportunities,",
-      "description": "",
-      "handle": "Newman999",
-      "display_name": "Newman",
-      "platform": "stocktwits"
     },
     {
       "id": "0e23c8e2516f17",
@@ -799,29 +1104,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e71be81cea5003",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:58:10Z",
-      "title": "$QQQ Economy is about to crash. Watch.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409717",
-      "author": "jgalfano4",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T06:58:10Z",
-      "text": "$QQQ Economy is about to crash. Watch.",
-      "description": "",
-      "handle": "jgalfano4",
-      "display_name": "joey galfano",
-      "platform": "stocktwits"
-    },
-    {
       "id": "5883fea4e155d0",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -865,29 +1147,6 @@
       "description": "",
       "handle": "BuySellHoldFinance",
       "display_name": "Randy",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4e18df1f21e0ae",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:56:37Z",
-      "title": "$SPY How dumb is this idiot? Pardoning someone doesn&#39;t mean you condone or agree with the crime.A pardon doesn&#39;t say &quot;no crime happened.&quot; It just drops the personal prison time. The government keeping the billions in corporate fines proves the money was dirty and the crime was real",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409692",
-      "author": "VictorTwits",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:56:37Z",
-      "text": "$SPY How dumb is this idiot? Pardoning someone doesn&#39;t mean you condone or agree with the crime.A pardon doesn&#39;t say &quot;no crime happened.&quot; It just drops the personal prison time. The government keeping the billions in corporate fines proves the money was dirty and the crime was real",
-      "description": "",
-      "handle": "VictorTwits",
-      "display_name": "VTS",
       "platform": "stocktwits"
     },
     {
@@ -1052,47 +1311,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e027aa08efda57",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 06:54:10",
-      "title": "US in talks on Europe missile co-production, source says",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/us-in-talks-on-europe-missile-coproduction-source-says-4778266",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 06:54:10",
-      "text": "US in talks on Europe missile co-production, source says",
-      "description": ""
-    },
-    {
-      "id": "2efd30d4329789",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:53:24Z",
-      "title": "$SPY $DJT all FIFA&#39;s corruption did was let USA look dumb for letting a player with a red card play \n \nShould&#39;ve just accepted the red card instead of being retarded.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658409651",
-      "author": "Crodies",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:53:24Z",
-      "text": "$SPY $DJT all FIFA&#39;s corruption did was let USA look dumb for letting a player with a red card play \n \nShould&#39;ve just accepted the red card instead of being retarded.",
-      "description": "",
-      "handle": "Crodies",
-      "display_name": "Crodies",
-      "platform": "stocktwits"
-    },
-    {
       "id": "ec1c6b7025656e",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1146,24 +1364,6 @@
       "sentiment": "neutral",
       "time": "2026-07-07T06:52:59Z",
       "text": "SES Space &amp; Defense Wins BPA to Deliver Flexible Satellite Connections",
-      "description": ""
-    },
-    {
-      "id": "dee1adbf2295a9",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 06:52:36",
-      "title": "Synopsys to discontinue chip manufacturing software suite- Reuters",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/synopsys-to-discontinue-chip-manufacturing-software-suite-reuters-93CH-4778265",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 06:52:36",
-      "text": "Synopsys to discontinue chip manufacturing software suite- Reuters",
       "description": ""
     },
     {
@@ -1228,29 +1428,6 @@
       "description": "",
       "handle": "angel6",
       "display_name": "Melek",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "223e50051b0b50",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:50:26Z",
-      "title": "$SPY $QQQ \n\nFutes are probably rippin.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409605",
-      "author": "kirkulr",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:50:26Z",
-      "text": "$SPY $QQQ \n\nFutes are probably rippin.",
-      "description": "",
-      "handle": "kirkulr",
-      "display_name": "Kirkulr",
       "platform": "stocktwits"
     },
     {
@@ -1442,60 +1619,6 @@
       "description": ""
     },
     {
-      "id": "caee10eebd5e9d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 06:47:03",
-      "title": "Bernstein initiates SpaceX stock coverage with Outperform rating",
-      "body": "",
-      "url": "https://www.investing.com/news/analyst-ratings/bernstein-initiates-spacex-stock-coverage-with-outperform-rating-93CH-4778264",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 06:47:03",
-      "text": "Bernstein initiates SpaceX stock coverage with Outperform rating",
-      "description": ""
-    },
-    {
-      "id": "d30e06836a9f86",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 06:47:01",
-      "title": "Stifel initiates SpaceX stock with buy rating on launch dominance",
-      "body": "",
-      "url": "https://www.investing.com/news/analyst-ratings/stifel-initiates-spacex-stock-with-buy-rating-on-launch-dominance-93CH-4778263",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 06:47:01",
-      "text": "Stifel initiates SpaceX stock with buy rating on launch dominance",
-      "description": ""
-    },
-    {
-      "id": "bb2d62a3fdc387",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 06:46:59",
-      "title": "UBS initiates SpaceX stock coverage with buy rating on Starship potential",
-      "body": "",
-      "url": "https://www.investing.com/news/analyst-ratings/ubs-initiates-spacex-stock-coverage-with-buy-rating-on-starship-potential-93CH-4778262",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 06:46:59",
-      "text": "UBS initiates SpaceX stock coverage with buy rating on Starship potential",
-      "description": ""
-    },
-    {
       "id": "30d144c8928405",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1511,24 +1634,6 @@
       "sentiment": "neutral",
       "time": "2026-07-07T06:46:53Z",
       "text": "First phase of the refinancing strategy completed",
-      "description": ""
-    },
-    {
-      "id": "984f2633b85923",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 06:46:52",
-      "title": "Barclays downgrades Siemens Energy on peak-cycle valuation concerns",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/barclays-downgrades-siemens-energy-on-peakcycle-valuation-concerns-4778261",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 06:46:52",
-      "text": "Barclays downgrades Siemens Energy on peak-cycle valuation concerns",
       "description": ""
     },
     {
@@ -1609,24 +1714,6 @@
       "handle": "Mipel",
       "display_name": "Natan h",
       "platform": "stocktwits"
-    },
-    {
-      "id": "9d084fe4733117",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 06:45:14",
-      "title": "Halyk Bank purchases 27,358 GDRs in buyback programme",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/halyk-bank-purchases-27358-gdrs-in-buyback-programme-93CH-4778260",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 06:45:14",
-      "text": "Halyk Bank purchases 27,358 GDRs in buyback programme",
-      "description": ""
     },
     {
       "id": "74f0f45ba419b5",
@@ -1732,27 +1819,22 @@
       "description": "Atos Group successfully completed the full refinancing of its 1L debt tranche on July 7, 2026, including the voluntary early repayment of remaining 1L bonds. This refinancing represents a significant milestone in the company's sustainable financial restructuring strategy."
     },
     {
-      "id": "072e9146b44d5d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:44:53Z",
-      "title": "SPCX Stock Slides Ahead Of Nasdaq-100 Debut: Billionaire Value Investor Says Its \u2018Third-Rate\u2019 AI Is Getting \u2018Kicked Around\u2019 By Anthropic, OpenAI\n\n$SPCX $ANTHZZX.P $OPEAZZX.P $NDAQ $QQQ\n\nhttps://stocktwits.com/news/equity/markets/spcx-nasdaq100-debut-investor-ai-kicked-anthropic-openai/cZmlBCKR7mW",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409522",
-      "author": "StocktwitsNews",
-      "tickers": [
-        "QQQ"
-      ],
+      "id": "e15d080300e4b9",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 06:45:00 +0000",
+      "title": "Lithuania To Lift Ban On Nuclear Weapons, Following Finland",
+      "body": "Lithuania To Lift Ban On Nuclear Weapons, Following Finland\n\n            First it was Finland which lifted its ban on the deployment of nuclear weapons, declaring its willingness to host NATO's arsenal (which is largely provided by the US), and now Lithuania has become the latest European country to",
+      "url": "https://www.zerohedge.com/geopolitical/lithuania-lift-ban-nuclear-weapons-following-finland",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 4.2,
+      "impact_score": 4.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T06:44:53Z",
-      "text": "SPCX Stock Slides Ahead Of Nasdaq-100 Debut: Billionaire Value Investor Says Its \u2018Third-Rate\u2019 AI Is Getting \u2018Kicked Around\u2019 By Anthropic, OpenAI\n\n$SPCX $ANTHZZX.P $OPEAZZX.P $NDAQ $QQQ\n\nhttps://stocktwits.com/news/equity/markets/spcx-nasdaq100-debut-investor-ai-kicked-anthropic-openai/cZmlBCKR7mW",
-      "description": "",
-      "handle": "StocktwitsNews",
-      "display_name": "Stocktwits News",
-      "platform": "stocktwits"
+      "time": "Tue, 07 Jul 2026 06:45:00 +0000",
+      "text": "Lithuania To Lift Ban On Nuclear Weapons, Following Finland",
+      "description": "Lithuania To Lift Ban On Nuclear Weapons, Following Finland\n\n            First it was Finland which lifted its ban on the deployment of nuclear weapons, declaring its willingness to host NATO's arsenal (which is largely provided by the US), and now Lithuania has become the latest European country to"
     },
     {
       "id": "96e75aad383895",
@@ -1868,24 +1950,6 @@
       "handle": "Jordanoneal",
       "display_name": "Jordanoneal",
       "platform": "stocktwits"
-    },
-    {
-      "id": "4cfd7ab651c69a",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 06:40:59",
-      "title": "Goldman Sachs initiates SpaceX stock coverage with buy rating",
-      "body": "",
-      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-initiates-spacex-stock-coverage-with-buy-rating-93CH-4778259",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 06:40:59",
-      "text": "Goldman Sachs initiates SpaceX stock coverage with buy rating",
-      "description": ""
     },
     {
       "id": "8df3253d2471fc",
@@ -2215,29 +2279,6 @@
       "description": "Samsung posted exceptional Q2 results with operating income surging 19-fold and revenue more than doubling, driven by strong AI memory demand. However, the stock fell anyway, signaling that the market has priced in perfection and now demands continued acceleration. The article warns that while the A"
     },
     {
-      "id": "6e96bc180c0150",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:06:16Z",
-      "title": "$MSFT 440+ soon seems likely",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658408938",
-      "author": "ieatlightbulbs",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T06:06:16Z",
-      "text": "$MSFT 440+ soon seems likely",
-      "description": "",
-      "handle": "ieatlightbulbs",
-      "display_name": "Light Bulbs",
-      "platform": "stocktwits"
-    },
-    {
       "id": "afa17cfbbc7c94",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2263,29 +2304,6 @@
       "time": "2026-07-07T06:05:00Z",
       "text": "Is the SpaceX IPO Officially Overhyped?",
       "description": "SpaceX's IPO set records with a $2.1 trillion valuation, but the article questions whether the stock is overpriced. Trading at 112x sales with $18.7B in revenue and operating at a loss, SpaceX commands a significant premium compared to peers like Nvidia (18.8x) and Amazon (3.5x). While the company h"
-    },
-    {
-      "id": "237bb4dde35d4e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:02:54Z",
-      "title": "$SPY 770-780 is likely still but it\u2019s possible we go back to 700 first possibly even lower. Complacency is starting to rise at these levels and sentiment is starting to shift to what\u2019s normally seen at market highs. Ai trade is weakening and likely sees further downside. Rotation out of leaders seem",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658408890",
-      "author": "ieatlightbulbs",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T06:02:54Z",
-      "text": "$SPY 770-780 is likely still but it\u2019s possible we go back to 700 first possibly even lower. Complacency is starting to rise at these levels and sentiment is starting to shift to what\u2019s normally seen at market highs. Ai trade is weakening and likely sees further downside. Rotation out of leaders seem",
-      "description": "",
-      "handle": "ieatlightbulbs",
-      "display_name": "Light Bulbs",
-      "platform": "stocktwits"
     },
     {
       "id": "014527768e648e",
@@ -2433,6 +2451,24 @@
       "time": "2026-07-07T06:00:00Z",
       "text": "Endeavour To Announce Its Q2 2026 Results On 30 July 2026",
       "description": "Endeavour Mining plc announced it will release its Q2 and Half Year 2026 financial results on 30 July 2026, with a management conference call and webcast scheduled for 8:30 am EDT / 1:30 pm BST the same day. The company also announced a transaction in its own shares."
+    },
+    {
+      "id": "564f5756569e65",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 06:00:00 +0000",
+      "title": "EU Parliament Banning The ESN Party Alliance Is A 'Realistic Scenario' Warns German MEP",
+      "body": "EU Parliament Banning The ESN Party Alliance Is A 'Realistic Scenario' Warns German MEP\n\n            Via Remix News,\n\nFor the first time in European history, an EU party alliance could be outright banned in the European Parliament, which would mark a major blow to democracy and rule of law.\n\n\n\nThe E",
+      "url": "https://www.zerohedge.com/political/eu-parliament-banning-esn-party-alliance-realistic-scenario-warns-german-mep",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 06:00:00 +0000",
+      "text": "EU Parliament Banning The ESN Party Alliance Is A 'Realistic Scenario' Warns German MEP",
+      "description": "EU Parliament Banning The ESN Party Alliance Is A 'Realistic Scenario' Warns German MEP\n\n            Via Remix News,\n\nFor the first time in European history, an EU party alliance could be outright banned in the European Parliament, which would mark a major blow to democracy and rule of law.\n\n\n\nThe E"
     },
     {
       "id": "0fdff7c88010e1",
@@ -3043,6 +3079,24 @@
       "time": "2026-07-07T03:15:00Z",
       "text": "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set You Up For Life",
       "description": "While Bloom Energy is well-positioned to serve AI data centers with hydrogen fuel cells, its stock has surged 1,000% in a year with a lofty 29x price-to-sales ratio. Brookfield Renewable Partners offers a more attractive alternative for many investors, providing exposure to AI power demand through l"
+    },
+    {
+      "id": "e28661dd7de212",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 03:10:32 -0400",
+      "title": "Shell Q2 Update: Refining margins climb to $20/bbl, gas trading offsets Middle East drag",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4611835-shell-q2-update-refining-margins-climb-to-20bbl-gas-trading-offsets-middle-east-drag?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 03:10:32 -0400",
+      "text": "Shell Q2 Update: Refining margins climb to $20/bbl, gas trading offsets Middle East drag",
+      "description": ""
     },
     {
       "id": "d89f959e43275f",
@@ -3719,24 +3773,6 @@
       "description": "Trump Says Walmart Will Slash Ground Beef Prices In \"Huge Deal\" For Consumers\n\n            President Trump said retail giant Walmart will slash prices on a range of products at his administration's request, including a 15% reduction in ground beef prices.\u00a0The move comes on top of falling gasoline an"
     },
     {
-      "id": "ab87623a39b262",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 01:44:31 -0400",
-      "title": "Morgan Stanley buys into SpaceX\u2019s AI future with new Overweight rating",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4611831-morgan-stanley-buys-into-spacexs-ai-future-with-new-overweight-rating?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 01:44:31 -0400",
-      "text": "Morgan Stanley buys into SpaceX\u2019s AI future with new Overweight rating",
-      "description": ""
-    },
-    {
       "id": "0a94ac8e05a7e6",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3802,24 +3838,6 @@
       "description": "NorCal Couple Scammed Of $18,000 From Fake Checks And Online Payments\n\n            A retired Northern California couple is speaking out after scammers allegedly drained nearly $18,000 from their checking account through a combination of counterfeit checks and unauthorized online payments, setting of"
     },
     {
-      "id": "9b65cbd69ad7bb",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 00:55:00 +0000",
-      "title": "UAE Crude Output Nears Record High Following OPEC Exit Amid Surge In Chinese Buying",
-      "body": "UAE Crude Output Nears Record High Following OPEC Exit Amid Surge In Chinese Buying\n\n            The United Arab Emirates raised \u200cits crude output to near record highs above 3.8 million barrels per day in June,\u00a0after the Gulf nation quit OPEC to escape production caps, Reuters reported citing two so",
-      "url": "https://www.zerohedge.com/energy/uae-crude-output-nears-record-high-following-opec-exit-amid-surge-chinese-buying",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 00:55:00 +0000",
-      "text": "UAE Crude Output Nears Record High Following OPEC Exit Amid Surge In Chinese Buying",
-      "description": "UAE Crude Output Nears Record High Following OPEC Exit Amid Surge In Chinese Buying\n\n            The United Arab Emirates raised \u200cits crude output to near record highs above 3.8 million barrels per day in June,\u00a0after the Gulf nation quit OPEC to escape production caps, Reuters reported citing two so"
-    },
-    {
       "id": "cedcc63e4d550d",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3881,24 +3899,6 @@
       "time": "2026-07-07T00:30:00Z",
       "text": "Liquidity Services Announces Appointment of new Chief Human Resources Officer",
       "description": "Liquidity Services announced the appointment of Karen Fascenda as Chief Human Resources Officer effective July 6, 2026, succeeding Novelette Murray who is retiring after 16 years of service. Fascenda brings over 20 years of human capital experience from roles at Udemy, GoPuff, Comcast, and eBay."
-    },
-    {
-      "id": "243fa495f6c4d3",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 00:30:00 +0000",
-      "title": "Has The Breakthrough Moment For Soccer In America Arrived?",
-      "body": "Has The Breakthrough Moment For Soccer In America Arrived?\n\n            The World Cup is turning into a major ratings boom for US broadcasters, with Fox Sports, Telemundo and Peacock drawing record audiences.\n\nThe US Men's National Team (USMNT) is currently 1-0 down against Belgium in a Round 16 mat",
-      "url": "https://www.zerohedge.com/personal-finance/has-breakthrough-moment-soccer-america-arrived",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 00:30:00 +0000",
-      "text": "Has The Breakthrough Moment For Soccer In America Arrived?",
-      "description": "Has The Breakthrough Moment For Soccer In America Arrived?\n\n            The World Cup is turning into a major ratings boom for US broadcasters, with Fox Sports, Telemundo and Peacock drawing record audiences.\n\nThe US Men's National Team (USMNT) is currently 1-0 down against Belgium in a Round 16 mat"
     },
     {
       "id": "84d906d13960b2",
@@ -4201,39 +4201,39 @@
       "description": ""
     },
     {
-      "id": "95cf5096c3867f",
+      "id": "030efd9b7ae817",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:06:53Z",
-      "title": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management",
+      "timestamp": "2026-07-05T20:06:24Z",
+      "title": "Here is Why Yext (YEXT) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/repay-holdings-rpay-receives-unsolicited-200653568.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T20:06:53Z",
-      "text": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management",
-      "description": ""
-    },
-    {
-      "id": "78b27289604b9d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05T20:06:44Z",
-      "title": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/petco-woof-one-best-value-200644831.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-yext-yext-one-best-200624657.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:06:44Z",
-      "text": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
+      "time": "2026-07-05T20:06:24Z",
+      "text": "Here is Why Yext (YEXT) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
+      "description": ""
+    },
+    {
+      "id": "bf2ae7409cfed7",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05T20:06:17Z",
+      "title": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/n-able-nabl-one-best-200617423.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T20:06:17Z",
+      "text": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?",
       "description": ""
     },
     {
