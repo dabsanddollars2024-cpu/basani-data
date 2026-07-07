@@ -1,29 +1,29 @@
 {
-  "generated": "2026-07-07T09:52:07Z",
-  "generated_display": "2026-07-07 09:52 ET",
-  "count": 202,
+  "generated": "2026-07-07T09:57:06Z",
+  "generated_display": "2026-07-07 09:57 ET",
+  "count": 203,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T09:52:02.002696+00:00",
+      "last_error_ts": "2026-07-07T09:57:02.070833+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
-      "items_pulled": 4,
-      "latency_ms": 134,
-      "last_success": "2026-07-07T09:52:02.138231+00:00",
+      "items_pulled": 5,
+      "latency_ms": 99,
+      "last_success": "2026-07-07T09:57:02.171536+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 132,
-      "last_success": "2026-07-07T09:52:02.271679+00:00",
+      "latency_ms": 98,
+      "last_success": "2026-07-07T09:57:02.270976+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 50,
       "latency_ms": 99,
-      "last_success": "2026-07-07T09:52:02.373878+00:00",
+      "last_success": "2026-07-07T09:57:02.372820+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T09:52:02.470747+00:00",
+      "last_error_ts": "2026-07-07T09:57:02.408753+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2102,
-      "last_success": "2026-07-07T09:52:04.573020+00:00",
+      "latency_ms": 1662,
+      "last_success": "2026-07-07T09:57:04.071571+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T09:52:05.270728+00:00",
+      "last_success": "2026-07-07T09:57:04.771256+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1759,
-      "last_success": "2026-07-07T09:52:07.030240+00:00",
+      "latency_ms": 1657,
+      "last_success": "2026-07-07T09:57:06.428641+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 106
+          "latency_ms": 221
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 91
+          "latency_ms": 76
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 9
+          "latency_ms": 32
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 321
+          "latency_ms": 271
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 73
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 95
+          "latency_ms": 86
         }
       }
     }
@@ -107,16 +107,254 @@
   "by_source": {
     "stocktwits": 75,
     "uw_news": 25,
+    "reuters": 16,
     "cnbc": 8,
     "zerohedge": 8,
-    "reuters": 16,
     "marketwatch": 8,
     "massive_news": 50,
+    "benzinga": 5,
     "seekingalpha": 7,
-    "benzinga": 4,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "74b9e29b487633",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:56:56Z",
+      "title": "$SPY $QQQ $DIA \nTRILLIONS IN STUDENT LOANS",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658412713",
+      "author": "Specialist001",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T09:56:56Z",
+      "text": "$SPY $QQQ $DIA \nTRILLIONS IN STUDENT LOANS",
+      "description": "",
+      "handle": "Specialist001",
+      "display_name": "Specialist001",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1ae11e63fa0f5a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:56:56Z",
+      "title": "$SPY $QQQ $DIA \nTRILLIONS IN STUDENT LOANS",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658412713",
+      "author": "Specialist001",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T09:56:56Z",
+      "text": "$SPY $QQQ $DIA \nTRILLIONS IN STUDENT LOANS",
+      "description": "",
+      "handle": "Specialist001",
+      "display_name": "Specialist001",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fafcf61c502c2b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:55:45Z",
+      "title": "$SPY $BTC.X $NVDA $BULL $SPCX \n\ud83d\ude24\ud83d\udc8e\ud83d\udfe9\ud83d\udd12\ud83c\uddfa\ud83c\uddf8\ud83d\ude80HOLD\u2755\ud83d\udc02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658412680",
+      "author": "iseeshit",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T09:55:45Z",
+      "text": "$SPY $BTC.X $NVDA $BULL $SPCX \n\ud83d\ude24\ud83d\udc8e\ud83d\udfe9\ud83d\udd12\ud83c\uddfa\ud83c\uddf8\ud83d\ude80HOLD\u2755\ud83d\udc02",
+      "description": "",
+      "handle": "iseeshit",
+      "display_name": "Thankyou note",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6c76ac1c37bfb9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:55:45Z",
+      "title": "$SPY $BTC.X $NVDA $BULL $SPCX \n\ud83d\ude24\ud83d\udc8e\ud83d\udfe9\ud83d\udd12\ud83c\uddfa\ud83c\uddf8\ud83d\ude80HOLD\u2755\ud83d\udc02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658412680",
+      "author": "iseeshit",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T09:55:45Z",
+      "text": "$SPY $BTC.X $NVDA $BULL $SPCX \n\ud83d\ude24\ud83d\udc8e\ud83d\udfe9\ud83d\udd12\ud83c\uddfa\ud83c\uddf8\ud83d\ude80HOLD\u2755\ud83d\udc02",
+      "description": "",
+      "handle": "iseeshit",
+      "display_name": "Thankyou note",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "74b2caec529df9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:55:40Z",
+      "title": "$QQQ damnnnn \ud83d\udc3b been working overnight I \ud83d\udc41\ufe0f. Well I am going to be cautious today, they can be quite vicious.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658412678",
+      "author": "CallsodersPuts",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:55:40Z",
+      "text": "$QQQ damnnnn \ud83d\udc3b been working overnight I \ud83d\udc41\ufe0f. Well I am going to be cautious today, they can be quite vicious.",
+      "description": "",
+      "handle": "CallsodersPuts",
+      "display_name": "Leonidas Heights",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a5b463b2b27af0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:54:55Z",
+      "title": "$SPY Day trade assessment/plan for SPX and index futures looking at SPX net market maker positioning (via OptionsDepth) through Friday since there really isn&#39;t much positioning each individual day. Some key levels where price could potentially stall/reverse for some nice scalps and hold runners ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658412655",
+      "author": "Playthecasino",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:54:55Z",
+      "text": "$SPY Day trade assessment/plan for SPX and index futures looking at SPX net market maker positioning (via OptionsDepth) through Friday since there really isn&#39;t much positioning each individual day. Some key levels where price could potentially stall/reverse for some nice scalps and hold runners ",
+      "description": "",
+      "handle": "Playthecasino",
+      "display_name": "Unknown",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1fecf93f1c029e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:54:07Z",
+      "title": "$CRCL $MSTR $DFDV $COIN $HOOD \n\nBTC recovery \nSaylor sold some you know he will buy more",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658412625",
+      "author": "CoffeeRocks",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T09:54:07Z",
+      "text": "$CRCL $MSTR $DFDV $COIN $HOOD \n\nBTC recovery \nSaylor sold some you know he will buy more",
+      "description": "",
+      "handle": "CoffeeRocks",
+      "display_name": "CoffeeRocks",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "42e07099b52439",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:54:07Z",
+      "title": "$CRCL $MSTR $DFDV $COIN $HOOD \n\nBTC recovery \nSaylor sold some you know he will buy more",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658412625",
+      "author": "CoffeeRocks",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T09:54:07Z",
+      "text": "$CRCL $MSTR $DFDV $COIN $HOOD \n\nBTC recovery \nSaylor sold some you know he will buy more",
+      "description": "",
+      "handle": "CoffeeRocks",
+      "display_name": "CoffeeRocks",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a499f58d3e5cb4",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T09:53:57Z",
+      "title": "MACRON SAYS OPPORTUNITY FOR NEW ROUTES TO COMPENSATE AFTER WHAT'S HAPPENED ON HORMUZ",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:53:57Z",
+      "text": "MACRON SAYS OPPORTUNITY FOR NEW ROUTES TO COMPENSATE AFTER WHAT'S HAPPENED ON HORMUZ",
+      "description": ""
+    },
+    {
+      "id": "9d6d36f2426123",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T09:53:31Z",
+      "title": "Recycled Concrete Aggregates Market to Reach USD 24.7 Billion by 2036 as Circular Construction and Sustainable Infrastructure Reshape Global Building Materials Industry",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:53:31Z",
+      "text": "Recycled Concrete Aggregates Market to Reach USD 24.7 Billion by 2036 as Circular Construction and Sustainable Infrastructure Reshape Global Building Materials Industry",
+      "description": ""
+    },
+    {
+      "id": "cf085eab81deec",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T09:53:23Z",
+      "title": "MACRON, AT NEWS CONFERENCE ALONGSIDE SYRIAN PRESIDENT AHMED AL-SHARAA, SAYS THERE MANY CHALLENGES FOR SYRIA, BUT OPPORTUNITY FOR OUR COMPANIES",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:53:23Z",
+      "text": "MACRON, AT NEWS CONFERENCE ALONGSIDE SYRIAN PRESIDENT AHMED AL-SHARAA, SAYS THERE MANY CHALLENGES FOR SYRIA, BUT OPPORTUNITY FOR OUR COMPANIES",
+      "description": ""
+    },
     {
       "id": "356fd654371f76",
       "source": "stocktwits",
@@ -210,6 +448,96 @@
       "platform": "stocktwits"
     },
     {
+      "id": "277794bbc7d204",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 09:50:47",
+      "title": "Goldman Sachs reiterates Golar LNG stock Conviction Buy on FLNG growth",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/goldman-sachs-reiterates-golar-lng-stock-conviction-buy-on-flng-growth-93CH-4778548",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 09:50:47",
+      "text": "Goldman Sachs reiterates Golar LNG stock Conviction Buy on FLNG growth",
+      "description": ""
+    },
+    {
+      "id": "68755a8ac3927b",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 09:50:46",
+      "title": "Wells Fargo initiates SpaceX stock coverage with overweight rating",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/wells-fargo-initiates-spacex-stock-coverage-with-overweight-rating-93CH-4778547",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 09:50:46",
+      "text": "Wells Fargo initiates SpaceX stock coverage with overweight rating",
+      "description": ""
+    },
+    {
+      "id": "88bde7820b6414",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 09:50:46",
+      "title": "BofA cuts Smith & Nephew stock price target to $35 on growth concerns",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/bofa-cuts-smith--nephew-stock-price-target-to-35-on-growth-concerns-93CH-4778546",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 09:50:46",
+      "text": "BofA cuts Smith & Nephew stock price target to $35 on growth concerns",
+      "description": ""
+    },
+    {
+      "id": "74349919a2cabd",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 09:50:45",
+      "title": "Citi initiates SpaceX stock coverage with buy rating, $200 target",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/citi-initiates-spacex-stock-coverage-with-buy-rating-200-target-93CH-4778545",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 09:50:45",
+      "text": "Citi initiates SpaceX stock coverage with buy rating, $200 target",
+      "description": ""
+    },
+    {
+      "id": "6112b50a706f95",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 09:50:43",
+      "title": "BofA cuts Deutsche Bank stock price target on higher costs",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/bofa-cuts-deutsche-bank-stock-price-target-on-higher-costs-93CH-4778544",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 09:50:43",
+      "text": "BofA cuts Deutsche Bank stock price target on higher costs",
+      "description": ""
+    },
+    {
       "id": "870f6da8916437",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -230,29 +558,6 @@
       "description": "",
       "handle": "dumbcat",
       "display_name": "dumbcat",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "11218ee2bb1560",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:50:24Z",
-      "title": "$SPY https://youtu.be/dA3Bxc3A5hA?is=es4KBQeFiPtWkKcd",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658412551",
-      "author": "P8perCh8ser",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:50:24Z",
-      "text": "$SPY https://youtu.be/dA3Bxc3A5hA?is=es4KBQeFiPtWkKcd",
-      "description": "",
-      "handle": "P8perCh8ser",
-      "display_name": "P8perCh8ser",
       "platform": "stocktwits"
     },
     {
@@ -299,52 +604,6 @@
       "description": "",
       "handle": "goldenjay14",
       "display_name": "jean",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0c71cb38d76d29",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:50:02Z",
-      "title": "3/ \n\u2022 Icebergs5: Green mountain re-enters the picture, be it very small. Let&#39;s see what comes out of it. $SPY  \n \nYou can pick up our daily PDF here: https://t.me/ReversalLevels/625",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658412538",
-      "author": "Reversal_Levels",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:50:02Z",
-      "text": "3/ \n\u2022 Icebergs5: Green mountain re-enters the picture, be it very small. Let&#39;s see what comes out of it. $SPY  \n \nYou can pick up our daily PDF here: https://t.me/ReversalLevels/625",
-      "description": "",
-      "handle": "Reversal_Levels",
-      "display_name": "ReversalLevels | LunaticTrader",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2ee38a4c2c00d0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:49:40Z",
-      "title": "2/ \n\u2022 A narrowing range since the June 2 high. Testing the upper bound. Do or die point? \n\u2022 PuLL is still coming down. \n\u2022 MoM goes up, but stays near the neutral zero line. More is needed to force a breakout. $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658412531",
-      "author": "Reversal_Levels",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:49:40Z",
-      "text": "2/ \n\u2022 A narrowing range since the June 2 high. Testing the upper bound. Do or die point? \n\u2022 PuLL is still coming down. \n\u2022 MoM goes up, but stays near the neutral zero line. More is needed to force a breakout. $SPY",
-      "description": "",
-      "handle": "Reversal_Levels",
-      "display_name": "ReversalLevels | LunaticTrader",
       "platform": "stocktwits"
     },
     {
@@ -463,6 +722,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "a1582124ff1fe2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 09:49:17",
+      "title": "Dollar flat ahead of Fed Minutes; Euro softens despite German industrial bounce",
+      "body": "",
+      "url": "https://www.investing.com/news/forex-news/asia-fx-muted-dollar-steady-with-more-rate-cues-in-focus-4778206",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 09:49:17",
+      "text": "Dollar flat ahead of Fed Minutes; Euro softens despite German industrial bounce",
+      "description": ""
+    },
+    {
       "id": "16d65e3210641b",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -504,6 +781,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "fe3c8ddba4c737",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 09:48:45",
+      "title": "Ship hit in Hormuz as millions march for ayatollah; Iran says no talks unless Trump halts threats",
+      "body": "",
+      "url": "https://www.investing.com/news/commodities-news/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats-4778531",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 09:48:45",
+      "text": "Ship hit in Hormuz as millions march for ayatollah; Iran says no talks unless Trump halts threats",
+      "description": ""
+    },
+    {
       "id": "27b77ebf792a63",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -519,6 +814,24 @@
       "sentiment": "neutral",
       "time": "2026-07-07T09:48:37Z",
       "text": "KREMLIN - RETURN TO PEACEFUL TRAJECTORY IS POSSIBLE WHEN KYIV SHOWS GOOD WILL",
+      "description": ""
+    },
+    {
+      "id": "e28a408333799d",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 09:48:26",
+      "title": "Nasdaq futures fall after Samsung\u2019s record profit fails to allay chip jitters",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-fall-after-samsungs-record-profit-fails-to-allay-chip-jitters-4778520",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 09:48:26",
+      "text": "Nasdaq futures fall after Samsung\u2019s record profit fails to allay chip jitters",
       "description": ""
     },
     {
@@ -813,29 +1126,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f86c95da703f90",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:43:02Z",
-      "title": "$QQQ tight tight tight bull bias &gt; 700",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658412355",
-      "author": "Thelonius_Stonk",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:43:02Z",
-      "text": "$QQQ tight tight tight bull bias &gt; 700",
-      "description": "",
-      "handle": "Thelonius_Stonk",
-      "display_name": "T. Stonk",
-      "platform": "stocktwits"
-    },
-    {
       "id": "47ad4290dbdef8",
       "source": "reuters",
       "source_type": "rss",
@@ -989,29 +1279,6 @@
       "description": "",
       "handle": "Crakerjac",
       "display_name": "John Dough",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "fdecc0f1197a9c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:38:56Z",
-      "title": "$QQQ simce early May, what has it done? Absolutely nothing.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658412267",
-      "author": "dpuro",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:38:56Z",
-      "text": "$QQQ simce early May, what has it done? Absolutely nothing.",
-      "description": "",
-      "handle": "dpuro",
-      "display_name": "Dan Puro",
       "platform": "stocktwits"
     },
     {
@@ -1510,65 +1777,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a276117917a34c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:32:24Z",
-      "title": "$BTC.X $MSTR \n\nSaylor just stocking the shelves for retail \nExit liquidity",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658412119",
-      "author": "CoffeeRocks",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:32:24Z",
-      "text": "$BTC.X $MSTR \n\nSaylor just stocking the shelves for retail \nExit liquidity",
-      "description": "",
-      "handle": "CoffeeRocks",
-      "display_name": "CoffeeRocks",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "fb46668675af37",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T09:32:14Z",
-      "title": "ZELENSKIY SAYS UKRAINE'S TOP PRIORITIES FOR SUMMIT ARE NEW AIR DEFENCE SYSTEMS, MISSSILES",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:32:14Z",
-      "text": "ZELENSKIY SAYS UKRAINE'S TOP PRIORITIES FOR SUMMIT ARE NEW AIR DEFENCE SYSTEMS, MISSSILES",
-      "description": ""
-    },
-    {
-      "id": "a612393fb1f5cf",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T09:31:44Z",
-      "title": "INDIA SAYS ADANI'S MUMBAI INTERNATIONAL AIRPORT DUTY-FREE SHOPS SOLD NICOTINE POUCHES AGAINST THE LAW - DOCUMENTS",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:31:44Z",
-      "text": "INDIA SAYS ADANI'S MUMBAI INTERNATIONAL AIRPORT DUTY-FREE SHOPS SOLD NICOTINE POUCHES AGAINST THE LAW - DOCUMENTS",
-      "description": ""
-    },
-    {
       "id": "f7a0a6a2774875",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1590,24 +1798,6 @@
       "handle": "DonCorleone77",
       "display_name": "DonCorleone77",
       "platform": "stocktwits"
-    },
-    {
-      "id": "41d8cee4aad43e",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T09:31:12Z",
-      "title": "BOE LEVERAGE RATIO PROPOSALS WOULD REDUCE REQUIREMENT BY 20 BPS",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:31:12Z",
-      "text": "BOE LEVERAGE RATIO PROPOSALS WOULD REDUCE REQUIREMENT BY 20 BPS",
-      "description": ""
     },
     {
       "id": "47b011cc4625ca",
@@ -1685,29 +1875,6 @@
       "time": "Tue, 07 Jul 2026 09:29:00 GMT",
       "text": "SpaceX\u2019s two lead underwriters have a $1 trillion chasm in their valuation as quiet period ends",
       "description": "The two lead underwriters on SpaceX\u2019s initial public offering, Goldman Sachs and Morgan Stanley, have a valuation gap of more than $1 trillion as they both initiated coverage at buy."
-    },
-    {
-      "id": "658f079ae75b9b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:27:57Z",
-      "title": "$NVDA was always thrashing on this stock, but after looking at my portfolio, with Micron, Marvell and WDC\u2019s crash, NVDA don\u2019t seem too bad I\u2019m sorry for thrashing you",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658412019",
-      "author": "kfkj",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:27:57Z",
-      "text": "$NVDA was always thrashing on this stock, but after looking at my portfolio, with Micron, Marvell and WDC\u2019s crash, NVDA don\u2019t seem too bad I\u2019m sorry for thrashing you",
-      "description": "",
-      "handle": "kfkj",
-      "display_name": "Kirby Fong",
-      "platform": "stocktwits"
     },
     {
       "id": "54b28c900469a2",
@@ -1802,24 +1969,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "bb042c10004109",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 09:19:15",
-      "title": "Why is Carrefour stock rallying today?",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-carrefour-stock-rallying-today-93CH-4778500",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 09:19:15",
-      "text": "Why is Carrefour stock rallying today?",
-      "description": ""
-    },
-    {
       "id": "9b9cd02fa7330b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1884,42 +2033,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a797ea5cc95753",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 09:16:53",
-      "title": "Why is Air France KLM stock rallying today?",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-air-france-klm-stock-rallying-today-93CH-4778489",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 09:16:53",
-      "text": "Why is Air France KLM stock rallying today?",
-      "description": ""
-    },
-    {
-      "id": "73d972c8131fe0",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 09:16:08",
-      "title": "Kinnevik Q2 2026 slides: NAV rises 6% as stock plunges 68%",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/kinnevik-q2-2026-slides-nav-rises-6-as-stock-plunges-68-93CH-4778488",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 09:16:08",
-      "text": "Kinnevik Q2 2026 slides: NAV rises 6% as stock plunges 68%",
-      "description": ""
-    },
-    {
       "id": "d1a9c61bc6f7db",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1966,42 +2079,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "6893a97d337f2a",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 09:15:02",
-      "title": "Syensqo shares rise on positive Victrex earnings",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/syensqo-shares-rise-on-positive-victrex-earnings-93CH-4778487",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 09:15:02",
-      "text": "Syensqo shares rise on positive Victrex earnings",
-      "description": ""
-    },
-    {
-      "id": "baf6f23c7af000",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 09:13:54",
-      "title": "Astera Labs\u2019 SWOT analysis: stock faces supply chain and AI spending headwinds",
-      "body": "",
-      "url": "https://www.investing.com/news/swot-analysis/astera-labs-swot-analysis-stock-faces-supply-chain-and-ai-spending-headwinds-93CH-4778486",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 09:13:54",
-      "text": "Astera Labs\u2019 SWOT analysis: stock faces supply chain and AI spending headwinds",
-      "description": ""
-    },
-    {
       "id": "6840eabc703eef",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2023,60 +2100,6 @@
       "handle": "Tonicap85",
       "display_name": "Antonio Caputo",
       "platform": "stocktwits"
-    },
-    {
-      "id": "a6340ad0aeff8d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 09:13:26",
-      "title": "ITV falls 6% as J.P. Morgan cuts stock on disappointing Sky deal terms",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/itv-falls-6-as-jp-morgan-cuts-stock-on-disappointing-sky-deal-terms-4778485",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 09:13:26",
-      "text": "ITV falls 6% as J.P. Morgan cuts stock on disappointing Sky deal terms",
-      "description": ""
-    },
-    {
-      "id": "2aafb847b9f8ce",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 09:12:57",
-      "title": "Kinnevik Q2 2026 slides: NAV rises 6%, but stock crashes 68%",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/kinnevik-q2-2026-slides-nav-rises-6-but-stock-crashes-68-93CH-4778484",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 09:12:57",
-      "text": "Kinnevik Q2 2026 slides: NAV rises 6%, but stock crashes 68%",
-      "description": ""
-    },
-    {
-      "id": "4d82d80bdadf7a",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 09:12:46",
-      "title": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs",
-      "body": "",
-      "url": "https://www.investing.com/news/commodities-news/nato-allies-to-discuss-hormuz-tensions-mission-with-gulf-arabs-4778470",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 09:12:46",
-      "text": "NATO allies to discuss Hormuz tensions, mission with Gulf Arabs",
-      "description": ""
     },
     {
       "id": "41c2b358c5d134",
@@ -3287,6 +3310,35 @@
       "description": "EU Parliament Banning The ESN Party Alliance Is A 'Realistic Scenario' Warns German MEP\n\n            Via Remix News,\n\nFor the first time in European history, an EU party alliance could be outright banned in the European Parliament, which would mark a major blow to democracy and rule of law.\n\n\n\nThe E"
     },
     {
+      "id": "8155f6e01a0258",
+      "source": "benzinga",
+      "source_type": "benzinga_news",
+      "timestamp": "Tue, 07 Jul 2026 05:53:18 -0400",
+      "title": "Apple Offered Big iPhone Discounts\u2014Why Sales Still Fell In China",
+      "body": "Apple Inc. (NASDAQ:AAPL) regained the No. 2 position in China&#8217;s smartphone market during the 2026 618 shopping festival after offering steep discounts on its latest iPhone lineup. However, analysts said the gains came at the cost of pricing, and sales still declined from a year earlier amid tougher comparisons.\n\n\n\nApple&#8217;s Discounts Boost Market Share\n\n\n\nAccording to Counterpoint Resear",
+      "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/07/60297828/apple-offered-big-iphone-discounts-why-sales-still-fell-in-china",
+      "author": "Anusuya Lahiri",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 05:53:18 -0400",
+      "text": "Apple Offered Big iPhone Discounts\u2014Why Sales Still Fell In China",
+      "description": "Apple Inc. (NASDAQ:AAPL) regained the No. 2 position in China&#8217;s smartphone market during the 2026 618 shopping festival after offering steep discounts on its latest iPhone lineup. However, analysts said the gains came at the cost of pricing, and sales still declined from a year earlier amid tougher comparisons.\n\n\n\nApple&#8217;s Discounts Boost Market Share\n\n\n\nAccording to Counterpoint Resear",
+      "channels": [
+        "Tech",
+        "Trading Ideas",
+        "Movers",
+        "News",
+        "Analyst Ratings",
+        "Analyst Color",
+        "Top Stories"
+      ]
+    },
+    {
       "id": "16b93337b61bb3",
       "source": "seekingalpha",
       "source_type": "rss",
@@ -3328,7 +3380,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Tue, 07 Jul 2026 05:30:55 -0400",
       "title": "Bernie Sanders Says Microsoft's Layoffs and Xbox Price Hike Show Tax Cuts 'It Never Trickles Down'",
-      "body": "5:30 AM EDT, July 07, 2026 (Benzinga Newswire) On Monday, Sen. Bernie Sanders (I-Vt.) argued that Microsoft Corp&#8217;s (NASDAQ:MSFT) recent layoffs and Xbox price increases undermine claims that large corporate tax cuts ultimately benefit American workers.\n\n\n\nSanders Criticizes Microsoft Over Tax Break, Layoffs And Xbox Price Hike\n\n\n\nSanders renewed his criticism of corporate tax breaks, pointin",
+      "body": "On Monday, Sen. Bernie Sanders (I-Vt.) argued that Microsoft Corp&#8217;s (NASDAQ:MSFT) recent layoffs and Xbox price increases undermine claims that large corporate tax cuts ultimately benefit American workers.\n\n\n\nSanders Criticizes Microsoft Over Tax Break, Layoffs And Xbox Price Hike\n\n\n\nSanders renewed his criticism of corporate tax breaks, pointing to Microsoft after the tech giant announced a",
       "url": "https://www.benzinga.com/markets/tech/26/07/60297489/bernie-sanders-says-microsofts-layoffs-and-xbox-price-hike-show-tax-cuts-it-never-trickles-down",
       "author": "Ananya Gairola",
       "tickers": [
@@ -3342,7 +3394,7 @@
       "sentiment": "neutral",
       "time": "Tue, 07 Jul 2026 05:30:55 -0400",
       "text": "Bernie Sanders Says Microsoft's Layoffs and Xbox Price Hike Show Tax Cuts 'It Never Trickles Down'",
-      "description": "5:30 AM EDT, July 07, 2026 (Benzinga Newswire) On Monday, Sen. Bernie Sanders (I-Vt.) argued that Microsoft Corp&#8217;s (NASDAQ:MSFT) recent layoffs and Xbox price increases undermine claims that large corporate tax cuts ultimately benefit American workers.\n\n\n\nSanders Criticizes Microsoft Over Tax Break, Layoffs And Xbox Price Hike\n\n\n\nSanders renewed his criticism of corporate tax breaks, pointin",
+      "description": "On Monday, Sen. Bernie Sanders (I-Vt.) argued that Microsoft Corp&#8217;s (NASDAQ:MSFT) recent layoffs and Xbox price increases undermine claims that large corporate tax cuts ultimately benefit American workers.\n\n\n\nSanders Criticizes Microsoft Over Tax Break, Layoffs And Xbox Price Hike\n\n\n\nSanders renewed his criticism of corporate tax breaks, pointing to Microsoft after the tech giant announced a",
       "channels": [
         "Tech",
         "News"
@@ -3920,7 +3972,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Tue, 07 Jul 2026 03:24:47 -0400",
       "title": "Bernie Sanders Warns Big Tech Wants Robots to Replace Millions of Jobs: 'Is This the Future We Want?'",
-      "body": "3:24 AM EDT, July 07, 2026 (Benzinga Newswire) Sen. Bernie Sanders (I-Vt) warned that the rapid expansion of artificial intelligence and robotics could reshape jobs, education and human relationships, raising concerns about who benefits from the technology-driven future.\n\n\n\nSanders Criticizes AI Job Replacements\n\n\n\nOn Monday, in a post on X while sharing a clip, Sanders criticized the direction of",
+      "body": "Sen. Bernie Sanders (I-Vt) warned that the rapid expansion of artificial intelligence and robotics could reshape jobs, education and human relationships, raising concerns about who benefits from the technology-driven future.\n\n\n\nSanders Criticizes AI Job Replacements\n\n\n\nOn Monday, in a post on X while sharing a clip, Sanders criticized the direction of the AI industry, arguing that major technology",
       "url": "https://www.benzinga.com/markets/tech/26/07/60296853/bernie-sanders-warns-big-tech-wants-robots-to-replace-millions-of-jobs-is-this-the-future-we-want",
       "author": "Snigdha Gairola",
       "tickers": [
@@ -3932,7 +3984,7 @@
       "sentiment": "neutral",
       "time": "Tue, 07 Jul 2026 03:24:47 -0400",
       "text": "Bernie Sanders Warns Big Tech Wants Robots to Replace Millions of Jobs: 'Is This the Future We Want?'",
-      "description": "3:24 AM EDT, July 07, 2026 (Benzinga Newswire) Sen. Bernie Sanders (I-Vt) warned that the rapid expansion of artificial intelligence and robotics could reshape jobs, education and human relationships, raising concerns about who benefits from the technology-driven future.\n\n\n\nSanders Criticizes AI Job Replacements\n\n\n\nOn Monday, in a post on X while sharing a clip, Sanders criticized the direction of",
+      "description": "Sen. Bernie Sanders (I-Vt) warned that the rapid expansion of artificial intelligence and robotics could reshape jobs, education and human relationships, raising concerns about who benefits from the technology-driven future.\n\n\n\nSanders Criticizes AI Job Replacements\n\n\n\nOn Monday, in a post on X while sharing a clip, Sanders criticized the direction of the AI industry, arguing that major technology",
       "channels": [
         "Markets",
         "Tech"
@@ -3993,7 +4045,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Tue, 07 Jul 2026 03:09:20 -0400",
       "title": "Dow Settles Above 53,000: Investor Sentiment Improves, Fear & Greed Index Moves To \u2018Neutral\u2019 Zone",
-      "body": "3:09 AM EDT, July 07, 2026 (Benzinga Newswire) The CNN Money Fear and Greed index showed an improvement in overall market sentiment, moving to the &#8220;Neutral&#8221; zone on Monday.\n\n\n\nU.S. stocks settled higher on Monday, with the Nasdaq Composite gaining more than 1% during the session amid a rebound in chip stocks.\n\n\n\nMajor indices closed the holiday-shortened week with gains, as the S&amp;P",
+      "body": "The CNN Money Fear and Greed index showed an improvement in overall market sentiment, moving to the &#8220;Neutral&#8221; zone on Monday.\n\n\n\nU.S. stocks settled higher on Monday, with the Nasdaq Composite gaining more than 1% during the session amid a rebound in chip stocks.\n\n\n\nMajor indices closed the holiday-shortened week with gains, as the S&amp;P 500 rose 1.8% and the 30-stock Dow surged arou",
       "url": "https://www.benzinga.com/markets/market-summary/26/07/60296784/dow-settles-above-53000-investor-sentiment-improves-fear-greed-index-moves-to-neutral-zone",
       "author": "Avi Kapoor",
       "tickers": [
@@ -4008,7 +4060,7 @@
       "sentiment": "neutral",
       "time": "Tue, 07 Jul 2026 03:09:20 -0400",
       "text": "Dow Settles Above 53,000: Investor Sentiment Improves, Fear & Greed Index Moves To \u2018Neutral\u2019 Zone",
-      "description": "3:09 AM EDT, July 07, 2026 (Benzinga Newswire) The CNN Money Fear and Greed index showed an improvement in overall market sentiment, moving to the &#8220;Neutral&#8221; zone on Monday.\n\n\n\nU.S. stocks settled higher on Monday, with the Nasdaq Composite gaining more than 1% during the session amid a rebound in chip stocks.\n\n\n\nMajor indices closed the holiday-shortened week with gains, as the S&amp;P",
+      "description": "The CNN Money Fear and Greed index showed an improvement in overall market sentiment, moving to the &#8220;Neutral&#8221; zone on Monday.\n\n\n\nU.S. stocks settled higher on Monday, with the Nasdaq Composite gaining more than 1% during the session amid a rebound in chip stocks.\n\n\n\nMajor indices closed the holiday-shortened week with gains, as the S&amp;P 500 rose 1.8% and the 30-stock Dow surged arou",
       "channels": [
         "Markets",
         "Trading Ideas",
@@ -4101,29 +4153,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "114a63a3901475",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:55:41Z",
-      "title": "$MSTR complete destroying Rest of Week \ud83d\ude18 \n\n$COIN hold my biggest Short Position.... 52 WEEK LOW INCOMING this Week....after Summer All Time Low.\n\n$ORCL short hold .... under 100 soon\n\n$SNDK complete destroying \ud83e\udd23",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658403954",
-      "author": "I_am_Sparta",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T02:55:41Z",
-      "text": "$MSTR complete destroying Rest of Week \ud83d\ude18 \n\n$COIN hold my biggest Short Position.... 52 WEEK LOW INCOMING this Week....after Summer All Time Low.\n\n$ORCL short hold .... under 100 soon\n\n$SNDK complete destroying \ud83e\udd23",
-      "description": "",
-      "handle": "I_am_Sparta",
-      "display_name": "Bubka Penis",
-      "platform": "stocktwits"
-    },
-    {
       "id": "5485657ae46716",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -4210,7 +4239,7 @@
       "source_type": "benzinga_news",
       "timestamp": "Tue, 07 Jul 2026 02:30:20 -0400",
       "title": "Elon Musk Says Optimus, AI Will Enable 'Excellent' Healthcare\u2014Cathie Wood Sees $50 Billion AI Compute Need",
-      "body": "2:30 AM EDT, July 07, 2026 (Benzinga Newswire) Tesla Inc. (NASDAQ:TSLA) CEO Elon Musk believes that the company&#8217;s Optimus Humanoid robot, as well as its Artificial Intelligence efforts, will enable accessible healthcare for all in the future.\n\n\n\nElon Musk Touts Optimus-Fueled Healthcare\n\n\n\nOn Monday, Musk quoted a post on X by influencer Peter Diamandis who shared a clip of Musk talking abou",
+      "body": "Tesla Inc. (NASDAQ:TSLA) CEO Elon Musk believes that the company&#8217;s Optimus Humanoid robot, as well as its Artificial Intelligence efforts, will enable accessible healthcare for all in the future.\n\n\n\nElon Musk Touts Optimus-Fueled Healthcare\n\n\n\nOn Monday, Musk quoted a post on X by influencer Peter Diamandis who shared a clip of Musk talking about how humanoid robots with &#8220;very high dex",
       "url": "https://www.benzinga.com/markets/tech/26/07/60296473/elon-musk-optimus-ai-enable-excellent-healthcare-cathie-wood-50-billion-compute",
       "author": "Badar Shaikh",
       "tickers": [
@@ -4224,7 +4253,7 @@
       "sentiment": "neutral",
       "time": "Tue, 07 Jul 2026 02:30:20 -0400",
       "text": "Elon Musk Says Optimus, AI Will Enable 'Excellent' Healthcare\u2014Cathie Wood Sees $50 Billion AI Compute Need",
-      "description": "2:30 AM EDT, July 07, 2026 (Benzinga Newswire) Tesla Inc. (NASDAQ:TSLA) CEO Elon Musk believes that the company&#8217;s Optimus Humanoid robot, as well as its Artificial Intelligence efforts, will enable accessible healthcare for all in the future.\n\n\n\nElon Musk Touts Optimus-Fueled Healthcare\n\n\n\nOn Monday, Musk quoted a post on X by influencer Peter Diamandis who shared a clip of Musk talking abou",
+      "description": "Tesla Inc. (NASDAQ:TSLA) CEO Elon Musk believes that the company&#8217;s Optimus Humanoid robot, as well as its Artificial Intelligence efforts, will enable accessible healthcare for all in the future.\n\n\n\nElon Musk Touts Optimus-Fueled Healthcare\n\n\n\nOn Monday, Musk quoted a post on X by influencer Peter Diamandis who shared a clip of Musk talking about how humanoid robots with &#8220;very high dex",
       "channels": [
         "Markets",
         "Tech"
