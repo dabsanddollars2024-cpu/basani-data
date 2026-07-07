@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T09:22:06Z",
-  "generated_display": "2026-07-07 09:22 ET",
+  "generated": "2026-07-07T09:27:07Z",
+  "generated_display": "2026-07-07 09:27 ET",
   "count": 201,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T09:22:02.421855+00:00",
+      "last_error_ts": "2026-07-07T09:27:01.824689+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 150,
-      "last_success": "2026-07-07T09:22:02.573240+00:00",
+      "latency_ms": 113,
+      "last_success": "2026-07-07T09:27:01.939257+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 61,
-      "last_success": "2026-07-07T09:22:02.672263+00:00",
+      "latency_ms": 132,
+      "last_success": "2026-07-07T09:27:02.072613+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 101,
-      "last_success": "2026-07-07T09:22:02.775746+00:00",
+      "latency_ms": 300,
+      "last_success": "2026-07-07T09:27:02.375812+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T09:22:02.810634+00:00",
+      "last_error_ts": "2026-07-07T09:27:02.409609+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1661,
-      "last_success": "2026-07-07T09:22:04.471816+00:00",
+      "latency_ms": 2184,
+      "last_success": "2026-07-07T09:27:04.594538+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T09:22:05.058121+00:00",
+      "last_success": "2026-07-07T09:27:05.350649+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1814,
-      "last_success": "2026-07-07T09:22:06.872185+00:00",
+      "latency_ms": 1880,
+      "last_success": "2026-07-07T09:27:07.231668+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,22 +74,22 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 111
+          "latency_ms": 176
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 26
+          "latency_ms": 28
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 90
+          "latency_ms": 75
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 274
+          "latency_ms": 398
         },
         "seekingalpha": {
           "status": "healthy",
@@ -99,24 +99,338 @@
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 72
+          "latency_ms": 65
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
+    "cnbc": 8,
+    "uw_news": 25,
     "reuters": 16,
     "marketwatch": 8,
     "massive_news": 50,
-    "cnbc": 8,
     "zerohedge": 8,
     "seekingalpha": 7,
     "benzinga": 3,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "f6aaa6edfa98bb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:25:20Z",
+      "title": "$NVDA $RRX July is a bullish month expecting 210 EOM",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658411969",
+      "author": "GiantsfanVJ",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:25:20Z",
+      "text": "$NVDA $RRX July is a bullish month expecting 210 EOM",
+      "description": "",
+      "handle": "GiantsfanVJ",
+      "display_name": "Vijay Katukota",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "54b28c900469a2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:25:03Z",
+      "title": "$AMD under $500.00 semis/ memory trade momentum killed.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658411965",
+      "author": "Franking71",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T09:25:03Z",
+      "text": "$AMD under $500.00 semis/ memory trade momentum killed.",
+      "description": "",
+      "handle": "Franking71",
+      "display_name": "Frank Ing",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1052056de05710",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:24:24Z",
+      "title": "$SPY can\u2019t believe there are furus here that actually think USA is good at futbol.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658411954",
+      "author": "chartistmind",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:24:24Z",
+      "text": "$SPY can\u2019t believe there are furus here that actually think USA is good at futbol.",
+      "description": "",
+      "handle": "chartistmind",
+      "display_name": "ChartNoLie",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e6f62a845124b6",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 09:23:37 GMT",
+      "title": "Samsung Electronics shares fall as capex, demand concerns cloud record second-quarter profit report",
+      "body": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook.",
+      "url": "https://www.cnbc.com/2026/07/07/samsung-electronics-preliminary-second-quarter-profit-hits-fresh-high.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 09:23:37 GMT",
+      "text": "Samsung Electronics shares fall as capex, demand concerns cloud record second-quarter profit report",
+      "description": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook."
+    },
+    {
+      "id": "ca8d47fba88835",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:23:34Z",
+      "title": "$SPY $DJT $BTC.X it&#39;s rigged, Belgium ready to pay extra tariffs for this crime.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658411939",
+      "author": "Holdmybagz",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:23:34Z",
+      "text": "$SPY $DJT $BTC.X it&#39;s rigged, Belgium ready to pay extra tariffs for this crime.",
+      "description": "",
+      "handle": "Holdmybagz",
+      "display_name": "H.T. Le",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1f73ab9dd22109",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:22:51Z",
+      "title": "$MSTR soon\u2026 when BTC hits 65k!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658411925",
+      "author": "Gertjan13",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T09:22:51Z",
+      "text": "$MSTR soon\u2026 when BTC hits 65k!",
+      "description": "",
+      "handle": "Gertjan13",
+      "display_name": "Gertjan13",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "940ebcb23d1f98",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:22:40Z",
+      "title": "$NVDA $MSFT $AMZN $QQQ Look at that overall bearish trend there since early 2024. Share prices have gone up some but barely, and it\u2019s been this relentless thing of good news is negative and bad news is negative too. \n\nWe have all been feeling it.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658411923",
+      "author": "o_0_O_0_o",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:22:40Z",
+      "text": "$NVDA $MSFT $AMZN $QQQ Look at that overall bearish trend there since early 2024. Share prices have gone up some but barely, and it\u2019s been this relentless thing of good news is negative and bad news is negative too. \n\nWe have all been feeling it.",
+      "description": "",
+      "handle": "o_0_O_0_o",
+      "display_name": "o_0_O_0_o",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ace3accd266e94",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:22:40Z",
+      "title": "$NVDA $MSFT $AMZN $QQQ Look at that overall bearish trend there since early 2024. Share prices have gone up some but barely, and it\u2019s been this relentless thing of good news is negative and bad news is negative too. \n\nWe have all been feeling it.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658411923",
+      "author": "o_0_O_0_o",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:22:40Z",
+      "text": "$NVDA $MSFT $AMZN $QQQ Look at that overall bearish trend there since early 2024. Share prices have gone up some but barely, and it\u2019s been this relentless thing of good news is negative and bad news is negative too. \n\nWe have all been feeling it.",
+      "description": "",
+      "handle": "o_0_O_0_o",
+      "display_name": "o_0_O_0_o",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "82c447c306b7a9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:22:40Z",
+      "title": "$NVDA $MSFT $AMZN $QQQ Look at that overall bearish trend there since early 2024. Share prices have gone up some but barely, and it\u2019s been this relentless thing of good news is negative and bad news is negative too. \n\nWe have all been feeling it.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658411923",
+      "author": "o_0_O_0_o",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:22:40Z",
+      "text": "$NVDA $MSFT $AMZN $QQQ Look at that overall bearish trend there since early 2024. Share prices have gone up some but barely, and it\u2019s been this relentless thing of good news is negative and bad news is negative too. \n\nWe have all been feeling it.",
+      "description": "",
+      "handle": "o_0_O_0_o",
+      "display_name": "o_0_O_0_o",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2b981386a0428b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:22:40Z",
+      "title": "$NVDA $MSFT $AMZN $QQQ Look at that overall bearish trend there since early 2024. Share prices have gone up some but barely, and it\u2019s been this relentless thing of good news is negative and bad news is negative too. \n\nWe have all been feeling it.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658411923",
+      "author": "o_0_O_0_o",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:22:40Z",
+      "text": "$NVDA $MSFT $AMZN $QQQ Look at that overall bearish trend there since early 2024. Share prices have gone up some but barely, and it\u2019s been this relentless thing of good news is negative and bad news is negative too. \n\nWe have all been feeling it.",
+      "description": "",
+      "handle": "o_0_O_0_o",
+      "display_name": "o_0_O_0_o",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "594bb04cfd463a",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T09:22:39Z",
+      "title": "Anaergia Australia Pty Ltd. to Supply Advanced Anaerobic Digestion Technology for Goodness Grown Facility in Australia",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "ANRG"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:22:39Z",
+      "text": "Anaergia Australia Pty Ltd. to Supply Advanced Anaerobic Digestion Technology for Goodness Grown Facility in Australia",
+      "description": ""
+    },
+    {
+      "id": "71fef55e979ca5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:22:14Z",
+      "title": "$NVDA \ud83d\ude4f",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658411919",
+      "author": "rpatelba001",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T09:22:14Z",
+      "text": "$NVDA \ud83d\ude4f",
+      "description": "",
+      "handle": "rpatelba001",
+      "display_name": "Rakesh Patel",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8a29e851ead6a1",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:22:07Z",
+      "title": "$PLTR this is the most exhausting fucking narrative ever holy fucking shit. $MU $SNDK $NVDA so sick of this AI fucking horseshit. Every company uses it. No gives a fuck anymore",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658411915",
+      "author": "DookieDungaroos",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T09:22:07Z",
+      "text": "$PLTR this is the most exhausting fucking narrative ever holy fucking shit. $MU $SNDK $NVDA so sick of this AI fucking horseshit. Every company uses it. No gives a fuck anymore",
+      "description": "",
+      "handle": "DookieDungaroos",
+      "display_name": "Dookie Williams",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ae4c5a431b2970",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:22:07Z",
+      "title": "$PLTR this is the most exhausting fucking narrative ever holy fucking shit. $MU $SNDK $NVDA so sick of this AI fucking horseshit. Every company uses it. No gives a fuck anymore",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658411915",
+      "author": "DookieDungaroos",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T09:22:07Z",
+      "text": "$PLTR this is the most exhausting fucking narrative ever holy fucking shit. $MU $SNDK $NVDA so sick of this AI fucking horseshit. Every company uses it. No gives a fuck anymore",
+      "description": "",
+      "handle": "DookieDungaroos",
+      "display_name": "Dookie Williams",
+      "platform": "stocktwits"
+    },
     {
       "id": "57281faa4229fe",
       "source": "uw_news",
@@ -307,6 +621,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "712bb887363824",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:17:20Z",
+      "title": "UHY adds RBT CPAs to expand accounting offerings in New York",
+      "body": "",
+      "url": "https://finance.yahoo.com/small-business/articles/uhy-adds-rbt-cpas-expand-091720527.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:17:20Z",
+      "text": "UHY adds RBT CPAs to expand accounting offerings in New York",
+      "description": ""
+    },
+    {
       "id": "cf55bdae7f4dcc",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -443,29 +775,6 @@
       "time": "2026-07-07 09:15:02",
       "text": "Syensqo shares rise on positive Victrex earnings",
       "description": ""
-    },
-    {
-      "id": "3c917becab7a53",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:14:29Z",
-      "title": "$SPY crash this bic niga",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658411783",
-      "author": "checkbeansapp",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T09:14:29Z",
-      "text": "$SPY crash this bic niga",
-      "description": "",
-      "handle": "checkbeansapp",
-      "display_name": "Checkbeans",
-      "platform": "stocktwits"
     },
     {
       "id": "baf6f23c7af000",
@@ -614,29 +923,6 @@
       "description": ""
     },
     {
-      "id": "7672141607966e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:13:13Z",
-      "title": "$NVDA Jesus Christ wtf will it take\u2026",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658411755",
-      "author": "CynicalCapital",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:13:13Z",
-      "text": "$NVDA Jesus Christ wtf will it take\u2026",
-      "description": "",
-      "handle": "CynicalCapital",
-      "display_name": "Cynical Capital",
-      "platform": "stocktwits"
-    },
-    {
       "id": "06ca1d294301d1",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -652,24 +938,6 @@
       "sentiment": "neutral",
       "time": "2026-07-07T09:13:09Z",
       "text": "Global exposure for Minesto's Tidal Dragons following Cannes Lions Grand Prix win",
-      "description": ""
-    },
-    {
-      "id": "c8251f38ba5d93",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T09:13:08Z",
-      "title": "Japan\u2019s vehicle sales rise by 9% in June",
-      "body": "",
-      "url": "https://finance.yahoo.com/economy/articles/japan-vehicle-sales-rise-9-091308859.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:13:08Z",
-      "text": "Japan\u2019s vehicle sales rise by 9% in June",
       "description": ""
     },
     {
@@ -745,29 +1013,6 @@
       "time": "2026-07-07T09:12:20Z",
       "text": "S. Korea unveils UAV engine prototypes for 1st time - yonhap",
       "description": ""
-    },
-    {
-      "id": "64fb9c57221d6b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:11:27Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658411733",
-      "author": "Rehabsforquitters",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:11:27Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "Rehabsforquitters",
-      "display_name": "Barry Seal",
-      "platform": "stocktwits"
     },
     {
       "id": "579f63f71072ad",
@@ -1083,29 +1328,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "4e290f5866f76e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:08:34Z",
-      "title": "$MSFT $NVDA $AMZN they no longer move with $QQQ, they trade like value stocks. Holding all long-term. I dropped under +200% with NVIDIA during this pullback and I&#39;m only up about 35% with Amazon but I&#39;m a few % in the red with Microsoft \ud83d\ude44 Annoying as hell.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658411674",
-      "author": "TheVoic",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T09:08:34Z",
-      "text": "$MSFT $NVDA $AMZN they no longer move with $QQQ, they trade like value stocks. Holding all long-term. I dropped under +200% with NVIDIA during this pullback and I&#39;m only up about 35% with Amazon but I&#39;m a few % in the red with Microsoft \ud83d\ude44 Annoying as hell.",
-      "description": "",
-      "handle": "TheVoic",
-      "display_name": "GitLab &amp; Coinbase Bagholder \ud83d\udecd\ufe0f",
-      "platform": "stocktwits"
-    },
-    {
       "id": "dd21c8c75d8e73",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1212,73 +1434,6 @@
       "description": ""
     },
     {
-      "id": "6a599532295886",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T09:08:25Z",
-      "title": "TRX price poised at $0.33, likely to dip to $0.31 before a push to $0.37. Tight range, strong sell pressure.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "TRX",
-        "TRON"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:08:25Z",
-      "text": "TRX price poised at $0.33, likely to dip to $0.31 before a push to $0.37. Tight range, strong sell pressure.",
-      "description": ""
-    },
-    {
-      "id": "1bc6e6b1ff00f8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:08:24Z",
-      "title": "$NVDA 210 2030",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658411669",
-      "author": "khalid44",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:08:24Z",
-      "text": "$NVDA 210 2030",
-      "description": "",
-      "handle": "khalid44",
-      "display_name": "khalid",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d155ac390e85a3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:05:41Z",
-      "title": "$NVDA Solid buy at current prices, earnings will be a home run here. People will be chasing this stock once it moves $210 a share. Save this tweet\u2615\ufe0f\n\n\u201cEverything is intact- Nvidia\u201d\n\nBloomberg",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658411624",
-      "author": "Championinvestor",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T09:05:41Z",
-      "text": "$NVDA Solid buy at current prices, earnings will be a home run here. People will be chasing this stock once it moves $210 a share. Save this tweet\u2615\ufe0f\n\n\u201cEverything is intact- Nvidia\u201d\n\nBloomberg",
-      "description": "",
-      "handle": "Championinvestor",
-      "display_name": "Champion",
-      "platform": "stocktwits"
-    },
-    {
       "id": "54c99bf78e9aec",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1300,6 +1455,24 @@
       "handle": "chase10xx",
       "display_name": "NVDA",
       "platform": "stocktwits"
+    },
+    {
+      "id": "300b465711d445",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:05:00Z",
+      "title": "Here are 7 habits of \u2018quietly wealthy\u2019 Americans \u2014 how many do you follow?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/articles/7-habits-quietly-wealthy-americans-090500310.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:05:00Z",
+      "text": "Here are 7 habits of \u2018quietly wealthy\u2019 Americans \u2014 how many do you follow?",
+      "description": ""
     },
     {
       "id": "8a214270e6761d",
@@ -1748,29 +1921,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "3e2035f8fd614b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:53:41Z",
-      "title": "$MSFT .http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658411434",
-      "author": "Mipel",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:53:41Z",
-      "text": "$MSFT .http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
       "id": "27511c2b396bbc",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1791,29 +1941,6 @@
       "description": "",
       "handle": "JDKING",
       "display_name": "JDKING",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "373d800793ad67",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:53:15Z",
-      "title": "$AMD http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658411419",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:53:15Z",
-      "text": "$AMD http://Investing.com - Global semiconductor stocks fell on Tuesday after Samsung Electronics shares plunged, even though the company reported results that far exceeded analysts&#39; forecasts, as investors wondered how much longer the AI-driven chip growth cycle could last.",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
       "platform": "stocktwits"
     },
     {
@@ -1840,29 +1967,6 @@
       "time": "2026-07-07T08:50:00Z",
       "text": "Explosive Growth Forecasted: Sports Analytics Market to Reach $9.64 Billion by 2030",
       "description": "The global sports analytics market is experiencing exponential growth, expanding from $3.05 billion in 2025 to $3.86 billion in 2026 (26.5% CAGR), with projections to reach $9.64 billion by 2030. Growth is driven by AI adoption, wearable sensors, real-time player tracking, and cloud-based platforms."
-    },
-    {
-      "id": "764d51764696f5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:49:57Z",
-      "title": "$NBIS $MU $SNDK $PLTR everything getting shafted",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658411348",
-      "author": "DookieDungaroos",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T08:49:57Z",
-      "text": "$NBIS $MU $SNDK $PLTR everything getting shafted",
-      "description": "",
-      "handle": "DookieDungaroos",
-      "display_name": "Dookie Williams",
-      "platform": "stocktwits"
     },
     {
       "id": "711f733ae62fbe",
@@ -2110,29 +2214,6 @@
       "description": "",
       "handle": "Meatballtrades",
       "display_name": "Meatball 23",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "321df6993b187e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:28:01Z",
-      "title": "$SPY $QQQ $SOXL $SOXS $BTC.X looks like Belgium need some liberation after that match.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658410987",
-      "author": "newmoneyking",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T08:28:01Z",
-      "text": "$SPY $QQQ $SOXL $SOXS $BTC.X looks like Belgium need some liberation after that match.",
-      "description": "",
-      "handle": "newmoneyking",
-      "display_name": "Newmoneyking",
       "platform": "stocktwits"
     },
     {
@@ -2498,24 +2579,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0602e13709f10a",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T07:36:55Z",
-      "title": "Why Auna\u2019s (AUNA) Analyst Upside Depends on Latin American Healthcare Platform Execution",
-      "body": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/why-auna-auna-analyst-upside-073655371.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:36:55Z",
-      "text": "Why Auna\u2019s (AUNA) Analyst Upside Depends on Latin American Healthcare Platform Execution",
-      "description": ""
-    },
-    {
       "id": "ed9b26715a2286",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2635,29 +2698,6 @@
       "description": "The global Power Line Communication (PLC) market, valued at USD 10.32 billion in 2025, is expected to grow to USD 27.28 billion by 2035 at a 10.23% CAGR. Growth is driven by smart grid modernization, digital utility infrastructure expansion, and increasing adoption of IoT-based smart homes and build"
     },
     {
-      "id": "bcc769478e0bd8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T07:20:16Z",
-      "title": "$ASST $BTC.X $MSTR $MSTR \nhttps://www.tradingview.com/news/cointelegraph:61e87113c094b:0-strategy-s-bitcoin-sale-may-give-btc-a-durable-bottom-grayscale-says/",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658410004",
-      "author": "7SamuraiScalper",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T07:20:16Z",
-      "text": "$ASST $BTC.X $MSTR $MSTR \nhttps://www.tradingview.com/news/cointelegraph:61e87113c094b:0-strategy-s-bitcoin-sale-may-give-btc-a-durable-bottom-grayscale-says/",
-      "description": "",
-      "handle": "7SamuraiScalper",
-      "display_name": "Jack",
-      "platform": "stocktwits"
-    },
-    {
       "id": "39f8078645b785",
       "source": "cnbc",
       "source_type": "rss",
@@ -2723,24 +2763,6 @@
       "time": "2026-07-07T07:05:00Z",
       "text": "Meet the Dividend King Stock That's Up 20% in 2026. Here's Why It Can Continue Outperforming the S&P 500 and Nasdaq-100 in the Second Half.",
       "description": "Colgate-Palmolive has surged 20.4% year-to-date and stands out as a Dividend King with 63 consecutive years of dividend increases. Despite industry headwinds from inflation and consumer resistance to price increases, the company has demonstrated resilience through its elite brand portfolio, efficien"
-    },
-    {
-      "id": "e6f62a845124b6",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 07:01:09 GMT",
-      "title": "Samsung Electronics shares fall as capex, demand concerns cloud record second-quarter profit report",
-      "body": "Samsung Electronics shares fell even after record preliminary Q2 profit as capex and demand concerns clouded the outlook.",
-      "url": "https://www.cnbc.com/2026/07/07/samsung-electronics-preliminary-second-quarter-profit-hits-fresh-high.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 07:01:09 GMT",
-      "text": "Samsung Electronics shares fall as capex, demand concerns cloud record second-quarter profit report",
-      "description": "Samsung Electronics shares fell even after record preliminary Q2 profit as capex and demand concerns clouded the outlook."
     },
     {
       "id": "0359e3b195c8d9",
@@ -2902,29 +2924,6 @@
       "time": "Tue, 07 Jul 2026 06:45:00 +0000",
       "text": "Lithuania To Lift Ban On Nuclear Weapons, Following Finland",
       "description": "Lithuania To Lift Ban On Nuclear Weapons, Following Finland\n\n            First it was Finland which lifted its ban on the deployment of nuclear weapons, declaring its willingness to host NATO's arsenal (which is largely provided by the US), and now Lithuania has become the latest European country to"
-    },
-    {
-      "id": "6781213593ba55",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:33:59Z",
-      "title": "$AMZN $WMT $SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMZN/message/658409333",
-      "author": "Shergasmic",
-      "tickers": [
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:33:59Z",
-      "text": "$AMZN $WMT $SPY $QQQ",
-      "description": "",
-      "handle": "Shergasmic",
-      "display_name": "Shergasmic",
-      "platform": "stocktwits"
     },
     {
       "id": "ae949ae52077d7",
@@ -3168,6 +3167,24 @@
       "time": "Tue, 07 Jul 2026 05:29:18 GMT",
       "text": "Hanwha Ocean shares sink 23% as it loses bid to build Canada's next fleet of submarines",
       "description": "Canadian Prime Minister Mark Carney announced Monday that\u00a0Germany's Thyssenkrupp Marine Systems would be the preferred supplier for delivering the submarines."
+    },
+    {
+      "id": "9ecb812c1266f6",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 05:23:53 -0400",
+      "title": "Coinbase expands beyond crypto with UK license for equities and derivatives",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4611855-coinbase-expands-beyond-crypto-with-uk-license-for-equities-and-derivatives?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 05:23:53 -0400",
+      "text": "Coinbase expands beyond crypto with UK license for equities and derivatives",
+      "description": ""
     },
     {
       "id": "5edbf26ba7f240",
@@ -3598,24 +3615,6 @@
       "sentiment": "neutral",
       "time": "Tue, 07 Jul 2026 04:22:53 -0400",
       "text": "Levicept appoints Darlene Deptula-Hicks as CFO",
-      "description": ""
-    },
-    {
-      "id": "970113c31c3c68",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 04:19:59 -0400",
-      "title": "Micron, AI memory bets reportedly drive hedge fund Appaloosa's 32% H1 surge",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4611847-micron-ai-memory-bets-reportedly-drive-hedge-fund-appaloosas-32-h1-surge?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 04:19:59 -0400",
-      "text": "Micron, AI memory bets reportedly drive hedge fund Appaloosa's 32% H1 surge",
       "description": ""
     },
     {
