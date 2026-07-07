@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-07T06:22:06Z",
-  "generated_display": "2026-07-07 06:22 ET",
-  "count": 197,
+  "generated": "2026-07-07T06:27:07Z",
+  "generated_display": "2026-07-07 06:27 ET",
+  "count": 196,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T06:22:01.660896+00:00",
+      "last_error_ts": "2026-07-07T06:27:01.794026+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 99,
-      "last_success": "2026-07-07T06:22:01.760202+00:00",
+      "latency_ms": 165,
+      "last_success": "2026-07-07T06:27:01.959301+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 200,
-      "last_success": "2026-07-07T06:22:01.962098+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-07T06:27:02.060208+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 49,
-      "latency_ms": 98,
-      "last_success": "2026-07-07T06:22:02.063468+00:00",
+      "items_pulled": 48,
+      "latency_ms": 199,
+      "last_success": "2026-07-07T06:27:02.261984+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T06:22:02.171351+00:00",
+      "last_error_ts": "2026-07-07T06:27:02.367522+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1890,
-      "last_success": "2026-07-07T06:22:04.061565+00:00",
+      "latency_ms": 1992,
+      "last_success": "2026-07-07T06:27:04.360107+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T06:22:04.661041+00:00",
+      "last_success": "2026-07-07T06:27:05.259647+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1899,
-      "last_success": "2026-07-07T06:22:06.560098+00:00",
+      "latency_ms": 1799,
+      "last_success": "2026-07-07T06:27:07.059141+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,48 +74,245 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 112
+          "latency_ms": 124
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 96
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 11
+          "latency_ms": 100
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 287
+          "latency_ms": 384
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 12
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 86
+          "latency_ms": 180
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "reuters": 16,
     "uw_news": 25,
-    "massive_news": 49,
+    "reuters": 16,
     "cnbc": 8,
+    "massive_news": 48,
     "zerohedge": 8,
     "seekingalpha": 7,
     "marketwatch": 8,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "163db46542a598",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:26:49Z",
+      "title": "$SPY my guru says 733.65 by friday",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409223",
+      "author": "SammyDavisSr",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T06:26:49Z",
+      "text": "$SPY my guru says 733.65 by friday",
+      "description": "",
+      "handle": "SammyDavisSr",
+      "display_name": "sammy davis",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "183705d117efca",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:26:45Z",
+      "title": "$AMZN $WMT $SPY $QQQ No men in bathroom!!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658409221",
+      "author": "yogibearacallz",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:26:45Z",
+      "text": "$AMZN $WMT $SPY $QQQ No men in bathroom!!!",
+      "description": "",
+      "handle": "yogibearacallz",
+      "display_name": "Yogi Berra",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7e607eba81b49b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:26:45Z",
+      "title": "$AMZN $WMT $SPY $QQQ No men in bathroom!!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409221",
+      "author": "yogibearacallz",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:26:45Z",
+      "text": "$AMZN $WMT $SPY $QQQ No men in bathroom!!!",
+      "description": "",
+      "handle": "yogibearacallz",
+      "display_name": "Yogi Berra",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "66b300d1a22651",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:26:45Z",
+      "title": "$AMZN $WMT $SPY $QQQ No men in bathroom!!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658409221",
+      "author": "yogibearacallz",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:26:45Z",
+      "text": "$AMZN $WMT $SPY $QQQ No men in bathroom!!!",
+      "description": "",
+      "handle": "yogibearacallz",
+      "display_name": "Yogi Berra",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a4f19e39e2cd01",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:26:02Z",
+      "title": "$MSTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658409217",
+      "author": "stphb",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T06:26:02Z",
+      "text": "$MSTR",
+      "description": "",
+      "handle": "stphb",
+      "display_name": "stphb",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fbe3aedf7079d1",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T06:24:36Z",
+      "title": "SOUTH AFRICA\u2019S NATIONAL TREASURY WILL WITHHOLD STATE FUNDING FOR JOHANNESBURG AND DOZENS OF OTHER MUNICIPALITIES THIS MONTH OVER THEIR FAILURE TO MANAGE THEIR FINANCES PROPERLY",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:24:36Z",
+      "text": "SOUTH AFRICA\u2019S NATIONAL TREASURY WILL WITHHOLD STATE FUNDING FOR JOHANNESBURG AND DOZENS OF OTHER MUNICIPALITIES THIS MONTH OVER THEIR FAILURE TO MANAGE THEIR FINANCES PROPERLY",
+      "description": ""
+    },
+    {
+      "id": "121d79fd6029b2",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T06:24:05Z",
+      "title": "TORNADOES WREAK HAVOC ACROSS CENTRAL CHINA AS TYPHOON BAVI LOOMS OFFSHORE",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:24:05Z",
+      "text": "TORNADOES WREAK HAVOC ACROSS CENTRAL CHINA AS TYPHOON BAVI LOOMS OFFSHORE",
+      "description": ""
+    },
+    {
+      "id": "eac48d063f25b9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:23:44Z",
+      "title": "$QQQ We are bouncing on and around 703.50\u2026",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658409180",
+      "author": "AsianInvestorOver9000",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:23:44Z",
+      "text": "$QQQ We are bouncing on and around 703.50\u2026",
+      "description": "",
+      "handle": "AsianInvestorOver9000",
+      "display_name": "Jimmy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a8e7094bf952bf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T06:22:03Z",
+      "title": "$TSLA $SOXL $SOXS $TQQQ $SQQQ  \nElon Musk assured all Tesla (TSLA) shareholders the following: \n \n&quot;Keep holding your Tesla stock.&quot;  \n \nTrump just asked for another $500 billion worth of Tesla stock! \ud83d\ude06",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658409150",
+      "author": "chamono1942",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T06:22:03Z",
+      "text": "$TSLA $SOXL $SOXS $TQQQ $SQQQ  \nElon Musk assured all Tesla (TSLA) shareholders the following: \n \n&quot;Keep holding your Tesla stock.&quot;  \n \nTrump just asked for another $500 billion worth of Tesla stock! \ud83d\ude06",
+      "description": "",
+      "handle": "chamono1942",
+      "display_name": "\uc774\ucca0\uc131",
+      "platform": "stocktwits"
+    },
     {
       "id": "93e30c91035373",
       "source": "stocktwits",
@@ -340,6 +537,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "04cbd656435a94",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 06:16:44 GMT",
+      "title": "Why oil investors fear the next toll fight could be the Strait of Malacca",
+      "body": "The prospect of fees to transit the Strait of Hormuz has sparked alarm, not least by investors who fear it could be replicated in other maritime corridors.",
+      "url": "https://www.cnbc.com/2026/07/07/malacca-hormuz-oil-shipping-indonesia.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 06:16:44 GMT",
+      "text": "Why oil investors fear the next toll fight could be the Strait of Malacca",
+      "description": "The prospect of fees to transit the Strait of Hormuz has sparked alarm, not least by investors who fear it could be replicated in other maritime corridors."
+    },
+    {
       "id": "eb2c4a87acee0c",
       "source": "reuters",
       "source_type": "rss",
@@ -540,29 +755,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "627f4e8b1d5809",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:12:05Z",
-      "title": "$QQQ We are doomed as Memory = Nasdaq 100 = Kospi. We are literally following Kospi to the Tee at this point.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658409026",
-      "author": "jazz97",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:12:05Z",
-      "text": "$QQQ We are doomed as Memory = Nasdaq 100 = Kospi. We are literally following Kospi to the Tee at this point.",
-      "description": "",
-      "handle": "jazz97",
-      "display_name": "Jazz B",
-      "platform": "stocktwits"
-    },
-    {
       "id": "f64f86b92a33a8",
       "source": "reuters",
       "source_type": "rss",
@@ -693,29 +885,6 @@
       "description": ""
     },
     {
-      "id": "864d9ccc51bc6d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:10:32Z",
-      "title": "$SPY Belgium humiliated USA in the Worldcup Football today, after widespread worldwide outrage about Trump&#39;s dirty tricks... \n \nFollowing their 1-4 victory in Seattle, Belgium&#39;s public response was a sober &quot; overturn this...&quot; \n \n$DIA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658408994",
-      "author": "JB_Research",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:10:32Z",
-      "text": "$SPY Belgium humiliated USA in the Worldcup Football today, after widespread worldwide outrage about Trump&#39;s dirty tricks... \n \nFollowing their 1-4 victory in Seattle, Belgium&#39;s public response was a sober &quot; overturn this...&quot; \n \n$DIA",
-      "description": "",
-      "handle": "JB_Research",
-      "display_name": "J",
-      "platform": "stocktwits"
-    },
-    {
       "id": "8af295dcb76072",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -734,29 +903,6 @@
       "description": ""
     },
     {
-      "id": "795aad8b402172",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:09:26Z",
-      "title": "$QQQ Gap fill at 550",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658408985",
-      "author": "jgalfano4",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T06:09:26Z",
-      "text": "$QQQ Gap fill at 550",
-      "description": "",
-      "handle": "jgalfano4",
-      "display_name": "joey galfano",
-      "platform": "stocktwits"
-    },
-    {
       "id": "9459c2f4a147b2",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -773,29 +919,6 @@
       "time": "2026-07-07T06:08:56Z",
       "text": "transcosmos conducts AI skills enhancement training in South Korea in the era of AI agents",
       "description": ""
-    },
-    {
-      "id": "0b38b419aa8874",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T06:07:56Z",
-      "title": "$SNDK $MU Tgis is the shake out that these stocks needed.  All good to go now! sndk 1600\u2019s is a deal  $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658408966",
-      "author": "MomentumWins",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T06:07:56Z",
-      "text": "$SNDK $MU Tgis is the shake out that these stocks needed.  All good to go now! sndk 1600\u2019s is a deal  $SPY",
-      "description": "",
-      "handle": "MomentumWins",
-      "display_name": "MomentumWins",
-      "platform": "stocktwits"
     },
     {
       "id": "652085b0e106d2",
@@ -1496,47 +1619,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "096ce9c21d953f",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T05:58:19Z",
-      "title": "MORGAN STANLEY INITIATES COVERAGE OF SPACEX WITH OVERWEIGHT RATING; TARGET PRICE $300",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T05:58:19Z",
-      "text": "MORGAN STANLEY INITIATES COVERAGE OF SPACEX WITH OVERWEIGHT RATING; TARGET PRICE $300",
-      "description": ""
-    },
-    {
-      "id": "9bf114dde7e74c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T05:55:48Z",
-      "title": "#DoYouWantToBuildASnowman? $DIS or try to #SetACommentRecord? $TSLA $AMC $JNJ $NAK . On original post please &lt;3",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658408770",
-      "author": "DidYouReadThis",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T05:55:48Z",
-      "text": "#DoYouWantToBuildASnowman? $DIS or try to #SetACommentRecord? $TSLA $AMC $JNJ $NAK . On original post please &lt;3",
-      "description": "",
-      "handle": "DidYouReadThis",
-      "display_name": "DidYouReadThis",
-      "platform": "stocktwits"
-    },
-    {
       "id": "41d67b71b95233",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1558,24 +1640,6 @@
       "handle": "bankrupt_bob",
       "display_name": "A A Luz",
       "platform": "stocktwits"
-    },
-    {
-      "id": "1bc7fcf2252b2f",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T05:53:39Z",
-      "title": "INVESTORS ARE ADVISED TO BUY SK HYNIX'S UPCOMING ADRS AND SELL ITS KOREAN STOCK SINCE THE NEW SHARES ARE EXPECTED TO TRADE AT A HIGHER PRICE, SAYS UBS.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T05:53:39Z",
-      "text": "INVESTORS ARE ADVISED TO BUY SK HYNIX'S UPCOMING ADRS AND SELL ITS KOREAN STOCK SINCE THE NEW SHARES ARE EXPECTED TO TRADE AT A HIGHER PRICE, SAYS UBS.",
-      "description": ""
     },
     {
       "id": "741821acbbda0e",
@@ -1782,29 +1846,6 @@
       "description": "",
       "handle": "DidYouReadThis",
       "display_name": "DidYouReadThis",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c5315df351beda",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T05:45:56Z",
-      "title": "$BTC.X $MSTR $STRC $STRCX.X  \n&quot;the mindset of hodling is really important to the long term sustainability of Bitcoin .... &quot;  1hr &amp; 5 mins into video \nhttps://www.youtube.com/watch?v=UzdJBbwxtLY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658408569",
-      "author": "Lizette1",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T05:45:56Z",
-      "text": "$BTC.X $MSTR $STRC $STRCX.X  \n&quot;the mindset of hodling is really important to the long term sustainability of Bitcoin .... &quot;  1hr &amp; 5 mins into video \nhttps://www.youtube.com/watch?v=UzdJBbwxtLY",
-      "description": "",
-      "handle": "Lizette1",
-      "display_name": "Liz.01",
       "platform": "stocktwits"
     },
     {
@@ -2302,29 +2343,6 @@
       "time": "2026-07-07T05:12:45Z",
       "text": "Should Investors Buy Microsoft Stock Instead of Apple Stock?",
       "description": "The article compares Microsoft and Apple stocks, two tech giants that have competed for decades. It discusses how higher component prices are negatively impacting both companies' performance and profitability."
-    },
-    {
-      "id": "0d1911f69f7119",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T05:10:00Z",
-      "title": "$SPY $QQQ  pay attention tomorrow $META $AMZN $MSFT  will all be green. money has to rotate somewhere. All 3 are no where near ATH",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMZN/message/658407762",
-      "author": "Jpp24",
-      "tickers": [
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T05:10:00Z",
-      "text": "$SPY $QQQ  pay attention tomorrow $META $AMZN $MSFT  will all be green. money has to rotate somewhere. All 3 are no where near ATH",
-      "description": "",
-      "handle": "Jpp24",
-      "display_name": "Jpp24",
-      "platform": "stocktwits"
     },
     {
       "id": "47b011cc4625ca",
@@ -3692,24 +3710,6 @@
       "description": "IPO fundraising in 2026 has reached levels not seen since 1929 and 2000, historically preceding market downturns. JPMorgan predicts $260 billion will be raised this year through new stock issuances. While this high volume suggests potential 'irrational exuberance' and overconfidence, the article cau"
     },
     {
-      "id": "a14face83d4ad8",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Mon, 06 Jul 2026 23:12:43 GMT",
-      "title": "Graham Platner denies sex assault claim as Democrats urge him to quit Maine Senate race",
-      "body": "Graham Platner hopes to unseat Republican Sen. Susan Collins, but the Democrat's campaign is reeling from a bombshell allegation by Jenny Racicot.",
-      "url": "https://www.cnbc.com/2026/07/06/graham-platner-maine-senate-allegation-response.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Mon, 06 Jul 2026 23:12:43 GMT",
-      "text": "Graham Platner denies sex assault claim as Democrats urge him to quit Maine Senate race",
-      "description": "Graham Platner hopes to unseat Republican Sen. Susan Collins, but the Democrat's campaign is reeling from a bombshell allegation by Jenny Racicot."
-    },
-    {
       "id": "449bb6ff5a66bb",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3873,27 +3873,6 @@
       "time": "2026-07-06T22:28:00Z",
       "text": "Hub Group, Inc. (HUBG) Faces Securities Class Action \u2014 Hagens Berman Investigates Claims of False Financial Reporting",
       "description": "Hub Group faces a securities class action lawsuit for materially misstated financial reports dating back to 2023, involving premature revenue recognition and understatement of costs. The company's stock plummeted following disclosures in February and May 2026, resulting in over $890 million in marke"
-    },
-    {
-      "id": "6f63eb4434ff18",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-06T22:25:00Z",
-      "title": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
-      "body": "AMD stock has surged 142% in 2026, approaching a $1 trillion valuation and significantly outperforming Nvidia. However, the author questions whether the stock's dramatic rise is justified by fundamentals, noting that while AMD shows strong data center growth (57% YoY), its overall growth doesn't ful",
-      "url": "https://www.fool.com/investing/2026/07/06/will-amd-be-a-1-trillion-company-before-2026-is-ov/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "AMD",
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 9.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T22:25:00Z",
-      "text": "Will AMD Be a $1 Trillion Company Before 2026 Is Over?",
-      "description": "AMD stock has surged 142% in 2026, approaching a $1 trillion valuation and significantly outperforming Nvidia. However, the author questions whether the stock's dramatic rise is justified by fundamentals, noting that while AMD shows strong data center growth (57% YoY), its overall growth doesn't ful"
     },
     {
       "id": "cb49b239a3562b",
@@ -4082,57 +4061,57 @@
       "week": "this"
     },
     {
-      "id": "78b27289604b9d",
+      "id": "95cf5096c3867f",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:06:44Z",
-      "title": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
+      "timestamp": "2026-07-05T20:06:53Z",
+      "title": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/petco-woof-one-best-value-200644831.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/repay-holdings-rpay-receives-unsolicited-200653568.html",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 7.0,
+      "impact_score": 9.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:06:44Z",
-      "text": "Petco (WOOF) is One of the Best Value Penny Stocks to Buy According to Hedge Funds",
+      "time": "2026-07-05T20:06:53Z",
+      "text": "Repay Holdings (RPAY) Receives Unsolicited Acquisition Proposal from Forager Capital Management",
       "description": ""
     },
     {
-      "id": "b56a2efe074767",
+      "id": "bf2ae7409cfed7",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:06:34Z",
-      "title": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds",
+      "timestamp": "2026-07-05T20:06:17Z",
+      "title": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/galiano-gold-gau-best-value-200634573.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/n-able-nabl-one-best-200617423.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:06:34Z",
-      "text": "Galiano Gold (GAU): Best Value Penny Stocks to Buy According to Hedge Funds",
+      "time": "2026-07-05T20:06:17Z",
+      "text": "Is N-able (NABL) One of the Best Value Penny Stocks to Buy According to Hedge Funds?",
       "description": ""
     },
     {
-      "id": "335e5c429e8f1b",
+      "id": "df44987e86b3a0",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T20:05:54Z",
-      "title": "Kosmos Energy (KOS) Completes Sale of Equatorial Guinea Interests to Panoro Energy",
+      "timestamp": "2026-07-05T20:06:03Z",
+      "title": "Clarivate (CLVT) Launches IPOne AI-Powered Intelligence Platform for IP Workflows",
       "body": "",
-      "url": "https://finance.yahoo.com/energy/articles/kosmos-energy-kos-completes-sale-200554093.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/clarivate-clvt-launches-ipone-ai-200603192.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T20:05:54Z",
-      "text": "Kosmos Energy (KOS) Completes Sale of Equatorial Guinea Interests to Panoro Energy",
+      "time": "2026-07-05T20:06:03Z",
+      "text": "Clarivate (CLVT) Launches IPOne AI-Powered Intelligence Platform for IP Workflows",
       "description": ""
     },
     {
