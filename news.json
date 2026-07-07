@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T02:12:08Z",
-  "generated_display": "2026-07-07 02:12 ET",
+  "generated": "2026-07-07T02:17:07Z",
+  "generated_display": "2026-07-07 02:17 ET",
   "count": 223,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T02:12:01.606640+00:00",
+      "last_error_ts": "2026-07-07T02:17:02.105334+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 269,
-      "last_success": "2026-07-07T02:12:01.878213+00:00",
+      "latency_ms": 169,
+      "last_success": "2026-07-07T02:17:02.277033+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 93,
-      "last_success": "2026-07-07T02:12:01.972260+00:00",
+      "latency_ms": 62,
+      "last_success": "2026-07-07T02:17:02.370528+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 103,
-      "last_success": "2026-07-07T02:12:02.078638+00:00",
+      "latency_ms": 101,
+      "last_success": "2026-07-07T02:17:02.474947+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T02:12:02.180033+00:00",
+      "last_error_ts": "2026-07-07T02:17:02.580930+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 3091,
-      "last_success": "2026-07-07T02:12:05.271961+00:00",
+      "latency_ms": 1790,
+      "last_success": "2026-07-07T02:17:04.371702+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T02:12:06.571553+00:00",
+      "last_success": "2026-07-07T02:17:05.271814+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1757,
-      "last_success": "2026-07-07T02:12:08.329130+00:00",
+      "latency_ms": 1898,
+      "last_success": "2026-07-07T02:17:07.170718+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,42 +74,42 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 326
+          "latency_ms": 114
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 373
+          "latency_ms": 106
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 100
+          "latency_ms": 93
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 206
+          "latency_ms": 288
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 192
+          "latency_ms": 116
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 180
         }
       }
     }
   },
   "by_source": {
-    "cnbc": 8,
     "stocktwits": 75,
+    "cnbc": 8,
+    "reuters": 16,
     "uw_news": 25,
     "massive_news": 50,
-    "reuters": 16,
     "zerohedge": 8,
     "marketwatch": 8,
     "seekingalpha": 7,
@@ -118,12 +118,311 @@
   },
   "items": [
     {
+      "id": "b0ca88ec3b1b07",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:16:48Z",
+      "title": "$SPY tapping on 7585 for two more hours.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658402412",
+      "author": "Sprinter6",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:16:48Z",
+      "text": "$SPY tapping on 7585 for two more hours.",
+      "description": "",
+      "handle": "Sprinter6",
+      "display_name": "Sprinter6",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "be0ed6c938275e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:15:59Z",
+      "title": "$NVDA goes down with other chips and goes down when other chips go up, why own this dung?????",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658402378",
+      "author": "stewpackard",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T02:15:59Z",
+      "text": "$NVDA goes down with other chips and goes down when other chips go up, why own this dung?????",
+      "description": "",
+      "handle": "stewpackard",
+      "display_name": "Stew Packard",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "09a1ffa9529a8c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:15:47Z",
+      "title": "$MU $DRAM $SOXL $QQQ $NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658402370",
+      "author": "dogmatic_goat",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T02:15:47Z",
+      "text": "$MU $DRAM $SOXL $QQQ $NVDA",
+      "description": "",
+      "handle": "dogmatic_goat",
+      "display_name": "Goat",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "02f59c1499cb53",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:15:47Z",
+      "title": "$MU $DRAM $SOXL $QQQ $NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658402370",
+      "author": "dogmatic_goat",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T02:15:47Z",
+      "text": "$MU $DRAM $SOXL $QQQ $NVDA",
+      "description": "",
+      "handle": "dogmatic_goat",
+      "display_name": "Goat",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "010a784f212fca",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:15:43Z",
+      "title": "$GOOGL $550 by December lol",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GOOGL/message/658402367",
+      "author": "JoeDirtay3",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T02:15:43Z",
+      "text": "$GOOGL $550 by December lol",
+      "description": "",
+      "handle": "JoeDirtay3",
+      "display_name": "JoeDirtay3",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "da12cefed8be36",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:14:56Z",
+      "title": "$SPY cancelling my subscription because Furu said $720 today",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658402345",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:14:56Z",
+      "text": "$SPY cancelling my subscription because Furu said $720 today",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "dfd7dc1383c2cc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:14:44Z",
+      "title": "$NFLX $ORCL $MSFT these will not see high again any time soon.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658402336",
+      "author": "SwingPlay",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T02:14:44Z",
+      "text": "$NFLX $ORCL $MSFT these will not see high again any time soon.",
+      "description": "",
+      "handle": "SwingPlay",
+      "display_name": "Swing Play",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ff08fee2704061",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:14:39Z",
+      "title": "$SPY   \n\nTrump is a big orange turd, but the funny part is the  Dumbocrats don\u2019t have anyone better.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658402330",
+      "author": "SheLookaLikaMan",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:14:39Z",
+      "text": "$SPY   \n\nTrump is a big orange turd, but the funny part is the  Dumbocrats don\u2019t have anyone better.",
+      "description": "",
+      "handle": "SheLookaLikaMan",
+      "display_name": "She/Her/Him",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c106e0dcedf756",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:14:32Z",
+      "title": "$SPY $QQQ $BTC.X $XRP.X RIP MITCH MCCONNELL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658402327",
+      "author": "CynicalCapital",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:14:32Z",
+      "text": "$SPY $QQQ $BTC.X $XRP.X RIP MITCH MCCONNELL",
+      "description": "",
+      "handle": "CynicalCapital",
+      "display_name": "Cynical Capital",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ad9cf4a10b7877",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:14:32Z",
+      "title": "$SPY $QQQ $BTC.X $XRP.X RIP MITCH MCCONNELL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658402327",
+      "author": "CynicalCapital",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:14:32Z",
+      "text": "$SPY $QQQ $BTC.X $XRP.X RIP MITCH MCCONNELL",
+      "description": "",
+      "handle": "CynicalCapital",
+      "display_name": "Cynical Capital",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c1077a033173d5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:14:27Z",
+      "title": "$SMCI $AMD $NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658402324",
+      "author": "MicroMachine1",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:14:27Z",
+      "text": "$SMCI $AMD $NVDA",
+      "description": "",
+      "handle": "MicroMachine1",
+      "display_name": "N",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "099f8988067d94",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:14:27Z",
+      "title": "$SMCI $AMD $NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658402324",
+      "author": "MicroMachine1",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:14:27Z",
+      "text": "$SMCI $AMD $NVDA",
+      "description": "",
+      "handle": "MicroMachine1",
+      "display_name": "N",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4b6a06f37bce87",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:14:18Z",
+      "title": "$SPY 12 million people show up to a funeral of a guy the country supposedly loathed? We absolutely lost the propaganda war",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658402315",
+      "author": "BibisFavoriteGoy13",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:14:18Z",
+      "text": "$SPY 12 million people show up to a funeral of a guy the country supposedly loathed? We absolutely lost the propaganda war",
+      "description": "",
+      "handle": "BibisFavoriteGoy13",
+      "display_name": "Bibi netanyahu",
+      "platform": "stocktwits"
+    },
+    {
       "id": "92d6ef46063d1b",
       "source": "cnbc",
       "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 02:11:29 GMT",
+      "timestamp": "Tue, 07 Jul 2026 02:13:50 GMT",
       "title": "U.S. loses to Belgium 4-1; Balogun plays after Trump calls FIFA",
-      "body": "FIFA reversed Folarin Balogun\u2019s suspension after Trump sought a review, letting the U.S. striker play Belgium as officials objected.",
+      "body": "FIFA reversed Folarin Balogun\u2019s suspension after Trump sought a review, letting the U.S. striker play Belgium over objections.",
       "url": "https://www.cnbc.com/2026/07/05/trump-fifa-balogun-world-cup-red-card-suspension.html",
       "author": "",
       "tickers": [],
@@ -131,9 +430,196 @@
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 02:11:29 GMT",
+      "time": "Tue, 07 Jul 2026 02:13:50 GMT",
       "text": "U.S. loses to Belgium 4-1; Balogun plays after Trump calls FIFA",
-      "description": "FIFA reversed Folarin Balogun\u2019s suspension after Trump sought a review, letting the U.S. striker play Belgium as officials objected."
+      "description": "FIFA reversed Folarin Balogun\u2019s suspension after Trump sought a review, letting the U.S. striker play Belgium over objections."
+    },
+    {
+      "id": "1114d39b3dece9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:13:40Z",
+      "title": "$NVDA jensen is the all time most overrated ceo. this stock sux",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658402283",
+      "author": "stewpackard",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T02:13:40Z",
+      "text": "$NVDA jensen is the all time most overrated ceo. this stock sux",
+      "description": "",
+      "handle": "stewpackard",
+      "display_name": "Stew Packard",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b37d4bc4a6853e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 02:13:34",
+      "title": "NATO to unveil big arms deals in Ankara before summit with Trump",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/nato-to-unveil-big-arms-deals-in-ankara-before-summit-with-trump-4778196",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 02:13:34",
+      "text": "NATO to unveil big arms deals in Ankara before summit with Trump",
+      "description": ""
+    },
+    {
+      "id": "a79f8869b0c5ad",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:13:31Z",
+      "title": "$TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658402276",
+      "author": "thathomieflacko",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T02:13:31Z",
+      "text": "$TSLA",
+      "description": "",
+      "handle": "thathomieflacko",
+      "display_name": "Nelso lazcano meraz",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f445d5bd09311a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 02:13:15",
+      "title": "Mexico navy says 10 assailants killed after attack on flood-monitoring patrol",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/mexico-navy-says-10-assailants-killed-after-attack-on-floodmonitoring-patrol-4778195",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 02:13:15",
+      "text": "Mexico navy says 10 assailants killed after attack on flood-monitoring patrol",
+      "description": ""
+    },
+    {
+      "id": "3ffb88722a164e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 02:12:54",
+      "title": "Soccer-A blue city shakes off politics over US forward Balogun\u2019s red card controversy",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/soccera-blue-city-shakes-off-politics-over-us-forward-baloguns-red-card-controversy-4778003",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 02:12:54",
+      "text": "Soccer-A blue city shakes off politics over US forward Balogun\u2019s red card controversy",
+      "description": ""
+    },
+    {
+      "id": "278124dd6ada3f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:12:41Z",
+      "title": "$QQQ 4 to 1?   I demand a recount! That count is clearly rigged!\n\nHow many of those goals were in mail-in ballots?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658402240",
+      "author": "DeFi_Wookie",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T02:12:41Z",
+      "text": "$QQQ 4 to 1?   I demand a recount! That count is clearly rigged!\n\nHow many of those goals were in mail-in ballots?",
+      "description": "",
+      "handle": "DeFi_Wookie",
+      "display_name": "Chewy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d2cd9fb0e1fc6e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 02:12:34",
+      "title": "Soccer-FIFA rejects Belgium challenge over Balogun eligibility, Trump calls red card U-turn \u2019brilliant\u2019",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/uefa-says-fifa-crossed-a-red-line-with-balogun-red-card-uturn-at-world-cup-4776704",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 02:12:34",
+      "text": "Soccer-FIFA rejects Belgium challenge over Balogun eligibility, Trump calls red card U-turn \u2019brilliant\u2019",
+      "description": ""
+    },
+    {
+      "id": "8e9bb0ab106ebc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:12:15Z",
+      "title": "$QQQ $SPY\n Total Market Dollar Volume: The U.S. equity markets processed approximately $650 billion \u2013 $660 billion in total value today.\nNear  40%, this implies that roughly $260 billion was transacted in non-public venues today.\nSPY (S&amp;P 500 ETF): Traded ~43.87 million shares today at a price o",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658402221",
+      "author": "Activetrader777",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T02:12:15Z",
+      "text": "$QQQ $SPY\n Total Market Dollar Volume: The U.S. equity markets processed approximately $650 billion \u2013 $660 billion in total value today.\nNear  40%, this implies that roughly $260 billion was transacted in non-public venues today.\nSPY (S&amp;P 500 ETF): Traded ~43.87 million shares today at a price o",
+      "description": "",
+      "handle": "Activetrader777",
+      "display_name": "Activetrader777",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9f77a1c897282c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T02:12:11Z",
+      "title": "$QQQ $SPY The US goalie should be cut on the way to the locker room",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658402218",
+      "author": "Stonethrower2",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T02:12:11Z",
+      "text": "$QQQ $SPY The US goalie should be cut on the way to the locker room",
+      "description": "",
+      "handle": "Stonethrower2",
+      "display_name": "John Stone",
+      "platform": "stocktwits"
     },
     {
       "id": "6d13042c81d855",
@@ -156,29 +642,6 @@
       "description": "",
       "handle": "odinhorse",
       "display_name": "odinhorse",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "488da380c18daf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:11:25Z",
-      "title": "$SPY actually the US player should have never received a red card in the first place if you watch the play - if you slid with both legs up and strike above the knee I would say red card but that really was a yellow card penalty. Either way, doesn&#39;t matter-if Belgium outclassed the US can only im",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658402181",
-      "author": "PhillistineNation",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T02:11:25Z",
-      "text": "$SPY actually the US player should have never received a red card in the first place if you watch the play - if you slid with both legs up and strike above the knee I would say red card but that really was a yellow card penalty. Either way, doesn&#39;t matter-if Belgium outclassed the US can only im",
-      "description": "",
-      "handle": "PhillistineNation",
-      "display_name": "YDg",
       "platform": "stocktwits"
     },
     {
@@ -205,29 +668,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "4b03307adc0d9a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:10:42Z",
-      "title": "$MU $DRAM $SOXL  $QQQ Samsung now generates more operating profits than $NVDA ... chew on that for a second...",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658402142",
-      "author": "dogmatic_goat",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T02:10:42Z",
-      "text": "$MU $DRAM $SOXL  $QQQ Samsung now generates more operating profits than $NVDA ... chew on that for a second...",
-      "description": "",
-      "handle": "dogmatic_goat",
-      "display_name": "Goat",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b2f44cd8afc5ef",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -248,29 +688,6 @@
       "description": "",
       "handle": "dogmatic_goat",
       "display_name": "Goat",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4e7ea1ef7243dc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:10:40Z",
-      "title": "$SPY WAR back in the news, who knew lol",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658402140",
-      "author": "MadMoneyScalper",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T02:10:40Z",
-      "text": "$SPY WAR back in the news, who knew lol",
-      "description": "",
-      "handle": "MadMoneyScalper",
-      "display_name": "Willie Wonka",
       "platform": "stocktwits"
     },
     {
@@ -343,29 +760,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "eb3bb4b86c885f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:10:11Z",
-      "title": "$SPY $DJT $NKE \n\nWe straightup lost because Trump.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658402121",
-      "author": "sooo0O00oOQO0ooor",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T02:10:11Z",
-      "text": "$SPY $DJT $NKE \n\nWe straightup lost because Trump.",
-      "description": "",
-      "handle": "sooo0O00oOQO0ooor",
-      "display_name": "Vay-Vay",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d4dee662665ed9",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -386,75 +780,6 @@
       "description": "",
       "handle": "Bill954",
       "display_name": "Bill",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "3c4db724005335",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:09:41Z",
-      "title": "$QQQ $SPY $NVDA $AAPL  \n \nThe more you refer to the boom as a bubble, the more you will miss out on the boom. \n \n\ud83d\ude43",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658402083",
-      "author": "BiHiCellLo",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T02:09:41Z",
-      "text": "$QQQ $SPY $NVDA $AAPL  \n \nThe more you refer to the boom as a bubble, the more you will miss out on the boom. \n \n\ud83d\ude43",
-      "description": "",
-      "handle": "BiHiCellLo",
-      "display_name": "Richard David Evilwitz",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4a41250ebbae5e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:09:41Z",
-      "title": "$QQQ $SPY $NVDA $AAPL  \n \nThe more you refer to the boom as a bubble, the more you will miss out on the boom. \n \n\ud83d\ude43",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658402083",
-      "author": "BiHiCellLo",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T02:09:41Z",
-      "text": "$QQQ $SPY $NVDA $AAPL  \n \nThe more you refer to the boom as a bubble, the more you will miss out on the boom. \n \n\ud83d\ude43",
-      "description": "",
-      "handle": "BiHiCellLo",
-      "display_name": "Richard David Evilwitz",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2728b6e4a5311a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:09:41Z",
-      "title": "$QQQ $SPY $NVDA $AAPL  \n \nThe more you refer to the boom as a bubble, the more you will miss out on the boom. \n \n\ud83d\ude43",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658402083",
-      "author": "BiHiCellLo",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T02:09:41Z",
-      "text": "$QQQ $SPY $NVDA $AAPL  \n \nThe more you refer to the boom as a bubble, the more you will miss out on the boom. \n \n\ud83d\ude43",
-      "description": "",
-      "handle": "BiHiCellLo",
-      "display_name": "Richard David Evilwitz",
       "platform": "stocktwits"
     },
     {
@@ -501,52 +826,6 @@
       "description": "",
       "handle": "Hannabull",
       "display_name": "Hannabull",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "40f72f41ed4a16",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:09:12Z",
-      "title": "$SPY Karma is real! 4-1 Belgium",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658402062",
-      "author": "ISTEALYOPROFITT",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T02:09:12Z",
-      "text": "$SPY Karma is real! 4-1 Belgium",
-      "description": "",
-      "handle": "ISTEALYOPROFITT",
-      "display_name": "TRADEZZZ",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "edf52f757de79e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:08:21Z",
-      "title": "$DJT Trump calls Infantino, FIFA banned all Belgium goals.\nUSA won 1-0. \nTrump the saviour gave us the win. \nHail to the Orange Lord. $QQQ $TSLA $SPCX",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658402029",
-      "author": "Charlie_Omaha",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T02:08:21Z",
-      "text": "$DJT Trump calls Infantino, FIFA banned all Belgium goals.\nUSA won 1-0. \nTrump the saviour gave us the win. \nHail to the Orange Lord. $QQQ $TSLA $SPCX",
-      "description": "",
-      "handle": "Charlie_Omaha",
-      "display_name": "Charlie Warren",
       "platform": "stocktwits"
     },
     {
@@ -614,96 +893,40 @@
       "description": "Canadian Prime Minister Mark Carney announced Monday that\u00a0Germany's Thyssenkrupp Marine Systems would be the preferred supplier for delivering the submarines."
     },
     {
-      "id": "70cf1623af464e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:06:45Z",
-      "title": "$DJT It pains me to see us leave this badly against Belgium. But the orange stain created an unnecessary distraction that is too much. He is a Satan touch. \n$TRUMP.X $QQQ",
+      "id": "05449ab8b20377",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 02:06:29",
+      "title": "Graffiti artist scales Australian bridge tower, paints bird cartoon, disrupts traffic",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658401970",
-      "author": "Charlie_Omaha",
-      "tickers": [
-        "QQQ"
-      ],
+      "url": "https://www.investing.com/news/world-news/graffiti-artist-scales-australian-bridge-tower-paints-bird-cartoon-disrupts-traffic-4778194",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T02:06:45Z",
-      "text": "$DJT It pains me to see us leave this badly against Belgium. But the orange stain created an unnecessary distraction that is too much. He is a Satan touch. \n$TRUMP.X $QQQ",
-      "description": "",
-      "handle": "Charlie_Omaha",
-      "display_name": "Charlie Warren",
-      "platform": "stocktwits"
+      "time": "2026-07-07 02:06:29",
+      "text": "Graffiti artist scales Australian bridge tower, paints bird cartoon, disrupts traffic",
+      "description": ""
     },
     {
-      "id": "2d90f6133004ea",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:05:39Z",
-      "title": "$DJT $RUM $TSLA \nEverything Trump Touches Dies....\n\n#ETTD",
+      "id": "48fbf955f2b166",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 02:06:28",
+      "title": "Stocks ease despite upbeat Samsung forecast, yen languishes",
       "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658401928",
-      "author": "Paul_Alveo",
-      "tickers": [
-        "TSLA"
-      ],
+      "url": "https://www.investing.com/news/stock-market-news/stocks-ease-despite-upbeat-samsung-forecast-yen-languishes-4778193",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T02:05:39Z",
-      "text": "$DJT $RUM $TSLA \nEverything Trump Touches Dies....\n\n#ETTD",
-      "description": "",
-      "handle": "Paul_Alveo",
-      "display_name": "Paul Alveo",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "1208dba84158f4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:05:31Z",
-      "title": "$QQQ LOL clown",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658401923",
-      "author": "EasyVictor",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T02:05:31Z",
-      "text": "$QQQ LOL clown",
-      "description": "",
-      "handle": "EasyVictor",
-      "display_name": "william",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8ddc94f10b960e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:05:09Z",
-      "title": "$NVDA can be a nice continuation to the downside if price falls below 193.99. If we get bad news there\u2019s a ton of room to fall",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658401908",
-      "author": "cheeze_13",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-07T02:05:09Z",
-      "text": "$NVDA can be a nice continuation to the downside if price falls below 193.99. If we get bad news there\u2019s a ton of room to fall",
-      "description": "",
-      "handle": "cheeze_13",
-      "display_name": "Cheese",
-      "platform": "stocktwits"
+      "time": "2026-07-07 02:06:28",
+      "text": "Stocks ease despite upbeat Samsung forecast, yen languishes",
+      "description": ""
     },
     {
       "id": "d61f228a0d3771",
@@ -766,29 +989,6 @@
       "description": ""
     },
     {
-      "id": "43d99e37ab824a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:04:30Z",
-      "title": "$MBLY let\u2019s go another 5% tomorrow \ud83d\udcaa\ufffc\ufffc\n\n$TSLA $INTC $RIVN $NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658401877",
-      "author": "Thinking101",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T02:04:30Z",
-      "text": "$MBLY let\u2019s go another 5% tomorrow \ud83d\udcaa\ufffc\ufffc\n\n$TSLA $INTC $RIVN $NVDA",
-      "description": "",
-      "handle": "Thinking101",
-      "display_name": "Thinking101",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a1eb4c7ddc8506",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -827,29 +1027,6 @@
       "time": "2026-07-07T02:03:52Z",
       "text": "World Bank: China\u2019s growth may surpass projections if fiscal stimulus and AI investments outpace expectations",
       "description": ""
-    },
-    {
-      "id": "2dfba6621747f2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T02:03:45Z",
-      "title": "$NVDA I hate this fucking stock so much",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658401837",
-      "author": "MillionaireRN",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T02:03:45Z",
-      "text": "$NVDA I hate this fucking stock so much",
-      "description": "",
-      "handle": "MillionaireRN",
-      "display_name": "Millionaire RN",
-      "platform": "stocktwits"
     },
     {
       "id": "240d9426df12b6",
@@ -1043,6 +1220,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "9913a8ce6e8e39",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 02:00:22",
+      "title": "Wall Street banks explore payments network deal to bypass fee caps: WSJ",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/wall-street-banks-explore-payments-network-deal-to-bypass-fee-caps-wsj-4778192",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 02:00:22",
+      "text": "Wall Street banks explore payments network deal to bypass fee caps: WSJ",
+      "description": ""
+    },
+    {
       "id": "eb0425b0a2ca97",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1148,6 +1343,24 @@
       "handle": "ResearchTrends09",
       "display_name": "Brandon",
       "platform": "stocktwits"
+    },
+    {
+      "id": "001ca67b9986f9",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07 01:57:08",
+      "title": "Form 4 Comscore Inc For: 6 July",
+      "body": "",
+      "url": "https://www.investing.com/news/filings/form-4-comscore-inc-for-6-july-93CH-4778191",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07 01:57:08",
+      "text": "Form 4 Comscore Inc For: 6 July",
+      "description": ""
     },
     {
       "id": "011b9c2b777924",
@@ -1421,24 +1634,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "7bf08d2323279f",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 01:46:13",
-      "title": "Form 4 Astera Labs Inc For: 6 July",
-      "body": "",
-      "url": "https://www.investing.com/news/filings/form-4-astera-labs-inc-for-6-july-93CH-4778183",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 01:46:13",
-      "text": "Form 4 Astera Labs Inc For: 6 July",
-      "description": ""
-    },
-    {
       "id": "6937b85270874c",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1457,24 +1652,6 @@
       "time": "2026-07-07T01:46:00Z",
       "text": "AVAV DEADLINE: ROSEN, TRUSTED INVESTOR COUNSEL, Encourages AeroVironment, Inc. Investors with Losses in Excess of $100K to Secure Counsel Before Important Deadline in Securities Class Action - AVAV",
       "description": "A securities class action lawsuit has been filed against AeroVironment, Inc. for allegedly making false and misleading statements regarding competition for U.S. Space Force contracts (SCAR and SCN programs). The lawsuit claims the company overstated its business prospects and understated competitive"
-    },
-    {
-      "id": "5d115faabdecf1",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 01:45:55",
-      "title": "Ani Pharmaceuticals SVP & CFO Stephen Carey sells $284k in stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/ani-pharmaceuticals-svp--cfo-stephen-carey-sells-284k-in-stock-93CH-4778182",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 01:45:55",
-      "text": "Ani Pharmaceuticals SVP & CFO Stephen Carey sells $284k in stock",
-      "description": ""
     },
     {
       "id": "ee1dd8541d1b43",
@@ -1518,24 +1695,6 @@
       "time": "2026-07-07T01:44:00Z",
       "text": "ROSEN, A LEADING INVESTOR RIGHTS LAW FIRM, Encourages PicS N.V. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 PICS",
       "description": "Rosen Law Firm has filed a class action lawsuit against PicS N.V. on behalf of IPO investors, alleging the company made false and misleading statements in offering documents. The lawsuit claims PicS failed to disclose deficient credit evaluation procedures, a significant reclassification of credit e"
-    },
-    {
-      "id": "84e2147b1b77bf",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 01:42:56",
-      "title": "Astera Labs director Manuel Alba sells $3.89m in company stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/astera-labs-director-manuel-alba-sells-389m-in-company-stock-93CH-4778181",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 01:42:56",
-      "text": "Astera Labs director Manuel Alba sells $3.89m in company stock",
-      "description": ""
     },
     {
       "id": "d8670e24483761",
@@ -1584,24 +1743,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "d2cd9fb0e1fc6e",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 01:42:27",
-      "title": "Soccer-FIFA rejects Belgium challenge over Balogun eligibility, Trump calls red card U-turn \u2019brilliant\u2019",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/uefa-says-fifa-crossed-a-red-line-with-balogun-red-card-uturn-at-world-cup-4776704",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 01:42:27",
-      "text": "Soccer-FIFA rejects Belgium challenge over Balogun eligibility, Trump calls red card U-turn \u2019brilliant\u2019",
-      "description": ""
-    },
-    {
       "id": "0702e6c4c6735f",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1623,47 +1764,6 @@
       "handle": "PivotPoint_101",
       "display_name": "Brian P.",
       "platform": "stocktwits"
-    },
-    {
-      "id": "b07b90d7b15c94",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T01:40:47Z",
-      "title": "$SMCI $AMD $NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658400817",
-      "author": "MicroMachine1",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T01:40:47Z",
-      "text": "$SMCI $AMD $NVDA",
-      "description": "",
-      "handle": "MicroMachine1",
-      "display_name": "N",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "168aaf99378b04",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 01:40:07",
-      "title": "Form 4 Astera Labs Inc For: 6 July",
-      "body": "",
-      "url": "https://www.investing.com/news/filings/form-4-astera-labs-inc-for-6-july-93CH-4778180",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 01:40:07",
-      "text": "Form 4 Astera Labs Inc For: 6 July",
-      "description": ""
     },
     {
       "id": "a5ed7d01eebe77",
@@ -1712,24 +1812,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "03798c63c20366",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 01:39:05",
-      "title": "Form 13D/A Abivax S.A. For: 6 July",
-      "body": "",
-      "url": "https://www.investing.com/news/filings/form-13da-abivax-sa-for-6-july-93CH-4778179",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 01:39:05",
-      "text": "Form 13D/A Abivax S.A. For: 6 July",
-      "description": ""
-    },
-    {
       "id": "d67b401cbad7a9",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1745,42 +1827,6 @@
       "sentiment": "neutral",
       "time": "2026-07-07T01:38:28Z",
       "text": "YEN GAINS VERSUS DOLLAR AS KIUCHI SPEAKS",
-      "description": ""
-    },
-    {
-      "id": "cbb106851ccb50",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 01:37:48",
-      "title": "Form 4 Fold Holdings Inc For: 6 July",
-      "body": "",
-      "url": "https://www.investing.com/news/filings/form-4-fold-holdings-inc-for-6-july-93CH-4778178",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 01:37:48",
-      "text": "Form 4 Fold Holdings Inc For: 6 July",
-      "description": ""
-    },
-    {
-      "id": "fbf273d6387e27",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07 01:37:28",
-      "title": "Form 4 Fold Holdings Inc For: 6 July",
-      "body": "",
-      "url": "https://www.investing.com/news/filings/form-4-fold-holdings-inc-for-6-july-93CH-4778177",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07 01:37:28",
-      "text": "Form 4 Fold Holdings Inc For: 6 July",
       "description": ""
     },
     {
@@ -1995,29 +2041,6 @@
       "description": "",
       "handle": "topstockalerts",
       "display_name": "Top Stock Alerts",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "1a26fc5e419336",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T01:28:58Z",
-      "title": "$MSFT 4 for 1 stock split \ud83d\ude33 \nBS aside to the moon boys!!! \nhttps://www.reddit.com/r/Palantir_Investors/s/DOGdLIHhQ5",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658400191",
-      "author": "Jdc5bangin9",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T01:28:58Z",
-      "text": "$MSFT 4 for 1 stock split \ud83d\ude33 \nBS aside to the moon boys!!! \nhttps://www.reddit.com/r/Palantir_Investors/s/DOGdLIHhQ5",
-      "description": "",
-      "handle": "Jdc5bangin9",
-      "display_name": "JR bernal",
       "platform": "stocktwits"
     },
     {
@@ -3046,29 +3069,6 @@
       "time": "2026-07-06T22:28:00Z",
       "text": "Hub Group, Inc. (HUBG) Faces Securities Class Action \u2014 Hagens Berman Investigates Claims of False Financial Reporting",
       "description": "Hub Group faces a securities class action lawsuit for materially misstated financial reports dating back to 2023, involving premature revenue recognition and understatement of costs. The company's stock plummeted following disclosures in February and May 2026, resulting in over $890 million in marke"
-    },
-    {
-      "id": "ed553e68afd967",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-06T22:26:29Z",
-      "title": "$GOOGL $DASH $UBER \n \nGoogle may be quietly expanding Gemini deeper into everyday consumer behavior. \n \nReports suggest Google Maps is working on an AI-powered feature that could let users discover restaurants and place food orders directly inside the app. \n \nIf rolled out at scale, this could resha",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GOOGL/message/658390429",
-      "author": "WhaleTracker_",
-      "tickers": [
-        "GOOGL"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T22:26:29Z",
-      "text": "$GOOGL $DASH $UBER \n \nGoogle may be quietly expanding Gemini deeper into everyday consumer behavior. \n \nReports suggest Google Maps is working on an AI-powered feature that could let users discover restaurants and place food orders directly inside the app. \n \nIf rolled out at scale, this could resha",
-      "description": "",
-      "handle": "WhaleTracker_",
-      "display_name": "Bradly",
-      "platform": "stocktwits"
     },
     {
       "id": "6f63eb4434ff18",
@@ -4809,6 +4809,42 @@
       ]
     },
     {
+      "id": "4d57c4ba74a8a2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05T17:00:02Z",
+      "title": "Tech Rotation, FOMC and Other Key Things to Watch this Week",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/articles/tech-rotation-fomc-other-key-170002288.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T17:00:02Z",
+      "text": "Tech Rotation, FOMC and Other Key Things to Watch this Week",
+      "description": ""
+    },
+    {
+      "id": "d754ee99720981",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-05T17:00:02Z",
+      "title": "Here\u2019s How Arista Networks Is a Major Beneficiary of Big Tech\u2019s Push to Break Nvidia\u2019s Grip",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-major-beneficiary-big-170002174.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-05T17:00:02Z",
+      "text": "Here\u2019s How Arista Networks Is a Major Beneficiary of Big Tech\u2019s Push to Break Nvidia\u2019s Grip",
+      "description": ""
+    },
+    {
       "id": "feadf69f29d5cd",
       "source": "reuters",
       "source_type": "rss",
@@ -4883,39 +4919,21 @@
       "description": ""
     },
     {
-      "id": "e3a6a369725e72",
+      "id": "d6957b138f435b",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-05T14:37:00Z",
-      "title": "Wall Street's $200 billion IPO wave threatens sell-off",
+      "timestamp": "2026-07-05T14:55:00Z",
+      "title": "This Under-the-Radar Industrial Is Quietly Powering AI",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-streets-200-billion-ipo-143700188.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/under-radar-industrial-quietly-powering-145500822.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-05T14:37:00Z",
-      "text": "Wall Street's $200 billion IPO wave threatens sell-off",
-      "description": ""
-    },
-    {
-      "id": "22e693f50c7990",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05T14:31:27Z",
-      "title": "Elon Musk Says Optimus Production Will Be 'Extremely Slow' in the Beginning: 'This is Not Like Making a Car'",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-optimus-production-143127572.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:31:27Z",
-      "text": "Elon Musk Says Optimus Production Will Be 'Extremely Slow' in the Beginning: 'This is Not Like Making a Car'",
+      "time": "2026-07-05T14:55:00Z",
+      "text": "This Under-the-Radar Industrial Is Quietly Powering AI",
       "description": ""
     },
     {
@@ -4936,24 +4954,6 @@
       "sentiment": "neutral",
       "time": "2026-07-05T14:30:02Z",
       "text": "Google Just Launched 2 New AI Models. What That Means for GOOGL Stock.",
-      "description": ""
-    },
-    {
-      "id": "18c67483d932b4",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-05T14:10:00Z",
-      "title": "Got $2M saved for retirement? Get ready for everything to change, and not always for the better. Dodge 5 money traps now",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/articles/got-2m-saved-retirement-ready-141000374.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-05T14:10:00Z",
-      "text": "Got $2M saved for retirement? Get ready for everything to change, and not always for the better. Dodge 5 money traps now",
       "description": ""
     }
   ]
