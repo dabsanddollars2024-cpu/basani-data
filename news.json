@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-07T09:42:08Z",
-  "generated_display": "2026-07-07 09:42 ET",
+  "generated": "2026-07-07T09:47:07Z",
+  "generated_display": "2026-07-07 09:47 ET",
   "count": 202,
   "source_health": {
     "x_api": {
@@ -8,22 +8,22 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T09:42:01.727000+00:00",
+      "last_error_ts": "2026-07-07T09:47:02.017094+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 325,
-      "last_success": "2026-07-07T09:42:02.070661+00:00",
+      "latency_ms": 153,
+      "last_success": "2026-07-07T09:47:02.171342+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 56,
-      "last_success": "2026-07-07T09:42:02.170840+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-07T09:47:02.271140+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 50,
       "latency_ms": 100,
-      "last_success": "2026-07-07T09:42:02.274043+00:00",
+      "last_success": "2026-07-07T09:47:02.374518+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-07T09:42:02.309128+00:00",
+      "last_error_ts": "2026-07-07T09:47:02.471072+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 3463,
-      "last_success": "2026-07-07T09:42:05.772189+00:00",
+      "latency_ms": 2179,
+      "last_success": "2026-07-07T09:47:04.650938+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-07T09:42:06.671031+00:00",
+      "last_success": "2026-07-07T09:47:05.471475+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 10,
-      "latency_ms": 1655,
-      "last_success": "2026-07-07T09:42:08.326356+00:00",
+      "latency_ms": 1699,
+      "last_success": "2026-07-07T09:47:07.171054+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,322 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 219
+          "latency_ms": 133
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 80
+          "latency_ms": 86
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 31
+          "latency_ms": 39
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 398
+          "latency_ms": 380
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 72
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 95
+          "latency_ms": 170
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 75,
     "uw_news": 25,
     "cnbc": 8,
-    "marketwatch": 8,
-    "reuters": 16,
-    "massive_news": 50,
+    "stocktwits": 75,
     "zerohedge": 8,
+    "reuters": 16,
+    "marketwatch": 8,
+    "massive_news": 50,
     "seekingalpha": 7,
     "benzinga": 4,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "da118c966cdb72",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T09:46:41Z",
+      "title": "KREMLIN ON NATO SUMMIT IN ANKARA: WILL FOLLOW THE DEVELOPMENTS VERY CLOSELY",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "ON"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:46:41Z",
+      "text": "KREMLIN ON NATO SUMMIT IN ANKARA: WILL FOLLOW THE DEVELOPMENTS VERY CLOSELY",
+      "description": ""
+    },
+    {
+      "id": "e6f62a845124b6",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 09:46:36 GMT",
+      "title": "Samsung posts 1,800% jump in profit, but AI spending concerns spook investors",
+      "body": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook.",
+      "url": "https://www.cnbc.com/2026/07/07/samsung-electronics-preliminary-second-quarter-profit-hits-fresh-high.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 09:46:36 GMT",
+      "text": "Samsung posts 1,800% jump in profit, but AI spending concerns spook investors",
+      "description": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook."
+    },
+    {
+      "id": "687986b31d0f64",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:46:17Z",
+      "title": "Why Is Nano-Cap Trident Digital Soaring Premarket?  \n \n$TDTH $SPY $QQQ  \n \n \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nano-cap-trident-digital-soaring-premarket/cZmlWk8R7mN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658412439",
+      "author": "CapitaLit",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:46:17Z",
+      "text": "Why Is Nano-Cap Trident Digital Soaring Premarket?  \n \n$TDTH $SPY $QQQ  \n \n \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nano-cap-trident-digital-soaring-premarket/cZmlWk8R7mN",
+      "description": "",
+      "handle": "CapitaLit",
+      "display_name": "Yuvraj Malik",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f4a0643158a3c1",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:46:17Z",
+      "title": "Why Is Nano-Cap Trident Digital Soaring Premarket?  \n \n$TDTH $SPY $QQQ  \n \n \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nano-cap-trident-digital-soaring-premarket/cZmlWk8R7mN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658412439",
+      "author": "CapitaLit",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:46:17Z",
+      "text": "Why Is Nano-Cap Trident Digital Soaring Premarket?  \n \n$TDTH $SPY $QQQ  \n \n \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nano-cap-trident-digital-soaring-premarket/cZmlWk8R7mN",
+      "description": "",
+      "handle": "CapitaLit",
+      "display_name": "Yuvraj Malik",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cb28788a05ed00",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:45:30Z",
+      "title": "$AMD $INTC $MU $SNDK $MRVL Sandisk is down nearly 30% since our warning \u26a0\ufe0f less than a week ago. Make sure you&#39;re following the right accounts! \ud83c\udfaf",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658412412",
+      "author": "BullseyeGains",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T09:45:30Z",
+      "text": "$AMD $INTC $MU $SNDK $MRVL Sandisk is down nearly 30% since our warning \u26a0\ufe0f less than a week ago. Make sure you&#39;re following the right accounts! \ud83c\udfaf",
+      "description": "",
+      "handle": "BullseyeGains",
+      "display_name": "BullseyeGains",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9e2bc3ea6ad4d2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:45:23Z",
+      "title": "$SPY RIPPING!\ud83d\udcab\u2618\ufe0f",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658412409",
+      "author": "HeyYouWhoMe",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-07T09:45:23Z",
+      "text": "$SPY RIPPING!\ud83d\udcab\u2618\ufe0f",
+      "description": "",
+      "handle": "HeyYouWhoMe",
+      "display_name": "MAGA Stunt Trader",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b89b377a407e8f",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 09:45:00 +0000",
+      "title": "Coffee Shorts Get Roasted As Arabica Stages Biggest Jump Since Dot-Com",
+      "body": "Coffee Shorts Get Roasted As Arabica Stages Biggest Jump Since Dot-Com\n\n            Arabica coffee futures jumped the most since the Dot Com era as worsening weather in Brazil and shrinking exchange-managed warehouses intensified concerns about near-term supply. This comes as El Ni\u00f1o threats rise ac",
+      "url": "https://www.zerohedge.com/commodities/coffee-shorts-get-roasted-arabica-stages-biggest-jump-dot-com",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 09:45:00 +0000",
+      "text": "Coffee Shorts Get Roasted As Arabica Stages Biggest Jump Since Dot-Com",
+      "description": "Coffee Shorts Get Roasted As Arabica Stages Biggest Jump Since Dot-Com\n\n            Arabica coffee futures jumped the most since the Dot Com era as worsening weather in Brazil and shrinking exchange-managed warehouses intensified concerns about near-term supply. This comes as El Ni\u00f1o threats rise ac"
+    },
+    {
+      "id": "e98311af16e320",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T09:44:58Z",
+      "title": "Macron: \u2018Nothing can smother the aspiration of Syrian women and men to live in a fully sovereign, safe, pluralistic, and united Syria. This morning I met Syria in all its diversity. I saw dignity, courage, and determination. My visit continues.\u2019",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:44:58Z",
+      "text": "Macron: \u2018Nothing can smother the aspiration of Syrian women and men to live in a fully sovereign, safe, pluralistic, and united Syria. This morning I met Syria in all its diversity. I saw dignity, courage, and determination. My visit continues.\u2019",
+      "description": ""
+    },
+    {
+      "id": "49bd9657957346",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T09:44:26Z",
+      "title": "ROK: Next-gen medium satellite No. 4 successfully separated from launch vehicle\u2026deployed into orbit",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "ROK"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:44:26Z",
+      "text": "ROK: Next-gen medium satellite No. 4 successfully separated from launch vehicle\u2026deployed into orbit",
+      "description": ""
+    },
+    {
+      "id": "515f681db5aaa0",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-07T09:44:25Z",
+      "title": "FRENCH FINANCE MINISTRY SAYS IT IS LOWERING 2026 GROWTH FORECAST TO 0.7% FROM 0.9%",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:44:25Z",
+      "text": "FRENCH FINANCE MINISTRY SAYS IT IS LOWERING 2026 GROWTH FORECAST TO 0.7% FROM 0.9%",
+      "description": ""
+    },
+    {
+      "id": "e811fdad883104",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:44:07Z",
+      "title": "$BYAH 2M float \n$AMZN",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658412382",
+      "author": "premarketmaker",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:44:07Z",
+      "text": "$BYAH 2M float \n$AMZN",
+      "description": "",
+      "handle": "premarketmaker",
+      "display_name": "Chart Strategist",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f566210625ca20",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:43:27Z",
+      "title": "$AMD $300",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658412370",
+      "author": "Warrent_jr",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-07T09:43:27Z",
+      "text": "$AMD $300",
+      "description": "",
+      "handle": "Warrent_jr",
+      "display_name": "Warrent jr",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f86c95da703f90",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-07T09:43:02Z",
+      "title": "$QQQ tight tight tight bull bias &gt; 700",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658412355",
+      "author": "Thelonius_Stonk",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:43:02Z",
+      "text": "$QQQ tight tight tight bull bias &gt; 700",
+      "description": "",
+      "handle": "Thelonius_Stonk",
+      "display_name": "T. Stonk",
+      "platform": "stocktwits"
+    },
     {
       "id": "fe1324fe67cd3e",
       "source": "stocktwits",
@@ -343,6 +616,24 @@
       "description": ""
     },
     {
+      "id": "700b01fa16c3cb",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:37:25Z",
+      "title": "Should You Buy Lockheed Martin Corporation (LMT)\u2019s Shares?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-lockheed-martin-corporation-lmt-093725566.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:37:25Z",
+      "text": "Should You Buy Lockheed Martin Corporation (LMT)\u2019s Shares?",
+      "description": ""
+    },
+    {
       "id": "b50906a7e312cc",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -358,6 +649,42 @@
       "sentiment": "neutral",
       "time": "2026-07-07T09:37:02Z",
       "text": "BoE July 2026 Financial Stability Report",
+      "description": ""
+    },
+    {
+      "id": "8d75bc1f14e0fb",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:36:36Z",
+      "title": "Northrop Grumman Corporation (NOC) Is A Top Pick In Billionaire Talpins\u2019 Filings",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/northrop-grumman-corporation-noc-top-093636760.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:36:36Z",
+      "text": "Northrop Grumman Corporation (NOC) Is A Top Pick In Billionaire Talpins\u2019 Filings",
+      "description": ""
+    },
+    {
+      "id": "b258b1181b6895",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:36:00Z",
+      "title": "DuPont de Nemours (DD) Is A Top Stock To Buy According To Billionaire Jeffrey Talpins",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/dupont-nemours-dd-top-stock-093600116.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:36:00Z",
+      "text": "DuPont de Nemours (DD) Is A Top Stock To Buy According To Billionaire Jeffrey Talpins",
       "description": ""
     },
     {
@@ -463,27 +790,22 @@
       "description": ""
     },
     {
-      "id": "c10345034f4eab",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:34:52Z",
-      "title": "$SPY we have to stop this ridiculous bullshit man...",
+      "id": "a1fddaac5a6c7e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:34:53Z",
+      "title": "Should You Buy Pinterest Inc. (PINS)\u2019s Shares?",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658412171",
-      "author": "BibisFavoriteGoy13",
-      "tickers": [
-        "SPY"
-      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/buy-pinterest-inc-pins-shares-093453244.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T09:34:52Z",
-      "text": "$SPY we have to stop this ridiculous bullshit man...",
-      "description": "",
-      "handle": "BibisFavoriteGoy13",
-      "display_name": "Bibi netanyahu",
-      "platform": "stocktwits"
+      "time": "2026-07-07T09:34:53Z",
+      "text": "Should You Buy Pinterest Inc. (PINS)\u2019s Shares?",
+      "description": ""
     },
     {
       "id": "9e3cd0be774d25",
@@ -520,29 +842,6 @@
       "time": "2026-07-07T09:34:27Z",
       "text": "BoE: AI-related companies account for an increased share of equity valuations and debt issuance",
       "description": ""
-    },
-    {
-      "id": "7c8dec8f6167a6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:34:20Z",
-      "title": "$SPY Science project with respect to dispersion/rotation...NQ and ES have effectively been in consolidation since early may. From volume at price perspective ES is well above its developing value area while NQ is struggling inside its value area high. Both YM and RTY in strong trends, although RTY m",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658412161",
-      "author": "Playthecasino",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:34:20Z",
-      "text": "$SPY Science project with respect to dispersion/rotation...NQ and ES have effectively been in consolidation since early may. From volume at price perspective ES is well above its developing value area while NQ is struggling inside its value area high. Both YM and RTY in strong trends, although RTY m",
-      "description": "",
-      "handle": "Playthecasino",
-      "display_name": "Unknown",
-      "platform": "stocktwits"
     },
     {
       "id": "f1d21d7e001a50",
@@ -619,6 +918,24 @@
       "sentiment": "neutral",
       "time": "2026-07-07T09:33:55Z",
       "text": "BoE: Leverage has increased substantially in equity markets",
+      "description": ""
+    },
+    {
+      "id": "a3db1a27b87079",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:33:51Z",
+      "title": "CME Group Inc. (CME) Is A Top Stock To Buy According To Billionaire Jeffrey Talpins",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/cme-group-inc-cme-top-093351688.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:33:51Z",
+      "text": "CME Group Inc. (CME) Is A Top Stock To Buy According To Billionaire Jeffrey Talpins",
       "description": ""
     },
     {
@@ -699,6 +1016,26 @@
       "description": ""
     },
     {
+      "id": "1b997d7f9f3859",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:33:13Z",
+      "title": "Micron Technology Inc. (MU) Is A Top AI Stock In Billionaire Jeffrey Talpins\u2019 Filings",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-technology-inc-mu-top-093313708.html",
+      "author": "",
+      "tickers": [
+        "MU"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:33:13Z",
+      "text": "Micron Technology Inc. (MU) Is A Top AI Stock In Billionaire Jeffrey Talpins\u2019 Filings",
+      "description": ""
+    },
+    {
       "id": "4572c57ebe2f39",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -755,6 +1092,26 @@
       "sentiment": "neutral",
       "time": "2026-07-07T09:32:53Z",
       "text": "BoE: Will work toward a simpler and more effective capital buffer framework centred on a single buffer that is releasable in stress",
+      "description": ""
+    },
+    {
+      "id": "2ece1295567833",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T09:32:36Z",
+      "title": "Alphabet Inc. (GOOGL) Is A Top AI Stock To Buy According To Billionaire Jeffrey Talpins",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alphabet-inc-googl-top-ai-093236500.html",
+      "author": "",
+      "tickers": [
+        "GOOGL"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T09:32:36Z",
+      "text": "Alphabet Inc. (GOOGL) Is A Top AI Stock To Buy According To Billionaire Jeffrey Talpins",
       "description": ""
     },
     {
@@ -1044,24 +1401,6 @@
       "description": ""
     },
     {
-      "id": "cd023be55d02ed",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T09:29:01Z",
-      "title": "Ford signs long-term chip supply deal with Micron, following GM",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/articles/ford-signs-long-term-chip-092901578.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:29:01Z",
-      "text": "Ford signs long-term chip supply deal with Micron, following GM",
-      "description": ""
-    },
-    {
       "id": "aab42bf484d46a",
       "source": "marketwatch",
       "source_type": "rss",
@@ -1147,24 +1486,6 @@
       "handle": "Franking71",
       "display_name": "Frank Ing",
       "platform": "stocktwits"
-    },
-    {
-      "id": "e6f62a845124b6",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 09:23:37 GMT",
-      "title": "Samsung Electronics shares fall as capex, demand concerns cloud record second-quarter profit report",
-      "body": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook.",
-      "url": "https://www.cnbc.com/2026/07/07/samsung-electronics-preliminary-second-quarter-profit-hits-fresh-high.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 09:23:37 GMT",
-      "text": "Samsung Electronics shares fall as capex, demand concerns cloud record second-quarter profit report",
-      "description": "Samsung Electronics shares fell even after record preliminary second-quarter profit as capex and demand concerns clouded the outlook."
     },
     {
       "id": "1f73ab9dd22109",
@@ -1259,26 +1580,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "594bb04cfd463a",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T09:22:39Z",
-      "title": "Anaergia Australia Pty Ltd. to Supply Advanced Anaerobic Digestion Technology for Goodness Grown Facility in Australia",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "ANRG"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:22:39Z",
-      "text": "Anaergia Australia Pty Ltd. to Supply Advanced Anaerobic Digestion Technology for Goodness Grown Facility in Australia",
-      "description": ""
-    },
-    {
       "id": "ae4c5a431b2970",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1300,44 +1601,6 @@
       "handle": "DookieDungaroos",
       "display_name": "Dookie Williams",
       "platform": "stocktwits"
-    },
-    {
-      "id": "57281faa4229fe",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T09:21:43Z",
-      "title": "RUSSIAN FORCES CAPTURE PETRO-IVANIVKA IN UKRAINE'S KHARKIV REGION - REPORTS",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:21:43Z",
-      "text": "RUSSIAN FORCES CAPTURE PETRO-IVANIVKA IN UKRAINE'S KHARKIV REGION - REPORTS",
-      "description": ""
-    },
-    {
-      "id": "cffbd52e3f986c",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T09:21:18Z",
-      "title": "Pingtairong Group Attended the 2026 Sustainable Markets Initiative China Forum",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "SMI"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:21:18Z",
-      "text": "Pingtairong Group Attended the 2026 Sustainable Markets Initiative China Forum",
-      "description": ""
     },
     {
       "id": "bb042c10004109",
@@ -1420,26 +1683,6 @@
       "handle": "PierceC",
       "display_name": "PierceC",
       "platform": "stocktwits"
-    },
-    {
-      "id": "cf55bdae7f4dcc",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T09:17:12Z",
-      "title": "Lockheed Martin and Rheinmetall Move Forward with ATACMS Co-Production in Europe",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "LMT"
-      ],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:17:12Z",
-      "text": "Lockheed Martin and Rheinmetall Move Forward with ATACMS Co-Production in Europe",
-      "description": ""
     },
     {
       "id": "a797ea5cc95753",
@@ -1683,24 +1926,6 @@
       "description": ""
     },
     {
-      "id": "4e6d087ce337ef",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T09:12:00Z",
-      "title": "Shell Flags Stronger Trading Despite Middle East Impact on Q2 Gas Output",
-      "body": "",
-      "url": "https://finance.yahoo.com/energy/articles/shell-flags-stronger-trading-despite-091200539.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:12:00Z",
-      "text": "Shell Flags Stronger Trading Despite Middle East Impact on Q2 Gas Output",
-      "description": ""
-    },
-    {
       "id": "41c2b358c5d134",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1744,29 +1969,6 @@
       "description": "",
       "handle": "lunchtrader0404",
       "display_name": "CCC",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "14c1082dcbd802",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T09:08:34Z",
-      "title": "$MSFT $NVDA $AMZN they no longer move with $QQQ, they trade like value stocks. Holding all long-term. I dropped under +200% with NVIDIA during this pullback and I&#39;m only up about 35% with Amazon but I&#39;m a few % in the red with Microsoft \ud83d\ude44 Annoying as hell.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658411674",
-      "author": "TheVoic",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-07T09:08:34Z",
-      "text": "$MSFT $NVDA $AMZN they no longer move with $QQQ, they trade like value stocks. Holding all long-term. I dropped under +200% with NVIDIA during this pullback and I&#39;m only up about 35% with Amazon but I&#39;m a few % in the red with Microsoft \ud83d\ude44 Annoying as hell.",
-      "description": "",
-      "handle": "TheVoic",
-      "display_name": "GitLab &amp; Coinbase Bagholder \ud83d\udecd\ufe0f",
       "platform": "stocktwits"
     },
     {
@@ -1816,24 +2018,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "300b465711d445",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T09:05:00Z",
-      "title": "Here are 7 habits of \u2018quietly wealthy\u2019 Americans \u2014 how many do you follow?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/articles/7-habits-quietly-wealthy-americans-090500310.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:05:00Z",
-      "text": "Here are 7 habits of \u2018quietly wealthy\u2019 Americans \u2014 how many do you follow?",
-      "description": ""
-    },
-    {
       "id": "8a214270e6761d",
       "source": "marketwatch",
       "source_type": "rss",
@@ -1868,24 +2052,6 @@
       "time": "Tue, 07 Jul 2026 09:02:00 GMT",
       "text": "Dennis Quaid lists L.A. home for $5.2 million and makes the move to Nashville",
       "description": "The sun-soaked lifestyle he was able to enjoy at the home wasn\u2019t enough to keep Quaid tethered to California, with the actor revealing recently that he made the decision to quit Los Angeles altogether."
-    },
-    {
-      "id": "9830db225fa5c7",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T09:01:52Z",
-      "title": "ECB tells banks to draw up plans against AI attacks amid disruption fears",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/ecb-tells-banks-draw-plans-090152020.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T09:01:52Z",
-      "text": "ECB tells banks to draw up plans against AI attacks amid disruption fears",
-      "description": ""
     },
     {
       "id": "3cdc6f115390e0",
@@ -1992,68 +2158,22 @@
       "description": "KEPPT has engaged J.P. Morgan to arrange development financing for a landmark $1.6 billion urea plant in Basra, Iraq. The facility will have an annual production capacity of 1.15 million tonnes and is expected to commence operations in 2030, reducing Iraq's reliance on imported urea and supporting t"
     },
     {
-      "id": "a46ed23a16fd97",
-      "source": "reuters",
+      "id": "65128394ad6c87",
+      "source": "zerohedge",
       "source_type": "rss",
-      "timestamp": "2026-07-07T09:00:00Z",
-      "title": "NYSE president optimistic about forthcoming IPOs, says economy is doing 'extraordinarily well'",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/article/nyse-president-optimistic-about-forthcoming-ipos-says-economy-is-doing-extraordinarily-well-090000313.html",
+      "timestamp": "Tue, 07 Jul 2026 09:00:00 +0000",
+      "title": "Russia's Oil Windfall Vanishes As Urals Crashes To $42 A Barrel",
+      "body": "Russia's Oil Windfall Vanishes As Urals Crashes To $42 A Barrel\n\n            By Charles Kennedy of OilPrice.com\n\nRussian crude oil prices have fallen back to where they were before the Middle East war, with its flagship Urals averaging just $41.66 a barrel during the first three days of July.\n\nThe d",
+      "url": "https://www.zerohedge.com/markets/russias-oil-windfall-vanishes-urals-crashes-42-barrel",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 7.0,
+      "impact_score": 7.3,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T09:00:00Z",
-      "text": "NYSE president optimistic about forthcoming IPOs, says economy is doing 'extraordinarily well'",
-      "description": ""
-    },
-    {
-      "id": "be66a2424a380a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:59:47Z",
-      "title": "$AMD today",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658411534",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:59:47Z",
-      "text": "$AMD today",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f9043176d46197",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:59:15Z",
-      "title": "$AMD time 500$ , 493$, 420$",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658411530",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:59:15Z",
-      "text": "$AMD time 500$ , 493$, 420$",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
+      "time": "Tue, 07 Jul 2026 09:00:00 +0000",
+      "text": "Russia's Oil Windfall Vanishes As Urals Crashes To $42 A Barrel",
+      "description": "Russia's Oil Windfall Vanishes As Urals Crashes To $42 A Barrel\n\n            By Charles Kennedy of OilPrice.com\n\nRussian crude oil prices have fallen back to where they were before the Middle East war, with its flagship Urals averaging just $41.66 a barrel during the first three days of July.\n\nThe d"
     },
     {
       "id": "82d35a0c6577ee",
@@ -2139,29 +2259,6 @@
       "description": "",
       "handle": "khoamaubao",
       "display_name": "khoamaubao",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "6def81581d5fa0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:55:43Z",
-      "title": "\ud83d\udea8 BREAKING: Hedge funds&#39; bearish bets on the Japanese yen hit the highest level since 2007 as USD/JPY surges above 162, the yen&#39;s weakest level since 1986.\n\nCFTC data shows net short yen positions at ~146,000 contracts (as of June 30), the largest since 2007.\n\nUSD/JPY breaks above 162 on wid",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658411483",
-      "author": "BigBreakingWire",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:55:43Z",
-      "text": "\ud83d\udea8 BREAKING: Hedge funds&#39; bearish bets on the Japanese yen hit the highest level since 2007 as USD/JPY surges above 162, the yen&#39;s weakest level since 1986.\n\nCFTC data shows net short yen positions at ~146,000 contracts (as of June 30), the largest since 2007.\n\nUSD/JPY breaks above 162 on wid",
-      "description": "",
-      "handle": "BigBreakingWire",
-      "display_name": "BigBreakingWire",
       "platform": "stocktwits"
     },
     {
@@ -2354,24 +2451,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c76bb7480a423c",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T08:39:22Z",
-      "title": "Nigeria to investigate tech firms over news content use",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/articles/nigeria-investigate-tech-firms-over-083922632.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T08:39:22Z",
-      "text": "Nigeria to investigate tech firms over news content use",
-      "description": ""
-    },
-    {
       "id": "325d7ed3e5e764",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2525,27 +2604,22 @@
       "description": "Brent and U.S. crude futures rose after a report of an Iranian attack on commercial ships in the Strait of Hormuz."
     },
     {
-      "id": "a5ca07d68d23cd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-07T08:01:26Z",
-      "title": "$AMZN  $NVDA $SPY $QQQ \n\nBond yields \ud83d\udcc8 \nOil \ud83d\udcc8 \nVix \ud83d\udcc8 \n\nStonks \ud83d\udcc9 \n\nThis market isn\u2019t having it.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMZN/message/658410528",
-      "author": "o_0_O_0_o",
-      "tickers": [
-        "AMZN"
-      ],
+      "id": "ccceaa0e9040da",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 08:15:00 +0000",
+      "title": "Hamas Announces Dissolution Of Gaza Government, But Israel Warns It's A Sham",
+      "body": "Hamas Announces Dissolution Of Gaza Government, But Israel Warns It's A Sham\n\n            Hamas formally announced Monday the final dissolution of its government in Gaza amid preparations to hand power to a technical committee backed by the United Nations as part of a Trump-brokered ceasefire deal.\n",
+      "url": "https://www.zerohedge.com/geopolitical/hamas-announces-dissolution-gaza-government-israel-warns-its-sham",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 4.6,
+      "impact_score": 6.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T08:01:26Z",
-      "text": "$AMZN  $NVDA $SPY $QQQ \n\nBond yields \ud83d\udcc8 \nOil \ud83d\udcc8 \nVix \ud83d\udcc8 \n\nStonks \ud83d\udcc9 \n\nThis market isn\u2019t having it.",
-      "description": "",
-      "handle": "o_0_O_0_o",
-      "display_name": "o_0_O_0_o",
-      "platform": "stocktwits"
+      "time": "Tue, 07 Jul 2026 08:15:00 +0000",
+      "text": "Hamas Announces Dissolution Of Gaza Government, But Israel Warns It's A Sham",
+      "description": "Hamas Announces Dissolution Of Gaza Government, But Israel Warns It's A Sham\n\n            Hamas formally announced Monday the final dissolution of its government in Gaza amid preparations to hand power to a technical committee backed by the United Nations as part of a Trump-brokered ceasefire deal.\n"
     },
     {
       "id": "4b8fdd282ae54d",
@@ -2677,24 +2751,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "303c70201f3890",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T07:43:24Z",
-      "title": "Why Oncology Institute\u2019s (TOI) Analyst Upgrades Put Its Community Cancer Care Growth Story in Focus",
-      "body": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/why-oncology-institute-toi-analyst-074324366.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T07:43:24Z",
-      "text": "Why Oncology Institute\u2019s (TOI) Analyst Upgrades Put Its Community Cancer Care Growth Story in Focus",
-      "description": ""
-    },
-    {
       "id": "3bb97fd0de9ab8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2766,6 +2822,24 @@
       "time": "2026-07-07T07:30:00Z",
       "text": "Power Line Communication Market Size to Worth USD 27.28 Billion by 2035 | SNS Insider",
       "description": "The global Power Line Communication (PLC) market, valued at USD 10.32 billion in 2025, is expected to grow to USD 27.28 billion by 2035 at a 10.23% CAGR. Growth is driven by smart grid modernization, digital utility infrastructure expansion, and increasing adoption of IoT-based smart homes and build"
+    },
+    {
+      "id": "5d4e175160ed22",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 07:30:00 +0000",
+      "title": "UK Police Crack Down On Dangerous New Threat \u2013 People Standing Around Doing Nothing",
+      "body": "UK Police Crack Down On Dangerous New Threat \u2013 People Standing Around Doing Nothing\n\n            Authored by Steve Watson via Modernity News,\n\nBritish policing has reached new depths of absurdity and authoritarianism. Officers are inventing pre-crimes, harassing citizens for lawful filming or standi",
+      "url": "https://www.zerohedge.com/political/uk-police-crack-down-dangerous-new-threat-people-standing-around-doing-nothing",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 07:30:00 +0000",
+      "text": "UK Police Crack Down On Dangerous New Threat \u2013 People Standing Around Doing Nothing",
+      "description": "UK Police Crack Down On Dangerous New Threat \u2013 People Standing Around Doing Nothing\n\n            Authored by Steve Watson via Modernity News,\n\nBritish policing has reached new depths of absurdity and authoritarianism. Officers are inventing pre-crimes, harassing citizens for lawful filming or standi"
     },
     {
       "id": "39f8078645b785",
@@ -4139,24 +4213,6 @@
       "description": "Rosen Law Firm is reminding investors in Via Transportation, Inc. (NYSE: VIA) of an August 10, 2026 deadline to join a securities class action lawsuit. The lawsuit alleges that Via's IPO offering documents were false and misleading, omitting information about declining Platform Annual Run-Rate Reven"
     },
     {
-      "id": "6df5020e701c35",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 02:35:00 +0000",
-      "title": "Chinese National Madam Indicted For Running Brothels Out Of Boston Apartments",
-      "body": "Chinese National Madam Indicted For Running Brothels Out Of Boston Apartments\n\n            Authored by Frank Fang via The Epoch Times,\n\nA Chinese national living in New York has been indicted for allegedly running a sex-trafficking ring out of several residential brothels located in Boston's Allston",
-      "url": "https://www.zerohedge.com/political/chinese-national-madam-indicted-running-brothels-out-boston-apartments",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 02:35:00 +0000",
-      "text": "Chinese National Madam Indicted For Running Brothels Out Of Boston Apartments",
-      "description": "Chinese National Madam Indicted For Running Brothels Out Of Boston Apartments\n\n            Authored by Frank Fang via The Epoch Times,\n\nA Chinese national living in New York has been indicted for allegedly running a sex-trafficking ring out of several residential brothels located in Boston's Allston"
-    },
-    {
       "id": "f107e4e27dc442",
       "source": "benzinga",
       "source_type": "benzinga_news",
@@ -4181,60 +4237,6 @@
         "Markets",
         "Tech"
       ]
-    },
-    {
-      "id": "a4a378c722f050",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 02:10:00 +0000",
-      "title": "Air Force Engineer Accused Of Cutting Down AI Cameras Becomes Unlikely Hero, Raises Thousands For Legal Defense",
-      "body": "Air Force Engineer Accused Of Cutting Down AI Cameras Becomes Unlikely Hero, Raises Thousands For Legal Defense\n\n            A U.S. Air Force engineer charged with allegedly destroying a series of AI-powered license plate surveillance cameras has become an unlikely cause c\u00e9l\u00e8bre among privacy advoca",
-      "url": "https://www.zerohedge.com/markets/air-force-engineer-accused-cutting-down-ai-cameras-becomes-unlikely-hero-raises-thousands",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 02:10:00 +0000",
-      "text": "Air Force Engineer Accused Of Cutting Down AI Cameras Becomes Unlikely Hero, Raises Thousands For Legal Defense",
-      "description": "Air Force Engineer Accused Of Cutting Down AI Cameras Becomes Unlikely Hero, Raises Thousands For Legal Defense\n\n            A U.S. Air Force engineer charged with allegedly destroying a series of AI-powered license plate surveillance cameras has become an unlikely cause c\u00e9l\u00e8bre among privacy advoca"
-    },
-    {
-      "id": "4c5931821e3e93",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 01:45:00 +0000",
-      "title": "Trump Says Walmart Will Slash Ground Beef Prices In \"Huge Deal\" For Consumers",
-      "body": "Trump Says Walmart Will Slash Ground Beef Prices In \"Huge Deal\" For Consumers\n\n            President Trump said retail giant Walmart will slash prices on a range of products at his administration's request, including a 15% reduction in ground beef prices.\u00a0The move comes on top of falling gasoline an",
-      "url": "https://www.zerohedge.com/political/trump-touts-walmart-beef-price-cuts-affordability-push-gains-momentum",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 01:45:00 +0000",
-      "text": "Trump Says Walmart Will Slash Ground Beef Prices In \"Huge Deal\" For Consumers",
-      "description": "Trump Says Walmart Will Slash Ground Beef Prices In \"Huge Deal\" For Consumers\n\n            President Trump said retail giant Walmart will slash prices on a range of products at his administration's request, including a 15% reduction in ground beef prices.\u00a0The move comes on top of falling gasoline an"
-    },
-    {
-      "id": "0b3de4a90890f2",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 01:20:00 +0000",
-      "title": "NorCal Couple Scammed Of $18,000 From Fake Checks And Online Payments",
-      "body": "NorCal Couple Scammed Of $18,000 From Fake Checks And Online Payments\n\n            A retired Northern California couple is speaking out after scammers allegedly drained nearly $18,000 from their checking account through a combination of counterfeit checks and unauthorized online payments, setting of",
-      "url": "https://www.zerohedge.com/markets/norcal-couple-scammed-18000-fake-checks-and-online-payments",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 01:20:00 +0000",
-      "text": "NorCal Couple Scammed Of $18,000 From Fake Checks And Online Payments",
-      "description": "NorCal Couple Scammed Of $18,000 From Fake Checks And Online Payments\n\n            A retired Northern California couple is speaking out after scammers allegedly drained nearly $18,000 from their checking account through a combination of counterfeit checks and unauthorized online payments, setting of"
     },
     {
       "id": "cec8fbd3d39b3f",
