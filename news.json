@@ -1,21 +1,21 @@
 {
-  "generated": "2026-07-08T06:22:06Z",
-  "generated_display": "2026-07-08 06:22 ET",
-  "count": 177,
+  "generated": "2026-07-08T06:27:06Z",
+  "generated_display": "2026-07-08 06:27 ET",
+  "count": 175,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T06:22:02.370728+00:00",
+      "last_error_ts": "2026-07-08T06:27:01.970851+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
       "latency_ms": 99,
-      "last_success": "2026-07-08T06:22:02.470659+00:00",
+      "last_success": "2026-07-08T06:27:02.070767+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 100,
-      "last_success": "2026-07-08T06:22:02.571853+00:00",
+      "last_success": "2026-07-08T06:27:02.171893+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 29,
-      "latency_ms": 28,
-      "last_success": "2026-07-08T06:22:02.671654+00:00",
+      "items_pulled": 27,
+      "latency_ms": 29,
+      "last_success": "2026-07-08T06:27:02.203221+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T06:22:02.707026+00:00",
+      "last_error_ts": "2026-07-08T06:27:02.296935+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1664,
-      "last_success": "2026-07-08T06:22:04.371299+00:00",
+      "latency_ms": 1877,
+      "last_success": "2026-07-08T06:27:04.174684+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-08T06:22:05.076243+00:00",
+      "last_success": "2026-07-08T06:27:04.871025+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1894,
-      "last_success": "2026-07-08T06:22:06.970803+00:00",
+      "latency_ms": 1699,
+      "last_success": "2026-07-08T06:27:06.570669+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,48 +74,89 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 199
+          "latency_ms": 112
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 100
+          "latency_ms": 84
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 105
+          "latency_ms": 9
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 200
+          "latency_ms": 394
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 8
+          "latency_ms": 11
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 83
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 75,
-    "reuters": 16,
     "uw_news": 25,
+    "stocktwits": 75,
     "cnbc": 8,
-    "massive_news": 29,
+    "reuters": 16,
+    "massive_news": 27,
     "zerohedge": 8,
     "seekingalpha": 7,
     "marketwatch": 8,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "30a807844e58ef",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T06:23:11Z",
+      "title": "MUSK: SPACEXAI WILL MAKE GROK 4.5 AVAILABLE TO PUBLIC TOMORROW",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T06:23:11Z",
+      "text": "MUSK: SPACEXAI WILL MAKE GROK 4.5 AVAILABLE TO PUBLIC TOMORROW",
+      "description": ""
+    },
+    {
+      "id": "6527b1e4a44f46",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T06:22:03Z",
+      "title": "$TSLA $SPCX Vote in favor of SpaceX here to get more attention! \nhttps://crowd51.com/posts/is-spacex-stock-worth-buying-right-now-aa3fce08",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658516894",
+      "author": "Jumptheair",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-08T06:22:03Z",
+      "text": "$TSLA $SPCX Vote in favor of SpaceX here to get more attention! \nhttps://crowd51.com/posts/is-spacex-stock-worth-buying-right-now-aa3fce08",
+      "description": "",
+      "handle": "Jumptheair",
+      "display_name": "Junho",
+      "platform": "stocktwits"
+    },
     {
       "id": "e4a748b1360330",
       "source": "stocktwits",
@@ -138,6 +179,24 @@
       "handle": "How_Did_This_Pleb_Escape",
       "display_name": "Trading To Afford Existence",
       "platform": "stocktwits"
+    },
+    {
+      "id": "4aa4bb7cd9517d",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Wed, 08 Jul 2026 06:21:34 GMT",
+      "title": "Denmark PM vows to defend Greenland after Trump revives push for U.S. control",
+      "body": "Danish Prime Minister Mette Frederiksen delivered a rebuke to President Donald Trump's latest push for U.S. control of Greenland.",
+      "url": "https://www.cnbc.com/2026/07/08/greenland-trump-nato-denmark.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 08 Jul 2026 06:21:34 GMT",
+      "text": "Denmark PM vows to defend Greenland after Trump revives push for U.S. control",
+      "description": "Danish Prime Minister Mette Frederiksen delivered a rebuke to President Donald Trump's latest push for U.S. control of Greenland."
     },
     {
       "id": "77a3a1d6b0e05f",
@@ -1011,29 +1070,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2f95e8c4b098c9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T05:53:40Z",
-      "title": "$QQQ 687\n$SPY 735\n$SOXL 129\n$MU 817\n$TSLA 379\nNVDA 189",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658516432",
-      "author": "cruellbear",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T05:53:40Z",
-      "text": "$QQQ 687\n$SPY 735\n$SOXL 129\n$MU 817\n$TSLA 379\nNVDA 189",
-      "description": "",
-      "handle": "cruellbear",
-      "display_name": "Cruelbear",
-      "platform": "stocktwits"
-    },
-    {
       "id": "136311979334c8",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1705,26 +1741,6 @@
       "description": ""
     },
     {
-      "id": "2ce60519832a92",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T05:26:32Z",
-      "title": "Canada's PM Carney: We're now spending 4% of GDP on defense",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "PM"
-      ],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T05:26:32Z",
-      "text": "Canada's PM Carney: We're now spending 4% of GDP on defense",
-      "description": ""
-    },
-    {
       "id": "c56579a8632ee8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1792,24 +1808,6 @@
       "handle": "MadStockAlerts1",
       "display_name": "MadStockAlerts",
       "platform": "stocktwits"
-    },
-    {
-      "id": "978c3d9efb50ef",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 05:15:12 GMT",
-      "title": "Apple begins testing CXMT chips for devices sold in China, FT says",
-      "body": "",
-      "url": "https://www.cnbc.com/2026/07/08/apple-begins-testing-cxmt-chips-for-devices-sold-in-china-ft-says-.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 05:15:12 GMT",
-      "text": "Apple begins testing CXMT chips for devices sold in China, FT says",
-      "description": ""
     },
     {
       "id": "09ce1868dcbb38",
@@ -3537,46 +3535,6 @@
       "description": "Pfizer and Bristol Myers Squibb are presented as attractively valued dividend stocks despite recent challenges. Both pharmaceutical companies face patent cliffs but have strong pipelines with promising candidates in oncology, weight loss, and anticoagulants. With forward yields of 7.1% and 4.3% resp"
     },
     {
-      "id": "4876d58fa45603",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T22:25:00Z",
-      "title": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of DXC Technology Company - DXC",
-      "body": "Pomerantz LLP is investigating potential securities fraud claims against DXC Technology Company following disappointing Q4 2026 earnings results. DXC reported a 1.2% year-over-year revenue decline and missed organic revenue guidance by $75 million, citing execution issues. The company also projected",
-      "url": "https://www.globenewswire.com/news-release/2026/07/07/3323754/1087/en/INVESTOR-ALERT-Pomerantz-Law-Firm-Investigates-Claims-On-Behalf-of-Investors-of-DXC-Technology-Company-DXC.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "DXC"
-      ],
-      "tags": [],
-      "impact_score": 12.1,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-07-07T22:25:00Z",
-      "text": "INVESTOR ALERT: Pomerantz Law Firm Investigates Claims On Behalf of Investors of DXC Technology Company - DXC",
-      "description": "Pomerantz LLP is investigating potential securities fraud claims against DXC Technology Company following disappointing Q4 2026 earnings results. DXC reported a 1.2% year-over-year revenue decline and missed organic revenue guidance by $75 million, citing execution issues. The company also projected"
-    },
-    {
-      "id": "fc43e2418fa748",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-07T22:24:00Z",
-      "title": "Enerpac Tool Group Reports Third Quarter Fiscal 2026 Results*",
-      "body": "Enerpac Tool Group reported third quarter fiscal 2026 net sales of $168 million (6% increase) with 3% organic growth. Net earnings reached $29.8 million ($0.58 per diluted share). The company announced a definitive agreement to acquire Specialized Fabrication Equipment Group LLC (SFE Group), which g",
-      "url": "https://www.globenewswire.com/news-release/2026/07/07/3323753/0/en/Enerpac-Tool-Group-Reports-Third-Quarter-Fiscal-2026-Results.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "EPAC"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T22:24:00Z",
-      "text": "Enerpac Tool Group Reports Third Quarter Fiscal 2026 Results*",
-      "description": "Enerpac Tool Group reported third quarter fiscal 2026 net sales of $168 million (6% increase) with 3% organic growth. Net earnings reached $29.8 million ($0.58 per diluted share). The company announced a definitive agreement to acquire Specialized Fabrication Equipment Group LLC (SFE Group), which g"
-    },
-    {
       "id": "cdcb2dcfbef26c",
       "source": "marketwatch",
       "source_type": "rss",
@@ -3685,78 +3643,6 @@
       "description": ""
     },
     {
-      "id": "38f50aa319e553",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06T19:07:51Z",
-      "title": "Here's Yet Another Reason Why Investors Should Be Bullish on Meta Platforms",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/heres-yet-another-reason-why-190751607.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T19:07:51Z",
-      "text": "Here's Yet Another Reason Why Investors Should Be Bullish on Meta Platforms",
-      "description": ""
-    },
-    {
-      "id": "e91ea362c41b48",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06T19:00:02Z",
-      "title": "Corn and Soybean Bulls Are Taking One Step Out of the Grave as a Critical Trading Period Kicks Off",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-soybean-bulls-taking-one-190002108.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T19:00:02Z",
-      "text": "Corn and Soybean Bulls Are Taking One Step Out of the Grave as a Critical Trading Period Kicks Off",
-      "description": ""
-    },
-    {
-      "id": "bca6501c14d4fd",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06T18:55:00Z",
-      "title": "Mark Zuckerberg wants in on prediction markets. Meta's reported plans sent these stocks lower as a result",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/mark-zuckerberg-wants-prediction-markets-185500300.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T18:55:00Z",
-      "text": "Mark Zuckerberg wants in on prediction markets. Meta's reported plans sent these stocks lower as a result",
-      "description": ""
-    },
-    {
-      "id": "b7b9c4aeb90775",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06T18:52:42Z",
-      "title": "SpaceX Just Unveiled a New AI Growth Engine. What This Means for SPCX Stock.",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/spacex-just-unveiled-ai-growth-185242314.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T18:52:42Z",
-      "text": "SpaceX Just Unveiled a New AI Growth Engine. What This Means for SPCX Stock.",
-      "description": ""
-    },
-    {
       "id": "2ad81c9a7acb52",
       "source": "reuters",
       "source_type": "rss",
@@ -3790,6 +3676,78 @@
       "sentiment": "neutral",
       "time": "2026-07-06T18:33:10Z",
       "text": "Nvidia denies report its next-generation AI server faces delays, says roadmap is intact",
+      "description": ""
+    },
+    {
+      "id": "7e7163abfc032b",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06T18:31:56Z",
+      "title": "SoundHound Is One of the Most Highly Shorted Stocks on Wall Street Right Now",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/soundhound-one-most-highly-shorted-183156793.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T18:31:56Z",
+      "text": "SoundHound Is One of the Most Highly Shorted Stocks on Wall Street Right Now",
+      "description": ""
+    },
+    {
+      "id": "451426d80be6de",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06T18:30:53Z",
+      "title": "Ambarella Is a Top Pure-Play Physical AI Bet. Here\u2019s Why AMBA Stock Will Continue Surging Higher.",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/ambarella-top-pure-play-physical-183053922.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T18:30:53Z",
+      "text": "Ambarella Is a Top Pure-Play Physical AI Bet. Here\u2019s Why AMBA Stock Will Continue Surging Higher.",
+      "description": ""
+    },
+    {
+      "id": "0e00d6fcdbea06",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06T18:29:05Z",
+      "title": "10 Million Reasons to Buy Apple Stock Here",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/10-million-reasons-buy-apple-182905469.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T18:29:05Z",
+      "text": "10 Million Reasons to Buy Apple Stock Here",
+      "description": ""
+    },
+    {
+      "id": "8df7048fb51c05",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06T18:25:47Z",
+      "title": "One Stop Systems (OSS): Top 10 Hidden AI Stocks to Buy",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/one-stop-systems-oss-top-182547325.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T18:25:47Z",
+      "text": "One Stop Systems (OSS): Top 10 Hidden AI Stocks to Buy",
       "description": ""
     },
     {
