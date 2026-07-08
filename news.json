@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-08T08:02:06Z",
-  "generated_display": "2026-07-08 08:02 ET",
-  "count": 166,
+  "generated": "2026-07-08T08:07:06Z",
+  "generated_display": "2026-07-08 08:07 ET",
+  "count": 169,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T08:02:02.006580+00:00",
+      "last_error_ts": "2026-07-08T08:07:02.071480+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 128,
-      "last_success": "2026-07-08T08:02:02.135455+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-08T08:07:02.171347+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 96,
-      "last_success": "2026-07-08T08:02:02.232523+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-08T08:07:02.272501+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 18,
-      "latency_ms": 66,
-      "last_success": "2026-07-08T08:02:02.300440+00:00",
+      "items_pulled": 21,
+      "latency_ms": 99,
+      "last_success": "2026-07-08T08:07:02.372592+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T08:02:02.393731+00:00",
+      "last_error_ts": "2026-07-08T08:07:02.404428+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1778,
-      "last_success": "2026-07-08T08:02:04.171815+00:00",
+      "latency_ms": 1866,
+      "last_success": "2026-07-08T08:07:04.270725+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-08T08:02:04.686708+00:00",
+      "last_success": "2026-07-08T08:07:04.978558+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1848,
-      "last_success": "2026-07-08T08:02:06.535187+00:00",
+      "latency_ms": 1842,
+      "last_success": "2026-07-08T08:07:06.820826+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,48 +74,318 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 108
+          "latency_ms": 111
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 60
+          "latency_ms": 88
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 39
+          "latency_ms": 10
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 197
+          "latency_ms": 393
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 9
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 98
+          "latency_ms": 92
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 75,
-    "reuters": 16,
     "uw_news": 25,
+    "stocktwits": 75,
+    "massive_news": 21,
+    "reuters": 16,
     "cnbc": 8,
-    "massive_news": 18,
     "zerohedge": 8,
     "seekingalpha": 7,
     "marketwatch": 8,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "b26a846d1c2d6f",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:06:54Z",
+      "title": "Trump: We attacked very powerfully last night against Iran.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:06:54Z",
+      "text": "Trump: We attacked very powerfully last night against Iran.",
+      "description": ""
+    },
+    {
+      "id": "38bf5e05685d11",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:06:08Z",
+      "title": "Quinbrook Closes Oversubscribed GBP 587 Million Renewables Impact Fund II",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:06:08Z",
+      "text": "Quinbrook Closes Oversubscribed GBP 587 Million Renewables Impact Fund II",
+      "description": ""
+    },
+    {
+      "id": "13ee65876bc368",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T08:06:02Z",
+      "title": "$META ANOTHE HUGE GIGANTIC ANNOUNCEMENT  IS COMING!!! I M E A N  HUGE!!! \ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80BE READY!!!!!!!!!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658518272",
+      "author": "eric3432",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:06:02Z",
+      "text": "$META ANOTHE HUGE GIGANTIC ANNOUNCEMENT  IS COMING!!! I M E A N  HUGE!!! \ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80BE READY!!!!!!!!!!",
+      "description": "",
+      "handle": "eric3432",
+      "display_name": "Big E",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5985d4f84b6602",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:05:20Z",
+      "title": "Trump: Had some great meetings.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:05:20Z",
+      "text": "Trump: Had some great meetings.",
+      "description": ""
+    },
+    {
+      "id": "bf123b24f235ca",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T08:04:58Z",
+      "title": "$SPY kinda wish spy would go back to like $250",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658518253",
+      "author": "sonicmerlin",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:04:58Z",
+      "text": "$SPY kinda wish spy would go back to like $250",
+      "description": "",
+      "handle": "sonicmerlin",
+      "display_name": "sonic",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5dad30d3be454a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T08:04:49Z",
+      "title": "$SPY happy higher fuel prices everyone",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658518252",
+      "author": "toko34",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T08:04:49Z",
+      "text": "$SPY happy higher fuel prices everyone",
+      "description": "",
+      "handle": "toko34",
+      "display_name": "More machine than Man",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "91012fd5ed0547",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T08:04:02Z",
+      "title": "$QQQ the greatest of all deals #34000 coming",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658518242",
+      "author": "TheVoic",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-08T08:04:02Z",
+      "text": "$QQQ the greatest of all deals #34000 coming",
+      "description": "",
+      "handle": "TheVoic",
+      "display_name": "GitLab &amp; Coinbase Bagholder \ud83d\udecd\ufe0f",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1927552637f8f7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T08:03:50Z",
+      "title": "$SPY Day trade plan for SPX and index futures with SPX net market maker positioning through Friday (via OptionsDepth). Have a feeling market will open around SPX7500...if a sell off happens after open, will be looking to go long 7475- 7450 with target back to 7500. Get a spike after open to 7525/30 ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658518239",
+      "author": "Playthecasino",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:03:50Z",
+      "text": "$SPY Day trade plan for SPX and index futures with SPX net market maker positioning through Friday (via OptionsDepth). Have a feeling market will open around SPX7500...if a sell off happens after open, will be looking to go long 7475- 7450 with target back to 7500. Get a spike after open to 7525/30 ",
+      "description": "",
+      "handle": "Playthecasino",
+      "display_name": "Unknown",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b2c61936c0e05f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T08:03:38Z",
+      "title": "$META ultimately all of these AI models will be comparable with each other. I think thats fairly obvious now. It doesnt matter who gets there first because 6 months later everyone will have caught up. \n \nSo what this means is NOTHING CHANGES. Those with dominate wide moat businesses before will just",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658518234",
+      "author": "Longterminvestor919",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:03:38Z",
+      "text": "$META ultimately all of these AI models will be comparable with each other. I think thats fairly obvious now. It doesnt matter who gets there first because 6 months later everyone will have caught up. \n \nSo what this means is NOTHING CHANGES. Those with dominate wide moat businesses before will just",
+      "description": "",
+      "handle": "Longterminvestor919",
+      "display_name": "Longterminvestor919",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d4a2ab5e923da4",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:02:21Z",
+      "title": "FTI Consulting Expands UK TMT Leadership to Help Companies Navigate Regulatory Scrutiny, Transformation and Stakeholder Pressure",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "FTI"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:02:21Z",
+      "text": "FTI Consulting Expands UK TMT Leadership to Help Companies Navigate Regulatory Scrutiny, Transformation and Stakeholder Pressure",
+      "description": ""
+    },
+    {
+      "id": "5800dad0eca666",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:02:16Z",
+      "title": "Vinitaly Returns to Kazakhstan as Italian Wine Looks East",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "ITA"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:02:16Z",
+      "text": "Vinitaly Returns to Kazakhstan as Italian Wine Looks East",
+      "description": ""
+    },
+    {
+      "id": "552e0aec2e9f12",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:02:13Z",
+      "title": "Atradius survey reveals rising B2B payment stress beneath stable headlines in Asia",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:02:13Z",
+      "text": "Atradius survey reveals rising B2B payment stress beneath stable headlines in Asia",
+      "description": ""
+    },
+    {
+      "id": "89cc226f9a9fae",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:02:11Z",
+      "title": "Envision Energy and ju:niz Energy Deliver First Gen 8 BESS Projects, Powering Germany's Future Energy Systems",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "BESS"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:02:11Z",
+      "text": "Envision Energy and ju:niz Energy Deliver First Gen 8 BESS Projects, Powering Germany's Future Energy Systems",
+      "description": ""
+    },
     {
       "id": "6b9b39c46ce806",
       "source": "stocktwits",
@@ -207,6 +477,46 @@
       "handle": "Erickoo",
       "display_name": "Erick",
       "platform": "stocktwits"
+    },
+    {
+      "id": "935b13959f6a51",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:00:00Z",
+      "title": "Sanoma julkaisee vuoden 2026 puolivuosikatsauksensa 29.7.",
+      "body": "Sanoma will publish its half-year report for January-June 2026 on July 29, 2026, followed by an English-language briefing for analysts and investors at 11:30 AM in Helsinki. The CEO and CFO will present results, with opportunities for Q&A via webcast and phone conference.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/08/3323843/0/fi/Sanoma-julkaisee-vuoden-2026-puolivuosikatsauksensa-29-7.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "SWYBY"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:00:00Z",
+      "text": "Sanoma julkaisee vuoden 2026 puolivuosikatsauksensa 29.7.",
+      "description": "Sanoma will publish its half-year report for January-June 2026 on July 29, 2026, followed by an English-language briefing for analysts and investors at 11:30 AM in Helsinki. The CEO and CFO will present results, with opportunities for Q&A via webcast and phone conference."
+    },
+    {
+      "id": "7b3701bdf5f6df",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T08:00:00Z",
+      "title": "Sanoma will publish its Half-Year Report 2026 on 29 July",
+      "body": "Sanoma has acquired Fluentbe, a Polish AI-powered tutoring platform specializing in language learning. This acquisition aligns with Sanoma's strategy to accelerate growth in K12 education through value-creating M&A and represents the company's commitment to leveraging AI technology in educational so",
+      "url": "https://www.globenewswire.com/news-release/2026/07/08/3323843/0/en/Sanoma-will-publish-its-Half-Year-Report-2026-on-29-July.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "SWYBY"
+      ],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T08:00:00Z",
+      "text": "Sanoma will publish its Half-Year Report 2026 on 29 July",
+      "description": "Sanoma has acquired Fluentbe, a Polish AI-powered tutoring platform specializing in language learning. This acquisition aligns with Sanoma's strategy to accelerate growth in K12 education through value-creating M&A and represents the company's commitment to leveraging AI technology in educational so"
     },
     {
       "id": "abe0842ae19d06",
@@ -314,29 +624,6 @@
       "description": ""
     },
     {
-      "id": "eb90cc9f914dd0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:58:32Z",
-      "title": "$SPY $QQQ $DJT  YOU GUYS HAVE TO SEE THIS !!! I\u2019m dying right now \ud83d\ude02\ud83d\ude35 \n\nhttps://youtu.be/D_h7hcK6pFs?is=6u5BuQjMRW3ceOP7",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658518147",
-      "author": "Tj_strippers_and_blow",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:58:32Z",
-      "text": "$SPY $QQQ $DJT  YOU GUYS HAVE TO SEE THIS !!! I\u2019m dying right now \ud83d\ude02\ud83d\ude35 \n\nhttps://youtu.be/D_h7hcK6pFs?is=6u5BuQjMRW3ceOP7",
-      "description": "",
-      "handle": "Tj_strippers_and_blow",
-      "display_name": "White dude",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d9625c1f69175b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -357,29 +644,6 @@
       "description": "",
       "handle": "Tj_strippers_and_blow",
       "display_name": "White dude",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b8877b0c1c25a4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:58:05Z",
-      "title": "$SPY $QQQ  $DIA \nAI HAS DONE NOTHING",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658518140",
-      "author": "Specialist001",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T07:58:05Z",
-      "text": "$SPY $QQQ  $DIA \nAI HAS DONE NOTHING",
-      "description": "",
-      "handle": "Specialist001",
-      "display_name": "Specialist001",
       "platform": "stocktwits"
     },
     {
@@ -440,29 +704,6 @@
       "time": "2026-07-08T07:56:24Z",
       "text": "Ukraine's Military Hit Two Russian Oil Refineries In Tatarstan Region Overnight.",
       "description": ""
-    },
-    {
-      "id": "37f5f072e8457c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:56:10Z",
-      "title": "$SPY I think I was born in the wrong universe",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658518115",
-      "author": "sonicmerlin",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:56:10Z",
-      "text": "$SPY I think I was born in the wrong universe",
-      "description": "",
-      "handle": "sonicmerlin",
-      "display_name": "sonic",
-      "platform": "stocktwits"
     },
     {
       "id": "d3406b47f95acc",
@@ -771,29 +1012,6 @@
       "time": "Wed, 08 Jul 2026 07:47:43 GMT",
       "text": "SambaNova hits $11 billion valuation as investors back Nvidia chip challengers",
       "description": "SambaNova is valued at $11 billion after fresh financing led by General Atlantic, as AI chip startups look to challenge Nvidia."
-    },
-    {
-      "id": "3680d4a2a14ab6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:47:41Z",
-      "title": "$QQQ $SPY i ha\u2026i hav..i have new deal..great deal",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658518021",
-      "author": "Azatjan3",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T07:47:41Z",
-      "text": "$QQQ $SPY i ha\u2026i hav..i have new deal..great deal",
-      "description": "",
-      "handle": "Azatjan3",
-      "display_name": "Arthur Spartak",
-      "platform": "stocktwits"
     },
     {
       "id": "509d598f9ef6a0",
@@ -1253,6 +1471,51 @@
       "platform": "stocktwits"
     },
     {
+      "id": "1279b9e58b6341",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T07:30:00Z",
+      "title": "AMSilk and Ajinomoto Foods Europe Expand Partnership to Enable Industrial-Scale Production of Silk Proteins",
+      "body": "AMSilk and Ajinomoto Foods Europe (AFE) have expanded their partnership with a long-term manufacturing and supply agreement to scale industrial production of biotech-produced silk proteins. AFE will establish a dedicated production line at its Nesle, France facility with 160 m\u00b3 fermentation reactor ",
+      "url": "https://www.globenewswire.com/news-release/2026/07/08/3323840/0/en/AMSilk-and-Ajinomoto-Foods-Europe-Expand-Partnership-to-Enable-Industrial-Scale-Production-of-Silk-Proteins.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "AJNMY"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:30:00Z",
+      "text": "AMSilk and Ajinomoto Foods Europe Expand Partnership to Enable Industrial-Scale Production of Silk Proteins",
+      "description": "AMSilk and Ajinomoto Foods Europe (AFE) have expanded their partnership with a long-term manufacturing and supply agreement to scale industrial production of biotech-produced silk proteins. AFE will establish a dedicated production line at its Nesle, France facility with 160 m\u00b3 fermentation reactor "
+    },
+    {
+      "id": "0a8af7bf7c18d0",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T07:30:00Z",
+      "title": "Ambient Light Sensor Market Size to Worth USD 9.54 Billon by 2035 | Research by SNS Insider",
+      "body": "The global ambient light sensor market, valued at USD 3.81 billion in 2025, is expected to grow to USD 9.54 billion by 2035 at a CAGR of 9.63%. Growth is driven by increasing demand for automatic brightness control in consumer electronics, smartphones, tablets, wearables, and IoT devices. The automo",
+      "url": "https://www.globenewswire.com/news-release/2026/07/08/3323841/0/en/Ambient-Light-Sensor-Market-Size-to-Worth-USD-9-54-Billon-by-2035-Research-by-SNS-Insider.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "AMSSY",
+        "ADI",
+        "AVGO",
+        "NXPI",
+        "STM",
+        "TXN"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:30:00Z",
+      "text": "Ambient Light Sensor Market Size to Worth USD 9.54 Billon by 2035 | Research by SNS Insider",
+      "description": "The global ambient light sensor market, valued at USD 3.81 billion in 2025, is expected to grow to USD 9.54 billion by 2035 at a CAGR of 9.63%. Growth is driven by increasing demand for automatic brightness control in consumer electronics, smartphones, tablets, wearables, and IoT devices. The automo"
+    },
+    {
       "id": "05cbcc21d86b4d",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1268,24 +1531,6 @@
       "sentiment": "neutral",
       "time": "2026-07-08T07:29:54Z",
       "text": "UNICREDIT AT 47.59% OF COMMERZBANK INCL DERIVATIVES AS BID ENDS",
-      "description": ""
-    },
-    {
-      "id": "5e39bcd2b90583",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:29:53Z",
-      "title": "Kubermatic positioned as a Leader in the SPARK Matrix\u2122: Edge Kubernetes Platforms, Q3 2026, by QKS Group",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:29:53Z",
-      "text": "Kubermatic positioned as a Leader in the SPARK Matrix\u2122: Edge Kubernetes Platforms, Q3 2026, by QKS Group",
       "description": ""
     },
     {
@@ -1360,24 +1605,6 @@
       "handle": "Mipel",
       "display_name": "Natan h",
       "platform": "stocktwits"
-    },
-    {
-      "id": "cd44c4911a027c",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:27:49Z",
-      "title": "HSG Laser Unveils TL3 PRO: One Tube Cutter For All Tube Sizes",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:27:49Z",
-      "text": "HSG Laser Unveils TL3 PRO: One Tube Cutter For All Tube Sizes",
-      "description": ""
     },
     {
       "id": "c0384be97d0ce7",
@@ -1563,24 +1790,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "12029af2a633b6",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:17:45Z",
-      "title": "WuXi Biologics Achieves MSCI ESG AAA Rating and MSCI Selection Indexes Inclusion for Fourth Consecutive Year",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:17:45Z",
-      "text": "WuXi Biologics Achieves MSCI ESG AAA Rating and MSCI Selection Indexes Inclusion for Fourth Consecutive Year",
-      "description": ""
-    },
-    {
       "id": "1b6899a4109e20",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1605,24 +1814,6 @@
       "description": "Nvidia, the world's largest semiconductor company by market cap, is experiencing explosive growth driven primarily by AI spending. While concerns exist about the sustainability of AI spending levels, the article argues Nvidia's dominance in high-performance processors positions it well for long-term"
     },
     {
-      "id": "37a424e1612a63",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:16:36Z",
-      "title": "COFFEE TRADER SEEKS TO SHIELD MORE VIETNAM GROWERS FROM WEATHER- BBG",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:16:36Z",
-      "text": "COFFEE TRADER SEEKS TO SHIELD MORE VIETNAM GROWERS FROM WEATHER- BBG",
-      "description": ""
-    },
-    {
       "id": "464ce19a400622",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1645,42 +1836,6 @@
       "time": "2026-07-08T07:15:00Z",
       "text": "2 Tech Stocks You Can Buy and Hold for the Next Decade",
       "description": "The article recommends Palantir Technologies and Alphabet as two tech stocks suitable for long-term 10-year investment, citing their strong positioning in the AI application layer. Palantir develops secure AI applications for enterprises and governments, with only 832 customers leaving significant g"
-    },
-    {
-      "id": "2ab54853135506",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:13:58Z",
-      "title": "TRADERS PRICE IN 32 BPS OF FURTHER ECB MONETARY TIGHTENING THIS YEAR, UP FROM 25 BPS ON TUESDAY",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:13:58Z",
-      "text": "TRADERS PRICE IN 32 BPS OF FURTHER ECB MONETARY TIGHTENING THIS YEAR, UP FROM 25 BPS ON TUESDAY",
-      "description": ""
-    },
-    {
-      "id": "738e32862a4e24",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:13:42Z",
-      "title": "FPT Releases Global Study on Scaling Enterprise AI, Highlighting the Shift from Pilots to Platform-Driven Transformation",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:13:42Z",
-      "text": "FPT Releases Global Study on Scaling Enterprise AI, Highlighting the Shift from Pilots to Platform-Driven Transformation",
-      "description": ""
     },
     {
       "id": "f686b9df63e803",
@@ -1727,24 +1882,6 @@
       "handle": "Freesolo2",
       "display_name": "A Mas",
       "platform": "stocktwits"
-    },
-    {
-      "id": "fe3eb189c5fc75",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:08:44Z",
-      "title": "IRAN'S REVOLUTIONARY GUARDS NAVY SAYS ONE MEMBER WAS KILLED BY 'ENEMY DRONES' ON WEDNESDAY MORNING - STATE MEDIA",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:08:44Z",
-      "text": "IRAN'S REVOLUTIONARY GUARDS NAVY SAYS ONE MEMBER WAS KILLED BY 'ENEMY DRONES' ON WEDNESDAY MORNING - STATE MEDIA",
-      "description": ""
     },
     {
       "id": "d6ffd3b9daac6b",
@@ -2530,29 +2667,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "09ce1868dcbb38",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T05:11:19Z",
-      "title": "$META narrative has changed. dont fight the trend",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658515640",
-      "author": "Trendtrading919",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T05:11:19Z",
-      "text": "$META narrative has changed. dont fight the trend",
-      "description": "",
-      "handle": "Trendtrading919",
-      "display_name": "Trendtrading919",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b48985acbc3077",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2589,29 +2703,6 @@
       "time": "Wed, 08 Jul 2026 05:01:55 GMT",
       "text": "Lawmakers probe growing use of Chinese AI models in U.S. companies",
       "description": "An ongoing House Committee investigation is probing the risks involved in the rise of AI built in China."
-    },
-    {
-      "id": "87b6ee2cc002cd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T04:58:32Z",
-      "title": "$META it will not hold. \n$400 after ER. \nDead cat bounce.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658515432",
-      "author": "MountCapital",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T04:58:32Z",
-      "text": "$META it will not hold. \n$400 after ER. \nDead cat bounce.",
-      "description": "",
-      "handle": "MountCapital",
-      "display_name": "BOB JOE",
-      "platform": "stocktwits"
     },
     {
       "id": "890432ce6eba38",
@@ -3276,27 +3367,6 @@
       "handle": "akanon90",
       "display_name": "Ak Anon",
       "platform": "stocktwits"
-    },
-    {
-      "id": "1c39ccb5a70e44",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T00:05:13Z",
-      "title": "Why Rivian Stock Plunged Today",
-      "body": "Rivian Automotive's stock fell 18.12% after the company announced a $1.4 billion capital raise through a 75 million share offering, despite beating Q2 delivery expectations (12,194 vehicles vs. 9,000-11,000 guidance) and raising full-year guidance to 65,000-70,000 deliveries. Investors sold off shar",
-      "url": "https://www.fool.com/investing/2026/07/07/why-rivian-stock-plunged-today/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "RIVN",
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T00:05:13Z",
-      "text": "Why Rivian Stock Plunged Today",
-      "description": "Rivian Automotive's stock fell 18.12% after the company announced a $1.4 billion capital raise through a 75 million share offering, despite beating Q2 delivery expectations (12,194 vehicles vs. 9,000-11,000 guidance) and raising full-year guidance to 65,000-70,000 deliveries. Investors sold off shar"
     },
     {
       "id": "44488e600bc20c",
