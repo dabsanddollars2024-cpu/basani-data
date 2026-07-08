@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T07:47:06Z",
-  "generated_display": "2026-07-08 07:47 ET",
+  "generated": "2026-07-08T07:52:07Z",
+  "generated_display": "2026-07-08 07:52 ET",
   "count": 172,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T07:47:01.806794+00:00",
+      "last_error_ts": "2026-07-08T07:52:02.403127+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 0,
-      "latency_ms": 171,
-      "last_success": "2026-07-08T07:47:01.978198+00:00",
+      "latency_ms": 122,
+      "last_success": "2026-07-08T07:52:02.525580+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 58,
-      "last_success": "2026-07-08T07:47:02.037359+00:00",
+      "latency_ms": 145,
+      "last_success": "2026-07-08T07:52:02.671941+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 24,
-      "latency_ms": 58,
-      "last_success": "2026-07-08T07:47:02.097477+00:00",
+      "latency_ms": 29,
+      "last_success": "2026-07-08T07:52:02.771622+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T07:47:02.192671+00:00",
+      "last_error_ts": "2026-07-08T07:52:02.887913+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1981,
-      "last_success": "2026-07-08T07:47:04.174519+00:00",
+      "latency_ms": 2182,
+      "last_success": "2026-07-08T07:52:05.070904+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-08T07:47:04.971038+00:00",
+      "last_success": "2026-07-08T07:52:05.671300+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1665,
-      "last_success": "2026-07-08T07:47:06.636832+00:00",
+      "latency_ms": 1775,
+      "last_success": "2026-07-08T07:52:07.446521+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,41 +74,41 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 108
+          "latency_ms": 128
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 86
+          "latency_ms": 172
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 33
+          "latency_ms": 10
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 399
+          "latency_ms": 194
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 74
+          "latency_ms": 11
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 93
+          "latency_ms": 83
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
-    "reuters": 16,
+    "uw_news": 25,
     "cnbc": 8,
+    "reuters": 16,
     "massive_news": 24,
     "zerohedge": 8,
     "seekingalpha": 7,
@@ -116,6 +116,236 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "6dfa129c457e4b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T07:50:28Z",
+      "title": "$AAPL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658518055",
+      "author": "stcktwtsndrd",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:50:28Z",
+      "text": "$AAPL",
+      "description": "",
+      "handle": "stcktwtsndrd",
+      "display_name": "StockTwits Android",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "74b56ab192ef78",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T07:49:26Z",
+      "title": "Iran's Top Joint Military Command: Tehran considers any location that supports US attacks on Iran as legitimate target - State Media.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:49:26Z",
+      "text": "Iran's Top Joint Military Command: Tehran considers any location that supports US attacks on Iran as legitimate target - State Media.",
+      "description": ""
+    },
+    {
+      "id": "3a8291a8540c9f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T07:49:02Z",
+      "title": "$SPY $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658518040",
+      "author": "stcktwtsndrd",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:49:02Z",
+      "text": "$SPY $QQQ",
+      "description": "",
+      "handle": "stcktwtsndrd",
+      "display_name": "StockTwits Android",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2bb422c9287203",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T07:49:02Z",
+      "title": "$SPY $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658518040",
+      "author": "stcktwtsndrd",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:49:02Z",
+      "text": "$SPY $QQQ",
+      "description": "",
+      "handle": "stcktwtsndrd",
+      "display_name": "StockTwits Android",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "abe3c6dac6d358",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T07:48:57Z",
+      "title": "APPLE LOSES LEGAL CHALLENGE AGAINST EU RULES TREATING ITS FIVE APP STORES AS A SINGLE SERVICE SUBJECT TO STRICT REGULATORY OBLIGATIONS.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:48:57Z",
+      "text": "APPLE LOSES LEGAL CHALLENGE AGAINST EU RULES TREATING ITS FIVE APP STORES AS A SINGLE SERVICE SUBJECT TO STRICT REGULATORY OBLIGATIONS.",
+      "description": ""
+    },
+    {
+      "id": "270fae3fce717e",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T07:48:56Z",
+      "title": "APPLE LOSES LEGAL CHALLENGE AGAINST THE EU'S DESIGNATION OF ITS IOS OPERATING SYSTEM AS AN IMPORTANT GATEWAY FOR BUSINESSES TO REACH USERS.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:48:56Z",
+      "text": "APPLE LOSES LEGAL CHALLENGE AGAINST THE EU'S DESIGNATION OF ITS IOS OPERATING SYSTEM AS AN IMPORTANT GATEWAY FOR BUSINESSES TO REACH USERS.",
+      "description": ""
+    },
+    {
+      "id": "7ac817fdeb1667",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T07:48:56Z",
+      "title": "Apple loses spat with EU over app store and iphone rules.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:48:56Z",
+      "text": "Apple loses spat with EU over app store and iphone rules.",
+      "description": ""
+    },
+    {
+      "id": "4376973158ff41",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T07:48:05Z",
+      "title": "$NVDA 100% going $200 plus. Goldman Sachs says buy with both hands.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658518027",
+      "author": "Championinvestor",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-08T07:48:05Z",
+      "text": "$NVDA 100% going $200 plus. Goldman Sachs says buy with both hands.",
+      "description": "",
+      "handle": "Championinvestor",
+      "display_name": "Champion",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "05c8b66b508fba",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T07:47:41Z",
+      "title": "$QQQ $SPY i ha\u2026i hav..i have new deal..great deal",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658518021",
+      "author": "Azatjan3",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T07:47:41Z",
+      "text": "$QQQ $SPY i ha\u2026i hav..i have new deal..great deal",
+      "description": "",
+      "handle": "Azatjan3",
+      "display_name": "Arthur Spartak",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3680d4a2a14ab6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T07:47:41Z",
+      "title": "$QQQ $SPY i ha\u2026i hav..i have new deal..great deal",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658518021",
+      "author": "Azatjan3",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T07:47:41Z",
+      "text": "$QQQ $SPY i ha\u2026i hav..i have new deal..great deal",
+      "description": "",
+      "handle": "Azatjan3",
+      "display_name": "Arthur Spartak",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "509d598f9ef6a0",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T07:47:20Z",
+      "title": "EGYPT'S NET FOREIGN RESERVES RISE TO $55.07 BILLION IN JUNE FROM $53.13 BILLION IN THE PREVIOUS MONTH, CENTRAL BANK SAYS.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "NET"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T07:47:20Z",
+      "text": "EGYPT'S NET FOREIGN RESERVES RISE TO $55.07 BILLION IN JUNE FROM $53.13 BILLION IN THE PREVIOUS MONTH, CENTRAL BANK SAYS.",
+      "description": ""
+    },
     {
       "id": "294769556053f2",
       "source": "uw_news",
@@ -268,6 +498,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "c1e7b4f9702db1",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Wed, 08 Jul 2026 07:44:27 GMT",
+      "title": "'Don't fool with us': NATO allies put on a united front as they prepare to meet Trump",
+      "body": "NATO chief Mark Rutte said Wednesday that the alliance was entering its \"NATO 3.0\" era.",
+      "url": "https://www.cnbc.com/2026/07/08/nato-trump-rutte-russia-iran-greenland-ukraine.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 08 Jul 2026 07:44:27 GMT",
+      "text": "'Don't fool with us': NATO allies put on a united front as they prepare to meet Trump",
+      "description": "NATO chief Mark Rutte said Wednesday that the alliance was entering its \"NATO 3.0\" era."
+    },
+    {
       "id": "21d8322992c7cd",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -311,29 +559,6 @@
       "description": "",
       "handle": "BigBreakingWire",
       "display_name": "BigBreakingWire",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f241dbb83e2324",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:40:45Z",
-      "title": "$SPY $QQQ $DIA \nhttps://youtu.be/QiIMFTRj-lM?is=O7mAOuv5ovtcltDm",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658517938",
-      "author": "Specialist001",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T07:40:45Z",
-      "text": "$SPY $QQQ $DIA \nhttps://youtu.be/QiIMFTRj-lM?is=O7mAOuv5ovtcltDm",
-      "description": "",
-      "handle": "Specialist001",
-      "display_name": "Specialist001",
       "platform": "stocktwits"
     },
     {
@@ -406,29 +631,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "30c18f0ffa50e3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:39:35Z",
-      "title": "$SPY the market is going to crash the hardest its ever crashed in awhile. Fed Min and War",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658517928",
-      "author": "CANDLESURFER350",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T07:39:35Z",
-      "text": "$SPY the market is going to crash the hardest its ever crashed in awhile. Fed Min and War",
-      "description": "",
-      "handle": "CANDLESURFER350",
-      "display_name": "Rocky P",
-      "platform": "stocktwits"
-    },
-    {
       "id": "5a38b89db8052e",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -472,29 +674,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "85cd2393e4a898",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:37:10Z",
-      "title": "$QQQ $SPY Holding pretty good , but I was not fully convinced by the stability of the market . It was not responding normally to  weakness or other selloffs. That lack of reaction suggested that the strength might not have been fully supported, maybe broad market? We will find out the missing link t",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658517892",
-      "author": "Activetrader777",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:37:10Z",
-      "text": "$QQQ $SPY Holding pretty good , but I was not fully convinced by the stability of the market . It was not responding normally to  weakness or other selloffs. That lack of reaction suggested that the strength might not have been fully supported, maybe broad market? We will find out the missing link t",
-      "description": "",
-      "handle": "Activetrader777",
-      "display_name": "Activetrader777",
-      "platform": "stocktwits"
-    },
-    {
       "id": "5f090b25d86715",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -515,29 +694,6 @@
       "description": "",
       "handle": "Championinvestor",
       "display_name": "Champion",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "768da6d266324f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:36:06Z",
-      "title": "$QQQ bro do all for fake pump",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658517876",
-      "author": "Azatjan3",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:36:06Z",
-      "text": "$QQQ bro do all for fake pump",
-      "description": "",
-      "handle": "Azatjan3",
-      "display_name": "Arthur Spartak",
       "platform": "stocktwits"
     },
     {
@@ -562,6 +718,24 @@
       "handle": "tradeordie24",
       "display_name": "Dave",
       "platform": "stocktwits"
+    },
+    {
+      "id": "51b900ca3f524c",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Wed, 08 Jul 2026 07:34:15 GMT",
+      "title": "Samsung-backed AI chip firm Rebellions targets IPO in South Korea next year, CEO tells CNBC",
+      "body": "Sunghyun Park, CEO of Rebellions, told CNBC that the company is leaning toward a listing on the KOSPI over the KOSDAQ.",
+      "url": "https://www.cnbc.com/2026/07/08/rebellions-ipo-south-korea-ai-chips.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 08 Jul 2026 07:34:15 GMT",
+      "text": "Samsung-backed AI chip firm Rebellions targets IPO in South Korea next year, CEO tells CNBC",
+      "description": "Sunghyun Park, CEO of Rebellions, told CNBC that the company is leaning toward a listing on the KOSPI over the KOSDAQ."
     },
     {
       "id": "0240e9b36d5358",
@@ -1171,29 +1345,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "7cc4e3de55b819",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T07:18:28Z",
-      "title": "$NVDA $200 in horizon today here Goldman Sachs buying in million &amp; millions",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658517648",
-      "author": "Championinvestor",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T07:18:28Z",
-      "text": "$NVDA $200 in horizon today here Goldman Sachs buying in million &amp; millions",
-      "description": "",
-      "handle": "Championinvestor",
-      "display_name": "Champion",
-      "platform": "stocktwits"
-    },
-    {
       "id": "12029af2a633b6",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1381,98 +1532,6 @@
       "sentiment": "neutral",
       "time": "2026-07-08T07:05:31Z",
       "text": "U.S. CRUDE FUTURES RISE OVER 3% ON CONCERNS OVER FRAGILE U.S.-IRAN TRUCE",
-      "description": ""
-    },
-    {
-      "id": "0fc306f81ca8f7",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:04:44Z",
-      "title": "EU declines request to halt troubled EES biometrics system at airports despite long lines and missed flights, ahead of summer rush. Travelers, take caution.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "EES"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:04:44Z",
-      "text": "EU declines request to halt troubled EES biometrics system at airports despite long lines and missed flights, ahead of summer rush. Travelers, take caution.",
-      "description": ""
-    },
-    {
-      "id": "834407d4e852ee",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:03:41Z",
-      "title": "MIMARU Launches Tokyo-wide Visitor Support Initiative for International Travelers to Help Them Feel Less like Visitors and More like They Belong while Exploring Tokyo",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:03:41Z",
-      "text": "MIMARU Launches Tokyo-wide Visitor Support Initiative for International Travelers to Help Them Feel Less like Visitors and More like They Belong while Exploring Tokyo",
-      "description": ""
-    },
-    {
-      "id": "1e401c2431058b",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:03:30Z",
-      "title": "Flix and Klarna Expand Partnership to Give Millions of Travelers Across the U.S. and Europe More Ways to Pay",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:03:30Z",
-      "text": "Flix and Klarna Expand Partnership to Give Millions of Travelers Across the U.S. and Europe More Ways to Pay",
-      "description": ""
-    },
-    {
-      "id": "25e9de7c5bfc4f",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:03:29Z",
-      "title": "Parasail to Combine NVIDIA AI Infrastructure with d-Matrix Accelerators to Achieve 10x Faster Token Generation",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:03:29Z",
-      "text": "Parasail to Combine NVIDIA AI Infrastructure with d-Matrix Accelerators to Achieve 10x Faster Token Generation",
-      "description": ""
-    },
-    {
-      "id": "3e219edb4fe3c8",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T07:03:28Z",
-      "title": "Mid-Market AI Adoption Hindered by Lack of Expertise and Inadequate Technology Foundations, Klarus Finds",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T07:03:28Z",
-      "text": "Mid-Market AI Adoption Hindered by Lack of Expertise and Inadequate Technology Foundations, Klarus Finds",
       "description": ""
     },
     {
@@ -2229,29 +2288,6 @@
       "description": "",
       "handle": "Elliottwave_Trading",
       "display_name": "Elliottwave Trading",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "0311b7457164b0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T05:31:42Z",
-      "title": "$SOFI will be BO by $GOOG $AAPL or $NVDA soon",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658516027",
-      "author": "Investor203",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T05:31:42Z",
-      "text": "$SOFI will be BO by $GOOG $AAPL or $NVDA soon",
-      "description": "",
-      "handle": "Investor203",
-      "display_name": "Man On A Mission",
       "platform": "stocktwits"
     },
     {
@@ -3477,24 +3513,6 @@
       "description": "Oil futures climbed late Tuesday after the Treasury Department canceled a license granted on June 21 to allow for the sale of Iranian oil."
     },
     {
-      "id": "6957673d86ee33",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 21:26:42 GMT",
-      "title": "U.S. revokes Iran oil sales authorization after tanker attacks",
-      "body": "Treasury had waived sanctions on Iranian oil through Aug. 21 after Washington and Tehran inked an interim deal to reopen Hormuz last month.",
-      "url": "https://www.cnbc.com/2026/07/07/us-revokes-iran-oil-sanctions-waiver-tanker-attacks.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 14.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 21:26:42 GMT",
-      "text": "U.S. revokes Iran oil sales authorization after tanker attacks",
-      "description": "Treasury had waived sanctions on Iranian oil through Aug. 21 after Washington and Tehran inked an interim deal to reopen Hormuz last month."
-    },
-    {
       "id": "e92f813addf775",
       "source": "cnbc",
       "source_type": "rss",
@@ -3531,22 +3549,22 @@
       "description": ""
     },
     {
-      "id": "92da332a111f2d",
-      "source": "cnbc",
+      "id": "2c4e8b9799391c",
+      "source": "reuters",
       "source_type": "rss",
-      "timestamp": "Tue, 07 Jul 2026 15:47:36 GMT",
-      "title": "Ukraine has already won the war against Russia, Finnish president tells CNBC",
-      "body": "Ukraine needs NATO, but NATO needs Ukraine just as much, the Finnish president told CNBC on Tuesday.",
-      "url": "https://www.cnbc.com/2026/07/07/ukraine-won-war-russia-nato-alexander-stubb-finnish-president.html",
+      "timestamp": "2026-07-06T20:33:55Z",
+      "title": "Why This Biotech, Up 12% Since Its Breakout, Yo-Yoed On A Key FDA Development",
+      "body": "",
+      "url": "https://www.investors.com/news/technology/pharvaris-stock-fda-nda-acceptance-hae-treatment/?src=A00220&yptr=yahoo",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 9.5,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Tue, 07 Jul 2026 15:47:36 GMT",
-      "text": "Ukraine has already won the war against Russia, Finnish president tells CNBC",
-      "description": "Ukraine needs NATO, but NATO needs Ukraine just as much, the Finnish president told CNBC on Tuesday."
+      "time": "2026-07-06T20:33:55Z",
+      "text": "Why This Biotech, Up 12% Since Its Breakout, Yo-Yoed On A Key FDA Development",
+      "description": ""
     },
     {
       "id": "d29f1b08395cfe",
@@ -3564,6 +3582,42 @@
       "sentiment": "neutral",
       "time": "2026-07-06T20:33:00Z",
       "text": "Best Buy and Apple flag a price shock for shoppers",
+      "description": ""
+    },
+    {
+      "id": "c01d17629db198",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06T20:31:47Z",
+      "title": "Credo Leads Rebound For Semiconductor Stocks",
+      "body": "",
+      "url": "https://www.investors.com/news/technology/credo-stock-leads-philadelphia-semiconductor-index-sox/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T20:31:47Z",
+      "text": "Credo Leads Rebound For Semiconductor Stocks",
+      "description": ""
+    },
+    {
+      "id": "146f9d0cb52149",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06T20:31:19Z",
+      "title": "Freight car builder Greenbrier sees weaker Q2 earnings",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/freight-car-builder-greenbrier-sees-203119659.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T20:31:19Z",
+      "text": "Freight car builder Greenbrier sees weaker Q2 earnings",
       "description": ""
     },
     {
@@ -3618,60 +3672,6 @@
       "sentiment": "neutral",
       "time": "2026-07-06T20:21:38Z",
       "text": "Vertex to buy Crinetics for $10 billion to expand rare-disease business",
-      "description": ""
-    },
-    {
-      "id": "1cd909753ac97f",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06T20:16:39Z",
-      "title": "Lilly, This IPO Leader Among Stocks To Watch In A Mischievous Market",
-      "body": "",
-      "url": "https://www.investors.com/research/how-to-find-the-best-stocks-to-buy/stocks-to-watch-eli-lilly-ipo-billiontoone-affirm-twilio/?src=A00220&yptr=yahoo",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T20:16:39Z",
-      "text": "Lilly, This IPO Leader Among Stocks To Watch In A Mischievous Market",
-      "description": ""
-    },
-    {
-      "id": "0c63cb0917b7e0",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06T20:16:14Z",
-      "title": "Q&A: Apollo on lending in a world of shifting valuations",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/q-apollo-lending-world-shifting-201614055.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T20:16:14Z",
-      "text": "Q&A: Apollo on lending in a world of shifting valuations",
-      "description": ""
-    },
-    {
-      "id": "7e71f3afbb3963",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06T20:15:05Z",
-      "title": "How to Play SECZ Stock Now After the Securitize SPAC Merger Closed Last Week",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/play-secz-stock-now-securitize-201505031.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T20:15:05Z",
-      "text": "How to Play SECZ Stock Now After the Securitize SPAC Merger Closed Last Week",
       "description": ""
     },
     {
