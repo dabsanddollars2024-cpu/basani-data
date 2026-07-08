@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T09:42:07Z",
-  "generated_display": "2026-07-08 09:42 ET",
+  "generated": "2026-07-08T09:47:06Z",
+  "generated_display": "2026-07-08 09:47 ET",
   "count": 180,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T09:42:02.024256+00:00",
+      "last_error_ts": "2026-07-08T09:47:02.009287+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 2,
-      "latency_ms": 112,
-      "last_success": "2026-07-08T09:42:02.170811+00:00",
+      "latency_ms": 140,
+      "last_success": "2026-07-08T09:47:02.171013+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 100,
-      "last_success": "2026-07-08T09:42:02.272206+00:00",
+      "latency_ms": 55,
+      "last_success": "2026-07-08T09:47:02.270695+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 30,
-      "latency_ms": 99,
-      "last_success": "2026-07-08T09:42:02.373801+00:00",
+      "latency_ms": 27,
+      "last_success": "2026-07-08T09:47:02.299786+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T09:42:02.408944+00:00",
+      "last_error_ts": "2026-07-08T09:47:02.396138+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2862,
-      "last_success": "2026-07-08T09:42:05.271158+00:00",
+      "latency_ms": 1874,
+      "last_success": "2026-07-08T09:47:04.270845+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-08T09:42:06.054503+00:00",
+      "last_success": "2026-07-08T09:47:04.865295+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1716,
-      "last_success": "2026-07-08T09:42:07.771291+00:00",
+      "latency_ms": 1769,
+      "last_success": "2026-07-08T09:47:06.634584+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 111
+          "latency_ms": 123
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 57
+          "latency_ms": 76
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 266
+          "latency_ms": 100
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 270
+          "latency_ms": 205
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 11
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 65
+          "latency_ms": 77
         }
       }
     }
@@ -118,26 +118,522 @@
   },
   "items": [
     {
-      "id": "e4be3d95c81726",
+      "id": "a44e1a53ce5d0a",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-08T09:41:48Z",
-      "title": "$QQQ it&#39;s beyond pathetic the way they manipulate markets. Disgusting!",
+      "timestamp": "2026-07-08T09:46:44Z",
+      "title": "$SPY oil stock prices are underwhelming considering market conditions.",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658521212",
-      "author": "Alejandrojr",
+      "url": "https://stocktwits.com/symbol/SPY/message/658521388",
+      "author": "RhinoRat",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:46:44Z",
+      "text": "$SPY oil stock prices are underwhelming considering market conditions.",
+      "description": "",
+      "handle": "RhinoRat",
+      "display_name": "Gremlin",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6eb2edef006abe",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T09:46:36Z",
+      "title": "EUROPEAN COMMISSION SAYS SANOFI HAS OFFERED COMMITMENTS IN THIS REGARD, RELATING TO PROACTIVE COMMUNICATION AND REFRAINING FROM CRITICISING RIVAL PRODUCTS",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:46:36Z",
+      "text": "EUROPEAN COMMISSION SAYS SANOFI HAS OFFERED COMMITMENTS IN THIS REGARD, RELATING TO PROACTIVE COMMUNICATION AND REFRAINING FROM CRITICISING RIVAL PRODUCTS",
+      "description": ""
+    },
+    {
+      "id": "f837349e21b63c",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T09:46:35Z",
+      "title": "EU: SEEKS FEEDBACK ON COMMITMENTS FROM SANOFI OVER POSSIBLE ANTI-COMPETITIVE CONDUCT REGARDING RIVAL FLU VACCINE FOR VULNERABLE PATIENTS",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:46:35Z",
+      "text": "EU: SEEKS FEEDBACK ON COMMITMENTS FROM SANOFI OVER POSSIBLE ANTI-COMPETITIVE CONDUCT REGARDING RIVAL FLU VACCINE FOR VULNERABLE PATIENTS",
+      "description": ""
+    },
+    {
+      "id": "da57aae247d433",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:46:33Z",
+      "title": "Why Is NVTS Stock Falling Nearly 5% In Overnight Trading?  \n \n$NVTS $NVDA $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nvts-stock-falling-nearly-5-in-overnight-trading/cZmVQBRR7Zz",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658521378",
+      "author": "CapitaLit",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:46:33Z",
+      "text": "Why Is NVTS Stock Falling Nearly 5% In Overnight Trading?  \n \n$NVTS $NVDA $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nvts-stock-falling-nearly-5-in-overnight-trading/cZmVQBRR7Zz",
+      "description": "",
+      "handle": "CapitaLit",
+      "display_name": "Yuvraj Malik",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "44497139a052a8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:46:33Z",
+      "title": "Why Is NVTS Stock Falling Nearly 5% In Overnight Trading?  \n \n$NVTS $NVDA $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nvts-stock-falling-nearly-5-in-overnight-trading/cZmVQBRR7Zz",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658521378",
+      "author": "CapitaLit",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:46:33Z",
+      "text": "Why Is NVTS Stock Falling Nearly 5% In Overnight Trading?  \n \n$NVTS $NVDA $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nvts-stock-falling-nearly-5-in-overnight-trading/cZmVQBRR7Zz",
+      "description": "",
+      "handle": "CapitaLit",
+      "display_name": "Yuvraj Malik",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6f892f86bb2f94",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:46:33Z",
+      "title": "Why Is NVTS Stock Falling Nearly 5% In Overnight Trading?  \n \n$NVTS $NVDA $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nvts-stock-falling-nearly-5-in-overnight-trading/cZmVQBRR7Zz",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658521378",
+      "author": "CapitaLit",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:46:33Z",
+      "text": "Why Is NVTS Stock Falling Nearly 5% In Overnight Trading?  \n \n$NVTS $NVDA $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/why-is-nvts-stock-falling-nearly-5-in-overnight-trading/cZmVQBRR7Zz",
+      "description": "",
+      "handle": "CapitaLit",
+      "display_name": "Yuvraj Malik",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7af5cea0bc13c4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:46:32Z",
+      "title": "$SPY somebody please take out Trump. A precise shot to the fucking empty orange head. Fu*king jews",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658521377",
+      "author": "GMEFEVER",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-08T09:46:32Z",
+      "text": "$SPY somebody please take out Trump. A precise shot to the fucking empty orange head. Fu*king jews",
+      "description": "",
+      "handle": "GMEFEVER",
+      "display_name": "Gon\u00e7alo Antunes",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7baabae2128a80",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:46:28Z",
+      "title": "$SPY trump just red carded Iran \ud83d\udfe5",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658521372",
+      "author": "Rehabsforquitters",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-08T09:46:28Z",
+      "text": "$SPY trump just red carded Iran \ud83d\udfe5",
+      "description": "",
+      "handle": "Rehabsforquitters",
+      "display_name": "Barry Seal",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fd4301186f9e2a",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T09:46:04Z",
+      "title": "EU: THESE COMMITMENTS OFFERED BY SANOFI WOULD REMAIN IN FORCE UNTIL MARCH 2030",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:46:04Z",
+      "text": "EU: THESE COMMITMENTS OFFERED BY SANOFI WOULD REMAIN IN FORCE UNTIL MARCH 2030",
+      "description": ""
+    },
+    {
+      "id": "505fcd748ade46",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:45:32Z",
+      "title": "$NVDA this isn\u2019t a growth stock or a flight to safety",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658521340",
+      "author": "johnkeegan",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:45:32Z",
+      "text": "$NVDA this isn\u2019t a growth stock or a flight to safety",
+      "description": "",
+      "handle": "johnkeegan",
+      "display_name": "john keegan",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "41269d586e0ec3",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T09:45:31Z",
+      "title": "Office of the President of Ukraine: 'In Ankara, President of Ukraine Volodymyr Zelenskyy met with President of the European Council Ant\u00f3nio Costa.'",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:45:31Z",
+      "text": "Office of the President of Ukraine: 'In Ankara, President of Ukraine Volodymyr Zelenskyy met with President of the European Council Ant\u00f3nio Costa.'",
+      "description": ""
+    },
+    {
+      "id": "bd9e89ab1222ca",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:45:31Z",
+      "title": "$COIN Me and my Spartaner.... DELIST ING NOW.... THIS BASTARDS MUST HO TO PRISON NOW",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658521339",
+      "author": "I_am_Sparta",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T09:45:31Z",
+      "text": "$COIN Me and my Spartaner.... DELIST ING NOW.... THIS BASTARDS MUST HO TO PRISON NOW",
+      "description": "",
+      "handle": "I_am_Sparta",
+      "display_name": "Bubka Penis",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "545fd05b6555f5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:45:28Z",
+      "title": "$NVDA possibly another $10 to drop bc of war. Dont catch a fallling knife",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658521337",
+      "author": "BuySellHoldFinance",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T09:45:28Z",
+      "text": "$NVDA possibly another $10 to drop bc of war. Dont catch a fallling knife",
+      "description": "",
+      "handle": "BuySellHoldFinance",
+      "display_name": "Randy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9d64180145ff44",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T09:45:13Z",
+      "title": "Yatsen Group Announces Partnership with Sephora China, Cementing Position as a Science-Led Beauty Innovation Leader",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "YSG"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:45:13Z",
+      "text": "Yatsen Group Announces Partnership with Sephora China, Cementing Position as a Science-Led Beauty Innovation Leader",
+      "description": ""
+    },
+    {
+      "id": "33705d7b1b0139",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:45:10Z",
+      "title": "$SPY all we need is for Trump fake deals twit and market will rally",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658521326",
+      "author": "Forever_",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T09:45:10Z",
+      "text": "$SPY all we need is for Trump fake deals twit and market will rally",
+      "description": "",
+      "handle": "Forever_",
+      "display_name": "Forever_",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ab62e01a0b33a3",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Wed, 08 Jul 2026 09:45:09 GMT",
+      "title": "Trump says Iran ceasefire is 'over' after latest round of strikes",
+      "body": "The president was asked about the ceasefire after an escalation of fighting in the Middle East.",
+      "url": "https://www.cnbc.com/2026/07/08/trump-says-iran-ceasefire-is-over-after-latest-round-of-strikes.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 08 Jul 2026 09:45:09 GMT",
+      "text": "Trump says Iran ceasefire is 'over' after latest round of strikes",
+      "description": "The president was asked about the ceasefire after an escalation of fighting in the Middle East."
+    },
+    {
+      "id": "770bff09a4c773",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:44:49Z",
+      "title": "$AMD war always kills futures but markets tend to bounce back on Trump noise. Only nukes would cause a panic. Whats even more ridicules we were higher when oil was 117 a barrel",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658521314",
+      "author": "Liquidmotions",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-08T09:44:49Z",
+      "text": "$AMD war always kills futures but markets tend to bounce back on Trump noise. Only nukes would cause a panic. Whats even more ridicules we were higher when oil was 117 a barrel",
+      "description": "",
+      "handle": "Liquidmotions",
+      "display_name": "Greg Sabo",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fe9c38926a5554",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T09:44:12Z",
+      "title": "America\u2019s Housing Market Is Stuck, Not Sinking",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:44:12Z",
+      "text": "America\u2019s Housing Market Is Stuck, Not Sinking",
+      "description": ""
+    },
+    {
+      "id": "05d0f970f351ce",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:44:12Z",
+      "title": "$DJIA $QQQ $SPY \nDonald Dump more like it",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658521288",
+      "author": "SteveStachion",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T09:44:12Z",
+      "text": "$DJIA $QQQ $SPY \nDonald Dump more like it",
+      "description": "",
+      "handle": "SteveStachion",
+      "display_name": "Steve Sends It",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3a17200d0d8922",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:44:10Z",
+      "title": "$QQQ grabbing outs at open haha thank u trump for the free money trade at open",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658521286",
+      "author": "jd_tradez",
       "tickers": [
         "QQQ"
       ],
       "tags": [],
       "impact_score": 3.4,
       "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:41:48Z",
-      "text": "$QQQ it&#39;s beyond pathetic the way they manipulate markets. Disgusting!",
+      "sentiment": "bearish",
+      "time": "2026-07-08T09:44:10Z",
+      "text": "$QQQ grabbing outs at open haha thank u trump for the free money trade at open",
       "description": "",
-      "handle": "Alejandrojr",
-      "display_name": "Alejandro",
+      "handle": "jd_tradez",
+      "display_name": "jd_tradez",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "37a94762894a02",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:43:52Z",
+      "title": "$QQQ it can\u2019t bounce, rejection",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658521276",
+      "author": "TurboWago",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T09:43:52Z",
+      "text": "$QQQ it can\u2019t bounce, rejection",
+      "description": "",
+      "handle": "TurboWago",
+      "display_name": "T",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "357e7bc09703d5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:43:40Z",
+      "title": "$QQQ downside isnt done",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658521267",
+      "author": "Maverickreincarnated",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T09:43:40Z",
+      "text": "$QQQ downside isnt done",
+      "description": "",
+      "handle": "Maverickreincarnated",
+      "display_name": "The true Maverick!",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5b540af00d780d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:43:16Z",
+      "title": "$META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658521259",
+      "author": "Brucemail41",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-08T09:43:16Z",
+      "text": "$META",
+      "description": "",
+      "handle": "Brucemail41",
+      "display_name": "Bruce",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ff64ec888fb100",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T09:42:34Z",
+      "title": "$NVDA Another crappy opening bell.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658521236",
+      "author": "SIBLY",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T09:42:34Z",
+      "text": "$NVDA Another crappy opening bell.",
+      "description": "",
+      "handle": "SIBLY",
+      "display_name": "Gil G.",
       "platform": "stocktwits"
     },
     {
@@ -197,52 +693,6 @@
       "description": "NATO chief Mark Rutte said Wednesday that the alliance was entering its \"NATO 3.0\" era."
     },
     {
-      "id": "1c2f8606fee52e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:39:43Z",
-      "title": "$TSM $QQQ $SPY Trump has always made me loose money due to Iran war. Dumb, idiot president.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658521154",
-      "author": "sri70",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:39:43Z",
-      "text": "$TSM $QQQ $SPY Trump has always made me loose money due to Iran war. Dumb, idiot president.",
-      "description": "",
-      "handle": "sri70",
-      "display_name": "Sridhar Eloore",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2b8167afaf27d3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:39:43Z",
-      "title": "$TSM $QQQ $SPY Trump has always made me loose money due to Iran war. Dumb, idiot president.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658521154",
-      "author": "sri70",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:39:43Z",
-      "text": "$TSM $QQQ $SPY Trump has always made me loose money due to Iran war. Dumb, idiot president.",
-      "description": "",
-      "handle": "sri70",
-      "display_name": "Sridhar Eloore",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d3060ba6b974ca",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -263,52 +713,6 @@
       "description": "",
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2913cbc1144cc7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:39:18Z",
-      "title": "$SPY hahaha. fucking trump. he&#39;s got 4 hours left to TACO.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658521139",
-      "author": "psychedelic_syd",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T09:39:18Z",
-      "text": "$SPY hahaha. fucking trump. he&#39;s got 4 hours left to TACO.",
-      "description": "",
-      "handle": "psychedelic_syd",
-      "display_name": "theo p",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "6d71947e357caf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:39:15Z",
-      "title": "$QQQ you gotta say even if u aren&#39;t a chart person ....as I am not....that&#39;s a scary chart to be a bull",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658521137",
-      "author": "Catdaddy770",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:39:15Z",
-      "text": "$QQQ you gotta say even if u aren&#39;t a chart person ....as I am not....that&#39;s a scary chart to be a bull",
-      "description": "",
-      "handle": "Catdaddy770",
-      "display_name": "CMAN",
       "platform": "stocktwits"
     },
     {
@@ -355,75 +759,6 @@
       "description": "",
       "handle": "o_0_O_0_o",
       "display_name": "o_0_O_0_o",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8438985c380b52",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:39:02Z",
-      "title": "$SPY IRAN GETTING A LITTLE AMERICA 250 PRESENT\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658521134",
-      "author": "HeyYouWhoMe",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T09:39:02Z",
-      "text": "$SPY IRAN GETTING A LITTLE AMERICA 250 PRESENT\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8\ud83c\uddfa\ud83c\uddf8",
-      "description": "",
-      "handle": "HeyYouWhoMe",
-      "display_name": "MAGA Stunt Trader",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "97e8012e897812",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:38:57Z",
-      "title": "$DJT $SPY  \n  https://www.youtube.com/watch?v=Wnu7PoC-Wyk",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658521132",
-      "author": "DARKAGE_IS_HERE",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T09:38:57Z",
-      "text": "$DJT $SPY  \n  https://www.youtube.com/watch?v=Wnu7PoC-Wyk",
-      "description": "",
-      "handle": "DARKAGE_IS_HERE",
-      "display_name": "DARKAGE_IS_HERE",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "69cdcf5774230a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:38:44Z",
-      "title": "$SPY if the world elite club controlling markets involves  usa,  China,  Russia,  and now Iran\u2026 \n \nwe the people are more screwed than i realized",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658521125",
-      "author": "peeyosheeoo",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:38:44Z",
-      "text": "$SPY if the world elite club controlling markets involves  usa,  China,  Russia,  and now Iran\u2026 \n \nwe the people are more screwed than i realized",
-      "description": "",
-      "handle": "peeyosheeoo",
-      "display_name": "Peeyoo",
       "platform": "stocktwits"
     },
     {
@@ -491,121 +826,6 @@
       "time": "2026-07-08T09:37:39Z",
       "text": "IMO: IMO SECRETARY-GENERAL CALLS FOR MAXIMUM RESTRAINT AND DE-ESCALATION",
       "description": ""
-    },
-    {
-      "id": "6fd7dd9cedcebc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:37:38Z",
-      "title": "$QQQ rejection here. Down she blows",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658521089",
-      "author": "TurboWago",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T09:37:38Z",
-      "text": "$QQQ rejection here. Down she blows",
-      "description": "",
-      "handle": "TurboWago",
-      "display_name": "T",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c3bcdd37e6e7da",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:37:25Z",
-      "title": "$NVDA  regardless of any news always red \ud83d\ude02 good or bad RED RED",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658521077",
-      "author": "Bablim",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:37:25Z",
-      "text": "$NVDA  regardless of any news always red \ud83d\ude02 good or bad RED RED",
-      "description": "",
-      "handle": "Bablim",
-      "display_name": "Mustafa",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b901934bf9856c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:37:15Z",
-      "title": "$DJIA $QQQ $BTC.X $SPY $DIA Y\u2019all got anymore of that peace soaked vengeance? https://youtu.be/J3XnZyz__oU?is=PJHdmqohXCLYYWnx",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658521067",
-      "author": "Tool8",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T09:37:15Z",
-      "text": "$DJIA $QQQ $BTC.X $SPY $DIA Y\u2019all got anymore of that peace soaked vengeance? https://youtu.be/J3XnZyz__oU?is=PJHdmqohXCLYYWnx",
-      "description": "",
-      "handle": "Tool8",
-      "display_name": "Whom",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4cf930a4cfc89c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:36:29Z",
-      "title": "$NVDA 75+% gross margins and 63% net margins with $1T order backlog. The order backlog is literally 8x their yearly revenue.\n\ngtfo bears. If you understand, the math, Nvidia stock can easily reach $300 plus without a single doubt in my mind.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658521043",
-      "author": "Championinvestor",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T09:36:29Z",
-      "text": "$NVDA 75+% gross margins and 63% net margins with $1T order backlog. The order backlog is literally 8x their yearly revenue.\n\ngtfo bears. If you understand, the math, Nvidia stock can easily reach $300 plus without a single doubt in my mind.",
-      "description": "",
-      "handle": "Championinvestor",
-      "display_name": "Champion",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8e0832559fb776",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:36:06Z",
-      "title": "$NVDA Wtf guyz?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658521031",
-      "author": "Bluesky__",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:36:06Z",
-      "text": "$NVDA Wtf guyz?",
-      "description": "",
-      "handle": "Bluesky__",
-      "display_name": "muhammet aldemir",
-      "platform": "stocktwits"
     },
     {
       "id": "f2bd81c532991f",
@@ -879,29 +1099,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f534ded9d6b865",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:31:47Z",
-      "title": "$NVDA Buy with both hands, this will retest $210 a share very soon.\ufffc\n\nGoldman Sachs buying in millions and millions\n\nNidia is the only boss in the whole AI sector.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658520866",
-      "author": "Championinvestor",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T09:31:47Z",
-      "text": "$NVDA Buy with both hands, this will retest $210 a share very soon.\ufffc\n\nGoldman Sachs buying in millions and millions\n\nNidia is the only boss in the whole AI sector.",
-      "description": "",
-      "handle": "Championinvestor",
-      "display_name": "Champion",
-      "platform": "stocktwits"
-    },
-    {
       "id": "309c3d04e72e68",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1138,24 +1335,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "bddae85b66c0a9",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 09:28:50 GMT",
-      "title": "OpenAI secures U.S. regulatory green light for GPT-5.6 rollout, Axios report says",
-      "body": "",
-      "url": "https://www.cnbc.com/2026/07/08/openai-gets-us-regulatory-approval-for-gpt-5point6-rollout-axios-report.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 09:28:50 GMT",
-      "text": "OpenAI secures U.S. regulatory green light for GPT-5.6 rollout, Axios report says",
-      "description": ""
-    },
-    {
       "id": "30308d20b579c5",
       "source": "reuters",
       "source_type": "rss",
@@ -1379,24 +1558,6 @@
       "description": ""
     },
     {
-      "id": "70762ad6b90c2d",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T09:26:04Z",
-      "title": "Turkey's Erdogan Urges European Allies to Step Up NATO Defense Responsibility While Keeping Alliance Unity Intact.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:26:04Z",
-      "text": "Turkey's Erdogan Urges European Allies to Step Up NATO Defense Responsibility While Keeping Alliance Unity Intact.",
-      "description": ""
-    },
-    {
       "id": "343b329ede1bb5",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1418,24 +1579,6 @@
       "handle": "Shellfishes",
       "display_name": "Daan",
       "platform": "stocktwits"
-    },
-    {
-      "id": "692b30eba12ce7",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T09:25:11Z",
-      "title": "TURKEY'S ERDOGAN: WE SHARE TRUMP'S VISION OF PEACE IN UKRAINE",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:25:11Z",
-      "text": "TURKEY'S ERDOGAN: WE SHARE TRUMP'S VISION OF PEACE IN UKRAINE",
-      "description": ""
     },
     {
       "id": "6cb3116e251cac",
@@ -1507,24 +1650,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a6cd2053042909",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T09:24:31Z",
-      "title": "Palladium Price Drops Almost 5% To $1,213.25 Per Ounce",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:24:31Z",
-      "text": "Palladium Price Drops Almost 5% To $1,213.25 Per Ounce",
-      "description": ""
-    },
-    {
       "id": "306ed205f3f35d",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1569,24 +1694,6 @@
       "handle": "Myzilla",
       "display_name": "Timi",
       "platform": "stocktwits"
-    },
-    {
-      "id": "a9a6eac3cab8a9",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T09:23:38Z",
-      "title": "EUROPEAN COMMISSION OFFICIAL: ETS REVISION WILL KEEP VOLUME AS THE DRIVER OF THE MARKET STABILITY RESERVE, NOT PRICE",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:23:38Z",
-      "text": "EUROPEAN COMMISSION OFFICIAL: ETS REVISION WILL KEEP VOLUME AS THE DRIVER OF THE MARKET STABILITY RESERVE, NOT PRICE",
-      "description": ""
     },
     {
       "id": "6464ed01e14c33",
@@ -1681,24 +1788,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "ee3a5e09d3d529",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T09:21:50Z",
-      "title": "TURKEY'S ERDOGAN: WE HAVE ALLOCATED $24 BLN ADDITIONAL BUDGET FOR STEEL DOME PROJECT TO BOOST NATO AIR AND MISSILE DEFENCES",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:21:50Z",
-      "text": "TURKEY'S ERDOGAN: WE HAVE ALLOCATED $24 BLN ADDITIONAL BUDGET FOR STEEL DOME PROJECT TO BOOST NATO AIR AND MISSILE DEFENCES",
-      "description": ""
-    },
-    {
       "id": "d72eae71dc1c8a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1779,24 +1868,6 @@
       "time": "Wed, 08 Jul 2026 09:21:00 GMT",
       "text": "Oil prices jump by the most in two months after Trump suggests U.S.-Iran cease-fire is over",
       "description": "Brent crude and West Texas Intermediate contracts climbed on President Donald Trump saying dealing with Tehran is \u201ca waste of time\u201d"
-    },
-    {
-      "id": "38f22c0781311b",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T09:20:50Z",
-      "title": "EUROPEAN COMMISSION OFFICIAL: WE ARE STILL CONSIDERING HOW AND WHETHER TO ADD INTERNATIONAL CARBON CREDITS TO THE ETS",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:20:50Z",
-      "text": "EUROPEAN COMMISSION OFFICIAL: WE ARE STILL CONSIDERING HOW AND WHETHER TO ADD INTERNATIONAL CARBON CREDITS TO THE ETS",
-      "description": ""
     },
     {
       "id": "31a123b2b18150",
@@ -1888,52 +1959,6 @@
       "description": "",
       "handle": "Flickted",
       "display_name": "Flickted",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "7a1a06fc72e349",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:17:45Z",
-      "title": "$NVDA $AMD $MU $SMCI $TSLA  Take advantage of the taco trade.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658520345",
-      "author": "Flickted",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T09:17:45Z",
-      "text": "$NVDA $AMD $MU $SMCI $TSLA  Take advantage of the taco trade.",
-      "description": "",
-      "handle": "Flickted",
-      "display_name": "Flickted",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f96baf6d3730c6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:16:56Z",
-      "title": "$SPY i fall for the same trick every time $META $RDDT",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658520315",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:16:56Z",
-      "text": "$SPY i fall for the same trick every time $META $RDDT",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
       "platform": "stocktwits"
     },
     {
@@ -2203,24 +2228,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a5dbb81254a109",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 09:03:53 GMT",
-      "title": "SambaNova hits $11 billion valuation as investors back Nvidia chip challengers",
-      "body": "SambaNova is valued at $11 billion after fresh financing led by General Atlantic, as AI chip startups look to challenge Nvidia.",
-      "url": "https://www.cnbc.com/2026/07/08/sambanova-ai-chip-funding-valuation.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 09:03:53 GMT",
-      "text": "SambaNova hits $11 billion valuation as investors back Nvidia chip challengers",
-      "description": "SambaNova is valued at $11 billion after fresh financing led by General Atlantic, as AI chip startups look to challenge Nvidia."
-    },
-    {
       "id": "ef51e9765e311a",
       "source": "marketwatch",
       "source_type": "rss",
@@ -2382,29 +2389,6 @@
       "description": "",
       "handle": "Mentallyill_",
       "display_name": "Mentally ill",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5473eba6f99810",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T08:40:07Z",
-      "title": "$COIN puuuttss priiinting",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658519072",
-      "author": "KimLam",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T08:40:07Z",
-      "text": "$COIN puuuttss priiinting",
-      "description": "",
-      "handle": "KimLam",
-      "display_name": "KimLam",
       "platform": "stocktwits"
     },
     {
@@ -2822,24 +2806,6 @@
       "handle": "StocktwitsNews",
       "display_name": "Stocktwits News",
       "platform": "stocktwits"
-    },
-    {
-      "id": "51b900ca3f524c",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 07:34:15 GMT",
-      "title": "Samsung-backed AI chip firm Rebellions targets IPO in South Korea next year, CEO tells CNBC",
-      "body": "Sunghyun Park, CEO of Rebellions, told CNBC that the company is leaning toward a listing on the KOSPI over the KOSDAQ.",
-      "url": "https://www.cnbc.com/2026/07/08/rebellions-ipo-south-korea-ai-chips.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 07:34:15 GMT",
-      "text": "Samsung-backed AI chip firm Rebellions targets IPO in South Korea next year, CEO tells CNBC",
-      "description": "Sunghyun Park, CEO of Rebellions, told CNBC that the company is leaning toward a listing on the KOSPI over the KOSDAQ."
     },
     {
       "id": "050a3b8df3119a",
@@ -3264,6 +3230,24 @@
         "Asia",
         "Large Cap"
       ]
+    },
+    {
+      "id": "601dbf57012bb0",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Wed, 08 Jul 2026 05:30:01 GMT",
+      "title": "Andy Burnham's theory of devolution for Britain",
+      "body": "The U.K.'s prime minister in waiting wants to devolve power from London to the nation\u2019s regions. But past efforts have been anything but successful.",
+      "url": "https://www.cnbc.com/2026/07/08/uk-pm-andy-burnham-devolution-manchester.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 08 Jul 2026 05:30:01 GMT",
+      "text": "Andy Burnham's theory of devolution for Britain",
+      "description": "The U.K.'s prime minister in waiting wants to devolve power from London to the nation\u2019s regions. But past efforts have been anything but successful."
     },
     {
       "id": "64866878bfadde",
@@ -3742,6 +3726,24 @@
       "description": "Rivian\u2019s stock falls 18% as Wall Street frets about the EV maker\u2019s cash troubles."
     },
     {
+      "id": "83e11a98388009",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Tue, 07 Jul 2026 22:26:48 GMT",
+      "title": "Jim Cramer says the market's reaction to Samsung may signal a shift in AI leadership",
+      "body": "CNBC's Jim Cramer said Samsung's earnings sparked a sell-off in AI hardware stocks, while many tech names that have lagged this year rebounded.",
+      "url": "https://www.cnbc.com/2026/07/07/jim-cramer-markets-reaction-samsung-signal-shift-ai-leadership.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Tue, 07 Jul 2026 22:26:48 GMT",
+      "text": "Jim Cramer says the market's reaction to Samsung may signal a shift in AI leadership",
+      "description": "CNBC's Jim Cramer said Samsung's earnings sparked a sell-off in AI hardware stocks, while many tech names that have lagged this year rebounded."
+    },
+    {
       "id": "f41549dd64f7bb",
       "source": "reuters",
       "source_type": "rss",
@@ -3814,24 +3816,6 @@
       "description": ""
     },
     {
-      "id": "8b0d0649882e6a",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-06T21:37:52Z",
-      "title": "Wall Street regulator should stick to quarterly reports, investor\u00a0groups say",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-regulator-stick-quarterly-213752110.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-06T21:37:52Z",
-      "text": "Wall Street regulator should stick to quarterly reports, investor\u00a0groups say",
-      "description": ""
-    },
-    {
       "id": "f7ff1c6d957d65",
       "source": "reuters",
       "source_type": "rss",
@@ -3890,6 +3874,24 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "59c0f03be667de",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-06T10:00:00Z",
+      "title": "Mortgage and refinance rates today, Monday, July 6: Purchase rates currently higher than refinance rates",
+      "body": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-monday-july-6-purchase-rates-currently-higher-than-refi-rates-100000511.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-06T10:00:00Z",
+      "text": "Mortgage and refinance rates today, Monday, July 6: Purchase rates currently higher than refinance rates",
+      "description": ""
     },
     {
       "id": "2025f424d43467",
