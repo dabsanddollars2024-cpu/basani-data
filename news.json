@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-08T10:12:07Z",
-  "generated_display": "2026-07-08 10:12 ET",
+  "generated": "2026-07-08T10:17:06Z",
+  "generated_display": "2026-07-08 10:17 ET",
   "count": 196,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T10:12:01.426565+00:00",
+      "last_error_ts": "2026-07-08T10:17:01.471098+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 127,
-      "last_success": "2026-07-08T10:12:01.554359+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-08T10:17:01.571727+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 116,
-      "last_success": "2026-07-08T10:12:01.671999+00:00",
+      "latency_ms": 399,
+      "last_success": "2026-07-08T10:17:01.972191+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 44,
-      "latency_ms": 100,
-      "last_success": "2026-07-08T10:12:01.775008+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-08T10:17:02.073801+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-08T10:12:01.807922+00:00",
+      "last_error_ts": "2026-07-08T10:17:02.106693+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2562,
-      "last_success": "2026-07-08T10:12:04.370488+00:00",
+      "latency_ms": 1847,
+      "last_success": "2026-07-08T10:17:03.954398+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-08T10:12:05.246209+00:00",
+      "last_success": "2026-07-08T10:17:04.535614+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1779,
-      "last_success": "2026-07-08T10:12:07.025887+00:00",
+      "latency_ms": 1835,
+      "last_success": "2026-07-08T10:17:06.371372+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,40 +74,40 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 111
+          "latency_ms": 130
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 144
+          "latency_ms": 86
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 76
+          "latency_ms": 10
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 394
+          "latency_ms": 215
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 78
+          "latency_ms": 73
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 70
+          "latency_ms": 64
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 75,
     "uw_news": 25,
     "cnbc": 8,
+    "stocktwits": 75,
     "massive_news": 44,
     "reuters": 16,
     "marketwatch": 8,
@@ -118,37 +118,75 @@
   },
   "items": [
     {
-      "id": "25fd9b8d1b46ba",
+      "id": "88c2f82d2d2acc",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T10:16:56Z",
+      "title": "HSBC HAS ENDED ITS OVERWEIGHT POSITION ON EMERGING MARKET STOCKS AND HAS UPGRADED EUROZONE STOCKS TO OVERWEIGHT.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "HSBC"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:16:56Z",
+      "text": "HSBC HAS ENDED ITS OVERWEIGHT POSITION ON EMERGING MARKET STOCKS AND HAS UPGRADED EUROZONE STOCKS TO OVERWEIGHT.",
+      "description": ""
+    },
+    {
+      "id": "c1e7b4f9702db1",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Wed, 08 Jul 2026 10:16:38 GMT",
+      "title": "Trump pours cold water on NATO allies' united front",
+      "body": "Trump criticized NATO allies over defense spending, attacked Spain and renewed his Greenland push during the alliance\u2019s summit in Turkey.",
+      "url": "https://www.cnbc.com/2026/07/08/nato-trump-rutte-russia-iran-greenland-ukraine.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 08 Jul 2026 10:16:38 GMT",
+      "text": "Trump pours cold water on NATO allies' united front",
+      "description": "Trump criticized NATO allies over defense spending, attacked Spain and renewed his Greenland push during the alliance\u2019s summit in Turkey."
+    },
+    {
+      "id": "71891dbded9ceb",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-08T10:11:35Z",
-      "title": "$SPY pls open under 735. Going back to bed lol",
+      "timestamp": "2026-07-08T10:16:18Z",
+      "title": "$SPY Sure it\u2019s a coincident, tards.",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658522317",
-      "author": "BibisFavoriteGoy13",
+      "url": "https://stocktwits.com/symbol/SPY/message/658522510",
+      "author": "TheSuperfly",
       "tickers": [
         "SPY"
       ],
       "tags": [],
       "impact_score": 3.4,
       "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T10:11:35Z",
-      "text": "$SPY pls open under 735. Going back to bed lol",
+      "sentiment": "bearish",
+      "time": "2026-07-08T10:16:18Z",
+      "text": "$SPY Sure it\u2019s a coincident, tards.",
       "description": "",
-      "handle": "BibisFavoriteGoy13",
-      "display_name": "Bibi netanyahu",
+      "handle": "TheSuperfly",
+      "display_name": "MagnusVonCrites",
       "platform": "stocktwits"
     },
     {
-      "id": "7328ff2785af3e",
+      "id": "6618e7cb77832d",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-08T10:11:23Z",
-      "title": "$QQQ short this bloated pig back to 300$",
+      "timestamp": "2026-07-08T10:15:46Z",
+      "title": "$QQQ oil to hit 100 by friday \ud83d\ude02\ud83d\ude06",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658522311",
-      "author": "rami1609",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658522483",
+      "author": "hdztradelife",
       "tickers": [
         "QQQ"
       ],
@@ -156,57 +194,420 @@
       "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "bearish",
-      "time": "2026-07-08T10:11:23Z",
-      "text": "$QQQ short this bloated pig back to 300$",
+      "time": "2026-07-08T10:15:46Z",
+      "text": "$QQQ oil to hit 100 by friday \ud83d\ude02\ud83d\ude06",
       "description": "",
-      "handle": "rami1609",
-      "display_name": "Rami",
+      "handle": "hdztradelife",
+      "display_name": "Peteyhdz",
       "platform": "stocktwits"
     },
     {
-      "id": "dc848b2222d80f",
+      "id": "fc5c0b06099704",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-08T10:11:15Z",
-      "title": "$QQQ $SPY finally we can rally when he calls it off",
+      "timestamp": "2026-07-08T10:15:31Z",
+      "title": "$AAPL",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658522307",
-      "author": "TradinAfterMidnight",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658522474",
+      "author": "ResearchTrends09",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:15:31Z",
+      "text": "$AAPL",
+      "description": "",
+      "handle": "ResearchTrends09",
+      "display_name": "Brandon",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f5189b8d75610b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:15:28Z",
+      "title": "$SPY Trump, however, did not rule out talks continuing to permanently end the war with Iran.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658522470",
+      "author": "kryptoknight",
       "tickers": [
         "SPY"
       ],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 5.9,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-08T10:11:15Z",
-      "text": "$QQQ $SPY finally we can rally when he calls it off",
+      "time": "2026-07-08T10:15:28Z",
+      "text": "$SPY Trump, however, did not rule out talks continuing to permanently end the war with Iran.",
       "description": "",
-      "handle": "TradinAfterMidnight",
-      "display_name": "Trading After Midnight",
+      "handle": "kryptoknight",
+      "display_name": "\u30b9\u30da\u30fc\u30b9X",
       "platform": "stocktwits"
     },
     {
-      "id": "62355eb1feecb0",
+      "id": "2d9b17614aa81f",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-08T10:11:15Z",
-      "title": "$QQQ $SPY finally we can rally when he calls it off",
+      "timestamp": "2026-07-08T10:15:14Z",
+      "title": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
       "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658522307",
-      "author": "TradinAfterMidnight",
+      "url": "https://stocktwits.com/symbol/SPY/message/658522458",
+      "author": "ALLEGEDLY01",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:15:14Z",
+      "text": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "description": "",
+      "handle": "ALLEGEDLY01",
+      "display_name": "ALLEGEDLY01",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "87ec73274f634f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:15:14Z",
+      "title": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658522458",
+      "author": "ALLEGEDLY01",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:15:14Z",
+      "text": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "description": "",
+      "handle": "ALLEGEDLY01",
+      "display_name": "ALLEGEDLY01",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "20b39f33e4430b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:15:14Z",
+      "title": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658522458",
+      "author": "ALLEGEDLY01",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:15:14Z",
+      "text": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "description": "",
+      "handle": "ALLEGEDLY01",
+      "display_name": "ALLEGEDLY01",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5dcaf8ec2ca3fd",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:15:14Z",
+      "title": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658522458",
+      "author": "ALLEGEDLY01",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:15:14Z",
+      "text": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "description": "",
+      "handle": "ALLEGEDLY01",
+      "display_name": "ALLEGEDLY01",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "92998d08934f3e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:15:14Z",
+      "title": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658522458",
+      "author": "ALLEGEDLY01",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:15:14Z",
+      "text": "$AAPL $META $NVDA $SPY $TSLA \nCan\u2019t forget the \u201ccease fire muted\u201d dips\u2026 \ud83e\udd26\ud83c\udffb\u200d\u2642\ufe0f",
+      "description": "",
+      "handle": "ALLEGEDLY01",
+      "display_name": "ALLEGEDLY01",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "caae5162df3603",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:15:13Z",
+      "title": "$SPY Cocaine Mitch and His Chinese spy for a Wife. Prove me wrong.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658522457",
+      "author": "TheSuperfly",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T10:15:13Z",
+      "text": "$SPY Cocaine Mitch and His Chinese spy for a Wife. Prove me wrong.",
+      "description": "",
+      "handle": "TheSuperfly",
+      "display_name": "MagnusVonCrites",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9a9c6a8012d895",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:15:13Z",
+      "title": "$SPY \nMargins debt at its highest since dot",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658522456",
+      "author": "YouOnlyLiveTwice",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T10:15:13Z",
+      "text": "$SPY \nMargins debt at its highest since dot",
+      "description": "",
+      "handle": "YouOnlyLiveTwice",
+      "display_name": "JCC",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "63e5bdfd6f381c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:14:57Z",
+      "title": "$QQQ let my puts print \ud83d\ude02\ud83d\ude02\ud83d\ude06\ud83d\ude02\ud83d\ude02\ud83d\ude06\ud83d\ude06 trump says cease fire is over \ud83d\ude02\ud83d\ude02\ud83d\ude06",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658522441",
+      "author": "hdztradelife",
       "tickers": [
         "QQQ"
       ],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-08T10:14:57Z",
+      "text": "$QQQ let my puts print \ud83d\ude02\ud83d\ude02\ud83d\ude06\ud83d\ude02\ud83d\ude02\ud83d\ude06\ud83d\ude06 trump says cease fire is over \ud83d\ude02\ud83d\ude02\ud83d\ude06",
+      "description": "",
+      "handle": "hdztradelife",
+      "display_name": "Peteyhdz",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ae30c6fbcdc92d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:14:53Z",
+      "title": "$PLTR WOW",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658522436",
+      "author": "Optiongenius",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-08T10:11:15Z",
-      "text": "$QQQ $SPY finally we can rally when he calls it off",
+      "time": "2026-07-08T10:14:53Z",
+      "text": "$PLTR WOW",
       "description": "",
-      "handle": "TradinAfterMidnight",
-      "display_name": "Trading After Midnight",
+      "handle": "Optiongenius",
+      "display_name": "Option Bot",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8b7767403573d4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:14:35Z",
+      "title": "$MSFT we got fucked by Trump",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658522422",
+      "author": "OPEN_LIFE",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-08T10:14:35Z",
+      "text": "$MSFT we got fucked by Trump",
+      "description": "",
+      "handle": "OPEN_LIFE",
+      "display_name": "Bobb chows",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a5708df5f91bf8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:14:34Z",
+      "title": "$QQQ just remember TACO",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658522421",
+      "author": "WSB_FTW",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:14:34Z",
+      "text": "$QQQ just remember TACO",
+      "description": "",
+      "handle": "WSB_FTW",
+      "display_name": "\u2014-@\u2014-",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5e5ad19b4cf22d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:14:33Z",
+      "title": "$MSFT how can something just be so fucking bad. Look at apple and then us. Apple falls 10% over the course of 1 month only to make a full V recovery to ATH\u2019s in 1 week. We fall 25%+ in 3 weeks and then bounce barely even a third of what we fell and it also took us 2 weeks of fighting for dear life j",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658522420",
+      "author": "AnaIyze",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:14:33Z",
+      "text": "$MSFT how can something just be so fucking bad. Look at apple and then us. Apple falls 10% over the course of 1 month only to make a full V recovery to ATH\u2019s in 1 week. We fall 25%+ in 3 weeks and then bounce barely even a third of what we fell and it also took us 2 weeks of fighting for dear life j",
+      "description": "",
+      "handle": "AnaIyze",
+      "display_name": "AnaIyze",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f8b10f4819fd2b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:14:21Z",
+      "title": "$SPY https://www.bbc.com/news/live/c17y1vnn2qxt\n$QQQ  and apparently the war is back on.  Maybe in 10mins it will be off.  Fed also incoming.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658522415",
+      "author": "knash",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:14:21Z",
+      "text": "$SPY https://www.bbc.com/news/live/c17y1vnn2qxt\n$QQQ  and apparently the war is back on.  Maybe in 10mins it will be off.  Fed also incoming.",
+      "description": "",
+      "handle": "knash",
+      "display_name": "k nash",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8c1745145d1aa9",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-08T10:13:42Z",
+      "title": "5.8 MAGNITUDE EARTHQUAKE OCCURRED 91 KM SSW OF ISANGEL, VANUATU, ACCORDING TO USGS.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:13:42Z",
+      "text": "5.8 MAGNITUDE EARTHQUAKE OCCURRED 91 KM SSW OF ISANGEL, VANUATU, ACCORDING TO USGS.",
+      "description": ""
+    },
+    {
+      "id": "53983e97c7cedf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:13:42Z",
+      "title": "$QQQ $SPY $DJIA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658522401",
+      "author": "jgalfano4",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:13:42Z",
+      "text": "$QQQ $SPY $DJIA",
+      "description": "",
+      "handle": "jgalfano4",
+      "display_name": "joey galfano",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5b9859a54f30bf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-08T10:12:46Z",
+      "title": "$TSLA Not looking good for stocks today USA just attacked Iran",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658522363",
+      "author": "007x",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T10:12:46Z",
+      "text": "$TSLA Not looking good for stocks today USA just attacked Iran",
+      "description": "",
+      "handle": "007x",
+      "display_name": "007x",
       "platform": "stocktwits"
     },
     {
@@ -233,52 +634,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c9e034d15bc9c1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T10:10:08Z",
-      "title": "$QQQ let\u2019s see $697",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658522264",
-      "author": "TurboWago",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T10:10:08Z",
-      "text": "$QQQ let\u2019s see $697",
-      "description": "",
-      "handle": "TurboWago",
-      "display_name": "T",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "171e32a722365d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T10:10:01Z",
-      "title": "$QQQ such a scam",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658522260",
-      "author": "TurboWago",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T10:10:01Z",
-      "text": "$QQQ such a scam",
-      "description": "",
-      "handle": "TurboWago",
-      "display_name": "T",
-      "platform": "stocktwits"
-    },
-    {
       "id": "c15193c1923348",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -295,29 +650,6 @@
       "time": "2026-07-08T10:09:46Z",
       "text": "Ionic Mineral Technologies Appoints Greg Schroeder as Chief of Staff",
       "description": ""
-    },
-    {
-      "id": "1d1f58651f833e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T10:09:45Z",
-      "title": "$SPY when does he come on and say the deal is back on lmao",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658522256",
-      "author": "corruptmarket",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T10:09:45Z",
-      "text": "$SPY when does he come on and say the deal is back on lmao",
-      "description": "",
-      "handle": "corruptmarket",
-      "display_name": "Joezilla",
-      "platform": "stocktwits"
     },
     {
       "id": "a8fd9559fc50df",
@@ -340,52 +672,6 @@
       "description": "",
       "handle": "fishinNbanjo",
       "display_name": "fishinNbanjo",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "cdb63b49a13b0d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T10:09:37Z",
-      "title": "$SPY Give Trump some time to close out his....I mean give his son who is not affiliated with or discuss any business with his father some time to close out Trumps short positions. He will probably blame Biden for this last ceasefire agreement and wanted to just tear it up so he can make a better one",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658522251",
-      "author": "Probably_Drunk",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T10:09:37Z",
-      "text": "$SPY Give Trump some time to close out his....I mean give his son who is not affiliated with or discuss any business with his father some time to close out Trumps short positions. He will probably blame Biden for this last ceasefire agreement and wanted to just tear it up so he can make a better one",
-      "description": "",
-      "handle": "Probably_Drunk",
-      "display_name": "just a guy with a beer",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "03771a2124ae7e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T10:09:37Z",
-      "title": "$SPY Give Trump some time to close out his....I mean give his son who is not affiliated with or discuss any business with his father some time to close out Trumps short positions. He will probably blame Biden for this last ceasefire agreement and wanted to just tear it up so he can make a better one",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658522251",
-      "author": "Probably_Drunk",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T10:09:37Z",
-      "text": "$SPY Give Trump some time to close out his....I mean give his son who is not affiliated with or discuss any business with his father some time to close out Trumps short positions. He will probably blame Biden for this last ceasefire agreement and wanted to just tear it up so he can make a better one",
-      "description": "",
-      "handle": "Probably_Drunk",
-      "display_name": "just a guy with a beer",
       "platform": "stocktwits"
     },
     {
@@ -510,29 +796,6 @@
       "time": "2026-07-08T10:09:03Z",
       "text": "Instant Reaction: Jobs, September 6, 2024",
       "description": ""
-    },
-    {
-      "id": "667866447d7214",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T10:08:51Z",
-      "title": "$DJIA $BTC.X $QQQ $SPY $DIA If we don\u2019t ever withdraw our money, then the prices won\u2019t ever drop. That\u2019s a really good thing right?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658522220",
-      "author": "Tool8",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T10:08:51Z",
-      "text": "$DJIA $BTC.X $QQQ $SPY $DIA If we don\u2019t ever withdraw our money, then the prices won\u2019t ever drop. That\u2019s a really good thing right?",
-      "description": "",
-      "handle": "Tool8",
-      "display_name": "Whom",
-      "platform": "stocktwits"
     },
     {
       "id": "cf0c0122f16d91",
@@ -977,44 +1240,6 @@
       "description": ""
     },
     {
-      "id": "3ee4d1648fab58",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T10:06:38Z",
-      "title": "HMDA and Housing Demand",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T10:06:38Z",
-      "text": "HMDA and Housing Demand",
-      "description": ""
-    },
-    {
-      "id": "75f19da68bdbbc",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-08T10:06:33Z",
-      "title": "ADP Jobs Report Shows Surprise Drop In Private Payrolls; S&P 500 Wavers",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "ADP"
-      ],
-      "tags": [],
-      "impact_score": 13.0,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-07-08T10:06:33Z",
-      "text": "ADP Jobs Report Shows Surprise Drop In Private Payrolls; S&P 500 Wavers",
-      "description": ""
-    },
-    {
       "id": "cefe82841e2e60",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1104,47 +1329,6 @@
       "description": "",
       "handle": "alexx013",
       "display_name": "alexx k",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c1e7b4f9702db1",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 10:03:37 GMT",
-      "title": "Trump pours cold water on NATO allies' united front",
-      "body": "Trump criticized NATO allies over defense spending, attacked Spain and renewed his Greenland push during the alliance\u2019s summit in Turkey.",
-      "url": "https://www.cnbc.com/2026/07/08/nato-trump-rutte-russia-iran-greenland-ukraine.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 10:03:37 GMT",
-      "text": "Trump pours cold water on NATO allies' united front",
-      "description": "Trump criticized NATO allies over defense spending, attacked Spain and renewed his Greenland push during the alliance\u2019s summit in Turkey."
-    },
-    {
-      "id": "3b26b431d72fd9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T10:03:36Z",
-      "title": "$TSLA I mentioned this some time back, but this very far from a reasonable purchase price. \n\nDo not be surprised when this retests $200-250.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658522001",
-      "author": "SnowAndGlass",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T10:03:36Z",
-      "text": "$TSLA I mentioned this some time back, but this very far from a reasonable purchase price. \n\nDo not be surprised when this retests $200-250.",
-      "description": "",
-      "handle": "SnowAndGlass",
-      "display_name": "SnowAndGlass",
       "platform": "stocktwits"
     },
     {
@@ -1286,6 +1470,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "c8bfc62c563211",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Wed, 08 Jul 2026 10:00:01 GMT",
+      "title": "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
+      "body": "Apple is expanding its Broadcom partnership in a $30 billion-plus chipmaking agreement, its largest American manufacturing commitment to date.",
+      "url": "https://www.cnbc.com/2026/07/08/apple-commits-30-billion-to-broadcom-for-us-chipmaking-push.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 08 Jul 2026 10:00:01 GMT",
+      "text": "Apple commits $30 billion to Broadcom for U.S. chipmaking push",
+      "description": "Apple is expanding its Broadcom partnership in a $30 billion-plus chipmaking agreement, its largest American manufacturing commitment to date."
+    },
+    {
       "id": "135533847d8fda",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -1425,13 +1627,13 @@
       "description": ""
     },
     {
-      "id": "e2fca89748ab21",
+      "id": "f477a84784125a",
       "source": "reuters",
       "source_type": "rss",
       "timestamp": "2026-07-08T10:00:00Z",
-      "title": "Big Tech is dodging the chip stocks wipeout: AlphaCheck",
+      "title": "Mortgage and refinance rates today, Wednesday, July 8, 2026: Rates continue falling",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/article/big-tech-is-dodging-the-chip-stocks-wipeout-alphacheck-100000687.html",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-wednesday-july-8-2026-rates-continue-falling-100000419.html",
       "author": "",
       "tickers": [],
       "tags": [],
@@ -1439,7 +1641,7 @@
       "impact_level": "LOW",
       "sentiment": "neutral",
       "time": "2026-07-08T10:00:00Z",
-      "text": "Big Tech is dodging the chip stocks wipeout: AlphaCheck",
+      "text": "Mortgage and refinance rates today, Wednesday, July 8, 2026: Rates continue falling",
       "description": ""
     },
     {
@@ -1461,13 +1663,13 @@
       "description": ""
     },
     {
-      "id": "f477a84784125a",
+      "id": "e2fca89748ab21",
       "source": "reuters",
       "source_type": "rss",
       "timestamp": "2026-07-08T10:00:00Z",
-      "title": "Mortgage and refinance rates today, Wednesday, July 8, 2026: Rates continue falling",
+      "title": "Big Tech is dodging the chip stocks wipeout: AlphaCheck",
       "body": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-rates-today-wednesday-july-8-2026-rates-continue-falling-100000419.html",
+      "url": "https://finance.yahoo.com/markets/article/big-tech-is-dodging-the-chip-stocks-wipeout-alphacheck-100000687.html",
       "author": "",
       "tickers": [],
       "tags": [],
@@ -1475,7 +1677,7 @@
       "impact_level": "LOW",
       "sentiment": "neutral",
       "time": "2026-07-08T10:00:00Z",
-      "text": "Mortgage and refinance rates today, Wednesday, July 8, 2026: Rates continue falling",
+      "text": "Big Tech is dodging the chip stocks wipeout: AlphaCheck",
       "description": ""
     },
     {
@@ -1499,29 +1701,6 @@
       "description": "",
       "handle": "stcktwtsndrd",
       "display_name": "StockTwits Android",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "95ca9d3115a032",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:58:16Z",
-      "title": "$ORCL $NVDA $AMZN $QQQ That run up in crude and bond yields has a bad look to it. They better calm that all down real quick. \n\nThe thing with crude is I\u2019m taking that as a proxy for all of those super critical persian gulf exports. So crude running up means all the rest of that is running up too. It",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658521782",
-      "author": "o_0_O_0_o",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:58:16Z",
-      "text": "$ORCL $NVDA $AMZN $QQQ That run up in crude and bond yields has a bad look to it. They better calm that all down real quick. \n\nThe thing with crude is I\u2019m taking that as a proxy for all of those super critical persian gulf exports. So crude running up means all the rest of that is running up too. It",
-      "description": "",
-      "handle": "o_0_O_0_o",
-      "display_name": "o_0_O_0_o",
       "platform": "stocktwits"
     },
     {
@@ -1568,29 +1747,6 @@
       "description": "",
       "handle": "pazoschamos",
       "display_name": "Phil Pazzos",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ec80829634aab7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:57:17Z",
-      "title": "$TSLA over $400 by open won&#39;t stay down here long",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658521747",
-      "author": "tradeordie24",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T09:57:17Z",
-      "text": "$TSLA over $400 by open won&#39;t stay down here long",
-      "description": "",
-      "handle": "tradeordie24",
-      "display_name": "Dave",
       "platform": "stocktwits"
     },
     {
@@ -1894,29 +2050,6 @@
       "description": "U.S. President Donald Trump on Wednesday said the U.S. needs to control Greenland \u201cfor the protection of the world.\""
     },
     {
-      "id": "26e05598857d73",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:46:50Z",
-      "title": "Can AAPL Stock Return To Record High? JPMorgan Says Price Hikes Won\u2019t Hurt Demand \n \n$AAPL $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/can-aapl-stock-return-to-record-high-jp-morgan-says-price-hikes-won-t-hurt-demand/cZmVLESR7N2",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658521393",
-      "author": "CapitaLit",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:46:50Z",
-      "text": "Can AAPL Stock Return To Record High? JPMorgan Says Price Hikes Won\u2019t Hurt Demand \n \n$AAPL $SPY $QQQ  \nhttps://stocktwits.com/news-articles/markets/equity/can-aapl-stock-return-to-record-high-jp-morgan-says-price-hikes-won-t-hurt-demand/cZmVLESR7N2",
-      "description": "",
-      "handle": "CapitaLit",
-      "display_name": "Yuvraj Malik",
-      "platform": "stocktwits"
-    },
-    {
       "id": "bd9e89ab1222ca",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2137,29 +2270,6 @@
       "description": "U.S. President Donald Trump slammed Spain for not contributing enough to NATO, as he attended the defense alliance summit in Turkey."
     },
     {
-      "id": "bce0dc184df957",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:30:41Z",
-      "title": "$PLTR i thought the war was good for this stock?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658520831",
-      "author": "stockasiprant",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-08T09:30:41Z",
-      "text": "$PLTR i thought the war was good for this stock?",
-      "description": "",
-      "handle": "stockasiprant",
-      "display_name": "stock",
-      "platform": "stocktwits"
-    },
-    {
       "id": "38c62c54d3aeef",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2252,29 +2362,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b15d97658dfb3e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:27:14Z",
-      "title": "$SPY just buy the dip. $LMT $BTC.X $META",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658520717",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:27:14Z",
-      "text": "$SPY just buy the dip. $LMT $BTC.X $META",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b82892730bdd16",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2318,29 +2405,6 @@
       "description": "",
       "handle": "Shellfishes",
       "display_name": "Daan",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "dfd3f7c1c8e4ce",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:24:56Z",
-      "title": "$QQQ $SPY $AAPL There are certain moments when no one and nothing can change the direction of the market. This feels like one of those moments. These kinds of moves are unhealthy and dangerous because they create a false sense of confidence while risk continues to build underneath.Good luck!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658520618",
-      "author": "Activetrader777",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:24:56Z",
-      "text": "$QQQ $SPY $AAPL There are certain moments when no one and nothing can change the direction of the market. This feels like one of those moments. These kinds of moves are unhealthy and dangerous because they create a false sense of confidence while risk continues to build underneath.Good luck!",
-      "description": "",
-      "handle": "Activetrader777",
-      "display_name": "Activetrader777",
       "platform": "stocktwits"
     },
     {
@@ -2562,29 +2626,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "76d30e37b76f7b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:13:52Z",
-      "title": "$MSFT holy fucking shit it is straight diving off a cliff now WTF bounce the least and drop the most everyday",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658520187",
-      "author": "AnaIyze",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T09:13:52Z",
-      "text": "$MSFT holy fucking shit it is straight diving off a cliff now WTF bounce the least and drop the most everyday",
-      "description": "",
-      "handle": "AnaIyze",
-      "display_name": "AnaIyze",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2249894b706328",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2632,29 +2673,6 @@
       "description": "",
       "handle": "I_am_Sparta",
       "display_name": "Bubka Penis",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "57d45e984dd848",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T09:11:34Z",
-      "title": "$MSFT lol what a stock! it goes down when tech is green and goes down when tech is red lmao",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658520096",
-      "author": "dumb_money_wins_again",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-08T09:11:34Z",
-      "text": "$MSFT lol what a stock! it goes down when tech is green and goes down when tech is red lmao",
-      "description": "",
-      "handle": "dumb_money_wins_again",
-      "display_name": "dumb dumb",
       "platform": "stocktwits"
     },
     {
@@ -2752,24 +2770,6 @@
       "time": "2026-07-08T09:06:00Z",
       "text": "Warren Buffett's Successor, Greg Abel, Has 30% of Berkshire Hathaway's $343 Billion Investment Portfolio Tied Up in 2 Foundational AI Stocks",
       "description": "Greg Abel, Warren Buffett's successor as CEO of Berkshire Hathaway, has aggressively repositioned the company's investment portfolio since taking over in January 2026. Abel has significantly increased Berkshire's stake in Alphabet (Google) and maintained Apple as a core holding, with these two AI-fo"
-    },
-    {
-      "id": "a5dbb81254a109",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 09:03:53 GMT",
-      "title": "SambaNova hits $11 billion valuation as investors back Nvidia chip challengers",
-      "body": "SambaNova is valued at $11 billion after fresh financing led by General Atlantic, as AI chip startups look to challenge Nvidia.",
-      "url": "https://www.cnbc.com/2026/07/08/sambanova-ai-chip-funding-valuation.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 09:03:53 GMT",
-      "text": "SambaNova hits $11 billion valuation as investors back Nvidia chip challengers",
-      "description": "SambaNova is valued at $11 billion after fresh financing led by General Atlantic, as AI chip startups look to challenge Nvidia."
     },
     {
       "id": "25cefd891dd1e1",
@@ -4233,24 +4233,6 @@
       "description": "McConnell, the former longtime Senate leader who declined to seek an eighth term following a series of health scares, was admitted to the hospital on June 14."
     },
     {
-      "id": "397cf1ae69c6aa",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T10:00:00Z",
-      "title": "HELOC and home equity loan rates today, Wednesday, July 8, 2026: Why locking in a low rate matters",
-      "body": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-wednesday-july-8-2026-why-locking-in-a-low-rate-matters-100000980.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T10:00:00Z",
-      "text": "HELOC and home equity loan rates today, Wednesday, July 8, 2026: Why locking in a low rate matters",
-      "description": ""
-    },
-    {
       "id": "e3b9a77bf5d76e",
       "source": "reuters",
       "source_type": "rss",
@@ -4266,6 +4248,24 @@
       "sentiment": "neutral",
       "time": "2026-07-07T10:00:00Z",
       "text": "Best high-yield savings interest rates today, Wednesday, July 8, 2026: Earn up to 4.10% APY",
+      "description": ""
+    },
+    {
+      "id": "397cf1ae69c6aa",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T10:00:00Z",
+      "title": "HELOC and home equity loan rates today, Wednesday, July 8, 2026: Why locking in a low rate matters",
+      "body": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/heloc-and-home-equity-loan-rates-today-wednesday-july-8-2026-why-locking-in-a-low-rate-matters-100000980.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T10:00:00Z",
+      "text": "HELOC and home equity loan rates today, Wednesday, July 8, 2026: Why locking in a low rate matters",
       "description": ""
     },
     {
