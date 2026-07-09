@@ -1,23 +1,23 @@
 {
-  "scan_time": "2026-07-09T13:25:01.686337+00:00",
-  "scan_time_et": "2026-07-09 09:25 ET",
-  "generated": "2026-07-09T13:25:01.686337+00:00",
+  "scan_time": "2026-07-09T13:30:01.574679+00:00",
+  "scan_time_et": "2026-07-09 09:30 ET",
+  "generated": "2026-07-09T13:30:01.574679+00:00",
   "regime": "NEUTRAL",
-  "summary": "Market is showing a <strong>NEUTRAL</strong> tone as of 2026-07-09 09:25 ET. Top signal: <strong>NVDA</strong> (score 77, +4.2%, BULLISH). Watch for weakness in: <strong>MSFT</strong>.",
+  "summary": "Market is showing a <strong>NEUTRAL</strong> tone as of 2026-07-09 09:30 ET. Top signal: <strong>NVDA</strong> (score 77, +3.7%, BULLISH). Watch for weakness in: <strong>MSFT</strong>.",
   "vix_est": 14.1,
   "spy": {
-    "price": 747.5,
-    "chg": -0.04
+    "price": 747.17,
+    "chg": -0.08
   },
   "qqq": {
-    "price": 718.06,
-    "chg": 1.21
+    "price": 718.13,
+    "chg": 1.22
   },
   "tickers": [
     {
       "ticker": "NVDA",
-      "price": 205.29,
-      "chg_pct": 4.22,
+      "price": 204.29,
+      "chg_pct": 3.72,
       "volume": 5480997,
       "open": 195.23,
       "high": 205.13,
@@ -31,16 +31,39 @@
       "signals": [
         "RSI healthy 51.8",
         "Above SMA20",
+        "+3.7% today (strong)"
+      ],
+      "stop": 195.17,
+      "cons_target": 213.41,
+      "agg_target": 222.54
+    },
+    {
+      "ticker": "AMD",
+      "price": 537.4,
+      "chg_pct": 4.16,
+      "volume": 426637,
+      "open": 504.805,
+      "high": 521.95,
+      "low": 498.48,
+      "vwap": 512.407613,
+      "score": 77,
+      "direction": "BULLISH",
+      "rsi": 51.5,
+      "sma20": 521.99,
+      "sma50": null,
+      "signals": [
+        "RSI healthy 51.5",
+        "Above SMA20",
         "+4.2% today (strong)"
       ],
-      "stop": 196.17,
-      "cons_target": 214.41,
-      "agg_target": 223.54
+      "stop": 493.33,
+      "cons_target": 581.47,
+      "agg_target": 625.55
     },
     {
       "ticker": "AVGO",
-      "price": 388.73,
-      "chg_pct": 4.91,
+      "price": 400.44,
+      "chg_pct": 8.07,
       "volume": 1003574,
       "open": 377.535,
       "high": 395.0,
@@ -54,16 +77,16 @@
       "signals": [
         "RSI healthy 49.9",
         "Above SMA20",
-        "+4.9% today (strong)"
+        "+8.1% today (strong)"
       ],
-      "stop": 368.81,
-      "cons_target": 408.65,
-      "agg_target": 428.58
+      "stop": 380.52,
+      "cons_target": 420.36,
+      "agg_target": 440.29
     },
     {
       "ticker": "XLE",
-      "price": 55.69,
-      "chg_pct": 1.87,
+      "price": 55.27,
+      "chg_pct": 1.1,
       "volume": 2537119,
       "open": 55.43,
       "high": 56.03,
@@ -77,16 +100,16 @@
       "signals": [
         "RSI healthy 51.4",
         "Above SMA20",
-        "+1.9% today"
+        "+1.1% today"
       ],
-      "stop": 54.38,
-      "cons_target": 57.0,
-      "agg_target": 58.3
+      "stop": 53.96,
+      "cons_target": 56.58,
+      "agg_target": 57.88
     },
     {
       "ticker": "SPY",
-      "price": 747.5,
-      "chg_pct": -0.04,
+      "price": 747.17,
+      "chg_pct": -0.08,
       "volume": 1223246,
       "open": 743.135,
       "high": 746.14,
@@ -101,37 +124,14 @@
         "RSI healthy 53.0",
         "Above SMA20"
       ],
-      "stop": 734.42,
-      "cons_target": 760.58,
-      "agg_target": 773.66
-    },
-    {
-      "ticker": "AMZN",
-      "price": 243.6,
-      "chg_pct": -0.85,
-      "volume": 1165207,
-      "open": 244.045,
-      "high": 244.735,
-      "low": 240.52,
-      "vwap": 242.448739,
-      "score": 62,
-      "direction": "NEUTRAL",
-      "rsi": 48.8,
-      "sma20": 239.58,
-      "sma50": null,
-      "signals": [
-        "RSI healthy 48.8",
-        "Above SMA20",
-        "Low volume"
-      ],
-      "stop": 232.42,
-      "cons_target": 254.78,
-      "agg_target": 265.97
+      "stop": 734.09,
+      "cons_target": 760.25,
+      "agg_target": 773.33
     },
     {
       "ticker": "AAPL",
-      "price": 313.33,
-      "chg_pct": 0.85,
+      "price": 310.94,
+      "chg_pct": 0.08,
       "volume": 1549372,
       "open": 311.91,
       "high": 314.805,
@@ -145,9 +145,9 @@
       "signals": [
         "Above SMA20"
       ],
-      "stop": 300.52,
-      "cons_target": 326.14,
-      "agg_target": 338.94
+      "stop": 298.13,
+      "cons_target": 323.75,
+      "agg_target": 336.55
     },
     {
       "ticker": "COIN",
@@ -174,8 +174,8 @@
     },
     {
       "ticker": "MU",
-      "price": 1014.84,
-      "chg_pct": 8.0,
+      "price": 1014.35,
+      "chg_pct": 7.95,
       "volume": 855553,
       "open": 902.64,
       "high": 958.92,
@@ -191,9 +191,33 @@
         "Below SMA20",
         "+8.0% today (strong)"
       ],
-      "stop": 903.58,
-      "cons_target": 1126.1,
-      "agg_target": 1237.36
+      "stop": 903.09,
+      "cons_target": 1125.61,
+      "agg_target": 1236.87
+    },
+    {
+      "ticker": "AMZN",
+      "price": 240.07,
+      "chg_pct": -2.29,
+      "volume": 1165207,
+      "open": 244.045,
+      "high": 244.735,
+      "low": 240.52,
+      "vwap": 242.448739,
+      "score": 56,
+      "direction": "NEUTRAL",
+      "rsi": 48.8,
+      "sma20": 239.58,
+      "sma50": null,
+      "signals": [
+        "RSI healthy 48.8",
+        "Above SMA20",
+        "-2.3% today",
+        "Low volume"
+      ],
+      "stop": 228.89,
+      "cons_target": 251.25,
+      "agg_target": 262.44
     },
     {
       "ticker": "XLF",
@@ -219,8 +243,8 @@
     },
     {
       "ticker": "META",
-      "price": 582.31,
-      "chg_pct": -5.38,
+      "price": 584.45,
+      "chg_pct": -5.03,
       "volume": 408514,
       "open": 615.31,
       "high": 615.67,
@@ -234,16 +258,16 @@
       "signals": [
         "RSI healthy 54.2",
         "Above SMA20",
-        "-5.4% today (weak)"
+        "-5.0% today (weak)"
       ],
-      "stop": 553.84,
-      "cons_target": 610.78,
-      "agg_target": 639.26
+      "stop": 555.98,
+      "cons_target": 612.92,
+      "agg_target": 641.4
     },
     {
       "ticker": "PLTR",
-      "price": 129.33,
-      "chg_pct": -3.75,
+      "price": 127.87,
+      "chg_pct": -4.84,
       "volume": 1186135,
       "open": 129.49,
       "high": 132.37,
@@ -257,16 +281,16 @@
       "signals": [
         "RSI healthy 53.6",
         "Above SMA20",
-        "-3.8% today (weak)"
+        "-4.8% today (weak)"
       ],
-      "stop": 120.16,
-      "cons_target": 138.5,
-      "agg_target": 147.67
+      "stop": 118.7,
+      "cons_target": 137.04,
+      "agg_target": 146.21
     },
     {
       "ticker": "INTC",
-      "price": 115.83,
-      "chg_pct": 4.97,
+      "price": 114.79,
+      "chg_pct": 4.02,
       "volume": 2801793,
       "open": 108.3,
       "high": 110.47,
@@ -279,16 +303,38 @@
       "sma50": null,
       "signals": [
         "Below SMA20",
-        "+5.0% today (strong)"
+        "+4.0% today (strong)"
       ],
-      "stop": 102.57,
-      "cons_target": 129.09,
-      "agg_target": 142.36
+      "stop": 101.53,
+      "cons_target": 128.05,
+      "agg_target": 141.32
+    },
+    {
+      "ticker": "QCOM",
+      "price": 192.59,
+      "chg_pct": 5.27,
+      "volume": 528655,
+      "open": 180.6,
+      "high": 187.1,
+      "low": 180.6,
+      "vwap": 184.796677,
+      "score": 52,
+      "direction": "NEUTRAL",
+      "rsi": 44.1,
+      "sma20": 199.5,
+      "sma50": null,
+      "signals": [
+        "Below SMA20",
+        "+5.3% today (strong)"
+      ],
+      "stop": 174.33,
+      "cons_target": 210.85,
+      "agg_target": 229.11
     },
     {
       "ticker": "QQQ",
-      "price": 718.06,
-      "chg_pct": 1.21,
+      "price": 718.13,
+      "chg_pct": 1.22,
       "volume": 544838,
       "open": 704.94,
       "high": 712.235,
@@ -304,58 +350,14 @@
         "Below SMA20",
         "+1.2% today"
       ],
-      "stop": 697.83,
-      "cons_target": 738.29,
-      "agg_target": 758.53
-    },
-    {
-      "ticker": "QCOM",
-      "price": 186.5,
-      "chg_pct": 1.95,
-      "volume": 528655,
-      "open": 180.6,
-      "high": 187.1,
-      "low": 180.6,
-      "vwap": 184.796677,
-      "score": 46,
-      "direction": "NEUTRAL",
-      "rsi": 44.1,
-      "sma20": 199.5,
-      "sma50": null,
-      "signals": [
-        "Below SMA20",
-        "+1.9% today"
-      ],
-      "stop": 168.24,
-      "cons_target": 204.76,
-      "agg_target": 223.02
-    },
-    {
-      "ticker": "AMD",
-      "price": 514.56,
-      "chg_pct": -0.27,
-      "volume": 426637,
-      "open": 504.805,
-      "high": 521.95,
-      "low": 498.48,
-      "vwap": 512.407613,
-      "score": 45,
-      "direction": "NEUTRAL",
-      "rsi": 51.5,
-      "sma20": 521.99,
-      "sma50": null,
-      "signals": [
-        "RSI healthy 51.5",
-        "Below SMA20"
-      ],
-      "stop": 470.49,
-      "cons_target": 558.63,
-      "agg_target": 602.71
+      "stop": 697.9,
+      "cons_target": 738.36,
+      "agg_target": 758.6
     },
     {
       "ticker": "ORCL",
-      "price": 141.84,
-      "chg_pct": 0.11,
+      "price": 141.04,
+      "chg_pct": -0.45,
       "volume": 1253118,
       "open": 139.145,
       "high": 141.81,
@@ -369,9 +371,9 @@
       "signals": [
         "Below SMA20"
       ],
-      "stop": 130.81,
-      "cons_target": 152.87,
-      "agg_target": 163.89
+      "stop": 130.01,
+      "cons_target": 152.07,
+      "agg_target": 163.09
     },
     {
       "ticker": "DIS",
@@ -417,8 +419,8 @@
     },
     {
       "ticker": "TLT",
-      "price": 84.32,
-      "chg_pct": -0.26,
+      "price": 84.27,
+      "chg_pct": -0.32,
       "volume": 1330442,
       "open": 84.32,
       "high": 84.45,
@@ -432,14 +434,14 @@
       "signals": [
         "Below SMA20"
       ],
-      "stop": 83.67,
-      "cons_target": 84.97,
-      "agg_target": 85.63
+      "stop": 83.62,
+      "cons_target": 84.92,
+      "agg_target": 85.58
     },
     {
       "ticker": "TSLA",
-      "price": 392.91,
-      "chg_pct": -2.5,
+      "price": 392.77,
+      "chg_pct": -2.54,
       "volume": 950163,
       "open": 399.375,
       "high": 399.375,
@@ -455,14 +457,14 @@
         "Below SMA20",
         "-2.5% today"
       ],
-      "stop": 364.39,
-      "cons_target": 421.43,
-      "agg_target": 449.95
+      "stop": 364.25,
+      "cons_target": 421.29,
+      "agg_target": 449.81
     },
     {
       "ticker": "GOOGL",
-      "price": 356.03,
-      "chg_pct": -2.99,
+      "price": 356.05,
+      "chg_pct": -2.98,
       "volume": 648403,
       "open": 365.02,
       "high": 367.65,
@@ -478,14 +480,14 @@
         "Below SMA20",
         "-3.0% today"
       ],
-      "stop": 340.38,
-      "cons_target": 371.68,
-      "agg_target": 387.32
+      "stop": 340.4,
+      "cons_target": 371.7,
+      "agg_target": 387.34
     },
     {
       "ticker": "MSFT",
-      "price": 375.84,
-      "chg_pct": -3.32,
+      "price": 374.36,
+      "chg_pct": -3.7,
       "volume": 1124752,
       "open": 383.77,
       "high": 385.205,
@@ -499,11 +501,11 @@
       "signals": [
         "RSI healthy 46.5",
         "Below SMA20",
-        "-3.3% today (weak)"
+        "-3.7% today (weak)"
       ],
-      "stop": 359.42,
-      "cons_target": 392.26,
-      "agg_target": 408.68
+      "stop": 357.94,
+      "cons_target": 390.78,
+      "agg_target": 407.2
     }
   ],
   "uw_summary": {
