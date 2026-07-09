@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09T03:42:07Z",
-  "generated_display": "2026-07-09 03:42 ET",
+  "generated": "2026-07-09T03:47:08Z",
+  "generated_display": "2026-07-09 03:47 ET",
   "count": 217,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-09T03:42:01.983146+00:00",
+      "last_error_ts": "2026-07-09T03:47:02.069193+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 21,
-      "latency_ms": 191,
-      "last_success": "2026-07-09T03:42:02.176410+00:00",
+      "latency_ms": 121,
+      "last_success": "2026-07-09T03:47:02.192429+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 141,
-      "last_success": "2026-07-09T03:42:02.362774+00:00",
+      "latency_ms": 176,
+      "last_success": "2026-07-09T03:47:02.369987+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 101,
-      "last_success": "2026-07-09T03:42:02.467025+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-09T03:47:02.473605+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-09T03:42:02.571158+00:00",
+      "last_error_ts": "2026-07-09T03:47:02.577724+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2175,
-      "last_success": "2026-07-09T03:42:04.746298+00:00",
+      "latency_ms": 1924,
+      "last_success": "2026-07-09T03:47:04.502022+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-09T03:42:05.658884+00:00",
+      "last_success": "2026-07-09T03:47:06.169946+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1958,
-      "last_success": "2026-07-09T03:42:07.617592+00:00",
+      "latency_ms": 1832,
+      "last_success": "2026-07-09T03:47:08.002102+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,17 +74,17 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 228
+          "latency_ms": 191
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 42
+          "latency_ms": 676
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 145
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
@@ -94,29 +94,341 @@
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 13
+          "latency_ms": 118
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 80
+          "latency_ms": 178
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "reuters": 16,
     "uw_news": 25,
     "zerohedge": 8,
     "massive_news": 50,
     "cnbc": 8,
-    "reuters": 16,
     "marketwatch": 8,
     "seekingalpha": 7,
     "benzinga": 19,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "78b500b66ced35",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:46:46Z",
+      "title": "$NVDA 207 eod",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658621819",
+      "author": "Pballardjr",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T03:46:46Z",
+      "text": "$NVDA 207 eod",
+      "description": "",
+      "handle": "Pballardjr",
+      "display_name": "Pballardjr",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "02bcac03856b3e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:46:15Z",
+      "title": "$AMD Sorry.  But someone&#39;s gotta say it.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658621802",
+      "author": "2x_Overhead",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:46:15Z",
+      "text": "$AMD Sorry.  But someone&#39;s gotta say it.",
+      "description": "",
+      "handle": "2x_Overhead",
+      "display_name": "2x_Overhead",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f8e1086b0626eb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:45:50Z",
+      "title": "This Slingshot Reversal Could Trigger A Massive-Squeeze $QQQ $SPY $NDX https://talkmarkets.com/article/this-slingshot-reversal-could-trigger-a-massive-squeeze-1783568702",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658621793",
+      "author": "TalkMarkets",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:45:50Z",
+      "text": "This Slingshot Reversal Could Trigger A Massive-Squeeze $QQQ $SPY $NDX https://talkmarkets.com/article/this-slingshot-reversal-could-trigger-a-massive-squeeze-1783568702",
+      "description": "",
+      "handle": "TalkMarkets",
+      "display_name": "TalkMarkets",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "09f21b18ee69e0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:45:50Z",
+      "title": "This Slingshot Reversal Could Trigger A Massive-Squeeze $QQQ $SPY $NDX https://talkmarkets.com/article/this-slingshot-reversal-could-trigger-a-massive-squeeze-1783568702",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658621793",
+      "author": "TalkMarkets",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:45:50Z",
+      "text": "This Slingshot Reversal Could Trigger A Massive-Squeeze $QQQ $SPY $NDX https://talkmarkets.com/article/this-slingshot-reversal-could-trigger-a-massive-squeeze-1783568702",
+      "description": "",
+      "handle": "TalkMarkets",
+      "display_name": "TalkMarkets",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6f665650076ea0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:45:25Z",
+      "title": "$SPY $USO $GLD $BTC.X $QQQ \nSomething&#39;s really fishy, with all the overnight action. It&#39;s like everything&#39;s on hold except for precious metals, which are starting to dip. Seems like everyone&#39;s waiting to see what the big players do. Once oil starts climbing and bonds get volatile, we",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658621784",
+      "author": "FrankieSmilez",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:45:25Z",
+      "text": "$SPY $USO $GLD $BTC.X $QQQ \nSomething&#39;s really fishy, with all the overnight action. It&#39;s like everything&#39;s on hold except for precious metals, which are starting to dip. Seems like everyone&#39;s waiting to see what the big players do. Once oil starts climbing and bonds get volatile, we",
+      "description": "",
+      "handle": "FrankieSmilez",
+      "display_name": "\ud835\udd71\ud835\udd97\ud835\udd86\ud835\udd93\ud835\udd90\ud835\udd8e\ud835\udd8a \ud835\udd7e\ud835\udd92\ud835\udd8e\ud835\udd91\ud835\udd8a\ud835\udd9f",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "dd95d4efc4924d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:45:25Z",
+      "title": "$SPY $USO $GLD $BTC.X $QQQ \nSomething&#39;s really fishy, with all the overnight action. It&#39;s like everything&#39;s on hold except for precious metals, which are starting to dip. Seems like everyone&#39;s waiting to see what the big players do. Once oil starts climbing and bonds get volatile, we",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658621784",
+      "author": "FrankieSmilez",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:45:25Z",
+      "text": "$SPY $USO $GLD $BTC.X $QQQ \nSomething&#39;s really fishy, with all the overnight action. It&#39;s like everything&#39;s on hold except for precious metals, which are starting to dip. Seems like everyone&#39;s waiting to see what the big players do. Once oil starts climbing and bonds get volatile, we",
+      "description": "",
+      "handle": "FrankieSmilez",
+      "display_name": "\ud835\udd71\ud835\udd97\ud835\udd86\ud835\udd93\ud835\udd90\ud835\udd8e\ud835\udd8a \ud835\udd7e\ud835\udd92\ud835\udd8e\ud835\udd91\ud835\udd8a\ud835\udd9f",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "86e7a1791fa827",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:45:25Z",
+      "title": "$SPY $USO $GLD $BTC.X $QQQ \nSomething&#39;s really fishy, with all the overnight action. It&#39;s like everything&#39;s on hold except for precious metals, which are starting to dip. Seems like everyone&#39;s waiting to see what the big players do. Once oil starts climbing and bonds get volatile, we",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658621784",
+      "author": "FrankieSmilez",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:45:25Z",
+      "text": "$SPY $USO $GLD $BTC.X $QQQ \nSomething&#39;s really fishy, with all the overnight action. It&#39;s like everything&#39;s on hold except for precious metals, which are starting to dip. Seems like everyone&#39;s waiting to see what the big players do. Once oil starts climbing and bonds get volatile, we",
+      "description": "",
+      "handle": "FrankieSmilez",
+      "display_name": "\ud835\udd71\ud835\udd97\ud835\udd86\ud835\udd93\ud835\udd90\ud835\udd8e\ud835\udd8a \ud835\udd7e\ud835\udd92\ud835\udd8e\ud835\udd91\ud835\udd8a\ud835\udd9f",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9b33bef45ce711",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:45:06Z",
+      "title": "$NVDA $TSM $SMCI $DRAM $MU",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658621776",
+      "author": "thszda",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T03:45:06Z",
+      "text": "$NVDA $TSM $SMCI $DRAM $MU",
+      "description": "",
+      "handle": "thszda",
+      "display_name": "o",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8c87bac143dafc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:43:46Z",
+      "title": "$NVDA CN Greenlights BABA-W, ByteDance, Others to Purchase \n Few NVIDIA H200 Chips \nhttps://www.aastocks.com/en/stocks/news/aafn-con/NOW.1532421/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658621745",
+      "author": "fanttomas",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T03:43:46Z",
+      "text": "$NVDA CN Greenlights BABA-W, ByteDance, Others to Purchase \n Few NVIDIA H200 Chips \nhttps://www.aastocks.com/en/stocks/news/aafn-con/NOW.1532421/",
+      "description": "",
+      "handle": "fanttomas",
+      "display_name": "Louis",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d51f7222430710",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:42:51Z",
+      "title": "$NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658621719",
+      "author": "EpiCRise98",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T03:42:51Z",
+      "text": "$NVDA",
+      "description": "",
+      "handle": "EpiCRise98",
+      "display_name": "EpiCRise98",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d05bd940225b25",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09 03:42:31",
+      "title": "US military carries out fresh strikes on Iran, prompting Iran attacks on Kuwait and Bahrain",
+      "body": "",
+      "url": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09 03:42:31",
+      "text": "US military carries out fresh strikes on Iran, prompting Iran attacks on Kuwait and Bahrain",
+      "description": ""
+    },
+    {
+      "id": "f45f9e4980d8a9",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-09T03:42:26Z",
+      "title": "Vietnamese outpace Chinese in arrivals to S. Korea for 1st time in 2025 - SCMP",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:42:26Z",
+      "text": "Vietnamese outpace Chinese in arrivals to S. Korea for 1st time in 2025 - SCMP",
+      "description": ""
+    },
+    {
+      "id": "06324ae57edf62",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:42:13Z",
+      "title": "$MSTR buy the dips and eat well",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658621708",
+      "author": "MrProfits",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:42:13Z",
+      "text": "$MSTR buy the dips and eat well",
+      "description": "",
+      "handle": "MrProfits",
+      "display_name": "Todd",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fd85e10d052831",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T03:42:08Z",
+      "title": "$SPY +13% since that post in April, wow.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658621705",
+      "author": "Baye_Sian",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T03:42:08Z",
+      "text": "$SPY +13% since that post in April, wow.",
+      "description": "",
+      "handle": "Baye_Sian",
+      "display_name": "Baye Sian",
+      "platform": "stocktwits"
+    },
     {
       "id": "f58d899d007f73",
       "source": "stocktwits",
@@ -228,6 +540,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "666cb4922d9b72",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09 03:39:32",
+      "title": "Asia stocks fall as oil, Samsung drag weighs; Japan chip rally limits broader loss",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/asia-stocks-fall-as-oil-samsung-drag-weighs-japan-chip-rally-limits-broader-loss-4782968",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09 03:39:32",
+      "text": "Asia stocks fall as oil, Samsung drag weighs; Japan chip rally limits broader loss",
+      "description": ""
+    },
+    {
       "id": "8e21813726a6a9",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -271,52 +601,6 @@
       "description": "",
       "handle": "franny1000",
       "display_name": "francisco",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "387b90bec7aaea",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:37:28Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658621602",
-      "author": "ThatOneOracle",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T03:37:28Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "ThatOneOracle",
-      "display_name": "JimmyFatStacks",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "9e50ff5b86d7e2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:37:18Z",
-      "title": "The US struck Iran for a second straight day, hitting 90 military targets as Strait of Hormuz shipping slowed sharply. Oil jumped, tensions surged, and more escalation looms.\n\nRead \ud83d\udc47\ud83c\udffb https://bigbreakingwire.in/us-hits-iran-again-as-hormuz-shipping-near-standstill-tensions-soar/\n\n$DJT $BTC.X $SPY $Q",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658621598",
-      "author": "BigBreakingWire",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T03:37:18Z",
-      "text": "The US struck Iran for a second straight day, hitting 90 military targets as Strait of Hormuz shipping slowed sharply. Oil jumped, tensions surged, and more escalation looms.\n\nRead \ud83d\udc47\ud83c\udffb https://bigbreakingwire.in/us-hits-iran-again-as-hormuz-shipping-near-standstill-tensions-soar/\n\n$DJT $BTC.X $SPY $Q",
-      "description": "",
-      "handle": "BigBreakingWire",
-      "display_name": "BigBreakingWire",
       "platform": "stocktwits"
     },
     {
@@ -366,27 +650,40 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2859ebf15a203e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:36:44Z",
-      "title": "$SPY $OTLK Jump in before 19th.",
+      "id": "cddcb30f897c09",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09 03:37:11",
+      "title": "Why is Zhipu AI stock surging today?",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658621583",
-      "author": "dogenationdog",
-      "tickers": [
-        "SPY"
-      ],
+      "url": "https://www.investing.com/news/stock-market-news/why-is-zhipu-ai-stock-surging-today-93CH-4782967",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-09T03:36:44Z",
-      "text": "$SPY $OTLK Jump in before 19th.",
-      "description": "",
-      "handle": "dogenationdog",
-      "display_name": "Dogenation.dog",
-      "platform": "stocktwits"
+      "time": "2026-07-09 03:37:11",
+      "text": "Why is Zhipu AI stock surging today?",
+      "description": ""
+    },
+    {
+      "id": "459950b67b5d5b",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09 03:36:51",
+      "title": "Gloo prices public offering of 7 million shares at $3.25 each",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/gloo-prices-public-offering-of-7-million-shares-at-325-each-93CH-4782966",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09 03:36:51",
+      "text": "Gloo prices public offering of 7 million shares at $3.25 each",
+      "description": ""
     },
     {
       "id": "540a181126b7b4",
@@ -535,52 +832,6 @@
       "time": "2026-07-09T03:32:25Z",
       "text": "Goldman Sachs forecasts 50% jump for CATL\u2019s shares as energy storage takes off - SCMP",
       "description": ""
-    },
-    {
-      "id": "4e1acb40ae8647",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:32:23Z",
-      "title": "$QQQ tech is not afraid",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658621466",
-      "author": "PrecisionPointTrading",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T03:32:23Z",
-      "text": "$QQQ tech is not afraid",
-      "description": "",
-      "handle": "PrecisionPointTrading",
-      "display_name": "PrecisionPointTrading",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f0c3b94be76b49",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:30:04Z",
-      "title": "$QQQ $SPY \n\n NO one can handle more pressure to oil markets. \n\nSouth Korea is heavily dependent on energy imports, relying on foreign sources for over 97% of its energy needs.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658621405",
-      "author": "theyellowbear",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-09T03:30:04Z",
-      "text": "$QQQ $SPY \n\n NO one can handle more pressure to oil markets. \n\nSouth Korea is heavily dependent on energy imports, relying on foreign sources for over 97% of its energy needs.",
-      "description": "",
-      "handle": "theyellowbear",
-      "display_name": "Yellow Bear",
-      "platform": "stocktwits"
     },
     {
       "id": "02fb23ebf6d98b",
@@ -775,6 +1026,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "7e832d52f88586",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09 03:24:25",
+      "title": "Fatal ICE shooting in Houston sparks mass protest, demands for transparency",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/fatal-ice-shooting-in-houston-sparks-demands-for-transparency-independent-investigation-4782148",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09 03:24:25",
+      "text": "Fatal ICE shooting in Houston sparks mass protest, demands for transparency",
+      "description": ""
+    },
+    {
       "id": "7a30fa03547ad6",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -791,29 +1060,6 @@
       "time": "2026-07-09T03:23:31Z",
       "text": "Dow Jones Futures Waver, Oil Prices Rise Amid Iran News; Nvidia, Valero, Dell, SpaceX In Focus",
       "description": ""
-    },
-    {
-      "id": "0d9c7c7d521e67",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:22:39Z",
-      "title": "$NVDA range breakout with improving volume. We like an entry between $200.14 - $200.69 retest area. We won&#39;t hesitate at this level tmw.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658621193",
-      "author": "Techdamentals",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T03:22:39Z",
-      "text": "$NVDA range breakout with improving volume. We like an entry between $200.14 - $200.69 retest area. We won&#39;t hesitate at this level tmw.",
-      "description": "",
-      "handle": "Techdamentals",
-      "display_name": "TD",
-      "platform": "stocktwits"
     },
     {
       "id": "9b2aa23e6c043c",
@@ -836,29 +1082,6 @@
       "description": "",
       "handle": "FrankieSmilez",
       "display_name": "\ud835\udd71\ud835\udd97\ud835\udd86\ud835\udd93\ud835\udd90\ud835\udd8e\ud835\udd8a \ud835\udd7e\ud835\udd92\ud835\udd8e\ud835\udd91\ud835\udd8a\ud835\udd9f",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "9b9461ade875ae",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:21:01Z",
-      "title": "$QQQ Kospi \ud83d\udca9 taking this down otherwise us market is strong today and want to go high $SPY \n$NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658621133",
-      "author": "Singh111",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T03:21:01Z",
-      "text": "$QQQ Kospi \ud83d\udca9 taking this down otherwise us market is strong today and want to go high $SPY \n$NVDA",
-      "description": "",
-      "handle": "Singh111",
-      "display_name": "S",
       "platform": "stocktwits"
     },
     {
@@ -972,29 +1195,6 @@
       "description": ""
     },
     {
-      "id": "346f4ea4257050",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:13:38Z",
-      "title": "$SPY $QQQ $SMH $SOXX $NVDA &gt;&gt;\n\nWhat This Means for You on Friday:\n\nBecause the deal is 7x oversubscribed, any retail investor trying to get pre-IPO shares through a broker will likely receive a very low allocation fill rate (or zero shares). \n\nIf you want in, you will likely have to compete wi",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658620909",
-      "author": "ospreyeye",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T03:13:38Z",
-      "text": "$SPY $QQQ $SMH $SOXX $NVDA &gt;&gt;\n\nWhat This Means for You on Friday:\n\nBecause the deal is 7x oversubscribed, any retail investor trying to get pre-IPO shares through a broker will likely receive a very low allocation fill rate (or zero shares). \n\nIf you want in, you will likely have to compete wi",
-      "description": "",
-      "handle": "ospreyeye",
-      "display_name": "Ospreyeye",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d7e59b17c1204b",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1013,27 +1213,40 @@
       "description": ""
     },
     {
-      "id": "6f003430b999f6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:12:46Z",
-      "title": "JUST IN: US official says they are preparing for days to weeks of strikes against Iran, Axios reports.\n\n&quot;We&#39;re going to slap them a bit so they understand we&#39;re not f*cking around.&quot;\n$USO $MU $NVDA $SPY $BTC.X",
+      "id": "6bfc9ebd0dc988",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09 03:12:44",
+      "title": "SK Hynix US listing more than seven times oversubscribed, source says",
       "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658620884",
-      "author": "FrankieSmilez",
-      "tickers": [
-        "NVDA"
-      ],
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-us-listing-more-than-seven-times-oversubscribed-source-says-4782931",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 4.6,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-09T03:12:46Z",
-      "text": "JUST IN: US official says they are preparing for days to weeks of strikes against Iran, Axios reports.\n\n&quot;We&#39;re going to slap them a bit so they understand we&#39;re not f*cking around.&quot;\n$USO $MU $NVDA $SPY $BTC.X",
-      "description": "",
-      "handle": "FrankieSmilez",
-      "display_name": "\ud835\udd71\ud835\udd97\ud835\udd86\ud835\udd93\ud835\udd90\ud835\udd8e\ud835\udd8a \ud835\udd7e\ud835\udd92\ud835\udd8e\ud835\udd91\ud835\udd8a\ud835\udd9f",
-      "platform": "stocktwits"
+      "time": "2026-07-09 03:12:44",
+      "text": "SK Hynix US listing more than seven times oversubscribed, source says",
+      "description": ""
+    },
+    {
+      "id": "ebeafc105d3896",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09 03:12:26",
+      "title": "Judge says E. Jean Carroll can collect $5 million damage award from Trump",
+      "body": "",
+      "url": "https://www.investing.com/news/politics-news/trump-opposes-letting-e-jean-carroll-collect5-million-award-cites-supreme-court-bid-4781810",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09 03:12:26",
+      "text": "Judge says E. Jean Carroll can collect $5 million damage award from Trump",
+      "description": ""
     },
     {
       "id": "239d7e71a9ac1d",
@@ -1105,29 +1318,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "bdbb25b9a5aebb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T03:10:19Z",
-      "title": "$MSTR",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658620785",
-      "author": "meandu2",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T03:10:19Z",
-      "text": "$MSTR",
-      "description": "",
-      "handle": "meandu2",
-      "display_name": "MSTR PUMPER",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2a82935563a777",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1190,6 +1380,24 @@
       "handle": "AlertsAndNews",
       "display_name": "AlertsAndNews",
       "platform": "stocktwits"
+    },
+    {
+      "id": "eed329b26051bd",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09 03:04:46",
+      "title": "Sempra\u2019s ECA LNG Phase 1 ships first cargo from Mexico",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/sempras-eca-lng-phase-1-ships-first-cargo-from-mexico-93CH-4782963",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09 03:04:46",
+      "text": "Sempra\u2019s ECA LNG Phase 1 ships first cargo from Mexico",
+      "description": ""
     },
     {
       "id": "ea459ecdee986b",
@@ -1398,29 +1606,6 @@
       "description": "",
       "handle": "Optiongenius",
       "display_name": "Option Bot",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c61ee603599c6a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T02:55:33Z",
-      "title": "$AMD $MU $MRVL https://www.zerohedge.com/energy/modular-reactors-solve-data-center-hysteria",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658620299",
-      "author": "wader2k",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T02:55:33Z",
-      "text": "$AMD $MU $MRVL https://www.zerohedge.com/energy/modular-reactors-solve-data-center-hysteria",
-      "description": "",
-      "handle": "wader2k",
-      "display_name": "Wade",
       "platform": "stocktwits"
     },
     {
@@ -1734,42 +1919,6 @@
       "description": ""
     },
     {
-      "id": "ebeafc105d3896",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09 02:36:26",
-      "title": "Judge says E. Jean Carroll can collect $5 million damage award from Trump",
-      "body": "",
-      "url": "https://www.investing.com/news/politics-news/trump-opposes-letting-e-jean-carroll-collect5-million-award-cites-supreme-court-bid-4781810",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09 02:36:26",
-      "text": "Judge says E. Jean Carroll can collect $5 million damage award from Trump",
-      "description": ""
-    },
-    {
-      "id": "fd276e67f07ff2",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09 02:36:19",
-      "title": "Earnings call transcript: Levi Strauss beats Q2 2026 estimates but shares fall",
-      "body": "",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-levi-strauss-beats-q2-2026-estimates-but-shares-fall-93CH-4782960",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09 02:36:19",
-      "text": "Earnings call transcript: Levi Strauss beats Q2 2026 estimates but shares fall",
-      "description": ""
-    },
-    {
       "id": "849ce7f696c46e",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1926,42 +2075,6 @@
       "description": ""
     },
     {
-      "id": "5ee1fcf11ffb2e",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T02:30:43Z",
-      "title": "AAPC Launches CPC-M Credential, the Highest Standard of Mastery in Medical Coding",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T02:30:43Z",
-      "text": "AAPC Launches CPC-M Credential, the Highest Standard of Mastery in Medical Coding",
-      "description": ""
-    },
-    {
-      "id": "973d39f292a2d7",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09 02:30:28",
-      "title": "Smithsonian head says White House report unfairly characterized US history museum",
-      "body": "",
-      "url": "https://www.investing.com/news/politics-news/smithsonian-head-says-white-house-report-unfairly-characterized-us-history-museum-4782959",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09 02:30:28",
-      "text": "Smithsonian head says White House report unfairly characterized US history museum",
-      "description": ""
-    },
-    {
       "id": "f249d48a83395d",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2052,60 +2165,6 @@
       "handle": "SwingPlay",
       "display_name": "Swing Play",
       "platform": "stocktwits"
-    },
-    {
-      "id": "392118819cb16e",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09 02:20:55",
-      "title": "Nvidia to invest $500 mln in Australian cloud startup Firmus, AFR reports",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/nvidia-to-invest-500-mln-in-australian-cloud-startup-firmus-afr-reports-4782958",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09 02:20:55",
-      "text": "Nvidia to invest $500 mln in Australian cloud startup Firmus, AFR reports",
-      "description": ""
-    },
-    {
-      "id": "d05bd940225b25",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09 02:18:28",
-      "title": "US military carries out fresh strikes on Iran, prompting Iran attacks on Kuwait and Bahrain",
-      "body": "",
-      "url": "https://www.investing.com/news/commodities-news/iran-targets-sites-in-bahrain-kuwait-after-wave-of-us-strikes-4780656",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09 02:18:28",
-      "text": "US military carries out fresh strikes on Iran, prompting Iran attacks on Kuwait and Bahrain",
-      "description": ""
-    },
-    {
-      "id": "17e1758e575256",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09 02:16:57",
-      "title": "Why is Kioxia stock surging today?",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/why-is-kioxia-stock-surging-today-93CH-4782957",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09 02:16:57",
-      "text": "Why is Kioxia stock surging today?",
-      "description": ""
     },
     {
       "id": "d77856ed83cb3c",
@@ -2239,42 +2298,6 @@
       "handle": "jcd42",
       "display_name": "jd",
       "platform": "stocktwits"
-    },
-    {
-      "id": "e17b508de81366",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09 02:00:42",
-      "title": "Oil rises after US launches fresh strikes against Iran",
-      "body": "",
-      "url": "https://www.investing.com/news/commodities-news/oil-rises-after-us-launches-fresh-strikes-against-iran-4782900",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09 02:00:42",
-      "text": "Oil rises after US launches fresh strikes against Iran",
-      "description": ""
-    },
-    {
-      "id": "87a3c10c78ec87",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09 02:00:27",
-      "title": "Platner ends Senate campaign, forcing Democrats to pivot in crucial Maine race",
-      "body": "",
-      "url": "https://www.investing.com/news/politics-news/maine-democrats-say-embattled-senate-candidate-platner-cant-pick-his-replacement-4781855",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09 02:00:27",
-      "text": "Platner ends Senate campaign, forcing Democrats to pivot in crucial Maine race",
-      "description": ""
     },
     {
       "id": "e4c09d3c00e7d1",
@@ -3022,29 +3045,6 @@
       "time": "Wed, 08 Jul 2026 22:48:00 GMT",
       "text": "I started retirement with $3 million. Now I\u2019m 89 and down to $2 million. What if I get sick?",
       "description": "Even if you\u2019re not worried about your normal spending anymore, a long-term-care need is still a problem for any budget."
-    },
-    {
-      "id": "1f411d7583ab22",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-08T22:44:25Z",
-      "title": "$GLD Where the F is the gold reval I was promised",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GLD/message/658608986",
-      "author": "Redding_CB",
-      "tickers": [
-        "GLD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T22:44:25Z",
-      "text": "$GLD Where the F is the gold reval I was promised",
-      "description": "",
-      "handle": "Redding_CB",
-      "display_name": "Chris B",
-      "platform": "stocktwits"
     },
     {
       "id": "eb980e6de39619",
@@ -4614,6 +4614,44 @@
       "description": ""
     },
     {
+      "id": "659edad8faf198",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T16:12:35Z",
+      "title": "The Micron Stock Rally Is Far From Over. Here\u2019s Why Bulls See $2,200 for MU Next.",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/micron-stock-rally-far-over-161235310.html",
+      "author": "",
+      "tickers": [
+        "MU"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T16:12:35Z",
+      "text": "The Micron Stock Rally Is Far From Over. Here\u2019s Why Bulls See $2,200 for MU Next.",
+      "description": ""
+    },
+    {
+      "id": "44577cd14d441c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T16:11:48Z",
+      "title": "Behind the Grain Rally: Real Commercial Demand or Just Headline Noise?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/behind-grain-rally-real-commercial-161148447.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T16:11:48Z",
+      "text": "Behind the Grain Rally: Real Commercial Demand or Just Headline Noise?",
+      "description": ""
+    },
+    {
       "id": "92954397c0573f",
       "source": "reuters",
       "source_type": "rss",
@@ -4650,6 +4688,24 @@
       "description": ""
     },
     {
+      "id": "83e337b85247f5",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-07T15:56:08Z",
+      "title": "A $2.5 Million Nest Egg at 62 Only Buys $46,000 of Real Spending",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/articles/2-5-million-nest-egg-155608666.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-07T15:56:08Z",
+      "text": "A $2.5 Million Nest Egg at 62 Only Buys $46,000 of Real Spending",
+      "description": ""
+    },
+    {
       "id": "ba153f54d1bc51",
       "source": "reuters",
       "source_type": "rss",
@@ -4668,24 +4724,6 @@
       "description": ""
     },
     {
-      "id": "7441669c266499",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T15:53:13Z",
-      "title": "SHLD vs. XAR: Should You Play the Rearmament Boom With Defense Tech or Classic Aerospace?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/shld-vs-xar-play-rearmament-155313197.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T15:53:13Z",
-      "text": "SHLD vs. XAR: Should You Play the Rearmament Boom With Defense Tech or Classic Aerospace?",
-      "description": ""
-    },
-    {
       "id": "cdaf42471ef453",
       "source": "reuters",
       "source_type": "rss",
@@ -4701,44 +4739,6 @@
       "sentiment": "neutral",
       "time": "2026-07-07T15:51:23Z",
       "text": "How Adobe Stock Could Benefit From AI Disruption",
-      "description": ""
-    },
-    {
-      "id": "d99e92c9561328",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T15:47:18Z",
-      "title": "The Nasdaq-100 Could Be Forming a Textbook Diamond Top. Here's What to Watch on the QQQ Chart Now.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-100-could-forming-textbook-154718597.html",
-      "author": "",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 7.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T15:47:18Z",
-      "text": "The Nasdaq-100 Could Be Forming a Textbook Diamond Top. Here's What to Watch on the QQQ Chart Now.",
-      "description": ""
-    },
-    {
-      "id": "4593f039911658",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-07T15:45:49Z",
-      "title": "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/article/micron-samsung-sk-hynix-just-dragged-memory-stocks-into-a-bear-market-154549356.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-07T15:45:49Z",
-      "text": "Micron, Samsung, SK Hynix just dragged memory stocks into a bear market",
       "description": ""
     },
     {
