@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-09T09:52:06Z",
-  "generated_display": "2026-07-09 09:52 ET",
-  "count": 182,
+  "generated": "2026-07-09T09:57:06Z",
+  "generated_display": "2026-07-09 09:57 ET",
+  "count": 181,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-09T09:52:01.870697+00:00",
+      "last_error_ts": "2026-07-09T09:57:01.602945+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 99,
-      "last_success": "2026-07-09T09:52:01.971135+00:00",
+      "latency_ms": 140,
+      "last_success": "2026-07-09T09:57:01.770448+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-09T09:52:02.071665+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-09T09:57:01.871940+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 30,
-      "latency_ms": 305,
-      "last_success": "2026-07-09T09:52:02.379433+00:00",
+      "items_pulled": 29,
+      "latency_ms": 98,
+      "last_success": "2026-07-09T09:57:01.972016+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-09T09:52:02.493786+00:00",
+      "last_error_ts": "2026-07-09T09:57:02.002237+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1476,
-      "last_success": "2026-07-09T09:52:03.970474+00:00",
+      "latency_ms": 1869,
+      "last_success": "2026-07-09T09:57:03.871580+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-09T09:52:04.647779+00:00",
+      "last_success": "2026-07-09T09:57:04.446020+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1778,
-      "last_success": "2026-07-09T09:52:06.426544+00:00",
+      "latency_ms": 1792,
+      "last_success": "2026-07-09T09:57:06.238760+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,338 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 110
+          "latency_ms": 109
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 88
+          "latency_ms": 52
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 37
+          "latency_ms": 69
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 268
+          "latency_ms": 270
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 72
+          "latency_ms": 9
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 98
+          "latency_ms": 62
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "cnbc": 8,
+    "marketwatch": 8,
     "uw_news": 25,
     "reuters": 16,
-    "marketwatch": 8,
-    "massive_news": 30,
-    "cnbc": 8,
+    "massive_news": 29,
     "zerohedge": 8,
     "seekingalpha": 7,
     "benzinga": 4,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "6865fc6a8e1164",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:56:46Z",
+      "title": "$MU $NVDA $AAPL $MSFT Highest buy percentages in the last 15 years since the data started in 2010. They bought the dip \ud83d\udc40",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658627753",
+      "author": "tmob5",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T09:56:46Z",
+      "text": "$MU $NVDA $AAPL $MSFT Highest buy percentages in the last 15 years since the data started in 2010. They bought the dip \ud83d\udc40",
+      "description": "",
+      "handle": "tmob5",
+      "display_name": "Tyler",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1faf8ca6f17941",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:56:46Z",
+      "title": "$MU $NVDA $AAPL $MSFT Highest buy percentages in the last 15 years since the data started in 2010. They bought the dip \ud83d\udc40",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658627753",
+      "author": "tmob5",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T09:56:46Z",
+      "text": "$MU $NVDA $AAPL $MSFT Highest buy percentages in the last 15 years since the data started in 2010. They bought the dip \ud83d\udc40",
+      "description": "",
+      "handle": "tmob5",
+      "display_name": "Tyler",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "87c0936908741c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:56:46Z",
+      "title": "$MU $NVDA $AAPL $MSFT Highest buy percentages in the last 15 years since the data started in 2010. They bought the dip \ud83d\udc40",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658627753",
+      "author": "tmob5",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T09:56:46Z",
+      "text": "$MU $NVDA $AAPL $MSFT Highest buy percentages in the last 15 years since the data started in 2010. They bought the dip \ud83d\udc40",
+      "description": "",
+      "handle": "tmob5",
+      "display_name": "Tyler",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d9875914a56f41",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:56:22Z",
+      "title": "$IWM Pay me \ud83e\udd0c\ud83c\udffc",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658627746",
+      "author": "KRAT0SS",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-09T09:56:22Z",
+      "text": "$IWM Pay me \ud83e\udd0c\ud83c\udffc",
+      "description": "",
+      "handle": "KRAT0SS",
+      "display_name": "Kratos",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "33a28fb481ef6a",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Thu, 09 Jul 2026 09:56:11 GMT",
+      "title": "NATO Rutte's praise of Trump grabbed headlines \u2014 but did it achieve anything?",
+      "body": "NATO chief Mark Rutte lavished praise on U.S. President Donald Trump during a fractious summit in Turkey this week.",
+      "url": "https://www.cnbc.com/2026/07/09/nato-rutte-trump-europe.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Thu, 09 Jul 2026 09:56:11 GMT",
+      "text": "NATO Rutte's praise of Trump grabbed headlines \u2014 but did it achieve anything?",
+      "description": "NATO chief Mark Rutte lavished praise on U.S. President Donald Trump during a fractious summit in Turkey this week."
+    },
+    {
+      "id": "86e45e838de203",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:55:57Z",
+      "title": "$SPY IRAN IS BEGGING FOR CEASEFIRE AGAIN\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83e\udd73\ud83d\udc4c",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658627740",
+      "author": "goodguyvs",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T09:55:57Z",
+      "text": "$SPY IRAN IS BEGGING FOR CEASEFIRE AGAIN\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83d\udd25\ud83e\udd73\ud83d\udc4c",
+      "description": "",
+      "handle": "goodguyvs",
+      "display_name": "Spel",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c4d03e5e782604",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:55:19Z",
+      "title": "$PLTR lol now he\u2019s just making stuff up ..",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658627727",
+      "author": "Fernando36",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T09:55:19Z",
+      "text": "$PLTR lol now he\u2019s just making stuff up ..",
+      "description": "",
+      "handle": "Fernando36",
+      "display_name": "Fernando Fernandez",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d46e45f8a5e770",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:54:51Z",
+      "title": "$AMD -",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658627720",
+      "author": "Rony4AM",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T09:54:51Z",
+      "text": "$AMD -",
+      "description": "",
+      "handle": "Rony4AM",
+      "display_name": "Rony",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c74821a5137890",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:54:05Z",
+      "title": "$AAPL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658627711",
+      "author": "Rony4AM",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-09T09:54:05Z",
+      "text": "$AAPL",
+      "description": "",
+      "handle": "Rony4AM",
+      "display_name": "Rony",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5071b39552d3de",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:53:34Z",
+      "title": "$PLTR waiting for $120 to rebuy",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658627702",
+      "author": "tradeordie24",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-09T09:53:34Z",
+      "text": "$PLTR waiting for $120 to rebuy",
+      "description": "",
+      "handle": "tradeordie24",
+      "display_name": "Dave",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0a38ed72d87eac",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Thu, 09 Jul 2026 09:53:00 GMT",
+      "title": "Major drugmaker loses $27 billion in market value after failed trial",
+      "body": "Two companies  announced on Thursday that the heart disease drug they had been developing failed its Phase III trial.",
+      "url": "https://www.marketwatch.com/story/major-drugmaker-loses-27-billion-in-market-value-after-failed-trial-b891fc61?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Thu, 09 Jul 2026 09:53:00 GMT",
+      "text": "Major drugmaker loses $27 billion in market value after failed trial",
+      "description": "Two companies  announced on Thursday that the heart disease drug they had been developing failed its Phase III trial."
+    },
+    {
+      "id": "87990a6964eb57",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:52:20Z",
+      "title": "$QQQ look at these stupid criminals pump\nthis fucking scam lol.  It\u2019s either setting up to get wrecked Friday or Tuesday.  I doubt it comes down today though maybe the afternoon gives back a little.  They clearly have short positions they need to take out &amp; puts to devalue.  $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658627680",
+      "author": "Stonethrower2",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T09:52:20Z",
+      "text": "$QQQ look at these stupid criminals pump\nthis fucking scam lol.  It\u2019s either setting up to get wrecked Friday or Tuesday.  I doubt it comes down today though maybe the afternoon gives back a little.  They clearly have short positions they need to take out &amp; puts to devalue.  $SPY",
+      "description": "",
+      "handle": "Stonethrower2",
+      "display_name": "John Stone",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "add4cc1e1b3dd7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T09:52:20Z",
+      "title": "$QQQ look at these stupid criminals pump\nthis fucking scam lol.  It\u2019s either setting up to get wrecked Friday or Tuesday.  I doubt it comes down today though maybe the afternoon gives back a little.  They clearly have short positions they need to take out &amp; puts to devalue.  $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658627680",
+      "author": "Stonethrower2",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T09:52:20Z",
+      "text": "$QQQ look at these stupid criminals pump\nthis fucking scam lol.  It\u2019s either setting up to get wrecked Friday or Tuesday.  I doubt it comes down today though maybe the afternoon gives back a little.  They clearly have short positions they need to take out &amp; puts to devalue.  $SPY",
+      "description": "",
+      "handle": "Stonethrower2",
+      "display_name": "John Stone",
+      "platform": "stocktwits"
+    },
     {
       "id": "c16c3899ce6a39",
       "source": "stocktwits",
@@ -489,29 +778,6 @@
       "description": ""
     },
     {
-      "id": "292e754c69e254",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:43:20Z",
-      "title": "$SPY bullish hopes are fading fast",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658627529",
-      "author": "Whodo_Voodoo_Ido",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-09T09:43:20Z",
-      "text": "$SPY bullish hopes are fading fast",
-      "description": "",
-      "handle": "Whodo_Voodoo_Ido",
-      "display_name": "Jimmy C",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a16290b877b987",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -532,29 +798,6 @@
       "description": "",
       "handle": "kindness123",
       "display_name": "kindness123",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "cf6ebf7de8b937",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:42:21Z",
-      "title": "$MNKD As more and more revenue sources get added to analysts&#39; long-range forecasts for Mannkind, MNKD will continue to rise up to catch their ever-increasing revised price targets. \n$27IN&#39;27 \n\ud83d\ude44 $SPY  \ud83d\udc40 $$QQQ  \ud83e\udd11 $BX  \u261d\ufe0f",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658627512",
-      "author": "clan",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T09:42:21Z",
-      "text": "$MNKD As more and more revenue sources get added to analysts&#39; long-range forecasts for Mannkind, MNKD will continue to rise up to catch their ever-increasing revised price targets. \n$27IN&#39;27 \n\ud83d\ude44 $SPY  \ud83d\udc40 $$QQQ  \ud83e\udd11 $BX  \u261d\ufe0f",
-      "description": "",
-      "handle": "clan",
-      "display_name": "The mann",
       "platform": "stocktwits"
     },
     {
@@ -709,29 +952,6 @@
       "description": ""
     },
     {
-      "id": "b55a1bcb287a92",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:39:12Z",
-      "title": "$NVDA back to reality",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658627459",
-      "author": "BuySellHoldFinance",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-09T09:39:12Z",
-      "text": "$NVDA back to reality",
-      "description": "",
-      "handle": "BuySellHoldFinance",
-      "display_name": "Randy",
-      "platform": "stocktwits"
-    },
-    {
       "id": "e9336118ed8434",
       "source": "reuters",
       "source_type": "rss",
@@ -770,29 +990,6 @@
       "description": "",
       "handle": "HOODholder",
       "display_name": "Nick houraney",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "17105e88ae92ff",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:38:24Z",
-      "title": "$SPY pre- market mini pump is almost all $QQQ, and, chips mainly.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658627440",
-      "author": "skibicki",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-09T09:38:24Z",
-      "text": "$SPY pre- market mini pump is almost all $QQQ, and, chips mainly.",
-      "description": "",
-      "handle": "skibicki",
-      "display_name": "robert skibicki",
       "platform": "stocktwits"
     },
     {
@@ -1464,29 +1661,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c876885740f64b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:21:55Z",
-      "title": "$MSFT i like it. earnings in 3 weeks. should be above 400 by then",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658627115",
-      "author": "mynameisplissken",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T09:21:55Z",
-      "text": "$MSFT i like it. earnings in 3 weeks. should be above 400 by then",
-      "description": "",
-      "handle": "mynameisplissken",
-      "display_name": "eugene",
-      "platform": "stocktwits"
-    },
-    {
       "id": "4b7dc6d2ff05e1",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1720,29 +1894,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "facf86f1d9d889",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:05:18Z",
-      "title": "$AAPL Until it breaks $307.5-309 area with conviction, calls is the play here! $315-317 continues to be the big resistance area. It needs buyers to step up here to push towards $320.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658626810",
-      "author": "MicroCapsTrader",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T09:05:18Z",
-      "text": "$AAPL Until it breaks $307.5-309 area with conviction, calls is the play here! $315-317 continues to be the big resistance area. It needs buyers to step up here to push towards $320.",
-      "description": "",
-      "handle": "MicroCapsTrader",
-      "display_name": "AD",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a9e9f3a74e21fe",
       "source": "marketwatch",
       "source_type": "rss",
@@ -1803,52 +1954,6 @@
       "time": "2026-07-09T09:00:00Z",
       "text": "Fortuna reports second quarter 2026 production of 72,217 gold equivalent ounces and advances key growth initiatives",
       "description": "Fortuna Mining Corp. reported Q2 2026 production of 72,217 gold equivalent ounces, broadly in line with Q1 2026 and slightly above Q2 2025. The company advanced key growth initiatives including completion of process plant expansion studies at S\u00e9gu\u00e9la and progress toward final investment decision for"
-    },
-    {
-      "id": "e212631d94c3df",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T08:59:49Z",
-      "title": "$AMD 570 here we come , we will retest ATH this week again",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658626723",
-      "author": "HadronTrade",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T08:59:49Z",
-      "text": "$AMD 570 here we come , we will retest ATH this week again",
-      "description": "",
-      "handle": "HadronTrade",
-      "display_name": "Eddie",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "59817d60869a6e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T08:59:00Z",
-      "title": "Apple Adds Lucid and Xiaomi to Wallet Car Key Lineup in Upcoming iOS 27 $LCID $AAPL $XIACF  \nhttps://eletric-vehicles.com/lucid/apple-adds-lucid-and-xiaomi-to-wallet-car-key-lineup-in-upcoming-ios-27/",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658626713",
-      "author": "EV_Report",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T08:59:00Z",
-      "text": "Apple Adds Lucid and Xiaomi to Wallet Car Key Lineup in Upcoming iOS 27 $LCID $AAPL $XIACF  \nhttps://eletric-vehicles.com/lucid/apple-adds-lucid-and-xiaomi-to-wallet-car-key-lineup-in-upcoming-ios-27/",
-      "description": "",
-      "handle": "EV_Report",
-      "display_name": "EV Report",
-      "platform": "stocktwits"
     },
     {
       "id": "9f52458ee6bbc1",
@@ -2576,29 +2681,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "4fb25167273627",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T07:22:18Z",
-      "title": "$PLTR 140 eow",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658625235",
-      "author": "tucker202",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T07:22:18Z",
-      "text": "$PLTR 140 eow",
-      "description": "",
-      "handle": "tucker202",
-      "display_name": "Mark Tucker",
-      "platform": "stocktwits"
-    },
-    {
       "id": "19a95c1066d516",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2665,29 +2747,6 @@
       "description": "",
       "handle": "BigBreakingWire",
       "display_name": "BigBreakingWire",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ef79db0dee3560",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T06:57:41Z",
-      "title": "$PLTR http://Investing.com - Goldman Sachs said renewed hostility between the United States and Iran threatens to halt the flow of oil through the Strait of Hormuz, after a wave of tanker attacks and retaliatory strikes rocked the region this week...",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658624880",
-      "author": "Mipel",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T06:57:41Z",
-      "text": "$PLTR http://Investing.com - Goldman Sachs said renewed hostility between the United States and Iran threatens to halt the flow of oil through the Strait of Hormuz, after a wave of tanker attacks and retaliatory strikes rocked the region this week...",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
       "platform": "stocktwits"
     },
     {
@@ -3468,51 +3527,6 @@
       "description": "Leaked Memo Shows 'Pro-Cuba' NGO Network Preparing To Target ICE, US Bases, Federal Buildings\n\n            Independent Cuban news outlet ADN Cuba has revealed that a US-based Cuba solidarity coalition circulated a memo instructing far-left activists to prepare rapid-response protests at US federal b"
     },
     {
-      "id": "e13599b94c60b4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T02:09:29Z",
-      "title": "Minutes from the Federal Reserve&#39;s June 16\u201317 meeting showed that some policymakers believed there was a case for raising interest rates, although the FOMC unanimously voted to keep the federal funds rate unchanged at 3.5%\u20133.75% during its first meeting under Chair Kevin Warsh. Officials said up",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/IWM/message/658618704",
-      "author": "topstockalerts",
-      "tickers": [
-        "IWM"
-      ],
-      "tags": [],
-      "impact_score": 13.0,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-07-09T02:09:29Z",
-      "text": "Minutes from the Federal Reserve&#39;s June 16\u201317 meeting showed that some policymakers believed there was a case for raising interest rates, although the FOMC unanimously voted to keep the federal funds rate unchanged at 3.5%\u20133.75% during its first meeting under Chair Kevin Warsh. Officials said up",
-      "description": "",
-      "handle": "topstockalerts",
-      "display_name": "Top Stock Alerts",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e4c09d3c00e7d1",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T01:56:00Z",
-      "title": "GDDY Investor News: If You Have Suffered Losses in GoDaddy Inc. (NYSE: GDDY), You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
-      "body": "The Rosen Law Firm is investigating potential securities claims against GoDaddy Inc., Wise Group plc, and Insulet Corporation on behalf of shareholders, alleging these companies issued materially misleading business information. Investors who purchased securities in these companies may be entitled t",
-      "url": "https://www.globenewswire.com/news-release/2026/07/09/3324523/673/en/GDDY-Investor-News-If-You-Have-Suffered-Losses-in-GoDaddy-Inc-NYSE-GDDY-You-Are-Encouraged-to-Contact-The-Rosen-Law-Firm-About-Your-Rights.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "GDDY",
-        "WSE",
-        "PODD"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:56:00Z",
-      "text": "GDDY Investor News: If You Have Suffered Losses in GoDaddy Inc. (NYSE: GDDY), You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
-      "description": "The Rosen Law Firm is investigating potential securities claims against GoDaddy Inc., Wise Group plc, and Insulet Corporation on behalf of shareholders, alleging these companies issued materially misleading business information. Investors who purchased securities in these companies may be entitled t"
-    },
-    {
       "id": "a885d7d56b2bd0",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -3744,42 +3758,6 @@
       "description": "The investor believes regulators will eventually crack down on prediction markets after competition from the upstarts pressured the stocks of sportsbooks."
     },
     {
-      "id": "02a3d40d454b8a",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 21:40:00 GMT",
-      "title": "Did you mess up on your taxes? The IRS just made it easier to avoid paying a penalty.",
-      "body": "It\u2019s a \u2018major taxpayer win,\u2019 according to one advocate inside the IRS",
-      "url": "https://www.marketwatch.com/story/did-you-mess-up-on-your-taxes-the-irs-just-made-it-easier-to-avoid-paying-a-penalty-20d60ae6?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 21:40:00 GMT",
-      "text": "Did you mess up on your taxes? The IRS just made it easier to avoid paying a penalty.",
-      "description": "It\u2019s a \u2018major taxpayer win,\u2019 according to one advocate inside the IRS"
-    },
-    {
-      "id": "56f21101b4dc23",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 20:40:10 GMT",
-      "title": "Meta is building its first big Canadian data center as AI expansion crosses the border",
-      "body": "Meta is building its first big Canadian data center as AI expansion crosses the border.",
-      "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 20:40:10 GMT",
-      "text": "Meta is building its first big Canadian data center as AI expansion crosses the border",
-      "description": "Meta is building its first big Canadian data center as AI expansion crosses the border."
-    },
-    {
       "id": "7d901da953f0b4",
       "source": "reuters",
       "source_type": "rss",
@@ -3798,21 +3776,21 @@
       "description": ""
     },
     {
-      "id": "81c61111db0b88",
+      "id": "1c11139a122865",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-07T22:29:15Z",
-      "title": "Trimble shares get upward bump on report it may sell transportation unit",
+      "timestamp": "2026-07-07T22:02:28Z",
+      "title": "Soybeans Post Late Session Gains on Tuesday",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/trimble-shares-upward-bump-report-222915319.html",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-post-session-gains-tuesday-220228355.html",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 9.5,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T22:29:15Z",
-      "text": "Trimble shares get upward bump on report it may sell transportation unit",
+      "time": "2026-07-07T22:02:28Z",
+      "text": "Soybeans Post Late Session Gains on Tuesday",
       "description": ""
     },
     {
@@ -3834,21 +3812,21 @@
       "description": ""
     },
     {
-      "id": "1c11139a122865",
+      "id": "c5868cd8e7c375",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-07T22:02:28Z",
-      "title": "Soybeans Post Late Session Gains on Tuesday",
+      "timestamp": "2026-07-07T21:48:00Z",
+      "title": "WSJ Dollar Index Rises 0.15% to 97.40",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-post-session-gains-tuesday-220228355.html",
+      "url": "https://www.wsj.com/finance/currencies/yen-consolidates-amid-mixed-developments-661f16da?siteid=yhoof2&yptr=yahoo",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-07T22:02:28Z",
-      "text": "Soybeans Post Late Session Gains on Tuesday",
+      "time": "2026-07-07T21:48:00Z",
+      "text": "WSJ Dollar Index Rises 0.15% to 97.40",
       "description": ""
     },
     {
