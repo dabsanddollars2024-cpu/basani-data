@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09T15:15:25.455131+00:00",
-  "generated_display": "2026-07-09 15:15 ET",
+  "generated": "2026-07-09T15:30:42.354485+00:00",
+  "generated_display": "2026-07-09 15:30 ET",
   "watchlist": [
     "SPY",
     "QQQ",
@@ -24,103 +24,39 @@
   "summaries": [
     {
       "ticker": "SPY",
-      "spot_exposures_ok": true,
+      "spot_exposures_ok": false,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 4128167.35,
+      "net_gex": null,
       "call_wall": null,
       "call_wall_size": null,
-      "put_wall": 85.0,
-      "put_wall_size": 184.37,
-      "max_pain": 745.0,
-      "spot": 749.26,
+      "put_wall": null,
+      "put_wall_size": null,
+      "max_pain": null,
+      "spot": null,
       "expected_move_pct": null,
-      "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:02.257596+00:00",
-      "resistance_zones": [],
-      "support_zones": [
-        {
-          "level": 235.27,
-          "strikes": [
-            50.0,
-            55.0,
-            60.0,
-            65.0,
-            70.0,
-            75.0,
-            80.0,
-            85.0,
-            90.0,
-            95.0,
-            100.0,
-            105.0,
-            110.0,
-            115.0,
-            120.0,
-            125.0,
-            130.0,
-            135.0,
-            140.0,
-            145.0,
-            150.0,
-            155.0,
-            160.0,
-            165.0,
-            170.0,
-            175.0,
-            180.0,
-            185.0,
-            190.0,
-            195.0,
-            200.0,
-            205.0,
-            210.0,
-            215.0,
-            220.0,
-            225.0,
-            230.0,
-            235.0,
-            240.0,
-            245.0,
-            250.0,
-            255.0,
-            260.0,
-            265.0,
-            270.0,
-            275.0,
-            280.0,
-            285.0,
-            290.0,
-            295.0
-          ],
-          "strike_count": 50,
-          "gex": 82563.34700000001,
-          "gex_total": 4128167.35,
-          "distance_pct": 68.6,
-          "strength": "MAJOR",
-          "type": "SUPPORT"
-        }
-      ]
+      "signal": null,
+      "fetched_at": "2026-07-09T15:30:01.867372+00:00"
     },
     {
       "ticker": "QQQ",
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 5067694.2,
+      "net_gex": 5015442.95,
       "call_wall": null,
       "call_wall_size": null,
       "put_wall": 224.78,
-      "put_wall_size": 2927.68,
+      "put_wall_size": 2916.9799999999996,
       "max_pain": 711.0,
-      "spot": 720.9763,
+      "spot": 721.385,
       "expected_move_pct": null,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:03.558463+00:00",
+      "fetched_at": "2026-07-09T15:30:03.455863+00:00",
       "resistance_zones": [],
       "support_zones": [
         {
-          "level": 285.24,
+          "level": 285.27,
           "strikes": [
             204.78,
             205.0,
@@ -174,9 +110,9 @@
             325.0
           ],
           "strike_count": 50,
-          "gex": 101353.884,
-          "gex_total": 5067694.2,
-          "distance_pct": 60.44,
+          "gex": 100308.859,
+          "gex_total": 5015442.95,
+          "distance_pct": 60.46,
           "strength": "MAJOR",
           "type": "SUPPORT"
         }
@@ -187,77 +123,100 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 403453.21,
-      "call_wall": null,
-      "call_wall_size": null,
+      "net_gex": 3417844170.24,
+      "call_wall": 205.0,
+      "call_wall_size": 405839072.78999996,
       "put_wall": 0.5,
       "put_wall_size": 0,
       "max_pain": 197.5,
-      "spot": 201.49,
-      "expected_move_pct": null,
+      "spot": 201.72,
+      "expected_move_pct": 50.69,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:04.758145+00:00",
-      "resistance_zones": [],
+      "fetched_at": "2026-07-09T15:30:04.256238+00:00",
+      "resistance_zones": [
+        {
+          "level": 207.36,
+          "strikes": [
+            202.5,
+            205.0,
+            207.5,
+            210.0,
+            212.5,
+            215.0
+          ],
+          "strike_count": 6,
+          "gex": 186245816.37333333,
+          "gex_total": 1117474898.24,
+          "distance_pct": 2.8,
+          "strength": "MAJOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 221.48,
+          "strikes": [
+            220.0,
+            222.5,
+            225.0
+          ],
+          "strike_count": 3,
+          "gex": 79295847.37,
+          "gex_total": 237887542.11,
+          "distance_pct": 9.8,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 230.0,
+          "strikes": [
+            230.0
+          ],
+          "strike_count": 1,
+          "gex": 91651543.64999999,
+          "gex_total": 91651543.64999999,
+          "distance_pct": 14.02,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        }
+      ],
       "support_zones": [
         {
-          "level": 29.09,
+          "level": 197.03,
           "strikes": [
-            0.5,
-            1.0,
-            1.5,
-            2.0,
-            2.5,
-            3.0,
-            3.5,
-            4.0,
-            4.5,
-            5.0,
-            6.0,
-            7.0,
-            7.5,
-            8.0,
-            9.0,
-            10.0,
-            11.0,
-            12.0,
-            13.0,
-            14.0,
-            15.0,
-            16.0,
-            17.0,
-            17.5,
-            18.0,
-            19.0,
-            20.0,
-            21.0,
-            22.0,
-            23.0,
-            24.0,
-            25.0,
-            26.0,
-            27.0,
-            28.0,
-            29.0,
-            30.0,
-            31.0,
-            32.0,
-            33.0,
-            34.0,
-            35.0,
-            36.0,
-            37.0,
-            38.0,
-            39.0,
-            40.0,
-            41.0,
-            42.0,
-            43.0
+            190.0,
+            192.5,
+            195.0,
+            197.5,
+            200.0
           ],
-          "strike_count": 50,
-          "gex": 8069.064200000001,
-          "gex_total": 403453.21,
-          "distance_pct": 85.56,
+          "strike_count": 5,
+          "gex": 253793235.602,
+          "gex_total": 1268966178.01,
+          "distance_pct": 2.32,
           "strength": "MAJOR",
+          "type": "SUPPORT"
+        },
+        {
+          "level": 180.0,
+          "strikes": [
+            180.0
+          ],
+          "strike_count": 1,
+          "gex": 148896935.2,
+          "gex_total": 148896935.2,
+          "distance_pct": 10.77,
+          "strength": "MINOR",
+          "type": "SUPPORT"
+        },
+        {
+          "level": 185.0,
+          "strikes": [
+            185.0
+          ],
+          "strike_count": 1,
+          "gex": 91716352.53,
+          "gex_total": 91716352.53,
+          "distance_pct": 8.29,
+          "strength": "MINOR",
           "type": "SUPPORT"
         }
       ]
@@ -267,20 +226,20 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 47019295.73,
+      "net_gex": 47243323.6,
       "call_wall": null,
       "call_wall_size": null,
       "put_wall": 15.0,
-      "put_wall_size": 4161.34,
+      "put_wall_size": 4201.81,
       "max_pain": 400.0,
-      "spot": 395.6195,
+      "spot": 395.74,
       "expected_move_pct": null,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:06.055370+00:00",
+      "fetched_at": "2026-07-09T15:30:05.054353+00:00",
       "resistance_zones": [],
       "support_zones": [
         {
-          "level": 211.14,
+          "level": 211.17,
           "strikes": [
             5.0,
             10.0,
@@ -334,9 +293,9 @@
             250.0
           ],
           "strike_count": 50,
-          "gex": 940385.9145999999,
-          "gex_total": 47019295.73,
-          "distance_pct": 46.63,
+          "gex": 944866.4720000001,
+          "gex_total": 47243323.6,
+          "distance_pct": 46.64,
           "strength": "MAJOR",
           "type": "SUPPORT"
         }
@@ -347,77 +306,114 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 1312687.98,
-      "call_wall": null,
-      "call_wall_size": null,
+      "net_gex": 1661876776.35,
+      "call_wall": 750.0,
+      "call_wall_size": 169595680.71,
       "put_wall": 15.0,
-      "put_wall_size": 5.33,
+      "put_wall_size": 4.41,
       "max_pain": 592.5,
-      "spot": 602.97,
-      "expected_move_pct": null,
+      "spot": 604.18,
+      "expected_move_pct": 60.83,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:07.858098+00:00",
-      "resistance_zones": [],
+      "fetched_at": "2026-07-09T15:30:08.854865+00:00",
+      "resistance_zones": [
+        {
+          "level": 617.82,
+          "strikes": [
+            605.0,
+            607.5,
+            610.0,
+            612.5,
+            615.0,
+            620.0,
+            622.5,
+            625.0,
+            627.5,
+            630.0
+          ],
+          "strike_count": 10,
+          "gex": 47678366.598000005,
+          "gex_total": 476783665.98,
+          "distance_pct": 2.26,
+          "strength": "MAJOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 658.13,
+          "strikes": [
+            650.0,
+            655.0,
+            660.0,
+            662.5,
+            670.0,
+            672.5,
+            680.0
+          ],
+          "strike_count": 7,
+          "gex": 35395949.565714285,
+          "gex_total": 247771646.96,
+          "distance_pct": 8.93,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 750.0,
+          "strikes": [
+            750.0
+          ],
+          "strike_count": 1,
+          "gex": 169595680.71,
+          "gex_total": 169595680.71,
+          "distance_pct": 24.14,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        }
+      ],
       "support_zones": [
         {
-          "level": 201.73,
+          "level": 590.7,
           "strikes": [
-            5.0,
-            10.0,
-            15.0,
-            20.0,
-            25.0,
-            30.0,
-            35.0,
-            40.0,
-            45.0,
-            50.0,
-            55.0,
-            60.0,
-            65.0,
-            70.0,
-            75.0,
-            80.0,
-            85.0,
-            90.0,
-            95.0,
-            100.0,
-            105.0,
-            110.0,
-            115.0,
-            120.0,
-            125.0,
-            130.0,
-            135.0,
-            140.0,
-            145.0,
-            150.0,
-            155.0,
-            160.0,
-            165.0,
-            170.0,
-            175.0,
-            180.0,
-            185.0,
-            190.0,
-            195.0,
-            200.0,
-            205.0,
-            210.0,
-            215.0,
-            220.0,
-            225.0,
-            230.0,
-            235.0,
-            240.0,
-            245.0,
-            250.0
+            570.0,
+            572.5,
+            580.0,
+            585.0,
+            587.5,
+            590.0,
+            592.5,
+            595.0,
+            597.5,
+            600.0,
+            602.5
           ],
-          "strike_count": 50,
-          "gex": 26253.7596,
-          "gex_total": 1312687.98,
-          "distance_pct": 66.54,
+          "strike_count": 11,
+          "gex": 42923648.85727272,
+          "gex_total": 472160137.42999995,
+          "distance_pct": 2.23,
           "strength": "MAJOR",
+          "type": "SUPPORT"
+        },
+        {
+          "level": 520.0,
+          "strikes": [
+            520.0
+          ],
+          "strike_count": 1,
+          "gex": 18164116.86,
+          "gex_total": 18164116.86,
+          "distance_pct": 13.93,
+          "strength": "MINOR",
+          "type": "SUPPORT"
+        },
+        {
+          "level": 545.0,
+          "strikes": [
+            545.0
+          ],
+          "strike_count": 1,
+          "gex": 7262440.71,
+          "gex_total": 7262440.71,
+          "distance_pct": 9.8,
+          "strength": "MINOR",
           "type": "SUPPORT"
         }
       ]
@@ -427,44 +423,35 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 2832461344.93,
+      "net_gex": 2636342229.53,
       "call_wall": 320.0,
-      "call_wall_size": 330079320.88,
-      "put_wall": 5.0,
-      "put_wall_size": 57.04,
+      "call_wall_size": 394413086.47,
+      "put_wall": 10.0,
+      "put_wall_size": 51.98,
       "max_pain": 302.5,
-      "spot": 312.405,
-      "expected_move_pct": 50.42,
+      "spot": 314.46,
+      "expected_move_pct": 49.29,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:09.256284+00:00",
+      "fetched_at": "2026-07-09T15:30:11.054688+00:00",
       "resistance_zones": [
         {
-          "level": 318.27,
+          "level": 321.23,
           "strikes": [
-            312.5,
             315.0,
             317.5,
             320.0,
             322.5,
-            325.0
+            325.0,
+            327.5,
+            330.0,
+            332.5,
+            335.0
           ],
-          "strike_count": 6,
-          "gex": 149784545.32666668,
-          "gex_total": 898707271.96,
-          "distance_pct": 1.88,
+          "strike_count": 9,
+          "gex": 122635557.47222222,
+          "gex_total": 1103720017.25,
+          "distance_pct": 2.15,
           "strength": "MAJOR",
-          "type": "RESISTANCE"
-        },
-        {
-          "level": 330.0,
-          "strikes": [
-            330.0
-          ],
-          "strike_count": 1,
-          "gex": 120275241.78,
-          "gex_total": 120275241.78,
-          "distance_pct": 5.63,
-          "strength": "MINOR",
           "type": "RESISTANCE"
         },
         {
@@ -473,47 +460,52 @@
             350.0
           ],
           "strike_count": 1,
-          "gex": 80145151.61000001,
-          "gex_total": 80145151.61000001,
-          "distance_pct": 12.03,
+          "gex": 85560592.03,
+          "gex_total": 85560592.03,
+          "distance_pct": 11.3,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 340.0,
+          "strikes": [
+            340.0
+          ],
+          "strike_count": 1,
+          "gex": 49137198.74,
+          "gex_total": 49137198.74,
+          "distance_pct": 8.12,
           "strength": "MINOR",
           "type": "RESISTANCE"
         }
       ],
       "support_zones": [
         {
-          "level": 302.74,
+          "level": 306.29,
           "strikes": [
-            285.0,
-            287.5,
-            290.0,
-            292.5,
-            295.0,
-            297.5,
             300.0,
             302.5,
             305.0,
             307.5,
-            310.0
+            310.0,
+            312.5
           ],
-          "strike_count": 11,
-          "gex": 131657349.96545456,
-          "gex_total": 1448230849.6200001,
-          "distance_pct": 3.09,
+          "strike_count": 6,
+          "gex": 177893757.86166668,
+          "gex_total": 1067362547.1700001,
+          "distance_pct": 2.6,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
         {
-          "level": 278.66,
+          "level": 295.0,
           "strikes": [
-            275.0,
-            277.5,
-            280.0
+            295.0
           ],
-          "strike_count": 3,
-          "gex": 44585525.28,
-          "gex_total": 133756575.84,
-          "distance_pct": 10.8,
+          "strike_count": 1,
+          "gex": 92580976.75,
+          "gex_total": 92580976.75,
+          "distance_pct": 6.19,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
@@ -523,9 +515,9 @@
             270.0
           ],
           "strike_count": 1,
-          "gex": 60361161.8,
-          "gex_total": 60361161.8,
-          "distance_pct": 13.57,
+          "gex": 56228492.26,
+          "gex_total": 56228492.26,
+          "distance_pct": 14.14,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -536,20 +528,96 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 420424265.59999996,
-      "call_wall": null,
-      "call_wall_size": null,
-      "put_wall": 317.5,
-      "put_wall_size": 2.09,
+      "net_gex": 1538708993.95,
+      "call_wall": 400.0,
+      "call_wall_size": 199017416.26999998,
+      "put_wall": 180.0,
+      "put_wall_size": 60534.259999999995,
       "max_pain": 380.0,
-      "spot": 379.075,
-      "expected_move_pct": null,
+      "spot": 380.095,
+      "expected_move_pct": 28.94,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:11.255833+00:00",
-      "resistance_zones": [],
+      "fetched_at": "2026-07-09T15:30:14.955499+00:00",
+      "resistance_zones": [
+        {
+          "level": 387.8,
+          "strikes": [
+            382.5,
+            385.0,
+            387.5,
+            390.0,
+            392.5
+          ],
+          "strike_count": 5,
+          "gex": 64844331.252,
+          "gex_total": 324221656.26,
+          "distance_pct": 2.03,
+          "strength": "MAJOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 400.0,
+          "strikes": [
+            400.0
+          ],
+          "strike_count": 1,
+          "gex": 199017416.26999998,
+          "gex_total": 199017416.26999998,
+          "distance_pct": 5.24,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 418.84,
+          "strikes": [
+            415.0,
+            420.0
+          ],
+          "strike_count": 2,
+          "gex": 62235329.38000001,
+          "gex_total": 124470658.76000002,
+          "distance_pct": 10.19,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        }
+      ],
       "support_zones": [
         {
-          "level": 338.75,
+          "level": 376.02,
+          "strikes": [
+            367.5,
+            370.0,
+            372.5,
+            375.0,
+            377.5,
+            380.0
+          ],
+          "strike_count": 6,
+          "gex": 80720318.82666667,
+          "gex_total": 484321912.96000004,
+          "distance_pct": 1.07,
+          "strength": "MAJOR",
+          "type": "SUPPORT"
+        },
+        {
+          "level": 351.7,
+          "strikes": [
+            340.0,
+            345.0,
+            347.5,
+            350.0,
+            355.0,
+            360.0
+          ],
+          "strike_count": 6,
+          "gex": 38930693.35666667,
+          "gex_total": 233584160.14000002,
+          "distance_pct": 7.47,
+          "strength": "MINOR",
+          "type": "SUPPORT"
+        },
+        {
+          "level": 278.65,
           "strikes": [
             175.0,
             180.0,
@@ -576,37 +644,13 @@
             285.0,
             290.0,
             295.0,
-            300.0,
-            305.0,
-            310.0,
-            315.0,
-            317.5,
-            320.0,
-            322.5,
-            325.0,
-            327.5,
-            330.0,
-            332.5,
-            335.0,
-            337.5,
-            340.0,
-            342.5,
-            345.0,
-            347.5,
-            350.0,
-            352.5,
-            355.0,
-            357.5,
-            360.0,
-            362.5,
-            365.0,
-            367.5
+            300.0
           ],
-          "strike_count": 50,
-          "gex": 8408485.311999999,
-          "gex_total": 420424265.59999996,
-          "distance_pct": 10.64,
-          "strength": "MAJOR",
+          "strike_count": 26,
+          "gex": 2097952.178846154,
+          "gex_total": 54546756.65,
+          "distance_pct": 26.69,
+          "strength": "MINOR",
           "type": "SUPPORT"
         }
       ]
@@ -616,102 +660,124 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 482496422.37,
+      "net_gex": 623711086.19,
       "call_wall": 600.0,
-      "call_wall_size": 35417529.91,
-      "put_wall": 15.0,
-      "put_wall_size": 143.84,
+      "call_wall_size": 34077037.01,
+      "put_wall": 95.0,
+      "put_wall_size": 192649.15,
       "max_pain": 515.0,
-      "spot": 555.75,
-      "expected_move_pct": 52.63,
+      "spot": 554.365,
+      "expected_move_pct": 45.55,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:14.058682+00:00",
+      "fetched_at": "2026-07-09T15:30:20.853550+00:00",
       "resistance_zones": [
         {
-          "level": 561.75,
+          "level": 576.59,
           "strikes": [
+            555.0,
             557.5,
             560.0,
-            567.5
+            565.0,
+            570.0,
+            572.5,
+            575.0,
+            580.0,
+            582.5,
+            585.0,
+            590.0,
+            592.5,
+            600.0
           ],
-          "strike_count": 3,
-          "gex": 13614832.5,
-          "gex_total": 40844497.5,
-          "distance_pct": 1.08,
+          "strike_count": 13,
+          "gex": 15210308.402307691,
+          "gex_total": 197734009.23,
+          "distance_pct": 4.01,
           "strength": "MAJOR",
           "type": "RESISTANCE"
         },
         {
-          "level": 599.39,
+          "level": 618.46,
           "strikes": [
-            595.0,
-            597.5,
-            600.0
+            615.0,
+            620.0,
+            625.0
           ],
           "strike_count": 3,
-          "gex": 13601619.486666664,
-          "gex_total": 40804858.45999999,
-          "distance_pct": 7.85,
+          "gex": 5850739.94,
+          "gex_total": 17552219.82,
+          "distance_pct": 11.56,
           "strength": "MINOR",
           "type": "RESISTANCE"
         },
         {
-          "level": 580.0,
+          "level": 649.77,
           "strikes": [
-            580.0
+            635.0,
+            637.5,
+            642.5,
+            650.0
           ],
-          "strike_count": 1,
-          "gex": 33112228.09,
-          "gex_total": 33112228.09,
-          "distance_pct": 4.36,
+          "strike_count": 4,
+          "gex": 2772816.9425,
+          "gex_total": 11091267.77,
+          "distance_pct": 17.21,
           "strength": "MINOR",
           "type": "RESISTANCE"
         }
       ],
       "support_zones": [
         {
-          "level": 527.24,
+          "level": 525.61,
           "strikes": [
+            495.0,
+            497.5,
+            500.0,
+            505.0,
+            507.5,
+            510.0,
+            512.5,
+            515.0,
+            517.5,
             520.0,
-            525.0,
-            527.5,
+            522.5,
             530.0,
-            532.5,
             535.0,
-            537.5
+            540.0,
+            545.0,
+            550.0,
+            552.5
           ],
-          "strike_count": 7,
-          "gex": 17987389.275714286,
-          "gex_total": 125911724.93,
-          "distance_pct": 5.13,
+          "strike_count": 17,
+          "gex": 17835441.418235295,
+          "gex_total": 303202504.11,
+          "distance_pct": 5.19,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
         {
-          "level": 551.22,
+          "level": 475.29,
           "strikes": [
-            550.0,
-            552.5,
-            555.0
+            470.0,
+            475.0,
+            480.0,
+            485.0
           ],
-          "strike_count": 3,
-          "gex": 23967534.55666666,
-          "gex_total": 71902603.66999999,
-          "distance_pct": 0.81,
+          "strike_count": 4,
+          "gex": 7545467.7925,
+          "gex_total": 30181871.17,
+          "distance_pct": 14.26,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
         {
-          "level": 497.62,
+          "level": 400.0,
           "strikes": [
-            490.0,
-            495.0,
-            500.0
+            400.0
           ],
-          "strike_count": 3,
-          "gex": 19056360.040000003,
-          "gex_total": 57169080.120000005,
-          "distance_pct": 10.46,
+          "strike_count": 1,
+          "gex": 25819810.439999998,
+          "gex_total": 25819810.439999998,
+          "distance_pct": 27.85,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -722,19 +788,19 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 1365766695.45,
+      "net_gex": 1331299729.93,
       "call_wall": 250.0,
-      "call_wall_size": 179837238.36,
+      "call_wall_size": 185605600.9,
       "put_wall": 202.5,
-      "put_wall_size": 1477.59,
+      "put_wall_size": 774.6500000000001,
       "max_pain": 240.0,
-      "spot": 241.3,
-      "expected_move_pct": 9.84,
+      "spot": 241.8,
+      "expected_move_pct": 9.82,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:15.556363+00:00",
+      "fetched_at": "2026-07-09T15:30:24.355710+00:00",
       "resistance_zones": [
         {
-          "level": 250.04,
+          "level": 251.08,
           "strikes": [
             242.5,
             245.0,
@@ -743,43 +809,21 @@
             252.5,
             255.0,
             257.5,
-            260.0
+            260.0,
+            262.5,
+            265.0
           ],
-          "strike_count": 8,
-          "gex": 75013297.21875,
-          "gex_total": 600106377.75,
-          "distance_pct": 3.62,
+          "strike_count": 10,
+          "gex": 66664104.60700001,
+          "gex_total": 666641046.07,
+          "distance_pct": 3.84,
           "strength": "MAJOR",
-          "type": "RESISTANCE"
-        },
-        {
-          "level": 270.0,
-          "strikes": [
-            270.0
-          ],
-          "strike_count": 1,
-          "gex": 73067659.72,
-          "gex_total": 73067659.72,
-          "distance_pct": 11.89,
-          "strength": "MINOR",
-          "type": "RESISTANCE"
-        },
-        {
-          "level": 320.0,
-          "strikes": [
-            320.0
-          ],
-          "strike_count": 1,
-          "gex": 14018810.860000001,
-          "gex_total": 14018810.860000001,
-          "distance_pct": 32.62,
-          "strength": "MINOR",
           "type": "RESISTANCE"
         }
       ],
       "support_zones": [
         {
-          "level": 227.69,
+          "level": 227.72,
           "strikes": [
             200.0,
             202.5,
@@ -800,9 +844,9 @@
             240.0
           ],
           "strike_count": 17,
-          "gex": 34040565.39117647,
-          "gex_total": 578689611.65,
-          "distance_pct": 5.64,
+          "gex": 33285000.268235292,
+          "gex_total": 565845004.56,
+          "distance_pct": 5.82,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
@@ -812,9 +856,9 @@
             190.0
           ],
           "strike_count": 1,
-          "gex": 16800981.92,
-          "gex_total": 16800981.92,
-          "distance_pct": 21.26,
+          "gex": 16534651.370000001,
+          "gex_total": 16534651.370000001,
+          "distance_pct": 21.42,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
@@ -824,9 +868,9 @@
             180.0
           ],
           "strike_count": 1,
-          "gex": 15882746.530000001,
-          "gex_total": 15882746.530000001,
-          "distance_pct": 25.4,
+          "gex": 15760133.57,
+          "gex_total": 15760133.57,
+          "distance_pct": 25.56,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -837,105 +881,77 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 842395672.36,
-      "call_wall": 360.0,
-      "call_wall_size": 96272357.85,
+      "net_gex": 43711831.41,
+      "call_wall": null,
+      "call_wall_size": null,
       "put_wall": 10.0,
-      "put_wall_size": 168.34,
+      "put_wall_size": 159.6,
       "max_pain": 360.0,
-      "spot": 353.015,
-      "expected_move_pct": 49.57,
+      "spot": 353.61,
+      "expected_move_pct": null,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:16.655018+00:00",
-      "resistance_zones": [
-        {
-          "level": 363.53,
-          "strikes": [
-            355.0,
-            357.5,
-            360.0,
-            362.5,
-            365.0,
-            367.5,
-            370.0,
-            375.0
-          ],
-          "strike_count": 8,
-          "gex": 44634365.48375,
-          "gex_total": 357074923.87,
-          "distance_pct": 2.98,
-          "strength": "MAJOR",
-          "type": "RESISTANCE"
-        },
-        {
-          "level": 395.52,
-          "strikes": [
-            390.0,
-            395.0,
-            400.0
-          ],
-          "strike_count": 3,
-          "gex": 31918361.83666667,
-          "gex_total": 95755085.51,
-          "distance_pct": 12.04,
-          "strength": "MINOR",
-          "type": "RESISTANCE"
-        },
-        {
-          "level": 450.0,
-          "strikes": [
-            450.0
-          ],
-          "strike_count": 1,
-          "gex": 21909279.63,
-          "gex_total": 21909279.63,
-          "distance_pct": 27.47,
-          "strength": "MINOR",
-          "type": "RESISTANCE"
-        }
-      ],
+      "fetched_at": "2026-07-09T15:30:26.453928+00:00",
+      "resistance_zones": [],
       "support_zones": [
         {
-          "level": 346.88,
+          "level": 219.5,
           "strikes": [
-            332.5,
-            335.0,
-            337.5,
-            342.5,
-            345.0,
-            347.5,
-            350.0,
-            352.5
+            5.0,
+            10.0,
+            15.0,
+            20.0,
+            25.0,
+            30.0,
+            35.0,
+            40.0,
+            45.0,
+            50.0,
+            55.0,
+            60.0,
+            65.0,
+            70.0,
+            75.0,
+            80.0,
+            85.0,
+            90.0,
+            95.0,
+            100.0,
+            105.0,
+            110.0,
+            115.0,
+            120.0,
+            125.0,
+            130.0,
+            135.0,
+            140.0,
+            145.0,
+            150.0,
+            155.0,
+            160.0,
+            165.0,
+            170.0,
+            175.0,
+            180.0,
+            185.0,
+            190.0,
+            195.0,
+            200.0,
+            205.0,
+            210.0,
+            215.0,
+            220.0,
+            225.0,
+            230.0,
+            235.0,
+            240.0,
+            245.0,
+            250.0
           ],
-          "strike_count": 8,
-          "gex": 31423767.03125,
-          "gex_total": 251390136.25,
-          "distance_pct": 1.74,
+          "strike_count": 50,
+          "gex": 874236.6281999999,
+          "gex_total": 43711831.41,
+          "distance_pct": 37.93,
           "strength": "MAJOR",
-          "type": "SUPPORT"
-        },
-        {
-          "level": 300.0,
-          "strikes": [
-            300.0
-          ],
-          "strike_count": 1,
-          "gex": 38948882.620000005,
-          "gex_total": 38948882.620000005,
-          "distance_pct": 15.02,
-          "strength": "MINOR",
-          "type": "SUPPORT"
-        },
-        {
-          "level": 310.0,
-          "strikes": [
-            310.0
-          ],
-          "strike_count": 1,
-          "gex": 28219893.619999997,
-          "gex_total": 28219893.619999997,
-          "distance_pct": 12.19,
-          "strength": "MINOR",
           "type": "SUPPORT"
         }
       ]
@@ -945,96 +961,89 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 953362123.3,
+      "net_gex": 914726593.23,
       "call_wall": 1050.0,
-      "call_wall_size": 98355643.95,
-      "put_wall": 305.0,
-      "put_wall_size": 161.13,
+      "call_wall_size": 96070254.89,
+      "put_wall": 535.0,
+      "put_wall_size": 29777.260000000002,
       "max_pain": 980.0,
-      "spot": 1020.08,
-      "expected_move_pct": 36.52,
+      "spot": 1017.25,
+      "expected_move_pct": 25.31,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:17.854920+00:00",
+      "fetched_at": "2026-07-09T15:30:28.453779+00:00",
       "resistance_zones": [
         {
-          "level": 1043.25,
+          "level": 1040.49,
           "strikes": [
-            1022.5,
+            1017.5,
+            1020.0,
             1025.0,
             1030.0,
-            1037.5,
-            1040.0,
+            1035.0,
             1045.0,
+            1047.5,
             1050.0,
-            1052.5
+            1052.5,
+            1055.0
           ],
-          "strike_count": 8,
-          "gex": 21316302.8575,
-          "gex_total": 170530422.86,
-          "distance_pct": 2.27,
+          "strike_count": 10,
+          "gex": 18898929.855,
+          "gex_total": 188989298.55,
+          "distance_pct": 2.28,
           "strength": "MAJOR",
           "type": "RESISTANCE"
         }
       ],
       "support_zones": [
         {
-          "level": 964.0,
+          "level": 997.05,
           "strikes": [
-            875.0,
-            880.0,
-            890.0,
-            895.0,
-            900.0,
-            910.0,
-            920.0,
-            935.0,
-            950.0,
-            955.0,
-            960.0,
-            970.0,
             980.0,
             985.0,
             990.0,
             995.0,
             1000.0,
+            1005.0,
             1010.0,
             1012.5,
-            1015.0,
-            1017.5,
-            1020.0
+            1015.0
           ],
-          "strike_count": 22,
-          "gex": 29539739.226363637,
-          "gex_total": 649874262.98,
-          "distance_pct": 5.5,
+          "strike_count": 9,
+          "gex": 38852289.00111111,
+          "gex_total": 349670601.01,
+          "distance_pct": 1.99,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
         {
-          "level": 801.07,
+          "level": 922.05,
           "strikes": [
-            800.0,
-            805.0,
-            810.0
+            900.0,
+            915.0,
+            920.0,
+            935.0,
+            940.0,
+            950.0
           ],
-          "strike_count": 3,
-          "gex": 14886997.06,
-          "gex_total": 44660991.18,
-          "distance_pct": 21.47,
+          "strike_count": 6,
+          "gex": 33077152.003333334,
+          "gex_total": 198462912.02,
+          "distance_pct": 9.36,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
         {
-          "level": 845.81,
+          "level": 804.89,
           "strikes": [
-            830.0,
-            845.0,
-            850.0
+            800.0,
+            810.0,
+            820.0,
+            825.0
           ],
-          "strike_count": 3,
-          "gex": 12350780.083333334,
-          "gex_total": 37052340.25,
-          "distance_pct": 17.08,
+          "strike_count": 4,
+          "gex": 13992882.4575,
+          "gex_total": 55971529.83,
+          "distance_pct": 20.88,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -1045,20 +1054,20 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 24757987.77,
+      "net_gex": 24721430.22,
       "call_wall": null,
       "call_wall_size": null,
-      "put_wall": 88.0,
-      "put_wall_size": 9.91,
+      "put_wall": 89.0,
+      "put_wall_size": 11.84,
       "max_pain": 127.0,
-      "spot": 126.1601,
+      "spot": 126.69,
       "expected_move_pct": null,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:19.058271+00:00",
+      "fetched_at": "2026-07-09T15:30:30.556834+00:00",
       "resistance_zones": [],
       "support_zones": [
         {
-          "level": 92.15,
+          "level": 92.16,
           "strikes": [
             87.5,
             88.0,
@@ -1075,9 +1084,9 @@
             97.5
           ],
           "strike_count": 13,
-          "gex": 865506.8776923077,
-          "gex_total": 11251589.41,
-          "distance_pct": 26.96,
+          "gex": 863619.4776923077,
+          "gex_total": 11227053.209999999,
+          "distance_pct": 27.26,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
@@ -1087,9 +1096,9 @@
             85.0
           ],
           "strike_count": 1,
-          "gex": 2933480.01,
-          "gex_total": 2933480.01,
-          "distance_pct": 32.63,
+          "gex": 2902080.79,
+          "gex_total": 2902080.79,
+          "distance_pct": 32.91,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
@@ -1099,9 +1108,9 @@
             80.0
           ],
           "strike_count": 1,
-          "gex": 2806357.15,
-          "gex_total": 2806357.15,
-          "distance_pct": 36.59,
+          "gex": 2788348.34,
+          "gex_total": 2788348.34,
+          "distance_pct": 36.85,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -1112,20 +1121,81 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 12602914.77,
-      "call_wall": null,
-      "call_wall_size": null,
+      "net_gex": 78224020.8,
+      "call_wall": 170.0,
+      "call_wall_size": 15852304.39,
       "put_wall": 113.0,
-      "put_wall_size": 130.57000000000002,
+      "put_wall_size": 146.44,
       "max_pain": 157.5,
-      "spot": 160.135,
-      "expected_move_pct": null,
+      "spot": 159.0,
+      "expected_move_pct": 17.92,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:20.185672+00:00",
-      "resistance_zones": [],
+      "fetched_at": "2026-07-09T15:30:33.254418+00:00",
+      "resistance_zones": [
+        {
+          "level": 170.0,
+          "strikes": [
+            170.0
+          ],
+          "strike_count": 1,
+          "gex": 15852304.39,
+          "gex_total": 15852304.39,
+          "distance_pct": 6.92,
+          "strength": "MAJOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 160.0,
+          "strikes": [
+            160.0
+          ],
+          "strike_count": 1,
+          "gex": 13260568.780000001,
+          "gex_total": 13260568.780000001,
+          "distance_pct": 0.63,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 165.0,
+          "strikes": [
+            165.0
+          ],
+          "strike_count": 1,
+          "gex": 8750844.030000001,
+          "gex_total": 8750844.030000001,
+          "distance_pct": 3.77,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        }
+      ],
       "support_zones": [
         {
-          "level": 126.52,
+          "level": 155.0,
+          "strikes": [
+            155.0
+          ],
+          "strike_count": 1,
+          "gex": 8928819.23,
+          "gex_total": 8928819.23,
+          "distance_pct": 2.52,
+          "strength": "MAJOR",
+          "type": "SUPPORT"
+        },
+        {
+          "level": 157.5,
+          "strikes": [
+            157.5
+          ],
+          "strike_count": 1,
+          "gex": 5039388.37,
+          "gex_total": 5039388.37,
+          "distance_pct": 0.94,
+          "strength": "MINOR",
+          "type": "SUPPORT"
+        },
+        {
+          "level": 120.73,
           "strikes": [
             108.0,
             109.0,
@@ -1145,46 +1215,12 @@
             123.0,
             124.0,
             125.0,
-            126.0,
-            127.0,
-            128.0,
-            129.0,
-            130.0,
-            131.0,
-            132.0,
-            133.0,
-            134.0,
-            135.0,
-            136.0
+            126.0
           ],
-          "strike_count": 29,
-          "gex": 310880.78275862074,
-          "gex_total": 9015542.700000001,
-          "distance_pct": 20.99,
-          "strength": "MAJOR",
-          "type": "SUPPORT"
-        },
-        {
-          "level": 95.0,
-          "strikes": [
-            95.0
-          ],
-          "strike_count": 1,
-          "gex": 989115.41,
-          "gex_total": 989115.41,
-          "distance_pct": 40.68,
-          "strength": "MINOR",
-          "type": "SUPPORT"
-        },
-        {
-          "level": 100.0,
-          "strikes": [
-            100.0
-          ],
-          "strike_count": 1,
-          "gex": 794368.0399999999,
-          "gex_total": 794368.0399999999,
-          "distance_pct": 37.55,
+          "strike_count": 19,
+          "gex": 251099.0847368421,
+          "gex_total": 4770882.61,
+          "distance_pct": 24.07,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -1195,20 +1231,21 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 890991299.33,
+      "net_gex": 894458268.8,
       "call_wall": 56.0,
-      "call_wall_size": 142237214.07,
+      "call_wall_size": 139429293.04,
       "put_wall": 45.5,
-      "put_wall_size": 44.76,
+      "put_wall_size": 45.56,
       "max_pain": 55.0,
-      "spot": 55.515,
+      "spot": 55.4799,
       "expected_move_pct": 9.46,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:21.577563+00:00",
+      "fetched_at": "2026-07-09T15:30:34.954533+00:00",
       "resistance_zones": [
         {
-          "level": 56.56,
+          "level": 56.33,
           "strikes": [
+            55.5,
             56.0,
             56.5,
             57.0,
@@ -1217,17 +1254,17 @@
             58.5,
             59.0
           ],
-          "strike_count": 7,
-          "gex": 31526314.634285714,
-          "gex_total": 220684202.44,
-          "distance_pct": 1.88,
+          "strike_count": 8,
+          "gex": 34270278.348749995,
+          "gex_total": 274162226.78999996,
+          "distance_pct": 1.54,
           "strength": "MAJOR",
           "type": "RESISTANCE"
         }
       ],
       "support_zones": [
         {
-          "level": 52.78,
+          "level": 52.53,
           "strikes": [
             45.0,
             45.5,
@@ -1249,13 +1286,12 @@
             53.5,
             54.0,
             54.5,
-            55.0,
-            55.5
+            55.0
           ],
-          "strike_count": 22,
-          "gex": 29316595.414545454,
-          "gex_total": 644965099.12,
-          "distance_pct": 4.92,
+          "strike_count": 21,
+          "gex": 28320881.735238098,
+          "gex_total": 594738516.44,
+          "distance_pct": 5.31,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
@@ -1265,9 +1301,9 @@
             43.0
           ],
           "strike_count": 1,
-          "gex": 7218398.68,
-          "gex_total": 7218398.68,
-          "distance_pct": 22.54,
+          "gex": 7266763.88,
+          "gex_total": 7266763.88,
+          "distance_pct": 22.49,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
@@ -1277,9 +1313,9 @@
             44.0
           ],
           "strike_count": 1,
-          "gex": 5122613.61,
-          "gex_total": 5122613.61,
-          "distance_pct": 20.74,
+          "gex": 5140637.7,
+          "gex_total": 5140637.7,
+          "distance_pct": 20.69,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -1290,20 +1326,20 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 198187931.88,
+      "net_gex": 200032230.16,
       "call_wall": null,
       "call_wall_size": null,
       "put_wall": 34.0,
-      "put_wall_size": 552.31,
+      "put_wall_size": 552.51,
       "max_pain": 53.0,
-      "spot": 55.085,
+      "spot": 55.07,
       "expected_move_pct": null,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:22.655508+00:00",
+      "fetched_at": "2026-07-09T15:30:37.854165+00:00",
       "resistance_zones": [],
       "support_zones": [
         {
-          "level": 49.75,
+          "level": 49.77,
           "strikes": [
             35.0,
             35.5,
@@ -1347,9 +1383,9 @@
             54.5
           ],
           "strike_count": 40,
-          "gex": 4929593.42325,
-          "gex_total": 197183736.93,
-          "distance_pct": 9.69,
+          "gex": 4975214.676,
+          "gex_total": 199008587.04,
+          "distance_pct": 9.62,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
@@ -1361,9 +1397,9 @@
             33.0
           ],
           "strike_count": 3,
-          "gex": 193216.67,
-          "gex_total": 579650.01,
-          "distance_pct": 41.0,
+          "gex": 194333.54000000004,
+          "gex_total": 583000.6200000001,
+          "distance_pct": 40.98,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
@@ -1373,9 +1409,9 @@
             30.0
           ],
           "strike_count": 1,
-          "gex": 174254.91,
-          "gex_total": 174254.91,
-          "distance_pct": 45.54,
+          "gex": 176632.27000000002,
+          "gex_total": 176632.27000000002,
+          "distance_pct": 45.52,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -1386,122 +1422,128 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 1745678526.32,
+      "net_gex": 1466641527.62,
       "call_wall": 380.0,
-      "call_wall_size": 175650837.07,
-      "put_wall": 245.0,
-      "put_wall_size": 128834.9,
+      "call_wall_size": 175845842.14999998,
+      "put_wall": 354.0,
+      "put_wall_size": 1671834.96,
       "max_pain": 375.0,
-      "spot": 378.42,
-      "expected_move_pct": 17.84,
+      "spot": 378.63,
+      "expected_move_pct": 3.43,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:23.756154+00:00",
+      "fetched_at": "2026-07-09T15:30:39.153572+00:00",
       "resistance_zones": [
         {
-          "level": 396.35,
+          "level": 406.88,
           "strikes": [
-            386.0,
-            390.0,
+            392.0,
             393.0,
             394.0,
             395.0,
-            396.0,
-            397.0,
             400.0,
-            405.0
+            405.0,
+            407.0,
+            408.0,
+            410.0,
+            411.0,
+            415.0,
+            416.0,
+            417.0,
+            418.0,
+            419.0,
+            420.0,
+            425.0
           ],
-          "strike_count": 9,
-          "gex": 45461754.578888886,
-          "gex_total": 409155791.21,
-          "distance_pct": 4.74,
+          "strike_count": 17,
+          "gex": 30085474.998235293,
+          "gex_total": 511453074.96999997,
+          "distance_pct": 7.46,
           "strength": "MAJOR",
           "type": "RESISTANCE"
         },
         {
-          "level": 379.92,
+          "level": 380.55,
           "strikes": [
             379.0,
-            380.0
+            380.0,
+            381.0,
+            382.0,
+            383.0,
+            384.0
           ],
-          "strike_count": 2,
-          "gex": 95773321.47,
-          "gex_total": 191546642.94,
-          "distance_pct": 0.4,
+          "strike_count": 6,
+          "gex": 43139202.15333333,
+          "gex_total": 258835212.92,
+          "distance_pct": 0.51,
           "strength": "MINOR",
           "type": "RESISTANCE"
         },
         {
-          "level": 417.58,
+          "level": 450.0,
           "strikes": [
-            415.0,
-            420.0
+            447.0,
+            450.0
           ],
           "strike_count": 2,
-          "gex": 60787923.39,
-          "gex_total": 121575846.78,
-          "distance_pct": 10.35,
+          "gex": 22845324.915,
+          "gex_total": 45690649.83,
+          "distance_pct": 18.85,
           "strength": "MINOR",
           "type": "RESISTANCE"
         }
       ],
       "support_zones": [
         {
-          "level": 364.54,
+          "level": 367.37,
           "strikes": [
-            345.0,
             350.0,
-            351.0,
-            353.0,
             354.0,
-            355.0,
             356.0,
             357.0,
-            358.0,
-            359.0,
-            360.0,
-            362.0,
+            361.0,
             363.0,
-            365.0,
+            366.0,
+            367.0,
+            368.0,
             369.0,
             370.0,
             372.0,
             373.0,
             374.0,
             375.0,
-            376.0,
             377.0,
             378.0
           ],
-          "strike_count": 23,
-          "gex": 38566009.42391305,
-          "gex_total": 887018216.75,
-          "distance_pct": 3.67,
+          "strike_count": 17,
+          "gex": 32718255.838823527,
+          "gex_total": 556210349.26,
+          "distance_pct": 2.97,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
         {
-          "level": 322.47,
+          "level": 335.0,
           "strikes": [
-            320.0,
-            325.0
+            335.0
           ],
-          "strike_count": 2,
-          "gex": 15318271.865,
-          "gex_total": 30636543.73,
-          "distance_pct": 14.78,
+          "strike_count": 1,
+          "gex": 34106596.58,
+          "gex_total": 34106596.58,
+          "distance_pct": 11.52,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
         {
-          "level": 278.46,
+          "level": 297.29,
           "strikes": [
-            275.0,
-            280.0
+            290.0,
+            295.0,
+            300.0
           ],
-          "strike_count": 2,
-          "gex": 3051280.6000000006,
-          "gex_total": 6102561.200000001,
-          "distance_pct": 26.41,
+          "strike_count": 3,
+          "gex": 7337824.239999999,
+          "gex_total": 22013472.72,
+          "distance_pct": 21.48,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
@@ -1512,19 +1554,19 @@
       "spot_exposures_ok": true,
       "iv_rank": null,
       "iv_percentile": null,
-      "net_gex": 3263512663.74,
+      "net_gex": 3343277779.41,
       "call_wall": 85.0,
-      "call_wall_size": 586001398.55,
+      "call_wall_size": 600417629.05,
       "put_wall": 67.0,
-      "put_wall_size": 3752.16,
+      "put_wall_size": 3432.63,
       "max_pain": 84.5,
-      "spot": 84.42,
+      "spot": 84.46,
       "expected_move_pct": 10.66,
       "signal": "\u2014",
-      "fetched_at": "2026-07-09T15:15:24.657058+00:00",
+      "fetched_at": "2026-07-09T15:30:40.556247+00:00",
       "resistance_zones": [
         {
-          "level": 86.72,
+          "level": 86.63,
           "strikes": [
             84.5,
             85.0,
@@ -1543,21 +1585,43 @@
             91.5,
             92.0,
             92.5,
-            93.0,
-            93.5,
-            94.0
+            93.0
           ],
-          "strike_count": 20,
-          "gex": 102576727.4045,
-          "gex_total": 2051534548.09,
-          "distance_pct": 2.73,
+          "strike_count": 18,
+          "gex": 116351534.005,
+          "gex_total": 2094327612.09,
+          "distance_pct": 2.57,
           "strength": "MAJOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 100.0,
+          "strikes": [
+            100.0
+          ],
+          "strike_count": 1,
+          "gex": 47897089.300000004,
+          "gex_total": 47897089.300000004,
+          "distance_pct": 18.4,
+          "strength": "MINOR",
+          "type": "RESISTANCE"
+        },
+        {
+          "level": 120.0,
+          "strikes": [
+            120.0
+          ],
+          "strike_count": 1,
+          "gex": 14838222.59,
+          "gex_total": 14838222.59,
+          "distance_pct": 42.08,
+          "strength": "MINOR",
           "type": "RESISTANCE"
         }
       ],
       "support_zones": [
         {
-          "level": 81.94,
+          "level": 81.92,
           "strikes": [
             65.0,
             66.0,
@@ -1587,9 +1651,9 @@
             84.0
           ],
           "strike_count": 26,
-          "gex": 46538803.46115385,
-          "gex_total": 1210008889.99,
-          "distance_pct": 2.94,
+          "gex": 45548460.58461539,
+          "gex_total": 1184259975.2,
+          "distance_pct": 3.0,
           "strength": "MAJOR",
           "type": "SUPPORT"
         },
@@ -1599,9 +1663,9 @@
             55.0
           ],
           "strike_count": 1,
-          "gex": 883071.65,
-          "gex_total": 883071.65,
-          "distance_pct": 34.85,
+          "gex": 906121.68,
+          "gex_total": 906121.68,
+          "distance_pct": 34.88,
           "strength": "MINOR",
           "type": "SUPPORT"
         },
@@ -1611,9 +1675,9 @@
             60.0
           ],
           "strike_count": 1,
-          "gex": 721254.9500000001,
-          "gex_total": 721254.9500000001,
-          "distance_pct": 28.93,
+          "gex": 704258.93,
+          "gex_total": 704258.93,
+          "distance_pct": 28.96,
           "strength": "MINOR",
           "type": "SUPPORT"
         }
