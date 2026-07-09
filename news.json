@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09T01:47:07Z",
-  "generated_display": "2026-07-09 01:47 ET",
+  "generated": "2026-07-09T01:52:07Z",
+  "generated_display": "2026-07-09 01:52 ET",
   "count": 217,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-09T01:47:02.145400+00:00",
+      "last_error_ts": "2026-07-09T01:52:01.818413+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 21,
-      "latency_ms": 135,
-      "last_success": "2026-07-09T01:47:02.282593+00:00",
+      "latency_ms": 264,
+      "last_success": "2026-07-09T01:52:02.085185+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 58,
-      "last_success": "2026-07-09T01:47:02.342033+00:00",
+      "latency_ms": 95,
+      "last_success": "2026-07-09T01:52:02.180873+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 147,
-      "last_success": "2026-07-09T01:47:02.492986+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-09T01:52:02.283343+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-09T01:47:02.586429+00:00",
+      "last_error_ts": "2026-07-09T01:52:02.390365+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2192,
-      "last_success": "2026-07-09T01:47:04.778824+00:00",
+      "latency_ms": 2168,
+      "last_success": "2026-07-09T01:52:04.559163+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-09T01:47:05.566977+00:00",
+      "last_success": "2026-07-09T01:52:05.443965+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1711,
-      "last_success": "2026-07-09T01:47:07.278946+00:00",
+      "latency_ms": 1688,
+      "last_success": "2026-07-09T01:52:07.132399+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 108
+          "latency_ms": 226
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 195
+          "latency_ms": 101
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 102
+          "latency_ms": 38
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 197
+          "latency_ms": 258
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 117
+          "latency_ms": 119
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 66
+          "latency_ms": 139
         }
       }
     }
@@ -112,11 +112,545 @@
     "massive_news": 50,
     "marketwatch": 8,
     "zerohedge": 8,
-    "benzinga": 19,
     "seekingalpha": 7,
+    "benzinga": 19,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "0a3e2c14ea7572",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:51:36Z",
+      "title": "$SPY $QQQ  slow grind into the red.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658617990",
+      "author": "icharted",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:51:36Z",
+      "text": "$SPY $QQQ  slow grind into the red.",
+      "description": "",
+      "handle": "icharted",
+      "display_name": "Damon",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8d317b4ff76e22",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:51:36Z",
+      "title": "$SPY $QQQ  slow grind into the red.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658617990",
+      "author": "icharted",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:51:36Z",
+      "text": "$SPY $QQQ  slow grind into the red.",
+      "description": "",
+      "handle": "icharted",
+      "display_name": "Damon",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c68ad79aa7cc84",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:51:36Z",
+      "title": "@rubystocks Hard to tell. Assuming no mass market sell off $MSFT Could very possibly hit $400-$410 pre earnings maybe even higher.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658617988",
+      "author": "ThreeBrothersCapital",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T01:51:36Z",
+      "text": "@rubystocks Hard to tell. Assuming no mass market sell off $MSFT Could very possibly hit $400-$410 pre earnings maybe even higher.",
+      "description": "",
+      "handle": "ThreeBrothersCapital",
+      "display_name": "3BC",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a94fe2cfdbbb42",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:51:35Z",
+      "title": "$SPY so the USA is investigating Argentina because they believe 300m was spent and none of it went to Uncle Sam?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658617986",
+      "author": "GoysUnited1007",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:51:35Z",
+      "text": "$SPY so the USA is investigating Argentina because they believe 300m was spent and none of it went to Uncle Sam?",
+      "description": "",
+      "handle": "GoysUnited1007",
+      "display_name": "Benjamin gavir",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6e9e5ddd2aaedd",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-09T01:51:07Z",
+      "title": "Kuwaiti Army Says Defence Systems Responding to Missile and Drone Threats",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:51:07Z",
+      "text": "Kuwaiti Army Says Defence Systems Responding to Missile and Drone Threats",
+      "description": ""
+    },
+    {
+      "id": "6a58f0708122a0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:50:48Z",
+      "title": "$DJT $SPY I have serious questions about you...the TDS is so old and boring ....",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658617954",
+      "author": "AngryElf",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:50:48Z",
+      "text": "$DJT $SPY I have serious questions about you...the TDS is so old and boring ....",
+      "description": "",
+      "handle": "AngryElf",
+      "display_name": "M. Finch",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5987946c5b781c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:50:33Z",
+      "title": "$MU $QQQ \n\nTime to win this war again",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658617944",
+      "author": "stonedbunny",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T01:50:33Z",
+      "text": "$MU $QQQ \n\nTime to win this war again",
+      "description": "",
+      "handle": "stonedbunny",
+      "display_name": "Bugz",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "083c6d5130c29d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:50:04Z",
+      "title": "$META the canada data center was already factored into the original capex plan. nothing&#39;s changed",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658617920",
+      "author": "Jimsonlima",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T01:50:04Z",
+      "text": "$META the canada data center was already factored into the original capex plan. nothing&#39;s changed",
+      "description": "",
+      "handle": "Jimsonlima",
+      "display_name": "Jimson Lima",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ea05344eda0f42",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:49:57Z",
+      "title": "Does iran no longer have the ability to retaliate in any meaningful way \n \nis the only move they have to attack defenseless shipping carriers \n \ngenuine question \n \n$SPY $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658617914",
+      "author": "ASM",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:57Z",
+      "text": "Does iran no longer have the ability to retaliate in any meaningful way \n \nis the only move they have to attack defenseless shipping carriers \n \ngenuine question \n \n$SPY $QQQ",
+      "description": "",
+      "handle": "ASM",
+      "display_name": "ASM",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2cf28994e69589",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:49:57Z",
+      "title": "Does iran no longer have the ability to retaliate in any meaningful way \n \nis the only move they have to attack defenseless shipping carriers \n \ngenuine question \n \n$SPY $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658617914",
+      "author": "ASM",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:57Z",
+      "text": "Does iran no longer have the ability to retaliate in any meaningful way \n \nis the only move they have to attack defenseless shipping carriers \n \ngenuine question \n \n$SPY $QQQ",
+      "description": "",
+      "handle": "ASM",
+      "display_name": "ASM",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9a4d1fefebf1c5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:49:36Z",
+      "title": "$NIKKEI $TNX $SPY JP10Y JGBs are at a critical 38.6% long-term retracement, which can cause ripple effects across global markets.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658617902",
+      "author": "MisterSplashyPants",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:36Z",
+      "text": "$NIKKEI $TNX $SPY JP10Y JGBs are at a critical 38.6% long-term retracement, which can cause ripple effects across global markets.",
+      "description": "",
+      "handle": "MisterSplashyPants",
+      "display_name": "Justin Samson",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "11aa6d46049989",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-09T01:49:24Z",
+      "title": "Taiwan CB Chief Highlights AI Growth Potential While Cautioning Against Excessive Leverage",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "AI",
+        "CB"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:24Z",
+      "text": "Taiwan CB Chief Highlights AI Growth Potential While Cautioning Against Excessive Leverage",
+      "description": ""
+    },
+    {
+      "id": "62185f4603e300",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-09T01:49:24Z",
+      "title": "Taiwan central bank chief: AI fueled by real growth potential, but risk lies in over-expansion through excessive leverage",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "AI"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:24Z",
+      "text": "Taiwan central bank chief: AI fueled by real growth potential, but risk lies in over-expansion through excessive leverage",
+      "description": ""
+    },
+    {
+      "id": "b5a70edcac9131",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:49:05Z",
+      "title": "$SPY $QQQ $IWM $NVDA \n\nYou can go harder trader, Push.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658617883",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:05Z",
+      "text": "$SPY $QQQ $IWM $NVDA \n\nYou can go harder trader, Push.",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b6853bbf711584",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:49:05Z",
+      "title": "$SPY $QQQ $IWM $NVDA \n\nYou can go harder trader, Push.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658617883",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:05Z",
+      "text": "$SPY $QQQ $IWM $NVDA \n\nYou can go harder trader, Push.",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ef0a6fcd28d27a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:49:05Z",
+      "title": "$SPY $QQQ $IWM $NVDA \n\nYou can go harder trader, Push.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658617883",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:05Z",
+      "text": "$SPY $QQQ $IWM $NVDA \n\nYou can go harder trader, Push.",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "49e48160fbfd7a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:49:00Z",
+      "title": "$AMZN Part 25",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658617878",
+      "author": "AnonMav",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:49:00Z",
+      "text": "$AMZN Part 25",
+      "description": "",
+      "handle": "AnonMav",
+      "display_name": "AnonMav",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f100de0c88a1bf",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-09T01:48:47Z",
+      "title": "Air Raid Sirens Sound Again in Bahrain Amid Security Alert",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "AIR"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:48:47Z",
+      "text": "Air Raid Sirens Sound Again in Bahrain Amid Security Alert",
+      "description": ""
+    },
+    {
+      "id": "a8116d3a5f254b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:48:46Z",
+      "title": "$AAPL $AMD $BE $NVDA $SOXL \nIf you\u2019re so worried about WW3, why you so hung up on the price of some semiconductors? Shouldn\u2019t you be making some preparations for our impending doom?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658617868",
+      "author": "Joecoolio",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T01:48:46Z",
+      "text": "$AAPL $AMD $BE $NVDA $SOXL \nIf you\u2019re so worried about WW3, why you so hung up on the price of some semiconductors? Shouldn\u2019t you be making some preparations for our impending doom?",
+      "description": "",
+      "handle": "Joecoolio",
+      "display_name": "Joe",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7e1d57b094a5e9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:48:46Z",
+      "title": "$AAPL $AMD $BE $NVDA $SOXL \nIf you\u2019re so worried about WW3, why you so hung up on the price of some semiconductors? Shouldn\u2019t you be making some preparations for our impending doom?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658617868",
+      "author": "Joecoolio",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T01:48:46Z",
+      "text": "$AAPL $AMD $BE $NVDA $SOXL \nIf you\u2019re so worried about WW3, why you so hung up on the price of some semiconductors? Shouldn\u2019t you be making some preparations for our impending doom?",
+      "description": "",
+      "handle": "Joecoolio",
+      "display_name": "Joe",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9764a41602ed41",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:48:46Z",
+      "title": "$AAPL $AMD $BE $NVDA $SOXL \nIf you\u2019re so worried about WW3, why you so hung up on the price of some semiconductors? Shouldn\u2019t you be making some preparations for our impending doom?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658617868",
+      "author": "Joecoolio",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T01:48:46Z",
+      "text": "$AAPL $AMD $BE $NVDA $SOXL \nIf you\u2019re so worried about WW3, why you so hung up on the price of some semiconductors? Shouldn\u2019t you be making some preparations for our impending doom?",
+      "description": "",
+      "handle": "Joecoolio",
+      "display_name": "Joe",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f8e045c622c73e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:48:33Z",
+      "title": "Indices Broaden Into Trading Ranges $IWM $BTC $SPX $NDX $QQQ https://talkmarkets.com/article/indices-broaden-into-trading-ranges-1783561692",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658617860",
+      "author": "TalkMarkets",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:48:33Z",
+      "text": "Indices Broaden Into Trading Ranges $IWM $BTC $SPX $NDX $QQQ https://talkmarkets.com/article/indices-broaden-into-trading-ranges-1783561692",
+      "description": "",
+      "handle": "TalkMarkets",
+      "display_name": "TalkMarkets",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "03e35e26e9a2f2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T01:48:33Z",
+      "title": "Indices Broaden Into Trading Ranges $IWM $BTC $SPX $NDX $QQQ https://talkmarkets.com/article/indices-broaden-into-trading-ranges-1783561692",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658617860",
+      "author": "TalkMarkets",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:48:33Z",
+      "text": "Indices Broaden Into Trading Ranges $IWM $BTC $SPX $NDX $QQQ https://talkmarkets.com/article/indices-broaden-into-trading-ranges-1783561692",
+      "description": "",
+      "handle": "TalkMarkets",
+      "display_name": "TalkMarkets",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4c8c9cc96b7502",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-09T01:47:03Z",
+      "title": "Tight postal vote rules lock Malaysians in Hong Kong out of state elections - scmp",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T01:47:03Z",
+      "text": "Tight postal vote rules lock Malaysians in Hong Kong out of state elections - scmp",
+      "description": ""
+    },
     {
       "id": "5ec7a46c942098",
       "source": "stocktwits",
@@ -141,121 +675,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f1f430654dec05",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:46:41Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658617788",
-      "author": "AngryElf",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:46:41Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "AngryElf",
-      "display_name": "M. Finch",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "bebc75938e3f0c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:46:40Z",
-      "title": "$QQQ $SPY Trump said he will retaliate 20x whatever Iran throws. \nIran promises to retaliate 1.5x what the us throws. \nEscalation will only escalate in an exponential way. \nThis will get so much uglier, I am selling all market positions tomorrow morning",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658617787",
-      "author": "PaulBEquity",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:46:40Z",
-      "text": "$QQQ $SPY Trump said he will retaliate 20x whatever Iran throws. \nIran promises to retaliate 1.5x what the us throws. \nEscalation will only escalate in an exponential way. \nThis will get so much uglier, I am selling all market positions tomorrow morning",
-      "description": "",
-      "handle": "PaulBEquity",
-      "display_name": "Paul B",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e50a9ff2494243",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:46:40Z",
-      "title": "$QQQ $SPY Trump said he will retaliate 20x whatever Iran throws. \nIran promises to retaliate 1.5x what the us throws. \nEscalation will only escalate in an exponential way. \nThis will get so much uglier, I am selling all market positions tomorrow morning",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658617787",
-      "author": "PaulBEquity",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:46:40Z",
-      "text": "$QQQ $SPY Trump said he will retaliate 20x whatever Iran throws. \nIran promises to retaliate 1.5x what the us throws. \nEscalation will only escalate in an exponential way. \nThis will get so much uglier, I am selling all market positions tomorrow morning",
-      "description": "",
-      "handle": "PaulBEquity",
-      "display_name": "Paul B",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "80051c7261a028",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:45:35Z",
-      "title": "$SPY WHO says 1:5 will get cancer.\n\nAI like, let\u2019s make brain rot and bomb girl schools",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658617752",
-      "author": "StateOfCapitalism",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:45:35Z",
-      "text": "$SPY WHO says 1:5 will get cancer.\n\nAI like, let\u2019s make brain rot and bomb girl schools",
-      "description": "",
-      "handle": "StateOfCapitalism",
-      "display_name": "Omni Tea",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2de9ac80faf8a5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:44:55Z",
-      "title": "$SPY top is definitely in - at least for me",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658617725",
-      "author": "Loose_goose",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:44:55Z",
-      "text": "$SPY top is definitely in - at least for me",
-      "description": "",
-      "handle": "Loose_goose",
-      "display_name": "Brad Nigar",
-      "platform": "stocktwits"
-    },
-    {
       "id": "29ae8c8c8b47b8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -276,29 +695,6 @@
       "description": "",
       "handle": "ZBull",
       "display_name": "Zack",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4f0ab0fc405658",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:44:46Z",
-      "title": "$DJT $SPY At this point I don&#39;t know who&#39;s dumber...his supporters or Trump?  \n \nTrump Claims \u2018Islamic Republic of Japan\u2019 Shot at US Aircraft Carrier at NATO Summit.  He confused Iran with Japan during a jaw-dropping verbal slip at the NATO summit in Ankara on Wednesday, telling reporters th",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658617717",
-      "author": "DARKAGE_IS_HERE",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-09T01:44:46Z",
-      "text": "$DJT $SPY At this point I don&#39;t know who&#39;s dumber...his supporters or Trump?  \n \nTrump Claims \u2018Islamic Republic of Japan\u2019 Shot at US Aircraft Carrier at NATO Summit.  He confused Iran with Japan during a jaw-dropping verbal slip at the NATO summit in Ankara on Wednesday, telling reporters th",
-      "description": "",
-      "handle": "DARKAGE_IS_HERE",
-      "display_name": "DARKAGE_IS_HERE",
       "platform": "stocktwits"
     },
     {
@@ -345,52 +741,6 @@
       "description": "",
       "handle": "ResearchTrends09",
       "display_name": "Brandon",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "770f223f00d95f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:43:54Z",
-      "title": "$SPY $QQQ \n\n$AVGO  lets get serious. Only 1 chance at life. Blowing up accounts every 6 months is not cute \n\ud83e\udd42\ud83d\udce8",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658617690",
-      "author": "PivotPoint_101",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:43:54Z",
-      "text": "$SPY $QQQ \n\n$AVGO  lets get serious. Only 1 chance at life. Blowing up accounts every 6 months is not cute \n\ud83e\udd42\ud83d\udce8",
-      "description": "",
-      "handle": "PivotPoint_101",
-      "display_name": "Brian P.",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "64fb9bc31a7426",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:43:39Z",
-      "title": "$BTC.X \n\nRoad to $1M !!!\n\nBuy Bitcoin\u2026\n\nYou\u2019re welcome!!!\n\n$SPY $QQQ $COIN $HOOD",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658617679",
-      "author": "NatoshiSakomoto",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T01:43:39Z",
-      "text": "$BTC.X \n\nRoad to $1M !!!\n\nBuy Bitcoin\u2026\n\nYou\u2019re welcome!!!\n\n$SPY $QQQ $COIN $HOOD",
-      "description": "",
-      "handle": "NatoshiSakomoto",
-      "display_name": "SN",
       "platform": "stocktwits"
     },
     {
@@ -483,29 +833,6 @@
       "description": ""
     },
     {
-      "id": "b64552c581e4e1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:42:40Z",
-      "title": "$AMD $NVDA $SPY $QQQ\n\nbullish for AMD",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658617628",
-      "author": "investingvalue",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T01:42:40Z",
-      "text": "$AMD $NVDA $SPY $QQQ\n\nbullish for AMD",
-      "description": "",
-      "handle": "investingvalue",
-      "display_name": "stanton",
-      "platform": "stocktwits"
-    },
-    {
       "id": "14ea29566ae9c1",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -568,29 +895,6 @@
       "time": "Thu, 09 Jul 2026 01:42:34 GMT",
       "text": "China consumer price growth weakens in June while producer inflation rises on export orders",
       "description": "Investors increasingly view China's two-speed growth with robust export and tepid domestic demand as a defining long-term feature of the Chinese economy."
-    },
-    {
-      "id": "1d4c73e9a6ae57",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:41:42Z",
-      "title": "$QQQ $SPY up 4% is pretty good!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658617592",
-      "author": "longsprosper",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:41:42Z",
-      "text": "$QQQ $SPY up 4% is pretty good!",
-      "description": "",
-      "handle": "longsprosper",
-      "display_name": "Brooks",
-      "platform": "stocktwits"
     },
     {
       "id": "7cd1e07bda3cc1",
@@ -1101,52 +1405,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c851e5e3563a6c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:29:12Z",
-      "title": "$NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658617054",
-      "author": "Eskalade",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T01:29:12Z",
-      "text": "$NVDA",
-      "description": "",
-      "handle": "Eskalade",
-      "display_name": "Suzanne Rafii",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f4b42147a20439",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:29:10Z",
-      "title": "$NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658617052",
-      "author": "ResearchTrends09",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:29:10Z",
-      "text": "$NVDA",
-      "description": "",
-      "handle": "ResearchTrends09",
-      "display_name": "Brandon",
-      "platform": "stocktwits"
-    },
-    {
       "id": "f9cffe92062027",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1303,29 +1561,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "7c6c26c8621702",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:26:18Z",
-      "title": "$AAPL What you give is what you get",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658616903",
-      "author": "AnonMav",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:26:18Z",
-      "text": "$AAPL What you give is what you get",
-      "description": "",
-      "handle": "AnonMav",
-      "display_name": "AnonMav",
-      "platform": "stocktwits"
-    },
-    {
       "id": "029aedcc624a68",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1451,29 +1686,6 @@
       "time": "2026-07-09T01:22:31Z",
       "text": "Bird Construction Inc. Announces Release Date and Conference Call for 2026 Second Quarter Financial Results",
       "description": ""
-    },
-    {
-      "id": "5e795c047d922a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:22:29Z",
-      "title": "@self_service @ITradeOnceADay $META  always says this kind of stuff. Used to trade meta exclusively. Lots of tricks to keep price up. In the end it\u2019s like Apple subbing out the glass to $GLW the big boys stay in their lane and keep doing what they do best. Meta doesn\u2019t want to own data centers. They",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658616740",
-      "author": "cp3zero",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:22:29Z",
-      "text": "@self_service @ITradeOnceADay $META  always says this kind of stuff. Used to trade meta exclusively. Lots of tricks to keep price up. In the end it\u2019s like Apple subbing out the glass to $GLW the big boys stay in their lane and keep doing what they do best. Meta doesn\u2019t want to own data centers. They",
-      "description": "",
-      "handle": "cp3zero",
-      "display_name": "cp3zero",
-      "platform": "stocktwits"
     },
     {
       "id": "68743a4818f925",
@@ -1650,83 +1862,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "8b061733a7e85b",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T01:17:00Z",
-      "title": "China Central Bank Fixes Yuan Midpoint Stronger at 6.8036 Against Dollar",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:17:00Z",
-      "text": "China Central Bank Fixes Yuan Midpoint Stronger at 6.8036 Against Dollar",
-      "description": ""
-    },
-    {
-      "id": "d4212f543f1eb8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:14:09Z",
-      "title": "$AMD ARK ETFs managed by Cathy Wed have released their daily trades for Wednesday, 08.07.2026,\n\nOn the buying side, ARK made a significant purchase of 181,847 shares of Space Exploration Technologies Corp (SPCX) through several ETFs, including ARKK, ARKQ, ARKW and ARKX, for a total of $27,180,671. T",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658616353",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:14:09Z",
-      "text": "$AMD ARK ETFs managed by Cathy Wed have released their daily trades for Wednesday, 08.07.2026,\n\nOn the buying side, ARK made a significant purchase of 181,847 shares of Space Exploration Technologies Corp (SPCX) through several ETFs, including ARKK, ARKQ, ARKW and ARKX, for a total of $27,180,671. T",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e938f8c51fca5a",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T01:11:33Z",
-      "title": "Japan's Benchmark Nikkei Climbs 2.3% as Rally Continues, Hits 68,324.05",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:11:33Z",
-      "text": "Japan's Benchmark Nikkei Climbs 2.3% as Rally Continues, Hits 68,324.05",
-      "description": ""
-    },
-    {
-      "id": "b77b7681ffa661",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T01:10:57Z",
-      "title": "Shanghai's Container shipping index (Europe route) front-month contract fell 6.00% intraday to 2,391.5 points. (",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:10:57Z",
-      "text": "Shanghai's Container shipping index (Europe route) front-month contract fell 6.00% intraday to 2,391.5 points. (",
-      "description": ""
-    },
-    {
       "id": "3d7682203687d4",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1747,29 +1882,6 @@
       "description": "",
       "handle": "Whiplash_Investor",
       "display_name": "The Alchemist",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8c5596e04fe98d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T01:09:08Z",
-      "title": "$MSFT I finished analyzing the metrics and by all means MSFT is a BUY!  (more pics in comments)",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658616138",
-      "author": "ZOMEDICAisHeatingUP",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:09:08Z",
-      "text": "$MSFT I finished analyzing the metrics and by all means MSFT is a BUY!  (more pics in comments)",
-      "description": "",
-      "handle": "ZOMEDICAisHeatingUP",
-      "display_name": "Trading Kat.",
       "platform": "stocktwits"
     },
     {
@@ -1794,26 +1906,6 @@
       "handle": "Spicy_Trade",
       "display_name": "SpicyTrade",
       "platform": "stocktwits"
-    },
-    {
-      "id": "986c52b7dc6e5b",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T01:07:58Z",
-      "title": "Gold Flat Amid Renewed Mideast Fighting, Fed Minutes - wsj",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "GOLD"
-      ],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:07:58Z",
-      "text": "Gold Flat Amid Renewed Mideast Fighting, Fed Minutes - wsj",
-      "description": ""
     },
     {
       "id": "2b71eab2a24840",
@@ -1926,24 +2018,6 @@
       "sentiment": "neutral",
       "time": "2026-07-09 01:06:48",
       "text": "US military says it is carrying out fresh strikes on Iran, after Trump says accord is \u2019over\u2019",
-      "description": ""
-    },
-    {
-      "id": "e373dfdce4b406",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T01:06:45Z",
-      "title": "Saudi Arabian tech giant eyes Hong Kong as Asia gateway and smart city partner - scmp",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T01:06:45Z",
-      "text": "Saudi Arabian tech giant eyes Hong Kong as Asia gateway and smart city partner - scmp",
       "description": ""
     },
     {
@@ -2221,29 +2295,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "33dcfcb128d29a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T00:31:37Z",
-      "title": "$CCXI First humanoid robotics company that will go public. That means they\u2019re confident enough to open up the books. $AMZN and $NVDA backed. $300M in booked orders. This is the same SPAC group that made $OKLO public. \n\nhttps://www.stocktitan.net/sec-filings/CCXI/425-churchill-capital-corp-xi-busines",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMZN/message/658614376",
-      "author": "2moontrader",
-      "tickers": [
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T00:31:37Z",
-      "text": "$CCXI First humanoid robotics company that will go public. That means they\u2019re confident enough to open up the books. $AMZN and $NVDA backed. $300M in booked orders. This is the same SPAC group that made $OKLO public. \n\nhttps://www.stocktitan.net/sec-filings/CCXI/425-churchill-capital-corp-xi-busines",
-      "description": "",
-      "handle": "2moontrader",
-      "display_name": "Moon Man",
-      "platform": "stocktwits"
-    },
-    {
       "id": "8b63dbe9926b24",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2346,52 +2397,6 @@
       "description": "",
       "handle": "nguwinning",
       "display_name": "nguwinning",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c44342cc95c90c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T00:12:56Z",
-      "title": "$SPY $QQQ $IWM  was a big day for Traders, \n\nExecution Over Ego\n\nConsistency Over Greed",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/IWM/message/658613359",
-      "author": "PivotPoint_101",
-      "tickers": [
-        "IWM"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T00:12:56Z",
-      "text": "$SPY $QQQ $IWM  was a big day for Traders, \n\nExecution Over Ego\n\nConsistency Over Greed",
-      "description": "",
-      "handle": "PivotPoint_101",
-      "display_name": "Brian P.",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "6445a85007d48c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T00:12:22Z",
-      "title": "BHVN Stock Builds Momentum Ahead Of Multiple H2 2026 Clinical Data Readouts\n\n$BHVN $XBI $IWM\n\nhttps://stocktwits.com/news/equity/markets/bhvn-stock-builds-momentum-ahead-of-multiple-h2-2026-clinical-data-readouts/cZmoWM8R7Vf",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/IWM/message/658613325",
-      "author": "StocktwitsNews",
-      "tickers": [
-        "IWM"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T00:12:22Z",
-      "text": "BHVN Stock Builds Momentum Ahead Of Multiple H2 2026 Clinical Data Readouts\n\n$BHVN $XBI $IWM\n\nhttps://stocktwits.com/news/equity/markets/bhvn-stock-builds-momentum-ahead-of-multiple-h2-2026-clinical-data-readouts/cZmoWM8R7Vf",
-      "description": "",
-      "handle": "StocktwitsNews",
-      "display_name": "Stocktwits News",
       "platform": "stocktwits"
     },
     {
@@ -3165,6 +3170,24 @@
       "time": "2026-07-08T21:47:00Z",
       "text": "ALHC ALERT: Block & Leviton Investigating Alignment Healthcare, Inc. For Possible Securities Fraud; Investors Should Contact Block & Leviton to Learn More",
       "description": "Block & Leviton is investigating Alignment Healthcare, Inc. (ALHC) for potential securities law violations following allegations that a former executive filed a whistleblower lawsuit claiming the company manipulated finances to boost stock price and executive compensation. The stock fell approximate"
+    },
+    {
+      "id": "45c8191548b453",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 08 Jul 2026 21:43:20 -0400",
+      "title": "Levi Strauss raises FY2026 outlook to 7%-7.5% reported revenue growth and $1.46-$1.52 EPS while expanding DTC-first model",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4612464-levi-strauss-raises-fy2026-outlook-to-7-percentminus-7_5-percent-reported-revenue-growth-and?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 08 Jul 2026 21:43:20 -0400",
+      "text": "Levi Strauss raises FY2026 outlook to 7%-7.5% reported revenue growth and $1.46-$1.52 EPS while expanding DTC-first model",
+      "description": ""
     },
     {
       "id": "d053b761f43d0d",
@@ -4069,24 +4092,6 @@
       "sentiment": "neutral",
       "time": "Wed, 08 Jul 2026 17:35:57 -0400",
       "text": "Simply Good Foods Q3 2026 Earnings Preview",
-      "description": ""
-    },
-    {
-      "id": "4c768cfca47b99",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 08 Jul 2026 17:35:55 -0400",
-      "title": "Simulations Plus Q3 2026 Earnings Preview",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4612361-simulations-plus-q3-2026-earnings-preview?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 08 Jul 2026 17:35:55 -0400",
-      "text": "Simulations Plus Q3 2026 Earnings Preview",
       "description": ""
     },
     {
