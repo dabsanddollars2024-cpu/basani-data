@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09T10:17:07Z",
-  "generated_display": "2026-07-09 10:17 ET",
+  "generated": "2026-07-09T10:22:06Z",
+  "generated_display": "2026-07-09 10:22 ET",
   "count": 193,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-09T10:17:02.315110+00:00",
+      "last_error_ts": "2026-07-09T10:22:01.800889+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 6,
-      "latency_ms": 157,
-      "last_success": "2026-07-09T10:17:02.473661+00:00",
+      "latency_ms": 271,
+      "last_success": "2026-07-09T10:22:02.073651+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 96,
-      "last_success": "2026-07-09T10:17:02.571212+00:00",
+      "latency_ms": 68,
+      "last_success": "2026-07-09T10:22:02.170299+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 39,
-      "latency_ms": 29,
-      "last_success": "2026-07-09T10:17:02.602666+00:00",
+      "latency_ms": 101,
+      "last_success": "2026-07-09T10:22:02.273690+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-09T10:17:02.711485+00:00",
+      "last_error_ts": "2026-07-09T10:22:02.308841+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1746,
-      "last_success": "2026-07-09T10:17:04.458180+00:00",
+      "latency_ms": 1761,
+      "last_success": "2026-07-09T10:22:04.070397+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-09T10:17:05.370943+00:00",
+      "last_success": "2026-07-09T10:22:05.170181+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1754,
-      "last_success": "2026-07-09T10:17:07.125919+00:00",
+      "latency_ms": 1761,
+      "last_success": "2026-07-09T10:22:06.931465+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,340 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 123
+          "latency_ms": 210
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 278
+          "latency_ms": 240
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 37
+          "latency_ms": 149
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 266
+          "latency_ms": 401
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 17
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 185
+          "latency_ms": 80
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
     "cnbc": 8,
+    "uw_news": 25,
     "reuters": 16,
     "massive_news": 39,
     "marketwatch": 8,
     "zerohedge": 8,
-    "benzinga": 6,
     "seekingalpha": 7,
+    "benzinga": 6,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "1b017022e90585",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:21:54Z",
+      "title": "$META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658628373",
+      "author": "Trjust",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T10:21:54Z",
+      "text": "$META",
+      "description": "",
+      "handle": "Trjust",
+      "display_name": "Trjust",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0b777496158a59",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:21:42Z",
+      "title": "$QQQ He bought puts at 701. Pump it to 715 premarket.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658628368",
+      "author": "GreeenGoblin",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T10:21:42Z",
+      "text": "$QQQ He bought puts at 701. Pump it to 715 premarket.",
+      "description": "",
+      "handle": "GreeenGoblin",
+      "display_name": "Green Goblin",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8b9b8770e0e7a6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:21:09Z",
+      "title": "$SPY $USO Come on, Trump.  Everyone knows they don\u2019t want to make a deal.  They just want to buy more time to make more weapons.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658628356",
+      "author": "stocking99",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T10:21:09Z",
+      "text": "$SPY $USO Come on, Trump.  Everyone knows they don\u2019t want to make a deal.  They just want to buy more time to make more weapons.",
+      "description": "",
+      "handle": "stocking99",
+      "display_name": "Mr. T.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bc7200c9a22f70",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Thu, 09 Jul 2026 10:21:08 GMT",
+      "title": "PepsiCo earnings miss estimates as North American consumers tighten their budgets",
+      "body": "PepsiCo reported weaker-than-expected quarterly earnings despite strong international demand.",
+      "url": "https://www.cnbc.com/2026/07/09/pepsico-pep-q2-2026-earnings.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Thu, 09 Jul 2026 10:21:08 GMT",
+      "text": "PepsiCo earnings miss estimates as North American consumers tighten their budgets",
+      "description": "PepsiCo reported weaker-than-expected quarterly earnings despite strong international demand."
+    },
+    {
+      "id": "7318109cd713b3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:21:02Z",
+      "title": "$SPY 2 hr $VIX set to curl \ncould be bad for any early runs \nit&#39;s hard to forecast things now with constant tweets/news \ncausing lots of reversals/spikes \nI take $SPY puts when $VIX runs and scalp don&#39;t hold   \nbut do it ur way wish everyone luck",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658628352",
+      "author": "Meatballtrades",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T10:21:02Z",
+      "text": "$SPY 2 hr $VIX set to curl \ncould be bad for any early runs \nit&#39;s hard to forecast things now with constant tweets/news \ncausing lots of reversals/spikes \nI take $SPY puts when $VIX runs and scalp don&#39;t hold   \nbut do it ur way wish everyone luck",
+      "description": "",
+      "handle": "Meatballtrades",
+      "display_name": "Meatball 23",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "44b26874f62934",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:19:51Z",
+      "title": "$TSLA run to 400 drop down to 397 then take off to 415. Looks like a pattern",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658628317",
+      "author": "Dollarfergy1989",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T10:19:51Z",
+      "text": "$TSLA run to 400 drop down to 397 then take off to 415. Looks like a pattern",
+      "description": "",
+      "handle": "Dollarfergy1989",
+      "display_name": "Ryan Ferguson",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bc31feb3742e8f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:19:34Z",
+      "title": "$SPY they&#39;re fucking bulls and bears today",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658628310",
+      "author": "Crodies",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-09T10:19:34Z",
+      "text": "$SPY they&#39;re fucking bulls and bears today",
+      "description": "",
+      "handle": "Crodies",
+      "display_name": "Crodies",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9ae87f2dc79372",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:19:23Z",
+      "title": "$QQQ  $SPY \n\nConflicting and contradictory signals, indicates the end cycle and a major correction .\n\nThe narrative says: &quot;Markets have absorbed the war.. The reality is the war is expanding, and a strait of Hormuz  will be restricted and under control permanently. \noil spiking over 70%, and ex",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658628299",
+      "author": "Activetrader777",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-09T10:19:23Z",
+      "text": "$QQQ  $SPY \n\nConflicting and contradictory signals, indicates the end cycle and a major correction .\n\nThe narrative says: &quot;Markets have absorbed the war.. The reality is the war is expanding, and a strait of Hormuz  will be restricted and under control permanently. \noil spiking over 70%, and ex",
+      "description": "",
+      "handle": "Activetrader777",
+      "display_name": "Activetrader777",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ab5b98d7763664",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:19:23Z",
+      "title": "$QQQ  $SPY \n\nConflicting and contradictory signals, indicates the end cycle and a major correction .\n\nThe narrative says: &quot;Markets have absorbed the war.. The reality is the war is expanding, and a strait of Hormuz  will be restricted and under control permanently. \noil spiking over 70%, and ex",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658628299",
+      "author": "Activetrader777",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-09T10:19:23Z",
+      "text": "$QQQ  $SPY \n\nConflicting and contradictory signals, indicates the end cycle and a major correction .\n\nThe narrative says: &quot;Markets have absorbed the war.. The reality is the war is expanding, and a strait of Hormuz  will be restricted and under control permanently. \noil spiking over 70%, and ex",
+      "description": "",
+      "handle": "Activetrader777",
+      "display_name": "Activetrader777",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5642b48cd82578",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:19:10Z",
+      "title": "$SPY just an old man who used to be a stock broker but had to learn it all again to  trade in this mkt=crazy violent with the news and tweets now. 4 years into  this journey and I share for free, wish everyone luck but just fyi =I day trade and don&#39;t like to hold long or overnight but I will som",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658628292",
+      "author": "Meatballtrades",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-09T10:19:10Z",
+      "text": "$SPY just an old man who used to be a stock broker but had to learn it all again to  trade in this mkt=crazy violent with the news and tweets now. 4 years into  this journey and I share for free, wish everyone luck but just fyi =I day trade and don&#39;t like to hold long or overnight but I will som",
+      "description": "",
+      "handle": "Meatballtrades",
+      "display_name": "Meatball 23",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f3e9c27500bff4",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-09T10:17:53Z",
+      "title": "STARBUCKS TAPS AI TO REDUCE RELIANCE ON MICROSOFT - IBM SOFTWARE",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "AI"
+      ],
+      "tags": [],
+      "impact_score": 10.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T10:17:53Z",
+      "text": "STARBUCKS TAPS AI TO REDUCE RELIANCE ON MICROSOFT - IBM SOFTWARE",
+      "description": ""
+    },
+    {
+      "id": "952a462a38f926",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:17:49Z",
+      "title": "$USO $SPY $NVDA $DJT  \nBig success for the United States Forces \n \nAs per Iran opposition news, Rear Admiral Ali Azmaei, top commander of IRGC Navy, has been killed in recent airstrikes by the US forces on command-and-control center in Bushehr. Official confirmation awaited. \n.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658628264",
+      "author": "PermianTrader",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T10:17:49Z",
+      "text": "$USO $SPY $NVDA $DJT  \nBig success for the United States Forces \n \nAs per Iran opposition news, Rear Admiral Ali Azmaei, top commander of IRGC Navy, has been killed in recent airstrikes by the US forces on command-and-control center in Bushehr. Official confirmation awaited. \n.",
+      "description": "",
+      "handle": "PermianTrader",
+      "display_name": "Bentley",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1533668172c309",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-09T10:17:39Z",
+      "title": "$MSTR love this bashing of the rats,hijos de puta, toxic amigos, scammers. This crooked brothers know it will fly.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658628253",
+      "author": "Ashkanazi",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T10:17:39Z",
+      "text": "$MSTR love this bashing of the rats,hijos de puta, toxic amigos, scammers. This crooked brothers know it will fly.",
+      "description": "",
+      "handle": "Ashkanazi",
+      "display_name": "Arkadius Masczyk",
+      "platform": "stocktwits"
+    },
     {
       "id": "9b703d75909466",
       "source": "uw_news",
@@ -198,29 +489,6 @@
       "time": "2026-07-09T10:16:34Z",
       "text": "Rise in maritime insurance prices for crossing the Strait of Hormuz",
       "description": ""
-    },
-    {
-      "id": "1a5a65b0f1d621",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T10:15:59Z",
-      "title": "$SPY $RDDT Let&#39;s have a review of the numbers $META $NVDA $BTC.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658628214",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T10:15:59Z",
-      "text": "$SPY $RDDT Let&#39;s have a review of the numbers $META $NVDA $BTC.X",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
     },
     {
       "id": "9513ee82539694",
@@ -392,29 +660,6 @@
       "time": "2026-07-09T10:14:01Z",
       "text": "BARCLAYS RAISES FORD MOTOR TARGET PRICE TO $14 FROM $13",
       "description": ""
-    },
-    {
-      "id": "dc91a1325a450a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T10:12:24Z",
-      "title": "$USO $SPY $NVDA $DJT  \n \nAl Jazeera Breaking News \n \nBREAKING: A US strike on a railway bridge in the northern Iranian province of Golestan has hit the corridor connecting Iran to China and Russia, local media report. \n,",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658628115",
-      "author": "PermianTrader",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T10:12:24Z",
-      "text": "$USO $SPY $NVDA $DJT  \n \nAl Jazeera Breaking News \n \nBREAKING: A US strike on a railway bridge in the northern Iranian province of Golestan has hit the corridor connecting Iran to China and Russia, local media report. \n,",
-      "description": "",
-      "handle": "PermianTrader",
-      "display_name": "Bentley",
-      "platform": "stocktwits"
     },
     {
       "id": "cc8c59d43b0329",
@@ -621,52 +866,6 @@
       "description": "NATO chief Mark Rutte lavished praise on U.S. President Donald Trump during a fractious summit in Turkey this week."
     },
     {
-      "id": "f77af9bc6eb4a7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T10:07:42Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658628003",
-      "author": "Mrmaster1",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-09T10:07:42Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "Mrmaster1",
-      "display_name": "Mrmaster1",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "9bcc84bc95e81e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T10:07:30Z",
-      "title": "$NVDA $INKW sucks ass. Trust me. I am on board with that lmfao!!!!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658627996",
-      "author": "wil321",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-09T10:07:30Z",
-      "text": "$NVDA $INKW sucks ass. Trust me. I am on board with that lmfao!!!!",
-      "description": "",
-      "handle": "wil321",
-      "display_name": "bhp",
-      "platform": "stocktwits"
-    },
-    {
       "id": "342c6d1303206b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -706,29 +905,6 @@
       "time": "2026-07-09T10:06:39Z",
       "text": "FITCH: GERMANY'S LATEST REFORM PACKAGE IS POSITIVE FOR PUBLIC FINANCES OVER LONGER TERM & FOR ECONOMY, BUT FALLS SHORT OF BEING TRANSFORMATIVE",
       "description": ""
-    },
-    {
-      "id": "6b12aace567d30",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T10:06:32Z",
-      "title": "On this date and since 2010, shares of $META have been higher every single time. Just a heads-up! \n \n$SPY $QQQ $GOOGL $NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658627971",
-      "author": "sethmarcus",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T10:06:32Z",
-      "text": "On this date and since 2010, shares of $META have been higher every single time. Just a heads-up! \n \n$SPY $QQQ $GOOGL $NVDA",
-      "description": "",
-      "handle": "sethmarcus",
-      "display_name": "seth marcus gold",
-      "platform": "stocktwits"
     },
     {
       "id": "c1fd7ddcbe265d",
@@ -854,24 +1030,6 @@
       "time": "2026-07-09T10:04:47Z",
       "text": "Triple Flag Delivers Strong Q2 2026 GEOs and Repurchases $20 Million of Shares",
       "description": ""
-    },
-    {
-      "id": "bc7200c9a22f70",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Thu, 09 Jul 2026 10:04:32 GMT",
-      "title": "PepsiCo earnings miss estimates as North American consumers tighten their budgets",
-      "body": "PepsiCo reported weaker-than-expected quarterly earnings despite strong international demand.",
-      "url": "https://www.cnbc.com/2026/07/09/pepsico-pep-q2-2026-earnings.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 10:04:32 GMT",
-      "text": "PepsiCo earnings miss estimates as North American consumers tighten their budgets",
-      "description": "PepsiCo reported weaker-than-expected quarterly earnings despite strong international demand."
     },
     {
       "id": "6f41b9fdd08e69",
@@ -1061,26 +1219,6 @@
       "sentiment": "neutral",
       "time": "2026-07-09T10:03:52Z",
       "text": "Blue Earth Therapeutics announces first participant dosed in Phase 1 clinical trial investigating Actinium (\u00b2\u00b2\u2075Ac) rhPSMA-10.1 Injection in metastatic castration-resistant prostate cancer",
-      "description": ""
-    },
-    {
-      "id": "f88722b2907e24",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T10:03:43Z",
-      "title": "$PEP Pepsi Q2 2026 Earnings Core EPS $2.20, est. $2.19 Rev. $24.81B, est $23.96B Oper profit $4.02B, est. $4.06B Foods North America revenue $6.37B, est. $6.48B Europe, Middle East and Africa rev. $4.98B, est. $4.89B International beverages franchise rev. $1.52B, +11% y/y",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "PEP"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T10:03:43Z",
-      "text": "$PEP Pepsi Q2 2026 Earnings Core EPS $2.20, est. $2.19 Rev. $24.81B, est $23.96B Oper profit $4.02B, est. $4.06B Foods North America revenue $6.37B, est. $6.48B Europe, Middle East and Africa rev. $4.98B, est. $4.89B International beverages franchise rev. $1.52B, +11% y/y",
       "description": ""
     },
     {
@@ -1448,29 +1586,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "dc874a2a7abbbd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:57:15Z",
-      "title": "$SPY down play here if this reaches 750 today puts for next week. If this goes down to 740 buy puts lol anyways puts is the play. Make sure to pay attention to the markets behavior.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658627762",
-      "author": "Hawler2000",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-09T09:57:15Z",
-      "text": "$SPY down play here if this reaches 750 today puts for next week. If this goes down to 740 buy puts lol anyways puts is the play. Make sure to pay attention to the markets behavior.",
-      "description": "",
-      "handle": "Hawler2000",
-      "display_name": "Hawler2000",
-      "platform": "stocktwits"
-    },
-    {
       "id": "1faf8ca6f17941",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1736,29 +1851,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "95534463942ffc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:51:35Z",
-      "title": "$BTC.X 50% chance Bitcoin drops below $50,000 this  \n \nI think 58K was bottom as I said!! \n \nIf this go under 50K that mean either big war or recession coming!! That mean will be huge marker crash $SPY $Qqq  \n \nOtherwise impsoble to go under 50K",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658627671",
-      "author": "Etrading",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T09:51:35Z",
-      "text": "$BTC.X 50% chance Bitcoin drops below $50,000 this  \n \nI think 58K was bottom as I said!! \n \nIf this go under 50K that mean either big war or recession coming!! That mean will be huge marker crash $SPY $Qqq  \n \nOtherwise impsoble to go under 50K",
-      "description": "",
-      "handle": "Etrading",
-      "display_name": "Etrading",
-      "platform": "stocktwits"
-    },
-    {
       "id": "63f037e3baa18a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1825,29 +1917,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "1bcac6151c4e94",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:46:32Z",
-      "title": "$TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658627593",
-      "author": "Joelmn12",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T09:46:32Z",
-      "text": "$TSLA",
-      "description": "",
-      "handle": "Joelmn12",
-      "display_name": "Joel mcNair",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6a5dee7934b13b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1871,29 +1940,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2dd417d021575c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:44:26Z",
-      "title": "$QQQ $SPY ready to break base and next leg up.\ud83d\udcb0",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658627552",
-      "author": "Mr_Wunderful",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-09T09:44:26Z",
-      "text": "$QQQ $SPY ready to break base and next leg up.\ud83d\udcb0",
-      "description": "",
-      "handle": "Mr_Wunderful",
-      "display_name": "Mr Wunderful",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a16290b877b987",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1911,29 +1957,6 @@
       "sentiment": "neutral",
       "time": "2026-07-09T09:42:41Z",
       "text": "$META  https://finance.yahoo.com/energy/articles/meta-capital-power-seal-250mw-090320609.html",
-      "description": "",
-      "handle": "kindness123",
-      "display_name": "kindness123",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "7afe6df2c83eb9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T09:41:39Z",
-      "title": "$META",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658627502",
-      "author": "kindness123",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T09:41:39Z",
-      "text": "$META",
       "description": "",
       "handle": "kindness123",
       "display_name": "kindness123",
@@ -2626,29 +2649,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "7cafe9fbb76073",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-09T08:39:31Z",
-      "title": "$MSTR this shit needs to go over 98 today \ud83d\udd95",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658626388",
-      "author": "B5BusinessMan",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T08:39:31Z",
-      "text": "$MSTR this shit needs to go over 98 today \ud83d\udd95",
-      "description": "",
-      "handle": "B5BusinessMan",
-      "display_name": "Batuhan Y.",
-      "platform": "stocktwits"
-    },
-    {
       "id": "5dbf4a122c800d",
       "source": "marketwatch",
       "source_type": "rss",
@@ -3239,6 +3239,24 @@
       "description": "Michelin completed the acquisition of Tex Tech Industries to strengthen its Polymer Composite Solutions business. On July 9, 2026, the company conducted a share buyback program, repurchasing 197,547 shares at an average price of \u20ac33.1288 per share through multiple financial institutions, with the ob"
     },
     {
+      "id": "39347cc3a7a1cd",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Thu, 09 Jul 2026 06:13:08 -0400",
+      "title": "AM Markets Need to Know: Musk's settlement, SK Hynix IPO demand surges",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4612510-am-markets-need-to-know-musks-settlement-sk-hynix-ipo-demand-surges?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Thu, 09 Jul 2026 06:13:08 -0400",
+      "text": "AM Markets Need to Know: Musk's settlement, SK Hynix IPO demand surges",
+      "description": ""
+    },
+    {
       "id": "f899175faf029f",
       "source": "benzinga",
       "source_type": "benzinga_news",
@@ -3549,24 +3567,6 @@
         "Sector ETFs",
         "Equities"
       ]
-    },
-    {
-      "id": "4139a016d77f08",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Thu, 09 Jul 2026 04:58:20 -0400",
-      "title": "BP's new CEO looks to simplify operations, win back investors",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4612499-bps-new-ceo-looks-to-simplify-operations-win-back-investors?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 04:58:20 -0400",
-      "text": "BP's new CEO looks to simplify operations, win back investors",
-      "description": ""
     },
     {
       "id": "440c7c358643da",
