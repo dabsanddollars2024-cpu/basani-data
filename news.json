@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-10T06:12:55Z",
-  "generated_display": "2026-07-10 06:12 ET",
-  "count": 189,
+  "generated": "2026-07-10T06:17:13Z",
+  "generated_display": "2026-07-10 06:17 ET",
+  "count": 188,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T06:12:21.804345+00:00",
-      "error": "The read operation timed out"
+      "last_error_ts": "2026-07-10T06:17:02.369868+00:00",
+      "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 107,
-      "last_success": "2026-07-10T06:12:21.911994+00:00",
+      "latency_ms": 69,
+      "last_success": "2026-07-10T06:17:02.439466+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 158,
-      "last_success": "2026-07-10T06:12:22.070741+00:00",
+      "latency_ms": 130,
+      "last_success": "2026-07-10T06:17:02.570847+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 40,
+      "items_pulled": 39,
       "latency_ms": 99,
-      "last_success": "2026-07-10T06:12:22.172153+00:00",
+      "last_success": "2026-07-10T06:17:02.673127+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T06:12:38.382969+00:00",
+      "last_error_ts": "2026-07-10T06:17:02.794625+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1686,
-      "last_success": "2026-07-10T06:12:40.069855+00:00",
+      "latency_ms": 8341,
+      "last_success": "2026-07-10T06:17:11.136167+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T06:12:53.770359+00:00",
+      "last_success": "2026-07-10T06:17:11.864167+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1899,
-      "last_success": "2026-07-10T06:12:55.669966+00:00",
+      "latency_ms": 1805,
+      "last_success": "2026-07-10T06:17:13.669628+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,148 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 111
+          "latency_ms": 158
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 185
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 36
+          "latency_ms": 90
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 265
+          "latency_ms": 203
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 11
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 13185
+          "latency_ms": 79
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 75,
     "uw_news": 25,
+    "stocktwits": 75,
+    "reuters": 16,
     "cnbc": 8,
-    "massive_news": 40,
+    "massive_news": 39,
     "zerohedge": 8,
     "marketwatch": 8,
     "seekingalpha": 7,
     "benzinga": 1,
-    "reuters": 16,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "b0793694a978a6",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T06:16:38Z",
+      "title": "Deutsche Bank lifts INFICON's target price to CHF 220 from CHF 160.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "DB"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:16:38Z",
+      "text": "Deutsche Bank lifts INFICON's target price to CHF 220 from CHF 160.",
+      "description": ""
+    },
+    {
+      "id": "7cec69a51af6fc",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T06:16:06Z",
+      "title": "EasyJet Rises 10% On Tradegate Versus Last Close www.tradegatebsx.com/orderbuch.ph...",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:16:06Z",
+      "text": "EasyJet Rises 10% On Tradegate Versus Last Close www.tradegatebsx.com/orderbuch.ph...",
+      "description": ""
+    },
+    {
+      "id": "aee82f0455ad80",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:15:45Z",
+      "title": "$QQQ god could you imagine swing trading KOSPI. Ho Lee fuk",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658727454",
+      "author": "Marshzr",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:15:45Z",
+      "text": "$QQQ god could you imagine swing trading KOSPI. Ho Lee fuk",
+      "description": "",
+      "handle": "Marshzr",
+      "display_name": "Zachary Marsh",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6ed215374cf14b",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T06:14:06Z",
+      "title": "EU parliament approves 'chat control' law, permitting private chat scans until 2028 to detect abuse material, excluding encrypted messages.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:14:06Z",
+      "text": "EU parliament approves 'chat control' law, permitting private chat scans until 2028 to detect abuse material, excluding encrypted messages.",
+      "description": ""
+    },
+    {
+      "id": "847af12f01d5b2",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T06:13:04Z",
+      "title": "Yimutian Inc. Receives Positive Nasdaq Listing Determination",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "YMT"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:13:04Z",
+      "text": "Yimutian Inc. Receives Positive Nasdaq Listing Determination",
+      "description": ""
+    },
     {
       "id": "e6a81bd68fe174",
       "source": "stocktwits",
@@ -361,6 +460,60 @@
       "platform": "stocktwits"
     },
     {
+      "id": "ce463250bba1d4",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:06:43",
+      "title": "Australia confirms first H5N1 bird flu case in local seabird; dead seal tested",
+      "body": "",
+      "url": "https://www.investing.com/news/commodities-news/australia-confirms-h5n1-bird-flu-case-in-australian-seabird-for-first-time-4785279",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:06:43",
+      "text": "Australia confirms first H5N1 bird flu case in local seabird; dead seal tested",
+      "description": ""
+    },
+    {
+      "id": "44192e00e29884",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:06:27",
+      "title": "UAE\u2019s E& to sell Vodafone stake to French telecoms tycoon Niel for nearly $6 billion",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/uaes-e-to-sell-vodafone-stake-to-french-telecoms-tycoon-for-nearly-6-billion-4785321",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:06:27",
+      "text": "UAE\u2019s E& to sell Vodafone stake to French telecoms tycoon Niel for nearly $6 billion",
+      "description": ""
+    },
+    {
+      "id": "d9719a39dc8ed4",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:06:16",
+      "title": "Consortium raises offer for Picton Property Income to 77p/share",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/consortium-raises-offer-for-picton-property-income-to-77pshare-93CH-4785349",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:06:16",
+      "text": "Consortium raises offer for Picton Property Income to 77p/share",
+      "description": ""
+    },
+    {
       "id": "451bc9d8299f9b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -399,6 +552,24 @@
       "sentiment": "neutral",
       "time": "2026-07-10T06:05:29Z",
       "text": "BW LPG Limited Announces Sale of BW Elm",
+      "description": ""
+    },
+    {
+      "id": "f31e55e7584266",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:05:01",
+      "title": "BW LPG subsidiary to sell vessel for $64 million",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/bw-lpg-subsidiary-to-sell-vessel-for-64-million-93CH-4785348",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:05:01",
+      "text": "BW LPG subsidiary to sell vessel for $64 million",
       "description": ""
     },
     {
@@ -629,6 +800,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "dd1324e00897c6",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:02:42",
+      "title": "Schroder Real Estate Investment Trust announces board changes",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/schroder-real-estate-investment-trust-announces-board-changes-93CH-4785347",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:02:42",
+      "text": "Schroder Real Estate Investment Trust announces board changes",
+      "description": ""
+    },
+    {
       "id": "f636710b81a29f",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -670,6 +859,42 @@
       "platform": "stocktwits"
     },
     {
+      "id": "80ac152e3bed03",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:00:41",
+      "title": "Byggmax Q2 sales rise 2.9%, profit gains on margins",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/byggmax-q2-sales-rise-29-profit-gains-on-margins-93CH-4785346",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:00:41",
+      "text": "Byggmax Q2 sales rise 2.9%, profit gains on margins",
+      "description": ""
+    },
+    {
+      "id": "0d121adbdb9da4",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:00:10",
+      "title": "India IT stocks climb as strong TCS earnings lift sector sentiment",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/india-it-stocks-climb-as-strong-tcs-earnings-lift-sector-sentiment-4785345",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:00:10",
+      "text": "India IT stocks climb as strong TCS earnings lift sector sentiment",
+      "description": ""
+    },
+    {
       "id": "026ef3195a8869",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -687,6 +912,24 @@
       "sentiment": "neutral",
       "time": "2026-07-10T06:00:07Z",
       "text": "HSBC Seeks Buyers For Hong Kong Subsidiary\u2019s Risky Loans - FT",
+      "description": ""
+    },
+    {
+      "id": "6f14a000b298e0",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:00:04",
+      "title": "Taiwan stocks lower at close of trade; Taiwan Weighted down 0.83%",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/taiwan-stocks-lower-at-close-of-trade-taiwan-weighted-down-083-4785343",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:00:04",
+      "text": "Taiwan stocks lower at close of trade; Taiwan Weighted down 0.83%",
       "description": ""
     },
     {
@@ -1027,29 +1270,6 @@
       "description": ""
     },
     {
-      "id": "fcc060f81a1fe2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:43:38Z",
-      "title": "$QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658726965",
-      "author": "Painfultrade",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:43:38Z",
-      "text": "$QQQ",
-      "description": "",
-      "handle": "Painfultrade",
-      "display_name": "Bryan Mount",
-      "platform": "stocktwits"
-    },
-    {
       "id": "e828e02bf07232",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1282,24 +1502,6 @@
       "description": "Tryg A/S reported Q2 2026 results with an insurance service result of DKK 1,190m and a combined ratio of 88.8%, both showing significant deterioration compared to the prior year period (DKK 2,307m and 77.2% respectively). The company's Supervisory Board approved the interim report."
     },
     {
-      "id": "1f62b636ff75e1",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T05:30:57Z",
-      "title": "Asia markets rise as chip stocks rally ahead of SK Hynix's major U.S. listing debut.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:30:57Z",
-      "text": "Asia markets rise as chip stocks rally ahead of SK Hynix's major U.S. listing debut.",
-      "description": ""
-    },
-    {
       "id": "f12c29e2414af8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1361,27 +1563,6 @@
       "time": "2026-07-10T05:30:00Z",
       "text": "Tryg Forsikring A/S half-year report 2026",
       "description": "Tryg Forsikring A/S has released its half-year report for 2026 and announced the publication of a prospectus for the admission to trading and listing of Perpetual Restricted Tier 1 Capital Notes and Subordinated Callable Tier 2 Capital Notes."
-    },
-    {
-      "id": "4eff1b9e4c3efc",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T05:28:13Z",
-      "title": "Sky News: Former UK MP Ann Widdecombe passes away aged 78.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "MP",
-        "SKY"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:28:13Z",
-      "text": "Sky News: Former UK MP Ann Widdecombe passes away aged 78.",
-      "description": ""
     },
     {
       "id": "f8512a9bbc3ae4",
@@ -1446,42 +1627,6 @@
       "handle": "JesusizKing",
       "display_name": "L C",
       "platform": "stocktwits"
-    },
-    {
-      "id": "1a70e52d6d839a",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T05:21:11Z",
-      "title": "KBW raises BlackRock target price by $35 to $1,275.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:21:11Z",
-      "text": "KBW raises BlackRock target price by $35 to $1,275.",
-      "description": ""
-    },
-    {
-      "id": "0cec8cefeb6645",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T05:20:31Z",
-      "title": "Berenberg lifts Merck & Co's target price to $127 from $125.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:20:31Z",
-      "text": "Berenberg lifts Merck & Co's target price to $127 from $125.",
-      "description": ""
     },
     {
       "id": "6b1cdd60b50f3e",
@@ -2528,6 +2673,24 @@
       "description": "United Wholesale Mortgage (UWM) lost a bidding war to acquire Two Harbors Investment Corp to privately-held CrossCountry Mortgage. While UWM's final offer of $12.50 per share was higher than CrossCountry's winning $12 per share bid, analysts view UWM's decision to walk away as prudent. Given UWM's u"
     },
     {
+      "id": "08cb83fe4c6a19",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 02:12:06 -0400",
+      "title": "Public Storage prices $900M senior notes to help fund NSA acquisition",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4612809-public-storage-prices-900m-senior-notes-to-help-fund-nsa-acquisition?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 02:12:06 -0400",
+      "text": "Public Storage prices $900M senior notes to help fund NSA acquisition",
+      "description": ""
+    },
+    {
       "id": "42bc017416fab7",
       "source": "zerohedge",
       "source_type": "rss",
@@ -2596,17 +2759,17 @@
       "source": "seekingalpha",
       "source_type": "rss",
       "timestamp": "Fri, 10 Jul 2026 02:06:08 -0400",
-      "title": "Germany's May trade surplus tops forecasts as exports hit multi-year high",
+      "title": "Germany's June inflation slows to 2.3%, lowest since February",
       "body": "",
       "url": "https://seekingalpha.com/news/4612814-germanys-may-trade-surplus-tops-forecasts-as-exports-hit-multi-year-high?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 5.0,
+      "impact_score": 7.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
       "time": "Fri, 10 Jul 2026 02:06:08 -0400",
-      "text": "Germany's May trade surplus tops forecasts as exports hit multi-year high",
+      "text": "Germany's June inflation slows to 2.3%, lowest since February",
       "description": ""
     },
     {
@@ -2910,24 +3073,6 @@
       "time": "2026-07-10T01:12:33Z",
       "text": "Why Arm Holdings Stock Soared 224.4% Through The First Half Of 2026",
       "description": "Arm Holdings stock surged 224.4% in the first half of 2026, driven by investor anticipation of its expansion into AI infrastructure and its new AGI CPU chip. The company projects revenue could grow 5x from $4.92 billion in 2026 to $25 billion by 2031. However, analysts caution the stock appears over"
-    },
-    {
-      "id": "d51f58bdccaf1d",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 01:10:23 -0400",
-      "title": "Netflix exploring live TV, streaming bundles to revive slipping viewer engagement: WSJ",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4612807-netflix-exploring-live-tv-streaming-bundles-to-revive-slipping-viewer-engagement-wsj?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 01:10:23 -0400",
-      "text": "Netflix exploring live TV, streaming bundles to revive slipping viewer engagement: WSJ",
-      "description": ""
     },
     {
       "id": "cafb990d64afb5",
@@ -3553,26 +3698,6 @@
       "description": "Traders are completely enthralled by the bull market \u2014 but surging Nasdaq volatility suggests it is time to hedge."
     },
     {
-      "id": "170c5bd34405f8",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T22:15:51Z",
-      "title": "Pinterest Co-Founder Sells $2.1 Million in Stock With Shares Down 37%",
-      "body": "Pinterest co-founder Benjamin Silbermann sold 93,750 shares worth $2.1 million on July 7-8, 2026, through a Rule 10b5-1 trading plan. Despite the stock being down 37% over the past year, the sale represents only a quarter percent of his total economic exposure, as he retains approximately 36.4 milli",
-      "url": "https://www.fool.com/coverage/filings/2026/07/09/pinterest-co-founder-sells-usd2-1-million-in-stock-with-shares-down-37/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "PINS"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T22:15:51Z",
-      "text": "Pinterest Co-Founder Sells $2.1 Million in Stock With Shares Down 37%",
-      "description": "Pinterest co-founder Benjamin Silbermann sold 93,750 shares worth $2.1 million on July 7-8, 2026, through a Rule 10b5-1 trading plan. Despite the stock being down 37% over the past year, the sale represents only a quarter percent of his total economic exposure, as he retains approximately 36.4 milli"
-    },
-    {
       "id": "9d32d997c114d4",
       "source": "marketwatch",
       "source_type": "rss",
@@ -3903,150 +4028,6 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
-    },
-    {
-      "id": "f9f1c09e73cb91",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-26 10:47:35",
-      "title": "Deutsche Bank forecasts S&P 500 to hit 7000 by end of 2025",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-forecasts-sp-500-to-hit-7000-by-end-of-2025-3741586",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2024-11-26 10:47:35",
-      "text": "Deutsche Bank forecasts S&P 500 to hit 7000 by end of 2025",
-      "description": ""
-    },
-    {
-      "id": "c9cf1b7f95066a",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-26 08:55:17",
-      "title": "Trump's tariffs, Fed minutes, Rumble's Bitcoin buy - what's moving markets",
-      "body": "",
-      "url": "https://www.investing.com/news/economy/trumps-tariffs-fed-minutes-rumbles-bitcoin-buy--whats-moving-markets-3741453",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 12.0,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2024-11-26 08:55:17",
-      "text": "Trump's tariffs, Fed minutes, Rumble's Bitcoin buy - what's moving markets",
-      "description": ""
-    },
-    {
-      "id": "daa1be6333d341",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-26 08:26:03",
-      "title": "2025 macro outlook for the US is 'murky at best' says Deutsche Bank",
-      "body": "",
-      "url": "https://www.investing.com/news/economy/2025-macro-outlook-for-the-us-is-murky-at-best-says-deutsche-bank-3741435",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2024-11-26 08:26:03",
-      "text": "2025 macro outlook for the US is 'murky at best' says Deutsche Bank",
-      "description": ""
-    },
-    {
-      "id": "c8d5846cb2925b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-26 06:22:06",
-      "title": "Bitcoin price today: slips to $94k as risk appetite sours on Trump tariff threat",
-      "body": "",
-      "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-price-today-slips-to-94k-as-risk-appetite-sours-on-trump-tariff-threat-3741330",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2024-11-26 06:22:06",
-      "text": "Bitcoin price today: slips to $94k as risk appetite sours on Trump tariff threat",
-      "description": ""
-    },
-    {
-      "id": "47150fcb84efa1",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-26 03:31:51",
-      "title": "Asia stocks fall after Trump threatens tariffs, Japan's Nikkei leads losses",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/asia-stocks-fall-after-trump-threatens-tariffs-japans-nikkei-leads-losses-3741249",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2024-11-26 03:31:51",
-      "text": "Asia stocks fall after Trump threatens tariffs, Japan's Nikkei leads losses",
-      "description": ""
-    },
-    {
-      "id": "235ce94b4956cf",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-26 03:26:47",
-      "title": "S&P 500 positioning levels at record highs, pullback risks rise, Citi warns",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/sp-500-positioning-levels-at-record-highs-pullback-risks-rise-citi-warns-3741245",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2024-11-26 03:26:47",
-      "text": "S&P 500 positioning levels at record highs, pullback risks rise, Citi warns",
-      "description": ""
-    },
-    {
-      "id": "611c4bf22bfcb2",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-26 00:01:07",
-      "title": "Trump says he will impose additional 10% tariffs on China over drug inflow",
-      "body": "",
-      "url": "https://www.investing.com/news/politics/trump-says-he-will-impose-additional-10-tariffs-on-china-over-drug-inflow-3741069",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2024-11-26 00:01:07",
-      "text": "Trump says he will impose additional 10% tariffs on China over drug inflow",
-      "description": ""
-    },
-    {
-      "id": "2488727b780344",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-25 18:20:45",
-      "title": "Analyst calls Bitcoin 'global bubble', could soar to infinity",
-      "body": "",
-      "url": "https://www.investing.com/news/cryptocurrency-news/analyst-calls-bitcoin-global-bubble-could-soar-to-infinity-3740406",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2024-11-25 18:20:45",
-      "text": "Analyst calls Bitcoin 'global bubble', could soar to infinity",
-      "description": ""
     }
   ]
 }
