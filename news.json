@@ -1,29 +1,29 @@
 {
-  "generated": "2026-07-10T10:17:07Z",
-  "generated_display": "2026-07-10 10:17 ET",
-  "count": 190,
+  "generated": "2026-07-10T10:22:07Z",
+  "generated_display": "2026-07-10 10:22 ET",
+  "count": 191,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T10:17:02.217267+00:00",
+      "last_error_ts": "2026-07-10T10:22:02.468811+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
-      "items_pulled": 2,
-      "latency_ms": 180,
-      "last_success": "2026-07-10T10:17:02.398792+00:00",
+      "items_pulled": 3,
+      "latency_ms": 99,
+      "last_success": "2026-07-10T10:22:02.569289+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 181,
-      "last_success": "2026-07-10T10:17:02.581184+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-10T10:22:02.669856+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 40,
       "latency_ms": 99,
-      "last_success": "2026-07-10T10:17:02.683126+00:00",
+      "last_success": "2026-07-10T10:22:02.771031+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T10:17:02.788226+00:00",
+      "last_error_ts": "2026-07-10T10:22:02.884151+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1992,
-      "last_success": "2026-07-10T10:17:04.780851+00:00",
+      "latency_ms": 1484,
+      "last_success": "2026-07-10T10:22:04.369145+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T10:17:05.580775+00:00",
+      "last_success": "2026-07-10T10:22:05.288383+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1699,
-      "last_success": "2026-07-10T10:17:07.280195+00:00",
+      "latency_ms": 1779,
+      "last_success": "2026-07-10T10:22:07.068419+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 211
+          "latency_ms": 136
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 88
+          "latency_ms": 163
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 100
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 205
+          "latency_ms": 401
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 19
+          "latency_ms": 11
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 175
+          "latency_ms": 105
         }
       }
     }
@@ -107,16 +107,307 @@
   "by_source": {
     "stocktwits": 75,
     "uw_news": 25,
+    "cnbc": 8,
     "reuters": 16,
     "massive_news": 40,
     "marketwatch": 8,
     "zerohedge": 8,
-    "cnbc": 8,
+    "benzinga": 3,
     "seekingalpha": 7,
-    "benzinga": 2,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "2a5ef56ba39cb1",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:21:39Z",
+      "title": "$NVDA That was my happy tmi (too much information) Friday morning 2 U.    :)           (I am under pressure possible last day or 3 for a remaining project)",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658731489",
+      "author": "Crakerjac",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T10:21:39Z",
+      "text": "$NVDA That was my happy tmi (too much information) Friday morning 2 U.    :)           (I am under pressure possible last day or 3 for a remaining project)",
+      "description": "",
+      "handle": "Crakerjac",
+      "display_name": "John Dough",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ddf8f231f0e35d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:21:33Z",
+      "title": "Everyone is watching $NVDA and $MU, but the cleaner AI-memory question is quality, not hype. \nThe better filter is: who turns demand into durable returns on capital and free cash flow? \n$NVDA has the premium. $MU has the cycle. $AVGO has the diversified cash engine \n$NVDA $MU $AVGO $AMD $SMH",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658731482",
+      "author": "qualityscreener",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:21:33Z",
+      "text": "Everyone is watching $NVDA and $MU, but the cleaner AI-memory question is quality, not hype. \nThe better filter is: who turns demand into durable returns on capital and free cash flow? \n$NVDA has the premium. $MU has the cycle. $AVGO has the diversified cash engine \n$NVDA $MU $AVGO $AMD $SMH",
+      "description": "",
+      "handle": "qualityscreener",
+      "display_name": "qualityscreener.io",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9e583b06d93f29",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:21:33Z",
+      "title": "Everyone is watching $NVDA and $MU, but the cleaner AI-memory question is quality, not hype. \nThe better filter is: who turns demand into durable returns on capital and free cash flow? \n$NVDA has the premium. $MU has the cycle. $AVGO has the diversified cash engine \n$NVDA $MU $AVGO $AMD $SMH",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658731482",
+      "author": "qualityscreener",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:21:33Z",
+      "text": "Everyone is watching $NVDA and $MU, but the cleaner AI-memory question is quality, not hype. \nThe better filter is: who turns demand into durable returns on capital and free cash flow? \n$NVDA has the premium. $MU has the cycle. $AVGO has the diversified cash engine \n$NVDA $MU $AVGO $AMD $SMH",
+      "description": "",
+      "handle": "qualityscreener",
+      "display_name": "qualityscreener.io",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "329e91dd773118",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:21:26Z",
+      "title": "$SPY Ayatollah Ali Khamenei, it was delayed for more than four months (131 days) following his death  \n1 hour ago  - &quot;US To Continue \u2018Technical Talks\u2019 With Iran Even After Trump Declares Ceasefire \u2018Over\u2019 and Questions Tehran\u2019s Intentions: Report&quot; US speaking with  Iran leadership &quot;scu",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658731478",
+      "author": "dumbcat",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:21:26Z",
+      "text": "$SPY Ayatollah Ali Khamenei, it was delayed for more than four months (131 days) following his death  \n1 hour ago  - &quot;US To Continue \u2018Technical Talks\u2019 With Iran Even After Trump Declares Ceasefire \u2018Over\u2019 and Questions Tehran\u2019s Intentions: Report&quot; US speaking with  Iran leadership &quot;scu",
+      "description": "",
+      "handle": "dumbcat",
+      "display_name": "dumbcat",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "729813422763a2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:21:10Z",
+      "title": "$MSFT \ud83e\udd2b",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658731470",
+      "author": "AsianBoss508",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T10:21:10Z",
+      "text": "$MSFT \ud83e\udd2b",
+      "description": "",
+      "handle": "AsianBoss508",
+      "display_name": "NeverDie",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "21384110f62f0e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:20:23Z",
+      "title": "$MSFT 400 is not out of the picture for today",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658731452",
+      "author": "eatsleeptrades",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T10:20:23Z",
+      "text": "$MSFT 400 is not out of the picture for today",
+      "description": "",
+      "handle": "eatsleeptrades",
+      "display_name": "Gino",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7e2c67db71f18d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:19:57Z",
+      "title": "$META 643.18 is the 200 day: stay above that and we will be off to the races",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658731438",
+      "author": "jbananas",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:19:57Z",
+      "text": "$META 643.18 is the 200 day: stay above that and we will be off to the races",
+      "description": "",
+      "handle": "jbananas",
+      "display_name": "Jeffrey bananas",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d1b1666e8d0517",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:19:52Z",
+      "title": "$META finally its getting out of the trap it has been forever",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658731436",
+      "author": "SPD2025",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:19:52Z",
+      "text": "$META finally its getting out of the trap it has been forever",
+      "description": "",
+      "handle": "SPD2025",
+      "display_name": "G",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9ce86567bc05d7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:19:28Z",
+      "title": "$SPY profit taking on the way before weekend with war getting more serious.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658731431",
+      "author": "Bigblock6",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:19:28Z",
+      "text": "$SPY profit taking on the way before weekend with war getting more serious.",
+      "description": "",
+      "handle": "Bigblock6",
+      "display_name": "Vincent f",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3f856993f8dfa6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:19:10Z",
+      "title": "$COIN let\u2019s rumble",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658731421",
+      "author": "Br331",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:19:10Z",
+      "text": "$COIN let\u2019s rumble",
+      "description": "",
+      "handle": "Br331",
+      "display_name": "Br331",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7186fbe0b358a8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T10:18:18Z",
+      "title": "$MSTR $MSTX started accumulating average at 8.34",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658731406",
+      "author": "SwingTrader3888Twits",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T10:18:18Z",
+      "text": "$MSTR $MSTX started accumulating average at 8.34",
+      "description": "",
+      "handle": "SwingTrader3888Twits",
+      "display_name": "Mike",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b13e41781b829e",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:18:14Z",
+      "title": "GERMAN ECONOMY MINISTRY SPOKESPERSON ON VW:WE MONITOR THE SITUATION BECAUSE THE GROUP IS IMPORTANT FOR GERMANY",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "GABC"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:18:14Z",
+      "text": "GERMAN ECONOMY MINISTRY SPOKESPERSON ON VW:WE MONITOR THE SITUATION BECAUSE THE GROUP IS IMPORTANT FOR GERMANY",
+      "description": ""
+    },
+    {
+      "id": "9be0affd4a17e7",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:17:39Z",
+      "title": "Synthetic Rope Market worth $3.85 billion by 2031 - Exclusive Report by MarketsandMarkets\u2122",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:17:39Z",
+      "text": "Synthetic Rope Market worth $3.85 billion by 2031 - Exclusive Report by MarketsandMarkets\u2122",
+      "description": ""
+    },
     {
       "id": "14c81f80108f5a",
       "source": "stocktwits",
@@ -333,29 +624,6 @@
       "description": ""
     },
     {
-      "id": "5a8a81e98ffc0d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T10:12:20Z",
-      "title": "$META $NVDA $AMD $AVGO \n\nMeta doing own chips and the chip makers are falling $SPY \n\nmeta gaining",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658731258",
-      "author": "MomentumWins",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T10:12:20Z",
-      "text": "$META $NVDA $AMD $AVGO \n\nMeta doing own chips and the chip makers are falling $SPY \n\nmeta gaining",
-      "description": "",
-      "handle": "MomentumWins",
-      "display_name": "MomentumWins",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6116de3f867bc2",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -489,29 +757,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c31fcac7a4e7b8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T10:11:13Z",
-      "title": "$SPY https://youtu.be/uzyA_vx_HuM?is=0hd4yPVQeTfRVbNo",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658731228",
-      "author": "P8perCh8ser",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:11:13Z",
-      "text": "$SPY https://youtu.be/uzyA_vx_HuM?is=0hd4yPVQeTfRVbNo",
-      "description": "",
-      "handle": "P8perCh8ser",
-      "display_name": "P8perCh8ser",
-      "platform": "stocktwits"
-    },
-    {
       "id": "4b039c4c1b8663",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -571,6 +816,24 @@
       "time": "2026-07-10T10:10:32Z",
       "text": "EU orders Meta to change 'addictive design' of Instagram, Facebook for violating digital safety law.",
       "description": ""
+    },
+    {
+      "id": "1ead64a3067dd3",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 10:10:15 GMT",
+      "title": "Abivax $920 million cash haul lets it prepare for solo U.S. launch instead of relying on a buyer, CEO tells CNBC",
+      "body": "Its latest fundraising round provides the French biotech with enough cash to finance operations through 2029.",
+      "url": "https://www.cnbc.com/2026/07/10/abivax-stock-takeover-us-launch-obefazimod-ulcerative-colitis.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 10:10:15 GMT",
+      "text": "Abivax $920 million cash haul lets it prepare for solo U.S. launch instead of relying on a buyer, CEO tells CNBC",
+      "description": "Its latest fundraising round provides the French biotech with enough cash to finance operations through 2029."
     },
     {
       "id": "837efe5c1aa4b5",
@@ -656,52 +919,6 @@
       "description": ""
     },
     {
-      "id": "b992d3d5c64ff6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T10:08:31Z",
-      "title": "$NVDA NVIDIA (NVDA) is not just riding the AI wave; it is helping power the brains behind robotics, physical AI, autonomous machines, smart factories, data centers, and the next generation of machine intelligence. https://globalmarketbulletin.com/is-nvidia-nvda-still-a-smart-buy-as-robotics-and-ai-d",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658731170",
-      "author": "GlobalMarketBulletin",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:08:31Z",
-      "text": "$NVDA NVIDIA (NVDA) is not just riding the AI wave; it is helping power the brains behind robotics, physical AI, autonomous machines, smart factories, data centers, and the next generation of machine intelligence. https://globalmarketbulletin.com/is-nvidia-nvda-still-a-smart-buy-as-robotics-and-ai-d",
-      "description": "",
-      "handle": "GlobalMarketBulletin",
-      "display_name": "Global Market Bulletin",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "87247ad22d3d17",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T10:08:09Z",
-      "title": "$NVDA In my opinion, worry about the stock price of NVDA is a wasted emotional thought process. Stop it. Jensen Huang is your worry wart peoples. Watch how the company was created in his Joe Rogan interview and you will understand that he lives and breathes his own company Nvidia and we long holders",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658731161",
-      "author": "Crakerjac",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T10:08:09Z",
-      "text": "$NVDA In my opinion, worry about the stock price of NVDA is a wasted emotional thought process. Stop it. Jensen Huang is your worry wart peoples. Watch how the company was created in his Joe Rogan interview and you will understand that he lives and breathes his own company Nvidia and we long holders",
-      "description": "",
-      "handle": "Crakerjac",
-      "display_name": "John Dough",
-      "platform": "stocktwits"
-    },
-    {
       "id": "069a447ddd584b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -745,29 +962,6 @@
       "description": "",
       "handle": "Fernando36",
       "display_name": "Fernando Fernandez",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ed357ca81fd770",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T10:06:21Z",
-      "title": "$META could easily run up to 700+ for earnings",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658731117",
-      "author": "xtrader91",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T10:06:21Z",
-      "text": "$META could easily run up to 700+ for earnings",
-      "description": "",
-      "handle": "xtrader91",
-      "display_name": "xtrader91",
       "platform": "stocktwits"
     },
     {
@@ -996,29 +1190,6 @@
       "description": ""
     },
     {
-      "id": "2a31fbefc61561",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T10:03:04Z",
-      "title": "$SPY $RDDT you&#39;re going to work $SNDK $META $BTC.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658731022",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:03:04Z",
-      "text": "$SPY $RDDT you&#39;re going to work $SNDK $META $BTC.X",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
       "id": "f2d3753853cf64",
       "source": "reuters",
       "source_type": "rss",
@@ -1222,44 +1393,6 @@
       "sentiment": "neutral",
       "time": "2026-07-10T10:01:24Z",
       "text": "Congress and a Coalition of Conservation Leaders Condemn Largest Planned Wild Horse Roundup in Nevada History",
-      "description": ""
-    },
-    {
-      "id": "07178f099f1140",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T10:01:21Z",
-      "title": "Choreo Promotes Ray Morrill to Chief Wealth Officer Role",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:01:21Z",
-      "text": "Choreo Promotes Ray Morrill to Chief Wealth Officer Role",
-      "description": ""
-    },
-    {
-      "id": "0444fca59d7656",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T10:01:20Z",
-      "title": "Cango Inc. Announces Effective Date and Ratio for Share Consolidation",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "CANG"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:01:20Z",
-      "text": "Cango Inc. Announces Effective Date and Ratio for Share Consolidation",
       "description": ""
     },
     {
@@ -1778,24 +1911,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "d17d778bc78e9e",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 09:34:29 GMT",
-      "title": "Volkswagen to slash model lineup and shrink capacity \u2014 but no word on job cuts",
-      "body": "The update followed a high-stakes boardroom showdown with the group's supervisory board.",
-      "url": "https://www.cnbc.com/2026/07/10/volkswagen-vw-autos-job-cuts-germany.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 09:34:29 GMT",
-      "text": "Volkswagen to slash model lineup and shrink capacity \u2014 but no word on job cuts",
-      "description": "The update followed a high-stakes boardroom showdown with the group's supervisory board."
-    },
-    {
       "id": "d2d8c94a9b784a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1860,29 +1975,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "151977a6364045",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:30:43Z",
-      "title": "$COIN Today could fly",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658730314",
-      "author": "teuerbillig",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T09:30:43Z",
-      "text": "$COIN Today could fly",
-      "description": "",
-      "handle": "teuerbillig",
-      "display_name": "David",
-      "platform": "stocktwits"
-    },
-    {
       "id": "1745c135e3b1bf",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1944,29 +2036,6 @@
       "time": "2026-07-10T09:29:00Z",
       "text": "SpaceX Lands on the Nasdaq-100: What Comes Next for Investors",
       "description": "SpaceX has been added to the Nasdaq-100 index following its record IPO and $2 trillion valuation, making it one of the world's most valuable companies. However, the stock tumbled 7% on its first day in the index and currently trades at a valuation of over 100x its 2025 revenue, which analysts warn m"
-    },
-    {
-      "id": "3987ac7765f3fb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:27:08Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nMy guess is bears are fuked from here on out",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658730245",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:27:08Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nMy guess is bears are fuked from here on out",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
-      "platform": "stocktwits"
     },
     {
       "id": "8d236616a5b565",
@@ -2184,52 +2253,6 @@
       "time": "2026-07-10T09:10:00Z",
       "text": "3 Hypergrowth Tech Stocks to Buy With $3,000 Right Now",
       "description": "The article highlights three hypergrowth technology stocks: Broadcom, which is expanding its custom AI chip business with projected $100 billion in AI semiconductor revenue by 2027; Micron, benefiting from a memory chip shortage expected to persist beyond 2027; and IonQ, a quantum computing leader e"
-    },
-    {
-      "id": "3bdcde4934c558",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:09:46Z",
-      "title": "$MSFT 350 base looks good for now \u2705\ufe0f",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658729915",
-      "author": "Dark_Prince",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:09:46Z",
-      "text": "$MSFT 350 base looks good for now \u2705\ufe0f",
-      "description": "",
-      "handle": "Dark_Prince",
-      "display_name": "Dark_Prince",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a694314d3e3399",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:09:32Z",
-      "title": "$MSFT MSFT green oh the market must be red. Yep",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658729908",
-      "author": "HOODholder",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:09:32Z",
-      "text": "$MSFT MSFT green oh the market must be red. Yep",
-      "description": "",
-      "handle": "HOODholder",
-      "display_name": "Nick houraney",
-      "platform": "stocktwits"
     },
     {
       "id": "2188bb72e2d14e",
@@ -2489,29 +2512,6 @@
       "description": "",
       "handle": "Reversal_Levels",
       "display_name": "ReversalLevels | LunaticTrader",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b38b045771456d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:45:55Z",
-      "title": "$AMD  $AVGO $MRVL $NVDA $LRCX",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658729437",
-      "author": "investingvalue",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T08:45:55Z",
-      "text": "$AMD  $AVGO $MRVL $NVDA $LRCX",
-      "description": "",
-      "handle": "investingvalue",
-      "display_name": "stanton",
       "platform": "stocktwits"
     },
     {
@@ -3163,6 +3163,32 @@
       "handle": "MadStockAlerts1",
       "display_name": "MadStockAlerts",
       "platform": "stocktwits"
+    },
+    {
+      "id": "8d54c943efb3ea",
+      "source": "benzinga",
+      "source_type": "benzinga_news",
+      "timestamp": "Fri, 10 Jul 2026 06:17:14 -0400",
+      "title": "UK Government Designates Four Major Global Cloud Services And Technology Providers Amazon, Google, Microsoft And Oracle As Critical Third Parties",
+      "body": "https://www.gov.uk/government/news/uk-financial-system-strengthened-with-new-safeguards-for-major-technology-providers",
+      "url": "https://www.benzinga.com/news/26/07/60378092/uk-government-designates-four-major-global-cloud-services-and-technology-providers-amazon-google-mic",
+      "author": "Benzinga Newsdesk",
+      "tickers": [
+        "AMZN",
+        "GOOG",
+        "ORCL",
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 06:17:14 -0400",
+      "text": "UK Government Designates Four Major Global Cloud Services And Technology Providers Amazon, Google, Microsoft And Oracle As Critical Third Parties",
+      "description": "https://www.gov.uk/government/news/uk-financial-system-strengthened-with-new-safeguards-for-major-technology-providers",
+      "channels": [
+        "News"
+      ]
     },
     {
       "id": "4e66fa6c9f1182",
@@ -3946,39 +3972,39 @@
       "description": ""
     },
     {
-      "id": "91929ad5a8a6e7",
+      "id": "af7a609973cab8",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-08T22:16:28Z",
-      "title": "Cotton Fades Back Lower on Wednesday",
+      "timestamp": "2026-07-08T23:30:02Z",
+      "title": "Nike\u2019s Dividend Yield Is Near Record Highs, But That\u2019s Not a Good Enough Reason to Buy NKE Stock",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/cotton-fades-back-lower-wednesday-221628293.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/nike-dividend-yield-near-record-233002349.html",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 7.0,
+      "impact_score": 7.8,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-08T22:16:28Z",
-      "text": "Cotton Fades Back Lower on Wednesday",
+      "time": "2026-07-08T23:30:02Z",
+      "text": "Nike\u2019s Dividend Yield Is Near Record Highs, But That\u2019s Not a Good Enough Reason to Buy NKE Stock",
       "description": ""
     },
     {
-      "id": "27c0c7329704a4",
+      "id": "4de867e735819e",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-08T22:16:28Z",
-      "title": "Corn Corrects Lower on Wednesday",
+      "timestamp": "2026-07-08T23:00:00Z",
+      "title": "Dangote\u2019s Next Move Could Create the World\u2019s Largest Refinery",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-corrects-lower-wednesday-221628960.html",
+      "url": "https://finance.yahoo.com/energy/articles/dangote-next-move-could-create-230000978.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-08T22:16:28Z",
-      "text": "Corn Corrects Lower on Wednesday",
+      "time": "2026-07-08T23:00:00Z",
+      "text": "Dangote\u2019s Next Move Could Create the World\u2019s Largest Refinery",
       "description": ""
     },
     {
