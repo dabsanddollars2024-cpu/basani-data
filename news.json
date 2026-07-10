@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T07:17:06Z",
-  "generated_display": "2026-07-10 07:17 ET",
+  "generated": "2026-07-10T07:22:07Z",
+  "generated_display": "2026-07-10 07:22 ET",
   "count": 184,
   "source_health": {
     "x_api": {
@@ -8,22 +8,22 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T07:17:01.872881+00:00",
+      "last_error_ts": "2026-07-10T07:22:01.773263+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 100,
-      "last_success": "2026-07-10T07:17:01.974099+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-10T07:22:01.873703+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 99,
-      "last_success": "2026-07-10T07:17:02.074617+00:00",
+      "latency_ms": 199,
+      "last_success": "2026-07-10T07:22:02.074731+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -31,7 +31,7 @@
       "status": "healthy",
       "items_pulled": 35,
       "latency_ms": 98,
-      "last_success": "2026-07-10T07:17:02.174857+00:00",
+      "last_success": "2026-07-10T07:22:02.175724+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T07:17:02.288049+00:00",
+      "last_error_ts": "2026-07-10T07:22:02.296153+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1585,
-      "last_success": "2026-07-10T07:17:03.873495+00:00",
+      "latency_ms": 2272,
+      "last_success": "2026-07-10T07:22:04.568518+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T07:17:04.557542+00:00",
+      "last_success": "2026-07-10T07:22:05.273257+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1947,
-      "last_success": "2026-07-10T07:17:06.504653+00:00",
+      "latency_ms": 1760,
+      "last_success": "2026-07-10T07:22:07.034172+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,7 +74,7 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 112
+          "latency_ms": 118
         },
         "cnbc": {
           "status": "healthy",
@@ -84,39 +84,277 @@
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 106
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 196
+          "latency_ms": 203
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 79
+          "latency_ms": 9
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 100
+          "latency_ms": 187
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "cnbc": 8,
     "uw_news": 25,
+    "cnbc": 8,
     "reuters": 16,
     "massive_news": 35,
-    "marketwatch": 8,
     "zerohedge": 8,
+    "marketwatch": 8,
     "seekingalpha": 7,
     "benzinga": 1,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "2de1692052110e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T07:21:48Z",
+      "title": "$MSFT \u201cInvestors looking at Microsoft in the context of Kevin Warsh\u2019s AI-friendly Fed may focus less on headlines around heavy AI capex and more on the combination of strong earnings, high margins and one of the deepest enterprise AI franchises in the market. The company is pouring billions into Azu",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658728284",
+      "author": "Agent8",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 8.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T07:21:48Z",
+      "text": "$MSFT \u201cInvestors looking at Microsoft in the context of Kevin Warsh\u2019s AI-friendly Fed may focus less on headlines around heavy AI capex and more on the combination of strong earnings, high margins and one of the deepest enterprise AI franchises in the market. The company is pouring billions into Azu",
+      "description": "",
+      "handle": "Agent8",
+      "display_name": "ApiL",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d5a9e5d34b8927",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T07:21:41Z",
+      "title": "Japan's Dep. Chief Cabinet Sec. Kihara: Specifics of monetary policy to be left to the BoJ",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T07:21:41Z",
+      "text": "Japan's Dep. Chief Cabinet Sec. Kihara: Specifics of monetary policy to be left to the BoJ",
+      "description": ""
+    },
+    {
+      "id": "d28b657a15e00e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T07:21:30Z",
+      "title": "$SPY a gift and a curse, a future and a promise $RDDT $META $BTC.X $HOOD",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658728280",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T07:21:30Z",
+      "text": "$SPY a gift and a curse, a future and a promise $RDDT $META $BTC.X $HOOD",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4d8c7b0159b6d2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T07:21:30Z",
+      "title": "$SPY a gift and a curse, a future and a promise $RDDT $META $BTC.X $HOOD",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658728280",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T07:21:30Z",
+      "text": "$SPY a gift and a curse, a future and a promise $RDDT $META $BTC.X $HOOD",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f7c58726104f1c",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T07:21:08Z",
+      "title": "ANDALUSIA'S REGIONAL HEAD REPORTED THAT 19 PEOPLE ARE MISSING DUE TO THE LOS GALLARDOS WILDFIRE.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T07:21:08Z",
+      "text": "ANDALUSIA'S REGIONAL HEAD REPORTED THAT 19 PEOPLE ARE MISSING DUE TO THE LOS GALLARDOS WILDFIRE.",
+      "description": ""
+    },
+    {
+      "id": "417a907f362ede",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T07:19:09Z",
+      "title": "$SPY $NVDA no no nO!!! $BTC.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658728253",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T07:19:09Z",
+      "text": "$SPY $NVDA no no nO!!! $BTC.X",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9e0d44b69d3e74",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T07:19:09Z",
+      "title": "$SPY $NVDA no no nO!!! $BTC.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658728253",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T07:19:09Z",
+      "text": "$SPY $NVDA no no nO!!! $BTC.X",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f4351cde65b076",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T07:19:01Z",
+      "title": "ISRAELI ARMY: WE RECENTLY DISCOVERED HEZBOLLAH WEAPONS DEPOTS IN THE SECURITY ZONE SOUTH OF LEBANON",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T07:19:01Z",
+      "text": "ISRAELI ARMY: WE RECENTLY DISCOVERED HEZBOLLAH WEAPONS DEPOTS IN THE SECURITY ZONE SOUTH OF LEBANON",
+      "description": ""
+    },
+    {
+      "id": "9bd63594ecda84",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T07:18:43Z",
+      "title": "$PLTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658728249",
+      "author": "PicoPies",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T07:18:43Z",
+      "text": "$PLTR",
+      "description": "",
+      "handle": "PicoPies",
+      "display_name": "PicoPies",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0713e6dc2ec7fe",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T07:17:21Z",
+      "title": "Gold Edges Lower As USD Bounces Off One-Week Low Amid Fed Hike Bets And Iran Risks $UUP $GLD $XAU.X https://talkmarkets.com/article/gold-edges-lower-as-usd-bounces-off-one-week-low-amid-fed-hike-bets-and-iran-risks-1783667799",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/GLD/message/658728233",
+      "author": "TalkMarkets",
+      "tickers": [
+        "GLD"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T07:17:21Z",
+      "text": "Gold Edges Lower As USD Bounces Off One-Week Low Amid Fed Hike Bets And Iran Risks $UUP $GLD $XAU.X https://talkmarkets.com/article/gold-edges-lower-as-usd-bounces-off-one-week-low-amid-fed-hike-bets-and-iran-risks-1783667799",
+      "description": "",
+      "handle": "TalkMarkets",
+      "display_name": "TalkMarkets",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "884f7ab5c495f0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T07:17:17Z",
+      "title": "$CRCL $BTC.X $COIN \n\u201cIf it passes, we believe it likely marks this bear market\u2019s bottom. If it fails, expect volatility initially, then a clearing of uncertainty as the industry keeps building under a pro-crypto SEC and CFTC,\u201d the statement read.\u201d \nAdditionally, \u201cBitwise expects more large firms to ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658728230",
+      "author": "Agent8",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T07:17:17Z",
+      "text": "$CRCL $BTC.X $COIN \n\u201cIf it passes, we believe it likely marks this bear market\u2019s bottom. If it fails, expect volatility initially, then a clearing of uncertainty as the industry keeps building under a pro-crypto SEC and CFTC,\u201d the statement read.\u201d \nAdditionally, \u201cBitwise expects more large firms to ",
+      "description": "",
+      "handle": "Agent8",
+      "display_name": "ApiL",
+      "platform": "stocktwits"
+    },
     {
       "id": "6440f1dade33ca",
       "source": "stocktwits",
@@ -435,29 +673,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "043bb4ad1993f0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T07:09:28Z",
-      "title": "$SPY you&#39;re doing time!!! $META $RDDT $BTC.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658728132",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T07:09:28Z",
-      "text": "$SPY you&#39;re doing time!!! $META $RDDT $BTC.X",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
       "id": "200d1c191ca898",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -478,29 +693,6 @@
       "description": "",
       "handle": "MiaHarperTrading",
       "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d186cde10cc1d8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T07:09:20Z",
-      "title": "$SPY Double Top",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658728131",
-      "author": "PMoMoney1",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-10T07:09:20Z",
-      "text": "$SPY Double Top",
-      "description": "",
-      "handle": "PMoMoney1",
-      "display_name": "PMoMoney",
       "platform": "stocktwits"
     },
     {
@@ -785,29 +977,6 @@
       "time": "2026-07-10T07:02:03Z",
       "text": "As Stress, Burnout, and Digital Overload Shape Daily Life, \"Doing Nothing\" Can Help the Body and Mind Recover",
       "description": ""
-    },
-    {
-      "id": "b4c67d84a0ace9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T07:01:47Z",
-      "title": "$SPY traditional family have traditional values $BTC.X $META $RDDT",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658728040",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T07:01:47Z",
-      "text": "$SPY traditional family have traditional values $BTC.X $META $RDDT",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
     },
     {
       "id": "a7eaaf55e1a882",
@@ -1296,27 +1465,22 @@
       "description": "FMR LLC's indirect shareholding in Nokia Corporation decreased below the 5% disclosure threshold on July 8, 2026, falling from 5.20% to 4.87% of shares and from 4.92% to 4.59% of voting rights. The notification was made under Chapter 9, Section 10 of the Finnish Securities Market Act."
     },
     {
-      "id": "cf79a998b00188",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T06:44:38Z",
-      "title": "$NVDA This has been such a long slogging road of BS. I\u2019ve lost all care for these market swings over the past couple of years. Jensen tells us everything is fine, the entire tech industry tells us everything is fine, the valuation is more than fine. \n\nThe market is having a disconnect about that and",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658727849",
-      "author": "o_0_O_0_o",
-      "tickers": [
-        "NVDA"
-      ],
+      "id": "33717bf39f80f4",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 06:45:00 +0000",
+      "title": "Erdogan Taunts Israel & Greece After Trump Hands Turkey F-35, Sanctions Win",
+      "body": "Erdogan Taunts Israel & Greece After Trump Hands Turkey F-35, Sanctions Win\n\n            Turkish President Recep Tayyip Erdogan has responded to ongoing Israeli and Greek objections to the possible US sale of F-35 fighter jets to Turkey by mocking the Turkish enemies and rivals.\n\nOpposition to the p",
+      "url": "https://www.zerohedge.com/geopolitical/erdogan-taunts-israel-greece-after-trump-hands-turkey-f-35-sanctions-win",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 6.5,
       "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T06:44:38Z",
-      "text": "$NVDA This has been such a long slogging road of BS. I\u2019ve lost all care for these market swings over the past couple of years. Jensen tells us everything is fine, the entire tech industry tells us everything is fine, the valuation is more than fine. \n\nThe market is having a disconnect about that and",
-      "description": "",
-      "handle": "o_0_O_0_o",
-      "display_name": "o_0_O_0_o",
-      "platform": "stocktwits"
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 06:45:00 +0000",
+      "text": "Erdogan Taunts Israel & Greece After Trump Hands Turkey F-35, Sanctions Win",
+      "description": "Erdogan Taunts Israel & Greece After Trump Hands Turkey F-35, Sanctions Win\n\n            Turkish President Recep Tayyip Erdogan has responded to ongoing Israeli and Greek objections to the possible US sale of F-35 fighter jets to Turkey by mocking the Turkish enemies and rivals.\n\nOpposition to the p"
     },
     {
       "id": "28f09c7b662243",
@@ -1653,44 +1817,6 @@
       "description": ""
     },
     {
-      "id": "b0b2513fb50ce3",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T06:24:10Z",
-      "title": "BTC has 99.95% odds above $52K on Polymarket. Bitcoin above $62,000 amid U.S.-Iran tensions. Oil up for 3rd day, gold down for 4th. Crypto muted.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "BTC"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:24:10Z",
-      "text": "BTC has 99.95% odds above $52K on Polymarket. Bitcoin above $62,000 amid U.S.-Iran tensions. Oil up for 3rd day, gold down for 4th. Crypto muted.",
-      "description": ""
-    },
-    {
-      "id": "957522f051eb52",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T06:23:29Z",
-      "title": "Australian shares close higher, with the S&P/ASX 200 gaining 0.5% to 8,806.00.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:23:29Z",
-      "text": "Australian shares close higher, with the S&P/ASX 200 gaining 0.5% to 8,806.00.",
-      "description": ""
-    },
-    {
       "id": "f8a94a6e510e03",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1753,24 +1879,6 @@
       "handle": "DaisyBuck",
       "display_name": "Daisy Buck",
       "platform": "stocktwits"
-    },
-    {
-      "id": "4d4b961a1226af",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T06:19:17Z",
-      "title": "Glencore upgraded to 'Buy' from 'Neutral' by Goldman Sachs.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:19:17Z",
-      "text": "Glencore upgraded to 'Buy' from 'Neutral' by Goldman Sachs.",
-      "description": ""
     },
     {
       "id": "aee82f0455ad80",
@@ -1929,6 +2037,24 @@
       "handle": "BwesY",
       "display_name": "nfa",
       "platform": "stocktwits"
+    },
+    {
+      "id": "96ac49cd14a73a",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 06:00:00 +0000",
+      "title": "Europeans Should Embrace The American Revolution",
+      "body": "Europeans Should Embrace The American Revolution\n\n            Authored by\u00a0J.B. Shurk via\u00a0American Thinker,\n\nThe time has come for Europeans to\u00a0declare their independence from ruling-class tyranny.\n\n\n\nWe made it to our two-hundred-fiftieth birthday, America.\u00a0\u00a0What\u2019s next?\u00a0\u00a0Let\u2019s get back to work, so ",
+      "url": "https://www.zerohedge.com/geopolitical/europeans-should-embrace-american-revolution",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 06:00:00 +0000",
+      "text": "Europeans Should Embrace The American Revolution",
+      "description": "Europeans Should Embrace The American Revolution\n\n            Authored by\u00a0J.B. Shurk via\u00a0American Thinker,\n\nThe time has come for Europeans to\u00a0declare their independence from ruling-class tyranny.\n\n\n\nWe made it to our two-hundred-fiftieth birthday, America.\u00a0\u00a0What\u2019s next?\u00a0\u00a0Let\u2019s get back to work, so "
     },
     {
       "id": "75660b7a7cb60b",
@@ -2382,52 +2508,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "37c11f78bb694e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T04:41:02Z",
-      "title": "$INFQ  \n?????? \n \n$IONQ $PLTR $INTC $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658726034",
-      "author": "tievLeaf",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T04:41:02Z",
-      "text": "$INFQ  \n?????? \n \n$IONQ $PLTR $INTC $SPY",
-      "description": "",
-      "handle": "tievLeaf",
-      "display_name": "Aloe Ha",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a2a86e271375ef",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T04:26:30Z",
-      "title": "$MSFT deport Nutella",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658725767",
-      "author": "bullishforeverbrah",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-10T04:26:30Z",
-      "text": "$MSFT deport Nutella",
-      "description": "",
-      "handle": "bullishforeverbrah",
-      "display_name": "bullishbrah",
-      "platform": "stocktwits"
-    },
-    {
       "id": "9be5fb43df5707",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2540,29 +2620,6 @@
       "description": "",
       "handle": "InvestorWisdom",
       "display_name": "T",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "3a8bb159e4de45",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:38:50Z",
-      "title": "$COIN bearish analysts had their today!  i am hoping bullish analysts come out swinging tomorrow  $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658724790",
-      "author": "MomentumWins",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T03:38:50Z",
-      "text": "$COIN bearish analysts had their today!  i am hoping bullish analysts come out swinging tomorrow  $SPY",
-      "description": "",
-      "handle": "MomentumWins",
-      "display_name": "MomentumWins",
       "platform": "stocktwits"
     },
     {
@@ -2723,29 +2780,6 @@
       "time": "Fri, 10 Jul 2026 02:54:45 -0400",
       "text": "BW LPG unit sells BW Elm",
       "description": ""
-    },
-    {
-      "id": "fbd9971f2622b1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T02:54:38Z",
-      "title": "$GLD WAKE UP LET&#39;S GO! USD TANKING",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/GLD/message/658723434",
-      "author": "QEBubble",
-      "tickers": [
-        "GLD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T02:54:38Z",
-      "text": "$GLD WAKE UP LET&#39;S GO! USD TANKING",
-      "description": "",
-      "handle": "QEBubble",
-      "display_name": "QEBubble",
-      "platform": "stocktwits"
     },
     {
       "id": "7bd0131af70f42",
@@ -3344,42 +3378,6 @@
       "description": "Following the end of the quiet period after SpaceX's IPO, Wall Street analysts released a wave of research reports with overwhelmingly bullish sentiment. Most analysts issued Buy or Buy-equivalent ratings with price targets ranging from $190 to $300, citing three main growth drivers: Starlink's shif"
     },
     {
-      "id": "56d1f228322c40",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 01:00:00 +0000",
-      "title": "Israel Hands US Curiously-Timed Intelligence Saying Iran Plotting To Assassinate Trump",
-      "body": "Israel Hands US Curiously-Timed Intelligence Saying Iran Plotting To Assassinate Trump\n\n            Update(21:00ET): Here's what President Trump said from Ankara on Wednesday which left many wondering just what he was referring to: \"They want to take out the U.S. leader\u2014me,\" he said in reference to ",
-      "url": "https://www.zerohedge.com/geopolitical/return-war-iran-sends-ballistic-missiles-kuwait-bahrain-qatar-jordan-after-us-struck",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 01:00:00 +0000",
-      "text": "Israel Hands US Curiously-Timed Intelligence Saying Iran Plotting To Assassinate Trump",
-      "description": "Israel Hands US Curiously-Timed Intelligence Saying Iran Plotting To Assassinate Trump\n\n            Update(21:00ET): Here's what President Trump said from Ankara on Wednesday which left many wondering just what he was referring to: \"They want to take out the U.S. leader\u2014me,\" he said in reference to "
-    },
-    {
-      "id": "9b2048710fe824",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 00:55:00 +0000",
-      "title": "Justice Department Agrees To End Biden-Era Oil & Gas Leasing Restrictions In Alaska",
-      "body": "Justice Department Agrees To End Biden-Era Oil & Gas Leasing Restrictions In Alaska\n\n            Authored by Jill McLaughlin via The Epoch Times,\n\nThe U.S. Department of Justice said July 7 the Biden administration\u2019s oil and gas leasing restrictions in northern Alaska\u2019s Arctic region violated federa",
-      "url": "https://www.zerohedge.com/political/justice-department-agrees-end-biden-era-oil-gas-leasing-restrictions-alaska",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 00:55:00 +0000",
-      "text": "Justice Department Agrees To End Biden-Era Oil & Gas Leasing Restrictions In Alaska",
-      "description": "Justice Department Agrees To End Biden-Era Oil & Gas Leasing Restrictions In Alaska\n\n            Authored by Jill McLaughlin via The Epoch Times,\n\nThe U.S. Department of Justice said July 7 the Biden administration\u2019s oil and gas leasing restrictions in northern Alaska\u2019s Arctic region violated federa"
-    },
-    {
       "id": "6cb5e09715377b",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3780,21 +3778,75 @@
       "description": ""
     },
     {
-      "id": "bd8a81eab90919",
+      "id": "bf16d53d63d5ae",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-08T19:20:41Z",
-      "title": "Northland Reiterates its Outperform rating on AXT, Inc. (AXTI)",
+      "timestamp": "2026-07-08T19:20:57Z",
+      "title": "Freedom Capital Initiates Coverage of Tempus AI, Inc. (TEM)",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/northland-reiterates-outperform-rating-axt-192041288.html",
+      "url": "https://finance.yahoo.com/technology/ai/articles/freedom-capital-initiates-coverage-tempus-192057966.html",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 7.8,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-08T19:20:41Z",
-      "text": "Northland Reiterates its Outperform rating on AXT, Inc. (AXTI)",
+      "time": "2026-07-08T19:20:57Z",
+      "text": "Freedom Capital Initiates Coverage of Tempus AI, Inc. (TEM)",
+      "description": ""
+    },
+    {
+      "id": "67b44476291964",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-08T19:20:50Z",
+      "title": "Texas Capital is Bullish on (PGY)",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/texas-capital-bullish-pgy-192050941.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T19:20:50Z",
+      "text": "Texas Capital is Bullish on (PGY)",
+      "description": ""
+    },
+    {
+      "id": "0e61380ea8a469",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-08T19:20:32Z",
+      "title": "Is Exelixis, Inc. (EXEL) Among the Best Under-the-Radar Stocks to Invest In?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/exelixis-inc-exel-among-best-192032694.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T19:20:32Z",
+      "text": "Is Exelixis, Inc. (EXEL) Among the Best Under-the-Radar Stocks to Invest In?",
+      "description": ""
+    },
+    {
+      "id": "633601c1d80583",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-08T19:20:25Z",
+      "title": "BofA lowers its Price Target on Madrigal Pharmaceuticals, Inc. (MDGL)",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bofa-lowers-price-target-madrigal-192025345.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T19:20:25Z",
+      "text": "BofA lowers its Price Target on Madrigal Pharmaceuticals, Inc. (MDGL)",
       "description": ""
     },
     {
@@ -3834,75 +3886,21 @@
       "description": ""
     },
     {
-      "id": "fe9908fe2ef2ed",
+      "id": "5a785f3df8c7ce",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-08T19:15:05Z",
-      "title": "Crude Oil Prices Surge as Geopolitical Risks Intensify",
+      "timestamp": "2026-07-08T19:18:00Z",
+      "title": "Oil Futures Rise as U.S.-Iran Strikes Rekindle Conflict",
       "body": "",
-      "url": "https://finance.yahoo.com/energy/articles/crude-oil-prices-surge-geopolitical-191505315.html",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-rises-amid-renewed-supply-disruption-fears-30598117?siteid=yhoof2&yptr=yahoo",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 7.8,
+      "impact_score": 9.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-08T19:15:05Z",
-      "text": "Crude Oil Prices Surge as Geopolitical Risks Intensify",
-      "description": ""
-    },
-    {
-      "id": "14514fb87b3911",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-08T19:14:43Z",
-      "title": "Alibaba Shares Are Gaining on AI Optimism. Here's What to Know.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/alibaba-shares-gaining-ai-optimism-191443125.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T19:14:43Z",
-      "text": "Alibaba Shares Are Gaining on AI Optimism. Here's What to Know.",
-      "description": ""
-    },
-    {
-      "id": "fe6283cb797ba0",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-08T19:13:37Z",
-      "title": "Nat-Gas Erases Early Gains on the Outlook for Larger US Inventories",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/nat-gas-erases-early-gains-191337735.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T19:13:37Z",
-      "text": "Nat-Gas Erases Early Gains on the Outlook for Larger US Inventories",
-      "description": ""
-    },
-    {
-      "id": "55af2dc06a2649",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-08T19:13:00Z",
-      "title": "Mark Cuban has strong words on minimum wage and employers",
-      "body": "",
-      "url": "https://finance.yahoo.com/economy/policy/articles/mark-cuban-strong-words-minimum-191300406.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T19:13:00Z",
-      "text": "Mark Cuban has strong words on minimum wage and employers",
+      "time": "2026-07-08T19:18:00Z",
+      "text": "Oil Futures Rise as U.S.-Iran Strikes Rekindle Conflict",
       "description": ""
     },
     {
