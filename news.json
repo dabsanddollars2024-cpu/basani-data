@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T04:17:07Z",
-  "generated_display": "2026-07-10 04:17 ET",
+  "generated": "2026-07-10T04:22:07Z",
+  "generated_display": "2026-07-10 04:22 ET",
   "count": 221,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T04:17:02.471040+00:00",
+      "last_error_ts": "2026-07-10T04:22:02.358126+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 23,
-      "latency_ms": 106,
-      "last_success": "2026-07-10T04:17:02.579866+00:00",
+      "latency_ms": 118,
+      "last_success": "2026-07-10T04:22:02.478319+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 91,
-      "last_success": "2026-07-10T04:17:02.672073+00:00",
+      "latency_ms": 92,
+      "last_success": "2026-07-10T04:22:02.571527+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 99,
-      "last_success": "2026-07-10T04:17:02.774637+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-10T04:22:02.674367+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T04:17:02.881888+00:00",
+      "last_error_ts": "2026-07-10T04:22:02.778025+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1488,
-      "last_success": "2026-07-10T04:17:04.370338+00:00",
+      "latency_ms": 1793,
+      "last_success": "2026-07-10T04:22:04.571060+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T04:17:05.270977+00:00",
+      "last_success": "2026-07-10T04:22:05.352201+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1944,
-      "last_success": "2026-07-10T04:17:07.215921+00:00",
+      "latency_ms": 1818,
+      "last_success": "2026-07-10T04:22:07.170544+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,39 +74,39 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 225
+          "latency_ms": 114
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 301
+          "latency_ms": 87
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 36
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 189
+          "latency_ms": 390
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 16
+          "latency_ms": 74
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 78
+          "latency_ms": 77
         }
       }
     }
   },
   "by_source": {
-    "stocktwits": 75,
     "uw_news": 25,
+    "stocktwits": 75,
     "reuters": 16,
     "cnbc": 8,
     "massive_news": 50,
@@ -117,6 +117,381 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "e338aec780a892",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T04:21:42Z",
+      "title": "JPMorgan lifts Coca-Cola's target price to $90 from $85.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "JPM"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:21:42Z",
+      "text": "JPMorgan lifts Coca-Cola's target price to $90 from $85.",
+      "description": ""
+    },
+    {
+      "id": "706455acd9d0f8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:21:21Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nLighting these offers on fire it\u2019s going to be a spectacular nightmare  for most of you!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658725666",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:21:21Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nLighting these offers on fire it\u2019s going to be a spectacular nightmare  for most of you!",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6d853d97efd0ee",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:21:18Z",
+      "title": "$AMD calling it right now - 30 buck chuck tomorrow!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658725662",
+      "author": "Iamwillwexler",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:21:18Z",
+      "text": "$AMD calling it right now - 30 buck chuck tomorrow!",
+      "description": "",
+      "handle": "Iamwillwexler",
+      "display_name": "William Wexler",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "05742863cfdafe",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:21:13Z",
+      "title": "$QQQ  Taco tweet in the AM\ud83e\udd14",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658725659",
+      "author": "BTC_2_1MiLLioN",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:21:13Z",
+      "text": "$QQQ  Taco tweet in the AM\ud83e\udd14",
+      "description": "",
+      "handle": "BTC_2_1MiLLioN",
+      "display_name": "UNKNOWN",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2e072fdb719bc7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:21:01Z",
+      "title": "$AAPL normalize 20 dollar stock drops.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658725655",
+      "author": "SKYROCKETMAN",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-10T04:21:01Z",
+      "text": "$AAPL normalize 20 dollar stock drops.",
+      "description": "",
+      "handle": "SKYROCKETMAN",
+      "display_name": "SKYROCKETMAN",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e4b562ed1f6388",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:20:33Z",
+      "title": "$SPY when Open AI IPOs and they open their kimono it will mark the top",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658725646",
+      "author": "Jimsonlima",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:20:33Z",
+      "text": "$SPY when Open AI IPOs and they open their kimono it will mark the top",
+      "description": "",
+      "handle": "Jimsonlima",
+      "display_name": "Jimson Lima",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3321fb3d74bef4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:20:03Z",
+      "title": "$SPY it&#39;s absolutely over. Get out now dumb fuks",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658725633",
+      "author": "bullishforeverbrah",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-10T04:20:03Z",
+      "text": "$SPY it&#39;s absolutely over. Get out now dumb fuks",
+      "description": "",
+      "handle": "bullishforeverbrah",
+      "display_name": "bullishbrah",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a278010dfbc677",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T04:19:50Z",
+      "title": "Polymarket odds on Hormuz traffic normalization drop to 62.5% amidst Gulf tensions. US military strikes 90 targets in Iran, Iran retaliates affecting US allies.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:19:50Z",
+      "text": "Polymarket odds on Hormuz traffic normalization drop to 62.5% amidst Gulf tensions. US military strikes 90 targets in Iran, Iran retaliates affecting US allies.",
+      "description": ""
+    },
+    {
+      "id": "2cf6a0b33c6a08",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:18:54Z",
+      "title": "$META .",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658725610",
+      "author": "econometrics101",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T04:18:54Z",
+      "text": "$META .",
+      "description": "",
+      "handle": "econometrics101",
+      "display_name": "econometrics101",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bd323dca98c6ae",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:18:00Z",
+      "title": "$AAPL Siri AI is really good. Model capability is getting stronger and cheaper and commoditized, the bottleneck in that world would be personal context + identity aka who is the agent acting behalf on, that layer is Apple. They can instantly deploy their model to 2.2B devices, and ecosystem lock-in ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658725597",
+      "author": "Florestan",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T04:18:00Z",
+      "text": "$AAPL Siri AI is really good. Model capability is getting stronger and cheaper and commoditized, the bottleneck in that world would be personal context + identity aka who is the agent acting behalf on, that layer is Apple. They can instantly deploy their model to 2.2B devices, and ecosystem lock-in ",
+      "description": "",
+      "handle": "Florestan",
+      "display_name": "Florestan",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5c9cd2a2f6488f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:17:32Z",
+      "title": "$4CHAN.X chilling and comfy here with 4chan  \n$BTC.X $SPY $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658725588",
+      "author": "BIGNOSER",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T04:17:32Z",
+      "text": "$4CHAN.X chilling and comfy here with 4chan  \n$BTC.X $SPY $TSLA",
+      "description": "",
+      "handle": "BIGNOSER",
+      "display_name": "BGNSR",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "7b118a454cfe6c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:17:32Z",
+      "title": "$4CHAN.X chilling and comfy here with 4chan  \n$BTC.X $SPY $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658725588",
+      "author": "BIGNOSER",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T04:17:32Z",
+      "text": "$4CHAN.X chilling and comfy here with 4chan  \n$BTC.X $SPY $TSLA",
+      "description": "",
+      "handle": "BIGNOSER",
+      "display_name": "BGNSR",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ab6aea8e098217",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:17:30Z",
+      "title": "$MSFT Does it make sense  to be bullish here and feels bearish on the SPY QQQ ?\ud83e\udd14",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658725586",
+      "author": "Kennynails",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:17:30Z",
+      "text": "$MSFT Does it make sense  to be bullish here and feels bearish on the SPY QQQ ?\ud83e\udd14",
+      "description": "",
+      "handle": "Kennynails",
+      "display_name": "Kenny Nguyen",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "345129d3984bdc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:17:20Z",
+      "title": "$ORCL and $AMD 2027 behemoths.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658725583",
+      "author": "TheUnmaker",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T04:17:20Z",
+      "text": "$ORCL and $AMD 2027 behemoths.",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "66641bd5dc302d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T04:17:14Z",
+      "title": "$AVGO$META $TSM $AAPL Meta to co design their chips with Broadcom to be produced by TSMC. Most hyperscalers are now switching over to Broadcom. Current PT $600.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AAPL/message/658725580",
+      "author": "AVGOmysugardaddy",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T04:17:14Z",
+      "text": "$AVGO$META $TSM $AAPL Meta to co design their chips with Broadcom to be produced by TSMC. Most hyperscalers are now switching over to Broadcom. Current PT $600.",
+      "description": "",
+      "handle": "AVGOmysugardaddy",
+      "display_name": "Lucky27",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6819d1b522fe43",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T04:17:12Z",
+      "title": "Canaccord Genuity lowers AeroVironment's target price to $240 from $280.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:17:12Z",
+      "text": "Canaccord Genuity lowers AeroVironment's target price to $240 from $280.",
+      "description": ""
+    },
+    {
+      "id": "d4006458ea2747",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T04:17:11Z",
+      "title": "Iron ore set for first weekly rise in a month as supply constraints and port destocking support prices.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "IRON"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T04:17:11Z",
+      "text": "Iron ore set for first weekly rise in a month as supply constraints and port destocking support prices.",
+      "description": ""
+    },
     {
       "id": "fa21a3cc7a3d50",
       "source": "stocktwits",
@@ -279,52 +654,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "bd9ead040382c3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T04:14:43Z",
-      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nRelated Information:",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658725525",
-      "author": "chamono1942",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T04:14:43Z",
-      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nRelated Information:",
-      "description": "",
-      "handle": "chamono1942",
-      "display_name": "\uc774\ucca0\uc131",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "85489904161562",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T04:12:30Z",
-      "title": "2nd day in a row another overnight ambush more deadly US military strikes in southern Iran. Boots on the ground next after clearing area?  $SPY $QQQ $LMT $BA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658725496",
-      "author": "blueblood12",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T04:12:30Z",
-      "text": "2nd day in a row another overnight ambush more deadly US military strikes in southern Iran. Boots on the ground next after clearing area?  $SPY $QQQ $LMT $BA",
-      "description": "",
-      "handle": "blueblood12",
-      "display_name": "blueblood12",
-      "platform": "stocktwits"
-    },
-    {
       "id": "8ebb346d3eb713",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -455,29 +784,6 @@
       "description": "",
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d80bf577b2d8ab",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T04:10:19Z",
-      "title": "$4CHAN.X $BTC.X $PEPE.X $SPY $TSLA chill",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658725447",
-      "author": "theycallmevibe",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-10T04:10:19Z",
-      "text": "$4CHAN.X $BTC.X $PEPE.X $SPY $TSLA chill",
-      "description": "",
-      "handle": "theycallmevibe",
-      "display_name": "Cloud Vibd",
       "platform": "stocktwits"
     },
     {
@@ -956,29 +1262,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "5c27c833241935",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T04:02:56Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nWho opened up the gates to Hell?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658725299",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T04:02:56Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nWho opened up the gates to Hell?",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
       "id": "018acca0d8f740",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1078,29 +1361,6 @@
       "description": ""
     },
     {
-      "id": "013ac0779a59d0",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:56:07Z",
-      "title": "$META $TEARY.X $SOL.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658725169",
-      "author": "Mariooo614",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T03:56:07Z",
-      "text": "$META $TEARY.X $SOL.X",
-      "description": "",
-      "handle": "Mariooo614",
-      "display_name": "Mario 614",
-      "platform": "stocktwits"
-    },
-    {
       "id": "3a9d0d8d1559ec",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1160,29 +1420,6 @@
       "time": "2026-07-10 03:54:25",
       "text": "SK Hynix advisors win big fee windfall after modest SpaceX payday",
       "description": ""
-    },
-    {
-      "id": "4bee9c5450feef",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:54:24Z",
-      "title": "$QQQ red day probably..",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658725134",
-      "author": "Richandbroke",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-10T03:54:24Z",
-      "text": "$QQQ red day probably..",
-      "description": "",
-      "handle": "Richandbroke",
-      "display_name": "Richandbroke",
-      "platform": "stocktwits"
     },
     {
       "id": "e83353ef063ff8",
@@ -1536,29 +1773,6 @@
       "description": ""
     },
     {
-      "id": "6fe56a89b1d1ce",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:40:23Z",
-      "title": "$MSFT it\u2019s actually a bullish Elliott wave structure. See how the line starts moving up?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658724831",
-      "author": "NetflixUser",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T03:40:23Z",
-      "text": "$MSFT it\u2019s actually a bullish Elliott wave structure. See how the line starts moving up?",
-      "description": "",
-      "handle": "NetflixUser",
-      "display_name": "Henry",
-      "platform": "stocktwits"
-    },
-    {
       "id": "131c155f2e07cf",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1575,29 +1789,6 @@
       "time": "2026-07-10T03:39:25Z",
       "text": "China's Finance Ministry conducts 2-year bond auction at 1.2305% yield.",
       "description": ""
-    },
-    {
-      "id": "b8d1ba633b1da1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:39:11Z",
-      "title": "$BTC.X $TSLA $XBOTF https://x.com/i/status/2074943803757150312",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658724799",
-      "author": "angelinvesting369",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T03:39:11Z",
-      "text": "$BTC.X $TSLA $XBOTF https://x.com/i/status/2074943803757150312",
-      "description": "",
-      "handle": "angelinvesting369",
-      "display_name": "James C",
-      "platform": "stocktwits"
     },
     {
       "id": "3a8bb159e4de45",
@@ -1790,24 +1981,6 @@
       "description": ""
     },
     {
-      "id": "34bc9833942bbc",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T03:27:12Z",
-      "title": "Japan gov't mulls mentioning BOJ's autonomy in economic policy guidelines - KYODO",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T03:27:12Z",
-      "text": "Japan gov't mulls mentioning BOJ's autonomy in economic policy guidelines - KYODO",
-      "description": ""
-    },
-    {
       "id": "12a7c7629fb7e0",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1865,24 +2038,6 @@
       "time": "Fri, 10 Jul 2026 03:25:00 +0000",
       "text": "113 Active Spies From Foreign Countries Arrested: FBI Director",
       "description": "113 Active Spies From Foreign Countries Arrested: FBI Director\n\n            Authored by Naveen Athrappully via The Epoch Times,\n\nThe FBI has arrested 113 active spies from foreign nations, agency director Kash Patel said on Wednesday.\nFBI Director Kash Patel testifies on Capitol Hill in Washington o"
-    },
-    {
-      "id": "512052dda7abd1",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T03:23:49Z",
-      "title": "Malaysian ringgit likely to appreciate versus the US dollar next week.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T03:23:49Z",
-      "text": "Malaysian ringgit likely to appreciate versus the US dollar next week.",
-      "description": ""
     },
     {
       "id": "6bf038e8c157dc",
@@ -1949,42 +2104,6 @@
       "description": ""
     },
     {
-      "id": "68aa0ac7fde892",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T03:17:08Z",
-      "title": "Hackers attempted to tamper with Injective npm package to steal wallet keys. Developers and apps working with Injective should be cautious.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T03:17:08Z",
-      "text": "Hackers attempted to tamper with Injective npm package to steal wallet keys. Developers and apps working with Injective should be cautious.",
-      "description": ""
-    },
-    {
-      "id": "e0ecbf9dc4d299",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T03:16:25Z",
-      "title": "EU launches anti-dumping probe into imports of Chinese ducks - SCMP",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T03:16:25Z",
-      "text": "EU launches anti-dumping probe into imports of Chinese ducks - SCMP",
-      "description": ""
-    },
-    {
       "id": "f54fa9b0c467f3",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2031,52 +2150,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0ba112162d1ba1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:13:42Z",
-      "title": "$QQQ $SPY  $NVDA $AAPL AMZN GOOGL TSLA MSFT  \n \n0 DTE&#39;s",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658724084",
-      "author": "BiHiCellLo",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T03:13:42Z",
-      "text": "$QQQ $SPY  $NVDA $AAPL AMZN GOOGL TSLA MSFT  \n \n0 DTE&#39;s",
-      "description": "",
-      "handle": "BiHiCellLo",
-      "display_name": "Richard David Evilwitz",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "c8c02898c71c96",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:10:38Z",
-      "title": "Trade Ideas | 7/10/26 \n\nThese trade ideas are shared to provide structure, not signals.\nUse them as areas of interest and allow price action to confirm your thesis before entering. Every trade should align with your own plan, risk management, and execution criteria.\nRemember:\n\u2022 Wait for confirmation",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658723989",
-      "author": "litepr_fitlab",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T03:10:38Z",
-      "text": "Trade Ideas | 7/10/26 \n\nThese trade ideas are shared to provide structure, not signals.\nUse them as areas of interest and allow price action to confirm your thesis before entering. Every trade should align with your own plan, risk management, and execution criteria.\nRemember:\n\u2022 Wait for confirmation",
-      "description": "",
-      "handle": "litepr_fitlab",
-      "display_name": "Vincent Hampson",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b9724248486567",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2095,52 +2168,6 @@
       "time": "2026-07-10T03:10:05Z",
       "text": "Why Mara Holdings Stock Spiked Today",
       "description": "Mara Holdings announced a major acquisition of over 1,200 acres of powered land from HIF USA for up to $600 million. The Texas site will provide access to 2 gigawatts of grid capacity by April 2028 and will be developed into a digital infrastructure campus for AI and high-performance computing workl"
-    },
-    {
-      "id": "0fc9bf39ace87a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:08:31Z",
-      "title": "$AMD if this is green in an hour, Friday will certainly be Christmas \ud83c\udf84",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658723913",
-      "author": "Qdunn300",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T03:08:31Z",
-      "text": "$AMD if this is green in an hour, Friday will certainly be Christmas \ud83c\udf84",
-      "description": "",
-      "handle": "Qdunn300",
-      "display_name": "Quinton Dunn",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5522cc0a013cfa",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T03:07:32Z",
-      "title": "$AAPL $320 tomorrow",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AAPL/message/658723880",
-      "author": "vtrx128861",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T03:07:32Z",
-      "text": "$AAPL $320 tomorrow",
-      "description": "",
-      "handle": "vtrx128861",
-      "display_name": "vtrx128861",
-      "platform": "stocktwits"
     },
     {
       "id": "685eba2c7e3530",
@@ -2245,29 +2272,6 @@
       "time": "Fri, 10 Jul 2026 03:00:00 +0000",
       "text": "Fiber-Optic Kamikaze Drone Found In Mexico Signals New Drone Threat South Of Border",
       "description": "Fiber-Optic Kamikaze Drone Found In Mexico Signals New Drone Threat South Of Border\n\n            The global proliferation of low-cost suicide drones is setting off alarm bells across the US military and among national security officials and experts. The race to harden high-value assets in the homela"
-    },
-    {
-      "id": "d170590d80619c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T02:58:46Z",
-      "title": "$AMD overnight giving green day vibes tomorrow.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658723586",
-      "author": "TheUnmaker",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T02:58:46Z",
-      "text": "$AMD overnight giving green day vibes tomorrow.",
-      "description": "",
-      "handle": "TheUnmaker",
-      "display_name": "TheUnmaker",
-      "platform": "stocktwits"
     },
     {
       "id": "7b4d8dde695a55",
@@ -3030,6 +3034,42 @@
       "time": "2026-07-10T00:30:00Z",
       "text": "ROSEN, A LEADING INVESTOR RIGHTS LAW FIRM, Encourages PicS N.V. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 PICS",
       "description": "Rosen Law Firm is soliciting investors who purchased PicS N.V. stock in its January 2026 IPO to join a securities class action lawsuit. The lawsuit alleges that PicS made false and misleading statements in IPO documents regarding credit evaluation procedures, loan quality, and financial risks. Inves"
+    },
+    {
+      "id": "fe3d7710bf686c",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 00:19:25 -0400",
+      "title": "Thermo Fisher Scientific declares $0.47 dividend",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4612797-thermo-fisher-scientific-declares-047-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 00:19:25 -0400",
+      "text": "Thermo Fisher Scientific declares $0.47 dividend",
+      "description": ""
+    },
+    {
+      "id": "23244445857a3b",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 00:18:21 -0400",
+      "title": "MarketWise shares surge 6% on robust Q2 billings, raised FY26 outlook",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4612795-marketwise-shares-surge-6-on-robust-q2-billings-raised-fy26-outlook?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 00:18:21 -0400",
+      "text": "MarketWise shares surge 6% on robust Q2 billings, raised FY26 outlook",
+      "description": ""
     },
     {
       "id": "a1cdd0bde57992",
@@ -4022,42 +4062,6 @@
       "sentiment": "neutral",
       "time": "Thu, 09 Jul 2026 18:36:28 -0400",
       "text": "Air Liquide plans $200M expansion to boost production at Texas chemical site",
-      "description": ""
-    },
-    {
-      "id": "a21a1d584172b7",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Thu, 09 Jul 2026 18:05:07 -0400",
-      "title": "Sigma Lithium charges higher after topping Q2 production guidance",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4612784-sigma-lithium-charges-higher-after-topping-q2-production-guidance?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 18:05:07 -0400",
-      "text": "Sigma Lithium charges higher after topping Q2 production guidance",
-      "description": ""
-    },
-    {
-      "id": "5a08eef31655e9",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Thu, 09 Jul 2026 18:03:32 -0400",
-      "title": "RTX receives $101.98M contract modification for missile system work",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4612785-rtx-receives-10198m-contract-modification-for-missile-system-work?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 18:03:32 -0400",
-      "text": "RTX receives $101.98M contract modification for missile system work",
       "description": ""
     },
     {
