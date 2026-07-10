@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-10T09:12:07Z",
-  "generated_display": "2026-07-10 09:12 ET",
-  "count": 184,
+  "generated": "2026-07-10T09:17:07Z",
+  "generated_display": "2026-07-10 09:17 ET",
+  "count": 181,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T09:12:01.789035+00:00",
+      "last_error_ts": "2026-07-10T09:17:02.090479+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 100,
-      "last_success": "2026-07-10T09:12:01.928288+00:00",
+      "latency_ms": 120,
+      "last_success": "2026-07-10T09:17:02.210978+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 156,
-      "last_success": "2026-07-10T09:12:02.128117+00:00",
+      "latency_ms": 119,
+      "last_success": "2026-07-10T09:17:02.331165+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 35,
-      "latency_ms": 99,
-      "last_success": "2026-07-10T09:12:02.230591+00:00",
+      "items_pulled": 32,
+      "latency_ms": 118,
+      "last_success": "2026-07-10T09:17:02.451827+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T09:12:02.374435+00:00",
+      "last_error_ts": "2026-07-10T09:17:02.572873+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2348,
-      "last_success": "2026-07-10T09:12:04.723272+00:00",
+      "latency_ms": 1867,
+      "last_success": "2026-07-10T09:17:04.440894+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T09:12:05.607113+00:00",
+      "last_success": "2026-07-10T09:17:05.139048+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1781,
-      "last_success": "2026-07-10T09:12:07.389052+00:00",
+      "latency_ms": 1949,
+      "last_success": "2026-07-10T09:17:07.088844+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,22 +74,22 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 134
+          "latency_ms": 122
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 138
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 81
+          "latency_ms": 148
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 400
+          "latency_ms": 204
         },
         "seekingalpha": {
           "status": "healthy",
@@ -99,24 +99,244 @@
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 147
+          "latency_ms": 68
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "cnbc": 8,
+    "marketwatch": 8,
     "uw_news": 25,
     "reuters": 16,
-    "cnbc": 8,
-    "massive_news": 35,
-    "marketwatch": 8,
+    "massive_news": 32,
     "zerohedge": 8,
     "seekingalpha": 7,
     "benzinga": 1,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "0d7cf59bcdbf55",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:16:50Z",
+      "title": "$META BREAKING: Meta has decided late last night to pivot from becoming another paid LLM and instead mine $BTC.X because they want to buy the dip while its still cheap $MSTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658730052",
+      "author": "blueblood12",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:16:50Z",
+      "text": "$META BREAKING: Meta has decided late last night to pivot from becoming another paid LLM and instead mine $BTC.X because they want to buy the dip while its still cheap $MSTR",
+      "description": "",
+      "handle": "blueblood12",
+      "display_name": "blueblood12",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3ff2ab399c5bd9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:16:50Z",
+      "title": "$META BREAKING: Meta has decided late last night to pivot from becoming another paid LLM and instead mine $BTC.X because they want to buy the dip while its still cheap $MSTR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658730052",
+      "author": "blueblood12",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:16:50Z",
+      "text": "$META BREAKING: Meta has decided late last night to pivot from becoming another paid LLM and instead mine $BTC.X because they want to buy the dip while its still cheap $MSTR",
+      "description": "",
+      "handle": "blueblood12",
+      "display_name": "blueblood12",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1f1b8af90f6e7c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:16:48Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nThere\u2019s a very good chance bears will be tarred and feathered here soon but I\u2019m not one to make fun of people",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658730051",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:16:48Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nThere\u2019s a very good chance bears will be tarred and feathered here soon but I\u2019m not one to make fun of people",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "954940a047bc73",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:15:29Z",
+      "title": "$TLT the H/S bottom pattern points to 94$.  I think my Oct 87 calls can 10x from 80 cent entry.  Now longer term, I see TLT reaching 120$.  But that&#39;s 5 years from now.  I expect a lot of $SPY  upheaval in September and maybe worse during Q1, 2027.  I can postulate all I want as to the cause, bu",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658730023",
+      "author": "Chartist0_0",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:15:29Z",
+      "text": "$TLT the H/S bottom pattern points to 94$.  I think my Oct 87 calls can 10x from 80 cent entry.  Now longer term, I see TLT reaching 120$.  But that&#39;s 5 years from now.  I expect a lot of $SPY  upheaval in September and maybe worse during Q1, 2027.  I can postulate all I want as to the cause, bu",
+      "description": "",
+      "handle": "Chartist0_0",
+      "display_name": "Chartist0_0",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d00d5b6b580674",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 09:15:22 GMT",
+      "title": "World oil demand set for first annual decline since 2020, IEA says",
+      "body": "Renewed escalation in the U.S.-Iran war could complicate matters and further cloud the outlook, the IEA warned Friday.",
+      "url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 09:15:22 GMT",
+      "text": "World oil demand set for first annual decline since 2020, IEA says",
+      "description": "Renewed escalation in the U.S.-Iran war could complicate matters and further cloud the outlook, the IEA warned Friday."
+    },
+    {
+      "id": "026781641f3da2",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 09:15:00 GMT",
+      "title": "My insurance company said my roof lost a few tiles. Loss adjusters found $10,000 in storm damage. How could this happen?",
+      "body": "\u201cMy house shook violently from the wind.\u201d",
+      "url": "https://www.marketwatch.com/story/my-insurance-company-said-my-roof-lost-a-few-tiles-loss-adjusters-found-10-000-in-storm-damage-how-could-this-happen-8e1cb8bf?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 09:15:00 GMT",
+      "text": "My insurance company said my roof lost a few tiles. Loss adjusters found $10,000 in storm damage. How could this happen?",
+      "description": "\u201cMy house shook violently from the wind.\u201d"
+    },
+    {
+      "id": "55651d9ef0fd5a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:14:25Z",
+      "title": "$NVDA Fucking pointless.  Shit can\u2019t hold onto any gains.  Horrible investment l.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658730001",
+      "author": "CynicalCapital",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:14:25Z",
+      "text": "$NVDA Fucking pointless.  Shit can\u2019t hold onto any gains.  Horrible investment l.",
+      "description": "",
+      "handle": "CynicalCapital",
+      "display_name": "Cynical Capital",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6550c2366cd12c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:13:30Z",
+      "title": "$QQQ low volume but deep green \ud83d\udc9a that is how it ends up",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658729984",
+      "author": "dolongs",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T09:13:30Z",
+      "text": "$QQQ low volume but deep green \ud83d\udc9a that is how it ends up",
+      "description": "",
+      "handle": "dolongs",
+      "display_name": "WiseTrader",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0bf85a78746912",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:12:20Z",
+      "title": "Sell $SMH Buy $NVDA idea still in play",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658729965",
+      "author": "Dark_Prince",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:12:20Z",
+      "text": "Sell $SMH Buy $NVDA idea still in play",
+      "description": "",
+      "handle": "Dark_Prince",
+      "display_name": "Dark_Prince",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "118df8f429ac2d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:12:08Z",
+      "title": "$SPY buy it up bullllls 696 next target",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658729962",
+      "author": "Offyourrocker",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-10T09:12:08Z",
+      "text": "$SPY buy it up bullllls 696 next target",
+      "description": "",
+      "handle": "Offyourrocker",
+      "display_name": "Eric",
+      "platform": "stocktwits"
+    },
     {
       "id": "9f59cf029b2627",
       "source": "stocktwits",
@@ -207,6 +427,29 @@
       "description": "",
       "handle": "Franking71",
       "display_name": "Frank Ing",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fda008114d0215",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:10:11Z",
+      "title": "$TSLA During the first quarter, Trump\u2019s investment accounts sold between $854,000 and $4.6 million in Palantir Technologies (PLTR) \n \nhttps://www.thestreet.com/investing/trump-accounts-palantir-sale-hides-a-bigger-ai-shift \n \ntrump sold. they are using old news to try and keep this up.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658729927",
+      "author": "Adaman111",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:10:11Z",
+      "text": "$TSLA During the first quarter, Trump\u2019s investment accounts sold between $854,000 and $4.6 million in Palantir Technologies (PLTR) \n \nhttps://www.thestreet.com/investing/trump-accounts-palantir-sale-hides-a-bigger-ai-shift \n \ntrump sold. they are using old news to try and keep this up.",
+      "description": "",
+      "handle": "Adaman111",
+      "display_name": "AG5000",
       "platform": "stocktwits"
     },
     {
@@ -481,29 +724,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "48fbc88813b659",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:06:50Z",
-      "title": "3/ \n\u2022 BlueSnake starts going up a bit more. This is a fast adapting indicator that can always go from leaning bearish to bullish, or vice versa, within days. $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658729861",
-      "author": "Reversal_Levels",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:06:50Z",
-      "text": "3/ \n\u2022 BlueSnake starts going up a bit more. This is a fast adapting indicator that can always go from leaning bearish to bullish, or vice versa, within days. $SPY",
-      "description": "",
-      "handle": "Reversal_Levels",
-      "display_name": "ReversalLevels | LunaticTrader",
-      "platform": "stocktwits"
-    },
-    {
       "id": "e9e41af09c7621",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -543,29 +763,6 @@
       "time": "2026-07-10 09:06:30",
       "text": "Audi\u00a0half-year deliveries fall on China competition, US tariffs",
       "description": ""
-    },
-    {
-      "id": "7b1838088d5e50",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:06:29Z",
-      "title": "2/ \n\u2022 It&#39;s a wait for the breakout from this narrowing range since the June 2 high. \n\u2022 PuLL is still coming down. \n\u2022 MoM goes up, but is slowing and may turn down soon. $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658729850",
-      "author": "Reversal_Levels",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:06:29Z",
-      "text": "2/ \n\u2022 It&#39;s a wait for the breakout from this narrowing range since the June 2 high. \n\u2022 PuLL is still coming down. \n\u2022 MoM goes up, but is slowing and may turn down soon. $SPY",
-      "description": "",
-      "handle": "Reversal_Levels",
-      "display_name": "ReversalLevels | LunaticTrader",
-      "platform": "stocktwits"
     },
     {
       "id": "d2b5b2d48f4def",
@@ -978,29 +1175,6 @@
       "description": ""
     },
     {
-      "id": "6fd1c9bf0e5474",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:00:16Z",
-      "title": "$CBRS news are kinda huge here, 7x increase in capacity before 2027 kicks in....this likely means also 7x increare in revenue at least.... \n \n$NVDA $ARM $AMD $SPCX",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658729715",
-      "author": "BEST_MAN_EVER",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:00:16Z",
-      "text": "$CBRS news are kinda huge here, 7x increase in capacity before 2027 kicks in....this likely means also 7x increare in revenue at least.... \n \n$NVDA $ARM $AMD $SPCX",
-      "description": "",
-      "handle": "BEST_MAN_EVER",
-      "display_name": "BEST",
-      "platform": "stocktwits"
-    },
-    {
       "id": "17cd72a2f87325",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1047,29 +1221,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "57389ad7bb78a2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:58:13Z",
-      "title": "$NVDA \ud83d\udc68\u200d\ud83d\udcbbCool.\ud83d\ude24\ud83d\udc8e\ud83d\udfe9\ud83d\udd12\ud83c\uddfa\ud83c\uddf8",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658729675",
-      "author": "iseeshit",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T08:58:13Z",
-      "text": "$NVDA \ud83d\udc68\u200d\ud83d\udcbbCool.\ud83d\ude24\ud83d\udc8e\ud83d\udfe9\ud83d\udd12\ud83c\uddfa\ud83c\uddf8",
-      "description": "",
-      "handle": "iseeshit",
-      "display_name": "Thankyou note",
-      "platform": "stocktwits"
-    },
-    {
       "id": "de59bd3bf20941",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1090,75 +1241,6 @@
       "description": "",
       "handle": "Hecroba",
       "display_name": "H\u00e9ctor Rodr\u00edguez Bautista",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e91601a0dfbaf6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:56:36Z",
-      "title": "$META any dip is a buying opportunity here",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658729653",
-      "author": "OPEN_LIFE",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T08:56:36Z",
-      "text": "$META any dip is a buying opportunity here",
-      "description": "",
-      "handle": "OPEN_LIFE",
-      "display_name": "Bobb chows",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2017e32080c9c2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:54:04Z",
-      "title": "$TSLA https://x.com/MarioNawfal/status/2075429806863425578?s=20",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658729602",
-      "author": "sunman20201",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:54:04Z",
-      "text": "$TSLA https://x.com/MarioNawfal/status/2075429806863425578?s=20",
-      "description": "",
-      "handle": "sunman20201",
-      "display_name": "Sunny",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "fdba62ba0250e1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:53:35Z",
-      "title": "$MSTR I&#39;ve never known anyone to obsess about a pattern interpretation like this. Someone give her a stroke on the back...",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658729592",
-      "author": "Roadtoamilllion",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:53:35Z",
-      "text": "$MSTR I&#39;ve never known anyone to obsess about a pattern interpretation like this. Someone give her a stroke on the back...",
-      "description": "",
-      "handle": "Roadtoamilllion",
-      "display_name": "Loadsamoney",
       "platform": "stocktwits"
     },
     {
@@ -1297,29 +1379,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "1d0e194d61eebf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:49:03Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nWell, looks like bears are fukd again guess I\u2019ll order some clam pasta",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658729486",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:49:03Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nWell, looks like bears are fukd again guess I\u2019ll order some clam pasta",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2e2b17945bd040",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1444,29 +1503,6 @@
       "description": ""
     },
     {
-      "id": "69d2bd298b6c81",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:47:17Z",
-      "title": "$QQQ lol i feel like everyone who\u2019s watching the gamma charts knows that stocks are about to go up today, yet are staying silent \ud83d\ude05\ud83e\udd2d",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658729460",
-      "author": "Vj81b",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T08:47:17Z",
-      "text": "$QQQ lol i feel like everyone who\u2019s watching the gamma charts knows that stocks are about to go up today, yet are staying silent \ud83d\ude05\ud83e\udd2d",
-      "description": "",
-      "handle": "Vj81b",
-      "display_name": "Vj81b",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b38b045771456d",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1524,24 +1560,6 @@
       "time": "2026-07-10T08:44:03Z",
       "text": "STARTRADER Breaks Ground on Basketball Court Revamp Benefiting around 20,000 Students in Davao City, Philippines",
       "description": ""
-    },
-    {
-      "id": "d00d5b6b580674",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 08:43:42 GMT",
-      "title": "World oil demand set for first annual decline since 2020, IEA says",
-      "body": "Renewed escalation in the U.S.-Iran war could complicate matters and further cloud the outlook, the IEA warned Friday.",
-      "url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 08:43:42 GMT",
-      "text": "World oil demand set for first annual decline since 2020, IEA says",
-      "description": "Renewed escalation in the U.S.-Iran war could complicate matters and further cloud the outlook, the IEA warned Friday."
     },
     {
       "id": "04d67e0fb9d7a6",
@@ -3516,72 +3534,6 @@
       "description": "Rivian stock rose 8.70% as the company capitalizes on increasing EV momentum. The article discusses whether investors should buy Rivian during recent dips, with context around the company raising $1.5 billion through a share offering and raising production guidance to 70,000 vehicles."
     },
     {
-      "id": "c44221244f1891",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T01:16:55Z",
-      "title": "Huge News for Amazon Stock Investors!",
-      "body": "Amazon plans to borrow an additional $25 billion to support its data center expansion. The company is spending more on capital expenditures than it generates in cash flow from operations, requiring investor funding to cover the shortfall.",
-      "url": "https://www.fool.com/investing/2026/07/09/huge-news-for-amazon-stock-investors/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T01:16:55Z",
-      "text": "Huge News for Amazon Stock Investors!",
-      "description": "Amazon plans to borrow an additional $25 billion to support its data center expansion. The company is spending more on capital expenditures than it generates in cash flow from operations, requiring investor funding to cover the shortfall."
-    },
-    {
-      "id": "66cc6a8100c204",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T01:15:47Z",
-      "title": "Samsung and DeepSeek Deliver Massive News for Nvidia, Micron, Intel, and AMD Stock Investors!",
-      "body": "Developments from Samsung and DeepSeek sent semiconductor stocks lower on July 7, 2026. The article discusses how news from these companies impacted major chip manufacturers, with mixed market reactions across the sector.",
-      "url": "https://www.fool.com/investing/2026/07/09/samsung-and-deepseek-deliver-massive-news-for-nvid/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "INTC",
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T01:15:47Z",
-      "text": "Samsung and DeepSeek Deliver Massive News for Nvidia, Micron, Intel, and AMD Stock Investors!",
-      "description": "Developments from Samsung and DeepSeek sent semiconductor stocks lower on July 7, 2026. The article discusses how news from these companies impacted major chip manufacturers, with mixed market reactions across the sector."
-    },
-    {
-      "id": "72951fcee0ed80",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T01:12:33Z",
-      "title": "Why Arm Holdings Stock Soared 224.4% Through The First Half Of 2026",
-      "body": "Arm Holdings stock surged 224.4% in the first half of 2026, driven by investor anticipation of its expansion into AI infrastructure and its new AGI CPU chip. The company projects revenue could grow 5x from $4.92 billion in 2026 to $25 billion by 2031. However, analysts caution the stock appears over",
-      "url": "https://www.fool.com/investing/2026/07/09/why-arm-holdings-stock-soared-2244-through-the-fir/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "ARM",
-        "AAPL",
-        "META",
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T01:12:33Z",
-      "text": "Why Arm Holdings Stock Soared 224.4% Through The First Half Of 2026",
-      "description": "Arm Holdings stock surged 224.4% in the first half of 2026, driven by investor anticipation of its expansion into AI infrastructure and its new AGI CPU chip. The company projects revenue could grow 5x from $4.92 billion in 2026 to $25 billion by 2031. However, analysts caution the stock appears over"
-    },
-    {
       "id": "4c388d23d9ba46",
       "source": "cnbc",
       "source_type": "rss",
@@ -3710,24 +3662,6 @@
       "description": "\u201cSome of the best ideas can come from anywhere in the organization.\u201d"
     },
     {
-      "id": "07521da78970d7",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Thu, 09 Jul 2026 21:09:00 GMT",
-      "title": "The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.",
-      "body": "The next global financial crisis is already under way. Here is how it will unfold.",
-      "url": "https://www.marketwatch.com/story/the-dot-com-crash-was-a-5-trillion-blip-why-the-next-financial-crisis-could-hit-4-times-harder-29f4aa57?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 21:09:00 GMT",
-      "text": "The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.",
-      "description": "The next global financial crisis is already under way. Here is how it will unfold."
-    },
-    {
       "id": "7d7af9cdb27ffc",
       "source": "cnbc",
       "source_type": "rss",
@@ -3838,24 +3772,6 @@
       "description": ""
     },
     {
-      "id": "a3501a3d14a433",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-08T21:11:14Z",
-      "title": "Stop Wasting Time. Here's the Workflow to Find Trades Before Everyone Else.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/stop-wasting-time-heres-workflow-211114279.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T21:11:14Z",
-      "text": "Stop Wasting Time. Here's the Workflow to Find Trades Before Everyone Else.",
-      "description": ""
-    },
-    {
       "id": "dee0ccca686f0b",
       "source": "reuters",
       "source_type": "rss",
@@ -3931,6 +3847,24 @@
       "sentiment": "neutral",
       "time": "2026-04-14T15:45:06Z",
       "text": "When will gas prices go down? What to know as you plan your summer road trip.",
+      "description": ""
+    },
+    {
+      "id": "9a8fad988f0485",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2025-08-18T19:58:26Z",
+      "title": "Mortgage rate predictions for the next five years: What you can expect",
+      "body": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-rate-predictions-for-the-next-five-years-what-you-can-expect-195826935.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2025-08-18T19:58:26Z",
+      "text": "Mortgage rate predictions for the next five years: What you can expect",
       "description": ""
     },
     {
