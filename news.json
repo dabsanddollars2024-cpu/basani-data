@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-10T05:57:07Z",
-  "generated_display": "2026-07-10 05:57 ET",
-  "count": 213,
+  "generated": "2026-07-10T06:02:06Z",
+  "generated_display": "2026-07-10 06:02 ET",
+  "count": 192,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T05:57:02.121235+00:00",
+      "last_error_ts": "2026-07-10T06:02:01.869638+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
-      "items_pulled": 24,
-      "latency_ms": 181,
-      "last_success": "2026-07-10T05:57:02.304451+00:00",
+      "items_pulled": 1,
+      "latency_ms": 100,
+      "last_success": "2026-07-10T06:02:01.970387+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 124,
-      "last_success": "2026-07-10T05:57:02.469576+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-10T06:02:02.071030+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 41,
-      "latency_ms": 100,
-      "last_success": "2026-07-10T05:57:02.572487+00:00",
+      "items_pulled": 43,
+      "latency_ms": 104,
+      "last_success": "2026-07-10T06:02:02.177533+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T05:57:02.610532+00:00",
+      "last_error_ts": "2026-07-10T06:02:02.282820+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1959,
-      "last_success": "2026-07-10T05:57:04.570081+00:00",
+      "latency_ms": 1663,
+      "last_success": "2026-07-10T06:02:03.946033+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T05:57:05.269632+00:00",
+      "last_success": "2026-07-10T06:02:04.770099+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1866,
-      "last_success": "2026-07-10T05:57:07.135762+00:00",
+      "latency_ms": 1665,
+      "last_success": "2026-07-10T06:02:06.436065+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 108
+          "latency_ms": 149
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 41
+          "latency_ms": 108
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 81
+          "latency_ms": 95
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 270
+          "latency_ms": 383
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 17
+          "latency_ms": 14
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 179
+          "latency_ms": 72
         }
       }
     }
@@ -109,14 +109,218 @@
     "uw_news": 25,
     "cnbc": 8,
     "reuters": 16,
-    "massive_news": 41,
+    "massive_news": 43,
     "zerohedge": 8,
     "marketwatch": 8,
     "seekingalpha": 7,
-    "benzinga": 24,
+    "benzinga": 1,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "c9c0b7fd089d59",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:00:24Z",
+      "title": "$SPY Dump City",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658727221",
+      "author": "VampireHoldings",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-10T06:00:24Z",
+      "text": "$SPY Dump City",
+      "description": "",
+      "handle": "VampireHoldings",
+      "display_name": "Michael Shane Farrens",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "026ef3195a8869",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T06:00:07Z",
+      "title": "HSBC Seeks Buyers For Hong Kong Subsidiary\u2019s Risky Loans - FT",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "HSBC"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:00:07Z",
+      "text": "HSBC Seeks Buyers For Hong Kong Subsidiary\u2019s Risky Loans - FT",
+      "description": ""
+    },
+    {
+      "id": "7059533081f8cc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:00:02Z",
+      "title": "$IWM \nCrap",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658727217",
+      "author": "BwesY",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:00:02Z",
+      "text": "$IWM \nCrap",
+      "description": "",
+      "handle": "BwesY",
+      "display_name": "nfa",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "976c5800a95181",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T05:59:18Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658727206",
+      "author": "Mrmaster1",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-10T05:59:18Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "Mrmaster1",
+      "display_name": "Mrmaster1",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "aaab93ab491629",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T05:59:15Z",
+      "title": "$SPY imma need it at about $740 thanks",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658727205",
+      "author": "Bear_Trades",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:59:15Z",
+      "text": "$SPY imma need it at about $740 thanks",
+      "description": "",
+      "handle": "Bear_Trades",
+      "display_name": "Bear_Trades",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0a225b6c6c5651",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T05:58:04Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nAnd back up we go! \ud83d\ude02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658727190",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:58:04Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nAnd back up we go! \ud83d\ude02",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "467aad9ac22b13",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T05:58:01Z",
+      "title": "$MSTR and bitcoin is making a break for it! Go bitcoin go mstr!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658727189",
+      "author": "Linda007",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:58:01Z",
+      "text": "$MSTR and bitcoin is making a break for it! Go bitcoin go mstr!",
+      "description": "",
+      "handle": "Linda007",
+      "display_name": "Amy Clift",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "52959b01758bac",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T05:57:45Z",
+      "title": "$4CHAN.X $BTC.X $SPY $TSLA $DOGE.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658727187",
+      "author": "Shergasmic",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:57:45Z",
+      "text": "$4CHAN.X $BTC.X $SPY $TSLA $DOGE.X",
+      "description": "",
+      "handle": "Shergasmic",
+      "display_name": "Shergasmic",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "75660b7a7cb60b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T05:57:45Z",
+      "title": "$4CHAN.X $BTC.X $SPY $TSLA $DOGE.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658727187",
+      "author": "Shergasmic",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:57:45Z",
+      "text": "$4CHAN.X $BTC.X $SPY $TSLA $DOGE.X",
+      "description": "",
+      "handle": "Shergasmic",
+      "display_name": "Shergasmic",
+      "platform": "stocktwits"
+    },
     {
       "id": "8d2dea61627ccc",
       "source": "stocktwits",
@@ -271,75 +475,6 @@
       "description": ""
     },
     {
-      "id": "b46545c7e668a9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:53:27Z",
-      "title": "$SPY I hate that they scheduled this ADR for a Friday. I like to start my weekend early but you know my degenerate ass is going to be trading this when it drops",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658727121",
-      "author": "corruptmarket",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:53:27Z",
-      "text": "$SPY I hate that they scheduled this ADR for a Friday. I like to start my weekend early but you know my degenerate ass is going to be trading this when it drops",
-      "description": "",
-      "handle": "corruptmarket",
-      "display_name": "Joezilla",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "21240d18aa1a73",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:53:10Z",
-      "title": "$SPY again",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658727117",
-      "author": "Vigilantetrader1",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:53:10Z",
-      "text": "$SPY again",
-      "description": "",
-      "handle": "Vigilantetrader1",
-      "display_name": "JTan",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f33b4983c9a0a5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:52:53Z",
-      "title": "$4CHAN.X HAVING THIS MUCH TOKENS IS A HUGE FLEX !  \n \n$BTC.X $SPY $TSLA $PEPE.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658727111",
-      "author": "BIGNOSER",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T05:52:53Z",
-      "text": "$4CHAN.X HAVING THIS MUCH TOKENS IS A HUGE FLEX !  \n \n$BTC.X $SPY $TSLA $PEPE.X",
-      "description": "",
-      "handle": "BIGNOSER",
-      "display_name": "BGNSR",
-      "platform": "stocktwits"
-    },
-    {
       "id": "e37e4b719c1af8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -424,29 +559,6 @@
       "description": "",
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "604fd324c802a3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:50:19Z",
-      "title": "$4CHAN.X   more coins than you will get anywhere else , leverage your fiat, stack chans ! \n \nYOU WILL NOT GET ANY SUPPLY OF THIS AMOUNT FOR YOUR DOLLARS ANYWHERE ELSE, NO STOCK, NO GOLD, NO SILVER, NO COMMODITIES, NO FOREX , , NOTHING WILL GIVE YOU THE 1000X LIKE 4CHAN CAN !  \n \n1 QUADTRILLION TOKEN",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658727069",
-      "author": "BIGNOSER",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T05:50:19Z",
-      "text": "$4CHAN.X   more coins than you will get anywhere else , leverage your fiat, stack chans ! \n \nYOU WILL NOT GET ANY SUPPLY OF THIS AMOUNT FOR YOUR DOLLARS ANYWHERE ELSE, NO STOCK, NO GOLD, NO SILVER, NO COMMODITIES, NO FOREX , , NOTHING WILL GIVE YOU THE 1000X LIKE 4CHAN CAN !  \n \n1 QUADTRILLION TOKEN",
-      "description": "",
-      "handle": "BIGNOSER",
-      "display_name": "BGNSR",
       "platform": "stocktwits"
     },
     {
@@ -593,29 +705,6 @@
       "description": ""
     },
     {
-      "id": "a4f0cccdbbd158",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:44:44Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nAnd all this without a peep from the pumper factory \ud83e\udd14",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658726984",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:44:44Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nAnd all this without a peep from the pumper factory \ud83e\udd14",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
       "id": "f54477d0b5ce9d",
       "source": "reuters",
       "source_type": "rss",
@@ -690,29 +779,6 @@
       "description": "",
       "handle": "Painfultrade",
       "display_name": "Bryan Mount",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8495ed42e539f3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:43:13Z",
-      "title": "$MSTR keep waiting for 30k or 40k \ud83d\ude06 \ud83e\udd23 \ud83d\ude02",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658726958",
-      "author": "Rickyjg866",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T05:43:13Z",
-      "text": "$MSTR keep waiting for 30k or 40k \ud83d\ude06 \ud83e\udd23 \ud83d\ude02",
-      "description": "",
-      "handle": "Rickyjg866",
-      "display_name": "Jitters Geyser",
       "platform": "stocktwits"
     },
     {
@@ -1064,6 +1130,26 @@
       "description": ""
     },
     {
+      "id": "f2d50776e47655",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T05:31:00Z",
+      "title": "Tryg A/S \u2013 Financial Calendar for 2027",
+      "body": "Tryg A/S reported Q2 2026 results with an insurance service result of DKK 1,190m and a combined ratio of 88.8%, both showing significant deterioration compared to the prior year period (DKK 2,307m and 77.2% respectively). The company's Supervisory Board approved the interim report.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/10/3325312/0/en/Tryg-A-S-Financial-Calendar-for-2027.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "TGVSY"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:31:00Z",
+      "text": "Tryg A/S \u2013 Financial Calendar for 2027",
+      "description": "Tryg A/S reported Q2 2026 results with an insurance service result of DKK 1,190m and a combined ratio of 88.8%, both showing significant deterioration compared to the prior year period (DKK 2,307m and 77.2% respectively). The company's Supervisory Board approved the interim report."
+    },
+    {
       "id": "1f62b636ff75e1",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1103,6 +1189,46 @@
       "handle": "Roar01",
       "display_name": "Roar",
       "platform": "stocktwits"
+    },
+    {
+      "id": "e40c0f81861265",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T05:30:00Z",
+      "title": "Tryg A/S \u2013 interim report Q2 and H1 2026",
+      "body": "Tryg's Supervisory Board approved Q2 2026 interim results showing an insurance service result of DKK 1,190m with a combined ratio of 88.8%, impacted by a one-off provision related to a Danish workers' compensation Supreme Court ruling. Excluding this provision, the adjusted combined ratio was 77.4% ",
+      "url": "https://www.globenewswire.com/news-release/2026/07/10/3325310/0/en/Tryg-A-S-interim-report-Q2-and-H1-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "TGVSY"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:30:00Z",
+      "text": "Tryg A/S \u2013 interim report Q2 and H1 2026",
+      "description": "Tryg's Supervisory Board approved Q2 2026 interim results showing an insurance service result of DKK 1,190m with a combined ratio of 88.8%, impacted by a one-off provision related to a Danish workers' compensation Supreme Court ruling. Excluding this provision, the adjusted combined ratio was 77.4% "
+    },
+    {
+      "id": "498bf39d585412",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T05:30:00Z",
+      "title": "Tryg Forsikring A/S half-year report 2026",
+      "body": "Tryg Forsikring A/S has released its half-year report for 2026 and announced the publication of a prospectus for the admission to trading and listing of Perpetual Restricted Tier 1 Capital Notes and Subordinated Callable Tier 2 Capital Notes.",
+      "url": "https://www.globenewswire.com/news-release/2026/07/10/3325311/0/en/Tryg-Forsikring-A-S-half-year-report-2026.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "TGVSY"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:30:00Z",
+      "text": "Tryg Forsikring A/S half-year report 2026",
+      "description": "Tryg Forsikring A/S has released its half-year report for 2026 and announced the publication of a prospectus for the admission to trading and listing of Perpetual Restricted Tier 1 Capital Notes and Subordinated Callable Tier 2 Capital Notes."
     },
     {
       "id": "4eff1b9e4c3efc",
@@ -1187,29 +1313,6 @@
       "description": "",
       "handle": "JesusizKing",
       "display_name": "L C",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "08bc946188cfd7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:25:23Z",
-      "title": "$SPCX $TSLA Merger today. Shorts are fricked.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658726709",
-      "author": "Charizardforlife",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T05:25:23Z",
-      "text": "$SPCX $TSLA Merger today. Shorts are fricked.",
-      "description": "",
-      "handle": "Charizardforlife",
-      "display_name": "Bald Eagle",
       "platform": "stocktwits"
     },
     {
@@ -1773,24 +1876,6 @@
       "sentiment": "neutral",
       "time": "2026-07-10T04:59:24Z",
       "text": "Lance Y. Gokongwei Joins PhilWeb Board of Directors, strengthening tech-driven growth strategy",
-      "description": ""
-    },
-    {
-      "id": "3918b9aad5c9bb",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T04:57:02Z",
-      "title": "EMIRATES TELECOM TO SELL VODAFONE STAKE FOR $5.95B TO VEGA",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T04:57:02Z",
-      "text": "EMIRATES TELECOM TO SELL VODAFONE STAKE FOR $5.95B TO VEGA",
       "description": ""
     },
     {
@@ -3154,29 +3239,6 @@
       "description": "Rosen Law Firm is investigating potential securities claims against PennyMac Financial Services (PFSI) for allegedly issuing materially misleading business information. The investigation follows a significant stock price decline of 33.3% on January 30, 2026, after PennyMac reported a substantial dro"
     },
     {
-      "id": "23d7ec64b20b31",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T00:30:24Z",
-      "title": "$SPY $QQQ $IWM\n\n$META  Swing team is eating big \ud83e\udd63 \n#pivotgroup\ud83d\udd10",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/IWM/message/658717602",
-      "author": "PivotPoint_101",
-      "tickers": [
-        "IWM"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T00:30:24Z",
-      "text": "$SPY $QQQ $IWM\n\n$META  Swing team is eating big \ud83e\udd63 \n#pivotgroup\ud83d\udd10",
-      "description": "",
-      "handle": "PivotPoint_101",
-      "display_name": "Brian P.",
-      "platform": "stocktwits"
-    },
-    {
       "id": "abf571fd6c85ec",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3729,26 +3791,6 @@
       "description": "Micron Technology has signed strategic long-term supply agreements with General Motors and Ford Motor Company for automotive memory chips, with the company indicating it has 16 such deals in total. These multiyear contracts tied to Micron's $2 billion fab modernization could reduce the cyclical vola"
     },
     {
-      "id": "a4f6565e4e5dd1",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-09T22:00:37Z",
-      "title": "Credo's CTO Sold 31,290 Shares. His Remaining $1.6 Billion Stake Tells the Real Story",
-      "body": "Credo Technology's CTO Cheng Chi Fung sold 31,290 shares for $7.7 million in July 2026 under a pre-arranged Rule 10b5-1 trading plan. Despite the sale, he retained a substantial $1.56 billion stake (approximately 6 million shares), representing only a 0.52% reduction in his position. The transaction",
-      "url": "https://www.fool.com/coverage/filings/2026/07/09/credo-s-cto-sold-31-290-shares-his-remaining-usd1-6-billion-stake-tells-the-real-story/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "CRDO"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T22:00:37Z",
-      "text": "Credo's CTO Sold 31,290 Shares. His Remaining $1.6 Billion Stake Tells the Real Story",
-      "description": "Credo Technology's CTO Cheng Chi Fung sold 31,290 shares for $7.7 million in July 2026 under a pre-arranged Rule 10b5-1 trading plan. Despite the sale, he retained a substantial $1.56 billion stake (approximately 6 million shares), representing only a 0.52% reduction in his position. The transaction"
-    },
-    {
       "id": "9d32d997c114d4",
       "source": "marketwatch",
       "source_type": "rss",
@@ -3895,35 +3937,6 @@
       "description": "CNBC reached out to 50 companies about what are their trading policies for employees on prediction markets. A handful had an answer."
     },
     {
-      "id": "e2a24ee432f5ea",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 17:47:50 -0400",
-      "title": "Making Fun of Trump Pays Off for Colbert & Kimmel: Late Night Hosts Score Record Emmy Nominations",
-      "body": "The Emmy Award nominations have been announced and two late-night show hosts who found themselves as enemies of President Donald Trump are now getting record nominations.\n\n\n\nKimmel, Colbert Score Big\n\n\n\nIt hasn\u2019t been that long since President Trump was celebrating the announcement that Paramount Skydance Corp (NASDAQ:PSKY) was ending \"The Late Show with Stephen Colbert.\"\n\n\n\nThe president may not ",
-      "url": "https://www.benzinga.com/news/entertainment/26/07/60374844/making-fun-of-trump-pays-off-for-colbert-kimmel-late-night-hosts-score-record-emmy-nominations",
-      "author": "Chris Katje",
-      "tickers": [
-        "AAPL",
-        "DIS",
-        "PSKY",
-        "NFLX",
-        "WBD"
-      ],
-      "tags": [],
-      "impact_score": 11.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 17:47:50 -0400",
-      "text": "Making Fun of Trump Pays Off for Colbert & Kimmel: Late Night Hosts Score Record Emmy Nominations",
-      "description": "The Emmy Award nominations have been announced and two late-night show hosts who found themselves as enemies of President Donald Trump are now getting record nominations.\n\n\n\nKimmel, Colbert Score Big\n\n\n\nIt hasn\u2019t been that long since President Trump was celebrating the announcement that Paramount Skydance Corp (NASDAQ:PSKY) was ending \"The Late Show with Stephen Colbert.\"\n\n\n\nThe president may not ",
-      "channels": [
-        "Media",
-        "Politics",
-        "Entertainment"
-      ]
-    },
-    {
       "id": "4839c54e963d79",
       "source": "cnbc",
       "source_type": "rss",
@@ -3940,95 +3953,6 @@
       "time": "Thu, 09 Jul 2026 17:35:10 GMT",
       "text": "Alleged Reflecting Pool vandal David Hearn pleads not guilty; lawyer calls him 'scapegoat'",
       "description": "\"If Mr. Hearn can be charged with a felony for touching the Reflecting Pool, every American is at risk,\" a lawyer said as he blasted the Trump administration."
-    },
-    {
-      "id": "80f2113522b5ff",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 16:18:53 -0400",
-      "title": "ChatGPT Goes From Assistant To Employee As OpenAI Launches Workplace AI Agent",
-      "body": "OpenAI is pushing ChatGPT beyond a question-and-answer tool and deeper into workplace automation with ChatGPT Work.\n\n\n\nThe new AI agent can break down complex assignments, work autonomously over extended periods and generate spreadsheets, presentations, documents and web applications, OpenAI said. It also introduced GPT-5.6, a new model the company says delivers stronger multi-step reasoning, bett",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60373541/chatgpt-goes-from-assistant-to-employee-as-openai-launches-workplace-ai-agent",
-      "author": "Caroline Ryan",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 16:18:53 -0400",
-      "text": "ChatGPT Goes From Assistant To Employee As OpenAI Launches Workplace AI Agent",
-      "description": "OpenAI is pushing ChatGPT beyond a question-and-answer tool and deeper into workplace automation with ChatGPT Work.\n\n\n\nThe new AI agent can break down complex assignments, work autonomously over extended periods and generate spreadsheets, presentations, documents and web applications, OpenAI said. It also introduced GPT-5.6, a new model the company says delivers stronger multi-step reasoning, bett",
-      "channels": [
-        "Markets",
-        "Tech",
-        "Startups",
-        "Private Markets"
-      ]
-    },
-    {
-      "id": "f5040dd470a5b2",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 15:26:51 -0400",
-      "title": "Nancy Pelosi, Donald Trump Bet On The Same 10 Stocks \u2013 Some Might Surprise You (CORRECTED)",
-      "body": "Editor&#8217;s Note: This story has been updated to correct details related to Intel (INTC).\n\n\n\nWhen it comes to tracking the trading activity of members of Congress, former Speaker of the House Nancy Pelosi (D-Calif.) has been among the most followed. The congresswoman may have new competition in terms of investing disclosures and returns, with President Donald Trump disclosing thousands of trade",
-      "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/07/60369075/nancy-pelosi-donald-trump-bet-on-the-same-10-stocks-some-might-surprise-you",
-      "author": "Chris Katje",
-      "tickers": [
-        "AAPL",
-        "AMZN",
-        "GOOGL",
-        "GOOG",
-        "INTC",
-        "AVGO",
-        "NVDA",
-        "PANW"
-      ],
-      "tags": [],
-      "impact_score": 9.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 15:26:51 -0400",
-      "text": "Nancy Pelosi, Donald Trump Bet On The Same 10 Stocks \u2013 Some Might Surprise You (CORRECTED)",
-      "description": "Editor&#8217;s Note: This story has been updated to correct details related to Intel (INTC).\n\n\n\nWhen it comes to tracking the trading activity of members of Congress, former Speaker of the House Nancy Pelosi (D-Calif.) has been among the most followed. The congresswoman may have new competition in terms of investing disclosures and returns, with President Donald Trump disclosing thousands of trade",
-      "channels": [
-        "Trading Ideas",
-        "Long Ideas",
-        "Politics"
-      ]
-    },
-    {
-      "id": "4f9d4c3cf28442",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 14:24:40 -0400",
-      "title": "SK Hynix 7X Oversubscription Boosts Semi Stocks; Earnings Season Ahead; Oil Pulls Back After Iran Attacks",
-      "body": "\n\n\n\nBuying In Semis\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been driving the stock market higher.&nbsp; SOXL is the momo crowd&#8217;s favorite semiconductor ETF.\n\n\n\nThe chart shows that the selloff in SOXL yesterday stopped at the low band of zone 2 (support).\n\n\n\nT",
-      "url": "https://www.benzinga.com/Opinion/26/07/60369943/sk-hynix-7x-oversubscription-boosts-semi-stocks-earnings-season-ahead-oil-pulls-back-after-iran-attacks",
-      "author": "The Arora Report",
-      "tickers": [
-        "USO",
-        "SPY",
-        "NVDA",
-        "TSLA",
-        "DAL",
-        "QQQ",
-        "AMZN",
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 11.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 14:24:40 -0400",
-      "text": "SK Hynix 7X Oversubscription Boosts Semi Stocks; Earnings Season Ahead; Oil Pulls Back After Iran Attacks",
-      "description": "\n\n\n\nBuying In Semis\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been driving the stock market higher.&nbsp; SOXL is the momo crowd&#8217;s favorite semiconductor ETF.\n\n\n\nThe chart shows that the selloff in SOXL yesterday stopped at the low band of zone 2 (support).\n\n\n\nT",
-      "channels": [
-        "Opinion",
-        "Market Summary"
-      ]
     },
     {
       "id": "52c221f9843eca",
@@ -4049,542 +3973,22 @@
       "description": ""
     },
     {
-      "id": "6b05e1dbd71cba",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 13:53:46 -0400",
-      "title": "Starbucks Stock Rises Amid In-House Software Push",
-      "body": "Starbucks Corp (NASDAQ:SBUX) stock is climbing Thursday after reports revealed the coffee giant is building its own AI-assisted software tools that could replace applications it currently buys from outside vendors including Microsoft Corp (NASDAQ:MSFT) and IBM. Here&#8217;s what you need to know.\n\n\n\n\nStarbucks shares are climbing with conviction. Why is SBUX stock surging?\n\n\n\n\nStarbucks\u2019 In\u2011House ",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60368889/starbucks-stock-rises-amid-in-house-software-push",
-      "author": "Evette Mitkov",
-      "tickers": [
-        "SBUX",
-        "MSFT",
-        "IBM"
-      ],
+      "id": "c8ff1674714fb2",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-08T18:38:02Z",
+      "title": "Nissan CEO: News 'coming soon' on potential Honda  partnership",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/article/nissan-ceo-news-coming-soon-on-potential-honda-partnership-183802707.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 12.3,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 13:53:46 -0400",
-      "text": "Starbucks Stock Rises Amid In-House Software Push",
-      "description": "Starbucks Corp (NASDAQ:SBUX) stock is climbing Thursday after reports revealed the coffee giant is building its own AI-assisted software tools that could replace applications it currently buys from outside vendors including Microsoft Corp (NASDAQ:MSFT) and IBM. Here&#8217;s what you need to know.\n\n\n\n\nStarbucks shares are climbing with conviction. Why is SBUX stock surging?\n\n\n\n\nStarbucks\u2019 In\u2011House ",
-      "channels": [
-        "Movers",
-        "News"
-      ]
-    },
-    {
-      "id": "c16f7950bd8b4e",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 13:09:59 -0400",
-      "title": "OpenAI Rolling Out Sol, Terra, Luna GPT-5.6 Family Of Models In ChatGPT, Codex, API",
-      "body": "https://openai.com/live/",
-      "url": "https://www.benzinga.com/news/26/07/60367104/openai-rolling-out-sol-terra-luna-gpt-5-6-family-models-chatgpt-codex-api",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
+      "impact_score": 7.8,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 13:09:59 -0400",
-      "text": "OpenAI Rolling Out Sol, Terra, Luna GPT-5.6 Family Of Models In ChatGPT, Codex, API",
-      "description": "https://openai.com/live/",
-      "channels": [
-        "News"
-      ]
-    },
-    {
-      "id": "c8e096df817698",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 11:42:44 -0400",
-      "title": "BlackRock Just Took The Fight To QQQ \u2014 The Nasdaq\u2011100 ETF War Is On",
-      "body": "Just weeks after new rules helped pave the way for Space Exploration Technologies Corp (NASDAQ:SPCX), or SpaceX to join the Nasdaq 100 Index, BlackRock has launched a new ETF tracking the benchmark, escalating competition with long-time market leader Invesco and recent entrant State Street Global Advisors. \n\n\n\nThe move demonstrates how issuers are rushing to capitalize on investor demand for techn",
-      "url": "https://www.benzinga.com/etfs/sector-etfs/26/07/60363916/nasdaq%e2%80%91100-etf-blackrock-qqq-challenge",
-      "author": "Chandrima Sanyal",
-      "tickers": [
-        "QQQ",
-        "IQQ",
-        "META",
-        "AMZN",
-        "MSFT",
-        "AVGO",
-        "NVDA",
-        "QQQM"
-      ],
-      "tags": [],
-      "impact_score": 11.9,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 11:42:44 -0400",
-      "text": "BlackRock Just Took The Fight To QQQ \u2014 The Nasdaq\u2011100 ETF War Is On",
-      "description": "Just weeks after new rules helped pave the way for Space Exploration Technologies Corp (NASDAQ:SPCX), or SpaceX to join the Nasdaq 100 Index, BlackRock has launched a new ETF tracking the benchmark, escalating competition with long-time market leader Invesco and recent entrant State Street Global Advisors. \n\n\n\nThe move demonstrates how issuers are rushing to capitalize on investor demand for techn",
-      "channels": [
-        "Tech",
-        "ETFs",
-        "Sector ETFs",
-        "Top Stories"
-      ]
-    },
-    {
-      "id": "0902ed517dcc44",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 11:00:06 -0400",
-      "title": "This Senator Just Sold Up To $165K In Apple Stock",
-      "body": "On July 8, 2026, it was reported that Senator Sheldon Whitehouse executed a sale of Apple (NASDAQ:AAPL) stock, valued between $46,004 and $165,000. The transaction, recorded in the July filing, was made on June 24, 2026.\nAt the time of writing, Apple shares are trading down 0.55% at $311.68.\nWhat Senator Has Been Trading Recently\nOver the past three years, Sheldon Whitehouse executed 117 trades to",
-      "url": "https://www.benzinga.com/government/26/07/60362118/senator-just-sold-165k-apple-stock",
-      "author": "Benzinga Insights",
-      "tickers": [
-        "AAPL",
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 9.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 11:00:06 -0400",
-      "text": "This Senator Just Sold Up To $165K In Apple Stock",
-      "description": "On July 8, 2026, it was reported that Senator Sheldon Whitehouse executed a sale of Apple (NASDAQ:AAPL) stock, valued between $46,004 and $165,000. The transaction, recorded in the July filing, was made on June 24, 2026.\nAt the time of writing, Apple shares are trading down 0.55% at $311.68.\nWhat Senator Has Been Trading Recently\nOver the past three years, Sheldon Whitehouse executed 117 trades to",
-      "channels": [
-        "Government",
-        "Politics",
-        "General",
-        "Trading Ideas",
-        "News"
-      ]
-    },
-    {
-      "id": "079eb925c07ce2",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 10:18:36 -0400",
-      "title": "'OpenAI's newest AI model is 54% more token efficient on agentic coding, Altman tells CNBC'- CNBC",
-      "body": "https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html",
-      "url": "https://www.benzinga.com/news/26/07/60360084/openai-s-newest-ai-model-54-more-token-efficient-agentic-coding-altman-tells-cnbc-cnbc",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 10:18:36 -0400",
-      "text": "'OpenAI's newest AI model is 54% more token efficient on agentic coding, Altman tells CNBC'- CNBC",
-      "description": "https://www.cnbc.com/2026/07/09/open-ai-sam-altman-chatgpt-5-6-sol.html",
-      "channels": [
-        "News",
-        "General"
-      ]
-    },
-    {
-      "id": "f54509b1321255",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 10:12:21 -0400",
-      "title": "OpenAI's Altman Says Rise In Cost Of Compute, Memory Definitely A Headwind",
-      "body": "-CNBC Interview&nbsp;",
-      "url": "https://www.benzinga.com/news/26/07/60359676/openai-s-altman-says-rise-cost-compute-memory-definitely-headwind",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 10:12:21 -0400",
-      "text": "OpenAI's Altman Says Rise In Cost Of Compute, Memory Definitely A Headwind",
-      "description": "-CNBC Interview&nbsp;",
-      "channels": [
-        "News"
-      ]
-    },
-    {
-      "id": "bf393888660af9",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 09:58:12 -0400",
-      "title": "EXCLUSIVE: Nvidia, Microsoft And Palantir Are All Exposed \u2014 CIO Warns Investors May Be Missing The Real Risk",
-      "body": "Artificial intelligence investors have spent the past two years obsessing over one question: can Nvidia Corp. (NASDAQ:NVDA), Microsoft Corp. (NASDAQ:MSFT) and Palantir Technologies Inc. (NASDAQ:PLTR) keep delivering blockbuster earnings?\n\n\n\nIn an exclusive email interview with Benzinga, SEI Investments Company&#8216;s (NASDAQ:SEIC) Chief Investment Officer, Nathan Shetty, said they may be asking t",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60358793/nvidia-microsoft-palantir-are-all-exposed-cio-warns-investors-may-be-missing-the-real-risk",
-      "author": "Surbhi Jain",
-      "tickers": [
-        "MSFT",
-        "PLTR",
-        "NVDA",
-        "SEIC"
-      ],
-      "tags": [],
-      "impact_score": 12.7,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 09:58:12 -0400",
-      "text": "EXCLUSIVE: Nvidia, Microsoft And Palantir Are All Exposed \u2014 CIO Warns Investors May Be Missing The Real Risk",
-      "description": "Artificial intelligence investors have spent the past two years obsessing over one question: can Nvidia Corp. (NASDAQ:NVDA), Microsoft Corp. (NASDAQ:MSFT) and Palantir Technologies Inc. (NASDAQ:PLTR) keep delivering blockbuster earnings?\n\n\n\nIn an exclusive email interview with Benzinga, SEI Investments Company&#8216;s (NASDAQ:SEIC) Chief Investment Officer, Nathan Shetty, said they may be asking t",
-      "channels": [
-        "Tech",
-        "Trading Ideas",
-        "Long Ideas",
-        "Interview",
-        "Federal Reserve",
-        "Top Stories",
-        "Exclusives"
-      ]
-    },
-    {
-      "id": "4f8c5cce5ab6e6",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 09:04:39 -0400",
-      "title": "'Khosla-Backed Startup Claims Breakthrough With Largest-Ever AI Model on an iPhone' - The Information",
-      "body": "https://www.theinformation.com/articles/khosla-backed-startup-claims-breakthrough-largest-ever-ai-model-iphone",
-      "url": "https://www.benzinga.com/news/26/07/60355779/khosla-backed-startup-claims-breakthrough-largest-ever-ai-model-iphone-information",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 09:04:39 -0400",
-      "text": "'Khosla-Backed Startup Claims Breakthrough With Largest-Ever AI Model on an iPhone' - The Information",
-      "description": "https://www.theinformation.com/articles/khosla-backed-startup-claims-breakthrough-largest-ever-ai-model-iphone",
-      "channels": [
-        "News"
-      ]
-    },
-    {
-      "id": "4119dbcc5758d7",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 09:01:19 -0400",
-      "title": "SpaceX Could Become a 'Landmark Historical' Collapse, Warns Top Investor: 'In The End, The Reality Will Come Out'",
-      "body": "Jeremy Grantham, co-founder of the investment behemoth&nbsp;GMO, has cast doubt over the future success of Space Exploration Technologies Corp (NASDAQ:SPCX).\n\n\n\nGrantham predicts that the SpaceX IPO could potentially become a future joke, despite the high expectations surrounding it. He shared his concerns on&nbsp;Morningstar\u2019s The Long View podcast on Wednesday and questioned the ambitious goals ",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60355676/spacex-could-become-a-landmark-historical-collapse-warns-top-investor-in-the-end-the-reality-will-come-out",
-      "author": "Namrata Sen",
-      "tickers": [
-        "TSLA",
-        "AAPL",
-        "MSFT",
-        "NVDA",
-        "SPCX",
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 11.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 09:01:19 -0400",
-      "text": "SpaceX Could Become a 'Landmark Historical' Collapse, Warns Top Investor: 'In The End, The Reality Will Come Out'",
-      "description": "Jeremy Grantham, co-founder of the investment behemoth&nbsp;GMO, has cast doubt over the future success of Space Exploration Technologies Corp (NASDAQ:SPCX).\n\n\n\nGrantham predicts that the SpaceX IPO could potentially become a future joke, despite the high expectations surrounding it. He shared his concerns on&nbsp;Morningstar\u2019s The Long View podcast on Wednesday and questioned the ambitious goals ",
-      "channels": [
-        "Markets",
-        "Tech",
-        "News",
-        "SPACE",
-        "Large Cap"
-      ]
-    },
-    {
-      "id": "1dc66efcf8cfc8",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 07:46:16 -0400",
-      "title": "Microsoft in the Spotlight After Reports Show Company Is Swapping Out Anthropic, OpenAI for In-House AI",
-      "body": "Microsoft Corporation (NASDAQ:MSFT) shares are trending Thursday following reports from Tuesday that the company is replacing OpenAI and Anthropic models with its own internally built AI in products like Excel and Outlook.\n\n\n\n\nMicrosoft shares are experiencing downward pressure.&nbsp;What&#8217;s pulling MSFT shares down?\n\n\n\n\nReplacing OpenAI and Anthropic\n\n\n\nAccording to Bloomberg, tens of thousa",
-      "url": "https://www.benzinga.com/trading-ideas/movers/26/07/60353287/microsoft-in-the-spotlight-after-reports-show-company-is-swapping-out-anthropic-openai-for-in-house-ai",
-      "author": "Dylan Berman",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 11.9,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 07:46:16 -0400",
-      "text": "Microsoft in the Spotlight After Reports Show Company Is Swapping Out Anthropic, OpenAI for In-House AI",
-      "description": "Microsoft Corporation (NASDAQ:MSFT) shares are trending Thursday following reports from Tuesday that the company is replacing OpenAI and Anthropic models with its own internally built AI in products like Excel and Outlook.\n\n\n\n\nMicrosoft shares are experiencing downward pressure.&nbsp;What&#8217;s pulling MSFT shares down?\n\n\n\n\nReplacing OpenAI and Anthropic\n\n\n\nAccording to Bloomberg, tens of thousa",
-      "channels": [
-        "Trading Ideas",
-        "Movers",
-        "News"
-      ]
-    },
-    {
-      "id": "3e16a3e3d4f3da",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 06:46:16 -0400",
-      "title": "Why Is Broadcom Stock Gaining Thursday?",
-      "body": "Broadcom Inc. (NASDAQ:AVGO) stock was up more than 1% in Thursday&#8217;s premarket session as investors returned to large-cap semiconductor stocks. Nasdaq futures gained 0.57%, while S&amp;P 500 futures rose 0.15%, supporting risk appetite ahead of the opening bell.\n\n\n\nWhile broader market sentiment supported semiconductor stocks, Broadcom also benefited from its recently announced multi-year par",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60352018/why-is-broadcom-stock-gaining-thursday",
-      "author": "Anusuya Lahiri",
-      "tickers": [
-        "AVGO",
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 9.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 06:46:16 -0400",
-      "text": "Why Is Broadcom Stock Gaining Thursday?",
-      "description": "Broadcom Inc. (NASDAQ:AVGO) stock was up more than 1% in Thursday&#8217;s premarket session as investors returned to large-cap semiconductor stocks. Nasdaq futures gained 0.57%, while S&amp;P 500 futures rose 0.15%, supporting risk appetite ahead of the opening bell.\n\n\n\nWhile broader market sentiment supported semiconductor stocks, Broadcom also benefited from its recently announced multi-year par",
-      "channels": [
-        "Tech",
-        "News"
-      ]
-    },
-    {
-      "id": "2c587244b85649",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 06:39:32 -0400",
-      "title": "Nvidia CEO Jensen Huang Says Software Engineers Would Rather Build AI Agents Than Write Python Code",
-      "body": "Nvidia Corp.\u00a0(NASDAQ:NVDA) CEO Jensen Huang said artificial intelligence (AI) is reshaping software engineering by shifting developers away from repetitive coding tasks and toward building AI agents, systems and tools designed to automate complex work.\n\n\n\nNvidia Engineers Shift To AI Agent Development\n\n\n\nOn Wednesday, in an interview published by Nvidia, Huang said the rise of \"agentic systems\" is",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60351886/nvidia-ceo-jensen-huang-says-software-engineers-would-rather-build-ai-agents-than-write-python-code",
-      "author": "Snigdha Gairola",
-      "tickers": [
-        "NVDA",
-        "AMZN",
-        "MSFT",
-        "MRVL"
-      ],
-      "tags": [],
-      "impact_score": 11.9,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 06:39:32 -0400",
-      "text": "Nvidia CEO Jensen Huang Says Software Engineers Would Rather Build AI Agents Than Write Python Code",
-      "description": "Nvidia Corp.\u00a0(NASDAQ:NVDA) CEO Jensen Huang said artificial intelligence (AI) is reshaping software engineering by shifting developers away from repetitive coding tasks and toward building AI agents, systems and tools designed to automate complex work.\n\n\n\nNvidia Engineers Shift To AI Agent Development\n\n\n\nOn Wednesday, in an interview published by Nvidia, Huang said the rise of \"agentic systems\" is",
-      "channels": [
-        "Markets",
-        "Tech"
-      ]
-    },
-    {
-      "id": "febdd544c6cb70",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 06:32:29 -0400",
-      "title": "'Starbucks Taps AI to Reduce Reliance on Microsoft, IBM Software' - Bloomberg",
-      "body": "https://www.bloomberg.com/news/articles/2026-07-09/starbucks-taps-ai-to-reduce-reliance-on-microsoft-ibm-software",
-      "url": "https://www.benzinga.com/news/26/07/60351836/starbucks-taps-ai-reduce-reliance-microsoft-ibm-software-bloomberg",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "IBM",
-        "MSFT",
-        "SBUX"
-      ],
-      "tags": [],
-      "impact_score": 11.9,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 06:32:29 -0400",
-      "text": "'Starbucks Taps AI to Reduce Reliance on Microsoft, IBM Software' - Bloomberg",
-      "description": "https://www.bloomberg.com/news/articles/2026-07-09/starbucks-taps-ai-to-reduce-reliance-on-microsoft-ibm-software",
-      "channels": [
-        "News"
-      ]
-    },
-    {
-      "id": "f899175faf029f",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 06:12:44 -0400",
-      "title": "Charlie Bilello Says 'Diversification Matters Again' as Magnificent 7 Hit Cheapest Valuation in Over a Decade",
-      "body": "Markets have flipped as the Magnificent 7 tech megacaps hit their cheapest valuation relative to the rest of the S&amp;P 500 in over a decade, prompting market strategist Charlie Bilello to declare that &#8220;Diversification matters again&#8221;.\n\n\n\nA Dramatic Factor Reversal\n\n\n\nFor over a decade, crowded U.S. large-cap growth stocks dominated Wall Street, but a stark asset rotation has gripped t",
-      "url": "https://www.benzinga.com/markets/equities/26/07/60351458/charlie-bilello-says-diversification-matters-again-as-magnificent-7-hit-cheapest-valuation-in-over-a-decade",
-      "author": "Rishabh Mishra",
-      "tickers": [
-        "MAGS",
-        "TSLA",
-        "AAPL",
-        "META",
-        "AMZN",
-        "GOOG",
-        "MSFT",
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 06:12:44 -0400",
-      "text": "Charlie Bilello Says 'Diversification Matters Again' as Magnificent 7 Hit Cheapest Valuation in Over a Decade",
-      "description": "Markets have flipped as the Magnificent 7 tech megacaps hit their cheapest valuation relative to the rest of the S&amp;P 500 in over a decade, prompting market strategist Charlie Bilello to declare that &#8220;Diversification matters again&#8221;.\n\n\n\nA Dramatic Factor Reversal\n\n\n\nFor over a decade, crowded U.S. large-cap growth stocks dominated Wall Street, but a stark asset rotation has gripped t",
-      "channels": [
-        "Markets",
-        "Tech",
-        "ETFs",
-        "News",
-        "Analyst Color",
-        "Large Cap",
-        "Equities",
-        "Market Summary"
-      ]
-    },
-    {
-      "id": "32d303c8acefa5",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 05:58:22 -0400",
-      "title": "Assessing Microsoft's Performance Against Competitors In Software Industry",
-      "body": "In today's rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices. In this article, we will undertake a comprehensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) vis-\u00e0-vis its key competitors in the Software industry. Through a detailed analysis of important financial i",
-      "url": "https://www.benzinga.com/news/26/07/60350868/assessing-microsoft-s-performance-against-competitors-software-industry",
-      "author": "Benzinga Insights",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 11.9,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 05:58:22 -0400",
-      "text": "Assessing Microsoft's Performance Against Competitors In Software Industry",
-      "description": "In today's rapidly changing and highly competitive business world, it is imperative for investors and industry observers to carefully assess companies before making investment choices. In this article, we will undertake a comprehensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) vis-\u00e0-vis its key competitors in the Software industry. Through a detailed analysis of important financial i",
-      "channels": [
-        "News",
-        "Trading Ideas",
-        "Markets"
-      ]
-    },
-    {
-      "id": "3dd3fa9d8f9557",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 05:13:24 -0400",
-      "title": "Futurum's Shay Boloor Explains Why Nvidia, AMD, Apple and Broadcom All Depend on TSMC: 'Every Token Ultimately Pays an Invisible Royalty'",
-      "body": "Taiwan Semiconductor Manufacturing Co. (NYSE:TSM) sits at the center of the artificial intelligence supply chain, making it one of the most important companies behind the industry&#8217;s rapid expansion, according to Futurum Equities chief market strategist Shay Boloor.\n\n\n\nWhy Boloor Calls TSMC The AI Industry&#8217;s &#8216;Physical Chokepoint&#8217;\n\n\n\nIn a post on X on Wednesday, Boloor argued",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60350514/futurums-shay-boloor-explains-why-nvidia-amd-apple-and-broadcom-all-depend-on-tsmc-every-token-ultimately-pays-an-invisible-royalty",
-      "author": "Ananya Gairola",
-      "tickers": [
-        "TSM",
-        "AAPL",
-        "AVGO",
-        "QCOM",
-        "AMD",
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 9.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 05:13:24 -0400",
-      "text": "Futurum's Shay Boloor Explains Why Nvidia, AMD, Apple and Broadcom All Depend on TSMC: 'Every Token Ultimately Pays an Invisible Royalty'",
-      "description": "Taiwan Semiconductor Manufacturing Co. (NYSE:TSM) sits at the center of the artificial intelligence supply chain, making it one of the most important companies behind the industry&#8217;s rapid expansion, according to Futurum Equities chief market strategist Shay Boloor.\n\n\n\nWhy Boloor Calls TSMC The AI Industry&#8217;s &#8216;Physical Chokepoint&#8217;\n\n\n\nIn a post on X on Wednesday, Boloor argued",
-      "channels": [
-        "Markets",
-        "Tech",
-        "News",
-        "Global",
-        "Equities",
-        "Market Summary"
-      ]
-    },
-    {
-      "id": "eafb4d5e21927c",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 04:58:38 -0400",
-      "title": "Tech Stock Volatility Hits 23-Year High as Nasdaq Swings Outpace S&P 500",
-      "body": "Technology stocks are experiencing one of their most volatile periods in more than two decades, with options markets pricing significantly larger swings in the Nasdaq 100 than in the broader S&amp;P 500.\n\n\n\nTech Volatility Hits 23-Year High\n\n\n\nAccording to Bloomberg data highlighted by market commentator The Kobeissi Letter, the ratio of the Nasdaq 100 Volatility Index (VXN) to the CBOE Volatility",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60350353/tech-stock-volatility-hits-23-year-high-as-nasdaq-swings-outpace-sp-500",
-      "author": "Radhika Anilkumar Nadig",
-      "tickers": [
-        "QQQ",
-        "AAPL",
-        "MSFT",
-        "TSM",
-        "AVGO",
-        "AMD",
-        "NVDA",
-        "MU"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 04:58:38 -0400",
-      "text": "Tech Stock Volatility Hits 23-Year High as Nasdaq Swings Outpace S&P 500",
-      "description": "Technology stocks are experiencing one of their most volatile periods in more than two decades, with options markets pricing significantly larger swings in the Nasdaq 100 than in the broader S&amp;P 500.\n\n\n\nTech Volatility Hits 23-Year High\n\n\n\nAccording to Bloomberg data highlighted by market commentator The Kobeissi Letter, the ratio of the Nasdaq 100 Volatility Index (VXN) to the CBOE Volatility",
-      "channels": [
-        "Tech",
-        "ETFs",
-        "Sector ETFs",
-        "Equities"
-      ]
-    },
-    {
-      "id": "d3ff77bc3d33e0",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 03:09:46 -0400",
-      "title": "Apple Supplier Luxshare Falls 5% in Hong Kong Trading Debut after $3.1 Billion IPO",
-      "body": "Luxshare Precision Industry, a major supplier for&nbsp;Apple Inc.&nbsp;(NASDAQ:AAPL), experienced a 5% decrease in its share value during its Hong Kong trading debut on Thursday.\n\n\n\nAlready listed&nbsp;on the Shenzhen Stock Exchange&nbsp;since 2010, the AirPods company priced its IPO shares&nbsp;at  HK$ 63.28&nbsp;($8.07) each, thereby&nbsp;raising HK$ 24.27 billion ($3.09 billion).&nbsp;\n\n\n\nHowev",
-      "url": "https://www.benzinga.com/markets/ipos/26/07/60349809/apple-supplier-luxshare-falls-5-in-hong-kong-trading-debut-after-3-1-billion-ipo",
-      "author": "Namrata Sen",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 9.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 03:09:46 -0400",
-      "text": "Apple Supplier Luxshare Falls 5% in Hong Kong Trading Debut after $3.1 Billion IPO",
-      "description": "Luxshare Precision Industry, a major supplier for&nbsp;Apple Inc.&nbsp;(NASDAQ:AAPL), experienced a 5% decrease in its share value during its Hong Kong trading debut on Thursday.\n\n\n\nAlready listed&nbsp;on the Shenzhen Stock Exchange&nbsp;since 2010, the AirPods company priced its IPO shares&nbsp;at  HK$ 63.28&nbsp;($8.07) each, thereby&nbsp;raising HK$ 24.27 billion ($3.09 billion).&nbsp;\n\n\n\nHowev",
-      "channels": [
-        "Markets",
-        "Tech",
-        "News",
-        "IPOs",
-        "Asia",
-        "Large Cap"
-      ]
-    },
-    {
-      "id": "4a21aaa9d25e26",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Thu, 09 Jul 2026 00:53:59 -0400",
-      "title": "Why Is Arista Networks (ANET) Stock Trending Overnight?",
-      "body": "Arista Networks Inc. (NYSE:ANET) shares are trending on Thursday.\n\n\n\nShares of the California-based software-driven cloud networking solutions provider climb 0.017% to $181.08 after the bell on Tuesday.\n\n\n\nANET closed the regular session up 8.76% at $181.05, according to Benzinga Pro data.\n\n\n\nVolume for the day rose to 11.91 million shares, compared with an average daily volume of 8.72 million sha",
-      "url": "https://www.benzinga.com/markets/equities/26/07/60349185/why-is-arista-networks-anet-stock-trending-overnight",
-      "author": "Mohd Haider",
-      "tickers": [
-        "META",
-        "MSFT",
-        "ORCL",
-        "MS",
-        "ANET",
-        " MS"
-      ],
-      "tags": [],
-      "impact_score": 11.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 00:53:59 -0400",
-      "text": "Why Is Arista Networks (ANET) Stock Trending Overnight?",
-      "description": "Arista Networks Inc. (NYSE:ANET) shares are trending on Thursday.\n\n\n\nShares of the California-based software-driven cloud networking solutions provider climb 0.017% to $181.08 after the bell on Tuesday.\n\n\n\nANET closed the regular session up 8.76% at $181.05, according to Benzinga Pro data.\n\n\n\nVolume for the day rose to 11.91 million shares, compared with an average daily volume of 8.72 million sha",
-      "channels": [
-        "Markets",
-        "Tech",
-        "After-Hours Center",
-        "Movers &amp; Shakers",
-        "News",
-        "Analyst Ratings",
-        "Price Target",
-        "General",
-        "Equities"
-      ]
+      "time": "2026-07-08T18:38:02Z",
+      "text": "Nissan CEO: News 'coming soon' on potential Honda  partnership",
+      "description": ""
     },
     {
       "id": "7d901da953f0b4",
@@ -4602,6 +4006,42 @@
       "sentiment": "neutral",
       "time": "2026-07-08T18:33:00Z",
       "text": "AT&T leaves rivals flat-footed as bankrupt carrier folds",
+      "description": ""
+    },
+    {
+      "id": "a14d77342fae82",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-08T18:27:51Z",
+      "title": "These 3 Niche ETFs Might Just Buck A Bear Trend",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/3-niche-etfs-might-just-182751749.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T18:27:51Z",
+      "text": "These 3 Niche ETFs Might Just Buck A Bear Trend",
+      "description": ""
+    },
+    {
+      "id": "fc0ccd1a6e1c35",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-08T18:25:45Z",
+      "title": "From Rockets to Red Flags: Here Is How to Play SPCX Stock After AI Safety Controversy",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/rockets-red-flags-play-spcx-182545287.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-08T18:25:45Z",
+      "text": "From Rockets to Red Flags: Here Is How to Play SPCX Stock After AI Safety Controversy",
       "description": ""
     },
     {
@@ -4656,60 +4096,6 @@
       "sentiment": "neutral",
       "time": "2026-07-08T18:04:00Z",
       "text": "Polymarket Launches U.S. Marketing Campaign",
-      "description": ""
-    },
-    {
-      "id": "aca3f93632b8cd",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-08T18:00:00Z",
-      "title": "A diabetic Ford worker was fired for allegedly stealing a $1.95 cookie \u2014 but he'd paid. Then he got $28K in lost wages",
-      "body": "",
-      "url": "https://finance.yahoo.com/small-business/articles/diabetic-ford-worker-fired-allegedly-180000684.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T18:00:00Z",
-      "text": "A diabetic Ford worker was fired for allegedly stealing a $1.95 cookie \u2014 but he'd paid. Then he got $28K in lost wages",
-      "description": ""
-    },
-    {
-      "id": "05028cac2b042e",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-08T17:54:12Z",
-      "title": "What to Expect From Valero Energy's Q2 2026 Earnings Report",
-      "body": "",
-      "url": "https://finance.yahoo.com/energy/articles/expect-valero-energys-q2-2026-175412969.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T17:54:12Z",
-      "text": "What to Expect From Valero Energy's Q2 2026 Earnings Report",
-      "description": ""
-    },
-    {
-      "id": "de240bc2667816",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-08T17:54:11Z",
-      "title": "Jeff Bezos Says \u2018We Don\u2019t Have a Revenue Problem\u2019 in America \u2014 Bottom Half Paying Just 3% of Taxes Means \u2018We Can Find 3%\u2019",
-      "body": "",
-      "url": "https://finance.yahoo.com/economy/policy/articles/jeff-bezos-says-don-t-175411058.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T17:54:11Z",
-      "text": "Jeff Bezos Says \u2018We Don\u2019t Have a Revenue Problem\u2019 in America \u2014 Bottom Half Paying Just 3% of Taxes Means \u2018We Can Find 3%\u2019",
       "description": ""
     },
     {
