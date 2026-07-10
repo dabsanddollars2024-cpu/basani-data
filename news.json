@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T08:32:07Z",
-  "generated_display": "2026-07-10 08:32 ET",
+  "generated": "2026-07-10T08:37:06Z",
+  "generated_display": "2026-07-10 08:37 ET",
   "count": 184,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T08:32:02.073952+00:00",
+      "last_error_ts": "2026-07-10T08:37:01.634564+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 118,
-      "last_success": "2026-07-10T08:32:02.193354+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-10T08:37:01.734778+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 143,
-      "last_success": "2026-07-10T08:32:02.337410+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-10T08:37:01.835232+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 35,
-      "latency_ms": 98,
-      "last_success": "2026-07-10T08:32:02.438698+00:00",
+      "latency_ms": 26,
+      "last_success": "2026-07-10T08:37:01.863144+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T08:32:02.556994+00:00",
+      "last_error_ts": "2026-07-10T08:37:02.046561+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1876,
-      "last_success": "2026-07-10T08:32:04.433770+00:00",
+      "latency_ms": 2091,
+      "last_success": "2026-07-10T08:37:04.137719+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T08:32:05.435929+00:00",
+      "last_success": "2026-07-10T08:37:05.034437+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1781,
-      "last_success": "2026-07-10T08:32:07.217774+00:00",
+      "latency_ms": 1908,
+      "last_success": "2026-07-10T08:37:06.942517+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,41 +74,41 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 127
+          "latency_ms": 205
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 207
+          "latency_ms": 90
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 92
+          "latency_ms": 100
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 399
+          "latency_ms": 302
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 9
+          "latency_ms": 15
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 165
+          "latency_ms": 181
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
-    "reuters": 16,
     "cnbc": 8,
+    "uw_news": 25,
+    "reuters": 16,
     "massive_news": 35,
     "marketwatch": 8,
     "zerohedge": 8,
@@ -117,6 +117,341 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "8112ef9e615d20",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:36:50Z",
+      "title": "$DJIA $DJT $ES_F $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658729281",
+      "author": "inspector_gadget86",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:36:50Z",
+      "text": "$DJIA $DJT $ES_F $SPY",
+      "description": "",
+      "handle": "inspector_gadget86",
+      "display_name": "Inspector Gadget",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d00d5b6b580674",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 08:36:32 GMT",
+      "title": "World oil demand set for first annual decline since 2020, IEA says",
+      "body": "",
+      "url": "https://www.cnbc.com/2026/07/10/iea-world-oil-demand-declines-iran-war.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 08:36:32 GMT",
+      "text": "World oil demand set for first annual decline since 2020, IEA says",
+      "description": ""
+    },
+    {
+      "id": "1a6acb568d9a7d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:36:20Z",
+      "title": "$MSFT @MountCapital after licking his wounds over at META \nAbout to get curb stomped here at MSFT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658729275",
+      "author": "rxptgh",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T08:36:20Z",
+      "text": "$MSFT @MountCapital after licking his wounds over at META \nAbout to get curb stomped here at MSFT",
+      "description": "",
+      "handle": "rxptgh",
+      "display_name": "Tim",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "602920e0bd7051",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:36:00Z",
+      "title": "$SPY $USO $OIL USOIL near 72.64 resistance again",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658729272",
+      "author": "dumbcat",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:36:00Z",
+      "text": "$SPY $USO $OIL USOIL near 72.64 resistance again",
+      "description": "",
+      "handle": "dumbcat",
+      "display_name": "dumbcat",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "def48f3a8997cf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:35:23Z",
+      "title": "$SPY $NVDA no hope, no dreams, just darkness $META $RDDT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658729264",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:35:23Z",
+      "text": "$SPY $NVDA no hope, no dreams, just darkness $META $RDDT",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1801ef2e60b327",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:35:23Z",
+      "title": "$SPY $NVDA no hope, no dreams, just darkness $META $RDDT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658729264",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:35:23Z",
+      "text": "$SPY $NVDA no hope, no dreams, just darkness $META $RDDT",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0243619a2ab42f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:35:23Z",
+      "title": "$SPY $NVDA no hope, no dreams, just darkness $META $RDDT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658729264",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:35:23Z",
+      "text": "$SPY $NVDA no hope, no dreams, just darkness $META $RDDT",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8f353f673b1619",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:35:20Z",
+      "title": "$NVDA always red pre",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658729262",
+      "author": "BEARNVIDIA",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:35:20Z",
+      "text": "$NVDA always red pre",
+      "description": "",
+      "handle": "BEARNVIDIA",
+      "display_name": "BEAR NVIDIA X15",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d82c3897b2522a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:34:01Z",
+      "title": "$COP $DJT $SPY $USO World oil demand set for first annual decline since 2020",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658729247",
+      "author": "inspector_gadget86",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:34:01Z",
+      "text": "$COP $DJT $SPY $USO World oil demand set for first annual decline since 2020",
+      "description": "",
+      "handle": "inspector_gadget86",
+      "display_name": "Inspector Gadget",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c89d082056792c",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T08:33:24Z",
+      "title": "Reports in Israel: 'The IDF says it recently demolished five Hamas tunnels spanning some two kilometres in the northern Gaza Strip, on the Israeli side of the ceasefire line.'",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:33:24Z",
+      "text": "Reports in Israel: 'The IDF says it recently demolished five Hamas tunnels spanning some two kilometres in the northern Gaza Strip, on the Israeli side of the ceasefire line.'",
+      "description": ""
+    },
+    {
+      "id": "309827cfe2ff72",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:33:05Z",
+      "title": "$META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658729233",
+      "author": "InfinityVenom",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:33:05Z",
+      "text": "$META",
+      "description": "",
+      "handle": "InfinityVenom",
+      "display_name": "Eddy Brock",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "74eeb25e44d74e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:32:31Z",
+      "title": "$MSTR $COIN $BTC.X $ZEC.X Summer time fun \ud83e\udd14",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658729219",
+      "author": "kindness123",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:32:31Z",
+      "text": "$MSTR $COIN $BTC.X $ZEC.X Summer time fun \ud83e\udd14",
+      "description": "",
+      "handle": "kindness123",
+      "display_name": "kindness123",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d635f4fdd36697",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:32:31Z",
+      "title": "$MSTR $COIN $BTC.X $ZEC.X Summer time fun \ud83e\udd14",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658729219",
+      "author": "kindness123",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:32:31Z",
+      "text": "$MSTR $COIN $BTC.X $ZEC.X Summer time fun \ud83e\udd14",
+      "description": "",
+      "handle": "kindness123",
+      "display_name": "kindness123",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "263c3145e1b262",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:32:23Z",
+      "title": "$SPY $QQQ chips sell off to rotate into software day $ORCL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658729216",
+      "author": "Simon77",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:32:23Z",
+      "text": "$SPY $QQQ chips sell off to rotate into software day $ORCL",
+      "description": "",
+      "handle": "Simon77",
+      "display_name": "Simon",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "49ea6c2e4ee1c1",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T08:32:23Z",
+      "title": "$SPY $QQQ chips sell off to rotate into software day $ORCL",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658729216",
+      "author": "Simon77",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T08:32:23Z",
+      "text": "$SPY $QQQ chips sell off to rotate into software day $ORCL",
+      "description": "",
+      "handle": "Simon77",
+      "display_name": "Simon",
+      "platform": "stocktwits"
+    },
     {
       "id": "e710a3c46ea33d",
       "source": "uw_news",
@@ -134,29 +469,6 @@
       "time": "2026-07-10T08:32:00Z",
       "text": "TURKISH DEFENCE MINISTRY: TURKEY HAS DECIDED NOT TO JOIN CANADIAN DEFENCE BANK INITIATIVE AT THIS POINT AFTER CONSULTATIONS",
       "description": ""
-    },
-    {
-      "id": "ca1098777d30dd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:31:43Z",
-      "title": "$SPY  the NIKKEI",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658729203",
-      "author": "RICHES_TO_RAGS_",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:31:43Z",
-      "text": "$SPY  the NIKKEI",
-      "description": "",
-      "handle": "RICHES_TO_RAGS_",
-      "display_name": "frank johnson",
-      "platform": "stocktwits"
     },
     {
       "id": "5884da4299ff3a",
@@ -247,29 +559,6 @@
       "time": "2026-07-10T08:29:58Z",
       "text": "Weichai Power Launches World's First China VI-Compliant Heavy-Duty Hydrogen Engine, Setting a New Benchmark for Zero-Carbon Mobility",
       "description": ""
-    },
-    {
-      "id": "6fa41723d5bb0f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:29:58Z",
-      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \n\ud83d\udea8 BREAKING: \n \nReports claim that the Strait of Hormuz has been closed once again.\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 \n \nFollowing the alleged U.S. strike on Bushehr, an IRGC (Islamic Revolutionary Guard Corps) commander is said to have taken direct command and ordered the complete closure of the St",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658729175",
-      "author": "chamono1942",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:29:58Z",
-      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \n\ud83d\udea8 BREAKING: \n \nReports claim that the Strait of Hormuz has been closed once again.\ud83c\uddfa\ud83c\uddf8\ud83c\uddee\ud83c\uddf7 \n \nFollowing the alleged U.S. strike on Bushehr, an IRGC (Islamic Revolutionary Guard Corps) commander is said to have taken direct command and ordered the complete closure of the St",
-      "description": "",
-      "handle": "chamono1942",
-      "display_name": "\uc774\ucca0\uc131",
-      "platform": "stocktwits"
     },
     {
       "id": "32ff11000c972b",
@@ -863,29 +1152,6 @@
       "description": ""
     },
     {
-      "id": "49b45e77a08649",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:17:04Z",
-      "title": "Our Calculation Of Intrinsic Value: Meta Platforms Inc. $META https://talkmarkets.com/article/our-calculation-of-intrinsic-value-meta-platforms-inc-1783671402",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658728972",
-      "author": "TalkMarkets",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:17:04Z",
-      "text": "Our Calculation Of Intrinsic Value: Meta Platforms Inc. $META https://talkmarkets.com/article/our-calculation-of-intrinsic-value-meta-platforms-inc-1783671402",
-      "description": "",
-      "handle": "TalkMarkets",
-      "display_name": "TalkMarkets",
-      "platform": "stocktwits"
-    },
-    {
       "id": "0a404f8a5ff946",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -907,98 +1173,6 @@
       "description": ""
     },
     {
-      "id": "9f23499fbefe83",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:14:33Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nSmoking offers here into $65K when these ladders hit good riddance",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658728923",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:14:33Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nSmoking offers here into $65K when these ladders hit good riddance",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f7bb5f639edf89",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:14:26Z",
-      "title": "$META oh ok so now this is not a social media company? It\u2019s a cloud AI computer company?  What\u2019s next? Biotech? When that\u2019s the Wall Street pump?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658728922",
-      "author": "bbsmth",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-10T08:14:26Z",
-      "text": "$META oh ok so now this is not a social media company? It\u2019s a cloud AI computer company?  What\u2019s next? Biotech? When that\u2019s the Wall Street pump?",
-      "description": "",
-      "handle": "bbsmth",
-      "display_name": "B. Smith",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5b14e8597c8d64",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:13:37Z",
-      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nBREAKING: U.S. Naval Commander killed near Strait of Hormuz.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658728907",
-      "author": "chamono1942",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:13:37Z",
-      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nBREAKING: U.S. Naval Commander killed near Strait of Hormuz.",
-      "description": "",
-      "handle": "chamono1942",
-      "display_name": "\uc774\ucca0\uc131",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "6a118c23508ecb",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:13:29Z",
-      "title": "$4CHAN.X  FEELS GOOD MAN HODLING 4CHAN  \n \n$BTC.X $SPY $PEPE.X $DOGE.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658728903",
-      "author": "BIGNOSER",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T08:13:29Z",
-      "text": "$4CHAN.X  FEELS GOOD MAN HODLING 4CHAN  \n \n$BTC.X $SPY $PEPE.X $DOGE.X",
-      "description": "",
-      "handle": "BIGNOSER",
-      "display_name": "BGNSR",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d4ae5fdaa56ddf",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1015,29 +1189,6 @@
       "time": "2026-07-10T08:13:11Z",
       "text": "ADA's price may hit $0.165 or drop to $0.13, with a likely 65%-35% chance. Momentum stagnant at $0.17.",
       "description": ""
-    },
-    {
-      "id": "5cb49414b712d5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T08:13:09Z",
-      "title": "$BTC.X $BULL $DJT $NVDA $SPY \ud83d\udc68\u200d\ud83d\udcbb\ud83c\uddfa\ud83c\uddf8\nLETS GO ENJOY YOUR WEEKEND \u2755\u2755\u2755\u2755\ud83d\ude80",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658728899",
-      "author": "iseeshit",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T08:13:09Z",
-      "text": "$BTC.X $BULL $DJT $NVDA $SPY \ud83d\udc68\u200d\ud83d\udcbb\ud83c\uddfa\ud83c\uddf8\nLETS GO ENJOY YOUR WEEKEND \u2755\u2755\u2755\u2755\ud83d\ude80",
-      "description": "",
-      "handle": "iseeshit",
-      "display_name": "Thankyou note",
-      "platform": "stocktwits"
     },
     {
       "id": "166301ba1c7132",
@@ -1313,24 +1464,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "206063894b898c",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T08:05:43Z",
-      "title": "Oil demand y/y drop eases to 1.7m b/d in 3Q from 4.8m in 2Q - IEA",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T08:05:43Z",
-      "text": "Oil demand y/y drop eases to 1.7m b/d in 3Q from 4.8m in 2Q - IEA",
-      "description": ""
-    },
-    {
       "id": "4de5922644fd16",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1556,29 +1689,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "429a9821e8fb27",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T07:53:10Z",
-      "title": "$NVDA $AMZN $SPY $QQQ There is this thing that keeps happening where oil drops, thus implying lower inflation, thus taking bond yields down, but this also pulls the stock market down with it. The obvious explanation is a rotation from equities into debt markets. \n\nIt looks concerning when it plunges",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658728601",
-      "author": "o_0_O_0_o",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 7.1,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T07:53:10Z",
-      "text": "$NVDA $AMZN $SPY $QQQ There is this thing that keeps happening where oil drops, thus implying lower inflation, thus taking bond yields down, but this also pulls the stock market down with it. The obvious explanation is a rotation from equities into debt markets. \n\nIt looks concerning when it plunges",
-      "description": "",
-      "handle": "o_0_O_0_o",
-      "display_name": "o_0_O_0_o",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a04b4ed660c910",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1599,52 +1709,6 @@
       "description": "",
       "handle": "o_0_O_0_o",
       "display_name": "o_0_O_0_o",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "37d7811aaec5ec",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T07:50:54Z",
-      "title": "$NVDA party already over ?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658728575",
-      "author": "Techii1993",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T07:50:54Z",
-      "text": "$NVDA party already over ?",
-      "description": "",
-      "handle": "Techii1993",
-      "display_name": "Techii1993",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4cb41a555b4c6c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T07:50:39Z",
-      "title": "$QQQ \n708-719 key here",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658728573",
-      "author": "PierceC",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T07:50:39Z",
-      "text": "$QQQ \n708-719 key here",
-      "description": "",
-      "handle": "PierceC",
-      "display_name": "PierceC",
       "platform": "stocktwits"
     },
     {
@@ -1913,29 +1977,6 @@
       "sentiment": "neutral",
       "time": "2026-07-10T07:26:58Z",
       "text": "$MSFT #Microsoft video from 10 July looking at the #Elliottwave path https://youtu.be/iYq7lbJ1IkM",
-      "description": "",
-      "handle": "Elliottwave_Analysis",
-      "display_name": "Henry",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "361080c8acee85",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T07:25:37Z",
-      "title": "Chart of The Day from 10 July: Bearish #Elliottwave structure in #Microsoft $MSFT suggests downside risk. Read full analysis here: https://elliottwave-forecast.com/news/bearish-elliott-wave-structure-in-microsoft-msft-suggests-downside-risk/?fpr=ewfhendra63",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658728318",
-      "author": "Elliottwave_Analysis",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T07:25:37Z",
-      "text": "Chart of The Day from 10 July: Bearish #Elliottwave structure in #Microsoft $MSFT suggests downside risk. Read full analysis here: https://elliottwave-forecast.com/news/bearish-elliott-wave-structure-in-microsoft-msft-suggests-downside-risk/?fpr=ewfhendra63",
       "description": "",
       "handle": "Elliottwave_Analysis",
       "display_name": "Henry",
@@ -2445,29 +2486,6 @@
       "description": "Bekaert repurchased 46,506 shares during the week of 2-8 July 2026 under its \u20ac75 million buyback program announced in February 2026, with an average price of \u20ac40.05 per share totaling \u20ac1.86 million. Under its liquidity agreement with Kepler Cheuvreux, the company bought 2,301 shares and sold 2,801 s"
     },
     {
-      "id": "451bc9d8299f9b",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T06:06:08Z",
-      "title": "$IBIT $COIN",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658727322",
-      "author": "LoneBroker",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:06:08Z",
-      "text": "$IBIT $COIN",
-      "description": "",
-      "handle": "LoneBroker",
-      "display_name": "Lone Broker",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b6d3b3cccf788b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2774,6 +2792,24 @@
       "handle": "JoeDirtay3",
       "display_name": "JoeDirtay3",
       "platform": "stocktwits"
+    },
+    {
+      "id": "5487c601a4d834",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 04:35:14 -0400",
+      "title": "European stocks little changed as German inflation cools",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4612821-european-stocks-little-changed-as-german-inflation-cools?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 04:35:14 -0400",
+      "text": "European stocks little changed as German inflation cools",
+      "description": ""
     },
     {
       "id": "7df36eb3e5d4b9",
@@ -3087,24 +3123,6 @@
       "time": "Fri, 10 Jul 2026 02:51:57 GMT",
       "text": "U.S. to continue 'technical talks' with Iran after Trump said ceasefire was 'over'",
       "description": "The ceasefire signed last month came under serious strain in recent days as the U.S. and Iranian forces exchanged attacks for consecutive days this week."
-    },
-    {
-      "id": "6cc1e23bc63cd1",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 02:50:44 -0400",
-      "title": "France inflation drops to 1.8% in June",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4612818-france-inflation-drops-to-18-in-june?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 02:50:44 -0400",
-      "text": "France inflation drops to 1.8% in June",
-      "description": ""
     },
     {
       "id": "15b6623af98595",
@@ -3758,24 +3776,6 @@
       "time": "Thu, 09 Jul 2026 19:26:44 GMT",
       "text": "A huge trade just happened on the Nasdaq 100. Bulls are taking notice",
       "description": "Tech bulls may not have to wait much longer for fresh highs, if the single-biggest trade in the Invesco QQQ Trust ETF on Thursday is any indication."
-    },
-    {
-      "id": "3c812188a91d3e",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Thu, 09 Jul 2026 18:52:22 GMT",
-      "title": "Prediction markets spark insider trading concerns. Here's how Goldman and other companies are responding",
-      "body": "CNBC reached out to 50 companies about what are their trading policies for employees on prediction markets. A handful had an answer.",
-      "url": "https://www.cnbc.com/2026/07/09/prediction-markets-spark-insider-trading-fears-how-firms-are-responding.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 18:52:22 GMT",
-      "text": "Prediction markets spark insider trading concerns. Here's how Goldman and other companies are responding",
-      "description": "CNBC reached out to 50 companies about what are their trading policies for employees on prediction markets. A handful had an answer."
     },
     {
       "id": "4839c54e963d79",
