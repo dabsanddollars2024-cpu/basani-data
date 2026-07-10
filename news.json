@@ -1,21 +1,21 @@
 {
-  "generated": "2026-07-10T09:57:06Z",
-  "generated_display": "2026-07-10 09:57 ET",
-  "count": 178,
+  "generated": "2026-07-10T10:02:06Z",
+  "generated_display": "2026-07-10 10:02 ET",
+  "count": 180,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T09:57:01.478612+00:00",
+      "last_error_ts": "2026-07-10T10:02:01.978019+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
-      "items_pulled": 1,
-      "latency_ms": 99,
-      "last_success": "2026-07-10T09:57:01.578963+00:00",
+      "items_pulled": 2,
+      "latency_ms": 200,
+      "last_success": "2026-07-10T10:02:02.178651+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 99,
-      "last_success": "2026-07-10T09:57:01.679864+00:00",
+      "last_success": "2026-07-10T10:02:02.278829+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 29,
-      "latency_ms": 98,
-      "last_success": "2026-07-10T09:57:01.779729+00:00",
+      "items_pulled": 30,
+      "latency_ms": 106,
+      "last_success": "2026-07-10T10:02:02.387197+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T09:57:01.878457+00:00",
+      "last_error_ts": "2026-07-10T10:02:02.494486+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1900,
-      "last_success": "2026-07-10T09:57:03.779443+00:00",
+      "latency_ms": 1783,
+      "last_success": "2026-07-10T10:02:04.278480+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,7 +55,7 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T09:57:04.578876+00:00",
+      "last_success": "2026-07-10T10:02:05.178515+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -63,7 +63,7 @@
       "status": "healthy",
       "items_pulled": 11,
       "latency_ms": 1699,
-      "last_success": "2026-07-10T09:57:06.278424+00:00",
+      "last_success": "2026-07-10T10:02:06.877873+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,12 +74,12 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 199
+          "latency_ms": 134
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 100
+          "latency_ms": 195
         },
         "yahoo_finance": {
           "status": "healthy",
@@ -89,34 +89,420 @@
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 204
+          "latency_ms": 273
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 16
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 185
+          "latency_ms": 180
         }
       }
     }
   },
   "by_source": {
     "uw_news": 25,
+    "marketwatch": 8,
     "stocktwits": 75,
     "reuters": 16,
+    "massive_news": 30,
     "cnbc": 8,
-    "marketwatch": 8,
-    "massive_news": 29,
     "zerohedge": 8,
+    "benzinga": 2,
     "seekingalpha": 7,
-    "benzinga": 1,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "a223807bbf4e9e",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:29Z",
+      "title": "The 108th Lions Clubs International Convention Successfully Concluded",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "SDG",
+        "HONG",
+        "KONG"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:29Z",
+      "text": "The 108th Lions Clubs International Convention Successfully Concluded",
+      "description": ""
+    },
+    {
+      "id": "545b0aa79e8ee0",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:27Z",
+      "title": "ChipMOS REPORTS RECORD HIGHEST MONTHLY AND QUARTERLY REVENUE SINCE 2014; REPORTS 37.2% YoY INCREASE IN JUNE 2026 REVENUE; 28.7% YoY INCREASE IN 2Q26 REVENUE",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:27Z",
+      "text": "ChipMOS REPORTS RECORD HIGHEST MONTHLY AND QUARTERLY REVENUE SINCE 2014; REPORTS 37.2% YoY INCREASE IN JUNE 2026 REVENUE; 28.7% YoY INCREASE IN 2Q26 REVENUE",
+      "description": ""
+    },
+    {
+      "id": "bb27c8b065d2d9",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:24Z",
+      "title": "Congress and a Coalition of Conservation Leaders Condemn Largest Planned Wild Horse Roundup in Nevada History",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:24Z",
+      "text": "Congress and a Coalition of Conservation Leaders Condemn Largest Planned Wild Horse Roundup in Nevada History",
+      "description": ""
+    },
+    {
+      "id": "07178f099f1140",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:21Z",
+      "title": "Choreo Promotes Ray Morrill to Chief Wealth Officer Role",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:21Z",
+      "text": "Choreo Promotes Ray Morrill to Chief Wealth Officer Role",
+      "description": ""
+    },
+    {
+      "id": "0444fca59d7656",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:20Z",
+      "title": "Cango Inc. Announces Effective Date and Ratio for Share Consolidation",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "CANG"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:20Z",
+      "text": "Cango Inc. Announces Effective Date and Ratio for Share Consolidation",
+      "description": ""
+    },
+    {
+      "id": "708eb48536a6f9",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:18Z",
+      "title": "Women Who Win to Host Inaugural International Business Pitch Competition at Zeta Phi Beta Sorority, Incorporated's 2026 Grand Boul\u00e9",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:18Z",
+      "text": "Women Who Win to Host Inaugural International Business Pitch Competition at Zeta Phi Beta Sorority, Incorporated's 2026 Grand Boul\u00e9",
+      "description": ""
+    },
+    {
+      "id": "efc202ce6a6a89",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:17Z",
+      "title": "EU SETS OUT CHARGES IN PRELIMINARY FINDINGS TO META, FINAL DECISION IN COMING MONTHS WILL DEPEND ON META'S RESPONSE",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "OUT"
+      ],
+      "tags": [],
+      "impact_score": 8.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:17Z",
+      "text": "EU SETS OUT CHARGES IN PRELIMINARY FINDINGS TO META, FINAL DECISION IN COMING MONTHS WILL DEPEND ON META'S RESPONSE",
+      "description": ""
+    },
+    {
+      "id": "c6d6b881405d52",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:17Z",
+      "title": "RARE EARTHS STARTUP REELEMENT TECHNOLOGIES IS NO LONGER SEEKING $80 MILLION CONDITIONAL PENTAGON LOAN, TRUMP ADMINISTRATION SOURCES SAY",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "RARE"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:17Z",
+      "text": "RARE EARTHS STARTUP REELEMENT TECHNOLOGIES IS NO LONGER SEEKING $80 MILLION CONDITIONAL PENTAGON LOAN, TRUMP ADMINISTRATION SOURCES SAY",
+      "description": ""
+    },
+    {
+      "id": "d8f13b0c40ca2e",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:16Z",
+      "title": "META SAYS TEEN ACCOUNTS AUTOMATICALLY PROTECT TEENS, PUT PARENTS IN CONTROL",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 8.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:16Z",
+      "text": "META SAYS TEEN ACCOUNTS AUTOMATICALLY PROTECT TEENS, PUT PARENTS IN CONTROL",
+      "description": ""
+    },
+    {
+      "id": "834e933a205531",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:16Z",
+      "title": "Metaplanet is looking into Bitcoin-backed credit with JPYC in Japan, in collaboration with Progmat. No product launch yet.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:16Z",
+      "text": "Metaplanet is looking into Bitcoin-backed credit with JPYC in Japan, in collaboration with Progmat. No product launch yet.",
+      "description": ""
+    },
+    {
+      "id": "5b9af170b80c88",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:16Z",
+      "title": "EU CHARGES TARGET INFINITE SCROLL, AUTOPLAY, PUSH NOTIFICATIONS, PERSONALISED RECOMMENDER SYSTEMS, EUROPEAN COMMISSION SAYS",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:16Z",
+      "text": "EU CHARGES TARGET INFINITE SCROLL, AUTOPLAY, PUSH NOTIFICATIONS, PERSONALISED RECOMMENDER SYSTEMS, EUROPEAN COMMISSION SAYS",
+      "description": ""
+    },
+    {
+      "id": "b894d208bfc05b",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T10:01:15Z",
+      "title": "Tokyo Lifestyle Co., Ltd. Reports Fiscal Year 2026 Financial Results",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "TKLF"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T10:01:15Z",
+      "text": "Tokyo Lifestyle Co., Ltd. Reports Fiscal Year 2026 Financial Results",
+      "description": ""
+    },
+    {
+      "id": "98420f49eca612",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 10:00:00 GMT",
+      "title": "\u2018I get $1,460 in Social Security\u2019: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "body": "\u201cI have very little money, while my ex\u2019s financial statements show assets in the millions.\u201d",
+      "url": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 10:00:00 GMT",
+      "text": "\u2018I get $1,460 in Social Security\u2019: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "description": "\u201cI have very little money, while my ex\u2019s financial statements show assets in the millions.\u201d"
+    },
+    {
+      "id": "699a56c36c1a56",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:59:37Z",
+      "title": "$MSFT nice recovery",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658730947",
+      "author": "ba1980",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:59:37Z",
+      "text": "$MSFT nice recovery",
+      "description": "",
+      "handle": "ba1980",
+      "display_name": "Matt",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9af60cca1599d4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:59:22Z",
+      "title": "$SPY https://youtu.be/EzpdvDs53U4?is=5PI-tAqtK4MhPems",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658730935",
+      "author": "P8perCh8ser",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:59:22Z",
+      "text": "$SPY https://youtu.be/EzpdvDs53U4?is=5PI-tAqtK4MhPems",
+      "description": "",
+      "handle": "P8perCh8ser",
+      "display_name": "P8perCh8ser",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a166a8106759b0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:59:22Z",
+      "title": "$DJT $PLTR Conservatives are working overtime to protect pedophiles and normalize pedophilia. I&#39;m not the one who&#39;s defending the dems, MAGA is  \nhttps://www.yahoo.com/news/politics/articles/trump-genuinely-praises-bill-clinton-182354487.html",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658730936",
+      "author": "ragingOx",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:59:22Z",
+      "text": "$DJT $PLTR Conservatives are working overtime to protect pedophiles and normalize pedophilia. I&#39;m not the one who&#39;s defending the dems, MAGA is  \nhttps://www.yahoo.com/news/politics/articles/trump-genuinely-praises-bill-clinton-182354487.html",
+      "description": "",
+      "handle": "ragingOx",
+      "display_name": "Bubba",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1b5f00c31bed7d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:58:40Z",
+      "title": "$NVDA I know my copy and paste will not work anymore because I think the powers to be have just messed my settings up so I quit shooting my foot but there was a post this morning not to long ago with advice when to buy and it says NvDa must buy at 192-200 and I think that is funny. I mean that is a ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658730915",
+      "author": "Crakerjac",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T09:58:40Z",
+      "text": "$NVDA I know my copy and paste will not work anymore because I think the powers to be have just messed my settings up so I quit shooting my foot but there was a post this morning not to long ago with advice when to buy and it says NvDa must buy at 192-200 and I think that is funny. I mean that is a ",
+      "description": "",
+      "handle": "Crakerjac",
+      "display_name": "John Dough",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a620d003ebb11e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:57:16Z",
+      "title": "$DJT $QQQ $SPY there are no virtues in the present America. As an immigrant I saw firsthand the virtues of American generosity in the past. In fact, I saw a far better America in 1975 when I immigrated to this country than what is happening today. In fact I supported the Republican Party all the way",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658730884",
+      "author": "CasinosOfferFreeDrinks",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:57:16Z",
+      "text": "$DJT $QQQ $SPY there are no virtues in the present America. As an immigrant I saw firsthand the virtues of American generosity in the past. In fact, I saw a far better America in 1975 when I immigrated to this country than what is happening today. In fact I supported the Republican Party all the way",
+      "description": "",
+      "handle": "CasinosOfferFreeDrinks",
+      "display_name": "CasinosOfferFreeDrinks",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "c3e4b5e66dd66b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T09:57:16Z",
+      "title": "$DJT $QQQ $SPY there are no virtues in the present America. As an immigrant I saw firsthand the virtues of American generosity in the past. In fact, I saw a far better America in 1975 when I immigrated to this country than what is happening today. In fact I supported the Republican Party all the way",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658730884",
+      "author": "CasinosOfferFreeDrinks",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:57:16Z",
+      "text": "$DJT $QQQ $SPY there are no virtues in the present America. As an immigrant I saw firsthand the virtues of American generosity in the past. In fact, I saw a far better America in 1975 when I immigrated to this country than what is happening today. In fact I supported the Republican Party all the way",
+      "description": "",
+      "handle": "CasinosOfferFreeDrinks",
+      "display_name": "CasinosOfferFreeDrinks",
+      "platform": "stocktwits"
+    },
     {
       "id": "979e4b48b59425",
       "source": "uw_news",
@@ -406,29 +792,6 @@
       "description": ""
     },
     {
-      "id": "a0f729607271b9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:48:06Z",
-      "title": "$MSTR SCRUMPTIOUS $SPY $BTC.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658730683",
-      "author": "TheProfitPhantom",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T09:48:06Z",
-      "text": "$MSTR SCRUMPTIOUS $SPY $BTC.X",
-      "description": "",
-      "handle": "TheProfitPhantom",
-      "display_name": "The Profit Phantom",
-      "platform": "stocktwits"
-    },
-    {
       "id": "62d127b6b35082",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -472,29 +835,6 @@
       "description": "",
       "handle": "Crakerjac",
       "display_name": "John Dough",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "16a0dc951cf6ec",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:47:55Z",
-      "title": "$SPY https://youtu.be/W38YShBYfqI?is=9Vj_pxBOEDn8wSag",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658730678",
-      "author": "P8perCh8ser",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:47:55Z",
-      "text": "$SPY https://youtu.be/W38YShBYfqI?is=9Vj_pxBOEDn8wSag",
-      "description": "",
-      "handle": "P8perCh8ser",
-      "display_name": "P8perCh8ser",
       "platform": "stocktwits"
     },
     {
@@ -652,24 +992,6 @@
       "description": ""
     },
     {
-      "id": "1364e5dcf316a0",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:45:12Z",
-      "title": "U.S. MILITARY DELEGATION WILL MEET TONIGHT WITH THE COMMANDER OF THE LEBANESE ARMY TO DISCUSS THE EXPERIMENTAL ZONE",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:45:12Z",
-      "text": "U.S. MILITARY DELEGATION WILL MEET TONIGHT WITH THE COMMANDER OF THE LEBANESE ARMY TO DISCUSS THE EXPERIMENTAL ZONE",
-      "description": ""
-    },
-    {
       "id": "fca9f96570faf9",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -693,132 +1015,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "fafd106daf0992",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:44:23Z",
-      "title": "State actors from China, Russia, and Iran aim to exploit the US debate on A.I., data centers.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:44:23Z",
-      "text": "State actors from China, Russia, and Iran aim to exploit the US debate on A.I., data centers.",
-      "description": ""
-    },
-    {
-      "id": "d08f8d8d526de3",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:44:22Z",
-      "title": "Warsh reveals new team of advisers for 5 Fed task forces addressing key policy aspects under his guidance.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 13.0,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:44:22Z",
-      "text": "Warsh reveals new team of advisers for 5 Fed task forces addressing key policy aspects under his guidance.",
-      "description": ""
-    },
-    {
-      "id": "8294c68adac878",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:44:20Z",
-      "title": "Volkswagen reducing production due to declining sales in China. Chinese competitors offer cheaper and more advanced EVs.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:44:20Z",
-      "text": "Volkswagen reducing production due to declining sales in China. Chinese competitors offer cheaper and more advanced EVs.",
-      "description": ""
-    },
-    {
-      "id": "3d093ed2571037",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:44:18Z",
-      "title": "F.T.C. settlement grants John Deere farm equipment owners right-to-repair. They can now make fixes independently.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:44:18Z",
-      "text": "F.T.C. settlement grants John Deere farm equipment owners right-to-repair. They can now make fixes independently.",
-      "description": ""
-    },
-    {
-      "id": "d29342bdaf6fb4",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:44:16Z",
-      "title": "Crude prices fluctuate after attacks on three ships escalate tensions, pushing prices above prewar levels.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 13.0,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:44:16Z",
-      "text": "Crude prices fluctuate after attacks on three ships escalate tensions, pushing prices above prewar levels.",
-      "description": ""
-    },
-    {
-      "id": "ea21cec1131244",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:44:14Z",
-      "title": "Barcelona's new sustainable tourism leader aims to reduce impact of 16M annual visitors, says 'Not One Tourist More.'",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:44:14Z",
-      "text": "Barcelona's new sustainable tourism leader aims to reduce impact of 16M annual visitors, says 'Not One Tourist More.'",
-      "description": ""
-    },
-    {
-      "id": "ac8d6aee98761e",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:44:11Z",
-      "title": "Office temperatures are often set in low 70s in summer. Your seating location and cooling system efficiency impact your comfort.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:44:11Z",
-      "text": "Office temperatures are often set in low 70s in summer. Your seating location and cooling system efficiency impact your comfort.",
-      "description": ""
-    },
-    {
       "id": "b8d0d06ef5309f",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -840,6 +1036,26 @@
       "handle": "zero_vector",
       "display_name": "Zero Vector",
       "platform": "stocktwits"
+    },
+    {
+      "id": "b3d70728168db7",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T09:43:00Z",
+      "title": "Wall Street Is Ignoring These 6%-10% Yields And Its Their Loss",
+      "body": "The article highlights five closed-end funds (CEFs) offering attractive 6%-10% yields that trade at significant discounts to their net asset value. Unlike mutual funds and ETFs, CEFs' fixed share structure creates pricing inefficiencies, allowing investors to purchase quality assets at 4%-14% discou",
+      "url": "https://www.investing.com/analysis/wall-street-is-ignoring-these-610-yields-and-its-their-loss-200683697",
+      "author": "Investing.com",
+      "tickers": [
+        "CHW"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:43:00Z",
+      "text": "Wall Street Is Ignoring These 6%-10% Yields And Its Their Loss",
+      "description": "The article highlights five closed-end funds (CEFs) offering attractive 6%-10% yields that trade at significant discounts to their net asset value. Unlike mutual funds and ETFs, CEFs' fixed share structure creates pricing inefficiencies, allowing investors to purchase quality assets at 4%-14% discou"
     },
     {
       "id": "90f3d3d7d9ea12",
@@ -1198,26 +1414,6 @@
       "description": ""
     },
     {
-      "id": "62c75287d4b78d",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:36:08Z",
-      "title": "BTC price reaches $64.3K, aiming for three-week highs. Bulls eye $65K resistance as BTC diverges from USD and oil trends.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "BTC"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:36:08Z",
-      "text": "BTC price reaches $64.3K, aiming for three-week highs. Bulls eye $65K resistance as BTC diverges from USD and oil trends.",
-      "description": ""
-    },
-    {
       "id": "d17d778bc78e9e",
       "source": "cnbc",
       "source_type": "rss",
@@ -1234,26 +1430,6 @@
       "time": "Fri, 10 Jul 2026 09:34:29 GMT",
       "text": "Volkswagen to slash model lineup and shrink capacity \u2014 but no word on job cuts",
       "description": "The update followed a high-stakes boardroom showdown with the group's supervisory board."
-    },
-    {
-      "id": "85eb4a4703fbfa",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:32:01Z",
-      "title": "Northland's Baltic Power Reaches First Power Delivering First Offshore Wind Electricity to Poland's Grid",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "NPI"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:32:01Z",
-      "text": "Northland's Baltic Power Reaches First Power Delivering First Offshore Wind Electricity to Poland's Grid",
-      "description": ""
     },
     {
       "id": "d2d8c94a9b784a",
@@ -1277,24 +1453,6 @@
       "handle": "Adaman111",
       "display_name": "AG5000",
       "platform": "stocktwits"
-    },
-    {
-      "id": "34e8e095e8332a",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:31:08Z",
-      "title": "Puncture Robotic Showcases AI-Powered Hair Restoration Innovation at WCHR 2026",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:31:08Z",
-      "text": "Puncture Robotic Showcases AI-Powered Hair Restoration Innovation at WCHR 2026",
-      "description": ""
     },
     {
       "id": "7e680ade9afba8",
@@ -1384,29 +1542,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0b94f832eb8aac",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:30:18Z",
-      "title": "$SPY $QQQ $DJT it&#39;s so fucking funny to me that liberals point to atrocities in america&#39;s past to discredit the virtues of its present \n \nlike buddy, how do you think it got so good? \n \nBY PROGRESSING.  \n \nthird world countries arent innocent, theyre just fucking incompetent LMAO. by all acc",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658730304",
-      "author": "OMNIFALL",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T09:30:18Z",
-      "text": "$SPY $QQQ $DJT it&#39;s so fucking funny to me that liberals point to atrocities in america&#39;s past to discredit the virtues of its present \n \nlike buddy, how do you think it got so good? \n \nBY PROGRESSING.  \n \nthird world countries arent innocent, theyre just fucking incompetent LMAO. by all acc",
-      "description": "",
-      "handle": "OMNIFALL",
-      "display_name": "OMNIFALL",
-      "platform": "stocktwits"
-    },
-    {
       "id": "1745c135e3b1bf",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1428,24 +1563,6 @@
       "handle": "Roadtoamilllion",
       "display_name": "Loadsamoney",
       "platform": "stocktwits"
-    },
-    {
-      "id": "a494321b685aaa",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T09:29:31Z",
-      "title": "CHINA VANKE PRELIM 1H NET LOSS 12B YUAN TO 15B YUAN",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:29:31Z",
-      "text": "CHINA VANKE PRELIM 1H NET LOSS 12B YUAN TO 15B YUAN",
-      "description": ""
     },
     {
       "id": "18be4da92869ce",
@@ -1609,52 +1726,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "9a5190d2f14d36",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:19:12Z",
-      "title": "$SPY Hell I loved this. $NVDA $SNDK",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658730099",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T09:19:12Z",
-      "text": "$SPY Hell I loved this. $NVDA $SNDK",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ad86d8b9712cb2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:19:00Z",
-      "title": "$LUCY  Innovative Eyewear Raises $3.X Million via Warrant Inducement! LFG! \ud83d\udc8e\ud83d\ude4c\ud83c\udffc\n$NVDA $PLTR $META",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658730094",
-      "author": "LocoRoco",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T09:19:00Z",
-      "text": "$LUCY  Innovative Eyewear Raises $3.X Million via Warrant Inducement! LFG! \ud83d\udc8e\ud83d\ude4c\ud83c\udffc\n$NVDA $PLTR $META",
-      "description": "",
-      "handle": "LocoRoco",
-      "display_name": "kevin lluberes",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d00d5b6b580674",
       "source": "cnbc",
       "source_type": "rss",
@@ -1806,29 +1877,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "eee17117972ccf",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T09:09:06Z",
-      "title": "$PLTR $NOW $MSFT \ud83d\udcaa\ud83c\udffc\ud83d\udcaa\ud83c\udffc\ud83d\udcaa\ud83c\udffc",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658729899",
-      "author": "Fernando36",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T09:09:06Z",
-      "text": "$PLTR $NOW $MSFT \ud83d\udcaa\ud83c\udffc\ud83d\udcaa\ud83c\udffc\ud83d\udcaa\ud83c\udffc",
-      "description": "",
-      "handle": "Fernando36",
-      "display_name": "Fernando Fernandez",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2188bb72e2d14e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1850,6 +1898,26 @@
       "handle": "HouVol",
       "display_name": "TooManyProsAround",
       "platform": "stocktwits"
+    },
+    {
+      "id": "fa2c92f010f40d",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T09:07:00Z",
+      "title": "Why Levi\u2019s Digital Strategy Is Paying Off in a Big Way",
+      "body": "Levi's is experiencing strong growth driven by its direct-to-consumer (DTC) digital strategy and AI-powered data capabilities. Q2 results showed 8% revenue growth to $1.56 billion with 11% DTC growth and 19% eCommerce increase. The company raised full-year guidance and increased its dividend by 14%,",
+      "url": "https://www.investing.com/analysis/why-levis-digital-strategy-is-paying-off-in-a-big-way-200683690",
+      "author": "Investing.com",
+      "tickers": [
+        "LEVI"
+      ],
+      "tags": [],
+      "impact_score": 9.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T09:07:00Z",
+      "text": "Why Levi\u2019s Digital Strategy Is Paying Off in a Big Way",
+      "description": "Levi's is experiencing strong growth driven by its direct-to-consumer (DTC) digital strategy and AI-powered data capabilities. Q2 results showed 8% revenue growth to $1.56 billion with 11% DTC growth and 19% eCommerce increase. The company raised full-year guidance and increased its dividend by 14%,"
     },
     {
       "id": "e9e41af09c7621",
@@ -2499,26 +2567,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "fa2c92f010f40d",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T07:11:00Z",
-      "title": "Why Levi\u2019s Digital Strategy Is Paying Off in a Big Way",
-      "body": "Levi's is experiencing strong growth driven by its direct-to-consumer (DTC) digital strategy and AI-powered data capabilities. Q2 results showed 8% revenue growth to $1.56 billion with 11% DTC growth and 19% eCommerce increase. The company raised guidance and increased its dividend by 14%, signaling",
-      "url": "https://www.investing.com/analysis/why-levis-digital-strategy-is-paying-off-in-a-big-way-200683690",
-      "author": "Investing.com",
-      "tickers": [
-        "LEVI"
-      ],
-      "tags": [],
-      "impact_score": 9.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T07:11:00Z",
-      "text": "Why Levi\u2019s Digital Strategy Is Paying Off in a Big Way",
-      "description": "Levi's is experiencing strong growth driven by its direct-to-consumer (DTC) digital strategy and AI-powered data capabilities. Q2 results showed 8% revenue growth to $1.56 billion with 11% DTC growth and 19% eCommerce increase. The company raised guidance and increased its dividend by 14%, signaling"
-    },
-    {
       "id": "29e3e9e5de0beb",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2885,6 +2933,31 @@
       "time": "Fri, 10 Jul 2026 06:00:00 +0000",
       "text": "Europeans Should Embrace The American Revolution",
       "description": "Europeans Should Embrace The American Revolution\n\n            Authored by\u00a0J.B. Shurk via\u00a0American Thinker,\n\nThe time has come for Europeans to\u00a0declare their independence from ruling-class tyranny.\n\n\n\nWe made it to our two-hundred-fiftieth birthday, America.\u00a0\u00a0What\u2019s next?\u00a0\u00a0Let\u2019s get back to work, so "
+    },
+    {
+      "id": "3cf366db23d871",
+      "source": "benzinga",
+      "source_type": "benzinga_news",
+      "timestamp": "Fri, 10 Jul 2026 05:58:27 -0400",
+      "title": "Comparative Study: Microsoft And Industry Competitors In Software Industry",
+      "body": "In today's rapidly changing and fiercely competitive business landscape, it is vital for investors and industry enthusiasts to carefully evaluate companies. In this article, we will perform a comprehensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) against its key competitors in the Software industry. By analyzing important financial metrics, market position, and growth prospects, we ",
+      "url": "https://www.benzinga.com/news/26/07/60377606/comparative-study-microsoft-and-industry-competitors-software-industry",
+      "author": "Benzinga Insights",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 11.9,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 05:58:27 -0400",
+      "text": "Comparative Study: Microsoft And Industry Competitors In Software Industry",
+      "description": "In today's rapidly changing and fiercely competitive business landscape, it is vital for investors and industry enthusiasts to carefully evaluate companies. In this article, we will perform a comprehensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) against its key competitors in the Software industry. By analyzing important financial metrics, market position, and growth prospects, we ",
+      "channels": [
+        "News",
+        "Trading Ideas",
+        "Markets"
+      ]
     },
     {
       "id": "912b6ec5a2f37a",
@@ -3620,24 +3693,6 @@
       "time": "Thu, 09 Jul 2026 22:00:00 GMT",
       "text": "\u2018I\u2019ve no idea how they got her number\u2019: My student-loan servicer called a friend after I missed a payment. Is that legal?",
       "description": "\u201cShe said it\u2019s the second message they have left.\u201d"
-    },
-    {
-      "id": "45fab096973990",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Thu, 09 Jul 2026 21:52:00 GMT",
-      "title": "Can Walmart help the Fed harness real-time U.S. economic data? We\u2019re about to find out.",
-      "body": "The Federal Reserve named a former Walmart CEO to a task force to develop contemporaneous data on spending, inflation and growth.",
-      "url": "https://www.marketwatch.com/story/can-walmart-help-the-fed-harness-real-time-u-s-economic-data-were-about-to-find-out-e625925a?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 13.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Thu, 09 Jul 2026 21:52:00 GMT",
-      "text": "Can Walmart help the Fed harness real-time U.S. economic data? We\u2019re about to find out.",
-      "description": "The Federal Reserve named a former Walmart CEO to a task force to develop contemporaneous data on spending, inflation and growth."
     },
     {
       "id": "edb1e9c5dab618",
