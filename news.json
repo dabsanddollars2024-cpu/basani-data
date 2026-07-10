@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-10T06:47:07Z",
-  "generated_display": "2026-07-10 06:47 ET",
+  "generated": "2026-07-10T06:52:07Z",
+  "generated_display": "2026-07-10 06:52 ET",
   "count": 180,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T06:47:02.407940+00:00",
+      "last_error_ts": "2026-07-10T06:52:02.071871+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 130,
-      "last_success": "2026-07-10T06:47:02.571302+00:00",
+      "latency_ms": 199,
+      "last_success": "2026-07-10T06:52:02.272353+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 100,
-      "last_success": "2026-07-10T06:47:02.672189+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-10T06:52:02.372573+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 31,
-      "latency_ms": 33,
-      "last_success": "2026-07-10T06:47:02.772453+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-10T06:52:02.473948+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-10T06:47:02.904918+00:00",
+      "last_error_ts": "2026-07-10T06:52:02.586820+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1577,
-      "last_success": "2026-07-10T06:47:04.482378+00:00",
+      "latency_ms": 2186,
+      "last_success": "2026-07-10T06:52:04.773304+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-10T06:47:05.171586+00:00",
+      "last_success": "2026-07-10T06:52:05.572048+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1899,
-      "last_success": "2026-07-10T06:47:07.071536+00:00",
+      "latency_ms": 1846,
+      "last_success": "2026-07-10T06:52:07.418183+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,42 +74,42 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 201
+          "latency_ms": 111
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 88
+          "latency_ms": 188
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 32
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 269
+          "latency_ms": 203
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 9
+          "latency_ms": 15
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 88
+          "latency_ms": 180
         }
       }
     }
   },
   "by_source": {
-    "uw_news": 25,
     "stocktwits": 75,
+    "uw_news": 25,
+    "reuters": 16,
     "cnbc": 8,
     "marketwatch": 8,
-    "reuters": 16,
     "massive_news": 31,
     "zerohedge": 8,
     "seekingalpha": 7,
@@ -117,6 +117,241 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "06c851ffe32e6e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:51:49Z",
+      "title": "$BULL $ORCL $NOW $CRM $MSTR If Webull can close above $8 it will create a short squeeze. Short sellers will have no choice but to buy back the 21.54 million shares it has shorted.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658727930",
+      "author": "Gundam2168",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T06:51:49Z",
+      "text": "$BULL $ORCL $NOW $CRM $MSTR If Webull can close above $8 it will create a short squeeze. Short sellers will have no choice but to buy back the 21.54 million shares it has shorted.",
+      "description": "",
+      "handle": "Gundam2168",
+      "display_name": "Gun Dam",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "72d3db4dcae046",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:49:41Z",
+      "title": "$MSFT sold meta to buy the dip here yesterday \ud83d\ude29",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658727914",
+      "author": "mynameisplissken",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:49:41Z",
+      "text": "$MSFT sold meta to buy the dip here yesterday \ud83d\ude29",
+      "description": "",
+      "handle": "mynameisplissken",
+      "display_name": "eugene",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cbc8216183c0ae",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:49:22Z",
+      "title": "$SPY OMG night and day, you&#39;re miss the way I use to make you say $NVDA $META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658727907",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:49:22Z",
+      "text": "$SPY OMG night and day, you&#39;re miss the way I use to make you say $NVDA $META",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "79bd13145c8738",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:49:22Z",
+      "title": "$SPY OMG night and day, you&#39;re miss the way I use to make you say $NVDA $META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658727907",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:49:22Z",
+      "text": "$SPY OMG night and day, you&#39;re miss the way I use to make you say $NVDA $META",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6b1b7df27bf0cf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:49:22Z",
+      "title": "$SPY OMG night and day, you&#39;re miss the way I use to make you say $NVDA $META",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658727907",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:49:22Z",
+      "text": "$SPY OMG night and day, you&#39;re miss the way I use to make you say $NVDA $META",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5589d0409cce58",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:49:07Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nI own this garbage market earn your place JPM fukboys",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658727904",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:49:07Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nI own this garbage market earn your place JPM fukboys",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6ed5184da7c796",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T06:48:28Z",
+      "title": "The consolidated sales of VILVI Group June 2026",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:48:28Z",
+      "text": "The consolidated sales of VILVI Group June 2026",
+      "description": ""
+    },
+    {
+      "id": "6868f6589202b0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-10T06:48:04Z",
+      "title": "$INTC $MU $amD calm down week bulls. During these extreme volatility, just hold. No narrative has changed. We are headed up as ER season arrives in a week. Enjoy the discount!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658727888",
+      "author": "chuchutrain",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-10T06:48:04Z",
+      "text": "$INTC $MU $amD calm down week bulls. During these extreme volatility, just hold. No narrative has changed. We are headed up as ER season arrives in a week. Enjoy the discount!",
+      "description": "",
+      "handle": "chuchutrain",
+      "display_name": "Rocky",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "481431bdaf6580",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:47:39",
+      "title": "France\u2019s June inflation falls 0.3% monthly, rises 2.0% yearly",
+      "body": "",
+      "url": "https://www.investing.com/news/economic-indicators/frances-june-inflation-falls-03-monthly-rises-20-yearly-93CH-4785384",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:47:39",
+      "text": "France\u2019s June inflation falls 0.3% monthly, rises 2.0% yearly",
+      "description": ""
+    },
+    {
+      "id": "56bf85d67afd24",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T06:47:25Z",
+      "title": "Notification under Chapter 9, Section 10 of the Finnish Securities Market Act: holdings of FMR LLC in Nokia Corporation decreased below 5%",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:47:25Z",
+      "text": "Notification under Chapter 9, Section 10 of the Finnish Securities Market Act: holdings of FMR LLC in Nokia Corporation decreased below 5%",
+      "description": ""
+    },
+    {
+      "id": "d8cb0efb481b69",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-10T06:47:21Z",
+      "title": "Japan Post Insurance and SCOR agree on ceding \"Postal Life Insurance Policies\" and investing in SCOR's reinsurance vehicle.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "SCOR"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T06:47:21Z",
+      "text": "Japan Post Insurance and SCOR agree on ceding \"Postal Life Insurance Policies\" and investing in SCOR's reinsurance vehicle.",
+      "description": ""
+    },
     {
       "id": "45162f3a251b1d",
       "source": "uw_news",
@@ -133,6 +368,42 @@
       "sentiment": "neutral",
       "time": "2026-07-10T06:46:50Z",
       "text": "FRANCE (JUN) CPI EX-TOBACCO INDEX ACTUAL: 102.09 VS 102.37 PREVIOUS",
+      "description": ""
+    },
+    {
+      "id": "f0d1478fdf3930",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:46:42",
+      "title": "Norway\u2019s June inflation comes in at 2.7%, below forecasts",
+      "body": "",
+      "url": "https://www.investing.com/news/economic-indicators/norways-june-inflation-comes-in-at-27-below-forecasts-93CH-4785383",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:46:42",
+      "text": "Norway\u2019s June inflation comes in at 2.7%, below forecasts",
+      "description": ""
+    },
+    {
+      "id": "b250022d3b7173",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:46:37",
+      "title": "Nokia stake held by FMR LLC falls below 5% threshold",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/nokia-stake-held-by-fmr-llc-falls-below-5-threshold-93CH-4785382",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:46:37",
+      "text": "Nokia stake held by FMR LLC falls below 5% threshold",
       "description": ""
     },
     {
@@ -374,6 +645,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "9ec597a4ea6952",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:43:13",
+      "title": "MJ Gleeson reports in-line annual profit,\u00a0flags uncertain year ahead",
+      "body": "",
+      "url": "https://www.investing.com/news/earnings/mj-gleeson-reports-inline-annual-profitflags-uncertain-year-ahead-4785378",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:43:13",
+      "text": "MJ Gleeson reports in-line annual profit,\u00a0flags uncertain year ahead",
+      "description": ""
+    },
+    {
       "id": "ec9b9bf250f5c6",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -420,6 +709,42 @@
       "platform": "stocktwits"
     },
     {
+      "id": "9f520e598108ca",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:42:30",
+      "title": "Analysis-Missile test showcases sensitive Chinese submarine capabilities key to nuclear deterrent",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/analysismissile-test-showcases-sensitive-chinese-submarine-capabilities-key-to-nuclear-deterrent-4785379",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:42:30",
+      "text": "Analysis-Missile test showcases sensitive Chinese submarine capabilities key to nuclear deterrent",
+      "description": ""
+    },
+    {
+      "id": "263a2c9428d43f",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:42:29",
+      "title": "SK Hynix set for marquee US debut in test for AI appetite",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-set-for-marquee-us-debut-in-test-for-ai-appetite-4785365",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:42:29",
+      "text": "SK Hynix set for marquee US debut in test for AI appetite",
+      "description": ""
+    },
+    {
       "id": "61a7571ae8161e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -440,29 +765,6 @@
       "description": "",
       "handle": "protrudingvaginalbeltch",
       "display_name": "Mitch Conner",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "31deefb30e1fca",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T06:40:08Z",
-      "title": "$SPY real estate is a b*tch $META $RDDT",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658727804",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:40:08Z",
-      "text": "$SPY real estate is a b*tch $META $RDDT",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
       "platform": "stocktwits"
     },
     {
@@ -566,6 +868,42 @@
       "description": ""
     },
     {
+      "id": "b3c55b731caaaf",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:36:45",
+      "title": "JPMorgan upgrades Salzgitter stock rating on EU steel policy",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/jpmorgan-upgrades-salzgitter-stock-rating-on-eu-steel-policy-93CH-4785373",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:36:45",
+      "text": "JPMorgan upgrades Salzgitter stock rating on EU steel policy",
+      "description": ""
+    },
+    {
+      "id": "8a1dacb0327de0",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10 06:36:28",
+      "title": "SK Hynix advisors win big fee windfall after modest SpaceX payday",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-advisors-win-big-fee-windfall-after-modest-spacex-payday-4785284",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10 06:36:28",
+      "text": "SK Hynix advisors win big fee windfall after modest SpaceX payday",
+      "description": ""
+    },
+    {
       "id": "6aa1527220bc91",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -604,29 +942,6 @@
       "description": "",
       "handle": "LoneBroker",
       "display_name": "Lone Broker",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "cd84671b7af59f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T06:35:26Z",
-      "title": "$MSTR I buy more every single month in the long term account. Unless you believe bitcoin going to zero don\u2019t buy",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658727749",
-      "author": "kivory",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:35:26Z",
-      "text": "$MSTR I buy more every single month in the long term account. Unless you believe bitcoin going to zero don\u2019t buy",
-      "description": "",
-      "handle": "kivory",
-      "display_name": "Karl",
       "platform": "stocktwits"
     },
     {
@@ -855,65 +1170,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "9b3f259c244469",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T06:26:33Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nWe aren\u2019t playing for monopoly money baby bears very serious business happening here\u2026Rick and Morty cartoons won\u2019t save you from extraordinary failure",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658727606",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:26:33Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nWe aren\u2019t playing for monopoly money baby bears very serious business happening here\u2026Rick and Morty cartoons won\u2019t save you from extraordinary failure",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ce5b62c15df56b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10 06:24:49",
-      "title": "Schroder Real Estate Investment Trust reports annual results",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/schroder-real-estate-investment-trust-reports-annual-results-93CH-4785367",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10 06:24:49",
-      "text": "Schroder Real Estate Investment Trust reports annual results",
-      "description": ""
-    },
-    {
-      "id": "263a2c9428d43f",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10 06:24:26",
-      "title": "SK Hynix set for marquee US debut in test for AI appetite",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/sk-hynix-set-for-marquee-us-debut-in-test-for-ai-appetite-4785365",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10 06:24:26",
-      "text": "SK Hynix set for marquee US debut in test for AI appetite",
-      "description": ""
-    },
-    {
       "id": "b0b2513fb50ce3",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -993,47 +1249,6 @@
       "description": "As global chip giant SK Hynix makes its Nasdaq debut Friday, the listing serves as a major test of whether the company can shed its long standing \"Korea Discount.\""
     },
     {
-      "id": "6e6b0a7158dbcd",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10 06:21:28",
-      "title": "Kids use more AI than parents think, study shows",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/kids-use-more-ai-than-parents-think-study-shows-93CH-4785366",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10 06:21:28",
-      "text": "Kids use more AI than parents think, study shows",
-      "description": ""
-    },
-    {
-      "id": "dbbbe68be9d57e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T06:20:51Z",
-      "title": "$NIXX Some of tachynons partnerships include $NVDA $SMCI $AIIO",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658727514",
-      "author": "FlowQuantix",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T06:20:51Z",
-      "text": "$NIXX Some of tachynons partnerships include $NVDA $SMCI $AIIO",
-      "description": "",
-      "handle": "FlowQuantix",
-      "display_name": "FlowQuantix",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2e66153945e07a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1075,24 +1290,6 @@
       "description": ""
     },
     {
-      "id": "702cdf265f8925",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10 06:18:47",
-      "title": "Overcrowded shelters, lack of clean water pose health risks after Venezuela quakes, PAHO says",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/overcrowded-shelters-poor-water-access-pose-health-risks-after-venezuela-quakes-paho-says-4784679",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10 06:18:47",
-      "text": "Overcrowded shelters, lack of clean water pose health risks after Venezuela quakes, PAHO says",
-      "description": ""
-    },
-    {
       "id": "724066c8744114",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1128,78 +1325,6 @@
       "sentiment": "neutral",
       "time": "2026-07-10T06:18:14Z",
       "text": "German VDA president says policymakers must assess whether they have strengthened the auto industry's competitiveness against China.",
-      "description": ""
-    },
-    {
-      "id": "fe4ec6ba0a859d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10 06:17:38",
-      "title": "EMS Chemie lifts sales view as niche demand drives margin expansion",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/ems-chemie-lifts-sales-view-as-niche-demand-drives-margin-expansion-4785364",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10 06:17:38",
-      "text": "EMS Chemie lifts sales view as niche demand drives margin expansion",
-      "description": ""
-    },
-    {
-      "id": "9ce727fab68616",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10 06:17:33",
-      "title": "Golden Prospect Precious Metals appoints Baker Steel as manager",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/golden-prospect-precious-metals-appoints-baker-steel-as-manager-93CH-4785363",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10 06:17:33",
-      "text": "Golden Prospect Precious Metals appoints Baker Steel as manager",
-      "description": ""
-    },
-    {
-      "id": "06c19fd7b2b09c",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10 06:17:31",
-      "title": "e& to sell Vodafone stake for $6 billion at 13% premium",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/e-to-sell-vodafone-stake-for-6-billion-at-13-premium-4785362",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10 06:17:31",
-      "text": "e& to sell Vodafone stake for $6 billion at 13% premium",
-      "description": ""
-    },
-    {
-      "id": "732e3dbbd7fafa",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10 06:17:18",
-      "title": "KlaraBo reports Q2 rental income growth despite net loss",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/klarabo-reports-q2-rental-income-growth-despite-net-loss-93CH-4785361",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10 06:17:18",
-      "text": "KlaraBo reports Q2 rental income growth despite net loss",
       "description": ""
     },
     {
@@ -1361,29 +1486,6 @@
       "description": ""
     },
     {
-      "id": "029fb788480dfc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T06:09:31Z",
-      "title": "$META my avg is $541 \ud83d\ude2d",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658727367",
-      "author": "equityemilio",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T06:09:31Z",
-      "text": "$META my avg is $541 \ud83d\ude2d",
-      "description": "",
-      "handle": "equityemilio",
-      "display_name": "emilio",
-      "platform": "stocktwits"
-    },
-    {
       "id": "9ec38bd81ad607",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1499,64 +1601,6 @@
       "sentiment": "neutral",
       "time": "2026-07-10T06:04:19Z",
       "text": "NORWAY (JUN) CPI MOM ACTUAL: -0.2% VS 0.2% PREVIOUS",
-      "description": ""
-    },
-    {
-      "id": "c54dab13958a96",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T06:03:47Z",
-      "title": "NORWEGIAN CPI YOY ACTUAL 2.7% (FORECAST 3.1%, PREVIOUS 3.1%) $MACRO",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "NCLH"
-      ],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:03:47Z",
-      "text": "NORWEGIAN CPI YOY ACTUAL 2.7% (FORECAST 3.1%, PREVIOUS 3.1%) $MACRO",
-      "description": ""
-    },
-    {
-      "id": "d7ee0c5f376e0f",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T06:03:39Z",
-      "title": "Kanadevia Group Accelerating Global Expansion of Green Hydrogen-related Businesses",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "BEC"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:03:39Z",
-      "text": "Kanadevia Group Accelerating Global Expansion of Green Hydrogen-related Businesses",
-      "description": ""
-    },
-    {
-      "id": "019e29bfc97b21",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T06:03:18Z",
-      "title": "APOLLO REACHES PACT TO BUY EASYJET FOR \u00a37.15 PER SHARE",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:03:18Z",
-      "text": "APOLLO REACHES PACT TO BUY EASYJET FOR \u00a37.15 PER SHARE",
       "description": ""
     },
     {
@@ -1824,29 +1868,6 @@
       "description": "",
       "handle": "SparkySC",
       "display_name": "SparkySC",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "823799c69c5599",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T05:16:35Z",
-      "title": "$AMD keep going down go to 300 tomorrow so I can make up some losses",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658726589",
-      "author": "JoeDirtay3",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T05:16:35Z",
-      "text": "$AMD keep going down go to 300 tomorrow so I can make up some losses",
-      "description": "",
-      "handle": "JoeDirtay3",
-      "display_name": "JoeDirtay3",
       "platform": "stocktwits"
     },
     {
@@ -2218,29 +2239,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e5b342f7db86c2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T04:14:58Z",
-      "title": "$MSFT its just us now , UNH and Meta has left us behind. All other software stocks have also bounced 2x harder than us in the past 2 weeks and they also had twice more green days than us too while we just cant stop bleeding out of our asses",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658725529",
-      "author": "AnaIyze",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T04:14:58Z",
-      "text": "$MSFT its just us now , UNH and Meta has left us behind. All other software stocks have also bounced 2x harder than us in the past 2 weeks and they also had twice more green days than us too while we just cant stop bleeding out of our asses",
-      "description": "",
-      "handle": "AnaIyze",
-      "display_name": "AnaIyze",
-      "platform": "stocktwits"
-    },
-    {
       "id": "9be5fb43df5707",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2607,6 +2605,24 @@
       "description": "The ceasefire signed last month came under serious strain in recent days as the U.S. and Iranian forces exchanged attacks for consecutive days this week."
     },
     {
+      "id": "6cc1e23bc63cd1",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 02:50:44 -0400",
+      "title": "France inflation drops to 1.8% in June",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4612818-france-inflation-drops-to-18-in-june?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 02:50:44 -0400",
+      "text": "France inflation drops to 1.8% in June",
+      "description": ""
+    },
+    {
       "id": "15b6623af98595",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2879,24 +2895,6 @@
       "sentiment": "neutral",
       "time": "Fri, 10 Jul 2026 02:02:33 -0400",
       "text": "French telecom tycoon Xavier Niel's firm to acquire E& Group's $6B Vodafone stake",
-      "description": ""
-    },
-    {
-      "id": "adce52c45c50c9",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 01:52:57 -0400",
-      "title": "Solaris Energy Infrastructure gains on S&P SmallCap 600 inclusion",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4612811-solaris-energy-infrastructure-gains-on-sp-smallcap-600-inclusion?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 01:52:57 -0400",
-      "text": "Solaris Energy Infrastructure gains on S&P SmallCap 600 inclusion",
       "description": ""
     },
     {
