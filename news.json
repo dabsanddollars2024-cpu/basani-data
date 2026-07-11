@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T15:02:07Z",
-  "generated_display": "2026-07-11 15:02 ET",
+  "generated": "2026-07-11T15:07:07Z",
+  "generated_display": "2026-07-11 15:07 ET",
   "count": 181,
   "source_health": {
     "x_api": {
@@ -8,14 +8,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T15:02:02.432339+00:00",
+      "last_error_ts": "2026-07-11T15:07:02.173805+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 139,
-      "last_success": "2026-07-11T15:02:02.572834+00:00",
+      "latency_ms": 98,
+      "last_success": "2026-07-11T15:07:02.273094+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 97,
-      "last_success": "2026-07-11T15:02:02.671202+00:00",
+      "last_success": "2026-07-11T15:07:02.371227+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 29,
-      "latency_ms": 74,
-      "last_success": "2026-07-11T15:02:02.771001+00:00",
+      "latency_ms": 98,
+      "last_success": "2026-07-11T15:07:02.471477+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T15:02:02.878218+00:00",
+      "last_error_ts": "2026-07-11T15:07:02.509646+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1792,
-      "last_success": "2026-07-11T15:02:04.671046+00:00",
+      "latency_ms": 2466,
+      "last_success": "2026-07-11T15:07:04.976339+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T15:02:05.471013+00:00",
+      "last_success": "2026-07-11T15:07:05.670620+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1840,
-      "last_success": "2026-07-11T15:02:07.311786+00:00",
+      "latency_ms": 1859,
+      "last_success": "2026-07-11T15:07:07.529882+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 125
+          "latency_ms": 106
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 111
+          "latency_ms": 89
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 99
+          "latency_ms": 37
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 267
+          "latency_ms": 263
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 97
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 186
+          "latency_ms": 99
         }
       }
     }
@@ -107,16 +107,315 @@
   "by_source": {
     "stocktwits": 75,
     "marketwatch": 8,
+    "cnbc": 8,
     "reuters": 16,
     "massive_news": 29,
     "uw_news": 25,
-    "cnbc": 8,
     "zerohedge": 8,
     "seekingalpha": 7,
     "benzinga": 4,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "cc60b464d04ab8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:07:00Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nTest me here watch how it happens\u2026",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658824021",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:07:00Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nTest me here watch how it happens\u2026",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "5857ea6cfbe5e6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:06:28Z",
+      "title": "$DJT $SPY tRump said it would cost 1.8M$, real cost 18M$, weird right? \ud83d\ude02\ud83c\udf4a\ud83e\udd21 \nNow trying to indict ppl because this scam is falling part... Just another tRump grift... after grift....after grift. \nhttps://youtu.be/1EMcS_tQhPE?is=cLKF6BnRMcj3KxBz",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658824006",
+      "author": "VikeInvests",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-11T15:06:28Z",
+      "text": "$DJT $SPY tRump said it would cost 1.8M$, real cost 18M$, weird right? \ud83d\ude02\ud83c\udf4a\ud83e\udd21 \nNow trying to indict ppl because this scam is falling part... Just another tRump grift... after grift....after grift. \nhttps://youtu.be/1EMcS_tQhPE?is=cLKF6BnRMcj3KxBz",
+      "description": "",
+      "handle": "VikeInvests",
+      "display_name": "Vike Invests",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4af114c9b5d41b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:06:18Z",
+      "title": "My July advice: \n \nStay focused, manage your risk, and be ready when the right opportunities appear. \n \n$PL - Don\u2019t buy \n$TSLA - Buy at $394-$404 \n$IONQ - Buy at $33-$39 \n$ANET - Buy at $176-$184 \n$MU - Buy at $964-$974 \n \nThis portfolio will protect you this year  \n \nNext week\u2019s portfolio and watch",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658824000",
+      "author": "FibonacciTrader_",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:06:18Z",
+      "text": "My July advice: \n \nStay focused, manage your risk, and be ready when the right opportunities appear. \n \n$PL - Don\u2019t buy \n$TSLA - Buy at $394-$404 \n$IONQ - Buy at $33-$39 \n$ANET - Buy at $176-$184 \n$MU - Buy at $964-$974 \n \nThis portfolio will protect you this year  \n \nNext week\u2019s portfolio and watch",
+      "description": "",
+      "handle": "FibonacciTrader_",
+      "display_name": "Donald Osullivan",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "62ae2a1b9fede7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:06:09Z",
+      "title": "Sharing this only with my followers:-2 \n \nThese 8 stocks have the potential to double by 2028. \n \nLong-term trends, strong fundamentals, and the right execution could make these names worth watching closely. \n \n$CRDO \n$ASTS \n$NOW \n$PLTR \n \nWarren Buffett\u2019s investing philosophy is simple: \n \nWhen you",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658823997",
+      "author": "SwingTraderPro1",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:06:09Z",
+      "text": "Sharing this only with my followers:-2 \n \nThese 8 stocks have the potential to double by 2028. \n \nLong-term trends, strong fundamentals, and the right execution could make these names worth watching closely. \n \n$CRDO \n$ASTS \n$NOW \n$PLTR \n \nWarren Buffett\u2019s investing philosophy is simple: \n \nWhen you",
+      "description": "",
+      "handle": "SwingTraderPro1",
+      "display_name": "Judy Reade",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e58bc3c6de40f8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:04:03Z",
+      "title": "$BTC.X $MU $NVDA $SPY $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658823943",
+      "author": "indyrestore",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:04:03Z",
+      "text": "$BTC.X $MU $NVDA $SPY $TSLA",
+      "description": "",
+      "handle": "indyrestore",
+      "display_name": "Jason Blankenship",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "9a5405b0bc840d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:04:03Z",
+      "title": "$BTC.X $MU $NVDA $SPY $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658823943",
+      "author": "indyrestore",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:04:03Z",
+      "text": "$BTC.X $MU $NVDA $SPY $TSLA",
+      "description": "",
+      "handle": "indyrestore",
+      "display_name": "Jason Blankenship",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "588c72a5c8be4e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:04:03Z",
+      "title": "$BTC.X $MU $NVDA $SPY $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658823943",
+      "author": "indyrestore",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:04:03Z",
+      "text": "$BTC.X $MU $NVDA $SPY $TSLA",
+      "description": "",
+      "handle": "indyrestore",
+      "display_name": "Jason Blankenship",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "53767e2d32b190",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:03:57Z",
+      "title": "$QQQ $SPY corrections have been called since 2022. I don&#39;t think there&#39;ll be one anytime soon. Not with Orange in office. It&#39;s what he&#39;s most proud of.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658823940",
+      "author": "Tell_It_Like_It_Is",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T15:03:57Z",
+      "text": "$QQQ $SPY corrections have been called since 2022. I don&#39;t think there&#39;ll be one anytime soon. Not with Orange in office. It&#39;s what he&#39;s most proud of.",
+      "description": "",
+      "handle": "Tell_It_Like_It_Is",
+      "display_name": "Straight_Forward",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a86d44089afb92",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:03:57Z",
+      "title": "$QQQ $SPY corrections have been called since 2022. I don&#39;t think there&#39;ll be one anytime soon. Not with Orange in office. It&#39;s what he&#39;s most proud of.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658823940",
+      "author": "Tell_It_Like_It_Is",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T15:03:57Z",
+      "text": "$QQQ $SPY corrections have been called since 2022. I don&#39;t think there&#39;ll be one anytime soon. Not with Orange in office. It&#39;s what he&#39;s most proud of.",
+      "description": "",
+      "handle": "Tell_It_Like_It_Is",
+      "display_name": "Straight_Forward",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f22b1d36a5c061",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:03:51Z",
+      "title": "$QQQ nice weekly candle",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658823939",
+      "author": "Maverickreincarnated",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T15:03:51Z",
+      "text": "$QQQ nice weekly candle",
+      "description": "",
+      "handle": "Maverickreincarnated",
+      "display_name": "The true Maverick!",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "75e9f10f152c19",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:02:48Z",
+      "title": "$AMD $MU $NVDA $RKLB $SNDK \nThe market is an efficient method of transferring wealth from the impatient to the patient.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658823908",
+      "author": "akroller",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:02:48Z",
+      "text": "$AMD $MU $NVDA $RKLB $SNDK \nThe market is an efficient method of transferring wealth from the impatient to the patient.",
+      "description": "",
+      "handle": "akroller",
+      "display_name": "Alan Kroller",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "71c648728cb371",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:02:48Z",
+      "title": "$AMD $MU $NVDA $RKLB $SNDK \nThe market is an efficient method of transferring wealth from the impatient to the patient.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658823908",
+      "author": "akroller",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:02:48Z",
+      "text": "$AMD $MU $NVDA $RKLB $SNDK \nThe market is an efficient method of transferring wealth from the impatient to the patient.",
+      "description": "",
+      "handle": "akroller",
+      "display_name": "Alan Kroller",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b8991f9cfa5105",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:02:29Z",
+      "title": "Economic Anomalies $OIL $MSFT https://talkmarkets.com/article/economic-anomalies-1783782088",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658823898",
+      "author": "TalkMarkets",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:02:29Z",
+      "text": "Economic Anomalies $OIL $MSFT https://talkmarkets.com/article/economic-anomalies-1783782088",
+      "description": "",
+      "handle": "TalkMarkets",
+      "display_name": "TalkMarkets",
+      "platform": "stocktwits"
+    },
     {
       "id": "2f7d1035b316c7",
       "source": "stocktwits",
@@ -185,6 +484,24 @@
       "handle": "GrowthCapitall",
       "display_name": "annette taylor",
       "platform": "stocktwits"
+    },
+    {
+      "id": "8c44064fd9af84",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 15:01:00 GMT",
+      "title": "\u2018An American tragedy\u2019 in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?",
+      "body": "\u201cIt\u2019s a loss to the economy, to jobs, to decades of institutional knowledge when a business simply turns off the lights\u201d",
+      "url": "https://www.marketwatch.com/story/half-of-small-business-owners-hope-to-sell-their-companies-and-retire-in-the-next-decade-what-happens-to-their-workers-a03ae979?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 15:01:00 GMT",
+      "text": "\u2018An American tragedy\u2019 in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?",
+      "description": "\u201cIt\u2019s a loss to the economy, to jobs, to decades of institutional knowledge when a business simply turns off the lights\u201d"
     },
     {
       "id": "cb7df8bf09162c",
@@ -279,6 +596,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "41c27c0e851202",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 15:00:01 GMT",
+      "title": "These underperforming trades could yield big returns over next six months",
+      "body": "ETF Action's Mike Akins is encouraging investors to boost exposure to groups that underperformed compared with major artificial intelligence stocks.",
+      "url": "https://www.cnbc.com/2026/07/11/mag-7-and-software-could-boost-portfolio-in-second-half-etf-action.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 15:00:01 GMT",
+      "text": "These underperforming trades could yield big returns over next six months",
+      "description": "ETF Action's Mike Akins is encouraging investors to boost exposure to groups that underperformed compared with major artificial intelligence stocks."
+    },
+    {
       "id": "c643f35182bf9b",
       "source": "marketwatch",
       "source_type": "rss",
@@ -295,52 +630,6 @@
       "time": "Sat, 11 Jul 2026 15:00:00 GMT",
       "text": "\u2018I\u2019ve plenty of time on my hands\u2019: Advisers bombard me with offers of free steak dinners. Is it wrong to go for the food?",
       "description": "\u201cI get hungry for a meal at a good restaurant.\u201d"
-    },
-    {
-      "id": "1b19b5cec5f69e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:57:24Z",
-      "title": "$SPY Crooks gap bear target 753 and bull target 756/757. Which side will Crooks force to fold first? \ud83d\ude02",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658823798",
-      "author": "The_KIng_Of_All_Clowns",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:57:24Z",
-      "text": "$SPY Crooks gap bear target 753 and bull target 756/757. Which side will Crooks force to fold first? \ud83d\ude02",
-      "description": "",
-      "handle": "The_KIng_Of_All_Clowns",
-      "display_name": "Tony",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4fc55b777db9c5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:57:20Z",
-      "title": "Nice breakdown on the Nasdaq 100 $QQQ $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658823797",
-      "author": "SonGoku",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:57:20Z",
-      "text": "Nice breakdown on the Nasdaq 100 $QQQ $SPY",
-      "description": "",
-      "handle": "SonGoku",
-      "display_name": "Goku",
-      "platform": "stocktwits"
     },
     {
       "id": "2dcdf20610f0c7",
@@ -527,75 +816,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c178c14a20a2b5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:54:17Z",
-      "title": "$QQQ $SPY \n\nWhile monitoring detailed market activity and flow over the past two weeks, I have reached what I believe is a conclusive results, we are entering the final stages of the \u201cwealth transfer\u201d I have been warning about.\n\nThe stock market is subject to 35%.correction. \nI am observing is a sig",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658823723",
-      "author": "Activetrader777",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:54:17Z",
-      "text": "$QQQ $SPY \n\nWhile monitoring detailed market activity and flow over the past two weeks, I have reached what I believe is a conclusive results, we are entering the final stages of the \u201cwealth transfer\u201d I have been warning about.\n\nThe stock market is subject to 35%.correction. \nI am observing is a sig",
-      "description": "",
-      "handle": "Activetrader777",
-      "display_name": "Activetrader777",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "edc983e7f59af8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:54:17Z",
-      "title": "$QQQ $SPY \n\nWhile monitoring detailed market activity and flow over the past two weeks, I have reached what I believe is a conclusive results, we are entering the final stages of the \u201cwealth transfer\u201d I have been warning about.\n\nThe stock market is subject to 35%.correction. \nI am observing is a sig",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658823723",
-      "author": "Activetrader777",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:54:17Z",
-      "text": "$QQQ $SPY \n\nWhile monitoring detailed market activity and flow over the past two weeks, I have reached what I believe is a conclusive results, we are entering the final stages of the \u201cwealth transfer\u201d I have been warning about.\n\nThe stock market is subject to 35%.correction. \nI am observing is a sig",
-      "description": "",
-      "handle": "Activetrader777",
-      "display_name": "Activetrader777",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "981bc9421882c7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:53:45Z",
-      "title": "$QQQ $SPY semis moving higher on Hyperliquid\n\nMonday gap higher",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658823711",
-      "author": "SelfMafia",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:53:45Z",
-      "text": "$QQQ $SPY semis moving higher on Hyperliquid\n\nMonday gap higher",
-      "description": "",
-      "handle": "SelfMafia",
-      "display_name": "Shay",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6f6383548c24ae",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -657,52 +877,6 @@
       "description": "",
       "handle": "whatevermyguy",
       "display_name": "Sanjay Jr",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "d622e9d1607633",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:51:57Z",
-      "title": "$NVDA curious if we can gap up a fly towards 220 on Monday, the Friday was full of strength, pure strength, buyers buying every dip. Curious if those calls 717.5, one of the more realistic and then 220 and 222.5 aka lottery tickets can do something spectacular. It was cheap so why not to try \ud83d\ude05",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658823660",
-      "author": "Sewille",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T14:51:57Z",
-      "text": "$NVDA curious if we can gap up a fly towards 220 on Monday, the Friday was full of strength, pure strength, buyers buying every dip. Curious if those calls 717.5, one of the more realistic and then 220 and 222.5 aka lottery tickets can do something spectacular. It was cheap so why not to try \ud83d\ude05",
-      "description": "",
-      "handle": "Sewille",
-      "display_name": "Michal Vasek",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "1feb9e68ca629e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:50:17Z",
-      "title": "The power of long-term investing: \n \nA $10K investment became $300K+ over 10 years. \n \nThese 3 ETFs represent some of the strongest themes I\u2019m watching for the next decade. \n \n$XLK - Technology Select Sector \n$10K \u2192 ~$67K \n20.9% annualized \n \nThe megacap-tech core.  \n$AAPL \n$MSFT \n$NVDA \n doing the ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658823607",
-      "author": "FibonacciTrader_",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:50:17Z",
-      "text": "The power of long-term investing: \n \nA $10K investment became $300K+ over 10 years. \n \nThese 3 ETFs represent some of the strongest themes I\u2019m watching for the next decade. \n \n$XLK - Technology Select Sector \n$10K \u2192 ~$67K \n20.9% annualized \n \nThe megacap-tech core.  \n$AAPL \n$MSFT \n$NVDA \n doing the ",
-      "description": "",
-      "handle": "FibonacciTrader_",
-      "display_name": "Donald Osullivan",
       "platform": "stocktwits"
     },
     {
@@ -956,29 +1130,6 @@
       "description": "",
       "handle": "Kingsoflending",
       "display_name": "Victor",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "dc842e60dd0d56",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:39:06Z",
-      "title": "$AMD $AVGO $NVDA \n\nThis plus OpenAI news will take down all semis next week\n\n$QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658823320",
-      "author": "BashNew",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:39:06Z",
-      "text": "$AMD $AVGO $NVDA \n\nThis plus OpenAI news will take down all semis next week\n\n$QQQ",
-      "description": "",
-      "handle": "BashNew",
-      "display_name": "BashNew",
       "platform": "stocktwits"
     },
     {
@@ -1242,29 +1393,6 @@
       "description": "\u201cI could have bought a home for what I hope will be a growing family.\u201d"
     },
     {
-      "id": "8d93eb09158dce",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:29:10Z",
-      "title": "$COSM Bullish signs $NVDA $TSLA \n\n* Possible bottom formation: The stock appears to have put in a low around $0.16 and has been making higher lows since then. That\u2019s often the first sign that selling pressure is easing.\n* Moving averages converging: The 25, 50, and 100 SMAs are all clustered around ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658823085",
-      "author": "Nobodycares777",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T14:29:10Z",
-      "text": "$COSM Bullish signs $NVDA $TSLA \n\n* Possible bottom formation: The stock appears to have put in a low around $0.16 and has been making higher lows since then. That\u2019s often the first sign that selling pressure is easing.\n* Moving averages converging: The 25, 50, and 100 SMAs are all clustered around ",
-      "description": "",
-      "handle": "Nobodycares777",
-      "display_name": "BULL4LIFE",
-      "platform": "stocktwits"
-    },
-    {
       "id": "024e24cd2e45a6",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1285,29 +1413,6 @@
       "description": "",
       "handle": "SmartMoneyRadar",
       "display_name": "Laurie Purser",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "29aaab647bf675",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:26:33Z",
-      "title": "$BTC.X \ud83d\udd3a no more bets only if you dare\ud83d\ude08.. just loads now \ud83d\udc07\u231b\nThe FiB \ud83d\udd3a \n$TSLA\n$SPY\n$AMC\n$DJT",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658823030",
-      "author": "johnrivers0110",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T14:26:33Z",
-      "text": "$BTC.X \ud83d\udd3a no more bets only if you dare\ud83d\ude08.. just loads now \ud83d\udc07\u231b\nThe FiB \ud83d\udd3a \n$TSLA\n$SPY\n$AMC\n$DJT",
-      "description": "",
-      "handle": "johnrivers0110",
-      "display_name": "John rivers",
       "platform": "stocktwits"
     },
     {
@@ -1530,29 +1635,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "a57cb74ac01a82",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:12:26Z",
-      "title": "$BTC.X $MSTR $SPY $STRC \nYou can buy a Sandisk 512 GB memory card for $119. For most that is a lot at home. \nHyperscalers spending $180B a YEAR on memory. \ud83d\ude33",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658822746",
-      "author": "jackfrost21",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:12:26Z",
-      "text": "$BTC.X $MSTR $SPY $STRC \nYou can buy a Sandisk 512 GB memory card for $119. For most that is a lot at home. \nHyperscalers spending $180B a YEAR on memory. \ud83d\ude33",
-      "description": "",
-      "handle": "jackfrost21",
-      "display_name": "Brice S",
-      "platform": "stocktwits"
-    },
-    {
       "id": "7105e7c8c4d12b",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1660,29 +1742,6 @@
       "description": "",
       "handle": "Blueville",
       "display_name": "The SPX Trader",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "cb48cb70527208",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T13:57:09Z",
-      "title": "$PLTR is the Ai of both $1 Trillion Market Cap LLM\u2019s Anthropic and Open Ai!!! \n \nhttps://media.stocktwits-cdn.com/api/3/media/12965646/default.webp",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658822442",
-      "author": "AshHydrogen",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T13:57:09Z",
-      "text": "$PLTR is the Ai of both $1 Trillion Market Cap LLM\u2019s Anthropic and Open Ai!!! \n \nhttps://media.stocktwits-cdn.com/api/3/media/12965646/default.webp",
-      "description": "",
-      "handle": "AshHydrogen",
-      "display_name": "Ashley Wolter",
       "platform": "stocktwits"
     },
     {
@@ -2289,29 +2348,6 @@
       "time": "2026-07-11T13:23:00Z",
       "text": "The S&P 500 Could Jump 18% Over the Next 1 Year. Here Are My Top Growth Stocks to Buy Before That Happens",
       "description": "FactSet predicts the S&P 500 could reach 8,920 within a year, representing an 18% increase from current levels. Tech stocks are expected to lead the rally, with semiconductor companies Micron Technology and Advanced Micro Devices benefiting from AI infrastructure investments, while software company "
-    },
-    {
-      "id": "bdcba7384beb12",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T13:22:28Z",
-      "title": "$PLTR is Ai  SOVEREIGNTY!!! \n$SPY $MSFT owned Open Ai stealing $AAPL s ALPHA!!! \n \nhttps://x.com/energyx/status/2075599979423449167?s=46",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658821749",
-      "author": "AshHydrogen",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T13:22:28Z",
-      "text": "$PLTR is Ai  SOVEREIGNTY!!! \n$SPY $MSFT owned Open Ai stealing $AAPL s ALPHA!!! \n \nhttps://x.com/energyx/status/2075599979423449167?s=46",
-      "description": "",
-      "handle": "AshHydrogen",
-      "display_name": "Ashley Wolter",
-      "platform": "stocktwits"
     },
     {
       "id": "cc3dc4e2449412",
@@ -3010,24 +3046,6 @@
       "description": "Vivani Medical is developing an implant of semaglutide, the active ingredient in Novo Nordisk's obesity injection Wegovy and diabetes counterpart Ozempic."
     },
     {
-      "id": "9b20bf11666f0d",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Sat, 11 Jul 2026 12:00:00 GMT",
-      "title": "Regular water is no longer enough. Welcome to the corporate gold rush around \u2018functional hydration.\u2019",
-      "body": "Social media and GLP-1s are spurring increased interest in hydration products, and companies are responding with things like electrolyte mixes and \u201chydrating hot chocolate.\u201d",
-      "url": "https://www.marketwatch.com/story/regular-water-is-no-longer-enough-welcome-to-the-corporate-gold-rush-around-functional-hydration-6c768bdd?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 11 Jul 2026 12:00:00 GMT",
-      "text": "Regular water is no longer enough. Welcome to the corporate gold rush around \u2018functional hydration.\u2019",
-      "description": "Social media and GLP-1s are spurring increased interest in hydration products, and companies are responding with things like electrolyte mixes and \u201chydrating hot chocolate.\u201d"
-    },
-    {
       "id": "f5a47b38e3bab9",
       "source": "reuters",
       "source_type": "rss",
@@ -3221,6 +3239,24 @@
       "time": "2026-07-11T11:05:00Z",
       "text": "Broadcom Just Gave Investors Another $30 Billion Reason to Buy the Stock",
       "description": "Broadcom received a $30 billion commitment from Apple for custom chips and wireless connectivity technologies, with the company investing $1.5 billion to expand its Fort Collins facility. This deal supports Broadcom's non-AI business recovery while its custom AI chip business remains the primary gro"
+    },
+    {
+      "id": "4104c4fb515bd1",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 11:03:34 -0400",
+      "title": "Insider trades: Palo Alto Networks, Taiwan Semiconductor, and Sony among major names",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4612995-insider-trades-palo-alto-networks-taiwan-semiconductor-sony-among-major-names?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 11:03:34 -0400",
+      "text": "Insider trades: Palo Alto Networks, Taiwan Semiconductor, and Sony among major names",
+      "description": ""
     },
     {
       "id": "cb03184372b607",
@@ -3519,24 +3555,6 @@
       ]
     },
     {
-      "id": "5e5723ffd2cb63",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sat, 11 Jul 2026 08:33:49 -0400",
-      "title": "MGM is reportedly in deal talks with Barry Diller\u2019s People",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4613043-mgm-deal-talks-barry-dillers-people?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 11 Jul 2026 08:33:49 -0400",
-      "text": "MGM is reportedly in deal talks with Barry Diller\u2019s People",
-      "description": ""
-    },
-    {
       "id": "042e219bb057b3",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3751,24 +3769,6 @@
       "handle": "RawDataRex",
       "display_name": "Taylor Bernard MD",
       "platform": "stocktwits"
-    },
-    {
-      "id": "526a2da8e0f788",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Sat, 11 Jul 2026 05:00:01 GMT",
-      "title": "AstraZeneca's trial flop raises a bigger question: Is its pipeline premium becoming more vulnerable?",
-      "body": "For years, AstraZeneca has commanded one of the richest valuations among large European pharma companies on the assumption that it consistently delivers results.",
-      "url": "https://www.cnbc.com/2026/07/11/astrazenecas-trial-pipeline-pharma-valutaion-stock.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 11 Jul 2026 05:00:01 GMT",
-      "text": "AstraZeneca's trial flop raises a bigger question: Is its pipeline premium becoming more vulnerable?",
-      "description": "For years, AstraZeneca has commanded one of the richest valuations among large European pharma companies on the assumption that it consistently delivers results."
     },
     {
       "id": "25a11045598471",
