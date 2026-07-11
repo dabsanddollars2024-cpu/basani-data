@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T04:07:06Z",
-  "generated_display": "2026-07-11 04:07 ET",
+  "generated": "2026-07-11T04:12:07Z",
+  "generated_display": "2026-07-11 04:12 ET",
   "count": 185,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T04:07:01.875370+00:00",
+      "last_error_ts": "2026-07-11T04:12:01.773090+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 15,
-      "latency_ms": 203,
-      "last_success": "2026-07-11T04:07:02.080597+00:00",
+      "latency_ms": 104,
+      "last_success": "2026-07-11T04:12:01.879648+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 94,
-      "last_success": "2026-07-11T04:07:02.176031+00:00",
+      "latency_ms": 93,
+      "last_success": "2026-07-11T04:12:01.974058+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 22,
-      "latency_ms": 99,
-      "last_success": "2026-07-11T04:07:02.276535+00:00",
+      "latency_ms": 114,
+      "last_success": "2026-07-11T04:12:02.089712+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T04:07:02.308533+00:00",
+      "last_error_ts": "2026-07-11T04:12:02.190366+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1799,
-      "last_success": "2026-07-11T04:07:04.108476+00:00",
+      "latency_ms": 2183,
+      "last_success": "2026-07-11T04:12:04.374153+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T04:07:04.766236+00:00",
+      "last_success": "2026-07-11T04:12:05.173154+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1908,
-      "last_success": "2026-07-11T04:07:06.675068+00:00",
+      "latency_ms": 1999,
+      "last_success": "2026-07-11T04:12:07.172831+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,113 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 177
+          "latency_ms": 123
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 106
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 42
+          "latency_ms": 91
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 264
+          "latency_ms": 280
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 17
+          "latency_ms": 96
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 67
+          "latency_ms": 99
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "cnbc": 8,
     "reuters": 16,
     "uw_news": 25,
     "massive_news": 22,
     "zerohedge": 8,
-    "cnbc": 8,
     "marketwatch": 8,
     "seekingalpha": 7,
     "benzinga": 15,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "97eda08dec40f0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T04:10:20Z",
+      "title": "$QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658816571",
+      "author": "Danny280zx",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T04:10:20Z",
+      "text": "$QQQ",
+      "description": "",
+      "handle": "Danny280zx",
+      "display_name": "Daniel Jones",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "25a11045598471",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 04:09:20 GMT",
+      "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+      "body": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system.",
+      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 04:09:20 GMT",
+      "text": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+      "description": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system."
+    },
+    {
+      "id": "3b641636d7699b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T04:08:08Z",
+      "title": "$SPY all talk, no bite. On a side note, wtf is this writing style? It feels like I\u2019m reading something a child wrote \ud83d\ude39",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658816537",
+      "author": "Libra1",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T04:08:08Z",
+      "text": "$SPY all talk, no bite. On a side note, wtf is this writing style? It feels like I\u2019m reading something a child wrote \ud83d\ude39",
+      "description": "",
+      "handle": "Libra1",
+      "display_name": "Libra1",
+      "platform": "stocktwits"
+    },
     {
       "id": "add9def6bc52bb",
       "source": "stocktwits",
@@ -299,29 +363,6 @@
       "description": "",
       "handle": "Nucklehead914",
       "display_name": "Nucklehead914",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "8a2f5f16f4e880",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T04:00:40Z",
-      "title": "$SPY trump doesn&#39;t have the ballz they should give us the red button we are dumb enough to push it he just talked ..",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658816443",
-      "author": "givemedemiorpuppet",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T04:00:40Z",
-      "text": "$SPY trump doesn&#39;t have the ballz they should give us the red button we are dumb enough to push it he just talked ..",
-      "description": "",
-      "handle": "givemedemiorpuppet",
-      "display_name": "demi Lovato",
       "platform": "stocktwits"
     },
     {
@@ -987,29 +1028,6 @@
       "description": "",
       "handle": "Ep1219",
       "display_name": "Ep1219",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "86c54e895b5c34",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T03:21:31Z",
-      "title": "$QQQ Classic he waited until market close to post just insane shit as usual.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658815969",
-      "author": "Boardroommaster",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T03:21:31Z",
-      "text": "$QQQ Classic he waited until market close to post just insane shit as usual.",
-      "description": "",
-      "handle": "Boardroommaster",
-      "display_name": "Boardroommaster",
       "platform": "stocktwits"
     },
     {
@@ -2251,24 +2269,6 @@
       "time": "Sat, 11 Jul 2026 00:15:00 +0000",
       "text": "China Shuts The Helium Valve As Qatar Outage Deepens Global Supply Squeeze",
       "description": "China Shuts The Helium Valve As Qatar Outage Deepens Global Supply Squeeze\n\n            China has abruptly banned helium exports, a key component in semiconductors, which adds yet another serious constraint to a global market already reeling from the loss of production in Qatar.\n\n\n\nIn a two-sentence"
-    },
-    {
-      "id": "25a11045598471",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Sat, 11 Jul 2026 00:08:23 GMT",
-      "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-      "body": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system.",
-      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 11 Jul 2026 00:08:23 GMT",
-      "text": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-      "description": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system."
     },
     {
       "id": "6a761304234642",
@@ -3943,60 +3943,6 @@
       "description": ""
     },
     {
-      "id": "3591a99c1e8c6b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09T22:18:13Z",
-      "title": "Soybeans Correct Lower on Thursday Ahead of Friday USDA Reports",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-correct-lower-thursday-ahead-221813177.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T22:18:13Z",
-      "text": "Soybeans Correct Lower on Thursday Ahead of Friday USDA Reports",
-      "description": ""
-    },
-    {
-      "id": "834bbe16fafe90",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09T22:18:13Z",
-      "title": "Corn Fades Lower on Thursday",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-fades-lower-thursday-221813178.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T22:18:13Z",
-      "text": "Corn Fades Lower on Thursday",
-      "description": ""
-    },
-    {
-      "id": "b2b458fb220b70",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09T21:38:44Z",
-      "title": "Exclusive-Software firm CCC exploring sale, sources say",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/exclusive-software-firm-ccc-explores-213844618.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T21:38:44Z",
-      "text": "Exclusive-Software firm CCC exploring sale, sources say",
-      "description": ""
-    },
-    {
       "id": "15c53a9a454601",
       "source": "reuters",
       "source_type": "rss",
@@ -4033,6 +3979,60 @@
       "description": ""
     },
     {
+      "id": "26341f1e6364dd",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09T21:07:45Z",
+      "title": "Fed's Logan says Fed open market operations would benefit from voluntary central clearing",
+      "body": "",
+      "url": "https://finance.yahoo.com/news/feds-logan-says-fed-open-173215495.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T21:07:45Z",
+      "text": "Fed's Logan says Fed open market operations would benefit from voluntary central clearing",
+      "description": ""
+    },
+    {
+      "id": "824e9af187bb97",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09T21:04:58Z",
+      "title": "Stocks climb, oil slides as tech hopes outlast Middle East worries",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-climb-chip-rally-014926610.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T21:04:58Z",
+      "text": "Stocks climb, oil slides as tech hopes outlast Middle East worries",
+      "description": ""
+    },
+    {
+      "id": "7304c8919c3a78",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09T21:00:03Z",
+      "title": "Semiconductor ETFs Roar Back: SOXX Pulls In $5.4 Billion in a Single Day",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/options/articles/daily-etf-flows-soxx-inflows-210003704.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T21:00:03Z",
+      "text": "Semiconductor ETFs Roar Back: SOXX Pulls In $5.4 Billion in a Single Day",
+      "description": ""
+    },
+    {
       "id": "7aa20ca4568b7d",
       "source": "forex_factory",
       "source_type": "calendar",
@@ -4057,21 +4057,21 @@
       "week": "this"
     },
     {
-      "id": "0d1733aa50f4d8",
+      "id": "20013b3fe4e786",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2025-12-02T19:17:22Z",
-      "title": "Want to refinance your house before the end of 2026? What you need to know.",
+      "timestamp": "2024-08-01T16:07:22Z",
+      "title": "Are high-yield checking accounts worth it?",
       "body": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/want-to-refinance-your-mortgage-in-2026-191722274.html",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/are-high-yield-checking-accounts-worth-it-160722121.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2025-12-02T19:17:22Z",
-      "text": "Want to refinance your house before the end of 2026? What you need to know.",
+      "time": "2024-08-01T16:07:22Z",
+      "text": "Are high-yield checking accounts worth it?",
       "description": ""
     }
   ]
