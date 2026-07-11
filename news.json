@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T06:07:07Z",
-  "generated_display": "2026-07-11 06:07 ET",
+  "generated": "2026-07-11T06:12:07Z",
+  "generated_display": "2026-07-11 06:12 ET",
   "count": 166,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T06:07:02.383968+00:00",
+      "last_error_ts": "2026-07-11T06:12:02.084909+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 134,
-      "last_success": "2026-07-11T06:07:02.519157+00:00",
+      "latency_ms": 199,
+      "last_success": "2026-07-11T06:12:02.285206+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 164,
-      "last_success": "2026-07-11T06:07:02.684879+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-11T06:12:02.385790+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 17,
-      "latency_ms": 99,
-      "last_success": "2026-07-11T06:07:02.785857+00:00",
+      "latency_ms": 30,
+      "last_success": "2026-07-11T06:12:02.417278+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T06:07:02.815434+00:00",
+      "last_error_ts": "2026-07-11T06:12:02.513773+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1969,
-      "last_success": "2026-07-11T06:07:04.785077+00:00",
+      "latency_ms": 2271,
+      "last_success": "2026-07-11T06:12:04.785797+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,7 +55,7 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T06:07:05.584186+00:00",
+      "last_success": "2026-07-11T06:12:05.685404+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -63,7 +63,7 @@
       "status": "healthy",
       "items_pulled": 11,
       "latency_ms": 1999,
-      "last_success": "2026-07-11T06:07:07.583874+00:00",
+      "last_success": "2026-07-11T06:12:07.684840+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,12 +74,12 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 212
+          "latency_ms": 125
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 187
+          "latency_ms": 175
         },
         "yahoo_finance": {
           "status": "healthy",
@@ -89,17 +89,17 @@
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 205
+          "latency_ms": 334
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 11
+          "latency_ms": 72
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 82
+          "latency_ms": 93
         }
       }
     }
@@ -117,6 +117,29 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "5bfc3efe21e62f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T06:07:29Z",
+      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658817862",
+      "author": "chamono1942",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T06:07:29Z",
+      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY",
+      "description": "",
+      "handle": "chamono1942",
+      "display_name": "\uc774\ucca0\uc131",
+      "platform": "stocktwits"
+    },
     {
       "id": "25c93c49866120",
       "source": "stocktwits",
@@ -590,29 +613,6 @@
       "description": "",
       "handle": "Evil_Jim_Cramer",
       "display_name": "Mr. Mad Money",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "7bf7a030761b30",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T05:14:22Z",
-      "title": "$QQQ $SPY $NVDA $AAPL  \n \nlmao Apple just does its own thing.  \n \n\ud83e\udd23",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658817419",
-      "author": "BiHiCellLo",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T05:14:22Z",
-      "text": "$QQQ $SPY $NVDA $AAPL  \n \nlmao Apple just does its own thing.  \n \n\ud83e\udd23",
-      "description": "",
-      "handle": "BiHiCellLo",
-      "display_name": "Richard David Evilwitz",
       "platform": "stocktwits"
     },
     {
@@ -3438,20 +3438,20 @@
       "description": ""
     },
     {
-      "id": "2bf8f9d10f603f",
+      "id": "22f2c4c30a644b",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-09T23:06:40Z",
+      "timestamp": "2026-07-09T23:16:30Z",
       "title": "Geopolitical shifts drive sovereign funds towards national priorities, study finds",
       "body": "",
-      "url": "https://finance.yahoo.com/economy/policy/articles/geopolitical-shifts-drive-sovereign-funds-230640419.html",
+      "url": "https://finance.yahoo.com/economy/policy/articles/geopolitical-shifts-drive-sovereign-funds-230640046.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 9.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-09T23:06:40Z",
+      "time": "2026-07-09T23:16:30Z",
       "text": "Geopolitical shifts drive sovereign funds towards national priorities, study finds",
       "description": ""
     },
@@ -3474,6 +3474,24 @@
       "description": ""
     },
     {
+      "id": "b4cb42ad169673",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09T22:23:21Z",
+      "title": "From Blastoff To \u2026 Boring? Why SpaceX Stock Could Lead Aerospace Industry Pivot",
+      "body": "",
+      "url": "https://www.investors.com/news/why-spacex-stock-could-pivot-aerospace-industry-to-telecoms/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T22:23:21Z",
+      "text": "From Blastoff To \u2026 Boring? Why SpaceX Stock Could Lead Aerospace Industry Pivot",
+      "description": ""
+    },
+    {
       "id": "6cc52271cd1ac6",
       "source": "reuters",
       "source_type": "rss",
@@ -3492,24 +3510,6 @@
       "description": ""
     },
     {
-      "id": "3591a99c1e8c6b",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09T22:18:13Z",
-      "title": "Soybeans Correct Lower on Thursday Ahead of Friday USDA Reports",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-correct-lower-thursday-ahead-221813177.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T22:18:13Z",
-      "text": "Soybeans Correct Lower on Thursday Ahead of Friday USDA Reports",
-      "description": ""
-    },
-    {
       "id": "834bbe16fafe90",
       "source": "reuters",
       "source_type": "rss",
@@ -3525,6 +3525,24 @@
       "sentiment": "neutral",
       "time": "2026-07-09T22:18:13Z",
       "text": "Corn Fades Lower on Thursday",
+      "description": ""
+    },
+    {
+      "id": "3591a99c1e8c6b",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09T22:18:13Z",
+      "title": "Soybeans Correct Lower on Thursday Ahead of Friday USDA Reports",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/soybeans-correct-lower-thursday-ahead-221813177.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T22:18:13Z",
+      "text": "Soybeans Correct Lower on Thursday Ahead of Friday USDA Reports",
       "description": ""
     },
     {
@@ -3567,24 +3585,6 @@
       "sentiment": "neutral",
       "time": "2025-12-02T19:17:22Z",
       "text": "Want to refinance your house before the end of 2026? What you need to know.",
-      "description": ""
-    },
-    {
-      "id": "ce9a6a0c8b0a80",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2024-11-20T19:34:30Z",
-      "title": "Do 7% interest savings accounts exist anymore?",
-      "body": "",
-      "url": "https://finance.yahoo.com/personal-finance/banking/article/7-interest-savings-accounts-193430565.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2024-11-20T19:34:30Z",
-      "text": "Do 7% interest savings accounts exist anymore?",
       "description": ""
     }
   ]
