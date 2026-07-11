@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T09:22:07Z",
-  "generated_display": "2026-07-11 09:22 ET",
+  "generated": "2026-07-11T09:27:07Z",
+  "generated_display": "2026-07-11 09:27 ET",
   "count": 163,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T09:22:02.171993+00:00",
+      "last_error_ts": "2026-07-11T09:27:02.377967+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 2,
-      "latency_ms": 140,
-      "last_success": "2026-07-11T09:22:02.371542+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-11T09:27:02.478772+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 69,
-      "last_success": "2026-07-11T09:22:02.471751+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-11T09:27:02.578885+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 13,
-      "latency_ms": 33,
-      "last_success": "2026-07-11T09:22:02.506024+00:00",
+      "latency_ms": 103,
+      "last_success": "2026-07-11T09:27:02.683439+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T09:22:02.601239+00:00",
+      "last_error_ts": "2026-07-11T09:27:02.787339+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1971,
-      "last_success": "2026-07-11T09:22:04.572378+00:00",
+      "latency_ms": 1690,
+      "last_success": "2026-07-11T09:27:04.477466+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T09:22:05.472792+00:00",
+      "last_success": "2026-07-11T09:27:05.377525+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1872,
-      "last_success": "2026-07-11T09:22:07.345368+00:00",
+      "latency_ms": 1736,
+      "last_success": "2026-07-11T09:27:07.114456+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,40 +74,40 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 110
+          "latency_ms": 134
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 92
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 44
+          "latency_ms": 101
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 455
+          "latency_ms": 391
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 16
+          "latency_ms": 10
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 183
+          "latency_ms": 170
         }
       }
     }
   },
   "by_source": {
+    "uw_news": 25,
     "stocktwits": 75,
     "reuters": 16,
-    "uw_news": 25,
     "massive_news": 13,
     "cnbc": 8,
     "benzinga": 2,
@@ -117,6 +117,26 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "db0c599d36de45",
+      "source": "uw_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-11T09:22:08Z",
+      "title": "IMF paper suggests dollar stablecoins could aid FX access, while potentially fueling currency runs during crises.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "IMF"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T09:22:08Z",
+      "text": "IMF paper suggests dollar stablecoins could aid FX access, while potentially fueling currency runs during crises.",
+      "description": ""
+    },
     {
       "id": "1609b8c5885166",
       "source": "stocktwits",
@@ -1317,24 +1337,6 @@
       "sentiment": "neutral",
       "time": "2026-07-11T07:56:53Z",
       "text": "ETH might face resistance at $1,835 with $1,690 as the probable next target. Traders are 63% long on ETH.",
-      "description": ""
-    },
-    {
-      "id": "db5ceb8c3a4b59",
-      "source": "uw_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-11T07:56:50Z",
-      "title": "BNB may reach $600, but must exceed $583. Currently at $576 with 77% net long. Possibility of hitting $601 or dropping to $566 in 48 hours.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T07:56:50Z",
-      "text": "BNB may reach $600, but must exceed $583. Currently at $576 with 77% net long. Possibility of hitting $601 or dropping to $566 in 48 hours.",
       "description": ""
     },
     {
@@ -3414,77 +3416,59 @@
       "description": "These 10 U.S. states are the most expensive places to live in America in 2026, with inflation punishing residents to an extreme degree."
     },
     {
-      "id": "8c169a141d01c2",
+      "id": "5fff27fe31bbcb",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-10T06:58:26Z",
-      "title": "Is Digital Realty (DLR) One of the Best Data Center Stocks to Buy in July?",
+      "timestamp": "2026-07-10T06:58:22Z",
+      "title": "What Makes Equinix (EQIX) One of the Best Data Center Stocks to Buy in July",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/digital-realty-dlr-one-best-065826053.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-equinix-eqix-one-best-065822240.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-10T06:58:26Z",
-      "text": "Is Digital Realty (DLR) One of the Best Data Center Stocks to Buy in July?",
+      "time": "2026-07-10T06:58:22Z",
+      "text": "What Makes Equinix (EQIX) One of the Best Data Center Stocks to Buy in July",
       "description": ""
     },
     {
-      "id": "0b21da3b06e35a",
+      "id": "8e2cde1eaa2a69",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-10T06:58:23Z",
-      "title": "Wolfe Research Maintains Outperform rating on CoreWeave (CRWV)",
+      "timestamp": "2026-07-10T06:58:18Z",
+      "title": "Bernstein Reiterates Buy Rating on Vertiv (VRT)",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wolfe-research-maintains-outperform-rating-065823429.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T06:58:23Z",
-      "text": "Wolfe Research Maintains Outperform rating on CoreWeave (CRWV)",
-      "description": ""
-    },
-    {
-      "id": "b8a12f16f03764",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10T06:58:20Z",
-      "title": "Why Did Eaton (ETN) Spend $2.1 Billion in R&D Investments?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-did-eaton-etn-spend-065820038.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/bernstein-reiterates-buy-rating-vertiv-065818415.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-10T06:58:20Z",
-      "text": "Why Did Eaton (ETN) Spend $2.1 Billion in R&D Investments?",
+      "time": "2026-07-10T06:58:18Z",
+      "text": "Bernstein Reiterates Buy Rating on Vertiv (VRT)",
       "description": ""
     },
     {
-      "id": "043f26c5e2b0ec",
+      "id": "fdcabea76eb5ae",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-10T06:58:14Z",
-      "title": "Apple Announces $30 billion Multi-year Chip Deal With Broadcom (AVGO)",
+      "timestamp": "2026-07-10T06:58:17Z",
+      "title": "Goldman Sachs Increases Advanced Micro Devices (AMD) Price Target to $640 from $450",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/articles/apple-announces-30-billion-multi-065814718.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-increases-advanced-micro-065817979.html",
       "author": "",
       "tickers": [
-        "AVGO"
+        "AMD"
       ],
       "tags": [],
       "impact_score": 7.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-10T06:58:14Z",
-      "text": "Apple Announces $30 billion Multi-year Chip Deal With Broadcom (AVGO)",
+      "time": "2026-07-10T06:58:17Z",
+      "text": "Goldman Sachs Increases Advanced Micro Devices (AMD) Price Target to $640 from $450",
       "description": ""
     },
     {
@@ -3523,6 +3507,24 @@
       "sentiment": "neutral",
       "time": "2026-07-10T06:17:31Z",
       "text": "SK Hynix set for marquee US debut in test for AI appetite",
+      "description": ""
+    },
+    {
+      "id": "8bcc16ba31b49c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10T05:02:48Z",
+      "title": "Special delivery: Italy's postman joins the AI infrastructure race",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/articles/special-delivery-italys-postman-joins-050248225.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T05:02:48Z",
+      "text": "Special delivery: Italy's postman joins the AI infrastructure race",
       "description": ""
     },
     {
