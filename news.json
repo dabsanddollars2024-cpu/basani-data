@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T13:12:07Z",
-  "generated_display": "2026-07-11 13:12 ET",
+  "generated": "2026-07-11T13:17:06Z",
+  "generated_display": "2026-07-11 13:17 ET",
   "count": 178,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T13:12:02.303223+00:00",
+      "last_error_ts": "2026-07-11T13:17:01.511076+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 133,
-      "last_success": "2026-07-11T13:12:02.470364+00:00",
+      "latency_ms": 161,
+      "last_success": "2026-07-11T13:17:01.673165+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 70,
-      "last_success": "2026-07-11T13:12:02.570594+00:00",
+      "latency_ms": 97,
+      "last_success": "2026-07-11T13:17:01.771370+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 26,
-      "latency_ms": 34,
-      "last_success": "2026-07-11T13:12:02.671452+00:00",
+      "latency_ms": 32,
+      "last_success": "2026-07-11T13:17:01.871936+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T13:12:02.777244+00:00",
+      "last_error_ts": "2026-07-11T13:17:01.903405+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1693,
-      "last_success": "2026-07-11T13:12:04.470826+00:00",
+      "latency_ms": 2068,
+      "last_success": "2026-07-11T13:17:03.971569+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T13:12:05.353407+00:00",
+      "last_success": "2026-07-11T13:17:04.871028+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1871,
-      "last_success": "2026-07-11T13:12:07.242335+00:00",
+      "latency_ms": 1999,
+      "last_success": "2026-07-11T13:17:06.870573+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,159 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 138
+          "latency_ms": 111
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 88
+          "latency_ms": 189
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 104
+          "latency_ms": 35
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 390
+          "latency_ms": 393
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 82
+          "latency_ms": 73
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 77
+          "latency_ms": 96
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "marketwatch": 8,
     "cnbc": 8,
     "uw_news": 25,
     "reuters": 16,
     "massive_news": 26,
     "zerohedge": 8,
-    "marketwatch": 8,
     "benzinga": 4,
     "seekingalpha": 7,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "5963be6bf4f592",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T13:15:23Z",
+      "title": "$MSTR according to their site dashboard. mNAV &amp; Sharpe ratio is still ove 1. \ud83d\ude05",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658821652",
+      "author": "Mr_Burns",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T13:15:23Z",
+      "text": "$MSTR according to their site dashboard. mNAV &amp; Sharpe ratio is still ove 1. \ud83d\ude05",
+      "description": "",
+      "handle": "Mr_Burns",
+      "display_name": "Charles Montgomery Burns",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "98420f49eca612",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 13:15:00 GMT",
+      "title": "\u2018I get $1,460 in Social Security\u2019: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "body": "\u201cI have very little money, while my ex\u2019s financial statements show assets in the millions.\u201d",
+      "url": "https://www.marketwatch.com/story/i-get-1-460-in-social-security-my-millionaire-ex-husband-74-refuses-to-pay-alimony-what-can-i-do-c5e60824?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 13:15:00 GMT",
+      "text": "\u2018I get $1,460 in Social Security\u2019: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
+      "description": "\u201cI have very little money, while my ex\u2019s financial statements show assets in the millions.\u201d"
+    },
+    {
+      "id": "ce44d87bc08269",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T13:14:44Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658821630",
+      "author": "Meatballtrades",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T13:14:44Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "Meatballtrades",
+      "display_name": "Meatball 23",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ab39edea67ef95",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T13:14:44Z",
+      "title": "$AMD is quietly becoming one of the biggest AI infrastructure stories in the market. \n \nData Center now represents 56% of AMD\u2019s revenue, and Lisa Su expects AI Data Center growth to compound around 80% annually. The market is starting to realize this isn\u2019t just a chip cycle anymore, it\u2019s a long-term",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658821631",
+      "author": "AIWealthCircle",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T13:14:44Z",
+      "text": "$AMD is quietly becoming one of the biggest AI infrastructure stories in the market. \n \nData Center now represents 56% of AMD\u2019s revenue, and Lisa Su expects AI Data Center growth to compound around 80% annually. The market is starting to realize this isn\u2019t just a chip cycle anymore, it\u2019s a long-term",
+      "description": "",
+      "handle": "AIWealthCircle",
+      "display_name": "Kevin Lawson",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f7d97db7e93168",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T13:14:35Z",
+      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \n[This is data from the Iranian side!] \n \nBREAKING: \n \nThe moment the US aircraft carrier &#39;Abraham Lincoln&#39; was attacked. \n \nAccording to reports, Iran has launched a massive attack on the US aircraft carrier &#39;Abraham Lincoln&#39;, completely destroying it.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658821625",
+      "author": "chamono1942",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T13:14:35Z",
+      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \n[This is data from the Iranian side!] \n \nBREAKING: \n \nThe moment the US aircraft carrier &#39;Abraham Lincoln&#39; was attacked. \n \nAccording to reports, Iran has launched a massive attack on the US aircraft carrier &#39;Abraham Lincoln&#39;, completely destroying it.",
+      "description": "",
+      "handle": "chamono1942",
+      "display_name": "\uc774\ucca0\uc131",
+      "platform": "stocktwits"
+    },
     {
       "id": "9fd06dddf6f5f4",
       "source": "stocktwits",
@@ -455,45 +565,22 @@
       "description": ""
     },
     {
-      "id": "1b00677b998b4d",
+      "id": "69c96e155c252c",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-11T13:02:04Z",
-      "title": "Solstice Advanced Mat Bets on AI Demand With $14.5B Element Solutions Deal",
+      "timestamp": "2026-07-11T13:03:00Z",
+      "title": "Luxury retailer exits beauty business and ends major partnership",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/solstice-advanced-mat-bets-ai-130204385.html",
+      "url": "https://finance.yahoo.com/media-advertising/articles/luxury-retailer-exits-beauty-business-130300000.html",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 7.0,
+      "impact_score": 7.8,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-11T13:02:04Z",
-      "text": "Solstice Advanced Mat Bets on AI Demand With $14.5B Element Solutions Deal",
+      "time": "2026-07-11T13:03:00Z",
+      "text": "Luxury retailer exits beauty business and ends major partnership",
       "description": ""
-    },
-    {
-      "id": "eaf2ed0cfc7a8c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T13:01:39Z",
-      "title": "$USO $VG  $SPY cease  fire  off, talks  on, or  off,   while  attacking  To make  Kharg Island  the new  Trump  Casino  island  and  golf resort  community.  I  still  it\u2019s a  delay  tactic  until  they  can  blow  up America  and  Israel  at  the  same  time  with  2  big  bombs.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658821419",
-      "author": "Loudermilk64",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T13:01:39Z",
-      "text": "$USO $VG  $SPY cease  fire  off, talks  on, or  off,   while  attacking  To make  Kharg Island  the new  Trump  Casino  island  and  golf resort  community.  I  still  it\u2019s a  delay  tactic  until  they  can  blow  up America  and  Israel  at  the  same  time  with  2  big  bombs.",
-      "description": "",
-      "handle": "Loudermilk64",
-      "display_name": "Mugsy Bennigan",
-      "platform": "stocktwits"
     },
     {
       "id": "fcdcb6facf5584",
@@ -534,29 +621,6 @@
       "description": "",
       "handle": "Cpstrag",
       "display_name": "Christina Pstrag",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "69109a882c02c1",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:59:05Z",
-      "title": "$SPY $QQQ Regular Monday pattern on schedule\n\nPamp it",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658821387",
-      "author": "SelfMafia",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T12:59:05Z",
-      "text": "$SPY $QQQ Regular Monday pattern on schedule\n\nPamp it",
-      "description": "",
-      "handle": "SelfMafia",
-      "display_name": "Shay",
       "platform": "stocktwits"
     },
     {
@@ -1153,29 +1217,6 @@
       "sentiment": "neutral",
       "time": "2026-07-11T12:43:45Z",
       "text": "$BTC.X $MSTR $ETH.X $XRP.X \nPoor showing here you kids should be ashamed of yourselves",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "643c13eae4449f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:40:30Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658821103",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T12:40:30Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X",
       "description": "",
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
@@ -1856,29 +1897,6 @@
       "time": "2026-07-11 11:57:59",
       "text": "Jefferies flags buying opportunities as Iran conflict reshapes European energy",
       "description": ""
-    },
-    {
-      "id": "10da228bacfcb7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T11:53:58Z",
-      "title": "$AMD",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658820393",
-      "author": "Iamwillwexler",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T11:53:58Z",
-      "text": "$AMD",
-      "description": "",
-      "handle": "Iamwillwexler",
-      "display_name": "William Wexler",
-      "platform": "stocktwits"
     },
     {
       "id": "5048de16c04620",
@@ -3753,24 +3771,6 @@
       "time": "Fri, 10 Jul 2026 22:24:00 GMT",
       "text": "Meta\u2019s stock roars back to life as it notches its best week in years",
       "description": "Investors are bullish on Meta\u2019s new low-cost AI pricing and infrastructure plans."
-    },
-    {
-      "id": "2eeccc0d80e77e",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 22:18:00 GMT",
-      "title": "SK Hynix\u2019s stock sees double-digit pop in Nasdaq debut",
-      "body": "The South Korean memory-chip company\u2019s new American depositary receipts began trading on Friday and logged gains of nearly 13%.",
-      "url": "https://www.marketwatch.com/story/sk-hynixs-stock-looks-primed-for-a-pop-in-its-nasdaq-debut-38054370?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 22:18:00 GMT",
-      "text": "SK Hynix\u2019s stock sees double-digit pop in Nasdaq debut",
-      "description": "The South Korean memory-chip company\u2019s new American depositary receipts began trading on Friday and logged gains of nearly 13%."
     },
     {
       "id": "9e4300aaf8a2b1",
