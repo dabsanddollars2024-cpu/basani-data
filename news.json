@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-11T05:57:06Z",
-  "generated_display": "2026-07-11 05:57 ET",
-  "count": 180,
+  "generated": "2026-07-11T06:02:07Z",
+  "generated_display": "2026-07-11 06:02 ET",
+  "count": 166,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T05:57:01.781686+00:00",
+      "last_error_ts": "2026-07-11T06:02:02.516221+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
-      "items_pulled": 16,
-      "latency_ms": 110,
-      "last_success": "2026-07-11T05:57:01.894243+00:00",
+      "items_pulled": 1,
+      "latency_ms": 166,
+      "last_success": "2026-07-11T06:02:02.683168+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 55,
-      "last_success": "2026-07-11T05:57:01.950562+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-11T06:02:02.783996+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 16,
-      "latency_ms": 60,
-      "last_success": "2026-07-11T05:57:02.012060+00:00",
+      "items_pulled": 17,
+      "latency_ms": 125,
+      "last_success": "2026-07-11T06:02:02.910432+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T05:57:02.108734+00:00",
+      "last_error_ts": "2026-07-11T06:02:03.018517+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2272,
-      "last_success": "2026-07-11T05:57:04.381662+00:00",
+      "latency_ms": 1980,
+      "last_success": "2026-07-11T06:02:04.999050+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T05:57:05.081528+00:00",
+      "last_success": "2026-07-11T06:02:05.883031+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1699,
-      "last_success": "2026-07-11T05:57:06.781272+00:00",
+      "latency_ms": 1899,
+      "last_success": "2026-07-11T06:02:07.782668+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,22 +74,22 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 205
+          "latency_ms": 194
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 94
+          "latency_ms": 118
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 39
+          "latency_ms": 96
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 263
+          "latency_ms": 278
         },
         "seekingalpha": {
           "status": "healthy",
@@ -99,7 +99,7 @@
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 80
+          "latency_ms": 181
         }
       }
     }
@@ -107,16 +107,62 @@
   "by_source": {
     "stocktwits": 75,
     "uw_news": 25,
+    "massive_news": 17,
     "reuters": 16,
     "cnbc": 8,
-    "massive_news": 16,
     "zerohedge": 8,
-    "benzinga": 16,
+    "benzinga": 1,
     "marketwatch": 8,
     "seekingalpha": 7,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "59008fee153462",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T06:01:23Z",
+      "title": "$AMZN Retail dominance is stable, but AWS is the growth engine. The AI cloud wars are just beginning, and they have the compute scale.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMZN/message/658817816",
+      "author": "RawDataRex",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T06:01:23Z",
+      "text": "$AMZN Retail dominance is stable, but AWS is the growth engine. The AI cloud wars are just beginning, and they have the compute scale.",
+      "description": "",
+      "handle": "RawDataRex",
+      "display_name": "Taylor Bernard MD",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "254bd6938447fa",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T06:00:19Z",
+      "title": "$TSLA FSD is the main story now, not just car sales. If the Robotaxi timeline holds, the valuation argument changes completely.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658817808",
+      "author": "MetaDataM",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T06:00:19Z",
+      "text": "$TSLA FSD is the main story now, not just car sales. If the Robotaxi timeline holds, the valuation argument changes completely.",
+      "description": "",
+      "handle": "MetaDataM",
+      "display_name": "John Roth",
+      "platform": "stocktwits"
+    },
     {
       "id": "7dea63f78e7fb3",
       "source": "stocktwits",
@@ -276,6 +322,26 @@
       "platform": "stocktwits"
     },
     {
+      "id": "944d5a44c89533",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-11T05:37:00Z",
+      "title": "\u05e8\u05d5\u05d6\u05df, \u05d7\u05d1\u05e8\u05ea \u05e9\u05e4\u05ea\u05d7\u05d4 \u05d1\u05d4\u05dc\u05d9\u05db\u05d9\u05dd \u05e8\u05d0\u05e9\u05d5\u05e0\u05d4, \u05de\u05e2\u05d5\u05d3\u05d3\u05ea \u05d0\u05ea \u05d4\u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d1-ADMA BIOLOGICS, Inc \u05dc\u05e7\u05d1\u05dc \u05d9\u05d9\u05e2\u05d5\u05e5 \u05de\u05e9\u05e4\u05d8\u05d9 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05de\u05d5\u05e2\u05d3 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05d4\u05d7\u05e9\u05d5\u05d1 \u05d1\u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05d1\u05e0\u05d9\u05d9\u05e8\u05d5\u05ea \u05e2\u05e8\u05da \u05e9\u05d4\u05d5\u05d2\u05e9\u05d4 \u05dc\u05e8\u05d0\u05e9\u05d5\u05e0\u05d4 \u05e2\u05dc \u05d9\u05d3\u05d9 \u05d4\u05d7\u05d1\u05e8\u05d4 \u2013 ADMA",
+      "body": "Rosen Law Firm reminds investors in ADMA Biologics, Inc. (NASDAQ: ADMA) of the August 10, 2026 deadline to join a securities class action lawsuit. The firm alleges that ADMA made false statements regarding undisclosed related-party transactions, channel stuffing practices, inadequate internal contro",
+      "url": "https://www.globenewswire.com/news-release/2026/07/11/3325793/673/he/%D7%A8%D7%95%D7%96%D7%9F-%D7%97%D7%91%D7%A8%D7%AA-%D7%A9%D7%A4%D7%AA%D7%97%D7%94-%D7%91%D7%94%D7%9C%D7%99%D7%9B%D7%99%D7%9D-%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%94-%D7%9E%D7%A2%D7%95%D7%93%D7%93%D7%AA-%D7%90%D7%AA-%D7%94%D7%9E%D7%A9%D7%A7%D7%99%D7%A2%D7%99%D7%9D-%D7%91-ADMA-BIOLOGICS-Inc-%D7%9C%D7%A7%D7%91%D7%9C-%D7%99%D7%99%D7%A2%D7%95%D7%A5-%D7%9E%D7%A9%D7%A4%D7%98%D7%99-%D7%9C%D7%A4%D7%A0%D7%99-%D7%94%D7%9E%D7%95%D7%A2%D7%93-%D7%94%D7%90%D7%97%D7%A8%D7%95%D7%9F-%D7%94%D7%97%D7%A9%D7%95%D7%91-%D7%91%D7%AA%D7%91%D7%99%D7%A2%D7%94-%D7%99%D7%99%D7%A6%D7%95%D7%92%D7%99%D7%AA-%D7%91%D7%A0%D7%99%D7%99%D7%A8%D7%95%D7%AA-%D7%A2%D7%A8%D7%9A-%D7%A9%D7%94%D7%95%D7%92%D7%A9%D7%94-%D7%9C%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%94-%D7%A2%D7%9C-%D7%99%D7%93%D7%99-%D7%94%D7%97%D7%91%D7%A8%D7%94-ADMA.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "ADMA"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T05:37:00Z",
+      "text": "\u05e8\u05d5\u05d6\u05df, \u05d7\u05d1\u05e8\u05ea \u05e9\u05e4\u05ea\u05d7\u05d4 \u05d1\u05d4\u05dc\u05d9\u05db\u05d9\u05dd \u05e8\u05d0\u05e9\u05d5\u05e0\u05d4, \u05de\u05e2\u05d5\u05d3\u05d3\u05ea \u05d0\u05ea \u05d4\u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d1-ADMA BIOLOGICS, Inc \u05dc\u05e7\u05d1\u05dc \u05d9\u05d9\u05e2\u05d5\u05e5 \u05de\u05e9\u05e4\u05d8\u05d9 \u05dc\u05e4\u05e0\u05d9 \u05d4\u05de\u05d5\u05e2\u05d3 \u05d4\u05d0\u05d7\u05e8\u05d5\u05df \u05d4\u05d7\u05e9\u05d5\u05d1 \u05d1\u05ea\u05d1\u05d9\u05e2\u05d4 \u05d9\u05d9\u05e6\u05d5\u05d2\u05d9\u05ea \u05d1\u05e0\u05d9\u05d9\u05e8\u05d5\u05ea \u05e2\u05e8\u05da \u05e9\u05d4\u05d5\u05d2\u05e9\u05d4 \u05dc\u05e8\u05d0\u05e9\u05d5\u05e0\u05d4 \u05e2\u05dc \u05d9\u05d3\u05d9 \u05d4\u05d7\u05d1\u05e8\u05d4 \u2013 ADMA",
+      "description": "Rosen Law Firm reminds investors in ADMA Biologics, Inc. (NASDAQ: ADMA) of the August 10, 2026 deadline to join a securities class action lawsuit. The firm alleges that ADMA made false statements regarding undisclosed related-party transactions, channel stuffing practices, inadequate internal contro"
+    },
+    {
       "id": "9f3560799f1173",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -320,6 +386,27 @@
       "handle": "LadyBABA",
       "display_name": "YaRight",
       "platform": "stocktwits"
+    },
+    {
+      "id": "3f880119e7767c",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-11T05:30:00Z",
+      "title": "Rocket Lab Just Unveiled a Game-Changing New Technology Worth Watching",
+      "body": "Rocket Lab has developed the 'Hungry Hippo,' an innovative hinged fairing design for its upcoming Neutron rocket that remains attached to the first stage during launch and recovery, potentially reducing costs and improving payload capacity. However, the technology remains unproven as Neutron's first",
+      "url": "https://www.fool.com/investing/2026/07/11/rocket-lab-just-unveiled-a-game-changing-new-techn/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "RKLB",
+        "SPCX"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T05:30:00Z",
+      "text": "Rocket Lab Just Unveiled a Game-Changing New Technology Worth Watching",
+      "description": "Rocket Lab has developed the 'Hungry Hippo,' an innovative hinged fairing design for its upcoming Neutron rocket that remains attached to the first stage during launch and recovery, potentially reducing costs and improving payload capacity. However, the technology remains unproven as Neutron's first"
     },
     {
       "id": "3e056db686dd38",
@@ -1629,29 +1716,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "3f0cddf0da3c3e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T03:33:46Z",
-      "title": "$TSLA $VOO $ETH.X $SPCX $GME  \nEnough is enough, end them! \n#USA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658816123",
-      "author": "WC25",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T03:33:46Z",
-      "text": "$TSLA $VOO $ETH.X $SPCX $GME  \nEnough is enough, end them! \n#USA",
-      "description": "",
-      "handle": "WC25",
-      "display_name": "WC25B",
-      "platform": "stocktwits"
-    },
-    {
       "id": "07f6e529b9f991",
       "source": "reuters",
       "source_type": "rss",
@@ -1970,29 +2034,6 @@
       "description": "",
       "handle": "BigBreakingWire",
       "display_name": "BigBreakingWire",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "91c3485b837826",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T02:23:02Z",
-      "title": "Bank of America reiterated its Buy rating on Nvidia and raised its price target to $350, implying about 71% upside, arguing the market is overly discounting risks to the AI chip leader. The bank said Nvidia&#39;s valuation already reflects a 30%-35% reduction in projected 2027-2028 earnings despite ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMZN/message/658814948",
-      "author": "topstockalerts",
-      "tickers": [
-        "AMZN"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T02:23:02Z",
-      "text": "Bank of America reiterated its Buy rating on Nvidia and raised its price target to $350, implying about 71% upside, arguing the market is overly discounting risks to the AI chip leader. The bank said Nvidia&#39;s valuation already reflects a 30%-35% reduction in projected 2027-2028 earnings despite ",
-      "description": "",
-      "handle": "topstockalerts",
-      "display_name": "Top Stock Alerts",
       "platform": "stocktwits"
     },
     {
@@ -3073,33 +3114,6 @@
       "description": "The Commerce Department will favorably review exports involving MGX, which used a stablecoin linked to President Trump's family for a $2B Binance investment."
     },
     {
-      "id": "fd9b39bab967d8",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T22:02:00Z",
-      "title": "3 Reasons I Think Meta Platforms is a Screaming Buy Right Now",
-      "body": "Meta Platforms stock has underperformed the broader market over the past year due to investor concerns about heavy AI spending. However, the article argues the sell-off is overdone, citing three catalysts: Meta's rumored cloud infrastructure business that could compete with AWS, Azure, and Google Cl",
-      "url": "https://www.fool.com/investing/2026/07/10/3-reasons-i-think-meta-platforms-is-a-screaming-bu/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "META",
-        "AMZN",
-        "MSFT",
-        "GOOG",
-        "GOOGL",
-        "GOOGM",
-        "GOOGN",
-        "AVGO"
-      ],
-      "tags": [],
-      "impact_score": 8.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T22:02:00Z",
-      "text": "3 Reasons I Think Meta Platforms is a Screaming Buy Right Now",
-      "description": "Meta Platforms stock has underperformed the broader market over the past year due to investor concerns about heavy AI spending. However, the article argues the sell-off is overdone, citing three catalysts: Meta's rumored cloud infrastructure business that could compete with AWS, Azure, and Google Cl"
-    },
-    {
       "id": "b7845e3b059bed",
       "source": "marketwatch",
       "source_type": "rss",
@@ -3298,30 +3312,6 @@
       "description": "CD rates are at a standstill, but that could change after the next Fed meeting, or the one after that."
     },
     {
-      "id": "34b57b222bcaa9",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 19:15:05 -0400",
-      "title": "Apple Accuses OpenAI of Using Job Interviews to Extract its Hardware Secrets in New Lawsuit (UPDATED)",
-      "body": "Editor&#8217;s Note: This story has been updated with industry reaction, additional details and a statement from OpenAI.\n\n\n\nApple Inc. (NASDAQ:AAPL) sued OpenAI in federal court in Northern California on Friday, accusing the AI company of taking Apple&#8217;s trade secrets to accelerate its own push into consumer devices.\n\n\n\nThe complaint lands as publishers seek court sanctions against OpenAI in ",
-      "url": "https://www.benzinga.com/news/legal/26/07/60401831/apple-accuses-openai-of-using-job-interviews-to-extract-its-hardware-secrets-in-new-lawsuit",
-      "author": "Michael Cohen",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 16.9,
-      "impact_level": "HIGH",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 19:15:05 -0400",
-      "text": "Apple Accuses OpenAI of Using Job Interviews to Extract its Hardware Secrets in New Lawsuit (UPDATED)",
-      "description": "Editor&#8217;s Note: This story has been updated with industry reaction, additional details and a statement from OpenAI.\n\n\n\nApple Inc. (NASDAQ:AAPL) sued OpenAI in federal court in Northern California on Friday, accusing the AI company of taking Apple&#8217;s trade secrets to accelerate its own push into consumer devices.\n\n\n\nThe complaint lands as publishers seek court sanctions against OpenAI in ",
-      "channels": [
-        "Tech",
-        "Legal"
-      ]
-    },
-    {
       "id": "53571a465e96bd",
       "source": "cnbc",
       "source_type": "rss",
@@ -3446,408 +3436,6 @@
       "time": "2026-07-10T16:47:00Z",
       "text": "Elon Musk SEC settlement raises 'red flags,' judge says",
       "description": ""
-    },
-    {
-      "id": "7faf565338c5ed",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 16:34:06 -0400",
-      "title": "Apple Says Tang Yew Tan Allegedly Using Apple Trade Secrets As OpenAI Chief Hardware Officer; Chang Liu Allegedly Stole Dozens Of Confidential Hardware Files After Joining OpenAI; Alleges OpenAI Instructing Job Candidates To Bring Apple Prototypes And Design Artifacts To Interviews, Asked Suppliers ",
-      "body": "- Reuters Citing Court Records",
-      "url": "https://www.benzinga.com/news/26/07/60401302/apple-says-tang-yew-tan-allegedly-using-apple-trade-secrets-openai-chief-hardware-officer-chang-liu-",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "AAPL",
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 11.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 16:34:06 -0400",
-      "text": "Apple Says Tang Yew Tan Allegedly Using Apple Trade Secrets As OpenAI Chief Hardware Officer; Chang Liu Allegedly Stole Dozens Of Confidential Hardware Files After Joining OpenAI; Alleges OpenAI Instructing Job Candidates To Bring Apple Prototypes And Design Artifacts To Interviews, Asked Suppliers ",
-      "description": "- Reuters Citing Court Records",
-      "channels": [
-        "Legal",
-        "News"
-      ]
-    },
-    {
-      "id": "e58c4e872d4962",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 16:26:56 -0400",
-      "title": "Apple Sues OpenAI Alleging Misappropriation Of Trade Secrets",
-      "body": "- Reuters Citing Court Records",
-      "url": "https://www.benzinga.com/news/26/07/60401163/apple-sues-openai-alleging-misappropriation-trade-secrets",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "AAPL",
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 16:26:56 -0400",
-      "text": "Apple Sues OpenAI Alleging Misappropriation Of Trade Secrets",
-      "description": "- Reuters Citing Court Records",
-      "channels": [
-        "Legal",
-        "News"
-      ]
-    },
-    {
-      "id": "822957956e68cf",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 14:00:21 -0400",
-      "title": "Bill Ackman\u2019s Big Bet On Meta Stock Is Finally Paying Off: Here\u2019s The 2026 Gain So Far",
-      "body": "In recent years, Bill Ackman has invested Pershing Square Capital Management (NYSE:PS) heavily in Magnificent Seven stocks. This included taking a new position in Meta Platforms (NASDAQ:META) in the fourth quarter of 2025. The position took a beating earlier this year, but is finally positive for 2026.\n\n\n\nHere\u2019s a look at how much Ackman\u2019s position is up in 2026.\n\n\n\nAckman Buys Meta Stock in Q4\n\n\n",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60396393/bill-ackmans-big-bet-on-meta-stock-is-finally-paying-off-heres-the-2026-gain-so-far",
-      "author": "Chris Katje",
-      "tickers": [
-        "META",
-        "GOOGL",
-        "GOOG",
-        "MSFT",
-        "PSUS",
-        "PS"
-      ],
-      "tags": [],
-      "impact_score": 10.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 14:00:21 -0400",
-      "text": "Bill Ackman\u2019s Big Bet On Meta Stock Is Finally Paying Off: Here\u2019s The 2026 Gain So Far",
-      "description": "In recent years, Bill Ackman has invested Pershing Square Capital Management (NYSE:PS) heavily in Magnificent Seven stocks. This included taking a new position in Meta Platforms (NASDAQ:META) in the fourth quarter of 2025. The position took a beating earlier this year, but is finally positive for 2026.\n\n\n\nHere\u2019s a look at how much Ackman\u2019s position is up in 2026.\n\n\n\nAckman Buys Meta Stock in Q4\n\n\n",
-      "channels": [
-        "Tech",
-        "Trading Ideas",
-        "Long Ideas",
-        "Hedge Funds",
-        "Large Cap"
-      ]
-    },
-    {
-      "id": "bd78521ee25c78",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 13:35:06 -0400",
-      "title": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-      "body": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will search for circumstances when the market estimation of an option diverges heavily from its normal worth. High amounts of trading activity could push option prices to exaggerated or ",
-      "url": "https://www.benzinga.com/markets/options/26/07/60395453/10-information-technology-stocks-whale-alerts-today-s-session",
-      "author": "Benzinga Insights",
-      "tickers": [
-        "NVDA",
-        "MU",
-        "MSFT",
-        "AVGO",
-        "CLSK",
-        "NOK",
-        "INTC",
-        "CRCL"
-      ],
-      "tags": [],
-      "impact_score": 9.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 13:35:06 -0400",
-      "text": "10 Information Technology Stocks With Whale Alerts In Today\u2019s Session",
-      "description": "This whale alert can help traders discover the next big trading opportunities.\nWhales are entities with large sums of money and we track their transactions here at Benzinga on our options activity scanner.\nTraders will search for circumstances when the market estimation of an option diverges heavily from its normal worth. High amounts of trading activity could push option prices to exaggerated or ",
-      "channels": [
-        "Options"
-      ]
-    },
-    {
-      "id": "6832df6ecdf4f3",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 12:36:44 -0400",
-      "title": "Semis Volatile As Traders Wait For SK Hynix's Discount To Micron To Close; US Approves Cryptobank",
-      "body": "\n\n\n\nWatch SK Hynix\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been driving the stock market higher.&nbsp; SOXL is the momo crowd&#8217;s favorite semiconductor ETF.\n\n\n\nThe chart shows that yesterday SOXL was not able to sustain the initially rally and closed at the top",
-      "url": "https://www.benzinga.com/Opinion/26/07/60393150/semis-volatile-as-traders-wait-for-sk-hynixs-discount-to-micron-to-close-us-approves-cryptobank",
-      "author": "The Arora Report",
-      "tickers": [
-        "USO",
-        "SPY",
-        "NVDA",
-        "TSLA",
-        "QQQ",
-        "AMZN",
-        "AAPL",
-        "GOOG"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 12:36:44 -0400",
-      "text": "Semis Volatile As Traders Wait For SK Hynix's Discount To Micron To Close; US Approves Cryptobank",
-      "description": "\n\n\n\nWatch SK Hynix\n\n\n\nPlease click here for an enlarged chart of Direxion Daily Semiconductor Bull 3X ETF (NYSE:SOXL).\n\n\n\nNote the following:\n\n\n\n\nSemiconductors are the leading sector that has been driving the stock market higher.&nbsp; SOXL is the momo crowd&#8217;s favorite semiconductor ETF.\n\n\n\nThe chart shows that yesterday SOXL was not able to sustain the initially rally and closed at the top",
-      "channels": [
-        "Opinion",
-        "Market Summary"
-      ]
-    },
-    {
-      "id": "c58807c36a0aaf",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 10:32:43 -0400",
-      "title": "Argus Research Maintains Buy on Microsoft, Lowers Price Target to $510",
-      "body": "Argus Research  analyst Joseph Bonner   maintains Microsoft (NASDAQ:MSFT) with a Buy and lowers the price target from $620 to $510.",
-      "url": "https://www.benzinga.com/news/26/07/60387054/argus-research-maintains-buy-microsoft-lowers-price-target-510",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 9.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 10:32:43 -0400",
-      "text": "Argus Research Maintains Buy on Microsoft, Lowers Price Target to $510",
-      "description": "Argus Research  analyst Joseph Bonner   maintains Microsoft (NASDAQ:MSFT) with a Buy and lowers the price target from $620 to $510.",
-      "channels": [
-        "Analyst Ratings",
-        "News",
-        "Price Target",
-        "Hot"
-      ]
-    },
-    {
-      "id": "debdff6763b3f9",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 09:28:57 -0400",
-      "title": "ETF Investors Are Finally Getting Paid To Diversify Away From The Magnificent Seven",
-      "body": "Diversification came at a cost for much of the AI-driven bull market. Investors who ventured beyond the S&amp;P 500&#8217;s mega-cap leaders routinely lagged as the Magnificent Seven grew to account for roughly one-third of the benchmark. This year, however, that trade has reversed, and diversified equity ETFs are finally reaping the benefits.\n\n\n\nThrough July 9, the S&amp;P 500 has gained 10%, but",
-      "url": "https://www.benzinga.com/etfs/specialty-etfs/26/07/60381758/etf-investors-are-finally-getting-paid-to-diversify-away-from-the-magnificent-seven",
-      "author": "Chandrima Sanyal",
-      "tickers": [
-        "RSP",
-        "IJR",
-        "IJH",
-        "TSLA",
-        "META",
-        "SPY",
-        "AMZN",
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 09:28:57 -0400",
-      "text": "ETF Investors Are Finally Getting Paid To Diversify Away From The Magnificent Seven",
-      "description": "Diversification came at a cost for much of the AI-driven bull market. Investors who ventured beyond the S&amp;P 500&#8217;s mega-cap leaders routinely lagged as the Magnificent Seven grew to account for roughly one-third of the benchmark. This year, however, that trade has reversed, and diversified equity ETFs are finally reaping the benefits.\n\n\n\nThrough July 9, the S&amp;P 500 has gained 10%, but",
-      "channels": [
-        "ETFs",
-        "Specialty ETFs",
-        "Top Stories"
-      ]
-    },
-    {
-      "id": "414f5b3492dbde",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 08:35:03 -0400",
-      "title": "Palantir's Stock Has Bounced 23% Off Its Low\u2014 One Research Firm Says That's the Trap: 'We Still Won't Buy It'",
-      "body": "Despite Palantir Technologies Inc. (NASDAQ:PLTR) rebounding nearly 23% to about $130 following a sharp 40% drawdown from its 2025 peak, financial research firm Rebound Capital is warning investors to avoid the stock.\n\n\n\nThe firm explicitly stated, &#8220;we still won&#8217;t buy it&#8221;, cautioning that the recent market dip masks a structural trap driven by unsustainable &#8220;nosebleed valuat",
-      "url": "https://www.benzinga.com/markets/equities/26/07/60380582/palantirs-stock-has-bounced-23-off-its-low-one-research-firm-says-thats-the-trap-we-still-wont-buy-it",
-      "author": "Rishabh Mishra",
-      "tickers": [
-        "PLTR",
-        "AMZN",
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 11.9,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 08:35:03 -0400",
-      "text": "Palantir's Stock Has Bounced 23% Off Its Low\u2014 One Research Firm Says That's the Trap: 'We Still Won't Buy It'",
-      "description": "Despite Palantir Technologies Inc. (NASDAQ:PLTR) rebounding nearly 23% to about $130 following a sharp 40% drawdown from its 2025 peak, financial research firm Rebound Capital is warning investors to avoid the stock.\n\n\n\nThe firm explicitly stated, &#8220;we still won&#8217;t buy it&#8221;, cautioning that the recent market dip masks a structural trap driven by unsustainable &#8220;nosebleed valuat",
-      "channels": [
-        "Markets",
-        "Tech",
-        "Trading Ideas",
-        "News",
-        "Analyst Color",
-        "Futures",
-        "General",
-        "Equities",
-        "Market Summary"
-      ]
-    },
-    {
-      "id": "95137afb7e374e",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 08:31:38 -0400",
-      "title": "Meta Could Face Billions in Fines as EU Cracks Down on 'Addictive' Facebook and Instagram Features",
-      "body": "The European Union (EU) has accused&nbsp;Meta Platforms Inc.&nbsp;(NASDAQ:META) of violating its digital laws due to the &#8216;addictive&#8217; designs of its Instagram and Facebook platforms.\n\n\n\nOn Friday, a preliminary report by the EU found that Meta had breached the Digital Services Act. The EU&#8217;s executive branch, the European Commission, stated that Meta did not adequately evaluate the",
-      "url": "https://www.benzinga.com/news/legal/26/07/60380435/meta-could-face-billions-in-fines-as-eu-cracks-down-on-addictive-facebook-and-instagram-features",
-      "author": "Namrata Sen",
-      "tickers": [
-        "AAPL",
-        "META",
-        "GOOGL",
-        "GOOG"
-      ],
-      "tags": [],
-      "impact_score": 9.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 08:31:38 -0400",
-      "text": "Meta Could Face Billions in Fines as EU Cracks Down on 'Addictive' Facebook and Instagram Features",
-      "description": "The European Union (EU) has accused&nbsp;Meta Platforms Inc.&nbsp;(NASDAQ:META) of violating its digital laws due to the &#8216;addictive&#8217; designs of its Instagram and Facebook platforms.\n\n\n\nOn Friday, a preliminary report by the EU found that Meta had breached the Digital Services Act. The EU&#8217;s executive branch, the European Commission, stated that Meta did not adequately evaluate the",
-      "channels": [
-        "Markets",
-        "Tech",
-        "Government",
-        "Legal",
-        "Eurozone",
-        "Regulations",
-        "Large Cap"
-      ]
-    },
-    {
-      "id": "989debca5a54f2",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 07:30:27 -0400",
-      "title": "'Record Companies Push to Label AI Songs on Streaming Platforms' - WSJ Exclusive",
-      "body": "https://www.wsj.com/tech/ai/record-companies-push-to-label-ai-songs-on-streaming-platforms-103aa392",
-      "url": "https://www.benzinga.com/content/60379237/record-companies-push-label-ai-songs-streaming-platforms-wsj-exclusive",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "AAPL",
-        "SPOT",
-        "SIRI",
-        "WMG"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 07:30:27 -0400",
-      "text": "'Record Companies Push to Label AI Songs on Streaming Platforms' - WSJ Exclusive",
-      "description": "https://www.wsj.com/tech/ai/record-companies-push-to-label-ai-songs-on-streaming-platforms-103aa392",
-      "channels": []
-    },
-    {
-      "id": "750ba6f9caa02b",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 07:14:25 -0400",
-      "title": "Howard Lutnick Tells Samsung and SK Hynix They Have 'No Choice' but to Build US AI Memory Fabs\u2014 and Micron's CEO May Not Be Happy",
-      "body": "In a direct push to secure America&#8217;s artificial intelligence hardware pipeline, U.S. Commerce Secretary Howard Lutnick has publicly pressured South Korean semiconductor giants Samsung Electronics and SK Hynix Inc. (NASDAQ:SKHY) to construct local AI memory fabs.\n\n\n\nSpeaking at a Micron Technology Inc.&#8216;s (NASDAQ:MU) event, Lutnick signaled reordering of the global tech supply chain, ass",
-      "url": "https://www.benzinga.com/markets/equities/26/07/60378886/howard-lutnick-tells-samsung-and-sk-hynix-they-have-no-choice-but-to-build-us-ai-memory-fabs-and-microns-ceo-may-not-be-happy",
-      "author": "Rishabh Mishra",
-      "tickers": [
-        "SKHY",
-        "AAPL",
-        "MU"
-      ],
-      "tags": [],
-      "impact_score": 11.9,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 07:14:25 -0400",
-      "text": "Howard Lutnick Tells Samsung and SK Hynix They Have 'No Choice' but to Build US AI Memory Fabs\u2014 and Micron's CEO May Not Be Happy",
-      "description": "In a direct push to secure America&#8217;s artificial intelligence hardware pipeline, U.S. Commerce Secretary Howard Lutnick has publicly pressured South Korean semiconductor giants Samsung Electronics and SK Hynix Inc. (NASDAQ:SKHY) to construct local AI memory fabs.\n\n\n\nSpeaking at a Micron Technology Inc.&#8216;s (NASDAQ:MU) event, Lutnick signaled reordering of the global tech supply chain, ass",
-      "channels": [
-        "Markets",
-        "Tech",
-        "Movers &amp; Shakers",
-        "News",
-        "Politics",
-        "General",
-        "Government",
-        "IPOs",
-        "Regulations",
-        "Asia",
-        "Equities"
-      ]
-    },
-    {
-      "id": "8d54c943efb3ea",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 06:17:14 -0400",
-      "title": "UK Government Designates Four Major Global Cloud Services And Technology Providers Amazon, Google, Microsoft And Oracle As Critical Third Parties",
-      "body": "https://www.gov.uk/government/news/uk-financial-system-strengthened-with-new-safeguards-for-major-technology-providers",
-      "url": "https://www.benzinga.com/news/26/07/60378092/uk-government-designates-four-major-global-cloud-services-and-technology-providers-amazon-google-mic",
-      "author": "Benzinga Newsdesk",
-      "tickers": [
-        "AMZN",
-        "GOOG",
-        "ORCL",
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 06:17:14 -0400",
-      "text": "UK Government Designates Four Major Global Cloud Services And Technology Providers Amazon, Google, Microsoft And Oracle As Critical Third Parties",
-      "description": "https://www.gov.uk/government/news/uk-financial-system-strengthened-with-new-safeguards-for-major-technology-providers",
-      "channels": [
-        "News"
-      ]
-    },
-    {
-      "id": "3cf366db23d871",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 05:58:27 -0400",
-      "title": "Comparative Study: Microsoft And Industry Competitors In Software Industry",
-      "body": "In today's rapidly changing and fiercely competitive business landscape, it is vital for investors and industry enthusiasts to carefully evaluate companies. In this article, we will perform a comprehensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) against its key competitors in the Software industry. By analyzing important financial metrics, market position, and growth prospects, we ",
-      "url": "https://www.benzinga.com/news/26/07/60377606/comparative-study-microsoft-and-industry-competitors-software-industry",
-      "author": "Benzinga Insights",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 11.9,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 05:58:27 -0400",
-      "text": "Comparative Study: Microsoft And Industry Competitors In Software Industry",
-      "description": "In today's rapidly changing and fiercely competitive business landscape, it is vital for investors and industry enthusiasts to carefully evaluate companies. In this article, we will perform a comprehensive industry comparison, evaluating Microsoft (NASDAQ:MSFT) against its key competitors in the Software industry. By analyzing important financial metrics, market position, and growth prospects, we ",
-      "channels": [
-        "News",
-        "Trading Ideas",
-        "Markets"
-      ]
-    },
-    {
-      "id": "c6e4382b2590a9",
-      "source": "benzinga",
-      "source_type": "benzinga_news",
-      "timestamp": "Fri, 10 Jul 2026 01:31:31 -0400",
-      "title": "Fed Chair Kevin Warsh Bets on AI, Taps Marc Andreessen and Xbox CEO Asha Sharma to Help 'Inform' Future Fed Policy",
-      "body": "Federal Reserve chair Kevin Warsh has assembled a high-profile group of AI advocates to help evaluate how artificial intelligence could reshape the U.S. economy and influence future monetary policy.\n\n\n\nFed&#8217;s New AI Task Force To Assess AI&#8217;s Economic Impact\n\n\n\nThe Federal Reserve on Thursday unveiled five external task forces, including one focused on evaluating the economic effects of ",
-      "url": "https://www.benzinga.com/markets/tech/26/07/60375922/fed-chair-kevin-warsh-bets-on-ai-taps-marc-andreessen-and-xbox-ceo-asha-sharma-to-help-inform-future-fed-policy",
-      "author": "Ananya Gairola",
-      "tickers": [
-        "WMT",
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 16.5,
-      "impact_level": "HIGH",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 01:31:31 -0400",
-      "text": "Fed Chair Kevin Warsh Bets on AI, Taps Marc Andreessen and Xbox CEO Asha Sharma to Help 'Inform' Future Fed Policy",
-      "description": "Federal Reserve chair Kevin Warsh has assembled a high-profile group of AI advocates to help evaluate how artificial intelligence could reshape the U.S. economy and influence future monetary policy.\n\n\n\nFed&#8217;s New AI Task Force To Assess AI&#8217;s Economic Impact\n\n\n\nThe Federal Reserve on Thursday unveiled five external task forces, including one focused on evaluating the economic effects of ",
-      "channels": [
-        "Tech",
-        "News",
-        "Politics"
-      ]
     },
     {
       "id": "ba491957f23f03",
