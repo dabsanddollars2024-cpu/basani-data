@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T12:32:07Z",
-  "generated_display": "2026-07-11 12:32 ET",
+  "generated": "2026-07-11T12:37:07Z",
+  "generated_display": "2026-07-11 12:37 ET",
   "count": 169,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T12:32:01.823668+00:00",
+      "last_error_ts": "2026-07-11T12:37:02.071234+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 147,
-      "last_success": "2026-07-11T12:32:01.971622+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-11T12:37:02.172194+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 56,
-      "last_success": "2026-07-11T12:32:02.071172+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-11T12:37:02.272348+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 18,
-      "latency_ms": 100,
-      "last_success": "2026-07-11T12:32:02.172443+00:00",
+      "latency_ms": 98,
+      "last_success": "2026-07-11T12:37:02.372289+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T12:32:02.280036+00:00",
+      "last_error_ts": "2026-07-11T12:37:02.488002+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1892,
-      "last_success": "2026-07-11T12:32:04.172196+00:00",
+      "latency_ms": 2184,
+      "last_success": "2026-07-11T12:37:04.672623+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T12:32:05.151081+00:00",
+      "last_success": "2026-07-11T12:37:05.572169+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 2019,
-      "last_success": "2026-07-11T12:32:07.170747+00:00",
+      "latency_ms": 1851,
+      "last_success": "2026-07-11T12:37:07.423705+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,187 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 206
+          "latency_ms": 112
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 193
+          "latency_ms": 186
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 38
+          "latency_ms": 100
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 386
+          "latency_ms": 304
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 76
+          "latency_ms": 17
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 76
+          "latency_ms": 178
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "marketwatch": 8,
     "reuters": 16,
     "uw_news": 25,
     "cnbc": 8,
-    "marketwatch": 8,
     "zerohedge": 8,
     "massive_news": 18,
-    "benzinga": 3,
     "seekingalpha": 7,
+    "benzinga": 3,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "e68b0283527331",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:35:43Z",
+      "title": "$ORCL $AMD will provide Oracle with its future MI450 AI chip in the second half of 2026. AMD says plans call for the agreement to extend into 2027 and beyond. \n \nhttps://finance.yahoo.com/news/amd-and-oracle-announce-agreement-for-50000-gpus-as-ai-deal-spree-continues-121807781.html",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658821025",
+      "author": "TheUnmaker",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T12:35:43Z",
+      "text": "$ORCL $AMD will provide Oracle with its future MI450 AI chip in the second half of 2026. AMD says plans call for the agreement to extend into 2027 and beyond. \n \nhttps://finance.yahoo.com/news/amd-and-oracle-announce-agreement-for-50000-gpus-as-ai-deal-spree-continues-121807781.html",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "030b80594433b3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:34:58Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nWho\u2019s steering this trainwreck?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658821015",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:34:58Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nWho\u2019s steering this trainwreck?",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cf3c3350654f3e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:33:53Z",
+      "title": "$NVDA why buy nvidia when u can buy micron?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658821000",
+      "author": "BuySellHoldFinance",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-11T12:33:53Z",
+      "text": "$NVDA why buy nvidia when u can buy micron?",
+      "description": "",
+      "handle": "BuySellHoldFinance",
+      "display_name": "Randy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2446c3f107ecdf",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:33:17Z",
+      "title": "$MSFT been wondering if this OpenAI lawsuit is nothing or pulls MSFT down next week. \ud83e\uddd0. AH no reaction so seems like non issue",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658820987",
+      "author": "PnikI",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:33:17Z",
+      "text": "$MSFT been wondering if this OpenAI lawsuit is nothing or pulls MSFT down next week. \ud83e\uddd0. AH no reaction so seems like non issue",
+      "description": "",
+      "handle": "PnikI",
+      "display_name": "Patrick",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6ea5deedf99f39",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:32:48Z",
+      "title": "$SPY $BTC.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658820979",
+      "author": "SonGoku",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:32:48Z",
+      "text": "$SPY $BTC.X",
+      "description": "",
+      "handle": "SonGoku",
+      "display_name": "Goku",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "047889e0d9cdc4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:31:48Z",
+      "title": "$AMD $ORCL  \nOracle and AMD are partnering to build a massive artificial intelligence (AI) supercluster. Starting in the third quarter of 2026, Oracle will deploy 50,000 advanced AMD chips. The deal provides customers with a powerful alternative to Nvidia&#39;s market-leading AI processors. \n \nhttps",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658820963",
+      "author": "TheUnmaker",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T12:31:48Z",
+      "text": "$AMD $ORCL  \nOracle and AMD are partnering to build a massive artificial intelligence (AI) supercluster. Starting in the third quarter of 2026, Oracle will deploy 50,000 advanced AMD chips. The deal provides customers with a powerful alternative to Nvidia&#39;s market-leading AI processors. \n \nhttps",
+      "description": "",
+      "handle": "TheUnmaker",
+      "display_name": "TheUnmaker",
+      "platform": "stocktwits"
+    },
     {
       "id": "1dffa98c0f393b",
       "source": "stocktwits",
@@ -162,6 +300,24 @@
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
       "platform": "stocktwits"
+    },
+    {
+      "id": "065a1f243f03bb",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 12:30:00 GMT",
+      "title": "\u2018Day-to-day dread\u2019 haunts frustrated job seekers in era of low hiring. When will it end?",
+      "body": "Finding a job was easy a few years ago. Now, Americans are worried about their job prospects, even though the unemployment rate is historically low.",
+      "url": "https://www.marketwatch.com/story/day-to-day-dread-haunts-frustrated-job-seekers-in-era-of-low-hiring-when-will-it-end-76640caf?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 12:30:00 GMT",
+      "text": "\u2018Day-to-day dread\u2019 haunts frustrated job seekers in era of low hiring. When will it end?",
+      "description": "Finding a job was easy a few years ago. Now, Americans are worried about their job prospects, even though the unemployment rate is historically low."
     },
     {
       "id": "5cf34b126f1167",
@@ -345,29 +501,6 @@
       "description": "",
       "handle": "MiaHarperTrading",
       "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "fd06620710e0c7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:27:51Z",
-      "title": "$QQQ $SPY Michael Burry has going in on X.  Posting about the AI bubble.  AI bubble is completely unsustainable but these scam artists keep fueling media to get YOUR money in this bubble. Remember all these little cnbc monkeys who tell you to buy they are using OTHER PEOPLES money.  Do you think the",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658820898",
-      "author": "Stonethrower2",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-11T12:27:51Z",
-      "text": "$QQQ $SPY Michael Burry has going in on X.  Posting about the AI bubble.  AI bubble is completely unsustainable but these scam artists keep fueling media to get YOUR money in this bubble. Remember all these little cnbc monkeys who tell you to buy they are using OTHER PEOPLES money.  Do you think the",
-      "description": "",
-      "handle": "Stonethrower2",
-      "display_name": "John Stone",
       "platform": "stocktwits"
     },
     {
@@ -573,6 +706,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "94a50aac2c1240",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11T12:22:00Z",
+      "title": "Should Investors Be Concerned That Walmart Got Kicked Out of the $1 Trillion Club and Now the $900 Billion Club?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/investors-concerned-walmart-got-kicked-122200122.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:22:00Z",
+      "text": "Should Investors Be Concerned That Walmart Got Kicked Out of the $1 Trillion Club and Now the $900 Billion Club?",
+      "description": ""
+    },
+    {
       "id": "99314f1e778c74",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -775,29 +926,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "19aa92f220f7d4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:09:59Z",
-      "title": "$NVDA This is starting to wake up @OptionsPastor",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658820628",
-      "author": "PrecisionSPYoptions",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T12:09:59Z",
-      "text": "$NVDA This is starting to wake up @OptionsPastor",
-      "description": "",
-      "handle": "PrecisionSPYoptions",
-      "display_name": "L.P",
-      "platform": "stocktwits"
-    },
-    {
       "id": "dc727fb0d78dae",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -841,29 +969,6 @@
       "description": "",
       "handle": "wallstreet_gangsta2",
       "display_name": "Fan",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "517a07cb55c47a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:09:00Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nBidding",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658820613",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T12:09:00Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nBidding",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
       "platform": "stocktwits"
     },
     {
@@ -1434,29 +1539,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "7a0cf7edf59024",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T11:24:08Z",
-      "title": "$AMD $NVDA $AMZN $META $MSFT \n\nAMD\u2019s MI400 lineup splits into the full\u2011scale MI455 for Microsoft, AWS, and Oracle, and the half\u2011scale MI450 custom\u2011built for Meta. Morgan Stanley projects 1 million MI455 units and 500K MI450 units shipping in 2027, alongside 6.75M EPYC Venice CPUs. The math is stagge",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658820043",
-      "author": "investingvalue",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T11:24:08Z",
-      "text": "$AMD $NVDA $AMZN $META $MSFT \n\nAMD\u2019s MI400 lineup splits into the full\u2011scale MI455 for Microsoft, AWS, and Oracle, and the half\u2011scale MI450 custom\u2011built for Meta. Morgan Stanley projects 1 million MI455 units and 500K MI450 units shipping in 2027, alongside 6.75M EPYC Venice CPUs. The math is stagge",
-      "description": "",
-      "handle": "investingvalue",
-      "display_name": "stanton",
-      "platform": "stocktwits"
-    },
-    {
       "id": "29852ac729b4e3",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1477,29 +1559,6 @@
       "description": "",
       "handle": "investingvalue",
       "display_name": "stanton",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "76f4b3fced5b8e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T11:23:53Z",
-      "title": "$MSFT yeah this is cooked next week. $370 or lower",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658820039",
-      "author": "NetflixUser",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-11T11:23:53Z",
-      "text": "$MSFT yeah this is cooked next week. $370 or lower",
-      "description": "",
-      "handle": "NetflixUser",
-      "display_name": "Henry",
       "platform": "stocktwits"
     },
     {
@@ -1693,29 +1752,6 @@
       "time": "Sat, 11 Jul 2026 11:00:00 +0000",
       "text": "Afghan Asylum Seeker Walks Free After Sexually Assaulting Multiple Young Girls At German Pool",
       "description": "Afghan Asylum Seeker Walks Free After Sexually Assaulting Multiple Young Girls At German Pool\n\n            Authored by Steve Watson via Modernity News,\n\nA 21-year-old Afghan asylum seeker stands accused of sexually assaulting at least four girls between the ages of 12 and 14 at the Bud Spencer outdo"
-    },
-    {
-      "id": "e4c2d4baa6c2e9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T10:59:50Z",
-      "title": "$AMD a mere ~7% away from $600 and the quickening!",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658819744",
-      "author": "Iamwillwexler",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T10:59:50Z",
-      "text": "$AMD a mere ~7% away from $600 and the quickening!",
-      "description": "",
-      "handle": "Iamwillwexler",
-      "display_name": "William Wexler",
-      "platform": "stocktwits"
     },
     {
       "id": "d8ca1e64d9728e",
@@ -2329,6 +2365,24 @@
       "handle": "lejomo",
       "display_name": "Harlock",
       "platform": "stocktwits"
+    },
+    {
+      "id": "5e5723ffd2cb63",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 08:33:49 -0400",
+      "title": "MGM is reportedly in deal talks with Barry Diller\u2019s People",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4613043-mgm-deal-talks-barry-dillers-people?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 08:33:49 -0400",
+      "text": "MGM is reportedly in deal talks with Barry Diller\u2019s People",
+      "description": ""
     },
     {
       "id": "042e219bb057b3",
@@ -3351,24 +3405,6 @@
       "description": "The South Korean memory-chip company\u2019s new American depositary receipts began trading on Friday and logged gains of nearly 13%."
     },
     {
-      "id": "b7845e3b059bed",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 21:30:00 GMT",
-      "title": "\u2018I\u2019d hate to end up with an unexpected tax bill\u2019: I\u2019m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
-      "body": "\u201cI\u2019m actually earning more each week than I ever have before.\u201d",
-      "url": "https://www.marketwatch.com/story/im-73-and-still-work-full-time-can-i-avoid-paying-taxes-on-my-social-security-benefits-06ecc7c2?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 21:30:00 GMT",
-      "text": "\u2018I\u2019d hate to end up with an unexpected tax bill\u2019: I\u2019m 73 and still work full time. Can I avoid paying taxes on my Social Security benefits?",
-      "description": "\u201cI\u2019m actually earning more each week than I ever have before.\u201d"
-    },
-    {
       "id": "2a21785006b4ad",
       "source": "cnbc",
       "source_type": "rss",
@@ -3495,24 +3531,6 @@
       "description": ""
     },
     {
-      "id": "0c7eb08bc5739e",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 17:56:08 -0400",
-      "title": "Frontier Nuclear gets Nasdaq non-compliance notice over missing Form 6-K filing",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4613035-frontier-nuclear-gets-nasdaq-non-compliance-notice-over-missing-form-6-k-filing?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 17:56:08 -0400",
-      "text": "Frontier Nuclear gets Nasdaq non-compliance notice over missing Form 6-K filing",
-      "description": ""
-    },
-    {
       "id": "243860a47be497",
       "source": "reuters",
       "source_type": "rss",
@@ -3528,6 +3546,78 @@
       "sentiment": "neutral",
       "time": "2026-07-10T16:47:00Z",
       "text": "Elon Musk SEC settlement raises 'red flags,' judge says",
+      "description": ""
+    },
+    {
+      "id": "eb42e377461d39",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10T11:12:40Z",
+      "title": "Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/shein-wins-chinese-approval-hong-111240743.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T11:12:40Z",
+      "text": "Shein finally wins China's approval for Hong Kong IPO, in third attempt to go public",
+      "description": ""
+    },
+    {
+      "id": "5bf6b374d4d92a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10T11:10:18Z",
+      "title": "Private credit finds exit opportunities among strategic buyers \u2013 DBRS",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/private-credit-finds-exit-opportunities-111018038.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T11:10:18Z",
+      "text": "Private credit finds exit opportunities among strategic buyers \u2013 DBRS",
+      "description": ""
+    },
+    {
+      "id": "d5f8ff1e9b51c7",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10T11:02:14Z",
+      "title": "South Korean billionaire's risky bet pays off, as SK Hynix debuts in New York",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/south-korean-billionaires-risky-bet-110214625.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T11:02:14Z",
+      "text": "South Korean billionaire's risky bet pays off, as SK Hynix debuts in New York",
+      "description": ""
+    },
+    {
+      "id": "dcbe9a863d1c63",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-10T11:00:06Z",
+      "title": "Top ETFs Tap Into Investors' 'Electricity Is The New Oil' Idea",
+      "body": "",
+      "url": "https://www.investors.com/etfs-and-funds/etfs/top-etfs-tap-into-investor-electricity-is-the-new-oil-idea/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-10T11:00:06Z",
+      "text": "Top ETFs Tap Into Investors' 'Electricity Is The New Oil' Idea",
       "description": ""
     },
     {
@@ -3549,24 +3639,6 @@
       "description": ""
     },
     {
-      "id": "f1a0547de5a3f1",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10T10:51:13Z",
-      "title": "China outlines five-year roadmap to reshape retail industry",
-      "body": "",
-      "url": "https://finance.yahoo.com/economy/policy/articles/china-outlines-five-roadmap-reshape-105113597.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:51:13Z",
-      "text": "China outlines five-year roadmap to reshape retail industry",
-      "description": ""
-    },
-    {
       "id": "824c230fd685e8",
       "source": "reuters",
       "source_type": "rss",
@@ -3582,78 +3654,6 @@
       "sentiment": "neutral",
       "time": "2026-07-10T10:49:31Z",
       "text": "PPL Corporation's Quarterly Earnings Preview: What You Need to Know",
-      "description": ""
-    },
-    {
-      "id": "d87b7a3593fa52",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10T10:39:11Z",
-      "title": "Earnings Preview: What To Expect From Aptiv's Report",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/earnings-preview-expect-aptivs-report-103911235.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:39:11Z",
-      "text": "Earnings Preview: What To Expect From Aptiv's Report",
-      "description": ""
-    },
-    {
-      "id": "dd973b3c05a730",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10T10:38:31Z",
-      "title": "Stock Index Futures Slip as Chip Rally Fades, SK Hynix Debut in Focus",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-index-futures-slip-chip-103831479.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:38:31Z",
-      "text": "Stock Index Futures Slip as Chip Rally Fades, SK Hynix Debut in Focus",
-      "description": ""
-    },
-    {
-      "id": "99fc9d59f14dc1",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10T10:38:25Z",
-      "title": "Morning Bid: Lather, rinse, retaliate",
-      "body": "",
-      "url": "https://finance.yahoo.com/news/morning-bid-lather-rinse-retaliate-103825437.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T10:38:25Z",
-      "text": "Morning Bid: Lather, rinse, retaliate",
-      "description": ""
-    },
-    {
-      "id": "a96d20c13333d7",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09T17:58:15Z",
-      "title": "Delta Q2 earnings top estimates, reinstates full-year guidance as fuel prices bite",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/article/delta-q2-earnings-top-estimates-reinstates-full-year-guidance-as-fuel-prices-bite-175815467.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T17:58:15Z",
-      "text": "Delta Q2 earnings top estimates, reinstates full-year guidance as fuel prices bite",
       "description": ""
     },
     {
