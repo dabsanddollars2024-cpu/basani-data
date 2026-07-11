@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-11T12:52:07Z",
-  "generated_display": "2026-07-11 12:52 ET",
-  "count": 169,
+  "generated": "2026-07-11T12:57:06Z",
+  "generated_display": "2026-07-11 12:57 ET",
+  "count": 168,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T12:52:02.171494+00:00",
+      "last_error_ts": "2026-07-11T12:57:01.771430+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 3,
-      "latency_ms": 203,
-      "last_success": "2026-07-11T12:52:02.375467+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-11T12:57:01.872554+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 196,
-      "last_success": "2026-07-11T12:52:02.572574+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-11T12:57:01.972478+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 18,
+      "items_pulled": 17,
       "latency_ms": 99,
-      "last_success": "2026-07-11T12:52:02.672775+00:00",
+      "last_success": "2026-07-11T12:57:02.073288+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T12:52:02.780814+00:00",
+      "last_error_ts": "2026-07-11T12:57:02.109755+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1991,
-      "last_success": "2026-07-11T12:52:04.772302+00:00",
+      "latency_ms": 2162,
+      "last_success": "2026-07-11T12:57:04.272564+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T12:52:05.641772+00:00",
+      "last_success": "2026-07-11T12:57:05.042543+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1988,
-      "last_success": "2026-07-11T12:52:07.630794+00:00",
+      "latency_ms": 1828,
+      "last_success": "2026-07-11T12:57:06.871456+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,251 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 122
+          "latency_ms": 111
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 179
+          "latency_ms": 111
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 96
+          "latency_ms": 176
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 305
+          "latency_ms": 221
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 14
+          "latency_ms": 81
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 150
+          "latency_ms": 68
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "cnbc": 8,
     "uw_news": 25,
     "zerohedge": 8,
     "marketwatch": 8,
     "reuters": 16,
-    "cnbc": 8,
-    "massive_news": 18,
+    "massive_news": 17,
     "seekingalpha": 7,
     "benzinga": 3,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "d9d248c2cbb1bc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:56:52Z",
+      "title": "$BTC.X \ud83d\udd3a\ud83e\udd71 I&#39;m bored \ud83d\udd3a\n$TSLA\n$SPY\n$DOGE.X \n$ETH.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658821362",
+      "author": "johnrivers0110",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T12:56:52Z",
+      "text": "$BTC.X \ud83d\udd3a\ud83e\udd71 I&#39;m bored \ud83d\udd3a\n$TSLA\n$SPY\n$DOGE.X \n$ETH.X",
+      "description": "",
+      "handle": "johnrivers0110",
+      "display_name": "John rivers",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f2915a2992ded6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:56:52Z",
+      "title": "$BTC.X \ud83d\udd3a\ud83e\udd71 I&#39;m bored \ud83d\udd3a\n$TSLA\n$SPY\n$DOGE.X \n$ETH.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658821362",
+      "author": "johnrivers0110",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T12:56:52Z",
+      "text": "$BTC.X \ud83d\udd3a\ud83e\udd71 I&#39;m bored \ud83d\udd3a\n$TSLA\n$SPY\n$DOGE.X \n$ETH.X",
+      "description": "",
+      "handle": "johnrivers0110",
+      "display_name": "John rivers",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2b725244e68f07",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:56:14Z",
+      "title": "$SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658821355",
+      "author": "freaky_nikki",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:56:14Z",
+      "text": "$SPY",
+      "description": "",
+      "handle": "freaky_nikki",
+      "display_name": "freaky_nikki",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b37c6302adeca3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:55:37Z",
+      "title": "Trader Lion Confrence starts today. No affiliation, actually got into an internet fight with one their tardio founders. all good tho, the interviews worth the watch, always learn something new. Think Richard is an awesome host! $SPY $QQQ $IWM  \n \nYoutube.Com/TraderLion",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658821346",
+      "author": "JFDI",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:55:37Z",
+      "text": "Trader Lion Confrence starts today. No affiliation, actually got into an internet fight with one their tardio founders. all good tho, the interviews worth the watch, always learn something new. Think Richard is an awesome host! $SPY $QQQ $IWM  \n \nYoutube.Com/TraderLion",
+      "description": "",
+      "handle": "JFDI",
+      "display_name": "Nicholas",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b7daa0bd07e6eb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:55:37Z",
+      "title": "Trader Lion Confrence starts today. No affiliation, actually got into an internet fight with one their tardio founders. all good tho, the interviews worth the watch, always learn something new. Think Richard is an awesome host! $SPY $QQQ $IWM  \n \nYoutube.Com/TraderLion",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658821346",
+      "author": "JFDI",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:55:37Z",
+      "text": "Trader Lion Confrence starts today. No affiliation, actually got into an internet fight with one their tardio founders. all good tho, the interviews worth the watch, always learn something new. Think Richard is an awesome host! $SPY $QQQ $IWM  \n \nYoutube.Com/TraderLion",
+      "description": "",
+      "handle": "JFDI",
+      "display_name": "Nicholas",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "af3acffc13d935",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:55:37Z",
+      "title": "Trader Lion Confrence starts today. No affiliation, actually got into an internet fight with one their tardio founders. all good tho, the interviews worth the watch, always learn something new. Think Richard is an awesome host! $SPY $QQQ $IWM  \n \nYoutube.Com/TraderLion",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/IWM/message/658821346",
+      "author": "JFDI",
+      "tickers": [
+        "IWM"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:55:37Z",
+      "text": "Trader Lion Confrence starts today. No affiliation, actually got into an internet fight with one their tardio founders. all good tho, the interviews worth the watch, always learn something new. Think Richard is an awesome host! $SPY $QQQ $IWM  \n \nYoutube.Com/TraderLion",
+      "description": "",
+      "handle": "JFDI",
+      "display_name": "Nicholas",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "31af18ad982b45",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:55:34Z",
+      "title": "$HOOD Stupid... $META $RDDT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658821343",
+      "author": "MiaHarperTrading",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:55:34Z",
+      "text": "$HOOD Stupid... $META $RDDT",
+      "description": "",
+      "handle": "MiaHarperTrading",
+      "display_name": "Mia Harper",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1a9f1c73c53eb9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T12:55:29Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X this is exactly what I&#39;m worried about and you&#39;re 100% right. I&#39;ve been looking at the news and I see it, it&#39;s disgusting, they&#39;re really trying to push this agenda of tokenization and stable coins. I hate it I swear to God. I don&#39;t want to have to ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658821341",
+      "author": "freaky_nikki",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T12:55:29Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X this is exactly what I&#39;m worried about and you&#39;re 100% right. I&#39;ve been looking at the news and I see it, it&#39;s disgusting, they&#39;re really trying to push this agenda of tokenization and stable coins. I hate it I swear to God. I don&#39;t want to have to ",
+      "description": "",
+      "handle": "freaky_nikki",
+      "display_name": "freaky_nikki",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cdbcd8f4b1db10",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 12:51:50 GMT",
+      "title": "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
+      "body": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
+      "url": "https://www.cnbc.com/2026/07/11/trump-threat.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 12.0,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 12:51:50 GMT",
+      "text": "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
+      "description": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president."
+    },
     {
       "id": "2860ebd224acc7",
       "source": "stocktwits",
@@ -269,52 +471,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "2133626454b282",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:46:46Z",
-      "title": "$SPY Borrowing 150% of interest payments every month.  That&#39;s insolvent.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658821203",
-      "author": "HIRISKtrades",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T12:46:46Z",
-      "text": "$SPY Borrowing 150% of interest payments every month.  That&#39;s insolvent.",
-      "description": "",
-      "handle": "HIRISKtrades",
-      "display_name": "A. N.",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "3fbae3e1b06197",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:46:45Z",
-      "title": "$SPCX all the gibberish, we all know it\u2019s a 5% move to the upside for 100% trade next week if you loaded calls at the close\u2026why so serious. This is a casino $SPY $QQQ \n\nFundamentals don\u2019t matter here. Folks writing all kind of bs about visons and valuations\u2026.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658821202",
-      "author": "Simon77",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T12:46:45Z",
-      "text": "$SPCX all the gibberish, we all know it\u2019s a 5% move to the upside for 100% trade next week if you loaded calls at the close\u2026why so serious. This is a casino $SPY $QQQ \n\nFundamentals don\u2019t matter here. Folks writing all kind of bs about visons and valuations\u2026.",
-      "description": "",
-      "handle": "Simon77",
-      "display_name": "Simon",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6a52fc8a543774",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -358,29 +514,6 @@
       "description": "",
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2b6248c8843a42",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:45:35Z",
-      "title": "$SPY 800 is coming sooner than exoected",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658821182",
-      "author": "balbud",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T12:45:35Z",
-      "text": "$SPY 800 is coming sooner than exoected",
-      "description": "",
-      "handle": "balbud",
-      "display_name": "Balbud",
       "platform": "stocktwits"
     },
     {
@@ -514,29 +647,6 @@
       "description": "",
       "handle": "MiaHarperTrading",
       "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "b8158e72cb5390",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:39:24Z",
-      "title": "$BTC.X $MSTR $ETH.X $XRP.X \n \ud83e\ude78\u2620\ufe0f\ud83e\ude78\u2620\ufe0f\ud83e\ude78$65000\ud83e\ude78\u2620\ufe0f\ud83e\ude78\u2620\ufe0f\ud83e\ude78",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658821077",
-      "author": "MichaelFailure",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T12:39:24Z",
-      "text": "$BTC.X $MSTR $ETH.X $XRP.X \n \ud83e\ude78\u2620\ufe0f\ud83e\ude78\u2620\ufe0f\ud83e\ude78$65000\ud83e\ude78\u2620\ufe0f\ud83e\ude78\u2620\ufe0f\ud83e\ude78",
-      "description": "",
-      "handle": "MichaelFailure",
-      "display_name": "Michael Failure",
       "platform": "stocktwits"
     },
     {
@@ -788,29 +898,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "52002c722286db",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:27:51Z",
-      "title": "$QQQ $SPY Michael Burry has going in on X.  Posting about the AI bubble.  AI bubble is completely unsustainable but these scam artists keep fueling media to get YOUR money in this bubble. Remember all these little cnbc monkeys who tell you to buy they are using OTHER PEOPLES money.  Do you think the",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658820898",
-      "author": "Stonethrower2",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-11T12:27:51Z",
-      "text": "$QQQ $SPY Michael Burry has going in on X.  Posting about the AI bubble.  AI bubble is completely unsustainable but these scam artists keep fueling media to get YOUR money in this bubble. Remember all these little cnbc monkeys who tell you to buy they are using OTHER PEOPLES money.  Do you think the",
-      "description": "",
-      "handle": "Stonethrower2",
-      "display_name": "John Stone",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6b97281f38b899",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1059,29 +1146,6 @@
       "author": "wallstreet_gangsta2",
       "tickers": [
         "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T12:09:01Z",
-      "text": "$SPY $META $AAPL thank you sir \ud83d\ude0e\ud83d\ude0e\ud83e\udd78\ud83e\udd78",
-      "description": "",
-      "handle": "wallstreet_gangsta2",
-      "display_name": "Fan",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "6a1c4cc794ed27",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T12:09:01Z",
-      "title": "$SPY $META $AAPL thank you sir \ud83d\ude0e\ud83d\ude0e\ud83e\udd78\ud83e\udd78",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658820614",
-      "author": "wallstreet_gangsta2",
-      "tickers": [
-        "META"
       ],
       "tags": [],
       "impact_score": 4.2,
@@ -1808,29 +1872,6 @@
       "description": "Afghan Asylum Seeker Walks Free After Sexually Assaulting Multiple Young Girls At German Pool\n\n            Authored by Steve Watson via Modernity News,\n\nA 21-year-old Afghan asylum seeker stands accused of sexually assaulting at least four girls between the ages of 12 and 14 at the Bud Spencer outdo"
     },
     {
-      "id": "d8ca1e64d9728e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T10:34:21Z",
-      "title": "Ethereum Co-founder Vitalik Buterin Wants Elon Musk And Mark Zuckerberg To Broker AI Peace Deals \u2014 Not Just Host The Debate\n\n$ETH.X $META $SPCX $TSLA $OPEAZZX.P\n\nhttps://stocktwits.com/news/equity/markets/vitalik-buterin-elon-musk-zuckerberg-x-meta-ai-peace-brokers/cZmueY5R78z",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658819522",
-      "author": "StocktwitsNews",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T10:34:21Z",
-      "text": "Ethereum Co-founder Vitalik Buterin Wants Elon Musk And Mark Zuckerberg To Broker AI Peace Deals \u2014 Not Just Host The Debate\n\n$ETH.X $META $SPCX $TSLA $OPEAZZX.P\n\nhttps://stocktwits.com/news/equity/markets/vitalik-buterin-elon-musk-zuckerberg-x-meta-ai-peace-brokers/cZmueY5R78z",
-      "description": "",
-      "handle": "StocktwitsNews",
-      "display_name": "Stocktwits News",
-      "platform": "stocktwits"
-    },
-    {
       "id": "250e7b1792c6db",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2181,24 +2222,6 @@
       "handle": "DIRTYCASH",
       "display_name": "C.Money",
       "platform": "stocktwits"
-    },
-    {
-      "id": "cdbcd8f4b1db10",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Sat, 11 Jul 2026 09:36:03 GMT",
-      "title": "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-      "body": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president.",
-      "url": "https://www.cnbc.com/2026/07/11/trump-threat.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 12.0,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "Sat, 11 Jul 2026 09:36:03 GMT",
-      "text": "Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier",
-      "description": "Trump says 1,000 missiles are \"locked and loaded\" and will hit Iran if it carries out its threats to assassinate the U.S. president."
     },
     {
       "id": "f77cc5b8d6e963",
@@ -2900,26 +2923,6 @@
       "description": "For years, AstraZeneca has commanded one of the richest valuations among large European pharma companies on the assumption that it consistently delivers results."
     },
     {
-      "id": "2bf182612406e7",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-11T04:54:00Z",
-      "title": "\u05d7\u05d3\u05e9\u05d5\u05ea \u05dc\u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d1- GIL: \u05d0\u05dd \u05e1\u05d1\u05dc\u05ea\u05dd \u05d4\u05e4\u05e1\u05d3\u05d9\u05dd \u05d1- Gildan Activewear Inc. (NYSE: GIL), \u05d0\u05ea\u05dd \u05de\u05d5\u05d6\u05de\u05e0\u05d9\u05dd \u05dc\u05d9\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8 \u05e2\u05dd \u05de\u05e9\u05e8\u05d3 \u05e8\u05d5\u05d6\u05df \u05e2\u05d5\u05e8\u05db\u05d9 \u05d4\u05d3\u05d9\u05df \u05d1\u05e0\u05d5\u05d2\u05e2 \u05dc\u05d6\u05db\u05d5\u05d9\u05d5\u05ea\u05d9\u05db\u05dd",
-      "body": "The Rosen Law Firm is investigating potential securities claims against Gildan Activewear Inc. following allegations of materially misleading business disclosures. On June 16, 2026, a short report by Jehoshaphat Research questioned the company's organic growth and sales practices, alleging that nega",
-      "url": "https://www.globenewswire.com/news-release/2026/07/11/3325792/673/he/%D7%97%D7%93%D7%A9%D7%95%D7%AA-%D7%9C%D7%9E%D7%A9%D7%A7%D7%99%D7%A2%D7%99%D7%9D-%D7%91-GIL-%D7%90%D7%9D-%D7%A1%D7%91%D7%9C%D7%AA%D7%9D-%D7%94%D7%A4%D7%A1%D7%93%D7%99%D7%9D-%D7%91-Gildan-Activewear-Inc-NYSE-GIL-%D7%90%D7%AA%D7%9D-%D7%9E%D7%95%D7%96%D7%9E%D7%A0%D7%99%D7%9D-%D7%9C%D7%99%D7%A6%D7%95%D7%A8-%D7%A7%D7%A9%D7%A8-%D7%A2%D7%9D-%D7%9E%D7%A9%D7%A8%D7%93-%D7%A8%D7%95%D7%96%D7%9F-%D7%A2%D7%95%D7%A8%D7%9B%D7%99-%D7%94%D7%93%D7%99%D7%9F-%D7%91%D7%A0%D7%95%D7%92%D7%A2-%D7%9C%D7%96%D7%9B%D7%95%D7%99%D7%95%D7%AA%D7%99%D7%9B%D7%9D.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "GIL"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T04:54:00Z",
-      "text": "\u05d7\u05d3\u05e9\u05d5\u05ea \u05dc\u05de\u05e9\u05e7\u05d9\u05e2\u05d9\u05dd \u05d1- GIL: \u05d0\u05dd \u05e1\u05d1\u05dc\u05ea\u05dd \u05d4\u05e4\u05e1\u05d3\u05d9\u05dd \u05d1- Gildan Activewear Inc. (NYSE: GIL), \u05d0\u05ea\u05dd \u05de\u05d5\u05d6\u05de\u05e0\u05d9\u05dd \u05dc\u05d9\u05e6\u05d5\u05e8 \u05e7\u05e9\u05e8 \u05e2\u05dd \u05de\u05e9\u05e8\u05d3 \u05e8\u05d5\u05d6\u05df \u05e2\u05d5\u05e8\u05db\u05d9 \u05d4\u05d3\u05d9\u05df \u05d1\u05e0\u05d5\u05d2\u05e2 \u05dc\u05d6\u05db\u05d5\u05d9\u05d5\u05ea\u05d9\u05db\u05dd",
-      "description": "The Rosen Law Firm is investigating potential securities claims against Gildan Activewear Inc. following allegations of materially misleading business disclosures. On June 16, 2026, a short report by Jehoshaphat Research questioned the company's organic growth and sales practices, alleging that nega"
-    },
-    {
       "id": "15a98dd6cb2437",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -3097,29 +3100,6 @@
       "description": "",
       "handle": "UCIdidmyDD",
       "display_name": "JMR",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5810a5f6bb8c9a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T02:44:05Z",
-      "title": "$SPY $IWM $QQQ beautifully stated. \ud83d\udc47",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/IWM/message/658815333",
-      "author": "HedgedLongTermInvestor",
-      "tickers": [
-        "IWM"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T02:44:05Z",
-      "text": "$SPY $IWM $QQQ beautifully stated. \ud83d\udc47",
-      "description": "",
-      "handle": "HedgedLongTermInvestor",
-      "display_name": "Mr. Nonyer Business",
       "platform": "stocktwits"
     },
     {
