@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T15:17:07Z",
-  "generated_display": "2026-07-11 15:17 ET",
+  "generated": "2026-07-11T15:22:06Z",
+  "generated_display": "2026-07-11 15:22 ET",
   "count": 180,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T15:17:02.170446+00:00",
+      "last_error_ts": "2026-07-11T15:22:01.501553+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 99,
-      "last_success": "2026-07-11T15:17:02.271144+00:00",
+      "latency_ms": 170,
+      "last_success": "2026-07-11T15:22:01.672963+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 98,
-      "last_success": "2026-07-11T15:17:02.370724+00:00",
+      "latency_ms": 97,
+      "last_success": "2026-07-11T15:22:01.771233+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 28,
-      "latency_ms": 99,
-      "last_success": "2026-07-11T15:17:02.471813+00:00",
+      "latency_ms": 30,
+      "last_success": "2026-07-11T15:22:01.871096+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T15:17:02.578794+00:00",
+      "last_error_ts": "2026-07-11T15:22:01.907667+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1791,
-      "last_success": "2026-07-11T15:17:04.370795+00:00",
+      "latency_ms": 2163,
+      "last_success": "2026-07-11T15:22:04.071041+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T15:17:05.570444+00:00",
+      "last_success": "2026-07-11T15:22:04.970382+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1655,
-      "last_success": "2026-07-11T15:17:07.226141+00:00",
+      "latency_ms": 1799,
+      "last_success": "2026-07-11T15:22:06.769756+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,27 +74,27 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 210
+          "latency_ms": 204
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 288
+          "latency_ms": 110
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 100
+          "latency_ms": 102
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 328
+          "latency_ms": 285
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 172
+          "latency_ms": 97
         },
         "investing_com": {
           "status": "healthy",
@@ -106,9 +106,9 @@
   },
   "by_source": {
     "stocktwits": 75,
+    "reuters": 16,
     "marketwatch": 8,
     "cnbc": 8,
-    "reuters": 16,
     "massive_news": 28,
     "uw_news": 25,
     "zerohedge": 8,
@@ -117,6 +117,236 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "0f500d9f823bca",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:21:44Z",
+      "title": "$NVDA  The AI infrastructure demand remains strong. Pullbacks are proving to be buying opportunities for long-term growth. #AI #GrowthStocks",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658824418",
+      "author": "NicholasRob031",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:21:44Z",
+      "text": "$NVDA  The AI infrastructure demand remains strong. Pullbacks are proving to be buying opportunities for long-term growth. #AI #GrowthStocks",
+      "description": "",
+      "handle": "NicholasRob031",
+      "display_name": "Nicholas Robinson",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "db7a48f4a3cac8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:21:24Z",
+      "title": "$SPY $SPX $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658824406",
+      "author": "Tell_It_Like_It_Is",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T15:21:24Z",
+      "text": "$SPY $SPX $QQQ",
+      "description": "",
+      "handle": "Tell_It_Like_It_Is",
+      "display_name": "Straight_Forward",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "882db77eba727f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:21:24Z",
+      "title": "$SPY $SPX $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658824406",
+      "author": "Tell_It_Like_It_Is",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T15:21:24Z",
+      "text": "$SPY $SPX $QQQ",
+      "description": "",
+      "handle": "Tell_It_Like_It_Is",
+      "display_name": "Straight_Forward",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d5024a337d60df",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:20:59Z",
+      "title": "$MSFT $350 next week. \nhuge tumble on ER day to come. \nIn terrible shape",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658824392",
+      "author": "MountCapital",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-11T15:20:59Z",
+      "text": "$MSFT $350 next week. \nhuge tumble on ER day to come. \nIn terrible shape",
+      "description": "",
+      "handle": "MountCapital",
+      "display_name": "BOB JOE",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "929ebb32db21a0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:20:27Z",
+      "title": "$AMD $MU $NVDA $RKLB $SNDK oldest and dumbest statement ever said. jmo",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658824375",
+      "author": "TheStickMan",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:20:27Z",
+      "text": "$AMD $MU $NVDA $RKLB $SNDK oldest and dumbest statement ever said. jmo",
+      "description": "",
+      "handle": "TheStickMan",
+      "display_name": "Moon",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8824bd20613c02",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:20:27Z",
+      "title": "$AMD $MU $NVDA $RKLB $SNDK oldest and dumbest statement ever said. jmo",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658824375",
+      "author": "TheStickMan",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:20:27Z",
+      "text": "$AMD $MU $NVDA $RKLB $SNDK oldest and dumbest statement ever said. jmo",
+      "description": "",
+      "handle": "TheStickMan",
+      "display_name": "Moon",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cf224e1f8534dc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:20:23Z",
+      "title": "$META below $600 next week",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658824373",
+      "author": "MountCapital",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-11T15:20:23Z",
+      "text": "$META below $600 next week",
+      "description": "",
+      "handle": "MountCapital",
+      "display_name": "BOB JOE",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "83b56b67dc5ccc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:18:04Z",
+      "title": "David Steinberg makes an interesting distinction: LLMs may become the foundation, but inference is where durable value gets created. \n \nThe edge won&#39;t come from using the same models as everyone else. It comes from combining proprietary data, domain expertise, and scalable compute to make better",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658824313",
+      "author": "GoldenGateGamma",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:18:04Z",
+      "text": "David Steinberg makes an interesting distinction: LLMs may become the foundation, but inference is where durable value gets created. \n \nThe edge won&#39;t come from using the same models as everyone else. It comes from combining proprietary data, domain expertise, and scalable compute to make better",
+      "description": "",
+      "handle": "GoldenGateGamma",
+      "display_name": "Victoria Wyatt",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3a22901fcba0dc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:18:03Z",
+      "title": "$NVDA Boys, the next unfilled gap on this security was created on May 14th at 235.47  --- 232.28 on June 2nd, this gap will be filled like all the others, this time the period will be shorter because of the  increased volume and momentum  this security has  gained over the last couple of weeks, BOOK",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658824311",
+      "author": "rndyjensen",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T15:18:03Z",
+      "text": "$NVDA Boys, the next unfilled gap on this security was created on May 14th at 235.47  --- 232.28 on June 2nd, this gap will be filled like all the others, this time the period will be shorter because of the  increased volume and momentum  this security has  gained over the last couple of weeks, BOOK",
+      "description": "",
+      "handle": "rndyjensen",
+      "display_name": "randy jensen",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e20e10ab553eb9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T15:17:16Z",
+      "title": "$MU $SPY @Micron_MEGALODON but the media paints him out to be such a horrible person and criminal and everyone loves believing everything the news says but not the internet right? give me a break. see all the flat earth stuff in front of our noses. look up \u201cworld cup flat earth\u201d lol. bullish on micr",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658824294",
+      "author": "Roshyy",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T15:17:16Z",
+      "text": "$MU $SPY @Micron_MEGALODON but the media paints him out to be such a horrible person and criminal and everyone loves believing everything the news says but not the internet right? give me a break. see all the flat earth stuff in front of our noses. look up \u201cworld cup flat earth\u201d lol. bullish on micr",
+      "description": "",
+      "handle": "Roshyy",
+      "display_name": "Joshua",
+      "platform": "stocktwits"
+    },
     {
       "id": "cb11e570c97500",
       "source": "stocktwits",
@@ -256,29 +486,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "f3d5edcdfe4e3e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T15:15:10Z",
-      "title": "$SPY $QQQ $IWM",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658824234",
-      "author": "PivotPoint_101",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T15:15:10Z",
-      "text": "$SPY $QQQ $IWM",
-      "description": "",
-      "handle": "PivotPoint_101",
-      "display_name": "Brian P.",
-      "platform": "stocktwits"
-    },
-    {
       "id": "bd760dec1d5a7e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -322,29 +529,6 @@
       "description": "",
       "handle": "PivotPoint_101",
       "display_name": "Brian P.",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "008170d675702e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T15:15:01Z",
-      "title": "$SPY  red days don\u2019t bother me anymore. if you pick quality businesses you sleep fine at night. chill weekend yall",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658824228",
-      "author": "Anne886",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T15:15:01Z",
-      "text": "$SPY  red days don\u2019t bother me anymore. if you pick quality businesses you sleep fine at night. chill weekend yall",
-      "description": "",
-      "handle": "Anne886",
-      "display_name": "Anne Morgan",
       "platform": "stocktwits"
     },
     {
@@ -647,29 +831,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "684a909bcaff9a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T15:07:04Z",
-      "title": "$BTC.X again, buy the dip... $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658824022",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T15:07:04Z",
-      "text": "$BTC.X again, buy the dip... $QQQ",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
       "id": "cc60b464d04ab8",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -691,6 +852,24 @@
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
       "platform": "stocktwits"
+    },
+    {
+      "id": "b3fd1919c0b141",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11 15:06:25",
+      "title": "US Democrat Ro Khanna detained by Israeli settlers during West Bank visit",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/us-democrat-ro-khanna-detained-by-israeli-settlers-during-west-bank-visit-4787240",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11 15:06:25",
+      "text": "US Democrat Ro Khanna detained by Israeli settlers during West Bank visit",
+      "description": ""
     },
     {
       "id": "4af114c9b5d41b",
@@ -739,29 +918,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "9a5405b0bc840d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T15:04:03Z",
-      "title": "$BTC.X $MU $NVDA $SPY $TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658823943",
-      "author": "indyrestore",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T15:04:03Z",
-      "text": "$BTC.X $MU $NVDA $SPY $TSLA",
-      "description": "",
-      "handle": "indyrestore",
-      "display_name": "Jason Blankenship",
-      "platform": "stocktwits"
-    },
-    {
       "id": "588c72a5c8be4e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -782,29 +938,6 @@
       "description": "",
       "handle": "indyrestore",
       "display_name": "Jason Blankenship",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "75e9f10f152c19",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T15:02:48Z",
-      "title": "$AMD $MU $NVDA $RKLB $SNDK \nThe market is an efficient method of transferring wealth from the impatient to the patient.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658823908",
-      "author": "akroller",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T15:02:48Z",
-      "text": "$AMD $MU $NVDA $RKLB $SNDK \nThe market is an efficient method of transferring wealth from the impatient to the patient.",
-      "description": "",
-      "handle": "akroller",
-      "display_name": "Alan Kroller",
       "platform": "stocktwits"
     },
     {
@@ -854,27 +987,22 @@
       "platform": "stocktwits"
     },
     {
-      "id": "bd3df5c718aedd",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T15:01:21Z",
-      "title": "$NVDA and $MU may account for roughly 33%-39% of S&amp;P 500 earnings growth, depending on the source. \n \nIf that holds, the tape is still being driven by AI semis. Big concentration, big impact. $SPY $QQQ",
+      "id": "200f4545dc6c58",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11T15:01:59Z",
+      "title": "TruBridge Stockholders Approve IKS Merger at Special Meeting",
       "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658823882",
-      "author": "GrowthCapitall",
-      "tickers": [
-        "NVDA"
-      ],
+      "url": "https://finance.yahoo.com/markets/stocks/articles/trubridge-stockholders-approve-iks-merger-150159691.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 4.6,
+      "impact_score": 9.5,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-11T15:01:21Z",
-      "text": "$NVDA and $MU may account for roughly 33%-39% of S&amp;P 500 earnings growth, depending on the source. \n \nIf that holds, the tape is still being driven by AI semis. Big concentration, big impact. $SPY $QQQ",
-      "description": "",
-      "handle": "GrowthCapitall",
-      "display_name": "annette taylor",
-      "platform": "stocktwits"
+      "time": "2026-07-11T15:01:59Z",
+      "text": "TruBridge Stockholders Approve IKS Merger at Special Meeting",
+      "description": ""
     },
     {
       "id": "8c44064fd9af84",
@@ -918,29 +1046,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "c346c67776bba6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T15:00:35Z",
-      "title": "$NVDA 3 Stocks That Crushed Nvidia With 300% or More Gains Over the Past Year \n \nhttps://marketwirenews.com/stock/nvda/news/3-stocks-that-crushed-nvidia-with-300-or-more-gains--5446702504231500.html?utm_source=stocktwits",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658823869",
-      "author": "LewisDaKat",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T15:00:35Z",
-      "text": "$NVDA 3 Stocks That Crushed Nvidia With 300% or More Gains Over the Past Year \n \nhttps://marketwirenews.com/stock/nvda/news/3-stocks-that-crushed-nvidia-with-300-or-more-gains--5446702504231500.html?utm_source=stocktwits",
-      "description": "",
-      "handle": "LewisDaKat",
-      "display_name": "Katherine Lewis",
-      "platform": "stocktwits"
-    },
-    {
       "id": "41c27c0e851202",
       "source": "cnbc",
       "source_type": "rss",
@@ -975,6 +1080,24 @@
       "time": "Sat, 11 Jul 2026 15:00:00 GMT",
       "text": "\u2018I\u2019ve plenty of time on my hands\u2019: Advisers bombard me with offers of free steak dinners. Is it wrong to go for the food?",
       "description": "\u201cI get hungry for a meal at a good restaurant.\u201d"
+    },
+    {
+      "id": "52a5210ce7352a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11 14:58:52",
+      "title": "China halts helium exports as renewed Middle East tensions threaten chip supplies",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/china-halts-helium-exports-as-renewed-middle-east-tensions-threaten-chip-supplies-4787283",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11 14:58:52",
+      "text": "China halts helium exports as renewed Middle East tensions threaten chip supplies",
+      "description": ""
     },
     {
       "id": "4ed6758ab78d6d",
@@ -1138,6 +1261,24 @@
       "platform": "stocktwits"
     },
     {
+      "id": "6faefcc20498c5",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11 14:54:26",
+      "title": "Six dead, dozens wounded as Russia strikes Ukraine with missiles, drones",
+      "body": "",
+      "url": "https://www.investing.com/news/world-news/two-dead-19-wounded-as-russia-strikes-ukraine-with-missiles-drones-4787226",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11 14:54:26",
+      "text": "Six dead, dozens wounded as Russia strikes Ukraine with missiles, drones",
+      "description": ""
+    },
+    {
       "id": "6f6383548c24ae",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1159,24 +1300,6 @@
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
       "platform": "stocktwits"
-    },
-    {
-      "id": "60d3f18084cc09",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11T14:53:01Z",
-      "title": "ICONIQ Buys Another 610,000 Netskope Shares. What Does This Multi-Million-Dollar Buy Mean for Investors?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/iconiq-buys-another-610-000-145301545.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:53:01Z",
-      "text": "ICONIQ Buys Another 610,000 Netskope Shares. What Does This Multi-Million-Dollar Buy Mean for Investors?",
-      "description": ""
     },
     {
       "id": "e3f8bffddb8887",
@@ -1248,29 +1371,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "e180997dce16e2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:48:15Z",
-      "title": "$AMD reason for buying here??",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658823554",
-      "author": "Judy11",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:48:15Z",
-      "text": "$AMD reason for buying here??",
-      "description": "",
-      "handle": "Judy11",
-      "display_name": "Judith",
-      "platform": "stocktwits"
-    },
-    {
       "id": "65f2d5b01f2f18",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1314,29 +1414,6 @@
       "description": "",
       "handle": "harmongreg",
       "display_name": "Greg Harmon",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "9d48461489965a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:44:40Z",
-      "title": "$META not buying here. Only at 580",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658823463",
-      "author": "Judy11",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T14:44:40Z",
-      "text": "$META not buying here. Only at 580",
-      "description": "",
-      "handle": "Judy11",
-      "display_name": "Judith",
       "platform": "stocktwits"
     },
     {
@@ -1662,29 +1739,6 @@
       "time": "2026-07-11T14:22:54Z",
       "text": "Rollins (ROL) Names William Harkins as CFO Following Kenneth Krause Resignation",
       "description": ""
-    },
-    {
-      "id": "0097083524c07c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T14:19:09Z",
-      "title": "$MSFT $379 on Monday on openAI news",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658822885",
-      "author": "NetflixUser",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-11T14:19:09Z",
-      "text": "$MSFT $379 on Monday on openAI news",
-      "description": "",
-      "handle": "NetflixUser",
-      "display_name": "Henry",
-      "platform": "stocktwits"
     },
     {
       "id": "f46071fbab66ca",
@@ -2866,24 +2920,6 @@
       "description": "Finding a job was easy a few years ago. Now, Americans are worried about their job prospects, even though the unemployment rate is historically low."
     },
     {
-      "id": "d1382d49c244fc",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11 12:25:07",
-      "title": "Corporate America offers stronger proof AI is boosting profits, productivity: MS",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/corporate-america-offers-stronger-proof-ai-is-boosting-profits-productivity-ms-4787269",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11 12:25:07",
-      "text": "Corporate America offers stronger proof AI is boosting profits, productivity: MS",
-      "description": ""
-    },
-    {
       "id": "d751bbef733d9f",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2958,24 +2994,6 @@
       "sentiment": "neutral",
       "time": "2026-07-11T12:08:50Z",
       "text": "Fed likely to hold in July at 78% odds, stocks inch up with AI winners; Treasury yields rise before bank earnings.",
-      "description": ""
-    },
-    {
-      "id": "9f3d3038aed112",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11 12:07:18",
-      "title": "China tells refiners to keep fuel output high as Iran conflict threatens supply",
-      "body": "",
-      "url": "https://www.investing.com/news/commodities-news/china-tells-refiners-to-keep-fuel-output-high-as-iran-conflict-threatens-supply-4787257",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11 12:07:18",
-      "text": "China tells refiners to keep fuel output high as Iran conflict threatens supply",
       "description": ""
     },
     {
@@ -3067,24 +3085,6 @@
       "time": "Sat, 11 Jul 2026 12:00:01 GMT",
       "text": "A tiny GLP-1 implant is the latest bet to help patients maintain their weight loss",
       "description": "Vivani Medical is developing an implant of semaglutide, the active ingredient in Novo Nordisk's obesity injection Wegovy and diabetes counterpart Ozempic."
-    },
-    {
-      "id": "f5a47b38e3bab9",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11 11:57:59",
-      "title": "Jefferies flags buying opportunities as Iran conflict reshapes European energy",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/jefferies-flags-buying-opportunities-as-iran-conflict-reshapes-european-energy-4787254",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11 11:57:59",
-      "text": "Jefferies flags buying opportunities as Iran conflict reshapes European energy",
-      "description": ""
     },
     {
       "id": "cf650593c042db",
