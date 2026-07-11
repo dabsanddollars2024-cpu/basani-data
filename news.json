@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T20:12:07Z",
-  "generated_display": "2026-07-11 20:12 ET",
+  "generated": "2026-07-11T20:17:06Z",
+  "generated_display": "2026-07-11 20:17 ET",
   "count": 184,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T20:12:01.832792+00:00",
+      "last_error_ts": "2026-07-11T20:17:01.808931+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 140,
-      "last_success": "2026-07-11T20:12:01.973675+00:00",
+      "latency_ms": 162,
+      "last_success": "2026-07-11T20:17:01.971840+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 56,
-      "last_success": "2026-07-11T20:12:02.071255+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-11T20:17:02.072014+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 32,
-      "latency_ms": 100,
-      "last_success": "2026-07-11T20:12:02.173250+00:00",
+      "latency_ms": 32,
+      "last_success": "2026-07-11T20:17:02.172166+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T20:12:02.207678+00:00",
+      "last_error_ts": "2026-07-11T20:17:02.283181+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2363,
-      "last_success": "2026-07-11T20:12:04.571612+00:00",
+      "latency_ms": 1672,
+      "last_success": "2026-07-11T20:17:03.955756+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T20:12:05.278459+00:00",
+      "last_success": "2026-07-11T20:17:04.771672+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1959,
-      "last_success": "2026-07-11T20:12:07.238209+00:00",
+      "latency_ms": 1929,
+      "last_success": "2026-07-11T20:17:06.701721+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 111
+          "latency_ms": 153
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 37
+          "latency_ms": 162
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 150
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 203
+          "latency_ms": 207
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 10
+          "latency_ms": 17
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 192
+          "latency_ms": 175
         }
       }
     }
@@ -118,26 +118,371 @@
   },
   "items": [
     {
-      "id": "7f97a845ba8006",
+      "id": "717d5727ce4e72",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-11T20:11:38Z",
-      "title": "$QQQ $SPY Yep, very big impact! GL",
+      "timestamp": "2026-07-11T20:16:05Z",
+      "title": "$TSLA",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658830789",
-      "author": "Neotrin",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658830879",
+      "author": "GoingDark",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:16:05Z",
+      "text": "$TSLA",
+      "description": "",
+      "handle": "GoingDark",
+      "display_name": "Going Dark",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "40633fc261a200",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:15:08Z",
+      "title": "$SPY $QQQ $DJT can someone explain to me why the muslim dream is coming to the free world and making it an islamic shithole?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658830863",
+      "author": "OMNIFALL",
       "tickers": [
         "SPY"
       ],
       "tags": [],
       "impact_score": 3.8,
       "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-11T20:11:38Z",
-      "text": "$QQQ $SPY Yep, very big impact! GL",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:15:08Z",
+      "text": "$SPY $QQQ $DJT can someone explain to me why the muslim dream is coming to the free world and making it an islamic shithole?",
       "description": "",
-      "handle": "Neotrin",
-      "display_name": "Neo and Trinity",
+      "handle": "OMNIFALL",
+      "display_name": "OMNIFALL",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "daad5fea934f2b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:15:08Z",
+      "title": "$SPY $QQQ $DJT can someone explain to me why the muslim dream is coming to the free world and making it an islamic shithole?",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658830863",
+      "author": "OMNIFALL",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:15:08Z",
+      "text": "$SPY $QQQ $DJT can someone explain to me why the muslim dream is coming to the free world and making it an islamic shithole?",
+      "description": "",
+      "handle": "OMNIFALL",
+      "display_name": "OMNIFALL",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "19635e168acfa8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:14:21Z",
+      "title": "$PLTR is the #1 Ai SaaS story on the planet!!! \nWe just replaced $MSFT at $DELL for their Sovereign and Enterprise STACK!!! \n$SPY $NVDA on the chips!!! \n \nUSA \ud83c\uddfa\ud83c\uddf8 ARMY $10 BILLION WENT TO PLTR!!! \nhttps://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658830849",
+      "author": "AshHydrogen",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:14:21Z",
+      "text": "$PLTR is the #1 Ai SaaS story on the planet!!! \nWe just replaced $MSFT at $DELL for their Sovereign and Enterprise STACK!!! \n$SPY $NVDA on the chips!!! \n \nUSA \ud83c\uddfa\ud83c\uddf8 ARMY $10 BILLION WENT TO PLTR!!! \nhttps://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system/",
+      "description": "",
+      "handle": "AshHydrogen",
+      "display_name": "Ashley Wolter",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8960690a521d06",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:14:21Z",
+      "title": "$PLTR is the #1 Ai SaaS story on the planet!!! \nWe just replaced $MSFT at $DELL for their Sovereign and Enterprise STACK!!! \n$SPY $NVDA on the chips!!! \n \nUSA \ud83c\uddfa\ud83c\uddf8 ARMY $10 BILLION WENT TO PLTR!!! \nhttps://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658830849",
+      "author": "AshHydrogen",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:14:21Z",
+      "text": "$PLTR is the #1 Ai SaaS story on the planet!!! \nWe just replaced $MSFT at $DELL for their Sovereign and Enterprise STACK!!! \n$SPY $NVDA on the chips!!! \n \nUSA \ud83c\uddfa\ud83c\uddf8 ARMY $10 BILLION WENT TO PLTR!!! \nhttps://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system/",
+      "description": "",
+      "handle": "AshHydrogen",
+      "display_name": "Ashley Wolter",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1fd7b82bad02e6",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:14:21Z",
+      "title": "$PLTR is the #1 Ai SaaS story on the planet!!! \nWe just replaced $MSFT at $DELL for their Sovereign and Enterprise STACK!!! \n$SPY $NVDA on the chips!!! \n \nUSA \ud83c\uddfa\ud83c\uddf8 ARMY $10 BILLION WENT TO PLTR!!! \nhttps://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658830849",
+      "author": "AshHydrogen",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:14:21Z",
+      "text": "$PLTR is the #1 Ai SaaS story on the planet!!! \nWe just replaced $MSFT at $DELL for their Sovereign and Enterprise STACK!!! \n$SPY $NVDA on the chips!!! \n \nUSA \ud83c\uddfa\ud83c\uddf8 ARMY $10 BILLION WENT TO PLTR!!! \nhttps://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system/",
+      "description": "",
+      "handle": "AshHydrogen",
+      "display_name": "Ashley Wolter",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d2d8b7c638d186",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:14:21Z",
+      "title": "$PLTR is the #1 Ai SaaS story on the planet!!! \nWe just replaced $MSFT at $DELL for their Sovereign and Enterprise STACK!!! \n$SPY $NVDA on the chips!!! \n \nUSA \ud83c\uddfa\ud83c\uddf8 ARMY $10 BILLION WENT TO PLTR!!! \nhttps://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system/",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658830849",
+      "author": "AshHydrogen",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:14:21Z",
+      "text": "$PLTR is the #1 Ai SaaS story on the planet!!! \nWe just replaced $MSFT at $DELL for their Sovereign and Enterprise STACK!!! \n$SPY $NVDA on the chips!!! \n \nUSA \ud83c\uddfa\ud83c\uddf8 ARMY $10 BILLION WENT TO PLTR!!! \nhttps://www.dell.com/en-us/blog/dell-and-palantir-introduce-an-on-premises-ai-operating-system/",
+      "description": "",
+      "handle": "AshHydrogen",
+      "display_name": "Ashley Wolter",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bd6ae2a280ce5c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:13:55Z",
+      "title": "Master Repeatable Mid-Day Curls With Ripster Clouds $AMD $AAOI $BE $CRWV $ASTS \n  \nWatch this video to learn how to find such swing trade opportunities and repeatable swing setups \n \nhttps://x.com/TENETTRADEGROUP/status/2076033912304742581?s=20",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658830837",
+      "author": "ripster47",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:13:55Z",
+      "text": "Master Repeatable Mid-Day Curls With Ripster Clouds $AMD $AAOI $BE $CRWV $ASTS \n  \nWatch this video to learn how to find such swing trade opportunities and repeatable swing setups \n \nhttps://x.com/TENETTRADEGROUP/status/2076033912304742581?s=20",
+      "description": "",
+      "handle": "ripster47",
+      "display_name": "Ripster , Tenet Trade Group",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "a66c11c1b79bcc",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:13:44Z",
+      "title": "$SPY When you do not put TRAITORS DOWN it spreads like a CANCER. \n\nOBAMA\nHILLARY \nCONGRESS OPEN BORDER\nMINNESOTA Tim &amp; State Congress\nGAVIN\nMedia Board Members\n\nEntire LIST you posses must be delivered so a message can be sent to all Traitors who have come for us repeatedly.\n\nZERO TOLERANCE.\n\nSo",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658830829",
+      "author": "ihuntbiggame",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:13:44Z",
+      "text": "$SPY When you do not put TRAITORS DOWN it spreads like a CANCER. \n\nOBAMA\nHILLARY \nCONGRESS OPEN BORDER\nMINNESOTA Tim &amp; State Congress\nGAVIN\nMedia Board Members\n\nEntire LIST you posses must be delivered so a message can be sent to all Traitors who have come for us repeatedly.\n\nZERO TOLERANCE.\n\nSo",
+      "description": "",
+      "handle": "ihuntbiggame",
+      "display_name": "ihuntbiggame",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6c897e332e9bb8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:13:18Z",
+      "title": "$META $GOOG $ORCL only a complete idiot would utter the words so what like this ass wipe",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658830815",
+      "author": "JUST_FACTSSS",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T20:13:18Z",
+      "text": "$META $GOOG $ORCL only a complete idiot would utter the words so what like this ass wipe",
+      "description": "",
+      "handle": "JUST_FACTSSS",
+      "display_name": "ODEN",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f506bdfc32cc50",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:13:02Z",
+      "title": "$MSFT down to $384 on hyper liquid! Monday should be bloody",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658830811",
+      "author": "NetflixUser",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-11T20:13:02Z",
+      "text": "$MSFT down to $384 on hyper liquid! Monday should be bloody",
+      "description": "",
+      "handle": "NetflixUser",
+      "display_name": "Henry",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f7adcbee07bc7c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:12:35Z",
+      "title": "$TSLA dumping continues before ER",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658830806",
+      "author": "Bazziggr",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-11T20:12:35Z",
+      "text": "$TSLA dumping continues before ER",
+      "description": "",
+      "handle": "Bazziggr",
+      "display_name": "SJ",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "da2f7ada295db5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:12:30Z",
+      "title": "$SPY I&#39;m the king you all sh5be scared of when I speak the words\n\nWe are going to dump like a big turd after a sesh all dence and dry a big splash keeps sinking \n. stinks the room out because the toilet has been nested up with paper and it&#39;s not hitting the pan ...\n\nBe careful",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658830803",
+      "author": "FIBKiNG1618",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-11T20:12:30Z",
+      "text": "$SPY I&#39;m the king you all sh5be scared of when I speak the words\n\nWe are going to dump like a big turd after a sesh all dence and dry a big splash keeps sinking \n. stinks the room out because the toilet has been nested up with paper and it&#39;s not hitting the pan ...\n\nBe careful",
+      "description": "",
+      "handle": "FIBKiNG1618",
+      "display_name": "bobbybignuts",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "fa5332b9b7cca2",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:12:13Z",
+      "title": "$SPY $QQQ $MU $SNDK $NVDA \n\nSCUMBAG RETAIL BEARS WILL BE  POUNDED!!\n\nALL!!! WEEK!!! LONG!!!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658830798",
+      "author": "Slippery_Steve",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T20:12:13Z",
+      "text": "$SPY $QQQ $MU $SNDK $NVDA \n\nSCUMBAG RETAIL BEARS WILL BE  POUNDED!!\n\nALL!!! WEEK!!! LONG!!!!",
+      "description": "",
+      "handle": "Slippery_Steve",
+      "display_name": "Steve Glazzy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "85ad037eea4961",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:12:13Z",
+      "title": "$SPY $QQQ $MU $SNDK $NVDA \n\nSCUMBAG RETAIL BEARS WILL BE  POUNDED!!\n\nALL!!! WEEK!!! LONG!!!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658830798",
+      "author": "Slippery_Steve",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T20:12:13Z",
+      "text": "$SPY $QQQ $MU $SNDK $NVDA \n\nSCUMBAG RETAIL BEARS WILL BE  POUNDED!!\n\nALL!!! WEEK!!! LONG!!!!",
+      "description": "",
+      "handle": "Slippery_Steve",
+      "display_name": "Steve Glazzy",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4fe4fb103db31d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T20:12:13Z",
+      "title": "$SPY $QQQ $MU $SNDK $NVDA \n\nSCUMBAG RETAIL BEARS WILL BE  POUNDED!!\n\nALL!!! WEEK!!! LONG!!!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658830798",
+      "author": "Slippery_Steve",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T20:12:13Z",
+      "text": "$SPY $QQQ $MU $SNDK $NVDA \n\nSCUMBAG RETAIL BEARS WILL BE  POUNDED!!\n\nALL!!! WEEK!!! LONG!!!!",
+      "description": "",
+      "handle": "Slippery_Steve",
+      "display_name": "Steve Glazzy",
       "platform": "stocktwits"
     },
     {
@@ -164,52 +509,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "72a30980f90008",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:10:43Z",
-      "title": "$SPY $BTC.X $DJT Israel is a cancer and has no right to exist. Have a good weekend folks.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658830773",
-      "author": "Again1220",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:10:43Z",
-      "text": "$SPY $BTC.X $DJT Israel is a cancer and has no right to exist. Have a good weekend folks.",
-      "description": "",
-      "handle": "Again1220",
-      "display_name": "Again1220",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "04c293f6dbc7c7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:10:27Z",
-      "title": "$SPY how to earn money? Hard work $RDDT $META $BTC.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658830766",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:10:27Z",
-      "text": "$SPY how to earn money? Hard work $RDDT $META $BTC.X",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
       "id": "887a2e5e1bb3bb",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -230,29 +529,6 @@
       "description": "",
       "handle": "MiaHarperTrading",
       "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "45911e0898590e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:09:46Z",
-      "title": "$SPY $QQQ $NVDA so you&#39;re saying Hormuz is closed",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658830751",
-      "author": "Whodo_Voodoo_Ido",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:09:46Z",
-      "text": "$SPY $QQQ $NVDA so you&#39;re saying Hormuz is closed",
-      "description": "",
-      "handle": "Whodo_Voodoo_Ido",
-      "display_name": "Jimmy C",
       "platform": "stocktwits"
     },
     {
@@ -299,29 +575,6 @@
       "description": "",
       "handle": "Whodo_Voodoo_Ido",
       "display_name": "Jimmy C",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "da0aa95db60670",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:09:34Z",
-      "title": "$DJT  was served a drink with a paper straw today I thought Trump got rid of those $SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658830747",
-      "author": "Lil_VWAP",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:09:34Z",
-      "text": "$DJT  was served a drink with a paper straw today I thought Trump got rid of those $SPY",
-      "description": "",
-      "handle": "Lil_VWAP",
-      "display_name": "Lil_VWAP",
       "platform": "stocktwits"
     },
     {
@@ -815,29 +1068,6 @@
       "description": ""
     },
     {
-      "id": "169dc68b7aa37f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:02:23Z",
-      "title": "$NVDA I was alive $GOOGL $META $RDDT $BTC.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658830574",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:02:23Z",
-      "text": "$NVDA I was alive $GOOGL $META $RDDT $BTC.X",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
       "id": "d63118687d8aa1",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -904,29 +1134,6 @@
       "description": ""
     },
     {
-      "id": "19598d7174fa2e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:02:06Z",
-      "title": "$ETH.X ~ Ethereum&#39;s getting outperformed by bananas In 2026. $ETHA $BMNR $BTC.X $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658830571",
-      "author": "CUPandHANDLE_CHARTS",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:02:06Z",
-      "text": "$ETH.X ~ Ethereum&#39;s getting outperformed by bananas In 2026. $ETHA $BMNR $BTC.X $QQQ",
-      "description": "",
-      "handle": "CUPandHANDLE_CHARTS",
-      "display_name": "Edward Gofsky",
-      "platform": "stocktwits"
-    },
-    {
       "id": "24554b89fa4ff5",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -947,29 +1154,6 @@
       "description": "",
       "handle": "AIWealthCircle",
       "display_name": "Kevin Lawson",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e5ad0470cabd83",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:01:42Z",
-      "title": "Weekend tape: $META and $NVDA are leading the MAG 7, with big gains on the board. \n \nA lot of AI names are still building bases, while $SOXX and $DRAM.X are holding their 10-week MAs, keeping potential entries in play. \n \nSummer chop is still here, but the indexes are holding up well.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658830562",
-      "author": "IcosahedronIQ",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:01:42Z",
-      "text": "Weekend tape: $META and $NVDA are leading the MAG 7, with big gains on the board. \n \nA lot of AI names are still building bases, while $SOXX and $DRAM.X are holding their 10-week MAs, keeping potential entries in play. \n \nSummer chop is still here, but the indexes are holding up well.",
-      "description": "",
-      "handle": "IcosahedronIQ",
-      "display_name": "Nicholas Page",
       "platform": "stocktwits"
     },
     {
@@ -996,29 +1180,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "3ebbdecb05c956",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:01:39Z",
-      "title": "$SPY $DIS when Hal become Heisenberg $RDDT $META",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658830560",
-      "author": "MiaHarperTrading",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:01:39Z",
-      "text": "$SPY $DIS when Hal become Heisenberg $RDDT $META",
-      "description": "",
-      "handle": "MiaHarperTrading",
-      "display_name": "Mia Harper",
-      "platform": "stocktwits"
-    },
-    {
       "id": "67b9bcc6731725",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1039,29 +1200,6 @@
       "description": "",
       "handle": "JDRebel",
       "display_name": "James Dean",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "32967ce576cfe2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T19:59:14Z",
-      "title": "$MSFT downside risk is increasing. The Elliott Wave structure continues supporting a bearish path, suggesting the current correction may not be over. Here is the latest 4H chart showing the idea and future path. \n \nhttps://elliottwave-forecast.com/news/bearish-elliott-wave-structure-in-microsoft-msf",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658830505",
-      "author": "ElliottwaveForecast",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T19:59:14Z",
-      "text": "$MSFT downside risk is increasing. The Elliott Wave structure continues supporting a bearish path, suggesting the current correction may not be over. Here is the latest 4H chart showing the idea and future path. \n \nhttps://elliottwave-forecast.com/news/bearish-elliott-wave-structure-in-microsoft-msf",
-      "description": "",
-      "handle": "ElliottwaveForecast",
-      "display_name": "Elliottwave Forecast",
       "platform": "stocktwits"
     },
     {
@@ -1533,29 +1671,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "58c6d547b5cd57",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T19:41:41Z",
-      "title": "Friday created some of the best buying opportunities we\u2019ve seen. \n \nMarket pullbacks often reveal the strongest setups for those who are prepared. \n \n$NVDA -at $210 \n$QCOM -at $189 \n$CRWV -at $88 \n$AMD  -at $557  \n \nAnd there are many more opportunities to watch. \n \nNext alert is coming soon.  \n  \nI",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658830125",
-      "author": "FibonacciTrader_",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T19:41:41Z",
-      "text": "Friday created some of the best buying opportunities we\u2019ve seen. \n \nMarket pullbacks often reveal the strongest setups for those who are prepared. \n \n$NVDA -at $210 \n$QCOM -at $189 \n$CRWV -at $88 \n$AMD  -at $557  \n \nAnd there are many more opportunities to watch. \n \nNext alert is coming soon.  \n  \nI",
-      "description": "",
-      "handle": "FibonacciTrader_",
-      "display_name": "Donald Osullivan",
-      "platform": "stocktwits"
-    },
-    {
       "id": "59d1a8808c80e6",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1597,29 +1712,6 @@
       "description": ""
     },
     {
-      "id": "8871e15d6b9a6a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T19:40:52Z",
-      "title": "Keep an eye on ticker NIXX. \n \nNIXX on a huge discount right now, don&#39;t miss this opportunity! \n \n$GLXY $WULF $MSFT $NVDA .1",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658830109",
-      "author": "Market_Paradise",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T19:40:52Z",
-      "text": "Keep an eye on ticker NIXX. \n \nNIXX on a huge discount right now, don&#39;t miss this opportunity! \n \n$GLXY $WULF $MSFT $NVDA .1",
-      "description": "",
-      "handle": "Market_Paradise",
-      "display_name": "MarketsParadise",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b270befe56b8e1",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -1654,29 +1746,6 @@
       "time": "2026-07-11 19:36:45",
       "text": "US Postal Service raises stamp price to 82 cents",
       "description": ""
-    },
-    {
-      "id": "45c9b5e825d9e6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T19:32:28Z",
-      "title": "$MSFT The stock is set up for below $300. \nBe careful. \nGrowth slowdown is real in my opinion. \nThat will absolutely crush the stock below $300. \nAnalysts have started reducing targets, but you\u2019ll see a wave of downgrades post ER.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658829941",
-      "author": "MountCapital",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T19:32:28Z",
-      "text": "$MSFT The stock is set up for below $300. \nBe careful. \nGrowth slowdown is real in my opinion. \nThat will absolutely crush the stock below $300. \nAnalysts have started reducing targets, but you\u2019ll see a wave of downgrades post ER.",
-      "description": "",
-      "handle": "MountCapital",
-      "display_name": "BOB JOE",
-      "platform": "stocktwits"
     },
     {
       "id": "f8bd11a26887f3",
@@ -1759,52 +1828,6 @@
       "time": "2026-07-11 19:30:29",
       "text": "Russian strikes kill seven, wound dozens, Ukraine\u2019s Zelenskiy seeks faster weapons deliveries",
       "description": ""
-    },
-    {
-      "id": "50c218f6b471c2",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T19:30:17Z",
-      "title": "$4CHAN.X  THERES A BIG THING THAT WILL UNFOLD INTO 4CHAN , THE KEK GODS, THE MAGICK MEME GODS, THE 4CHAN GODS, IDK WHAT IT WILL BE , BUT I DO KNOW ONE THING, MEME MAGICK AND THE PROPHECY SHALL BE FULLFILLED THERES A BIG PLAN FOR MEMECOINS ESPECIALLY 4CHAN. \n \n4chan\u2019s 2016 election influence,  after ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658829894",
-      "author": "BIGNOSER",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T19:30:17Z",
-      "text": "$4CHAN.X  THERES A BIG THING THAT WILL UNFOLD INTO 4CHAN , THE KEK GODS, THE MAGICK MEME GODS, THE 4CHAN GODS, IDK WHAT IT WILL BE , BUT I DO KNOW ONE THING, MEME MAGICK AND THE PROPHECY SHALL BE FULLFILLED THERES A BIG PLAN FOR MEMECOINS ESPECIALLY 4CHAN. \n \n4chan\u2019s 2016 election influence,  after ",
-      "description": "",
-      "handle": "BIGNOSER",
-      "display_name": "BGNSR",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "4c2dabd06362de",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T19:25:01Z",
-      "title": "Sam Altman destroying MuskRat again. Ryan Air and now Altman just absolutely destroying MuskRat. $TSLA $SPCX \n$SCAM.X $ETF500.X $ELONGATE.X \n\nMusk and Yrump project. It\u2019s so sad.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658829775",
-      "author": "In_N__Out",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T19:25:01Z",
-      "text": "Sam Altman destroying MuskRat again. Ryan Air and now Altman just absolutely destroying MuskRat. $TSLA $SPCX \n$SCAM.X $ETF500.X $ELONGATE.X \n\nMusk and Yrump project. It\u2019s so sad.",
-      "description": "",
-      "handle": "In_N__Out",
-      "display_name": "In-N-Out",
-      "platform": "stocktwits"
     },
     {
       "id": "f7613f1aa4787f",
@@ -2520,29 +2543,6 @@
       "time": "2026-07-11T18:09:15Z",
       "text": "Nike's New Sponsorship Wins Hint at a Slow\u2011Burn Comeback in Brand Power and Profits",
       "description": "Nike is securing new college programs and sports league sponsorships as part of a strategy to rebuild cultural relevance among younger athletes. These deals could strengthen the brand's positioning and potentially improve revenue, pricing power, and long-term growth prospects."
-    },
-    {
-      "id": "47687c1ab6ca99",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T18:07:45Z",
-      "title": "$PLTR EPS doubled then TRIPLED in  subsequent years!!! \n \nAi just starting\u2026",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658828056",
-      "author": "AshHydrogen",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T18:07:45Z",
-      "text": "$PLTR EPS doubled then TRIPLED in  subsequent years!!! \n \nAi just starting\u2026",
-      "description": "",
-      "handle": "AshHydrogen",
-      "display_name": "Ashley Wolter",
-      "platform": "stocktwits"
     },
     {
       "id": "ef609984fc9508",
