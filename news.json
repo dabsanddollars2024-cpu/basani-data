@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T21:32:07Z",
-  "generated_display": "2026-07-11 21:32 ET",
+  "generated": "2026-07-11T21:37:07Z",
+  "generated_display": "2026-07-11 21:37 ET",
   "count": 172,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T21:32:01.835741+00:00",
+      "last_error_ts": "2026-07-11T21:37:01.670980+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 107,
-      "last_success": "2026-07-11T21:32:01.970931+00:00",
+      "latency_ms": 101,
+      "last_success": "2026-07-11T21:37:01.773719+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 60,
-      "last_success": "2026-07-11T21:32:02.070874+00:00",
+      "latency_ms": 97,
+      "last_success": "2026-07-11T21:37:01.871891+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 20,
-      "latency_ms": 29,
-      "last_success": "2026-07-11T21:32:02.101724+00:00",
+      "latency_ms": 99,
+      "last_success": "2026-07-11T21:37:01.972767+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T21:32:02.199017+00:00",
+      "last_error_ts": "2026-07-11T21:37:02.081074+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2073,
-      "last_success": "2026-07-11T21:32:04.272182+00:00",
+      "latency_ms": 2105,
+      "last_success": "2026-07-11T21:37:04.186788+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T21:32:05.188137+00:00",
+      "last_success": "2026-07-11T21:37:05.271392+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1851,
-      "last_success": "2026-07-11T21:32:07.040044+00:00",
+      "latency_ms": 1799,
+      "last_success": "2026-07-11T21:37:07.071022+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,42 +74,42 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 123
+          "latency_ms": 209
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 103
+          "latency_ms": 275
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 88
+          "latency_ms": 36
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 387
+          "latency_ms": 267
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 17
+          "latency_ms": 118
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 195
+          "latency_ms": 177
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "reuters": 16,
     "uw_news": 25,
     "cnbc": 8,
     "massive_news": 20,
-    "reuters": 16,
     "zerohedge": 8,
     "marketwatch": 8,
     "seekingalpha": 7,
@@ -117,6 +117,121 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "f6af54e10b2da8",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:35:23Z",
+      "title": "Earnings season is approaching, expecting volatility in the market next few weeks $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658832350",
+      "author": "TaylorEquityGroup",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:35:23Z",
+      "text": "Earnings season is approaching, expecting volatility in the market next few weeks $SPY",
+      "description": "",
+      "handle": "TaylorEquityGroup",
+      "display_name": "TaylorEquityGroup",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1f05fb0e9efdd7",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:35:14Z",
+      "title": "$META time to back $600",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/META/message/658832345",
+      "author": "yourdream",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:35:14Z",
+      "text": "$META time to back $600",
+      "description": "",
+      "handle": "yourdream",
+      "display_name": "Your Dream",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3f594236e6441c",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:34:38Z",
+      "title": "$AMD Bank of America\u2019s Bull &amp; Bear index this week gave its strongest sell signal since at least 2021.\n\n\u201cInvestors\u2019 extreme bullish positioning suggests a need to reduce risk exposure,\u201d Michael Hartnett, the bank\u2019s chief investment strategist, wrote in a note Friday.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658832330",
+      "author": "Mipel",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:34:38Z",
+      "text": "$AMD Bank of America\u2019s Bull &amp; Bear index this week gave its strongest sell signal since at least 2021.\n\n\u201cInvestors\u2019 extreme bullish positioning suggests a need to reduce risk exposure,\u201d Michael Hartnett, the bank\u2019s chief investment strategist, wrote in a note Friday.",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "cfd5f1c1e996eb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:33:46Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nBears about to slow burn here get the divorce papers ready ladies bye bye corvette",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658832308",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:33:46Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nBears about to slow burn here get the divorce papers ready ladies bye bye corvette",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "df260eed112f8d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:32:03Z",
+      "title": "$AMD Monday open under 500$",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658832285",
+      "author": "Mipel",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:32:03Z",
+      "text": "$AMD Monday open under 500$",
+      "description": "",
+      "handle": "Mipel",
+      "display_name": "Natan h",
+      "platform": "stocktwits"
+    },
     {
       "id": "73ee1fc089e86c",
       "source": "stocktwits",
@@ -348,29 +463,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "1bd1f8b98a5a08",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:27:32Z",
-      "title": "$DJT $SPY Trump constantly embarrasses himself and everything he puts his hands on. Can only imagine how the US football team felt when daddy Trump came in to &quot;help&quot; them. All he wanted was credit and worship in case they won lol",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658832205",
-      "author": "Brobear",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:27:32Z",
-      "text": "$DJT $SPY Trump constantly embarrasses himself and everything he puts his hands on. Can only imagine how the US football team felt when daddy Trump came in to &quot;help&quot; them. All he wanted was credit and worship in case they won lol",
-      "description": "",
-      "handle": "Brobear",
-      "display_name": "-",
-      "platform": "stocktwits"
-    },
-    {
       "id": "0982fddb6b0e2e",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -415,6 +507,24 @@
       "handle": "Marketmoney95",
       "display_name": "Rodney Wyche",
       "platform": "stocktwits"
+    },
+    {
+      "id": "7817a73fc49aad",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11T21:23:24Z",
+      "title": "TTM Technologies (TTMI): Best Large Cap Stocks to Buy According to Analysts",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ttm-technologies-ttmi-best-large-142324571.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:23:24Z",
+      "text": "TTM Technologies (TTMI): Best Large Cap Stocks to Buy According to Analysts",
+      "description": ""
     },
     {
       "id": "62f204e33e9000",
@@ -483,52 +593,6 @@
       "description": "",
       "handle": "wader2k",
       "display_name": "Wade",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "2adc45c71d72e5",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:21:35Z",
-      "title": "$EDGM You got $RXT in agreement with $AMD to provide a 30MW pipeline between 2028-2030 sitting at $5.33\u203c\ufe0f You got $EDGM with a 5.5GW pipeline in Spain with expansion to Panama sitting at .006\ud83e\udd2f\ud83e\udd2f\ud83e\udd2f\n\nMaaaan I\u2019m going to clear 3Mil shares if I have to sell a kidney\u203c\ufe0f\ud83d\ude02\ud83d\ude02\ud83d\ude0f",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658832099",
-      "author": "BC1184",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:21:35Z",
-      "text": "$EDGM You got $RXT in agreement with $AMD to provide a 30MW pipeline between 2028-2030 sitting at $5.33\u203c\ufe0f You got $EDGM with a 5.5GW pipeline in Spain with expansion to Panama sitting at .006\ud83e\udd2f\ud83e\udd2f\ud83e\udd2f\n\nMaaaan I\u2019m going to clear 3Mil shares if I have to sell a kidney\u203c\ufe0f\ud83d\ude02\ud83d\ude02\ud83d\ude0f",
-      "description": "",
-      "handle": "BC1184",
-      "display_name": "Slickback",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e1f02c404a447c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:21:17Z",
-      "title": "$AMD keeps checking all the right boxes. \n \nTight consolidation near highs   \nHolding above key EMAs   \nRS still looks strong   \nHigher lows keep stacking \n \nThe best names often don\u2019t need a big pullback. \n \nThey just build pressure before the next leg.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658832094",
-      "author": "SpectrumSigma",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:21:17Z",
-      "text": "$AMD keeps checking all the right boxes. \n \nTight consolidation near highs   \nHolding above key EMAs   \nRS still looks strong   \nHigher lows keep stacking \n \nThe best names often don\u2019t need a big pullback. \n \nThey just build pressure before the next leg.",
-      "description": "",
-      "handle": "SpectrumSigma",
-      "display_name": "Jeff Mcneil",
       "platform": "stocktwits"
     },
     {
@@ -647,6 +711,26 @@
       "platform": "stocktwits"
     },
     {
+      "id": "dbd03336fba901",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11T21:20:38Z",
+      "title": "Here is Why Salesforce (CRM) is One of the Best Large Cap Stocks to Buy According to Analysts",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-salesforce-crm-one-best-142338375.html",
+      "author": "",
+      "tickers": [
+        "CRM"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:20:38Z",
+      "text": "Here is Why Salesforce (CRM) is One of the Best Large Cap Stocks to Buy According to Analysts",
+      "description": ""
+    },
+    {
       "id": "30166acc71b1a1",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -668,6 +752,24 @@
       "handle": "Mnybagz",
       "display_name": "Dusty",
       "platform": "stocktwits"
+    },
+    {
+      "id": "99393a33802841",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11 21:20:04",
+      "title": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/russia-stocks-lower-at-close-of-trade-moex-russia-index-unchanged-4787306",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11 21:20:04",
+      "text": "Russia stocks lower at close of trade; MOEX Russia Index unchanged",
+      "description": ""
     },
     {
       "id": "65d624adc36e34",
@@ -831,27 +933,22 @@
       "platform": "stocktwits"
     },
     {
-      "id": "ad98073aba80d9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:14:47Z",
-      "title": "I seriously think $META  may have a bigger problem than people realize. \ud83d\udc40 \n$META just changed the AI conversation after Mark Zuckerberg shifted the strategy. \n \nThe takeaway? \n \nMeta doesn\u2019t necessarily need to build the \u201cbest\u201d AI model to create massive value. \n \nIf they can dominate AI distributio",
+      "id": "c7c1c095a1e073",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11T21:15:52Z",
+      "title": "Baker Hughes (BKR) Secures Long-Term Service Agreement for ANOH Gas Plant",
       "body": "",
-      "url": "https://stocktwits.com/symbol/META/message/658831969",
-      "author": "SmartMoneyRadar",
-      "tickers": [
-        "META"
-      ],
+      "url": "https://finance.yahoo.com/energy/articles/baker-hughes-bkr-secures-long-155952946.html",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-11T21:14:47Z",
-      "text": "I seriously think $META  may have a bigger problem than people realize. \ud83d\udc40 \n$META just changed the AI conversation after Mark Zuckerberg shifted the strategy. \n \nThe takeaway? \n \nMeta doesn\u2019t necessarily need to build the \u201cbest\u201d AI model to create massive value. \n \nIf they can dominate AI distributio",
-      "description": "",
-      "handle": "SmartMoneyRadar",
-      "display_name": "Laurie Purser",
-      "platform": "stocktwits"
+      "time": "2026-07-11T21:15:52Z",
+      "text": "Baker Hughes (BKR) Secures Long-Term Service Agreement for ANOH Gas Plant",
+      "description": ""
     },
     {
       "id": "4564795939de17",
@@ -923,6 +1020,62 @@
       "platform": "stocktwits"
     },
     {
+      "id": "63f8899be9f0ac",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11T21:12:02Z",
+      "title": "Super Micro Computer (SMCI) Introduces DCBBS Blueprint for HPC",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/super-micro-computer-smci-introduces-160002387.html",
+      "author": "",
+      "tickers": [
+        "SMCI"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:12:02Z",
+      "text": "Super Micro Computer (SMCI) Introduces DCBBS Blueprint for HPC",
+      "description": ""
+    },
+    {
+      "id": "8d5c48a479937a",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11T21:11:08Z",
+      "title": "Carrier Global (CARR) Completes $440M Sale of Riello Business",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/carrier-global-carr-completes-440m-160008643.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:11:08Z",
+      "text": "Carrier Global (CARR) Completes $440M Sale of Riello Business",
+      "description": ""
+    },
+    {
+      "id": "e376df04acf85f",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-11T21:09:16Z",
+      "title": "Fifth Third (FITB) Launches AI-Powered Mobile App Interface",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/fifth-third-fitb-launches-ai-160016030.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:09:16Z",
+      "text": "Fifth Third (FITB) Launches AI-Powered Mobile App Interface",
+      "description": ""
+    },
+    {
       "id": "cbfe8b79fb0181",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -966,29 +1119,6 @@
       "description": "",
       "handle": "Ashton_1nvests",
       "display_name": "Ashton Invests",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "3dc1f77b78ab20",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:03:24Z",
-      "title": "$BTC.X breakout eminent \ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\n\n$DOGE.X $MSTR $ETH.X $PENGU.X",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658831768",
-      "author": "JDRebel",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T21:03:24Z",
-      "text": "$BTC.X breakout eminent \ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\ud83d\ude80\n\n$DOGE.X $MSTR $ETH.X $PENGU.X",
-      "description": "",
-      "handle": "JDRebel",
-      "display_name": "James Dean",
       "platform": "stocktwits"
     },
     {
@@ -1320,24 +1450,6 @@
       "description": "The article argues that Recursion Pharmaceuticals and Sarepta Therapeutics, despite significant stock declines, remain unattractive investments. Recursion has no approved products and faces competition in AI-driven drug discovery. Sarepta struggles with safety concerns around its lead therapy Elevid"
     },
     {
-      "id": "9125c5b038a46d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11T20:24:29Z",
-      "title": "Why Seagate Technology (STX) Is Strengthening Its AI Storage Growth Outlook Through Cloud Demand and Higher-Capacity HDDs",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/why-seagate-technology-stx-strengthening-202429436.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:24:29Z",
-      "text": "Why Seagate Technology (STX) Is Strengthening Its AI Storage Growth Outlook Through Cloud Demand and Higher-Capacity HDDs",
-      "description": ""
-    },
-    {
       "id": "6c0e97653b364d",
       "source": "reuters",
       "source_type": "rss",
@@ -1484,24 +1596,6 @@
       "description": ""
     },
     {
-      "id": "bc3ba79eec8aef",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11T20:17:27Z",
-      "title": "Why Applied Optoelectronics (AAOI) Is Well Positioned to Capitalize on Hyperscale AI Networking Demand With Its Expanding Optical Order Backlog",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/why-applied-optoelectronics-aaoi-well-201727325.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:17:27Z",
-      "text": "Why Applied Optoelectronics (AAOI) Is Well Positioned to Capitalize on Hyperscale AI Networking Demand With Its Expanding Optical Order Backlog",
-      "description": ""
-    },
-    {
       "id": "d2d8b7c638d186",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1523,24 +1617,6 @@
       "handle": "AshHydrogen",
       "display_name": "Ashley Wolter",
       "platform": "stocktwits"
-    },
-    {
-      "id": "91b6ded085bd8f",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11T20:10:23Z",
-      "title": "Why Lumentum (LITE) Could Benefit From AI Optical Networking Demand as Co-Packaged Optics Adoption Accelerates",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/why-lumentum-lite-could-benefit-201023391.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:10:23Z",
-      "text": "Why Lumentum (LITE) Could Benefit From AI Optical Networking Demand as Co-Packaged Optics Adoption Accelerates",
-      "description": ""
     },
     {
       "id": "40d3e13bcb5fdb",
@@ -1675,24 +1751,6 @@
       "time": "2026-07-11T20:06:00Z",
       "text": "Barclays Investor News: If You Have Suffered Losses in Barclays PLC (NYSE: BCS), You Are Encouraged to Contact The Rosen Law Firm About Your Rights",
       "description": "The Rosen Law Firm is investigating potential securities claims against Barclays PLC following reports of a \u00a3600 million exposure to failed UK mortgage lender Market Financial Solutions Ltd. The disclosure caused Barclays' stock to decline 3.99% on February 27, 2026, and an additional 2.3% on March "
-    },
-    {
-      "id": "57ecb745108d4d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11T20:05:42Z",
-      "title": "Dow Jones Futures: Market Ready To Go? Nvidia, Micron, Sandisk Near Buy Points With Big Earnings Due",
-      "body": "",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-big-earnings-market-sets-up-nvidia-micron-sandisk-robinhood-spacex/?src=A00220&yptr=yahoo",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:05:42Z",
-      "text": "Dow Jones Futures: Market Ready To Go? Nvidia, Micron, Sandisk Near Buy Points With Big Earnings Due",
-      "description": ""
     },
     {
       "id": "9976e8083da3cb",
@@ -2017,24 +2075,6 @@
       "description": ""
     },
     {
-      "id": "be63f0bb2b3c01",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11T19:59:01Z",
-      "title": "How Vertiv (VRT) Is Expanding Its AI Data Center Cooling Platform Through the ThermoKey Acquisition",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/vertiv-vrt-expanding-ai-data-195901778.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T19:59:01Z",
-      "text": "How Vertiv (VRT) Is Expanding Its AI Data Center Cooling Platform Through the ThermoKey Acquisition",
-      "description": ""
-    },
-    {
       "id": "921f1f879416ac",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -2079,24 +2119,6 @@
       "handle": "TalkMarkets",
       "display_name": "TalkMarkets",
       "platform": "stocktwits"
-    },
-    {
-      "id": "4abe928c2ccc95",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11T19:52:39Z",
-      "title": "Why Ciena (CIEN) Is Positioned to Benefit From Multi-Year AI Networking Demand Despite Elevated Expectations",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/why-ciena-cien-positioned-benefit-195239343.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T19:52:39Z",
-      "text": "Why Ciena (CIEN) Is Positioned to Benefit From Multi-Year AI Networking Demand Despite Elevated Expectations",
-      "description": ""
     },
     {
       "id": "b4ab2bba2c4262",
@@ -2360,24 +2382,6 @@
       "handle": "DIRTYCASH",
       "display_name": "C.Money",
       "platform": "stocktwits"
-    },
-    {
-      "id": "66cd1b6e43a570",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-11 19:11:40",
-      "title": "Ukraine says drone strikes damage 21 Russian oil tankers in Sea of Azov attack",
-      "body": "",
-      "url": "https://www.investing.com/news/world-news/ukraine-says-drone-strikes-damage-21-russian-oil-tankers-in-sea-of-azov-attack-4787300",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11 19:11:40",
-      "text": "Ukraine says drone strikes damage 21 Russian oil tankers in Sea of Azov attack",
-      "description": ""
     },
     {
       "id": "7de8a580270d84",
