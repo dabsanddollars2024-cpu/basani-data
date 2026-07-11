@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-11T07:22:07Z",
-  "generated_display": "2026-07-11 07:22 ET",
-  "count": 163,
+  "generated": "2026-07-11T07:27:06Z",
+  "generated_display": "2026-07-11 07:27 ET",
+  "count": 161,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T07:22:01.553898+00:00",
+      "last_error_ts": "2026-07-11T07:27:01.721984+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 185,
-      "last_success": "2026-07-11T07:22:01.739375+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-11T07:27:01.882898+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 153,
-      "last_success": "2026-07-11T07:22:01.893929+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-07-11T07:27:01.983781+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 14,
-      "latency_ms": 48,
-      "last_success": "2026-07-11T07:22:01.943446+00:00",
+      "items_pulled": 12,
+      "latency_ms": 31,
+      "last_success": "2026-07-11T07:27:02.082512+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T07:22:02.034564+00:00",
+      "last_error_ts": "2026-07-11T07:27:02.190385+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 2258,
-      "last_success": "2026-07-11T07:22:04.293182+00:00",
+      "latency_ms": 1682,
+      "last_success": "2026-07-11T07:27:03.872885+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T07:22:05.092787+00:00",
+      "last_success": "2026-07-11T07:27:04.782742+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1971,
-      "last_success": "2026-07-11T07:22:07.063968+00:00",
+      "latency_ms": 1856,
+      "last_success": "2026-07-11T07:27:06.639648+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,32 +74,32 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 124
+          "latency_ms": 128
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 107
+          "latency_ms": 179
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 97
+          "latency_ms": 101
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 274
+          "latency_ms": 328
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 15
+          "latency_ms": 80
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 179
+          "latency_ms": 92
         }
       }
     }
@@ -107,7 +107,7 @@
   "by_source": {
     "stocktwits": 75,
     "reuters": 16,
-    "massive_news": 14,
+    "massive_news": 12,
     "uw_news": 25,
     "cnbc": 8,
     "zerohedge": 8,
@@ -117,6 +117,29 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "e6fb29c6cfd606",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T07:23:50Z",
+      "title": "$BTC.X $MSTR $BUTTCOIN.X Thanks Dookie! I&#39;ll hold!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658818446",
+      "author": "PaddyOoohhYeah",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T07:23:50Z",
+      "text": "$BTC.X $MSTR $BUTTCOIN.X Thanks Dookie! I&#39;ll hold!",
+      "description": "",
+      "handle": "PaddyOoohhYeah",
+      "display_name": "Paddy",
+      "platform": "stocktwits"
+    },
     {
       "id": "f0a09dd0a94a43",
       "source": "stocktwits",
@@ -565,29 +588,6 @@
       "description": "",
       "handle": "DaVinciV2",
       "display_name": "Steven Haney",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "cca8e58d5062aa",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T06:44:49Z",
-      "title": "$MSTR the best thing MS could do for MSTR is leave the company.  The next best thing.. would be to do nothing. They have the  COH to ride out the rough patch, pay dividends, buy back some shares, and wait for a confirmed reversal in bitcoin.  They own enough Bitcoin. Stop buying stop selling just si",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658818136",
-      "author": "SuperTrendWaveSurfer",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T06:44:49Z",
-      "text": "$MSTR the best thing MS could do for MSTR is leave the company.  The next best thing.. would be to do nothing. They have the  COH to ride out the rough patch, pay dividends, buy back some shares, and wait for a confirmed reversal in bitcoin.  They own enough Bitcoin. Stop buying stop selling just si",
-      "description": "",
-      "handle": "SuperTrendWaveSurfer",
-      "display_name": "Living The Dream",
       "platform": "stocktwits"
     },
     {
@@ -2787,46 +2787,6 @@
       "handle": "Sak12345",
       "display_name": "Shane Allan",
       "platform": "stocktwits"
-    },
-    {
-      "id": "8a2b76419b6dc6",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T23:24:00Z",
-      "title": "Alamar Biosciences \u7684 NULISA \u6578\u64da\u5c07\u65bc AAIC 2026 \u4e0a\u8d85\u904e 140 \u5834\u79d1\u5b78\u7c21\u5831\u6703\u4e2d\u4eae\u76f8\uff0c\u7a81\u986f\u57fa\u65bc\u8840\u6db2\u7684\u963f\u8332\u6d77\u9ed8\u75c7\u751f\u7269\u6a19\u8a18\u5256\u6790\u4e4b\u6700\u65b0\u9032\u5c55",
-      "body": "Alamar Biosciences announced that its NULISA platform will be featured in over 140 posters and presentations at the Alzheimer's Association International Conference (AAIC) in London. The company highlighted advances in blood-based biomarker profiling, particularly the eMTBR-Tau and BD-pTau217 tests,",
-      "url": "https://www.globenewswire.com/news-release/2026/07/10/3325780/0/zh-hant/Alamar-Biosciences-%E7%9A%84-NULISA-%E6%95%B8%E6%93%9A%E5%B0%87%E6%96%BC-AAIC-2026-%E4%B8%8A%E8%B6%85%E9%81%8E-140-%E5%A0%B4%E7%A7%91%E5%AD%B8%E7%B0%A1%E5%A0%B1%E6%9C%83%E4%B8%AD%E4%BA%AE%E7%9B%B8-%E7%AA%81%E9%A1%AF%E5%9F%BA%E6%96%BC%E8%A1%80%E6%B6%B2%E7%9A%84%E9%98%BF%E8%8C%B2%E6%B5%B7%E9%BB%98%E7%97%87%E7%94%9F%E7%89%A9%E6%A8%99%E8%A8%98%E5%89%96%E6%9E%90%E4%B9%8B%E6%9C%80%E6%96%B0%E9%80%B2%E5%B1%95.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "ALMR"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T23:24:00Z",
-      "text": "Alamar Biosciences \u7684 NULISA \u6578\u64da\u5c07\u65bc AAIC 2026 \u4e0a\u8d85\u904e 140 \u5834\u79d1\u5b78\u7c21\u5831\u6703\u4e2d\u4eae\u76f8\uff0c\u7a81\u986f\u57fa\u65bc\u8840\u6db2\u7684\u963f\u8332\u6d77\u9ed8\u75c7\u751f\u7269\u6a19\u8a18\u5256\u6790\u4e4b\u6700\u65b0\u9032\u5c55",
-      "description": "Alamar Biosciences announced that its NULISA platform will be featured in over 140 posters and presentations at the Alzheimer's Association International Conference (AAIC) in London. The company highlighted advances in blood-based biomarker profiling, particularly the eMTBR-Tau and BD-pTau217 tests,"
-    },
-    {
-      "id": "0ec029a488825c",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-10T23:24:00Z",
-      "title": "AAIC 2026 \u903e 140 \u4efd\u5b66\u672f\u62a5\u544a\u5747\u91c7\u7528 Alamar Biosciences NULISA \u6570\u636e\uff0c\u5f70\u663e\u963f\u5c14\u8328\u6d77\u9ed8\u75c5\u8840\u6db2\u751f\u7269\u6807\u5fd7\u7269\u5206\u6790\u9886\u57df\u7684\u8fdb\u5c55",
-      "body": "Alamar Biosciences announced that its NULISA platform will be featured in over 140 posters and presentations at the Alzheimer's Association International Conference (AAIC) 2026 in London. The company introduced its first multiplex blood immunoassay for eMTBR-Tau, a key Alzheimer's biomarker, which c",
-      "url": "https://www.globenewswire.com/news-release/2026/07/10/3325780/0/zh-hans/AAIC-2026-%E9%80%BE-140-%E4%BB%BD%E5%AD%A6%E6%9C%AF%E6%8A%A5%E5%91%8A%E5%9D%87%E9%87%87%E7%94%A8-Alamar-Biosciences-NULISA-%E6%95%B0%E6%8D%AE-%E5%BD%B0%E6%98%BE%E9%98%BF%E5%B0%94%E8%8C%A8%E6%B5%B7%E9%BB%98%E7%97%85%E8%A1%80%E6%B6%B2%E7%94%9F%E7%89%A9%E6%A0%87%E5%BF%97%E7%89%A9%E5%88%86%E6%9E%90%E9%A2%86%E5%9F%9F%E7%9A%84%E8%BF%9B%E5%B1%95.html",
-      "author": "GlobeNewswire Inc.",
-      "tickers": [
-        "ALMR"
-      ],
-      "tags": [],
-      "impact_score": 8.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T23:24:00Z",
-      "text": "AAIC 2026 \u903e 140 \u4efd\u5b66\u672f\u62a5\u544a\u5747\u91c7\u7528 Alamar Biosciences NULISA \u6570\u636e\uff0c\u5f70\u663e\u963f\u5c14\u8328\u6d77\u9ed8\u75c5\u8840\u6db2\u751f\u7269\u6807\u5fd7\u7269\u5206\u6790\u9886\u57df\u7684\u8fdb\u5c55",
-      "description": "Alamar Biosciences announced that its NULISA platform will be featured in over 140 posters and presentations at the Alzheimer's Association International Conference (AAIC) 2026 in London. The company introduced its first multiplex blood immunoassay for eMTBR-Tau, a key Alzheimer's biomarker, which c"
     },
     {
       "id": "97e270624777f4",
