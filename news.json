@@ -1,37 +1,37 @@
 {
-  "generated": "2026-07-11T21:57:06Z",
-  "generated_display": "2026-07-11 21:57 ET",
-  "count": 172,
+  "generated": "2026-07-11T22:02:07Z",
+  "generated_display": "2026-07-11 22:02 ET",
+  "count": 176,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T21:57:01.871148+00:00",
+      "last_error_ts": "2026-07-11T22:02:02.271071+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 120,
-      "last_success": "2026-07-11T21:57:01.993028+00:00",
+      "latency_ms": 101,
+      "last_success": "2026-07-11T22:02:02.373692+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 78,
-      "last_success": "2026-07-11T21:57:02.071997+00:00",
+      "latency_ms": 59,
+      "last_success": "2026-07-11T22:02:02.471195+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 20,
-      "latency_ms": 28,
-      "last_success": "2026-07-11T21:57:02.101962+00:00",
+      "items_pulled": 24,
+      "latency_ms": 34,
+      "last_success": "2026-07-11T22:02:02.571781+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T21:57:02.196734+00:00",
+      "last_error_ts": "2026-07-11T22:02:02.677024+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1875,
-      "last_success": "2026-07-11T21:57:04.071936+00:00",
+      "latency_ms": 2394,
+      "last_success": "2026-07-11T22:02:05.071567+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T21:57:05.071268+00:00",
+      "last_success": "2026-07-11T22:02:05.752798+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 1799,
-      "last_success": "2026-07-11T21:57:06.870989+00:00",
+      "latency_ms": 1778,
+      "last_success": "2026-07-11T22:02:07.531505+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,49 +74,371 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 210
+          "latency_ms": 110
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 91
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 104
+          "latency_ms": 37
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 396
+          "latency_ms": 265
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 119
+          "latency_ms": 35
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 78
+          "latency_ms": 141
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "massive_news": 24,
     "marketwatch": 8,
     "reuters": 16,
     "uw_news": 25,
     "cnbc": 8,
-    "massive_news": 20,
     "zerohedge": 8,
     "seekingalpha": 7,
     "benzinga": 4,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "cdde5f84cee783",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T22:01:06Z",
+      "title": "$4CHAN.X $BTC.X $SPY $TSLA $DOGE.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658832802",
+      "author": "Jhoooon",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T22:01:06Z",
+      "text": "$4CHAN.X $BTC.X $SPY $TSLA $DOGE.X",
+      "description": "",
+      "handle": "Jhoooon",
+      "display_name": "John",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2f573d3ee884cb",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T22:01:06Z",
+      "title": "$4CHAN.X $BTC.X $SPY $TSLA $DOGE.X",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658832802",
+      "author": "Jhoooon",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T22:01:06Z",
+      "text": "$4CHAN.X $BTC.X $SPY $TSLA $DOGE.X",
+      "description": "",
+      "handle": "Jhoooon",
+      "display_name": "John",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "8f940aea6ff426",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T22:00:58Z",
+      "title": "$TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658832797",
+      "author": "Jhoooon",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T22:00:58Z",
+      "text": "$TSLA",
+      "description": "",
+      "handle": "Jhoooon",
+      "display_name": "John",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6b277929456598",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T22:00:53Z",
+      "title": "$TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658832796",
+      "author": "Jhoooon",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T22:00:53Z",
+      "text": "$TSLA",
+      "description": "",
+      "handle": "Jhoooon",
+      "display_name": "John",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "890add19618772",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T22:00:50Z",
+      "title": "@Stonethrower2 The markets were kinda making sense as a functioning casino and I was trading them well in Feb/Mar. $QQQ was steadily grinding down with a lot of volatility and shortlived hopium reversals as it priced in the Hormuz problem. Then the &quot;house&quot; stepped in and tipped the scales ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658832795",
+      "author": "coralillo",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T22:00:50Z",
+      "text": "@Stonethrower2 The markets were kinda making sense as a functioning casino and I was trading them well in Feb/Mar. $QQQ was steadily grinding down with a lot of volatility and shortlived hopium reversals as it priced in the Hormuz problem. Then the &quot;house&quot; stepped in and tipped the scales ",
+      "description": "",
+      "handle": "coralillo",
+      "display_name": "George Hurchalla",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "999095bdc0bd24",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T22:00:41Z",
+      "title": "$FSLR $EVGO $TSLA $ELVR",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658832792",
+      "author": "Jhoooon",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T22:00:41Z",
+      "text": "$FSLR $EVGO $TSLA $ELVR",
+      "description": "",
+      "handle": "Jhoooon",
+      "display_name": "John",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3ba4157194d7b3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T22:00:02Z",
+      "title": "$TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/TSLA/message/658832770",
+      "author": "Jhoooon",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T22:00:02Z",
+      "text": "$TSLA",
+      "description": "",
+      "handle": "Jhoooon",
+      "display_name": "John",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "d5377b2df478d9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:59:59Z",
+      "title": "$PLTR LFG $115 by open let the bears fest all week again",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658832768",
+      "author": "ivan8311",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-11T21:59:59Z",
+      "text": "$PLTR LFG $115 by open let the bears fest all week again",
+      "description": "",
+      "handle": "ivan8311",
+      "display_name": "Ivan",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "e0512f4547a5cd",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:58:52Z",
+      "title": "$BTC.X $IBIT $COIN $GS $BLK \n\nRumble",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/COIN/message/658832741",
+      "author": "THE_TRADE",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T21:58:52Z",
+      "text": "$BTC.X $IBIT $COIN $GS $BLK \n\nRumble",
+      "description": "",
+      "handle": "THE_TRADE",
+      "display_name": "THE TRADE",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "76f707be6d08e9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:58:35Z",
+      "title": "$SPY https://youtu.be/5dRTZ8gbugc?is=GiYQ1eVk-dL4obUn",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658832732",
+      "author": "P8perCh8ser",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:58:35Z",
+      "text": "$SPY https://youtu.be/5dRTZ8gbugc?is=GiYQ1eVk-dL4obUn",
+      "description": "",
+      "handle": "P8perCh8ser",
+      "display_name": "P8perCh8ser",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "11c6be521d2fbd",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:58:15Z",
+      "title": "$SNDK $ACMR $MU  $AMD $SKHYV   semis about to make another run..........",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/AMD/message/658832723",
+      "author": "RTKF",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:58:15Z",
+      "text": "$SNDK $ACMR $MU  $AMD $SKHYV   semis about to make another run..........",
+      "description": "",
+      "handle": "RTKF",
+      "display_name": "RTKF",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "3973117a33b177",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:57:51Z",
+      "title": "$QQQ ~ Soft Bank &amp; Masayoshi Son: Trashfuture x Better Offline: \u201cGoosed In The Shell\u201d. July 2026 .This week&#39;s Better Offline is the first joint episode with Riley, November, Hussein from TrashFuture, covering SoftBank&#39;s crazy annual shareholder meeting &amp; the general collapse of the A",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658832711",
+      "author": "CUPandHANDLE_CHARTS",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:57:51Z",
+      "text": "$QQQ ~ Soft Bank &amp; Masayoshi Son: Trashfuture x Better Offline: \u201cGoosed In The Shell\u201d. July 2026 .This week&#39;s Better Offline is the first joint episode with Riley, November, Hussein from TrashFuture, covering SoftBank&#39;s crazy annual shareholder meeting &amp; the general collapse of the A",
+      "description": "",
+      "handle": "CUPandHANDLE_CHARTS",
+      "display_name": "Edward Gofsky",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4d214f59dd5fb9",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:57:51Z",
+      "title": "$QQQ ~ Soft Bank &amp; Masayoshi Son: Trashfuture x Better Offline: \u201cGoosed In The Shell\u201d. July 2026 .This week&#39;s Better Offline is the first joint episode with Riley, November, Hussein from TrashFuture, covering SoftBank&#39;s crazy annual shareholder meeting &amp; the general collapse of the A",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658832711",
+      "author": "CUPandHANDLE_CHARTS",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:57:51Z",
+      "text": "$QQQ ~ Soft Bank &amp; Masayoshi Son: Trashfuture x Better Offline: \u201cGoosed In The Shell\u201d. July 2026 .This week&#39;s Better Offline is the first joint episode with Riley, November, Hussein from TrashFuture, covering SoftBank&#39;s crazy annual shareholder meeting &amp; the general collapse of the A",
+      "description": "",
+      "handle": "CUPandHANDLE_CHARTS",
+      "display_name": "Edward Gofsky",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "97b143e352a0c5",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T21:57:31Z",
+      "title": "$SPY he&#39;ll be a sitting senator in a coffin before he gives up his seat. Lots of these scums in government never resign due to health. They&#39;d rather die in office than let go. I mean its how we got a free SCOTUS seat in 2020. The hag loved the seat so much, she saved it for Trump to fill.",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658832701",
+      "author": "Crodies",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:57:31Z",
+      "text": "$SPY he&#39;ll be a sitting senator in a coffin before he gives up his seat. Lots of these scums in government never resign due to health. They&#39;d rather die in office than let go. I mean its how we got a free SCOTUS seat in 2020. The hag loved the seat so much, she saved it for Trump to fill.",
+      "description": "",
+      "handle": "Crodies",
+      "display_name": "Crodies",
+      "platform": "stocktwits"
+    },
     {
       "id": "3ef984047d6186",
       "source": "stocktwits",
@@ -210,6 +532,28 @@
       "platform": "stocktwits"
     },
     {
+      "id": "5d92ae3b3e0062",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-11T21:55:00Z",
+      "title": "ROSEN, A LEADING INVESTOR RIGHTS LAW FIRM, Encourages Photronics, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 PLAB",
+      "body": "Rosen Law Firm has filed securities class action lawsuits against Photronics, Inc., Barclays PLC, and Roblox Corporation on behalf of investors who purchased securities during specified periods. The lawsuits allege that defendants made materially false and misleading statements regarding business co",
+      "url": "https://www.globenewswire.com/news-release/2026/07/11/3325827/673/en/ROSEN-A-LEADING-INVESTOR-RIGHTS-LAW-FIRM-Encourages-Photronics-Inc-Investors-to-Secure-Counsel-Before-Important-Deadline-in-Securities-Class-Action-PLAB.html",
+      "author": "GlobeNewswire Inc.",
+      "tickers": [
+        "PLAB",
+        "BCS",
+        "RBLX"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:55:00Z",
+      "text": "ROSEN, A LEADING INVESTOR RIGHTS LAW FIRM, Encourages Photronics, Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action \u2013 PLAB",
+      "description": "Rosen Law Firm has filed securities class action lawsuits against Photronics, Inc., Barclays PLC, and Roblox Corporation on behalf of investors who purchased securities during specified periods. The lawsuits allege that defendants made materially false and misleading statements regarding business co"
+    },
+    {
       "id": "843de60f4b2939",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -230,52 +574,6 @@
       "description": "",
       "handle": "CoffeeRocks",
       "display_name": "CoffeeRocks",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "93b668420faf3d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:54:34Z",
-      "title": "$SPY $DJT $TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658832649",
-      "author": "Thechiefofpolice",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:54:34Z",
-      "text": "$SPY $DJT $TSLA",
-      "description": "",
-      "handle": "Thechiefofpolice",
-      "display_name": "Your boss",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "14f914a467fa3c",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:54:34Z",
-      "title": "$SPY $DJT $TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658832649",
-      "author": "Thechiefofpolice",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:54:34Z",
-      "text": "$SPY $DJT $TSLA",
-      "description": "",
-      "handle": "Thechiefofpolice",
-      "display_name": "Your boss",
       "platform": "stocktwits"
     },
     {
@@ -325,52 +623,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b6cc17ffd18cea",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:51:45Z",
-      "title": "$SPX $SPY not an EW guy at all, but if you considered this index an IPO (IT BASED for 26 years, RIVN YOU GOT PLENTY OF TIME), this is a bit wild for a theory that was ironically theorized in the 1930s. @howardlindzon has been talking about the rise of retail the last few years and here&#39;s what AI",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658832605",
-      "author": "gpaisa",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 6.7,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:51:45Z",
-      "text": "$SPX $SPY not an EW guy at all, but if you considered this index an IPO (IT BASED for 26 years, RIVN YOU GOT PLENTY OF TIME), this is a bit wild for a theory that was ironically theorized in the 1930s. @howardlindzon has been talking about the rise of retail the last few years and here&#39;s what AI",
-      "description": "",
-      "handle": "gpaisa",
-      "display_name": "GP",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "1e2f8bf0529955",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:50:52Z",
-      "title": "$SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658832595",
-      "author": "Nullify",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:50:52Z",
-      "text": "$SPY $QQQ",
-      "description": "",
-      "handle": "Nullify",
-      "display_name": "Ben Fallen",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b1c85344968d16",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -394,29 +646,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "0e1fa1b6dd6d7a",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:50:15Z",
-      "title": "Cybercabs without a steering wheel still look like they\u2019re blocked until NHTSA drops that requirement. \n \nThat\u2019s the key question here: \nis $TSLA waiting on a regulatory green light before rolling them out? \n \nFeels like the bottleneck is more policy than product at this point.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658832587",
-      "author": "FibonacciFortress",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:50:15Z",
-      "text": "Cybercabs without a steering wheel still look like they\u2019re blocked until NHTSA drops that requirement. \n \nThat\u2019s the key question here: \nis $TSLA waiting on a regulatory green light before rolling them out? \n \nFeels like the bottleneck is more policy than product at this point.",
-      "description": "",
-      "handle": "FibonacciFortress",
-      "display_name": "Eric Smith",
-      "platform": "stocktwits"
-    },
-    {
       "id": "df3e02b8f33d81",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -437,29 +666,6 @@
       "description": "",
       "handle": "Mipel",
       "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "43e636abf4b039",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:47:51Z",
-      "title": "$SPY https://youtu.be/UR2zRsrHLMc?is=j3L4zl7LrZsInuoH",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658832556",
-      "author": "P8perCh8ser",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:47:51Z",
-      "text": "$SPY https://youtu.be/UR2zRsrHLMc?is=j3L4zl7LrZsInuoH",
-      "description": "",
-      "handle": "P8perCh8ser",
-      "display_name": "P8perCh8ser",
       "platform": "stocktwits"
     },
     {
@@ -573,29 +779,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "1c8955b5a3c1ef",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:43:36Z",
-      "title": "$AMD Report: U.S. Steps Up Military Presence Facing Iran \u2013 Two Aircraft Carriers Deployed to the Gulf of Oman\n\nThe United States continues to expand its force deployment in the region. According to a *New York Post* report citing maritime tracking data and sources familiar with the details, the airc",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/AMD/message/658832483",
-      "author": "Mipel",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:43:36Z",
-      "text": "$AMD Report: U.S. Steps Up Military Presence Facing Iran \u2013 Two Aircraft Carriers Deployed to the Gulf of Oman\n\nThe United States continues to expand its force deployment in the region. According to a *New York Post* report citing maritime tracking data and sources familiar with the details, the airc",
-      "description": "",
-      "handle": "Mipel",
-      "display_name": "Natan h",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2a1359b5f78779",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -683,29 +866,6 @@
       "description": ""
     },
     {
-      "id": "112a3a2a345b10",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:39:28Z",
-      "title": "$SPY  1 - 0 $DJT $TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658832419",
-      "author": "thewittywasp",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T21:39:28Z",
-      "text": "$SPY  1 - 0 $DJT $TSLA",
-      "description": "",
-      "handle": "thewittywasp",
-      "display_name": "thewittywasp",
-      "platform": "stocktwits"
-    },
-    {
       "id": "e4e6f8d0d0f741",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -726,29 +886,6 @@
       "description": "",
       "handle": "MichaelFailure",
       "display_name": "Michael Failure",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "902aaa0fdea862",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:37:23Z",
-      "title": "$SPY $QQQ RE: Senator Mitch McConnell....if rumors true\n\nWhy Democrats Prefer an Announcement Before August 3rdIf a vacancy is officially announced before August 3rd, the law triggers an immediate special election process.Flips the Seat Earlier: A pre-August 3rd announcement means a special election",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658832388",
-      "author": "Yolo_Betz",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:37:23Z",
-      "text": "$SPY $QQQ RE: Senator Mitch McConnell....if rumors true\n\nWhy Democrats Prefer an Announcement Before August 3rdIf a vacancy is officially announced before August 3rd, the law triggers an immediate special election process.Flips the Seat Earlier: A pre-August 3rd announcement means a special election",
-      "description": "",
-      "handle": "Yolo_Betz",
-      "display_name": "Richard Fuld",
       "platform": "stocktwits"
     },
     {
@@ -773,6 +910,27 @@
       "handle": "yourdream",
       "display_name": "Your Dream",
       "platform": "stocktwits"
+    },
+    {
+      "id": "fabe53d9b530f6",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-11T21:34:00Z",
+      "title": "This Unstoppable Tech ETF Is Down More Than 20%. Is It Time to Buy the Dip?",
+      "body": "The DRAM - Roundhill Memory ETF (DRAM) has pulled back over 20% from its highs despite strong fundamentals. The ETF provides concentrated exposure to the big three DRAM makers (Micron, Samsung, SK Hynix) benefiting from surging demand for high-bandwidth memory driven by AI. With supply constraints e",
+      "url": "https://www.fool.com/investing/2026/07/11/this-unstoppable-tech-etf-is-down-more-than-20-is/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "DRAM",
+        "MU"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:34:00Z",
+      "text": "This Unstoppable Tech ETF Is Down More Than 20%. Is It Time to Buy the Dip?",
+      "description": "The DRAM - Roundhill Memory ETF (DRAM) has pulled back over 20% from its highs despite strong fundamentals. The ETF provides concentrated exposure to the big three DRAM makers (Micron, Samsung, SK Hynix) benefiting from surging demand for high-bandwidth memory driven by AI. With supply constraints e"
     },
     {
       "id": "cfd5f1c1e996eb",
@@ -842,6 +1000,27 @@
       "handle": "MiaHarperTrading",
       "display_name": "Mia Harper",
       "platform": "stocktwits"
+    },
+    {
+      "id": "af8477145be905",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-11T21:30:02Z",
+      "title": "Home Depot vs. Lowe's: A Look at Recent Revenue Trends for These Home Improvement Giants",
+      "body": "Home Depot maintains roughly double the revenue of Lowe's in the home improvement retail sector. Both companies display stable seasonal patterns, though recent interest rate headwinds and a soft housing market pressured stock prices. Home Depot's P/S ratio dipped below 2.0 in May before recovering, ",
+      "url": "https://www.fool.com/coverage/charts/2026/07/11/home-depot-vs-lowe-s-a-look-at-recent-revenue-trends-for-these-home-improvement-giants/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "HD",
+        "LOW"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:30:02Z",
+      "text": "Home Depot vs. Lowe's: A Look at Recent Revenue Trends for These Home Improvement Giants",
+      "description": "Home Depot maintains roughly double the revenue of Lowe's in the home improvement retail sector. Both companies display stable seasonal patterns, though recent interest rate headwinds and a soft housing market pressured stock prices. Home Depot's P/S ratio dipped below 2.0 in May before recovering, "
     },
     {
       "id": "8fc5d1312b1e4d",
@@ -931,29 +1110,6 @@
       "description": ""
     },
     {
-      "id": "62f204e33e9000",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:22:16Z",
-      "title": "$QQQ $SPY china",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658832116",
-      "author": "2026Bear",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-11T21:22:16Z",
-      "text": "$QQQ $SPY china",
-      "description": "",
-      "handle": "2026Bear",
-      "display_name": "2026Bear",
-      "platform": "stocktwits"
-    },
-    {
       "id": "2b38e9c35668c9",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -997,29 +1153,6 @@
       "description": "",
       "handle": "WallStreetScoutt",
       "display_name": "janelle tullis",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "40600078e922a8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T21:20:57Z",
-      "title": "$TSLA and $SPCX here feel like classic \u201cbull market only\u201d setups. \n \nElon\u2019s been able to pull in retail money at insane valuations for years, but that kind of multiple expansion needs a hot tape. If the market turns, a lot of bagholders could get hit hard.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658832088",
-      "author": "DodecahedronDelta",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T21:20:57Z",
-      "text": "$TSLA and $SPCX here feel like classic \u201cbull market only\u201d setups. \n \nElon\u2019s been able to pull in retail money at insane valuations for years, but that kind of multiple expansion needs a hot tape. If the market turns, a lot of bagholders could get hit hard.",
-      "description": "",
-      "handle": "DodecahedronDelta",
-      "display_name": "Denise Kirby",
       "platform": "stocktwits"
     },
     {
@@ -1286,6 +1419,26 @@
       "description": ""
     },
     {
+      "id": "01d72ed7873c52",
+      "source": "massive_news",
+      "source_type": "benzinga_news",
+      "timestamp": "2026-07-11T21:15:00Z",
+      "title": "Elon Musk's SpaceX Just Joined the Nasdaq-100. Now What?",
+      "body": "SpaceX entered the Nasdaq-100 index on July 7, which will trigger passive fund buying and provide stock price support. However, investors should be cautious about upcoming lock-up expiry dates that could release billions of additional shares to the market, potentially offsetting the benefits of inde",
+      "url": "https://www.fool.com/investing/2026/07/11/elon-musks-spacex-just-joined-the-nasdaq-100-now-w/?source=iedfolrf0000001",
+      "author": "The Motley Fool",
+      "tickers": [
+        "SPCX"
+      ],
+      "tags": [],
+      "impact_score": 8.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T21:15:00Z",
+      "text": "Elon Musk's SpaceX Just Joined the Nasdaq-100. Now What?",
+      "description": "SpaceX entered the Nasdaq-100 index on July 7, which will trigger passive fund buying and provide stock price support. However, investors should be cautious about upcoming lock-up expiry dates that could release billions of additional shares to the market, potentially offsetting the benefits of inde"
+    },
+    {
       "id": "63f8899be9f0ac",
       "source": "reuters",
       "source_type": "rss",
@@ -1363,29 +1516,6 @@
       "time": "2026-07-11T21:00:22Z",
       "text": "Janicki Industries Breaks Ground on $800 Million Campus in Great Falls Montana",
       "description": ""
-    },
-    {
-      "id": "c4b57805146a70",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:57:22Z",
-      "title": "$TSLA post-Q2 earnings over $500? Not impossible, but the bar is high. \n \nNeeds a clean beat, strong margin story, and zero softness in delivery/guidance. If the market sees more than just \u201cgood enough,\u201d shorts could get squeezed fast. \n \nStill, after a big run, $500 looks like a stretch unless the ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/TSLA/message/658831653",
-      "author": "Abraham4329",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:57:22Z",
-      "text": "$TSLA post-Q2 earnings over $500? Not impossible, but the bar is high. \n \nNeeds a clean beat, strong margin story, and zero softness in delivery/guidance. If the market sees more than just \u201cgood enough,\u201d shorts could get squeezed fast. \n \nStill, after a big run, $500 looks like a stretch unless the ",
-      "description": "",
-      "handle": "Abraham4329",
-      "display_name": "ElvisAbraham",
-      "platform": "stocktwits"
     },
     {
       "id": "38bd62437d4af1",
@@ -1644,29 +1774,6 @@
       "description": "",
       "handle": "MorganHoratio",
       "display_name": "Morgan Horatio",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "7b168e6f41bd81",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T20:22:25Z",
-      "title": "$SPY $QQQ $PLTR  will PLTR go up on  earnings or down ?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658830989",
-      "author": "Jpp24",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T20:22:25Z",
-      "text": "$SPY $QQQ $PLTR  will PLTR go up on  earnings or down ?",
-      "description": "",
-      "handle": "Jpp24",
-      "display_name": "Jpp24",
       "platform": "stocktwits"
     },
     {
@@ -2613,29 +2720,6 @@
       "time": "Sat, 11 Jul 2026 19:00:00 GMT",
       "text": "\u2018I get $1,460 in Social Security\u2019: My millionaire ex-husband, 74, refuses to pay alimony. What can I do?",
       "description": "\u201cI have very little money, while my ex\u2019s financial statements show assets in the millions.\u201d"
-    },
-    {
-      "id": "94b82e4ad1f934",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T18:47:40Z",
-      "title": "$BTC.X $IBIT $COIN $GS $BLK \n\nU.S. Strategic Bitcoin Reserve - Wikipedia https://share.google/akrQaAQZRpmWpxRAQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/COIN/message/658828972",
-      "author": "THE_TRADE",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-11T18:47:40Z",
-      "text": "$BTC.X $IBIT $COIN $GS $BLK \n\nU.S. Strategic Bitcoin Reserve - Wikipedia https://share.google/akrQaAQZRpmWpxRAQ",
-      "description": "",
-      "handle": "THE_TRADE",
-      "display_name": "THE TRADE",
-      "platform": "stocktwits"
     },
     {
       "id": "c35164cfe74aeb",
