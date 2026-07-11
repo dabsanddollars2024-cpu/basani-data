@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11T00:07:07Z",
-  "generated_display": "2026-07-11 00:07 ET",
+  "generated": "2026-07-11T00:12:08Z",
+  "generated_display": "2026-07-11 00:12 ET",
   "count": 213,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T00:07:02.053019+00:00",
+      "last_error_ts": "2026-07-11T00:12:02.300994+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 15,
-      "latency_ms": 205,
-      "last_success": "2026-07-11T00:07:02.260206+00:00",
+      "latency_ms": 149,
+      "last_success": "2026-07-11T00:12:02.452277+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 192,
-      "last_success": "2026-07-11T00:07:02.453756+00:00",
+      "latency_ms": 69,
+      "last_success": "2026-07-11T00:12:02.522798+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 100,
-      "last_success": "2026-07-11T00:07:02.557320+00:00",
+      "latency_ms": 200,
+      "last_success": "2026-07-11T00:12:02.749083+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-11T00:07:02.674063+00:00",
+      "last_error_ts": "2026-07-11T00:12:02.864374+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1979,
-      "last_success": "2026-07-11T00:07:04.653410+00:00",
+      "latency_ms": 2282,
+      "last_success": "2026-07-11T00:12:05.147387+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-11T00:07:05.852914+00:00",
+      "last_success": "2026-07-11T00:12:06.146952+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 11,
-      "latency_ms": 2045,
-      "last_success": "2026-07-11T00:07:07.898656+00:00",
+      "latency_ms": 1899,
+      "last_success": "2026-07-11T00:12:08.046356+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,81 +74,58 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 114
+          "latency_ms": 127
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 131
+          "latency_ms": 171
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 153
+          "latency_ms": 100
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 402
+          "latency_ms": 401
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 118
+          "latency_ms": 30
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 279
+          "latency_ms": 167
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
+    "cnbc": 8,
     "uw_news": 25,
     "reuters": 16,
     "massive_news": 50,
     "zerohedge": 8,
     "marketwatch": 8,
-    "cnbc": 8,
-    "benzinga": 15,
     "seekingalpha": 7,
+    "benzinga": 15,
     "forex_factory": 1
   },
   "items": [
     {
-      "id": "aab3522c0a44d3",
+      "id": "c2668959eff45d",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-11T00:06:50Z",
-      "title": "$FED $SPY Fed balance sheet",
+      "timestamp": "2026-07-11T00:11:28Z",
+      "title": "$SPY",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658811708",
-      "author": "greta_traderberg",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T00:06:50Z",
-      "text": "$FED $SPY Fed balance sheet",
-      "description": "",
-      "handle": "greta_traderberg",
-      "display_name": "Greta Traderberg",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "3b7c7416875ebc",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T00:05:45Z",
-      "title": "$SPY the number one rule to risk management is game selection. \u261d\ufe0f",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658811681",
-      "author": "HeyShoe",
+      "url": "https://stocktwits.com/symbol/SPY/message/658811846",
+      "author": "PivotPoint_101",
       "tickers": [
         "SPY"
       ],
@@ -156,22 +133,22 @@
       "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-11T00:05:45Z",
-      "text": "$SPY the number one rule to risk management is game selection. \u261d\ufe0f",
+      "time": "2026-07-11T00:11:28Z",
+      "text": "$SPY",
       "description": "",
-      "handle": "HeyShoe",
-      "display_name": "Shoe",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
       "platform": "stocktwits"
     },
     {
-      "id": "22cff024d147f3",
+      "id": "8e98c0d1268c8e",
       "source": "stocktwits",
       "source_type": "x_post",
-      "timestamp": "2026-07-11T00:05:41Z",
-      "title": "$SPY https://youtu.be/irs7mqmAWeo?is=BreoctMoSMk_FQev",
+      "timestamp": "2026-07-11T00:11:09Z",
+      "title": "$DJT $SPY \n\nMAGA must fucking stop hiding Epstein crimes right now.",
       "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658811679",
-      "author": "P8perCh8ser",
+      "url": "https://stocktwits.com/symbol/SPY/message/658811837",
+      "author": "sooo0O00oOQO0ooor",
       "tickers": [
         "SPY"
       ],
@@ -179,11 +156,282 @@
       "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-11T00:05:41Z",
-      "text": "$SPY https://youtu.be/irs7mqmAWeo?is=BreoctMoSMk_FQev",
+      "time": "2026-07-11T00:11:09Z",
+      "text": "$DJT $SPY \n\nMAGA must fucking stop hiding Epstein crimes right now.",
       "description": "",
-      "handle": "P8perCh8ser",
-      "display_name": "P8perCh8ser",
+      "handle": "sooo0O00oOQO0ooor",
+      "display_name": "Vay-Vay",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "655258010d371a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:11:00Z",
+      "title": "$SPY $NVO I\u2019m surprised novo nordisk wasn\u2019t down today since ozempic now has a fierce competitor",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658811835",
+      "author": "MisterSplashyPants",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:11:00Z",
+      "text": "$SPY $NVO I\u2019m surprised novo nordisk wasn\u2019t down today since ozempic now has a fierce competitor",
+      "description": "",
+      "handle": "MisterSplashyPants",
+      "display_name": "Justin Samson",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "1be68182bb935f",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:10:32Z",
+      "title": "$NOW inv h/s forming on weekly tf\n\nEr 1.5 weeks away\n\n$SPY $IGV $QQQ $MSFT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658811825",
+      "author": "BrianSJKim",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:10:32Z",
+      "text": "$NOW inv h/s forming on weekly tf\n\nEr 1.5 weeks away\n\n$SPY $IGV $QQQ $MSFT",
+      "description": "",
+      "handle": "BrianSJKim",
+      "display_name": "Brian",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "558d3059a66c4b",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:10:32Z",
+      "title": "$NOW inv h/s forming on weekly tf\n\nEr 1.5 weeks away\n\n$SPY $IGV $QQQ $MSFT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658811825",
+      "author": "BrianSJKim",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:10:32Z",
+      "text": "$NOW inv h/s forming on weekly tf\n\nEr 1.5 weeks away\n\n$SPY $IGV $QQQ $MSFT",
+      "description": "",
+      "handle": "BrianSJKim",
+      "display_name": "Brian",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ad5b99a2e036d3",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:10:32Z",
+      "title": "$NOW inv h/s forming on weekly tf\n\nEr 1.5 weeks away\n\n$SPY $IGV $QQQ $MSFT",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658811825",
+      "author": "BrianSJKim",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:10:32Z",
+      "text": "$NOW inv h/s forming on weekly tf\n\nEr 1.5 weeks away\n\n$SPY $IGV $QQQ $MSFT",
+      "description": "",
+      "handle": "BrianSJKim",
+      "display_name": "Brian",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "51b94248e5429e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:10:04Z",
+      "title": "$SPY    Beautiful Sweep N Go\u201d\n\nWe love trading sweeps of the 4hr 20 ma \n$QQQ we did it 3 times in a month so far \n#pivotgroup\ud83c\udfe1\ud83e\udd42\n#patternrecognition\ud83d\udcda",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658811811",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:10:04Z",
+      "text": "$SPY    Beautiful Sweep N Go\u201d\n\nWe love trading sweeps of the 4hr 20 ma \n$QQQ we did it 3 times in a month so far \n#pivotgroup\ud83c\udfe1\ud83e\udd42\n#patternrecognition\ud83d\udcda",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "091c508ff20f6a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:10:04Z",
+      "title": "$SPY    Beautiful Sweep N Go\u201d\n\nWe love trading sweeps of the 4hr 20 ma \n$QQQ we did it 3 times in a month so far \n#pivotgroup\ud83c\udfe1\ud83e\udd42\n#patternrecognition\ud83d\udcda",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658811811",
+      "author": "PivotPoint_101",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:10:04Z",
+      "text": "$SPY    Beautiful Sweep N Go\u201d\n\nWe love trading sweeps of the 4hr 20 ma \n$QQQ we did it 3 times in a month so far \n#pivotgroup\ud83c\udfe1\ud83e\udd42\n#patternrecognition\ud83d\udcda",
+      "description": "",
+      "handle": "PivotPoint_101",
+      "display_name": "Brian P.",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "ea98da80f4bf43",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:08:56Z",
+      "title": "$PLTR Should be a good buy around $100 level this Fall",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/PLTR/message/658811782",
+      "author": "coreholder",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:08:56Z",
+      "text": "$PLTR Should be a good buy around $100 level this Fall",
+      "description": "",
+      "handle": "coreholder",
+      "display_name": "coreholder",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "b41f3b07d37a49",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:08:23Z",
+      "title": "$TTD $QQQ TTD is one of the more likely turn around stories. Let&#39;s see what happens with earnings",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658811758",
+      "author": "TradingEmpires",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:08:23Z",
+      "text": "$TTD $QQQ TTD is one of the more likely turn around stories. Let&#39;s see what happens with earnings",
+      "description": "",
+      "handle": "TradingEmpires",
+      "display_name": "Stonks OnlyGoUp",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "25a11045598471",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Sat, 11 Jul 2026 00:08:23 GMT",
+      "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+      "body": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system.",
+      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 11 Jul 2026 00:08:23 GMT",
+      "text": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
+      "description": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system."
+    },
+    {
+      "id": "d7707441d69d95",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:08:17Z",
+      "title": "$NOW ok ladys and ladyboys. I joined bull train today here ah $107.29 shares\n\nLet&#39;s go \n\n$SPY $MSFT $IGV $CRM",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSFT/message/658811752",
+      "author": "BrianSJKim",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T00:08:17Z",
+      "text": "$NOW ok ladys and ladyboys. I joined bull train today here ah $107.29 shares\n\nLet&#39;s go \n\n$SPY $MSFT $IGV $CRM",
+      "description": "",
+      "handle": "BrianSJKim",
+      "display_name": "Brian",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "bc1eff1cb0553a",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:07:26Z",
+      "title": "$NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/NVDA/message/658811725",
+      "author": "Easymoneyjay",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "bullish",
+      "time": "2026-07-11T00:07:26Z",
+      "text": "$NVDA",
+      "description": "",
+      "handle": "Easymoneyjay",
+      "display_name": "Jason Rgrwa",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "80e9640636ded0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-11T00:07:19Z",
+      "title": "$SPY $ANTHZZX.P $OPEAZZX.P $PANW $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658811722",
+      "author": "AStrokeOfLuck",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-11T00:07:19Z",
+      "text": "$SPY $ANTHZZX.P $OPEAZZX.P $PANW $QQQ",
+      "description": "",
+      "handle": "AStrokeOfLuck",
+      "display_name": "Chris",
       "platform": "stocktwits"
     },
     {
@@ -256,29 +504,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "97c9b7fdab22c3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T00:04:16Z",
-      "title": "$SPY $DJT  $NKE Colin Kaepernick \ud83c\udfc8",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658811640",
-      "author": "SamGiancana",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T00:04:16Z",
-      "text": "$SPY $DJT  $NKE Colin Kaepernick \ud83c\udfc8",
-      "description": "",
-      "handle": "SamGiancana",
-      "display_name": "Sam Giancana",
-      "platform": "stocktwits"
-    },
-    {
       "id": "6a761304234642",
       "source": "uw_news",
       "source_type": "benzinga_news",
@@ -342,29 +567,6 @@
       "description": "",
       "handle": "MarianoItaliano",
       "display_name": "Marian Kowalski",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "7d84af8629fc18",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-11T00:03:36Z",
-      "title": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nFed officials are considering raising interest rates due to concerns about inflation risks. \n \nhttps://www.reuters.com/business/fed-officials-fret-over-inflation-risk-weigh-rate-hikes-2026-07-10/",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658811614",
-      "author": "chamono1942",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 8.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T00:03:36Z",
-      "text": "$SOXL $SOXS $TQQQ $SQQQ $SPY  \nFed officials are considering raising interest rates due to concerns about inflation risks. \n \nhttps://www.reuters.com/business/fed-officials-fret-over-inflation-risk-weigh-rate-hikes-2026-07-10/",
-      "description": "",
-      "handle": "chamono1942",
-      "display_name": "\uc774\ucca0\uc131",
       "platform": "stocktwits"
     },
     {
@@ -644,29 +846,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "6838eeacbc5588",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T23:58:07Z",
-      "title": "$QQQ $IWM $AAPL \nToo complacent",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658811426",
-      "author": "LeonardoBonacci",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-10T23:58:07Z",
-      "text": "$QQQ $IWM $AAPL \nToo complacent",
-      "description": "",
-      "handle": "LeonardoBonacci",
-      "display_name": "Dainty",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b10e204fa5bc65",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -943,29 +1122,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "4049a6239fda60",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T23:56:04Z",
-      "title": "$BTC.X $SPY $QQQ \n\nThat\u2019s a shame Trump is president of this beautiful country\u2026",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658811343",
-      "author": "NatoshiSakomoto",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T23:56:04Z",
-      "text": "$BTC.X $SPY $QQQ \n\nThat\u2019s a shame Trump is president of this beautiful country\u2026",
-      "description": "",
-      "handle": "NatoshiSakomoto",
-      "display_name": "SN",
-      "platform": "stocktwits"
-    },
-    {
       "id": "ce6106739d7677",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -1055,52 +1211,6 @@
       "description": "",
       "handle": "ManiakStocks",
       "display_name": "Jason J",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "ce82bca77183e8",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T23:51:31Z",
-      "title": "$AMD Sunday night into Monday gap up play here! Shorts trapped in at all time highs! $SPY $QQQ $SOXX",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658811163",
-      "author": "TheUnmaker",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-10T23:51:31Z",
-      "text": "$AMD Sunday night into Monday gap up play here! Shorts trapped in at all time highs! $SPY $QQQ $SOXX",
-      "description": "",
-      "handle": "TheUnmaker",
-      "display_name": "TheUnmaker",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "146e83a5780a65",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T23:50:46Z",
-      "title": "Really looking forward to these significant events for the next 3 weeks:  \n \n\u25a0 Cooling CPI, PPI, and PCE on crashed oil should trigger market rally, and lead FOMC to less hawkish stance \n \n\u25a0 20 for 1 split for $KORU makes  it affordable for small account traders.  1 for 10 reverse split of SOXS remi",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658811132",
-      "author": "AlphaBull_10M",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 13.8,
-      "impact_level": "MED",
-      "sentiment": "bullish",
-      "time": "2026-07-10T23:50:46Z",
-      "text": "Really looking forward to these significant events for the next 3 weeks:  \n \n\u25a0 Cooling CPI, PPI, and PCE on crashed oil should trigger market rally, and lead FOMC to less hawkish stance \n \n\u25a0 20 for 1 split for $KORU makes  it affordable for small account traders.  1 for 10 reverse split of SOXS remi",
-      "description": "",
-      "handle": "AlphaBull_10M",
-      "display_name": "Alpha Bull",
       "platform": "stocktwits"
     },
     {
@@ -1311,29 +1421,6 @@
       "description": ""
     },
     {
-      "id": "164fa8d5e777c9",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T23:44:50Z",
-      "title": "$SPY $NVDA $BTC.X $QQQ $MU \n \nThe Donald gave Iran another deadline. I am pretty sure they are trembling like leaves now \ud83d\ude02\ud83d\ude02\ud83d\ude02",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/NVDA/message/658810931",
-      "author": "TheAlmani",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T23:44:50Z",
-      "text": "$SPY $NVDA $BTC.X $QQQ $MU \n \nThe Donald gave Iran another deadline. I am pretty sure they are trembling like leaves now \ud83d\ude02\ud83d\ude02\ud83d\ude02",
-      "description": "",
-      "handle": "TheAlmani",
-      "display_name": "TheAlmani",
-      "platform": "stocktwits"
-    },
-    {
       "id": "b40444b9783483",
       "source": "reuters",
       "source_type": "rss",
@@ -1411,29 +1498,6 @@
       "description": ""
     },
     {
-      "id": "44d7a4d8803eb6",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T23:42:34Z",
-      "title": "$MSFT easy morning pop play. Next week I\u2019m expecting channel and more downside",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658810837",
-      "author": "Grkgy88",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-10T23:42:34Z",
-      "text": "$MSFT easy morning pop play. Next week I\u2019m expecting channel and more downside",
-      "description": "",
-      "handle": "Grkgy88",
-      "display_name": "Grkgy88",
-      "platform": "stocktwits"
-    },
-    {
       "id": "a0bc2d7d600b3f",
       "source": "reuters",
       "source_type": "rss",
@@ -1450,29 +1514,6 @@
       "time": "2026-07-10 23:42:07",
       "text": "Form 4 Cue Biopharma For: 10 July",
       "description": ""
-    },
-    {
-      "id": "1d878456578d60",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T23:41:43Z",
-      "title": "$MSFT like how your a$$ was crushed by $META",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSFT/message/658810815",
-      "author": "TradeForex",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T23:41:43Z",
-      "text": "$MSFT like how your a$$ was crushed by $META",
-      "description": "",
-      "handle": "TradeForex",
-      "display_name": "TradeForex",
-      "platform": "stocktwits"
     },
     {
       "id": "f34d09908e5c0d",
@@ -2126,29 +2167,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "6596f2804413f3",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-10T22:45:11Z",
-      "title": "$PLTR just landed its first major commercial customer in Latin America. \n \nMexico\u2019s largest insurer, GNP Seguros, is adopting Foundry + AIP to fight claims fraud, improve underwriting, and unify ops. \n \nThat\u2019s the kind of enterprise AI deal that can scale. Global traction is starting to show.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/PLTR/message/658808770",
-      "author": "OctahedronOmega",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T22:45:11Z",
-      "text": "$PLTR just landed its first major commercial customer in Latin America. \n \nMexico\u2019s largest insurer, GNP Seguros, is adopting Foundry + AIP to fight claims fraud, improve underwriting, and unify ops. \n \nThat\u2019s the kind of enterprise AI deal that can scale. Global traction is starting to show.",
-      "description": "",
-      "handle": "OctahedronOmega",
-      "display_name": "Edward Lawrence",
-      "platform": "stocktwits"
-    },
-    {
       "id": "97d4bd9c965e91",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -2174,24 +2192,6 @@
       "time": "2026-07-10T22:45:00Z",
       "text": "Holtec Nuclear Corporation Announces Public Filing of Registration Statement for Proposed Initial Public Offering",
       "description": "Holtec Nuclear Corporation has filed a registration statement on Form S-1 with the SEC for a proposed initial public offering of its Class A common stock on Nasdaq under the symbol 'HNUC'. The company, headquartered in Camden, N.J., is a multinational technology company focused on nuclear power gene"
-    },
-    {
-      "id": "25a11045598471",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 22:44:35 GMT",
-      "title": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-      "body": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system.",
-      "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 22:44:35 GMT",
-      "text": "Apple sues OpenAI alleging trade secret theft, says scheme was 'at every level'",
-      "description": "The two companies entered into a high-profile partnership in 2024 when ChatGPT was integrated into the iPhone's operating system."
     },
     {
       "id": "c48a7713329506",
@@ -3158,6 +3158,24 @@
       "description": "Artisan Partners reported preliminary AUM of $183.4 billion as of June 30, 2026, down from $186.0 billion in May 2026. The decline was driven by approximately $5.7 billion in net outflows from the U.S. Value Equity strategy following termination of a sub-advisory mandate in June, with the firm comme"
     },
     {
+      "id": "9e4300aaf8a2b1",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 20:08:17 -0400",
+      "title": "Traffic through the Strait of Hormuz has largely stalled, but not for Iran",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4613039-traffic-thorough-the-strait-of-hormuz-has-largely-stalled-but-not-for-iran?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 20:08:17 -0400",
+      "text": "Traffic through the Strait of Hormuz has largely stalled, but not for Iran",
+      "description": ""
+    },
+    {
       "id": "6e54de3c99c52a",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -3218,6 +3236,24 @@
       "time": "Fri, 10 Jul 2026 20:01:29 GMT",
       "text": "Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%",
       "description": "Stablecoin issuer Circle surged in premarket trading after the U.S. Office of the Comptroller of the Currency granted it approval to operate as a trust bank."
+    },
+    {
+      "id": "91bc840bd50f83",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Fri, 10 Jul 2026 19:53:21 -0400",
+      "title": "BHP explores up to $2B sale of Chilean desalination plant, power lines - Bloomberg",
+      "body": "",
+      "url": "https://seekingalpha.com/news/4613038-bhp-explores-up-to-2b-sale-of-chilean-desalination-plant-power-lines-bloomberg?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Fri, 10 Jul 2026 19:53:21 -0400",
+      "text": "BHP explores up to $2B sale of Chilean desalination plant, power lines - Bloomberg",
+      "description": ""
     },
     {
       "id": "5bcaabca5881fb",
@@ -4022,24 +4058,6 @@
       "description": ""
     },
     {
-      "id": "70c0e2c9436264",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 17:23:13 -0400",
-      "title": "Vulcan Materials declares $0.52 dividend",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4613034-vulcan-materials-declares-0_52-dividend?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 17:23:13 -0400",
-      "text": "Vulcan Materials declares $0.52 dividend",
-      "description": ""
-    },
-    {
       "id": "201e084c6cd5a2",
       "source": "massive_news",
       "source_type": "benzinga_news",
@@ -4060,24 +4078,6 @@
       "time": "2026-07-10T17:23:00Z",
       "text": "Buyer Beware: These 2 Stocks Charts Just Displayed a Death Cross",
       "description": "Hertz Global Holdings and Kinross Gold have both displayed death crosses on their one-year charts, signaling potential further downside. Hertz faces dilution concerns, weakened used-car values, and slashed profit guidance, while Kinross is struggling as gold prices tumble amid dollar strength and in"
-    },
-    {
-      "id": "5638d70229654c",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 10 Jul 2026 17:16:21 -0400",
-      "title": "Apple sues OpenAI, former employees for theft of trade secrets",
-      "body": "",
-      "url": "https://seekingalpha.com/news/4613030-apple-sues-openai-former-employees-for-theft-of-trade-secrets?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 10 Jul 2026 17:16:21 -0400",
-      "text": "Apple sues OpenAI, former employees for theft of trade secrets",
-      "description": ""
     },
     {
       "id": "243860a47be497",
@@ -4518,23 +4518,79 @@
       "description": ""
     },
     {
-      "id": "d61cf942167e9b",
+      "id": "94388e51bbd1f5",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-09T16:44:01Z",
-      "title": "NVIDIA (NVDA): The Best NASDAQ 100 Stock to Buy Other Than SpaceX",
+      "timestamp": "2026-07-09T16:46:15Z",
+      "title": "Here\u2019s Why TSMC Investors Are Counting Down to July 16",
       "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-nvda-best-nasdaq-100-164401962.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-tsmc-investors-counting-down-164615875.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T16:46:15Z",
+      "text": "Here\u2019s Why TSMC Investors Are Counting Down to July 16",
+      "description": ""
+    },
+    {
+      "id": "40d5c70f12e906",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09T16:45:25Z",
+      "title": "Erste Group Moves Broadcom (AVGO) to Hold",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/erste-group-moves-broadcom-avgo-164525932.html",
       "author": "",
       "tickers": [
-        "NVDA"
+        "AVGO"
       ],
       "tags": [],
       "impact_score": 7.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-09T16:44:01Z",
-      "text": "NVIDIA (NVDA): The Best NASDAQ 100 Stock to Buy Other Than SpaceX",
+      "time": "2026-07-09T16:45:25Z",
+      "text": "Erste Group Moves Broadcom (AVGO) to Hold",
+      "description": ""
+    },
+    {
+      "id": "8a37895b1ece2c",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09T16:44:37Z",
+      "title": "Is Microsoft (MSFT) The Best NASDAQ 100 Stock to Buy Other Than SpaceX?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-best-nasdaq-100-164437517.html",
+      "author": "",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 7.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T16:44:37Z",
+      "text": "Is Microsoft (MSFT) The Best NASDAQ 100 Stock to Buy Other Than SpaceX?",
+      "description": ""
+    },
+    {
+      "id": "766edd40488808",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2026-07-09T16:44:25Z",
+      "title": "Morgan Stanley Keeps Overweight Rating on CrowdStrike (CRWD)",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/morgan-stanley-keeps-overweight-rating-164425318.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-09T16:44:25Z",
+      "text": "Morgan Stanley Keeps Overweight Rating on CrowdStrike (CRWD)",
       "description": ""
     },
     {
@@ -4553,60 +4609,6 @@
       "sentiment": "neutral",
       "time": "2026-07-09T16:39:32Z",
       "text": "Trump says Elon Musk will donate SpaceX stock to Trump Accounts \u2014 but the world's richest man still hasn't said a word",
-      "description": ""
-    },
-    {
-      "id": "566511bc6760fa",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09T16:30:36Z",
-      "title": "SpaceX Scored a New Street-High Price Target of $800. What Comes Next for SPCX Stock.",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-scored-street-high-price-163036155.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T16:30:36Z",
-      "text": "SpaceX Scored a New Street-High Price Target of $800. What Comes Next for SPCX Stock.",
-      "description": ""
-    },
-    {
-      "id": "5713f69dff52c0",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09T16:30:00Z",
-      "title": "US home prices just fell to $430,000 \u2014 but the $132/month savings is vanishing into taxes and insurance",
-      "body": "",
-      "url": "https://finance.yahoo.com/real-estate/articles/us-home-prices-just-fell-163000090.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T16:30:00Z",
-      "text": "US home prices just fell to $430,000 \u2014 but the $132/month savings is vanishing into taxes and insurance",
-      "description": ""
-    },
-    {
-      "id": "321ed93b943373",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-09T16:28:44Z",
-      "title": "10% discount Gone? Progressive Ends Motive Dashcam Enrollments, Signals New Telematics Program",
-      "body": "",
-      "url": "https://finance.yahoo.com/small-business/articles/10-discount-gone-progressive-ends-162844817.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-09T16:28:44Z",
-      "text": "10% discount Gone? Progressive Ends Motive Dashcam Enrollments, Signals New Telematics Program",
       "description": ""
     },
     {
