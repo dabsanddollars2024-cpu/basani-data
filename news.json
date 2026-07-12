@@ -1,21 +1,21 @@
 {
-  "generated": "2026-07-12T03:12:07Z",
-  "generated_display": "2026-07-12 03:12 ET",
-  "count": 170,
+  "generated": "2026-07-12T03:17:06Z",
+  "generated_display": "2026-07-12 03:17 ET",
+  "count": 169,
   "source_health": {
     "x_api": {
       "status": "failed",
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-12T03:12:02.352565+00:00",
+      "last_error_ts": "2026-07-12T03:17:01.888907+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 4,
-      "latency_ms": 101,
-      "last_success": "2026-07-12T03:12:02.455128+00:00",
+      "latency_ms": 165,
+      "last_success": "2026-07-12T03:17:02.054860+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -23,15 +23,15 @@
       "status": "healthy",
       "items_pulled": 25,
       "latency_ms": 97,
-      "last_success": "2026-07-12T03:12:02.553420+00:00",
+      "last_success": "2026-07-12T03:17:02.153147+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
-      "items_pulled": 18,
-      "latency_ms": 29,
-      "last_success": "2026-07-12T03:12:02.583589+00:00",
+      "items_pulled": 17,
+      "latency_ms": 31,
+      "last_success": "2026-07-12T03:17:02.185597+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-12T03:12:02.680575+00:00",
+      "last_error_ts": "2026-07-12T03:17:02.274983+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1972,
-      "last_success": "2026-07-12T03:12:04.653506+00:00",
+      "latency_ms": 1978,
+      "last_success": "2026-07-12T03:17:04.253205+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,7 +55,7 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-12T03:12:05.553001+00:00",
+      "last_success": "2026-07-12T03:17:05.052595+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -63,7 +63,7 @@
       "status": "healthy",
       "items_pulled": 11,
       "latency_ms": 1899,
-      "last_success": "2026-07-12T03:12:07.452686+00:00",
+      "last_success": "2026-07-12T03:17:06.952187+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,39 +74,39 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 123
+          "latency_ms": 126
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 175
+          "latency_ms": 172
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 100
+          "latency_ms": 99
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 209
+          "latency_ms": 205
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 113
+          "latency_ms": 118
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 177
+          "latency_ms": 76
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 75,
-    "massive_news": 18,
+    "massive_news": 17,
     "uw_news": 25,
     "reuters": 16,
     "cnbc": 8,
@@ -117,6 +117,167 @@
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "d4b66668dfd869",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T03:15:55Z",
+      "title": "$DJT $QQQ $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658837886",
+      "author": "Rich_P",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-12T03:15:55Z",
+      "text": "$DJT $QQQ $SPY",
+      "description": "",
+      "handle": "Rich_P",
+      "display_name": "Rich",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0fe0a8dc16f63e",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T03:15:55Z",
+      "title": "$DJT $QQQ $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658837886",
+      "author": "Rich_P",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "bearish",
+      "time": "2026-07-12T03:15:55Z",
+      "text": "$DJT $QQQ $SPY",
+      "description": "",
+      "handle": "Rich_P",
+      "display_name": "Rich",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "6544bcdd47e5b4",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T03:14:33Z",
+      "title": "$SPY meanwhile Iranian Jews are struggling",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658837872",
+      "author": "CandlesBACKEDSECURITIES",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-12T03:14:33Z",
+      "text": "$SPY meanwhile Iranian Jews are struggling",
+      "description": "",
+      "handle": "CandlesBACKEDSECURITIES",
+      "display_name": "Candles",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "0f71e7dd934000",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T03:13:11Z",
+      "title": "$SPY $QQQ $DJT what did Jew puppet Chump say??? They\u2019re begging us for talks - THIS GUY IS A SELF ABSORBED POS !!! it\u2019s like he believes he\u2019s fooling everyone with his stupid tweets! He just a narcissistic troll Jew ! Yes he\u2019s not Christian by any means!!! He thinks he Jesus , INSANE !!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658837854",
+      "author": "Tj_strippers_and_blow",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-12T03:13:11Z",
+      "text": "$SPY $QQQ $DJT what did Jew puppet Chump say??? They\u2019re begging us for talks - THIS GUY IS A SELF ABSORBED POS !!! it\u2019s like he believes he\u2019s fooling everyone with his stupid tweets! He just a narcissistic troll Jew ! Yes he\u2019s not Christian by any means!!! He thinks he Jesus , INSANE !!!",
+      "description": "",
+      "handle": "Tj_strippers_and_blow",
+      "display_name": "White dude",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "4425672d934e4d",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T03:13:11Z",
+      "title": "$SPY $QQQ $DJT what did Jew puppet Chump say??? They\u2019re begging us for talks - THIS GUY IS A SELF ABSORBED POS !!! it\u2019s like he believes he\u2019s fooling everyone with his stupid tweets! He just a narcissistic troll Jew ! Yes he\u2019s not Christian by any means!!! He thinks he Jesus , INSANE !!!",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/QQQ/message/658837854",
+      "author": "Tj_strippers_and_blow",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-12T03:13:11Z",
+      "text": "$SPY $QQQ $DJT what did Jew puppet Chump say??? They\u2019re begging us for talks - THIS GUY IS A SELF ABSORBED POS !!! it\u2019s like he believes he\u2019s fooling everyone with his stupid tweets! He just a narcissistic troll Jew ! Yes he\u2019s not Christian by any means!!! He thinks he Jesus , INSANE !!!",
+      "description": "",
+      "handle": "Tj_strippers_and_blow",
+      "display_name": "White dude",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "f5262ed3586643",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T03:13:05Z",
+      "title": "$SPY \ud83d\udc40",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658837852",
+      "author": "CandlesBACKEDSECURITIES",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-12T03:13:05Z",
+      "text": "$SPY \ud83d\udc40",
+      "description": "",
+      "handle": "CandlesBACKEDSECURITIES",
+      "display_name": "Candles",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "572d709e3e52f0",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T03:12:23Z",
+      "title": "$BTC.X $MSTR $ETH.X $XRP.X \nBaby bears will be crying in a dark by midnight please take pity on them they know not what they do",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/MSTR/message/658837844",
+      "author": "MichaelFailure",
+      "tickers": [
+        "MSTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-12T03:12:23Z",
+      "text": "$BTC.X $MSTR $ETH.X $XRP.X \nBaby bears will be crying in a dark by midnight please take pity on them they know not what they do",
+      "description": "",
+      "handle": "MichaelFailure",
+      "display_name": "Michael Failure",
+      "platform": "stocktwits"
+    },
     {
       "id": "0ecef988ad645e",
       "source": "stocktwits",
@@ -164,29 +325,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "b53cef6d4f37c7",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T03:09:19Z",
-      "title": "$SPY $QQQ I love my wife so very much",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658837809",
-      "author": "FundaTech",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-12T03:09:19Z",
-      "text": "$SPY $QQQ I love my wife so very much",
-      "description": "",
-      "handle": "FundaTech",
-      "display_name": "Professional Pattern Trader",
-      "platform": "stocktwits"
-    },
-    {
       "id": "4252288d45743a",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -207,75 +345,6 @@
       "description": "",
       "handle": "FundaTech",
       "display_name": "Professional Pattern Trader",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "e0d3932311f650",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T03:08:59Z",
-      "title": "$SPY",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658837807",
-      "author": "Quran2025",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-12T03:08:59Z",
-      "text": "$SPY",
-      "description": "",
-      "handle": "Quran2025",
-      "display_name": "Quran Stokes",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "5c517b94e6005e",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T03:08:49Z",
-      "title": "$SPY don\u2019t worry it will all be resolved by Monday 9:30am est.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658837805",
-      "author": "kaoz",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-12T03:08:49Z",
-      "text": "$SPY don\u2019t worry it will all be resolved by Monday 9:30am est.",
-      "description": "",
-      "handle": "kaoz",
-      "display_name": "kaoz",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "94d233d963fe69",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T03:08:45Z",
-      "title": "$SPY FYI",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658837804",
-      "author": "CandlesBACKEDSECURITIES",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-12T03:08:45Z",
-      "text": "$SPY FYI",
-      "description": "",
-      "handle": "CandlesBACKEDSECURITIES",
-      "display_name": "Candles",
       "platform": "stocktwits"
     },
     {
@@ -348,29 +417,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "cbfd0101187646",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T03:03:16Z",
-      "title": "$DJT $QQQ $SPY \n\nWonder how many times this can be reshared?",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658837727",
-      "author": "2026TakeBackUSABegins",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-12T03:03:16Z",
-      "text": "$DJT $QQQ $SPY \n\nWonder how many times this can be reshared?",
-      "description": "",
-      "handle": "2026TakeBackUSABegins",
-      "display_name": "CJ",
-      "platform": "stocktwits"
-    },
-    {
       "id": "1e4808a21fa988",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -391,29 +437,6 @@
       "description": "",
       "handle": "1111Bro",
       "display_name": "Dan L",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "f651dc0105e5b4",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T03:02:03Z",
-      "title": "$QQQ ~ This is what CNBC &amp; Silicon Valley \u201cTech Bros\u201d want you to believe SpaceX and the \u201cAI Industry\u201d is in summer 2026. $SPCX $SPY $SMH $DRAM",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/QQQ/message/658837717",
-      "author": "CUPandHANDLE_CHARTS",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-12T03:02:03Z",
-      "text": "$QQQ ~ This is what CNBC &amp; Silicon Valley \u201cTech Bros\u201d want you to believe SpaceX and the \u201cAI Industry\u201d is in summer 2026. $SPCX $SPY $SMH $DRAM",
-      "description": "",
-      "handle": "CUPandHANDLE_CHARTS",
-      "display_name": "Edward Gofsky",
       "platform": "stocktwits"
     },
     {
@@ -1055,29 +1078,6 @@
       "description": "",
       "handle": "bullishforeverbrah",
       "display_name": "bullishbrah",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "36ee056f146d9d",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T02:26:42Z",
-      "title": "$BTC.X $MSTR  Clarity Act is Aug 7. The most likely scenario is that the CLARITY Act gets stuck in a legislative deadlock, which will cause a sharp, short-term drop in MicroStrategy (MSTR), but a total structural meltdown is highly unlikely because institutions like BlackRock and Vanguard are heavil",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/MSTR/message/658837309",
-      "author": "Ghost2350",
-      "tickers": [
-        "MSTR"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bullish",
-      "time": "2026-07-12T02:26:42Z",
-      "text": "$BTC.X $MSTR  Clarity Act is Aug 7. The most likely scenario is that the CLARITY Act gets stuck in a legislative deadlock, which will cause a sharp, short-term drop in MicroStrategy (MSTR), but a total structural meltdown is highly unlikely because institutions like BlackRock and Vanguard are heavil",
-      "description": "",
-      "handle": "Ghost2350",
-      "display_name": "Ghost2350",
       "platform": "stocktwits"
     },
     {
@@ -3011,28 +3011,6 @@
       "description": ""
     },
     {
-      "id": "d2b3c5eceaeeb2",
-      "source": "massive_news",
-      "source_type": "benzinga_news",
-      "timestamp": "2026-07-11T19:15:00Z",
-      "title": "The SEC Is Rethinking Its Approach to ETFs. Here's What It Could Mean For Crypto Investors",
-      "body": "The SEC is considering allowing more novel ETF products, including cryptocurrency-based ETFs. While crypto ETFs could make digital currencies more accessible and create new demand, the article warns that Wall Street's trend toward increasingly risky and leveraged products suggests caution. Investors",
-      "url": "https://www.fool.com/investing/2026/07/11/the-sec-is-rethinking-its-approach-to-etfs-heres-w/?source=iedfolrf0000001",
-      "author": "The Motley Fool",
-      "tickers": [
-        "VGT",
-        "VPU",
-        "TSLL"
-      ],
-      "tags": [],
-      "impact_score": 10.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-11T19:15:00Z",
-      "text": "The SEC Is Rethinking Its Approach to ETFs. Here's What It Could Mean For Crypto Investors",
-      "description": "The SEC is considering allowing more novel ETF products, including cryptocurrency-based ETFs. While crypto ETFs could make digital currencies more accessible and create new demand, the article warns that Wall Street's trend toward increasingly risky and leveraged products suggests caution. Investors"
-    },
-    {
       "id": "98420f49eca612",
       "source": "marketwatch",
       "source_type": "rss",
@@ -3549,75 +3527,75 @@
       ]
     },
     {
-      "id": "089a7eddaf68d5",
+      "id": "9ad4e311b9eaf9",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-10T20:05:43Z",
-      "title": "SK Hynix Stock Jumps After Making U.S. Trading Debut",
+      "timestamp": "2026-07-10T20:20:17Z",
+      "title": "Private wealth funds ditch the middleman for more alternatives exposure",
       "body": "",
-      "url": "https://www.investors.com/news/technology/sk-hynix-debut-tests-memory-chip-stock-demand/?src=A00220&yptr=yahoo",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/private-wealth-funds-ditch-middleman-202017022.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-10T20:05:43Z",
-      "text": "SK Hynix Stock Jumps After Making U.S. Trading Debut",
+      "time": "2026-07-10T20:20:17Z",
+      "text": "Private wealth funds ditch the middleman for more alternatives exposure",
       "description": ""
     },
     {
-      "id": "756600fd24350e",
+      "id": "3a78be550a9512",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-10T19:58:28Z",
-      "title": "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+      "timestamp": "2026-07-10T20:15:39Z",
+      "title": "Three Enticing Clues Put This Broadcom Partner, Nvidia Rival In Focus",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/5-altcoins-stand-gain-tokenized-195828316.html",
+      "url": "https://www.investors.com/research/ibd-stock-analysis/arista-stock-broadcom-partner-nvidia-rival-in-focus/?src=A00220&yptr=yahoo",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-10T19:58:28Z",
-      "text": "5 Altcoins Stand to Gain From Tokenized Stocks, Grayscale Says",
+      "time": "2026-07-10T20:15:39Z",
+      "text": "Three Enticing Clues Put This Broadcom Partner, Nvidia Rival In Focus",
       "description": ""
     },
     {
-      "id": "d35fcdbb2eeb93",
+      "id": "fe6329f2b1d5fd",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-10T19:57:21Z",
-      "title": "Why GATX Is Strengthening Its Rail Leasing Business With High Fleet Utilization and Wells Fargo Portfolio Integration",
+      "timestamp": "2026-07-10T20:13:00Z",
+      "title": "Farming Is Terrible Right Now. That\u2019s Good for Deere and AGCO Stocks.",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-gatx-strengthening-rail-leasing-195721200.html",
+      "url": "https://www.barrons.com/articles/deere-agco-agricultural-stock-price-rating-610c9161?siteid=yhoof2&yptr=yahoo",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-10T19:57:21Z",
-      "text": "Why GATX Is Strengthening Its Rail Leasing Business With High Fleet Utilization and Wells Fargo Portfolio Integration",
+      "time": "2026-07-10T20:13:00Z",
+      "text": "Farming Is Terrible Right Now. That\u2019s Good for Deere and AGCO Stocks.",
       "description": ""
     },
     {
-      "id": "1edc8fa4cf9432",
+      "id": "ebc96e4aa773bf",
       "source": "reuters",
       "source_type": "rss",
-      "timestamp": "2026-07-10T19:50:57Z",
-      "title": "How to Play DAL Stock After Delta's Strong Q2 Earnings Results",
+      "timestamp": "2026-07-10T20:10:54Z",
+      "title": "Why Trinity Industries (TRN) Is Expanding Its Long-Term Rail Growth Strategy Through India\u2019s Railcar Leasing Market",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/play-dal-stock-deltas-strong-195057592.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-trinity-industries-trn-expanding-201054524.html",
       "author": "",
       "tickers": [],
       "tags": [],
-      "impact_score": 7.8,
+      "impact_score": 7.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-07-10T19:50:57Z",
-      "text": "How to Play DAL Stock After Delta's Strong Q2 Earnings Results",
+      "time": "2026-07-10T20:10:54Z",
+      "text": "Why Trinity Industries (TRN) Is Expanding Its Long-Term Rail Growth Strategy Through India\u2019s Railcar Leasing Market",
       "description": ""
     },
     {
@@ -3636,42 +3614,6 @@
       "sentiment": "neutral",
       "time": "2026-07-10T16:47:00Z",
       "text": "Elon Musk SEC settlement raises 'red flags,' judge says",
-      "description": ""
-    },
-    {
-      "id": "1788e76c1bc62d",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-10T12:47:00Z",
-      "title": "Circle stock pops after stablecoin issuer wins approval to establish a trust bank",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/article/circle-stock-pops-after-stablecoin-issuer-wins-approval-to-establish-a-trust-bank-124700862.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-10T12:47:00Z",
-      "text": "Circle stock pops after stablecoin issuer wins approval to establish a trust bank",
-      "description": ""
-    },
-    {
-      "id": "8a2e9bf2d4d475",
-      "source": "reuters",
-      "source_type": "rss",
-      "timestamp": "2026-07-08T19:37:00Z",
-      "title": "Chip giant SK Hynix jumps 13% in US market debut",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/article/chip-giant-sk-hynix-jumps-13-in-us-market-debut-193700352.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-08T19:37:00Z",
-      "text": "Chip giant SK Hynix jumps 13% in US market debut",
       "description": ""
     },
     {
@@ -3697,6 +3639,42 @@
       "previous": "54.5",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "52a2e64ca5956e",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2025-05-06T19:27:51Z",
+      "title": "Luxury cards with the same benefits as the Amex Centurion (that you actually qualify for!)",
+      "body": "",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/review/amex-centurion-card-192751409.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2025-05-06T19:27:51Z",
+      "text": "Luxury cards with the same benefits as the Amex Centurion (that you actually qualify for!)",
+      "description": ""
+    },
+    {
+      "id": "753d6604b4330d",
+      "source": "reuters",
+      "source_type": "rss",
+      "timestamp": "2024-08-22T15:59:24Z",
+      "title": "Amex Gold vs. Platinum: Which card should you bring on your next trip?",
+      "body": "",
+      "url": "https://finance.yahoo.com/personal-finance/credit-cards/comparison/amex-gold-vs-amex-platinum-223303480.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2024-08-22T15:59:24Z",
+      "text": "Amex Gold vs. Platinum: Which card should you bring on your next trip?",
+      "description": ""
     }
   ]
 }
