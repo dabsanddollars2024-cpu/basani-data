@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-12T10:37:07Z",
-  "generated_display": "2026-07-12 10:37 ET",
+  "generated": "2026-07-12T10:42:07Z",
+  "generated_display": "2026-07-12 10:42 ET",
   "count": 165,
   "source_health": {
     "x_api": {
@@ -8,30 +8,30 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-12T10:37:02.409490+00:00",
+      "last_error_ts": "2026-07-12T10:42:01.806429+00:00",
       "error": "HTTP 401: {\n  \"title\": \"Unauthorized\",\n  \"type\": \"about:blank\",\n  \"status\": 401,\n  \"detail\": \"Unauthorized\"\n}"
     },
     "benzinga": {
       "status": "healthy",
       "items_pulled": 1,
-      "latency_ms": 109,
-      "last_success": "2026-07-12T10:37:02.519711+00:00",
+      "latency_ms": 111,
+      "last_success": "2026-07-12T10:42:01.918303+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "uw_news": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 152,
-      "last_success": "2026-07-12T10:37:02.672778+00:00",
+      "latency_ms": 106,
+      "last_success": "2026-07-12T10:42:02.025145+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "massive_news": {
       "status": "healthy",
       "items_pulled": 16,
-      "latency_ms": 98,
-      "last_success": "2026-07-12T10:37:02.772448+00:00",
+      "latency_ms": 76,
+      "last_success": "2026-07-12T10:42:02.102439+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -40,14 +40,14 @@
       "items_pulled": 0,
       "latency_ms": 0,
       "last_success": null,
-      "last_error_ts": "2026-07-12T10:37:02.879849+00:00",
+      "last_error_ts": "2026-07-12T10:42:02.198394+00:00",
       "error": "Truth Social API blocked (403) \u2014 posts still visible at truthsocial.com/@realDonaldTrump"
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 75,
-      "latency_ms": 1677,
-      "last_success": "2026-07-12T10:37:04.557788+00:00",
+      "latency_ms": 2270,
+      "last_success": "2026-07-12T10:42:04.469249+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -55,15 +55,15 @@
       "status": "healthy",
       "items_pulled": 47,
       "latency_ms": 0,
-      "last_success": "2026-07-12T10:37:05.231867+00:00",
+      "last_success": "2026-07-12T10:42:05.371319+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 21,
-      "latency_ms": 2013,
-      "last_success": "2026-07-12T10:37:07.245105+00:00",
+      "latency_ms": 1900,
+      "last_success": "2026-07-12T10:42:07.271927+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -74,41 +74,41 @@
         "marketwatch": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 125
+          "latency_ms": 114
         },
         "cnbc": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 89
+          "latency_ms": 61
         },
         "yahoo_finance": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 106
+          "latency_ms": 126
         },
         "zerohedge": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 197
+          "latency_ms": 403
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 7,
-          "latency_ms": 11
+          "latency_ms": 15
         },
         "investing_com": {
           "status": "healthy",
           "items": 8,
-          "latency_ms": 143
+          "latency_ms": 179
         }
       }
     }
   },
   "by_source": {
     "forex_factory": 1,
+    "stocktwits": 75,
     "uw_news": 25,
     "cnbc": 8,
-    "stocktwits": 75,
     "reuters": 16,
     "massive_news": 16,
     "seekingalpha": 7,
@@ -140,6 +140,52 @@
       "previous": "",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "445baea48b6afe",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T10:40:51Z",
+      "title": "$SPY Viggizags is fuming they cant say &#39;tute da futes&#39; or &#39;da futes rippin&#39; when market opens because they know its going to be a sharp decline \ud83d\ude02\ud83d\ude02",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658840761",
+      "author": "phantomtrade487",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-12T10:40:51Z",
+      "text": "$SPY Viggizags is fuming they cant say &#39;tute da futes&#39; or &#39;da futes rippin&#39; when market opens because they know its going to be a sharp decline \ud83d\ude02\ud83d\ude02",
+      "description": "",
+      "handle": "phantomtrade487",
+      "display_name": "phantomtrade487",
+      "platform": "stocktwits"
+    },
+    {
+      "id": "2d35aa593b6350",
+      "source": "stocktwits",
+      "source_type": "x_post",
+      "timestamp": "2026-07-12T10:38:16Z",
+      "title": "$SPY Mitch\u2026\u2026yer up next",
+      "body": "",
+      "url": "https://stocktwits.com/symbol/SPY/message/658840737",
+      "author": "SammyDavisSr",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-07-12T10:38:16Z",
+      "text": "$SPY Mitch\u2026\u2026yer up next",
+      "description": "",
+      "handle": "SammyDavisSr",
+      "display_name": "sammy davis",
+      "platform": "stocktwits"
     },
     {
       "id": "97e75c1d804f86",
@@ -511,29 +557,6 @@
       "platform": "stocktwits"
     },
     {
-      "id": "406dc3a1eda86f",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T10:28:43Z",
-      "title": "$DJT $SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658840641",
-      "author": "FarrUkk",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "bearish",
-      "time": "2026-07-12T10:28:43Z",
-      "text": "$DJT $SPY $QQQ",
-      "description": "",
-      "handle": "FarrUkk",
-      "display_name": "FarUk",
-      "platform": "stocktwits"
-    },
-    {
       "id": "03ffdbf76181a6",
       "source": "stocktwits",
       "source_type": "x_post",
@@ -554,29 +577,6 @@
       "description": "",
       "handle": "FarrUkk",
       "display_name": "FarUk",
-      "platform": "stocktwits"
-    },
-    {
-      "id": "a321bf35a6ec94",
-      "source": "stocktwits",
-      "source_type": "x_post",
-      "timestamp": "2026-07-12T10:26:21Z",
-      "title": "$SPY once again this war is so stupid. *Not a Democrat or Republican.",
-      "body": "",
-      "url": "https://stocktwits.com/symbol/SPY/message/658840619",
-      "author": "Xavier_B_Moreno",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-07-12T10:26:21Z",
-      "text": "$SPY once again this war is so stupid. *Not a Democrat or Republican.",
-      "description": "",
-      "handle": "Xavier_B_Moreno",
-      "display_name": "Xavier B. Gonzalez",
       "platform": "stocktwits"
     },
     {
