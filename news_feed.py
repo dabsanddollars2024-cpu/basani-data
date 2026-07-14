@@ -35,11 +35,11 @@ OUTPUT = os.path.join(DIR, "news.json")
 X_BEARER_TOKEN = (
     os.getenv("X_BEARER_TOKEN") or
     os.getenv("TWITTER_BEARER_TOKEN") or
-    "AAAAAAAAAAAAAAAAAAAAAJuI9QEAAAAA7IkbwsYzMHOO1A0BUARe+LXABeg=xuIUNm999SZymusBqSbyy09DzIy9mt0VbeAr2Q1fVgJPbVNbj1"
+    "+LXABeg=xuIUNm999SZymusBqSbyy09DzIy9mt0VbeAr2Q1fVgJPbVNbj1"
 )
-BZ_KEY     = os.getenv("BENZINGA_API_KEY",        "bz.THH4JLQY2DR5YJTXRTUOK7TUUL5FC2AC")
-UW_KEY     = os.getenv("UNUSUAL_WHALES_API_KEY",  "6c2959a5-ebef-4945-9c2b-5be1c81e0d57")
-MASSIVE_KEY= os.getenv("MASSIVE_API_KEY",         "s8EjMTW629wSajQAirMgXinDZVY4k3Lj")
+BZ_KEY     = os.getenv("BENZINGA_API_KEY",        "TUUL5FC2AC")
+UW_KEY     = os.getenv("UNUSUAL_WHALES_API_KEY",  "")
+MASSIVE_KEY= os.getenv("MASSIVE_API_KEY",         "VY4k3Lj")
 
 # ── SSL (bypass cert errors on some feeds) ───────────────────────────────────
 CTX = ssl.create_default_context()

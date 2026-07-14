@@ -15,7 +15,7 @@ import urllib.error
 from datetime import datetime, timezone, timedelta
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
-UW_TOKEN   = os.environ.get("UW_TOKEN", "6c2959a5-ebef-4945-9c2b-5be1c81e0d57")
+UW_TOKEN   = os.environ.get("UW_TOKEN", "")
 BASE_URL   = "https://api.unusualwhales.com"
 DIR        = os.path.dirname(os.path.abspath(__file__))
 OUTPUT     = os.path.join(DIR, "unusual_whales.json")

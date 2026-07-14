@@ -11,8 +11,8 @@ Writes to calendar.json for the dashboard.
 import json, os, urllib.request, urllib.error, urllib.parse
 from datetime import datetime, timezone, timedelta
 
-BZ_KEY  = os.environ.get("BENZINGA_KEY", "bz.THH4JLQY2DR5YJTXRTUOK7TUUL5FC2AC")
-UW_KEY  = os.environ.get("UW_TOKEN",    "6c2959a5-ebef-4945-9c2b-5be1c81e0d57")
+BZ_KEY  = os.environ.get("BENZINGA_KEY", "TUUL5FC2AC")
+UW_KEY  = os.environ.get("UW_TOKEN",    "")
 DIR     = os.path.dirname(os.path.abspath(__file__))
 OUTPUT  = os.path.join(DIR, "calendar.json")
 

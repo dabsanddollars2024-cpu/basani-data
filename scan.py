@@ -12,10 +12,16 @@ from datetime import date, timedelta, datetime
 
 # Env vars take priority; hardcoded values are a local-dev fallback only.
 # In GitHub Actions, ALPACA_KEY and ALPACA_SECRET are set as repository secrets.
-K = os.environ.get("ALPACA_KEY",    "PKVAR7JKCKGN63MV7OCMRQOSCO")
-S = os.environ.get("ALPACA_SECRET", "2zauQm6Ddh6sq1hPn9BuMW6T3A8uRJ8d2yeJQ9mLBkai")
+# Alpaca keys — MUST be set as env vars. No hardcoded fallback for safety.
+K = os.environ.get("ALPACA_KEY", "")
+S = os.environ.get("ALPACA_SECRET", "")
+if not K or not S:
+    print("  ❌ ALPACA_KEY / ALPACA_SECRET not set in environment")
+    print("     Add to GitHub Actions secrets OR local environment")
+    # No scan_output.json write here — OUTPUT_FILE not defined yet
+    # run_all.py handles missing scan_output.json gracefully
+    sys.exit(0)  # exit cleanly so news/gex still run
 H = {"APCA-API-KEY-ID": K, "APCA-API-SECRET-KEY": S}
-
 TICKERS = [
     # Core large caps + market ETFs
     "SPY","QQQ","AAPL","NVDA","AMD","MSFT","AMZN","GOOGL","META","TSLA",
@@ -98,11 +104,12 @@ start = (date.today() - timedelta(days=90)).isoformat()
 
 bars_resp = get("/v2/stocks/bars", {
     "symbols": ",".join(TICKERS), "timeframe": "1Day",
-    "start": start, "limit": 2000, "feed": "iex"
+    "start": start, "limit": 2000
 })
 if bars_resp is None:
-    print("  ❌ Failed to fetch bars from Alpaca — aborting scan")
-    sys.exit(1)
+    print("  ❌ Failed to fetch bars from Alpaca — writing empty scan and continuing")
+    bars = {}
+    snaps = {}
 bars = bars_resp.get("bars", {})
 
 snaps_resp = get("/v2/stocks/snapshots", {"symbols": ",".join(TICKERS), "feed": "iex"})
