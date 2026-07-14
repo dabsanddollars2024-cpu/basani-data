@@ -39,20 +39,23 @@ jobs:
           MASSIVE_KEY:     ${{ secrets.MASSIVE_KEY }}
         run: python3 run_all.py
 
+      - name: Checkout data repo (for pushing)
+        uses: actions/checkout@v4
+        with:
+          repository: dabsanddollars2024-cpu/basani-data
+          path: data-repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Push data to public data repo
         run: |
           set -e
           git config --global user.name  "BASANI Bot"
           git config --global user.email "bot@basani.ai"
-          git config --global init.defaultBranch main
 
-          # Use built-in GITHUB_TOKEN provided by GH Actions automatically
-          git clone https://x-access-token:${GITHUB_TOKEN}@github.com/dabsanddollars2024-cpu/basani-data.git /tmp/basani-data
+          cp -f data.json news.json unusual_whales.json calendar.json grades.json data-repo/
+          cp -f scan_output.json plays.json plays_log.json data-repo/ 2>/dev/null || true
 
-          cp -f data.json news.json unusual_whales.json calendar.json grades.json /tmp/basani-data/
-          cp -f scan_output.json plays.json plays_log.json /tmp/basani-data/ 2>/dev/null || true
-
-          cd /tmp/basani-data
+          cd data-repo
           git add -f data.json news.json unusual_whales.json calendar.json grades.json scan_output.json plays.json plays_log.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
