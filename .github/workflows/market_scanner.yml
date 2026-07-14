@@ -40,15 +40,14 @@ jobs:
         run: python3 run_all.py
 
       - name: Push data to public data repo
-        env:
-          GH_PUSH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           set -e
           git config --global user.name  "BASANI Bot"
           git config --global user.email "bot@basani.ai"
           git config --global init.defaultBranch main
 
-          git clone https://x-access-token:${GH_PUSH_TOKEN}@github.com/dabsanddollars2024-cpu/basani-data.git /tmp/basani-data
+          # Use built-in GITHUB_TOKEN provided by GH Actions automatically
+          git clone https://x-access-token:${GITHUB_TOKEN}@github.com/dabsanddollars2024-cpu/basani-data.git /tmp/basani-data
 
           cp -f data.json news.json unusual_whales.json calendar.json grades.json /tmp/basani-data/
           cp -f scan_output.json plays.json plays_log.json /tmp/basani-data/ 2>/dev/null || true
