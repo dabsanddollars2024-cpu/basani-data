@@ -110,10 +110,11 @@ if bars_resp is None:
     print("  ❌ Failed to fetch bars from Alpaca — writing empty scan and continuing")
     bars = {}
     snaps = {}
-bars = bars_resp.get("bars", {})
-
-snaps_resp = get("/v2/stocks/snapshots", {"symbols": ",".join(TICKERS), "feed": "iex"})
-snaps = snaps_resp if snaps_resp is not None else {}
+    snaps_resp = {}
+else:
+    bars = bars_resp.get("bars", {})
+    snaps_resp = get("/v2/stocks/snapshots", {"symbols": ",".join(TICKERS)})
+    snaps = snaps_resp if snaps_resp is not None else {}
 
 results = []
 for t in TICKERS:
@@ -160,14 +161,15 @@ results.sort(key=lambda x: x["score"], reverse=True)
 
 output = {"scan_time": scan_time, "scan_label": scan_label, "tickers": results}
 
-# Save latest
+# Save latest (ALWAYS write, even if empty)
 with open(OUTPUT_FILE, "w") as f:
     json.dump(output, f, indent=2)
 
-# Save to history
-hist_file = os.path.join(HISTORY_DIR, f"{scan_label}.json")
-with open(hist_file, "w") as f:
-    json.dump(output, f, indent=2)
+# Save to history (only if we have data)
+if results:
+    hist_file = os.path.join(HISTORY_DIR, f"{scan_label}.json")
+    with open(hist_file, "w") as f:
+        json.dump(output, f, indent=2)
 
 print(f"  ✅ Saved scan_output.json + history/{scan_label}.json\n")
 print(f"{'TICKER':<7}{'PRICE':>9}{'CHG%':>8}{'SCORE':>7}{'RSI':>6}{'DIR':>9}  SIGNALS")
