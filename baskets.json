@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T17:00:28.434248",
+  "generated": "2026-07-23T17:30:42.613228",
   "source_plays": "/home/client_4319_1/basani_live/uw_plays.json",
   "tiers": {
     "MICRO": {
@@ -23,13 +23,34 @@
       "account_size": 1000,
       "risk_cap_pct": 50.0,
       "risk_cap_dollars": 50000.0,
-      "plays": [],
+      "plays": [
+        {
+          "id": "AUTO-0723173040-001",
+          "ticker": "XLE",
+          "type": "CALL",
+          "strike": 58.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 106,
+          "confidence": "HIGH",
+          "contracts": 1,
+          "cost_per_contract": 259.0,
+          "total_cost": 259.0,
+          "max_loss": 259.0,
+          "entry_premium_est": 2.59,
+          "stop": 58.58,
+          "target": 58.8,
+          "current_price": 59.645,
+          "itm_pct": 1.96,
+          "why": "Score 106 (tech 88, conv +18) \u00b7 IV 63 \u00b7 target $60 (call_wall) \u00b7 stop $58 (put_wall) \u00b7 dte 15"
+        }
+      ],
       "totals": {
-        "play_count": 0,
-        "total_cost": 0,
-        "total_max_risk": 0,
-        "risk_pct_of_account": 0.0,
-        "unused_risk_cap": 50000.0
+        "play_count": 1,
+        "total_cost": 259.0,
+        "total_max_risk": 259.0,
+        "risk_pct_of_account": 0.26,
+        "unused_risk_cap": 49741.0
       }
     },
     "MIDS": {
@@ -38,13 +59,54 @@
       "account_size": 3000,
       "risk_cap_pct": 30.0,
       "risk_cap_dollars": 90000.0,
-      "plays": [],
+      "plays": [
+        {
+          "id": "AUTO-0723173040-001",
+          "ticker": "XLE",
+          "type": "CALL",
+          "strike": 58.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 106,
+          "confidence": "HIGH",
+          "contracts": 1,
+          "cost_per_contract": 259.0,
+          "total_cost": 259.0,
+          "max_loss": 259.0,
+          "entry_premium_est": 2.59,
+          "stop": 58.58,
+          "target": 58.8,
+          "current_price": 59.645,
+          "itm_pct": 1.96,
+          "why": "Score 106 (tech 88, conv +18) \u00b7 IV 63 \u00b7 target $60 (call_wall) \u00b7 stop $58 (put_wall) \u00b7 dte 15"
+        },
+        {
+          "id": "AUTO-0723173040-002",
+          "ticker": "NVDA",
+          "type": "CALL",
+          "strike": 207.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 105,
+          "confidence": "HIGH",
+          "contracts": 1,
+          "cost_per_contract": 968.0,
+          "total_cost": 968.0,
+          "max_loss": 968.0,
+          "entry_premium_est": 9.68,
+          "stop": 212.1,
+          "target": 215.6,
+          "current_price": 210.145,
+          "itm_pct": 1.27,
+          "why": "Score 105 (tech 95, conv +10) \u00b7 IV 45 \u00b7 target $220 (call_wall) \u00b7 stop $210 (put_wall) \u00b7 dte 15"
+        }
+      ],
       "totals": {
-        "play_count": 0,
-        "total_cost": 0,
-        "total_max_risk": 0,
-        "risk_pct_of_account": 0.0,
-        "unused_risk_cap": 90000.0
+        "play_count": 2,
+        "total_cost": 1227.0,
+        "total_max_risk": 1227.0,
+        "risk_pct_of_account": 0.41,
+        "unused_risk_cap": 88773.0
       }
     },
     "FULL": {
@@ -53,13 +115,54 @@
       "account_size": 10000,
       "risk_cap_pct": 10.0,
       "risk_cap_dollars": 100000.0,
-      "plays": [],
+      "plays": [
+        {
+          "id": "AUTO-0723173040-001",
+          "ticker": "XLE",
+          "type": "CALL",
+          "strike": 58.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 106,
+          "confidence": "HIGH",
+          "contracts": 1,
+          "cost_per_contract": 259.0,
+          "total_cost": 259.0,
+          "max_loss": 259.0,
+          "entry_premium_est": 2.59,
+          "stop": 58.58,
+          "target": 58.8,
+          "current_price": 59.645,
+          "itm_pct": 1.96,
+          "why": "Score 106 (tech 88, conv +18) \u00b7 IV 63 \u00b7 target $60 (call_wall) \u00b7 stop $58 (put_wall) \u00b7 dte 15"
+        },
+        {
+          "id": "AUTO-0723173040-002",
+          "ticker": "NVDA",
+          "type": "CALL",
+          "strike": 207.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 105,
+          "confidence": "HIGH",
+          "contracts": 1,
+          "cost_per_contract": 968.0,
+          "total_cost": 968.0,
+          "max_loss": 968.0,
+          "entry_premium_est": 9.68,
+          "stop": 212.1,
+          "target": 215.6,
+          "current_price": 210.145,
+          "itm_pct": 1.27,
+          "why": "Score 105 (tech 95, conv +10) \u00b7 IV 45 \u00b7 target $220 (call_wall) \u00b7 stop $210 (put_wall) \u00b7 dte 15"
+        }
+      ],
       "totals": {
-        "play_count": 0,
-        "total_cost": 0,
-        "total_max_risk": 0,
-        "risk_pct_of_account": 0.0,
-        "unused_risk_cap": 100000.0
+        "play_count": 2,
+        "total_cost": 1227.0,
+        "total_max_risk": 1227.0,
+        "risk_pct_of_account": 0.12,
+        "unused_risk_cap": 98773.0
       }
     },
     "PRO": {
@@ -68,13 +171,54 @@
       "account_size": 25000,
       "risk_cap_pct": 5.0,
       "risk_cap_dollars": 125000.0,
-      "plays": [],
+      "plays": [
+        {
+          "id": "AUTO-0723173040-001",
+          "ticker": "XLE",
+          "type": "CALL",
+          "strike": 58.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 106,
+          "confidence": "HIGH",
+          "contracts": 2,
+          "cost_per_contract": 259.0,
+          "total_cost": 518.0,
+          "max_loss": 518.0,
+          "entry_premium_est": 2.59,
+          "stop": 58.58,
+          "target": 58.8,
+          "current_price": 59.645,
+          "itm_pct": 1.96,
+          "why": "Score 106 (tech 88, conv +18) \u00b7 IV 63 \u00b7 target $60 (call_wall) \u00b7 stop $58 (put_wall) \u00b7 dte 15"
+        },
+        {
+          "id": "AUTO-0723173040-002",
+          "ticker": "NVDA",
+          "type": "CALL",
+          "strike": 207.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 105,
+          "confidence": "HIGH",
+          "contracts": 2,
+          "cost_per_contract": 968.0,
+          "total_cost": 1936.0,
+          "max_loss": 1936.0,
+          "entry_premium_est": 9.68,
+          "stop": 212.1,
+          "target": 215.6,
+          "current_price": 210.145,
+          "itm_pct": 1.27,
+          "why": "Score 105 (tech 95, conv +10) \u00b7 IV 45 \u00b7 target $220 (call_wall) \u00b7 stop $210 (put_wall) \u00b7 dte 15"
+        }
+      ],
       "totals": {
-        "play_count": 0,
-        "total_cost": 0,
-        "total_max_risk": 0,
-        "risk_pct_of_account": 0.0,
-        "unused_risk_cap": 125000.0
+        "play_count": 2,
+        "total_cost": 2454.0,
+        "total_max_risk": 2454.0,
+        "risk_pct_of_account": 0.1,
+        "unused_risk_cap": 122546.0
       }
     },
     "LARGE": {
@@ -83,13 +227,74 @@
       "account_size": 100000,
       "risk_cap_pct": 3.0,
       "risk_cap_dollars": 300000.0,
-      "plays": [],
+      "plays": [
+        {
+          "id": "AUTO-0723173040-001",
+          "ticker": "XLE",
+          "type": "CALL",
+          "strike": 58.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 106,
+          "confidence": "HIGH",
+          "contracts": 4,
+          "cost_per_contract": 259.0,
+          "total_cost": 1036.0,
+          "max_loss": 1036.0,
+          "entry_premium_est": 2.59,
+          "stop": 58.58,
+          "target": 58.8,
+          "current_price": 59.645,
+          "itm_pct": 1.96,
+          "why": "Score 106 (tech 88, conv +18) \u00b7 IV 63 \u00b7 target $60 (call_wall) \u00b7 stop $58 (put_wall) \u00b7 dte 15"
+        },
+        {
+          "id": "AUTO-0723173040-002",
+          "ticker": "NVDA",
+          "type": "CALL",
+          "strike": 207.5,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 105,
+          "confidence": "HIGH",
+          "contracts": 4,
+          "cost_per_contract": 968.0,
+          "total_cost": 3872.0,
+          "max_loss": 3872.0,
+          "entry_premium_est": 9.68,
+          "stop": 212.1,
+          "target": 215.6,
+          "current_price": 210.145,
+          "itm_pct": 1.27,
+          "why": "Score 105 (tech 95, conv +10) \u00b7 IV 45 \u00b7 target $220 (call_wall) \u00b7 stop $210 (put_wall) \u00b7 dte 15"
+        },
+        {
+          "id": "AUTO-0723173041-003",
+          "ticker": "MU",
+          "type": "CALL",
+          "strike": 940.0,
+          "expiry": "2026-08-07",
+          "dte": 15,
+          "score": 102,
+          "confidence": "HIGH",
+          "contracts": 4,
+          "cost_per_contract": 14846.0,
+          "total_cost": 59384.0,
+          "max_loss": 59384.0,
+          "entry_premium_est": 148.46,
+          "stop": 1010.0,
+          "target": 1078.0,
+          "current_price": 1001.0201,
+          "itm_pct": 6.49,
+          "why": "Score 102 (tech 100, conv +2) \u00b7 IV 92 \u00b7 target $1100 (call_wall) \u00b7 stop $1000 (put_wall) \u00b7 dte 15"
+        }
+      ],
       "totals": {
-        "play_count": 0,
-        "total_cost": 0,
-        "total_max_risk": 0,
-        "risk_pct_of_account": 0.0,
-        "unused_risk_cap": 300000.0
+        "play_count": 3,
+        "total_cost": 64292.0,
+        "total_max_risk": 64292.0,
+        "risk_pct_of_account": 0.64,
+        "unused_risk_cap": 235708.0
       }
     }
   }
