@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T18:00:30.221914",
+  "generated": "2026-07-24T18:30:27.246777",
   "source_plays": "/home/client_4319_1/basani_live/uw_plays.json",
   "tiers": {
     "MICRO": {
@@ -38,13 +38,34 @@
       "account_size": 3000,
       "risk_cap_pct": 30.0,
       "risk_cap_dollars": 90000.0,
-      "plays": [],
+      "plays": [
+        {
+          "id": "AUTO-0724183025-002",
+          "ticker": "NVDA",
+          "type": "CALL",
+          "strike": 205.0,
+          "expiry": "2026-08-14",
+          "dte": 21,
+          "score": 105,
+          "confidence": "HIGH",
+          "contracts": 1,
+          "cost_per_contract": 1088.0,
+          "total_cost": 1088.0,
+          "max_loss": 1088.0,
+          "entry_premium_est": 10.88,
+          "stop": 212.1,
+          "target": 215.6,
+          "current_price": 207.79,
+          "itm_pct": 1.36,
+          "why": "Score 105 (tech 95, conv +10) \u00b7 IV 39 \u00b7 target $220 (call_wall) \u00b7 stop $210 (put_wall) \u00b7 dte 21"
+        }
+      ],
       "totals": {
-        "play_count": 0,
-        "total_cost": 0,
-        "total_max_risk": 0,
-        "risk_pct_of_account": 0.0,
-        "unused_risk_cap": 90000.0
+        "play_count": 1,
+        "total_cost": 1088.0,
+        "total_max_risk": 1088.0,
+        "risk_pct_of_account": 0.36,
+        "unused_risk_cap": 88912.0
       }
     },
     "FULL": {
@@ -55,7 +76,7 @@
       "risk_cap_dollars": 100000.0,
       "plays": [
         {
-          "id": "AUTO-0724180028-001",
+          "id": "AUTO-0724183024-001",
           "ticker": "AAPL",
           "type": "CALL",
           "strike": 325.0,
@@ -64,23 +85,43 @@
           "score": 110,
           "confidence": "HIGH",
           "contracts": 1,
-          "cost_per_contract": 1816.0,
-          "total_cost": 1816.0,
-          "max_loss": 1816.0,
-          "entry_premium_est": 18.16,
+          "cost_per_contract": 1762.0,
+          "total_cost": 1762.0,
+          "max_loss": 1762.0,
+          "entry_premium_est": 17.62,
           "stop": 328.25,
           "target": 343.0,
-          "current_price": 332.7184,
-          "itm_pct": 2.37,
+          "current_price": 332.395,
+          "itm_pct": 2.28,
           "why": "Score 110 (tech 100, conv +10) \u00b7 IV 80 \u00b7 target $350 (call_wall) \u00b7 stop $325 (put_wall) \u00b7 dte 21"
+        },
+        {
+          "id": "AUTO-0724183025-002",
+          "ticker": "NVDA",
+          "type": "CALL",
+          "strike": 205.0,
+          "expiry": "2026-08-14",
+          "dte": 21,
+          "score": 105,
+          "confidence": "HIGH",
+          "contracts": 1,
+          "cost_per_contract": 1088.0,
+          "total_cost": 1088.0,
+          "max_loss": 1088.0,
+          "entry_premium_est": 10.88,
+          "stop": 212.1,
+          "target": 215.6,
+          "current_price": 207.79,
+          "itm_pct": 1.36,
+          "why": "Score 105 (tech 95, conv +10) \u00b7 IV 39 \u00b7 target $220 (call_wall) \u00b7 stop $210 (put_wall) \u00b7 dte 21"
         }
       ],
       "totals": {
-        "play_count": 1,
-        "total_cost": 1816.0,
-        "total_max_risk": 1816.0,
-        "risk_pct_of_account": 0.18,
-        "unused_risk_cap": 98184.0
+        "play_count": 2,
+        "total_cost": 2850.0,
+        "total_max_risk": 2850.0,
+        "risk_pct_of_account": 0.29,
+        "unused_risk_cap": 97150.0
       }
     },
     "PRO": {
@@ -91,7 +132,7 @@
       "risk_cap_dollars": 125000.0,
       "plays": [
         {
-          "id": "AUTO-0724180028-001",
+          "id": "AUTO-0724183024-001",
           "ticker": "AAPL",
           "type": "CALL",
           "strike": 325.0,
@@ -100,23 +141,43 @@
           "score": 110,
           "confidence": "HIGH",
           "contracts": 2,
-          "cost_per_contract": 1816.0,
-          "total_cost": 3632.0,
-          "max_loss": 3632.0,
-          "entry_premium_est": 18.16,
+          "cost_per_contract": 1762.0,
+          "total_cost": 3524.0,
+          "max_loss": 3524.0,
+          "entry_premium_est": 17.62,
           "stop": 328.25,
           "target": 343.0,
-          "current_price": 332.7184,
-          "itm_pct": 2.37,
+          "current_price": 332.395,
+          "itm_pct": 2.28,
           "why": "Score 110 (tech 100, conv +10) \u00b7 IV 80 \u00b7 target $350 (call_wall) \u00b7 stop $325 (put_wall) \u00b7 dte 21"
+        },
+        {
+          "id": "AUTO-0724183025-002",
+          "ticker": "NVDA",
+          "type": "CALL",
+          "strike": 205.0,
+          "expiry": "2026-08-14",
+          "dte": 21,
+          "score": 105,
+          "confidence": "HIGH",
+          "contracts": 2,
+          "cost_per_contract": 1088.0,
+          "total_cost": 2176.0,
+          "max_loss": 2176.0,
+          "entry_premium_est": 10.88,
+          "stop": 212.1,
+          "target": 215.6,
+          "current_price": 207.79,
+          "itm_pct": 1.36,
+          "why": "Score 105 (tech 95, conv +10) \u00b7 IV 39 \u00b7 target $220 (call_wall) \u00b7 stop $210 (put_wall) \u00b7 dte 21"
         }
       ],
       "totals": {
-        "play_count": 1,
-        "total_cost": 3632.0,
-        "total_max_risk": 3632.0,
-        "risk_pct_of_account": 0.15,
-        "unused_risk_cap": 121368.0
+        "play_count": 2,
+        "total_cost": 5700.0,
+        "total_max_risk": 5700.0,
+        "risk_pct_of_account": 0.23,
+        "unused_risk_cap": 119300.0
       }
     },
     "LARGE": {
@@ -127,7 +188,7 @@
       "risk_cap_dollars": 300000.0,
       "plays": [
         {
-          "id": "AUTO-0724180028-001",
+          "id": "AUTO-0724183024-001",
           "ticker": "AAPL",
           "type": "CALL",
           "strike": 325.0,
@@ -136,23 +197,43 @@
           "score": 110,
           "confidence": "HIGH",
           "contracts": 4,
-          "cost_per_contract": 1816.0,
-          "total_cost": 7264.0,
-          "max_loss": 7264.0,
-          "entry_premium_est": 18.16,
+          "cost_per_contract": 1762.0,
+          "total_cost": 7048.0,
+          "max_loss": 7048.0,
+          "entry_premium_est": 17.62,
           "stop": 328.25,
           "target": 343.0,
-          "current_price": 332.7184,
-          "itm_pct": 2.37,
+          "current_price": 332.395,
+          "itm_pct": 2.28,
           "why": "Score 110 (tech 100, conv +10) \u00b7 IV 80 \u00b7 target $350 (call_wall) \u00b7 stop $325 (put_wall) \u00b7 dte 21"
+        },
+        {
+          "id": "AUTO-0724183025-002",
+          "ticker": "NVDA",
+          "type": "CALL",
+          "strike": 205.0,
+          "expiry": "2026-08-14",
+          "dte": 21,
+          "score": 105,
+          "confidence": "HIGH",
+          "contracts": 4,
+          "cost_per_contract": 1088.0,
+          "total_cost": 4352.0,
+          "max_loss": 4352.0,
+          "entry_premium_est": 10.88,
+          "stop": 212.1,
+          "target": 215.6,
+          "current_price": 207.79,
+          "itm_pct": 1.36,
+          "why": "Score 105 (tech 95, conv +10) \u00b7 IV 39 \u00b7 target $220 (call_wall) \u00b7 stop $210 (put_wall) \u00b7 dte 21"
         }
       ],
       "totals": {
-        "play_count": 1,
-        "total_cost": 7264.0,
-        "total_max_risk": 7264.0,
-        "risk_pct_of_account": 0.07,
-        "unused_risk_cap": 292736.0
+        "play_count": 2,
+        "total_cost": 11400.0,
+        "total_max_risk": 11400.0,
+        "risk_pct_of_account": 0.11,
+        "unused_risk_cap": 288600.0
       }
     }
   }
