@@ -19,3 +19,10 @@ Thumbs.db
 
 # Logs (only commit summary)
 *.log
+
+# Per-ticker GEX detail JSONs (only commit the rolled-up gex_data.json)
+gex_detail_*.json
+
+# UW cache (regenerated on every scan)
+uw_cache/
+uw_openapi_spec.yaml

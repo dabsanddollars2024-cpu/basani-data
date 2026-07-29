@@ -146,22 +146,44 @@ def compute_summary(ticker_data):
     # GEX profile: find call wall (max positive gamma above spot) and put wall (max abs negative gamma below spot)
     exposures = (ticker_data.get("spot_exposures") or {}).get("data") or ticker_data.get("spot_exposures")
     if isinstance(exposures, list) and exposures:
-        # Spot price = strike closest to ATM or extracted from first item
-        summary["spot"] = exposures[0].get("underlying_price") or exposures[0].get("spot_price")
-        if not summary["spot"]:
-            # try to find ATM strike
+        # Spot price: prefer top-level "price" field on first row (UW API returns the
+        # current underlying price on each strike row at "price"). Fall back to the
+        # closest-to-ATM strike if neither is present.
+        spot_raw = (
+            exposures[0].get("price")
+            or exposures[0].get("underlying_price")
+            or exposures[0].get("spot_price")
+        )
+        if not spot_raw:
+            # Find the strike numerically nearest the implied spot by averaging strikes
+            strike_values = []
             for e in exposures:
-                if e.get("strike"):
-                    summary["spot"] = e.get("strike")
-                    break
+                try:
+                    strike_values.append(float(e.get("strike")))
+                except (TypeError, ValueError):
+                    continue
+            if strike_values:
+                spot_raw = strike_values[len(strike_values) // 2]
+        try:
+            summary["spot"] = float(spot_raw) if spot_raw is not None else None
+        except (TypeError, ValueError):
+            summary["spot"] = None
 
         # Aggregate net GEX per strike
         strikes = {}
         for e in exposures:
-            k = e.get("strike")
-            if k is None:
+            raw_k = e.get("strike")
+            if raw_k is None:
+                continue
+            try:
+                k = float(raw_k)
+            except (TypeError, ValueError):
                 continue
             gex = e.get("gamma_exposure") or e.get("gex") or e.get("exposure") or e.get("call_gamma_exposure", 0) - e.get("put_gamma_exposure", 0)
+            try:
+                gex = float(gex)
+            except (TypeError, ValueError):
+                gex = 0
             strikes.setdefault(k, 0)
             strikes[k] += gex
 
@@ -180,13 +202,27 @@ def compute_summary(ticker_data):
             summary["put_wall"]      = min(below, key=below.get)
             summary["put_wall_size"] = below[summary["put_wall"]]  # negative; abs taken at render
 
-        # Max pain — strike where option buyers lose the most / sellers profit the most
+        # Max pain - strike where option buyers lose the most / sellers profit the most
+        # API may return either {"data": [...]} (older) or {"data": [{...}]} (current, one entry per expiry).
+        # We always pick the nearest expiry (first item) and read its max_pain value.
         mp_data = ticker_data.get("max_pain", {})
+        mp_inner = None
         if isinstance(mp_data, dict):
-            mp_inner = mp_data.get("data") or mp_data
-            mp_val = mp_inner.get("max_pain") or mp_inner.get("strike") or mp_inner.get("price")
-            if mp_val is not None and isinstance(mp_val, (int, float)) and mp_val > 0:
-                summary["max_pain"] = float(mp_val)
+            inner = mp_data.get("data") or mp_data
+            if isinstance(inner, list) and inner:
+                mp_inner = inner[0]
+            elif isinstance(inner, dict):
+                mp_inner = inner
+        elif isinstance(mp_data, list) and mp_data:
+            mp_inner = mp_data[0]
+        if isinstance(mp_inner, dict):
+            raw_val = mp_inner.get("max_pain") or mp_inner.get("strike") or mp_inner.get("price")
+            try:
+                mp_val = float(raw_val)
+                if mp_val > 0:
+                    summary["max_pain"] = mp_val
+            except (TypeError, ValueError):
+                pass
 
         # Expected move %: avg of (call_wall - spot) / spot and (spot - put_wall) / spot
         if summary["call_wall"] and summary["put_wall"] and spot > 0:
