@@ -29,19 +29,19 @@ WATCHLIST = [
 
 # ── UW AUTH (required headers per skill.md) ─────────────────────────────────
 def get_token():
-    tok = os.environ.get("UNUSUAL_WHALES_API_KEY")
-    if not tok:
-        # Fall back to file
-        tok_path = os.path.join(DIR, "..", ".hermes", ".env")
-        try:
-            with open(tok_path) as f:
-                for line in f:
-                    if "UNUSUAL_WHALES_API_KEY" in line and "=" in line:
-                        tok = line.split("=", 1)[1].strip().strip('"').strip("'")
-                        break
-        except Exception:
-            pass
-    return tok
+    # Prefer the shared uw_http helper (handles both UW_TOKEN and
+    # UNUSUAL_WHALES_API_KEY in env, falls back to .env file).
+    try:
+        from uw_http import _load_token as _uw_load
+        tok = _uw_load()
+        if tok:
+            return tok
+    except ImportError:
+        pass
+    tok = os.environ.get("UNUSUAL_WHALES_API_KEY") or os.environ.get("UW_TOKEN", "")
+    if tok:
+        return tok.strip().strip('"').strip("'")
+    return ""
 
 def get_headers(tok):
     return {
