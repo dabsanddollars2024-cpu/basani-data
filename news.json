@@ -1,37 +1,37 @@
 {
-  "generated": "2026-08-15T04:38:13Z",
-  "generated_display": "2026-08-15 04:38 ET",
+  "generated": "2026-08-15T05:31:11Z",
+  "generated_display": "2026-08-15 05:31 ET",
   "count": 161,
   "source_health": {
     "uw_news": {
       "status": "healthy",
       "items_pulled": 30,
-      "latency_ms": 155,
-      "last_success": "2026-08-15T04:38:10.743141+00:00",
+      "latency_ms": 57,
+      "last_success": "2026-08-15T05:31:07.708157+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 1073,
-      "last_success": "2026-08-15T04:38:11.817133+00:00",
+      "latency_ms": 1043,
+      "last_success": "2026-08-15T05:31:08.751651+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "rss": {
       "status": "healthy",
       "items_pulled": 80,
-      "latency_ms": 810,
-      "last_success": "2026-08-15T04:38:13.075033+00:00",
+      "latency_ms": 1821,
+      "last_success": "2026-08-15T05:31:10.783728+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 19,
-      "latency_ms": 427,
-      "last_success": "2026-08-15T04:38:13.502956+00:00",
+      "latency_ms": 272,
+      "last_success": "2026-08-15T05:31:11.056542+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -42,12 +42,12 @@
         "cnbc": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 132
+          "latency_ms": 77
         },
         "marketwatch": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 143
+          "latency_ms": 407
         },
         "reuters": {
           "status": "failed",
@@ -56,30 +56,30 @@
         "yahoo_finance": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 37
+          "latency_ms": 33
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 179
+          "latency_ms": 935
         },
         "zerohedge": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 266
+          "latency_ms": 284
         },
         "investing_com": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 53
+          "latency_ms": 85
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 50,
-    "investing_com": 10,
     "uw_news": 30,
+    "investing_com": 10,
     "zerohedge": 15,
     "seekingalpha": 15,
     "cnbc": 15,
@@ -89,13 +89,439 @@
   },
   "items": [
     {
-      "id": "cb0d2083e75ac6",
+      "id": "8a6a4caba1bfec",
       "source": "stocktwits",
       "source_type": "social",
-      "timestamp": "2026-08-15T04:38:09Z",
-      "title": "$SMCI $NVDA $CSCO $NDAQ $QQQ Also to note, it seems shorts are desperate, the ITC is against Micron not SMCI.  \n \nTheir just using FUD to accumulate and cover.  \n \nBUY their Desperation.",
+      "timestamp": "2026-08-15T05:29:05Z",
+      "title": "$AMD $MRVL $AVGO $SPY $GOOG",
       "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/661980202",
+      "url": "https://stocktwits.com/SPY/stream/661980707",
+      "author": "investing_dans_valeur",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-15T05:29:05Z",
+      "text": "$AMD $MRVL $AVGO $SPY $GOOG",
+      "description": "",
+      "handle": "investing_dans_valeur",
+      "display_name": "investing_dans_valeur"
+    },
+    {
+      "id": "1235e10a28550e",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T05:29:05Z",
+      "title": "$AMD $MRVL $AVGO $SPY $GOOG",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/661980707",
+      "author": "investing_dans_valeur",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-15T05:29:05Z",
+      "text": "$AMD $MRVL $AVGO $SPY $GOOG",
+      "description": "",
+      "handle": "investing_dans_valeur",
+      "display_name": "investing_dans_valeur"
+    },
+    {
+      "id": "dd5e3419db6a29",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-15T05:17:33Z",
+      "title": "Trump on Iran: We have loaded up.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "ON"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T05:17:33Z",
+      "text": "Trump on Iran: We have loaded up.",
+      "description": ""
+    },
+    {
+      "id": "69adc07d68a1ba",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T05:15:44Z",
+      "title": "$QQQ $SPY $COIN $MSTR Bitcoin ETFs sold $389.71 million worth of $BTC.X this week.",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/661980592",
+      "author": "EconomyEngine",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T05:15:44Z",
+      "text": "$QQQ $SPY $COIN $MSTR Bitcoin ETFs sold $389.71 million worth of $BTC.X this week.",
+      "description": "",
+      "handle": "EconomyEngine",
+      "display_name": "EconomyEngine"
+    },
+    {
+      "id": "543d97d276087b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T05:15:44Z",
+      "title": "$QQQ $SPY $COIN $MSTR Bitcoin ETFs sold $389.71 million worth of $BTC.X this week.",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/661980592",
+      "author": "EconomyEngine",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T05:15:44Z",
+      "text": "$QQQ $SPY $COIN $MSTR Bitcoin ETFs sold $389.71 million worth of $BTC.X this week.",
+      "description": "",
+      "handle": "EconomyEngine",
+      "display_name": "EconomyEngine"
+    },
+    {
+      "id": "201b156950e9e2",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T05:14:13Z",
+      "title": "$SPY I have found a new trading strategy for Monday. Excited to test it out.",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/661980576",
+      "author": "ExtraChromosomeTrades",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-15T05:14:13Z",
+      "text": "$SPY I have found a new trading strategy for Monday. Excited to test it out.",
+      "description": "",
+      "handle": "ExtraChromosomeTrades",
+      "display_name": "ExtraChromosomeTrades"
+    },
+    {
+      "id": "2cec3d05aad00e",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T05:13:27Z",
+      "title": "$NVDA $SPCX",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/661980567",
+      "author": "evomaven",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T05:13:27Z",
+      "text": "$NVDA $SPCX",
+      "description": "",
+      "handle": "evomaven",
+      "display_name": "evomaven"
+    },
+    {
+      "id": "1ac5ca39353c12",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T05:11:47Z",
+      "title": "$SPY  ... $DJT",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/661980546",
+      "author": "Condor_24x7",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-15T05:11:47Z",
+      "text": "$SPY  ... $DJT",
+      "description": "",
+      "handle": "Condor_24x7",
+      "display_name": "Condor_24x7"
+    },
+    {
+      "id": "88387913acf051",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T05:10:20Z",
+      "title": "$SPY   Knock off with the ASSASSINATION ATTEMPTS, please \n                                   You cant win.   \ud83d\ude03",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/661980534",
+      "author": "Condor_24x7",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T05:10:20Z",
+      "text": "$SPY   Knock off with the ASSASSINATION ATTEMPTS, please \n                                   You cant win.   \ud83d\ude03",
+      "description": "",
+      "handle": "Condor_24x7",
+      "display_name": "Condor_24x7"
+    },
+    {
+      "id": "61f535fd9d22c0",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-15 05:06:28",
+      "title": "Iran defiant on strait as Trump tells Americans to accept high gas prices",
+      "body": "",
+      "url": "https://www.investing.com/news/commodities-news/trump-urges-americans-to-accept-higher-gas-prices-as-he-escalates-iran-rhetoric-4861490",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15 05:06:28",
+      "text": "Iran defiant on strait as Trump tells Americans to accept high gas prices",
+      "description": ""
+    },
+    {
+      "id": "c480957ad5b03a",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T05:01:11Z",
+      "title": "$AAPL $DRAM.X $MU",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/661980428",
+      "author": "Swibhoo",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T05:01:11Z",
+      "text": "$AAPL $DRAM.X $MU",
+      "description": "",
+      "handle": "Swibhoo",
+      "display_name": "Swibhoo"
+    },
+    {
+      "id": "f6f55db6cc85bc",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-15 05:01:04",
+      "title": "Angel Studios CEO Neal Harmon buys $125k in company stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/angel-studios-ceo-neal-harmon-buys-125k-in-company-stock-93CH-4861740",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15 05:01:04",
+      "text": "Angel Studios CEO Neal Harmon buys $125k in company stock",
+      "description": ""
+    },
+    {
+      "id": "73aa55e42e54f6",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-15 05:01:03",
+      "title": "Live Oak Bancshares CEO James Mahan sells $858k in company stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/live-oak-bancshares-ceo-james-mahan-sells-858k-in-company-stock-93CH-4861739",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15 05:01:03",
+      "text": "Live Oak Bancshares CEO James Mahan sells $858k in company stock",
+      "description": ""
+    },
+    {
+      "id": "80dc85ad5fb810",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-15 05:01:02",
+      "title": "Winmill & Co. Inc buys $60,787 of Global Self Storage (SELF)",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/winmill--co-inc-buys-60787-of-global-self-storage-self-93CH-4861738",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15 05:01:02",
+      "text": "Winmill & Co. Inc buys $60,787 of Global Self Storage (SELF)",
+      "description": ""
+    },
+    {
+      "id": "c64e4f15960f3d",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:53:01Z",
+      "title": "$QQQ $SPY But, at what cost? \ud83e\udd23",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/661980348",
+      "author": "giocatore",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T04:53:01Z",
+      "text": "$QQQ $SPY But, at what cost? \ud83e\udd23",
+      "description": "",
+      "handle": "giocatore",
+      "display_name": "giocatore"
+    },
+    {
+      "id": "8c2b06878412ab",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:51:58Z",
+      "title": "$QQQ ~ If you know, you know. $NBIS $IREN $SMH $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/661980337",
+      "author": "CUPandHANDLE_CHARTS",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T04:51:58Z",
+      "text": "$QQQ ~ If you know, you know. $NBIS $IREN $SMH $SPY",
+      "description": "",
+      "handle": "CUPandHANDLE_CHARTS",
+      "display_name": "CUPandHANDLE_CHARTS"
+    },
+    {
+      "id": "a29668f97062c8",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:50:05Z",
+      "title": "$META would be better off killing instagram and Facebook - two big liabilities, it does no good for society as a whole.  Buy $RDDT and improve whatsapp to use it as a forum where politicians will star",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/661980319",
+      "author": "ShadyAggie40",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-15T04:50:05Z",
+      "text": "$META would be better off killing instagram and Facebook - two big liabilities, it does no good for society as a whole.  Buy $RDDT and improve whatsapp to use it as a forum where politicians will star",
+      "description": "",
+      "handle": "ShadyAggie40",
+      "display_name": "ShadyAggie40"
+    },
+    {
+      "id": "5c4c376adfc405",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:49:15Z",
+      "title": "$MSFT https://www.benzinga.com/markets/equities/26/08/61203409/msft-could-emerge-as-big-techs-free-cash-flow-king-in-2027-while-googl-meta-stay-negative-analyst",
+      "body": "",
+      "url": "https://stocktwits.com/MSFT/stream/661980310",
+      "author": "Mitchell22",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-15T04:49:15Z",
+      "text": "$MSFT https://www.benzinga.com/markets/equities/26/08/61203409/msft-could-emerge-as-big-techs-free-cash-flow-king-in-2027-while-googl-meta-stay-negative-analyst",
+      "description": "",
+      "handle": "Mitchell22",
+      "display_name": "Mitchell22"
+    },
+    {
+      "id": "6c6503654cbad7",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-15 04:46:04",
+      "title": "United Therapeutics CEO Martine Rothblatt sells $4.79m in stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/united-therapeutics-ceo-martine-rothblatt-sells-479m-in-stock-93CH-4861737",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15 04:46:04",
+      "text": "United Therapeutics CEO Martine Rothblatt sells $4.79m in stock",
+      "description": ""
+    },
+    {
+      "id": "5a88ab51cda5a5",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-15 04:45:55",
+      "title": "Abacus global CEO Jay Jackson sells $1.7m in company stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/abacus-global-ceo-jay-jackson-sells-17m-in-company-stock-93CH-4861736",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15 04:45:55",
+      "text": "Abacus global CEO Jay Jackson sells $1.7m in company stock",
+      "description": ""
+    },
+    {
+      "id": "71cba0b4a4cd86",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:45:27Z",
+      "title": "$SMCI $NVDA $CSCO $NDAQ $QQQ This was the real news. \n \nhttps://investorshub.advfn.com/market-news/article/34174/netlist-files-patent-infringement-action-against-micron-at-u-s-international-trade-comm",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/661980281",
       "author": "Ub3r5pAnK",
       "tickers": [
         "QQQ"
@@ -106,11 +532,139 @@
       "sentiment": {
         "basic": "Bullish"
       },
-      "time": "2026-08-15T04:38:09Z",
-      "text": "$SMCI $NVDA $CSCO $NDAQ $QQQ Also to note, it seems shorts are desperate, the ITC is against Micron not SMCI.  \n \nTheir just using FUD to accumulate and cover.  \n \nBUY their Desperation.",
+      "time": "2026-08-15T04:45:27Z",
+      "text": "$SMCI $NVDA $CSCO $NDAQ $QQQ This was the real news. \n \nhttps://investorshub.advfn.com/market-news/article/34174/netlist-files-patent-infringement-action-against-micron-at-u-s-international-trade-comm",
       "description": "",
       "handle": "Ub3r5pAnK",
       "display_name": "Ub3r5pAnK"
+    },
+    {
+      "id": "3335a9d14ebbf0",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:45:27Z",
+      "title": "$SMCI $NVDA $CSCO $NDAQ $QQQ This was the real news. \n \nhttps://investorshub.advfn.com/market-news/article/34174/netlist-files-patent-infringement-action-against-micron-at-u-s-international-trade-comm",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/661980281",
+      "author": "Ub3r5pAnK",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-15T04:45:27Z",
+      "text": "$SMCI $NVDA $CSCO $NDAQ $QQQ This was the real news. \n \nhttps://investorshub.advfn.com/market-news/article/34174/netlist-files-patent-infringement-action-against-micron-at-u-s-international-trade-comm",
+      "description": "",
+      "handle": "Ub3r5pAnK",
+      "display_name": "Ub3r5pAnK"
+    },
+    {
+      "id": "a148664da88eae",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-15T04:43:15Z",
+      "title": "The Wealth Company Launches Gift City Fund to Give NRIs a Single, Dollar-Denominated Route into India's Mutual Fund Market",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T04:43:15Z",
+      "text": "The Wealth Company Launches Gift City Fund to Give NRIs a Single, Dollar-Denominated Route into India's Mutual Fund Market",
+      "description": ""
+    },
+    {
+      "id": "46bd92a6bef738",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:39:07Z",
+      "title": "$QQQ while Trump is obsessed with war, China is creating FUN 3D animations light enough to be lifted up by a drone.\n\nPerspective! We really need it right now! Too much war mongering. \n\nToo many tariff",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/661980214",
+      "author": "TranscendAsset",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 8.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-08-15T04:39:07Z",
+      "text": "$QQQ while Trump is obsessed with war, China is creating FUN 3D animations light enough to be lifted up by a drone.\n\nPerspective! We really need it right now! Too much war mongering. \n\nToo many tariff",
+      "description": "",
+      "handle": "TranscendAsset",
+      "display_name": "TranscendAsset"
+    },
+    {
+      "id": "c6585530dc03b8",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:38:51Z",
+      "title": "$NBIS $NVDA Trump appears to be mocking Burry and the other short sellers, suggesting that his friends Larry Fink, David Salomon, and others at Goldman Sachs, Blackstone, BlackRock, and other Wall Str",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/661980211",
+      "author": "RL29",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T04:38:51Z",
+      "text": "$NBIS $NVDA Trump appears to be mocking Burry and the other short sellers, suggesting that his friends Larry Fink, David Salomon, and others at Goldman Sachs, Blackstone, BlackRock, and other Wall Str",
+      "description": "",
+      "handle": "RL29",
+      "display_name": "RL29"
+    },
+    {
+      "id": "97d44f00e2c764",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-15 04:38:44",
+      "title": "Nvidia cuts planned OpenAI data center guarantee to below $120 billion - WSJ",
+      "body": "",
+      "url": "https://www.investing.com/news/company-news/nvidia-cuts-planned-openai-data-center-guarantee-to-below-120-billion--wsj-4861735",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15 04:38:44",
+      "text": "Nvidia cuts planned OpenAI data center guarantee to below $120 billion - WSJ",
+      "description": ""
+    },
+    {
+      "id": "c11282bd3b08f9",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-15T04:38:42Z",
+      "title": "$AVGO drop was overdone, manipulated \n\nAdded 600 more, both $GOOG $META spent too much on avgo chips \n\nEarnings going to be great \ud83d\ude0d",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/661980209",
+      "author": "sp122809",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T04:38:42Z",
+      "text": "$AVGO drop was overdone, manipulated \n\nAdded 600 more, both $GOOG $META spent too much on avgo chips \n\nEarnings going to be great \ud83d\ude0d",
+      "description": "",
+      "handle": "sp122809",
+      "display_name": "sp122809"
     },
     {
       "id": "a4d2decf4b79e0",
@@ -159,28 +713,6 @@
       "description": "",
       "handle": "sp122809",
       "display_name": "sp122809"
-    },
-    {
-      "id": "5f9c2d5118783f",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:36:45Z",
-      "title": "$SPY  $DJT    You cant win,  \n                      you Nazi Communist TRUMP assassination Haters. \n            7 failed assassination attempts,  you guys kinda S-U-C-K  at this. \nDid the CEO of Stock",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/661980181",
-      "author": "Condor_24x7",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T04:36:45Z",
-      "text": "$SPY  $DJT    You cant win,  \n                      you Nazi Communist TRUMP assassination Haters. \n            7 failed assassination attempts,  you guys kinda S-U-C-K  at this. \nDid the CEO of Stock",
-      "description": "",
-      "handle": "Condor_24x7",
-      "display_name": "Condor_24x7"
     },
     {
       "id": "6f891cc9db65ef",
@@ -331,76 +863,6 @@
       "display_name": "BGESGroup"
     },
     {
-      "id": "39fc570cc6f451",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:23:35Z",
-      "title": "$SPY  Check every BOX of persons who Trump defeated in an election,  \n          and are NOW trying to Assassinate Him.  $DJT    $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/661980003",
-      "author": "Condor_24x7",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-15T04:23:35Z",
-      "text": "$SPY  Check every BOX of persons who Trump defeated in an election,  \n          and are NOW trying to Assassinate Him.  $DJT    $QQQ",
-      "description": "",
-      "handle": "Condor_24x7",
-      "display_name": "Condor_24x7"
-    },
-    {
-      "id": "12fd641180f7f2",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:23:35Z",
-      "title": "$SPY  Check every BOX of persons who Trump defeated in an election,  \n          and are NOW trying to Assassinate Him.  $DJT    $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/661980003",
-      "author": "Condor_24x7",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-15T04:23:35Z",
-      "text": "$SPY  Check every BOX of persons who Trump defeated in an election,  \n          and are NOW trying to Assassinate Him.  $DJT    $QQQ",
-      "description": "",
-      "handle": "Condor_24x7",
-      "display_name": "Condor_24x7"
-    },
-    {
-      "id": "9843e36cff60d3",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:22:09Z",
-      "title": "$NVDA \n\nI bought NVDL, make some noise !",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/661979978",
-      "author": "PanzerDivision",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T04:22:09Z",
-      "text": "$NVDA \n\nI bought NVDL, make some noise !",
-      "description": "",
-      "handle": "PanzerDivision",
-      "display_name": "PanzerDivision"
-    },
-    {
       "id": "ecd3a32a27f44e",
       "source": "stocktwits",
       "source_type": "social",
@@ -421,120 +883,6 @@
       "description": "",
       "handle": "WorldwideWesley",
       "display_name": "WorldwideWesley"
-    },
-    {
-      "id": "5f0e40e41bba62",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:20:59Z",
-      "title": "$SMCI $NVDA $CSCO $NDAQ $QQQ  \nOh yep something like this happened to CSCO right at the end of its pattern too when it broke out. \n \nJust buy the DIP lol, ignore the noise.",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/661979957",
-      "author": "Ub3r5pAnK",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-15T04:20:59Z",
-      "text": "$SMCI $NVDA $CSCO $NDAQ $QQQ  \nOh yep something like this happened to CSCO right at the end of its pattern too when it broke out. \n \nJust buy the DIP lol, ignore the noise.",
-      "description": "",
-      "handle": "Ub3r5pAnK",
-      "display_name": "Ub3r5pAnK"
-    },
-    {
-      "id": "43102157eca898",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:20:59Z",
-      "title": "$SMCI $NVDA $CSCO $NDAQ $QQQ  \nOh yep something like this happened to CSCO right at the end of its pattern too when it broke out. \n \nJust buy the DIP lol, ignore the noise.",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/661979957",
-      "author": "Ub3r5pAnK",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-15T04:20:59Z",
-      "text": "$SMCI $NVDA $CSCO $NDAQ $QQQ  \nOh yep something like this happened to CSCO right at the end of its pattern too when it broke out. \n \nJust buy the DIP lol, ignore the noise.",
-      "description": "",
-      "handle": "Ub3r5pAnK",
-      "display_name": "Ub3r5pAnK"
-    },
-    {
-      "id": "13a7a9c2cfdb20",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:20:46Z",
-      "title": "$SPY $QQQ $NVDA $MSFT &lt;&lt;&lt;Trump said this too\u2026 lol. \n \n\u201cThe Strait of Hormuz is \u2018very clearly\u2019 under US control, former energy secretary says.\u201d \n \nIf Hormuz is under U.S. control, then why has",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/661979952",
-      "author": "GrowingWealth",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T04:20:46Z",
-      "text": "$SPY $QQQ $NVDA $MSFT &lt;&lt;&lt;Trump said this too\u2026 lol. \n \n\u201cThe Strait of Hormuz is \u2018very clearly\u2019 under US control, former energy secretary says.\u201d \n \nIf Hormuz is under U.S. control, then why has",
-      "description": "",
-      "handle": "GrowingWealth",
-      "display_name": "GrowingWealth"
-    },
-    {
-      "id": "754d8e5e39ca3a",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:20:46Z",
-      "title": "$SPY $QQQ $NVDA $MSFT &lt;&lt;&lt;Trump said this too\u2026 lol. \n \n\u201cThe Strait of Hormuz is \u2018very clearly\u2019 under US control, former energy secretary says.\u201d \n \nIf Hormuz is under U.S. control, then why has",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/661979952",
-      "author": "GrowingWealth",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T04:20:46Z",
-      "text": "$SPY $QQQ $NVDA $MSFT &lt;&lt;&lt;Trump said this too\u2026 lol. \n \n\u201cThe Strait of Hormuz is \u2018very clearly\u2019 under US control, former energy secretary says.\u201d \n \nIf Hormuz is under U.S. control, then why has",
-      "description": "",
-      "handle": "GrowingWealth",
-      "display_name": "GrowingWealth"
-    },
-    {
-      "id": "3a13c2d2d9c494",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:20:46Z",
-      "title": "$SPY $QQQ $NVDA $MSFT &lt;&lt;&lt;Trump said this too\u2026 lol. \n \n\u201cThe Strait of Hormuz is \u2018very clearly\u2019 under US control, former energy secretary says.\u201d \n \nIf Hormuz is under U.S. control, then why has",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/661979952",
-      "author": "GrowingWealth",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T04:20:46Z",
-      "text": "$SPY $QQQ $NVDA $MSFT &lt;&lt;&lt;Trump said this too\u2026 lol. \n \n\u201cThe Strait of Hormuz is \u2018very clearly\u2019 under US control, former energy secretary says.\u201d \n \nIf Hormuz is under U.S. control, then why has",
-      "description": "",
-      "handle": "GrowingWealth",
-      "display_name": "GrowingWealth"
     },
     {
       "id": "a73e58d33b0f75",
@@ -559,82 +907,6 @@
       "display_name": "GrowingWealth"
     },
     {
-      "id": "ffdd71a6bcfec7",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-15 04:19:30",
-      "title": "Anthropic IPO valuation rests on up to $200 billion 2028 revenue target - Reuters",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-ipo-valuation-rests-on-up-to-200-billion-2028-revenue-target--reuters-4861731",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15 04:19:30",
-      "text": "Anthropic IPO valuation rests on up to $200 billion 2028 revenue target - Reuters",
-      "description": ""
-    },
-    {
-      "id": "ddd661d5112433",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:17:44Z",
-      "title": "$SPY  BRILLIANT !!!  Surving another Assassination attempt from the Left Wing Kamala Harris, Iranian sleeper cell connections \n \nPhuck you Liberal death sqauds on your 7th FAILED  Assassination attemp",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/661979920",
-      "author": "Condor_24x7",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T04:17:44Z",
-      "text": "$SPY  BRILLIANT !!!  Surving another Assassination attempt from the Left Wing Kamala Harris, Iranian sleeper cell connections \n \nPhuck you Liberal death sqauds on your 7th FAILED  Assassination attemp",
-      "description": "",
-      "handle": "Condor_24x7",
-      "display_name": "Condor_24x7"
-    },
-    {
-      "id": "a1998776f25386",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-15 04:16:06",
-      "title": "Park Aerospace COO Mark Esquivel sells $1.48m in PKE shares",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/park-aerospace-coo-mark-esquivel-sells-148m-in-pke-shares-93CH-4861730",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15 04:16:06",
-      "text": "Park Aerospace COO Mark Esquivel sells $1.48m in PKE shares",
-      "description": ""
-    },
-    {
-      "id": "3a8cb416220039",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-15 04:15:50",
-      "title": "Maze Therapeutics president sells $445,620 in company stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/maze-therapeutics-president-sells-445620-in-company-stock-93CH-4861729",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15 04:15:50",
-      "text": "Maze Therapeutics president sells $445,620 in company stock",
-      "description": ""
-    },
-    {
       "id": "b89e682b96e8d2",
       "source": "stocktwits",
       "source_type": "social",
@@ -657,54 +929,6 @@
       "description": "",
       "handle": "CaptainsLogs",
       "display_name": "CaptainsLogs"
-    },
-    {
-      "id": "058e49203926dc",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:10:52Z",
-      "title": "$SMCI $CSCO $NVDA $QQQ $NDAQ This one is actually quite similar to SMCI&#39;s current situation, yet SMCI is hardly in the same situation.",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/661979806",
-      "author": "Ub3r5pAnK",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-15T04:10:52Z",
-      "text": "$SMCI $CSCO $NVDA $QQQ $NDAQ This one is actually quite similar to SMCI&#39;s current situation, yet SMCI is hardly in the same situation.",
-      "description": "",
-      "handle": "Ub3r5pAnK",
-      "display_name": "Ub3r5pAnK"
-    },
-    {
-      "id": "4730801b6c2f3b",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:10:47Z",
-      "title": "$SPY i&#39;m a small fish by comparisson to some, but Every Dollar I currently have invested in this market = ALL Profits.  \n \nTake that! \ud83d\udcb5\ud83d\udca5",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/661979805",
-      "author": "Bounty_Hunter1",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-15T04:10:47Z",
-      "text": "$SPY i&#39;m a small fish by comparisson to some, but Every Dollar I currently have invested in this market = ALL Profits.  \n \nTake that! \ud83d\udcb5\ud83d\udca5",
-      "description": "",
-      "handle": "Bounty_Hunter1",
-      "display_name": "Bounty_Hunter1"
     },
     {
       "id": "f4d2df49f367f8",
@@ -751,100 +975,6 @@
       "description": "",
       "handle": "PSM_EmpowerTrading",
       "display_name": "PSM_EmpowerTrading"
-    },
-    {
-      "id": "47b400af9479f1",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-15 04:05:13",
-      "title": "Edgewise Therapeutics CMO Joanne Donovan sells $412,703 in stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/edgewise-therapeutics-cmo-joanne-donovan-sells-412703-in-stock-93CH-4861728",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15 04:05:13",
-      "text": "Edgewise Therapeutics CMO Joanne Donovan sells $412,703 in stock",
-      "description": ""
-    },
-    {
-      "id": "316df93a68ad1b",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-15 04:05:11",
-      "title": "Azz COO Bryan Stovall sells $401,726 in company stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/azz-coo-bryan-stovall-sells-401726-in-company-stock-93CH-4861727",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15 04:05:11",
-      "text": "Azz COO Bryan Stovall sells $401,726 in company stock",
-      "description": ""
-    },
-    {
-      "id": "a855291bbf24d4",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-15 04:04:50",
-      "title": "Edgewise Therapeutics CSO Alan Russell sells $258k in stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/edgewise-therapeutics-cso-alan-russell-sells-258k-in-stock-93CH-4861726",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15 04:04:50",
-      "text": "Edgewise Therapeutics CSO Alan Russell sells $258k in stock",
-      "description": ""
-    },
-    {
-      "id": "e6d3d8f20dadd2",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-15 04:01:04",
-      "title": "Edgewise Therapeutics general counsel Moore sells $219,822 in shares",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/edgewise-therapeutics-general-counsel-moore-sells-219822-in-shares-93CH-4861724",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15 04:01:04",
-      "text": "Edgewise Therapeutics general counsel Moore sells $219,822 in shares",
-      "description": ""
-    },
-    {
-      "id": "c2e41986578ecb",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T04:00:22Z",
-      "title": "$AMD #science Do not want.",
-      "body": "",
-      "url": "https://stocktwits.com/AMD/stream/661979666",
-      "author": "holdingbags",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T04:00:22Z",
-      "text": "$AMD #science Do not want.",
-      "description": "",
-      "handle": "holdingbags",
-      "display_name": "holdingbags"
     },
     {
       "id": "5c6c74cb29e24f",
@@ -1351,28 +1481,6 @@
       "display_name": "BIGbash08oo"
     },
     {
-      "id": "822c57d760882e",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T02:45:36Z",
-      "title": "@howardlindzon $AAPL will do whats in its best interest from a business standpoint. US gov. should interfere in the business affairs in any US corporation. It sets a dangerous precedent going forward\u2026",
-      "body": "",
-      "url": "https://stocktwits.com/AAPL/stream/661978333",
-      "author": "ShadyAggie40",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T02:45:36Z",
-      "text": "@howardlindzon $AAPL will do whats in its best interest from a business standpoint. US gov. should interfere in the business affairs in any US corporation. It sets a dangerous precedent going forward\u2026",
-      "description": "",
-      "handle": "ShadyAggie40",
-      "display_name": "ShadyAggie40"
-    },
-    {
       "id": "b31baba6c8fc54",
       "source": "stocktwits",
       "source_type": "social",
@@ -1544,30 +1652,6 @@
       "display_name": "Yearning4Earnings"
     },
     {
-      "id": "dc3a64f099061c",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T01:54:06Z",
-      "title": "$AMZN $GOOGL $META $NVDA $QQQ i smell desperation.",
-      "body": "",
-      "url": "https://stocktwits.com/META/stream/661977195",
-      "author": "MilhouseVanhouten",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-15T01:54:06Z",
-      "text": "$AMZN $GOOGL $META $NVDA $QQQ i smell desperation.",
-      "description": "",
-      "handle": "MilhouseVanhouten",
-      "display_name": "MilhouseVanhouten"
-    },
-    {
       "id": "ad9f9af041efb9",
       "source": "stocktwits",
       "source_type": "social",
@@ -1592,30 +1676,6 @@
       "display_name": "MilhouseVanhouten"
     },
     {
-      "id": "3df8a735375b84",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T01:49:07Z",
-      "title": "$QQQ ~ \u201cOut of Touch\u201d Billionaire Tech Bro Mark Zuckerberg Is Finally Paying for Meta&#39;s AI Disaster. The Zuck &quot;Manifesto&quot;. Aug 2026. $META $AMZN $GOOGL $NVDA",
-      "body": "",
-      "url": "https://stocktwits.com/META/stream/661977072",
-      "author": "CUPandHANDLE_CHARTS",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-08-15T01:49:07Z",
-      "text": "$QQQ ~ \u201cOut of Touch\u201d Billionaire Tech Bro Mark Zuckerberg Is Finally Paying for Meta&#39;s AI Disaster. The Zuck &quot;Manifesto&quot;. Aug 2026. $META $AMZN $GOOGL $NVDA",
-      "description": "",
-      "handle": "CUPandHANDLE_CHARTS",
-      "display_name": "CUPandHANDLE_CHARTS"
-    },
-    {
       "id": "f9e4a349815978",
       "source": "zerohedge",
       "source_type": "rss",
@@ -1634,6 +1694,42 @@
       "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Judge Drops Case Against 6 Nevada Republicans Accused Of Falsifying 2020 Election Result</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--ty"
     },
     {
+      "id": "e5ec94b476afde",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sat, 15 Aug 2026 01:27:52 -0400",
+      "title": "Arrow Financial: A Decent Regional Bank Trading At A Fair Valuation",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4937006-arrow-financial-decent-regional-bank-trading-at-a-fair-valuation?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 15 Aug 2026 01:27:52 -0400",
+      "text": "Arrow Financial: A Decent Regional Bank Trading At A Fair Valuation",
+      "description": ""
+    },
+    {
+      "id": "d1f00dfb2f9f2b",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sat, 15 Aug 2026 01:25:00 -0400",
+      "title": "Oakmark International Small Cap Strategy Q2 2026 Portfolio Update",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4937013-oakmark-international-small-cap-strategy-q2-2026-portfolio-update?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 15 Aug 2026 01:25:00 -0400",
+      "text": "Oakmark International Small Cap Strategy Q2 2026 Portfolio Update",
+      "description": ""
+    },
+    {
       "id": "bc4e56c49fd4cf",
       "source": "zerohedge",
       "source_type": "rss",
@@ -1650,6 +1746,24 @@
       "time": "Sat, 15 Aug 2026 01:20:00 +0000",
       "text": "Trump's DOJ Will Reportedly Support End Of National Firearms Act After 92 Years",
       "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Trump's DOJ Will Reportedly Support End Of National Firearms Act After 92 Years </span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-"
+    },
+    {
+      "id": "0735117c7fd7ae",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sat, 15 Aug 2026 01:15:00 -0400",
+      "title": "Oakmark International Small Cap Strategy Q2 2026 Contributors And Detractors",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4937012-oakmark-international-small-cap-strategy-q2-2026-contributors-detractors?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 15 Aug 2026 01:15:00 -0400",
+      "text": "Oakmark International Small Cap Strategy Q2 2026 Contributors And Detractors",
+      "description": ""
     },
     {
       "id": "089db77027d32d",
@@ -1672,6 +1786,24 @@
       "description": "",
       "handle": "IAmGodAtStocks",
       "display_name": "IAmGodAtStocks"
+    },
+    {
+      "id": "49c27d509865e5",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sat, 15 Aug 2026 01:10:00 -0400",
+      "title": "Oakmark International Small Cap Strategy Q2 2026 Commentary",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4937011-oakmark-international-small-cap-strategy-q2-2026-commentary?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 15 Aug 2026 01:10:00 -0400",
+      "text": "Oakmark International Small Cap Strategy Q2 2026 Commentary",
+      "description": ""
     },
     {
       "id": "96f66f93dbeef7",
@@ -1725,6 +1857,24 @@
       "sentiment": "neutral",
       "time": "2026-08-15T00:50:59Z",
       "text": "77 DAYS TO GO: 7 WONDERS OF FUTURE CITIES COUNTS DOWN TO START OF VOTING",
+      "description": ""
+    },
+    {
+      "id": "ce80b08da5e5de",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sat, 15 Aug 2026 00:47:40 -0400",
+      "title": "Faraday Copper: A Sensible Speculative Buy",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4936999-faraday-copper-a-sensible-speculative-buy?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sat, 15 Aug 2026 00:47:40 -0400",
+      "text": "Faraday Copper: A Sensible Speculative Buy",
       "description": ""
     },
     {
@@ -1968,48 +2118,6 @@
       "description": ""
     },
     {
-      "id": "12976b24cde9c0",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-15T00:20:27Z",
-      "title": "$MSFT $500+ next week.  Hope you got in today or this week!",
-      "body": "",
-      "url": "https://stocktwits.com/MSFT/stream/661974287",
-      "author": "AZZ_MAN",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-15T00:20:27Z",
-      "text": "$MSFT $500+ next week.  Hope you got in today or this week!",
-      "description": "",
-      "handle": "AZZ_MAN",
-      "display_name": "AZZ_MAN"
-    },
-    {
-      "id": "681fe8a4ff000c",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sat, 15 Aug 2026 00:20:00 -0400",
-      "title": "Nomura Large Cap Growth Fund Q2 2026 Commentary",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4937002-nomura-large-cap-growth-fund-q2-2026-commentary?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 15 Aug 2026 00:20:00 -0400",
-      "text": "Nomura Large Cap Growth Fund Q2 2026 Commentary",
-      "description": ""
-    },
-    {
       "id": "268a9c61feb320",
       "source": "uw_news",
       "source_type": "news",
@@ -2046,24 +2154,6 @@
       "time": "Sat, 15 Aug 2026 00:05:00 +0000",
       "text": "Patriots Won't Let Communists Take America",
       "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Patriots Won't Let Communists Take America</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field"
-    },
-    {
-      "id": "a51100ef7cc459",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sat, 15 Aug 2026 00:00:00 -0400",
-      "title": "Politics And The Markets 08/15/26",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4931514-politics-and-the-markets-081526?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 15 Aug 2026 00:00:00 -0400",
-      "text": "Politics And The Markets 08/15/26",
-      "description": ""
     },
     {
       "id": "7b9e9ea40f1cf1",
@@ -2117,24 +2207,6 @@
       "sentiment": "neutral",
       "time": "2026-08-14T23:48:56Z",
       "text": "Dallas County Schools Show Continued Progress in 2026 Accountability Ratings",
-      "description": ""
-    },
-    {
-      "id": "b5e097ad008068",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 14 Aug 2026 23:44:09 -0400",
-      "title": "Suburban Propane's Secular Pressures Are Priced In (Rating Upgrade)",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4936993-suburban-propanes-secular-pressures-are-priced-in?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 14 Aug 2026 23:44:09 -0400",
-      "text": "Suburban Propane's Secular Pressures Are Priced In (Rating Upgrade)",
       "description": ""
     },
     {
@@ -2342,24 +2414,6 @@
       "description": ""
     },
     {
-      "id": "fecf02d919be46",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 14 Aug 2026 23:05:00 -0400",
-      "title": "First Eagle High Yield Municipal Fund Q2 2026 Commentary",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4936994-first-eagle-high-yield-municipal-fund-q2-2026-commentary?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 14 Aug 2026 23:05:00 -0400",
-      "text": "First Eagle High Yield Municipal Fund Q2 2026 Commentary",
-      "description": ""
-    },
-    {
       "id": "dc5d4b000ef7e0",
       "source": "uw_news",
       "source_type": "news",
@@ -2430,62 +2484,6 @@
       "time": "Fri, 14 Aug 2026 22:50:00 +0000",
       "text": "Berkshire Adds Google, Delta, Trims BofA, Kroger As Abel Taps Into Record Cash Hoard",
       "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Berkshire Adds Google, Delta, Trims BofA, Kroger As Abel Taps Into Record Cash Hoard</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-t"
-    },
-    {
-      "id": "1cd4865e3e367f",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Fri, 14 Aug 2026 22:47:05 -0400",
-      "title": "Barfresh Food Group, Inc. (BRFH) Q2 2026 Earnings Call Transcript",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4936988-barfresh-food-group-inc-brfh-q2-2026-earnings-call-transcript?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Fri, 14 Aug 2026 22:47:05 -0400",
-      "text": "Barfresh Food Group, Inc. (BRFH) Q2 2026 Earnings Call Transcript",
-      "description": ""
-    },
-    {
-      "id": "105ac7c302e8f5",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-14T22:42:48Z",
-      "title": "Core Scientific (CORZ) purchases Polaris for $444M, boosting Muskogee campus to 1.5 GW and enhancing AI infrastructure.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "CORZ"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-14T22:42:48Z",
-      "text": "Core Scientific (CORZ) purchases Polaris for $444M, boosting Muskogee campus to 1.5 GW and enhancing AI infrastructure.",
-      "description": ""
-    },
-    {
-      "id": "13097f0479093c",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-14T22:42:46Z",
-      "title": "HIP-3 by Hyperliquid trades $21.8B in SK Hynix perpetuals during semiconductor turmoil, showcasing market trends.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-14T22:42:46Z",
-      "text": "HIP-3 by Hyperliquid trades $21.8B in SK Hynix perpetuals during semiconductor turmoil, showcasing market trends.",
-      "description": ""
     },
     {
       "id": "98554099160988",
@@ -2974,6 +2972,132 @@
       "description": ""
     },
     {
+      "id": "c3992ec267e72f",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-13T22:39:33Z",
+      "title": "Sandisk Stock Jumps On Bullish Outlook, Leads Memory Names Higher",
+      "body": "",
+      "url": "https://www.investors.com/news/technology/sandisk-stock-jumps-bullish-outlook-memory-names-follow/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-13T22:39:33Z",
+      "text": "Sandisk Stock Jumps On Bullish Outlook, Leads Memory Names Higher",
+      "description": ""
+    },
+    {
+      "id": "fd58107979ac12",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-13T22:27:10Z",
+      "title": "Royalty Pharma plc (RPRX) vs. AstraZeneca PLC (AZN): Which Biopharma Model Offers the Better Growth Story?",
+      "body": "",
+      "url": "https://finance.yahoo.com/healthcare/articles/royalty-pharma-plc-rprx-vs-222710878.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-13T22:27:10Z",
+      "text": "Royalty Pharma plc (RPRX) vs. AstraZeneca PLC (AZN): Which Biopharma Model Offers the Better Growth Story?",
+      "description": ""
+    },
+    {
+      "id": "ff25d54d27d3c4",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-13T22:25:44Z",
+      "title": "The House Is Paid Off but the Property Tax Bill Never Retires. These 3 ETFs Pay It Every Year",
+      "body": "",
+      "url": "https://finance.yahoo.com/real-estate/articles/house-paid-off-property-tax-222544284.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-13T22:25:44Z",
+      "text": "The House Is Paid Off but the Property Tax Bill Never Retires. These 3 ETFs Pay It Every Year",
+      "description": ""
+    },
+    {
+      "id": "4b606c64388375",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-13T22:25:00Z",
+      "title": "SpaceX vs. Oklo: Which Disruptive Stock Has More Upside?",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-vs-oklo-disruptive-stock-222500946.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-13T22:25:00Z",
+      "text": "SpaceX vs. Oklo: Which Disruptive Stock Has More Upside?",
+      "description": ""
+    },
+    {
+      "id": "bae186a5599973",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-13T22:17:33Z",
+      "title": "Could HCA Healthcare, Inc. (HCA) Stock Rebound After Guidance Cuts and Payer Pressure?",
+      "body": "",
+      "url": "https://finance.yahoo.com/healthcare/articles/could-hca-healthcare-inc-hca-221733771.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-13T22:17:33Z",
+      "text": "Could HCA Healthcare, Inc. (HCA) Stock Rebound After Guidance Cuts and Payer Pressure?",
+      "description": ""
+    },
+    {
+      "id": "a84bcb52a285d6",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-13T22:10:57Z",
+      "title": "Corn Reverts Back Lower on Thursday",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/corn-reverts-back-lower-thursday-221057478.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-13T22:10:57Z",
+      "text": "Corn Reverts Back Lower on Thursday",
+      "description": ""
+    },
+    {
+      "id": "37eae46d421aaa",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-13T22:01:09Z",
+      "title": "Could GSK plc (GSK)\u2019s Pipeline Acceleration Unlock a New Growth Era?",
+      "body": "",
+      "url": "https://finance.yahoo.com/healthcare/articles/could-gsk-plc-gsk-pipeline-220109388.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-13T22:01:09Z",
+      "text": "Could GSK plc (GSK)\u2019s Pipeline Acceleration Unlock a New Growth Era?",
+      "description": ""
+    },
+    {
       "id": "7cf8008c34488a",
       "source": "yahoo_finance",
       "source_type": "rss",
@@ -2992,21 +3116,21 @@
       "description": ""
     },
     {
-      "id": "4dd21d0aba53f7",
+      "id": "364dd4accacbad",
       "source": "yahoo_finance",
       "source_type": "rss",
-      "timestamp": "2026-08-13T21:57:04Z",
-      "title": "CEO Steve Huffman Once Said of Creating Reddit, \u2018I Just Didn't Want To Look Stupid In Front Of My Parents\u2019 \u2014 Now RDDT Stock is Joining the S&P 500 Index",
+      "timestamp": "2026-08-13T22:00:00Z",
+      "title": "Best banks in California in 2026",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/ceo-steve-huffman-once-said-215704227.html",
+      "url": "https://finance.yahoo.com/news/best-banks-california-2024-132412708.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 5.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-13T21:57:04Z",
-      "text": "CEO Steve Huffman Once Said of Creating Reddit, \u2018I Just Didn't Want To Look Stupid In Front Of My Parents\u2019 \u2014 Now RDDT Stock is Joining the S&P 500 Index",
+      "time": "2026-08-13T22:00:00Z",
+      "text": "Best banks in California in 2026",
       "description": ""
     },
     {
@@ -3028,20 +3152,38 @@
       "description": ""
     },
     {
-      "id": "465c219cf4d00a",
+      "id": "4dd21d0aba53f7",
       "source": "yahoo_finance",
       "source_type": "rss",
-      "timestamp": "2026-08-13T21:48:45Z",
-      "title": "US securities regulator cancels meeting to vote on crypto rules",
+      "timestamp": "2026-08-13T21:57:04Z",
+      "title": "CEO Steve Huffman Once Said of Creating Reddit, \u2018I Just Didn't Want To Look Stupid In Front Of My Parents\u2019 \u2014 Now RDDT Stock is Joining the S&P 500 Index",
       "body": "",
-      "url": "https://finance.yahoo.com/markets/crypto/articles/us-securities-regulator-cancels-meeting-214845828.html",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/ceo-steve-huffman-once-said-215704227.html",
       "author": "",
       "tickers": [],
       "tags": [],
       "impact_score": 5.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-13T21:48:45Z",
+      "time": "2026-08-13T21:57:04Z",
+      "text": "CEO Steve Huffman Once Said of Creating Reddit, \u2018I Just Didn't Want To Look Stupid In Front Of My Parents\u2019 \u2014 Now RDDT Stock is Joining the S&P 500 Index",
+      "description": ""
+    },
+    {
+      "id": "640c2420eb0dc3",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-13T21:50:28Z",
+      "title": "US securities regulator cancels meeting to vote on crypto rules",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/us-securities-regulator-cancels-meeting-215028449.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-13T21:50:28Z",
       "text": "US securities regulator cancels meeting to vote on crypto rules",
       "description": ""
     },
@@ -3066,44 +3208,6 @@
       "description": ""
     },
     {
-      "id": "ec17df1dc293b7",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:37:33Z",
-      "title": "From Courtroom Rivals to Corporate Partners: Archer Buys Its Way Into Boeing\u2019s Orbit",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/courtroom-rivals-corporate-partners-archer-213733752.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:37:33Z",
-      "text": "From Courtroom Rivals to Corporate Partners: Archer Buys Its Way Into Boeing\u2019s Orbit",
-      "description": ""
-    },
-    {
-      "id": "53f939001a9a89",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:33:06Z",
-      "title": "Could AbbVie Inc. (ABBV)\u2019s Post-Humira Transformation Drive the Next Phase of Growth?",
-      "body": "",
-      "url": "https://finance.yahoo.com/healthcare/articles/could-abbvie-inc-abbv-post-213306053.html",
-      "author": "",
-      "tickers": [
-        "ABBV"
-      ],
-      "tags": [],
-      "impact_score": 5.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:33:06Z",
-      "text": "Could AbbVie Inc. (ABBV)\u2019s Post-Humira Transformation Drive the Next Phase of Growth?",
-      "description": ""
-    },
-    {
       "id": "35d93479362577",
       "source": "cnbc",
       "source_type": "rss",
@@ -3120,132 +3224,6 @@
       "time": "Thu, 13 Aug 2026 21:31:44 GMT",
       "text": "Mamdani's NYC pied-\u00e0-terre tax can continue rollout during court appeal",
       "description": "The tax championed by Mayor Zohran Mamdani has drawn the ire of President Donald Trump, who said it must be stopped and vowed to explore federal options."
-    },
-    {
-      "id": "3c9946067655df",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:30:43Z",
-      "title": "Washington Mutual Investors Fund, AWSHX, Refuses to Buy Certain Stocks. That\u2019s the Point",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/washington-mutual-investors-fund-awshx-213043044.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:30:43Z",
-      "text": "Washington Mutual Investors Fund, AWSHX, Refuses to Buy Certain Stocks. That\u2019s the Point",
-      "description": ""
-    },
-    {
-      "id": "4c2c4ca4166783",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:29:00Z",
-      "title": "Top analyst turns bullish on HIVE ahead of earnings",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/top-analyst-turns-bullish-hive-212900279.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:29:00Z",
-      "text": "Top analyst turns bullish on HIVE ahead of earnings",
-      "description": ""
-    },
-    {
-      "id": "a39f3e8121642a",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:25:28Z",
-      "title": "Creative Realities, Inc. Q2 2026 Earnings Call Summary",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/creative-realities-inc-q2-2026-212528287.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:25:28Z",
-      "text": "Creative Realities, Inc. Q2 2026 Earnings Call Summary",
-      "description": ""
-    },
-    {
-      "id": "6888f2682466bb",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:24:25Z",
-      "title": "Eagle Point Income Company Inc. Q2 2026 Earnings Call Summary",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/eagle-point-income-company-inc-212425345.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:24:25Z",
-      "text": "Eagle Point Income Company Inc. Q2 2026 Earnings Call Summary",
-      "description": ""
-    },
-    {
-      "id": "a57f191b9d65cd",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:24:11Z",
-      "title": "SEC May Advance Crypto Rules, 24/7 Trading Without Clarity Act. OCC Paves Way For Crypto Banks.",
-      "body": "",
-      "url": "https://www.investors.com/news/sec-cryptocurrency-rules-innovation-trading-clarity-act-senate-delay-occ-national-banks-bitcoin/?src=A00220&yptr=yahoo",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:24:11Z",
-      "text": "SEC May Advance Crypto Rules, 24/7 Trading Without Clarity Act. OCC Paves Way For Crypto Banks.",
-      "description": ""
-    },
-    {
-      "id": "35b8c5fb0a671d",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:23:19Z",
-      "title": "SpaceX\u2019s Most Loyal Buyers Blinked",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/spacex-most-loyal-buyers-blinked-212319498.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:23:19Z",
-      "text": "SpaceX\u2019s Most Loyal Buyers Blinked",
-      "description": ""
-    },
-    {
-      "id": "d2e241468969e6",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-13T21:19:18Z",
-      "title": "Bragg Gaming Group Inc. Q2 2026 Earnings Call Summary",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/bragg-gaming-group-inc-q2-211918043.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-13T21:19:18Z",
-      "text": "Bragg Gaming Group Inc. Q2 2026 Earnings Call Summary",
-      "description": ""
     },
     {
       "id": "7aa20ca4568b7d",
@@ -3270,6 +3248,24 @@
       "previous": "4.35%",
       "actual": "",
       "week": "this"
+    },
+    {
+      "id": "172ef570a002d3",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2024-08-21T21:52:36Z",
+      "title": "Current balance vs. available balance: What's the difference?",
+      "body": "",
+      "url": "https://finance.yahoo.com/personal-finance/banking/article/current-balance-vs-available-balance-215236321.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2024-08-21T21:52:36Z",
+      "text": "Current balance vs. available balance: What's the difference?",
+      "description": ""
     }
   ]
 }
