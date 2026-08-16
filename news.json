@@ -1,37 +1,37 @@
 {
-  "generated": "2026-08-16T10:29:51Z",
-  "generated_display": "2026-08-16 10:29 ET",
+  "generated": "2026-08-16T10:53:50Z",
+  "generated_display": "2026-08-16 10:53 ET",
   "count": 161,
   "source_health": {
     "uw_news": {
       "status": "healthy",
       "items_pulled": 30,
-      "latency_ms": 203,
-      "last_success": "2026-08-16T10:29:47.516594+00:00",
+      "latency_ms": 131,
+      "last_success": "2026-08-16T10:53:48.709728+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 1752,
-      "last_success": "2026-08-16T10:29:49.269265+00:00",
+      "latency_ms": 810,
+      "last_success": "2026-08-16T10:53:49.520199+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "rss": {
       "status": "healthy",
       "items_pulled": 80,
-      "latency_ms": 1542,
-      "last_success": "2026-08-16T10:29:51.045791+00:00",
+      "latency_ms": 676,
+      "last_success": "2026-08-16T10:53:50.525626+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 21,
-      "latency_ms": 431,
-      "last_success": "2026-08-16T10:29:51.477802+00:00",
+      "latency_ms": 79,
+      "last_success": "2026-08-16T10:53:50.604934+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -42,12 +42,12 @@
         "cnbc": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 72
+          "latency_ms": 53
         },
         "marketwatch": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 382
+          "latency_ms": 195
         },
         "reuters": {
           "status": "failed",
@@ -56,22 +56,22 @@
         "yahoo_finance": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 209
+          "latency_ms": 43
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 113
+          "latency_ms": 104
         },
         "zerohedge": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 488
+          "latency_ms": 198
         },
         "investing_com": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 278
+          "latency_ms": 83
         }
       }
     }
@@ -79,8 +79,8 @@
   "by_source": {
     "forex_factory": 1,
     "stocktwits": 50,
-    "investing_com": 10,
     "uw_news": 30,
+    "investing_com": 10,
     "cnbc": 15,
     "seekingalpha": 15,
     "zerohedge": 15,
@@ -113,28 +113,391 @@
       "week": "this"
     },
     {
-      "id": "8e9893472ecfc2",
+      "id": "10975fafcd43b0",
       "source": "stocktwits",
       "source_type": "social",
-      "timestamp": "2026-08-16T10:28:59Z",
-      "title": "$GOOGL $NVDA $SPY $QQQ $SPCX \n\nThat covers half their entire debt",
+      "timestamp": "2026-08-16T10:53:05Z",
+      "title": "$TSLA The prophet has spoken!",
       "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662005616",
-      "author": "THE_TRADE",
+      "url": "https://stocktwits.com/TSLA/stream/662005796",
+      "author": "galarneauy",
       "tickers": [
-        "SPY"
+        "TSLA"
       ],
       "tags": [],
-      "impact_score": 4.6,
+      "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": {
         "basic": "Bullish"
       },
-      "time": "2026-08-16T10:28:59Z",
-      "text": "$GOOGL $NVDA $SPY $QQQ $SPCX \n\nThat covers half their entire debt",
+      "time": "2026-08-16T10:53:05Z",
+      "text": "$TSLA The prophet has spoken!",
       "description": "",
-      "handle": "THE_TRADE",
-      "display_name": "THE_TRADE"
+      "handle": "galarneauy",
+      "display_name": "galarneauy"
+    },
+    {
+      "id": "0aa68cf19dfc30",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-16T10:52:35Z",
+      "title": "$SPY \ud83e\udde0\ud83e\udde0\ud83e\udde0\ud83c\udfaf\ud83c\udfaf\ud83c\udfaf",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662005790",
+      "author": "RicoElite",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:52:35Z",
+      "text": "$SPY \ud83e\udde0\ud83e\udde0\ud83e\udde0\ud83c\udfaf\ud83c\udfaf\ud83c\udfaf",
+      "description": "",
+      "handle": "RicoElite",
+      "display_name": "RicoElite"
+    },
+    {
+      "id": "0b2bfb6230c0c3",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-16T10:52:23Z",
+      "title": "$SPY People are paying $1500+/yr for &quot;buy and sell alerts&quot; when you can learn how to trade on your own for a fraction of that. Advertisement has warped peoples mind, just because something i",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662005787",
+      "author": "RicoElite",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 6.7,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:52:23Z",
+      "text": "$SPY People are paying $1500+/yr for &quot;buy and sell alerts&quot; when you can learn how to trade on your own for a fraction of that. Advertisement has warped peoples mind, just because something i",
+      "description": "",
+      "handle": "RicoElite",
+      "display_name": "RicoElite"
+    },
+    {
+      "id": "d01cf2071284a2",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:48:52Z",
+      "title": "TSLA Price Prediction: $359 critical level for Tesla stock as it hovers near $344.82 resistance, possible retreat to $324.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "TSLA",
+        "SMA"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:48:52Z",
+      "text": "TSLA Price Prediction: $359 critical level for Tesla stock as it hovers near $344.82 resistance, possible retreat to $324.",
+      "description": ""
+    },
+    {
+      "id": "bf13fddd517ee3",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-16T10:48:00Z",
+      "title": "$SPY even ofg admitted i was right about this.  We\u2019re screwed without population growth",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662005749",
+      "author": "peeyosheeoo",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:48:00Z",
+      "text": "$SPY even ofg admitted i was right about this.  We\u2019re screwed without population growth",
+      "description": "",
+      "handle": "peeyosheeoo",
+      "display_name": "peeyosheeoo"
+    },
+    {
+      "id": "72b19ba226c6f0",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:47:50Z",
+      "title": "Resistance at $734 for QQQ may lead to a temporary retrace before a potential breakout towards $755. Stochastic signal overbought levels. $720-$725 could be support area.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 11.9,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:47:50Z",
+      "text": "Resistance at $734 for QQQ may lead to a temporary retrace before a potential breakout towards $755. Stochastic signal overbought levels. $720-$725 could be support area.",
+      "description": ""
+    },
+    {
+      "id": "40740429fa22ed",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:47:46Z",
+      "title": "Predictions for MSFT: Possibility of hitting $536 or dropping to $480. $499 level is key. Stock is facing resistance at $498\u2013$499, with 70% positions short and a 2.35x buy-to-sell ratio.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:47:46Z",
+      "text": "Predictions for MSFT: Possibility of hitting $536 or dropping to $480. $499 level is key. Stock is facing resistance at $498\u2013$499, with 70% positions short and a 2.35x buy-to-sell ratio.",
+      "description": ""
+    },
+    {
+      "id": "93d8077621cf7a",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:47:43Z",
+      "title": "META's tokenized stock is poised for a potential surge to $605, as whale activity shows 66% long position.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "META",
+        "SMA"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:47:43Z",
+      "text": "META's tokenized stock is poised for a potential surge to $605, as whale activity shows 66% long position.",
+      "description": ""
+    },
+    {
+      "id": "9b66e67c93046b",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:47:42Z",
+      "title": "AMZN stock price may break $0.66 range as top traders are 56.4% short and MACD shows no momentum.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:47:42Z",
+      "text": "AMZN stock price may break $0.66 range as top traders are 56.4% short and MACD shows no momentum.",
+      "description": ""
+    },
+    {
+      "id": "03a77c9b77e716",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:47:39Z",
+      "title": "AMD's tokenized stock at $515.74 eyes $545 target by Sept. Institutional traders hold 56.3% long book. A break over $520 key.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:47:39Z",
+      "text": "AMD's tokenized stock at $515.74 eyes $545 target by Sept. Institutional traders hold 56.3% long book. A break over $520 key.",
+      "description": ""
+    },
+    {
+      "id": "8c0f6b889e5984",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:47:37Z",
+      "title": "NFLX price stagnates at $79.32 resistance as momentum slows. Break above $79.50 could lead to $83\u2013$85 range.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "NFLX"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:47:37Z",
+      "text": "NFLX price stagnates at $79.32 resistance as momentum slows. Break above $79.50 could lead to $83\u2013$85 range.",
+      "description": ""
+    },
+    {
+      "id": "497cdde5b13dff",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-16T10:46:58Z",
+      "title": "$NVDA l enjoy this stocktwit board for Nvidia. It is bringing me back into the classroom daily. I was thankful that someone once told me to work smarter not harder. It was simply that if you find a mo",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/662005744",
+      "author": "Crakerjac",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-16T10:46:58Z",
+      "text": "$NVDA l enjoy this stocktwit board for Nvidia. It is bringing me back into the classroom daily. I was thankful that someone once told me to work smarter not harder. It was simply that if you find a mo",
+      "description": "",
+      "handle": "Crakerjac",
+      "display_name": "Crakerjac"
+    },
+    {
+      "id": "eab6329d76bf41",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:46:34Z",
+      "title": "COIN price struggles below $150, faces strong selling pressure. Possibility of drop to $141-$145 is at 65%.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "COIN"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:46:34Z",
+      "text": "COIN price struggles below $150, faces strong selling pressure. Possibility of drop to $141-$145 is at 65%.",
+      "description": ""
+    },
+    {
+      "id": "a574ccdcab3bc2",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:46:32Z",
+      "title": "Tokenized stock HOOD hovers at $96.15, struggling under $100.96 SMA-50. Traders are 63% long with aggressive selling at a 0.64 ratio.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "HOOD",
+        "SMA"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:46:32Z",
+      "text": "Tokenized stock HOOD hovers at $96.15, struggling under $100.96 SMA-50. Traders are 63% long with aggressive selling at a 0.64 ratio.",
+      "description": ""
+    },
+    {
+      "id": "408f25adc5e403",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-16T10:46:30Z",
+      "title": "PLTR at $175.74 faces decision at $165-$195 range post 93% revenue surge. Smart money holds 66.8% short position.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:46:30Z",
+      "text": "PLTR at $175.74 faces decision at $165-$195 range post 93% revenue surge. Smart money holds 66.8% short position.",
+      "description": ""
+    },
+    {
+      "id": "a3de028de79f38",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-16T10:43:02Z",
+      "title": "$SPY The world is ready for $150-$200 crude oil. Reserves depleting on the daily. No deal until 2029",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662005710",
+      "author": "CharlesIsKing",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-08-16T10:43:02Z",
+      "text": "$SPY The world is ready for $150-$200 crude oil. Reserves depleting on the daily. No deal until 2029",
+      "description": "",
+      "handle": "CharlesIsKing",
+      "display_name": "CharlesIsKing"
+    },
+    {
+      "id": "0760c8f9813849",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-16T10:39:39Z",
+      "title": "@bpm78 \n\nI think you&#39;re looking at this far too pessimistically.\nI&#39;ve been involved in several long-term growth stories \u2014 Apple, $TSLA , Nvidia, just to name a few. All of them went through ma",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/662005682",
+      "author": "Tom2772",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-16T10:39:39Z",
+      "text": "@bpm78 \n\nI think you&#39;re looking at this far too pessimistically.\nI&#39;ve been involved in several long-term growth stories \u2014 Apple, $TSLA , Nvidia, just to name a few. All of them went through ma",
+      "description": "",
+      "handle": "Tom2772",
+      "display_name": "Tom2772"
+    },
+    {
+      "id": "fa75bfe73f7ae1",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-16T10:33:56Z",
+      "title": "$SPY what happens to home prices when the population levels off",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662005645",
+      "author": "peeyosheeoo",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-16T10:33:56Z",
+      "text": "$SPY what happens to home prices when the population levels off",
+      "description": "",
+      "handle": "peeyosheeoo",
+      "display_name": "peeyosheeoo"
     },
     {
       "id": "ffe44dbde4f436",
@@ -185,30 +548,6 @@
       "display_name": "THE_TRADE"
     },
     {
-      "id": "28497fd52cd91f",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-16T10:28:01Z",
-      "title": "$SPY FUTURES ARE RIPPING!\ud83d\udcab\u2618\ufe0f",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662005609",
-      "author": "HeyYouWhoMe",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-16T10:28:01Z",
-      "text": "$SPY FUTURES ARE RIPPING!\ud83d\udcab\u2618\ufe0f",
-      "description": "",
-      "handle": "HeyYouWhoMe",
-      "display_name": "HeyYouWhoMe"
-    },
-    {
       "id": "f505e15d0f7bf3",
       "source": "stocktwits",
       "source_type": "social",
@@ -229,30 +568,6 @@
       "description": "",
       "handle": "skeeter007",
       "display_name": "skeeter007"
-    },
-    {
-      "id": "70859c358735b2",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-16T10:27:46Z",
-      "title": "$GOOGL $NVDA $SPY $QQQ $SPCX \n\nNice return",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662005605",
-      "author": "THE_TRADE",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-16T10:27:46Z",
-      "text": "$GOOGL $NVDA $SPY $QQQ $SPCX \n\nNice return",
-      "description": "",
-      "handle": "THE_TRADE",
-      "display_name": "THE_TRADE"
     },
     {
       "id": "6cf9c9a10f3147",
@@ -303,30 +618,6 @@
       "display_name": "THE_TRADE"
     },
     {
-      "id": "0885317c2ceff2",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-16T10:26:35Z",
-      "title": "$SPY Incoming deal with Iran in 12 hours. Rinse &amp; Repeat.",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662005598",
-      "author": "RoyalsLulz",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-08-16T10:26:35Z",
-      "text": "$SPY Incoming deal with Iran in 12 hours. Rinse &amp; Repeat.",
-      "description": "",
-      "handle": "RoyalsLulz",
-      "display_name": "RoyalsLulz"
-    },
-    {
       "id": "90099473853a3a",
       "source": "stocktwits",
       "source_type": "social",
@@ -347,28 +638,6 @@
       "description": "",
       "handle": "WallStJesus",
       "display_name": "WallStJesus"
-    },
-    {
-      "id": "79720cd9327a09",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-16T10:20:39Z",
-      "title": "$SPY Peak farmland is here, peak oil demand is near, peak population is soon after \n \nwhats every major economic model based on? \n \ngrowth.",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662005554",
-      "author": "peeyosheeoo",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-16T10:20:39Z",
-      "text": "$SPY Peak farmland is here, peak oil demand is near, peak population is soon after \n \nwhats every major economic model based on? \n \ngrowth.",
-      "description": "",
-      "handle": "peeyosheeoo",
-      "display_name": "peeyosheeoo"
     },
     {
       "id": "777a91bf0678e2",
@@ -710,30 +979,6 @@
       },
       "time": "2026-08-16T09:29:32Z",
       "text": "$AAPL $INTC $TSM $AVGO $AMZN  \nNetlist\u2019s OEM Opportunity Could Be the Next Big Catalyst: Why NLST May Be Building a Memory Business for the AI Era \n \nhttps://garywallach.substack.com/p/netlists-oem-op",
-      "description": "",
-      "handle": "BGESGroup",
-      "display_name": "BGESGroup"
-    },
-    {
-      "id": "c64dc7c686020e",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-16T09:26:05Z",
-      "title": "$NLST $GOOG $NVDA $MU $SKHY  \nNetlist\u2019s OEM Opportunity Could Be the Next Big Catalyst: Why NLST May Be Building a Memory Business for the AI Era \n \nhttps://garywallach.substack.com/p/netlists-oem-opp",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/662005208",
-      "author": "BGESGroup",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-16T09:26:05Z",
-      "text": "$NLST $GOOG $NVDA $MU $SKHY  \nNetlist\u2019s OEM Opportunity Could Be the Next Big Catalyst: Why NLST May Be Building a Memory Business for the AI Era \n \nhttps://garywallach.substack.com/p/netlists-oem-opp",
       "description": "",
       "handle": "BGESGroup",
       "display_name": "BGESGroup"
@@ -1306,30 +1551,6 @@
       "display_name": "HonestJoe"
     },
     {
-      "id": "da2d13cab789f8",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-16T07:29:41Z",
-      "title": "$XCN.X $AAPL $TSLA $SPY $QQQ https://x.com/Onyx/status/2088826083185410141",
-      "body": "",
-      "url": "https://stocktwits.com/TSLA/stream/662004660",
-      "author": "Ihatemylifesavings",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-16T07:29:41Z",
-      "text": "$XCN.X $AAPL $TSLA $SPY $QQQ https://x.com/Onyx/status/2088826083185410141",
-      "description": "",
-      "handle": "Ihatemylifesavings",
-      "display_name": "Ihatemylifesavings"
-    },
-    {
       "id": "db4821ec74677b",
       "source": "stocktwits",
       "source_type": "social",
@@ -1395,6 +1616,60 @@
       "sentiment": "neutral",
       "time": "2026-08-16T06:52:03Z",
       "text": "TRUMP ON IRAN: PRETTY SOON I'LL BE DECLARING HORMUZ STRAIT A TERRITORY OF THE UNITED STATES",
+      "description": ""
+    },
+    {
+      "id": "7bcec45a13d580",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sun, 16 Aug 2026 06:36:47 -0400",
+      "title": "Tapestry: The Selloff Misprices Coach's Next Phase",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4937122-tapestry-stock-selloff-misprices-coachs-next-phase?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 16 Aug 2026 06:36:47 -0400",
+      "text": "Tapestry: The Selloff Misprices Coach's Next Phase",
+      "description": ""
+    },
+    {
+      "id": "af7fa0528e20eb",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sun, 16 Aug 2026 06:32:09 -0400",
+      "title": "Wall Street Week Ahead",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4937127-wall-street-week-ahead?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 16 Aug 2026 06:32:09 -0400",
+      "text": "Wall Street Week Ahead",
+      "description": ""
+    },
+    {
+      "id": "2d28422d8a8237",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sun, 16 Aug 2026 06:30:00 -0400",
+      "title": "Week Ahead: Downward Data Surprise Stretch The U.S. Dollar's Momentum Indicators",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4937126-week-ahead-downward-data-surprise-stretch-us-dollars-momentum-indicators?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 16 Aug 2026 06:30:00 -0400",
+      "text": "Week Ahead: Downward Data Surprise Stretch The U.S. Dollar's Momentum Indicators",
       "description": ""
     },
     {
@@ -1536,13 +1811,13 @@
       "display_name": "FlowQuantix"
     },
     {
-      "id": "a697075879a762",
+      "id": "1c9870fdaccdd9",
       "source": "seekingalpha",
       "source_type": "rss",
       "timestamp": "Sun, 16 Aug 2026 05:37:52 -0400",
       "title": "Independence Realty Trust: From Patience To Payoff (Rating Upgrade)",
       "body": "",
-      "url": "https://seekingalpha.com/article/4937115-independence-realty-trust-reit-from-patience-to-payoff?source=feed_all_articles",
+      "url": "https://seekingalpha.com/article/4937115-independence-realty-trust-reit-from-patience-to-payoff-rating-upgrade?source=feed_all_articles",
       "author": "",
       "tickers": [],
       "tags": [],
@@ -1648,28 +1923,6 @@
       "description": "",
       "handle": "Luckyskills007",
       "display_name": "Luckyskills007"
-    },
-    {
-      "id": "0053bfbf560345",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-16T04:44:12Z",
-      "title": "$XPEV $NIO $TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/TSLA/stream/662003693",
-      "author": "Greenthought",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-16T04:44:12Z",
-      "text": "$XPEV $NIO $TSLA",
-      "description": "",
-      "handle": "Greenthought",
-      "display_name": "Greenthought"
     },
     {
       "id": "eaebbc318e837b",
@@ -1852,24 +2105,6 @@
       "description": ""
     },
     {
-      "id": "92fb8391ce91da",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sun, 16 Aug 2026 02:50:52 -0400",
-      "title": "Xunlei Limited: What Needs To Happen If The Stock Is To Get Going",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4937099-xunlei-limited-stock-what-to-happen-if-stock-to-get-going?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sun, 16 Aug 2026 02:50:52 -0400",
-      "text": "Xunlei Limited: What Needs To Happen If The Stock Is To Get Going",
-      "description": ""
-    },
-    {
       "id": "083585ac4a3ba5",
       "source": "zerohedge",
       "source_type": "rss",
@@ -1908,24 +2143,6 @@
       "description": "",
       "handle": "ArcValueTrade",
       "display_name": "ArcValueTrade"
-    },
-    {
-      "id": "693eab40785be7",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sun, 16 Aug 2026 02:26:27 -0400",
-      "title": "BDC Weekly Review: Market Is Surprised By Private Credit Resilience",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4937096-bdc-weekly-review-market-is-surprised-by-private-credit-resilience?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sun, 16 Aug 2026 02:26:27 -0400",
-      "text": "BDC Weekly Review: Market Is Surprised By Private Credit Resilience",
-      "description": ""
     },
     {
       "id": "dd6bfb9bb788e0",
@@ -1970,24 +2187,6 @@
       "description": "",
       "handle": "ArcValueTrade",
       "display_name": "ArcValueTrade"
-    },
-    {
-      "id": "704d5833814643",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sun, 16 Aug 2026 02:24:50 -0400",
-      "title": "Fastly: AI Traffic Is Surging",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4937095-fastly-ai-traffic-surging?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sun, 16 Aug 2026 02:24:50 -0400",
-      "text": "Fastly: AI Traffic Is Surging",
-      "description": ""
     },
     {
       "id": "d2e3d97ddfb05b",
@@ -2494,24 +2693,6 @@
       "description": "For diversification in the stock market, there are actively managed alternatives to index funds."
     },
     {
-      "id": "bcdd8e78388385",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T18:00:14Z",
-      "title": "WIF at $0.14 stagnating as spot sellers hold sway; Next 30 days crucial: drop to $0.12 or rise to $0.17.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T18:00:14Z",
-      "text": "WIF at $0.14 stagnating as spot sellers hold sway; Next 30 days crucial: drop to $0.12 or rise to $0.17.",
-      "description": ""
-    },
-    {
       "id": "120c49284d5a23",
       "source": "zerohedge",
       "source_type": "rss",
@@ -2528,172 +2709,6 @@
       "time": "Sat, 15 Aug 2026 18:00:00 +0000",
       "text": "Somali Piracy Surges Amid Hormuz Blockade",
       "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Somali Piracy Surges Amid Hormuz Blockade</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field_"
-    },
-    {
-      "id": "d8d29bfacadd71",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:59:11Z",
-      "title": "FLOKI: Stochastic signals oversold, near Bollinger lower band. Potential relief bounce expected despite bearish MACD.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:59:11Z",
-      "text": "FLOKI: Stochastic signals oversold, near Bollinger lower band. Potential relief bounce expected despite bearish MACD.",
-      "description": ""
-    },
-    {
-      "id": "ad18f373f6f47c",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:59:07Z",
-      "title": "BitMEX blog notes $BTC trading trends, price around $62,984 in August 2026. Check out expert insights on derivatives.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "BTC"
-      ],
-      "tags": [],
-      "impact_score": 9.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:59:07Z",
-      "text": "BitMEX blog notes $BTC trading trends, price around $62,984 in August 2026. Check out expert insights on derivatives.",
-      "description": ""
-    },
-    {
-      "id": "2e3d7b458d0593",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:59:06Z",
-      "title": "CRV price at $0.24 faces prediction of $0.27 or drop to $0.22. Sell flow at 2:1 against buyers, with $0.238 as key support.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:59:06Z",
-      "text": "CRV price at $0.24 faces prediction of $0.27 or drop to $0.22. Sell flow at 2:1 against buyers, with $0.238 as key support.",
-      "description": ""
-    },
-    {
-      "id": "cf5f26f37a81b1",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:59:03Z",
-      "title": "$4.19 INJ price near Bollinger Band, 7% drop, 58.8% short. Key levels: $3.92 and $4.67. Potential squeeze to $4.67.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:59:03Z",
-      "text": "$4.19 INJ price near Bollinger Band, 7% drop, 58.8% short. Key levels: $3.92 and $4.67. Potential squeeze to $4.67.",
-      "description": ""
-    },
-    {
-      "id": "4603eed4a3d413",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:59:00Z",
-      "title": "Is FILE at $0.69 a dead cat or forming a real base? $0.72 resistance key. Derivatives point to bullish tilt. Next 48 hrs crucial.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:59:00Z",
-      "text": "Is FILE at $0.69 a dead cat or forming a real base? $0.72 resistance key. Derivatives point to bullish tilt. Next 48 hrs crucial.",
-      "description": ""
-    },
-    {
-      "id": "4de9aa803f4b03",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:58:58Z",
-      "title": "ALGO predicted to bounce to $0.085 before bears take over, currently at $0.079 in tight range with oversold conditions.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "SMA"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:58:58Z",
-      "text": "ALGO predicted to bounce to $0.085 before bears take over, currently at $0.079 in tight range with oversold conditions.",
-      "description": ""
-    },
-    {
-      "id": "014e7d8ef311a4",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:58:54Z",
-      "title": "PEPE trades at $0.00000236 with low Binance spot volume of $5M. Bearish signals suggest potential drop to $0.00000180.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:58:54Z",
-      "text": "PEPE trades at $0.00000236 with low Binance spot volume of $5M. Bearish signals suggest potential drop to $0.00000180.",
-      "description": ""
-    },
-    {
-      "id": "43af1c30eaf2ed",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:58:50Z",
-      "title": "HBAR price at standstill at $0.072. Will it drop to $0.06 or break out to $0.09 next? Momentum and open interest fading. Whales buying, retail selling short. Decision in 30 days.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:58:50Z",
-      "text": "HBAR price at standstill at $0.072. Will it drop to $0.06 or break out to $0.09 next? Momentum and open interest fading. Whales buying, retail selling short. Decision in 30 days.",
-      "description": ""
-    },
-    {
-      "id": "72db0753c5c31e",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-15T17:49:43Z",
-      "title": "UNI price may reach $2.99 after dropping by 6.49% to $3.24. Bouncing back to $3.42 is likely.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T17:49:43Z",
-      "text": "UNI price may reach $2.99 after dropping by 6.49% to $3.24. Bouncing back to $3.42 is likely.",
-      "description": ""
     },
     {
       "id": "4ec8c770124b8c",
@@ -2984,6 +2999,24 @@
       "description": "Cars that run on software offer benefits automakers and many customers say older cars cannot compete with. But some analysts worry the vehicles might not last."
     },
     {
+      "id": "a719a3a59243e0",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-15T11:26:02Z",
+      "title": "AppLovin\u2019s Real Problem Isn\u2019t Revenue \u2013 It\u2019s How the Growth Engine Actually Works",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/applovin-real-problem-isn-t-112602774.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T11:26:02Z",
+      "text": "AppLovin\u2019s Real Problem Isn\u2019t Revenue \u2013 It\u2019s How the Growth Engine Actually Works",
+      "description": ""
+    },
+    {
       "id": "898598d9b271fe",
       "source": "yahoo_finance",
       "source_type": "rss",
@@ -3112,24 +3145,6 @@
       "description": ""
     },
     {
-      "id": "93043e381a7c3e",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-15T10:00:00Z",
-      "title": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
-      "body": "",
-      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-15-2026-rates-falling-this-weekend-100000735.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T10:00:00Z",
-      "text": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
-      "description": ""
-    },
-    {
       "id": "0b31835148af3f",
       "source": "yahoo_finance",
       "source_type": "rss",
@@ -3145,6 +3160,24 @@
       "sentiment": "neutral",
       "time": "2026-08-15T10:00:00Z",
       "text": "Best CD rates today, Saturday, August 15, 2026: Best CD account earns 4.30% APY",
+      "description": ""
+    },
+    {
+      "id": "93043e381a7c3e",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-15T10:00:00Z",
+      "title": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
+      "body": "",
+      "url": "https://finance.yahoo.com/personal-finance/mortgages/article/mortgage-and-refinance-interest-rates-today-saturday-august-15-2026-rates-falling-this-weekend-100000735.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-15T10:00:00Z",
+      "text": "Mortgage and refinance interest rates today, Saturday, August 15, 2026: Rates falling this weekend",
       "description": ""
     },
     {
@@ -3181,24 +3214,6 @@
       "sentiment": "neutral",
       "time": "2026-08-15T05:47:42Z",
       "text": "Reddit (RDDT) Is Joining the S&P 500 \u2014What\u2019s Next for the Company?",
-      "description": ""
-    },
-    {
-      "id": "cdafabbca79bbc",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-15T03:36:23Z",
-      "title": "Applied Optoelectronics (AAOI) Expected to Announce Business Updates Next Week",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/applied-optoelectronics-aaoi-expected-announce-033623370.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-15T03:36:23Z",
-      "text": "Applied Optoelectronics (AAOI) Expected to Announce Business Updates Next Week",
       "description": ""
     },
     {
