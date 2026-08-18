@@ -1,37 +1,37 @@
 {
-  "generated": "2026-08-18T21:45:11Z",
-  "generated_display": "2026-08-18 21:45 ET",
+  "generated": "2026-08-18T21:58:47Z",
+  "generated_display": "2026-08-18 21:58 ET",
   "count": 161,
   "source_health": {
     "uw_news": {
       "status": "healthy",
       "items_pulled": 30,
-      "latency_ms": 190,
-      "last_success": "2026-08-18T21:45:08.687392+00:00",
+      "latency_ms": 120,
+      "last_success": "2026-08-18T21:58:45.790948+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 1755,
-      "last_success": "2026-08-18T21:45:10.442722+00:00",
+      "latency_ms": 874,
+      "last_success": "2026-08-18T21:58:46.665025+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "rss": {
       "status": "healthy",
       "items_pulled": 80,
-      "latency_ms": 965,
-      "last_success": "2026-08-18T21:45:11.550486+00:00",
+      "latency_ms": 647,
+      "last_success": "2026-08-18T21:58:47.524510+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 22,
-      "latency_ms": 305,
-      "last_success": "2026-08-18T21:45:11.856067+00:00",
+      "latency_ms": 100,
+      "last_success": "2026-08-18T21:58:47.625199+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -42,12 +42,12 @@
         "cnbc": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 184
+          "latency_ms": 35
         },
         "marketwatch": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 236
+          "latency_ms": 199
         },
         "reuters": {
           "status": "failed",
@@ -56,22 +56,22 @@
         "yahoo_finance": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 105
+          "latency_ms": 19
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 29
+          "latency_ms": 35
         },
         "zerohedge": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 239
+          "latency_ms": 269
         },
         "investing_com": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 172
+          "latency_ms": 90
         }
       }
     }
@@ -79,8 +79,8 @@
   "by_source": {
     "stocktwits": 50,
     "uw_news": 30,
-    "cnbc": 15,
     "investing_com": 10,
+    "cnbc": 15,
     "marketwatch": 10,
     "zerohedge": 15,
     "seekingalpha": 15,
@@ -89,58 +89,126 @@
   },
   "items": [
     {
-      "id": "1af7ca984cdd2f",
+      "id": "a664c3d2fd2a3e",
       "source": "stocktwits",
       "source_type": "social",
-      "timestamp": "2026-08-18T21:45:07Z",
-      "title": "$SPY there must be some type of crime involved $NTDOY",
+      "timestamp": "2026-08-18T21:58:36Z",
+      "title": "$NVDA It seems like a repeated noise ahead of the August 26 earnings report, rather than a change in the long-term NVDA thesis.  The market is still pricing NVIDIA as the leader of the AI infrastructu",
       "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662225759",
+      "url": "https://stocktwits.com/NVDA/stream/662226748",
+      "author": "hopperfield",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-18T21:58:36Z",
+      "text": "$NVDA It seems like a repeated noise ahead of the August 26 earnings report, rather than a change in the long-term NVDA thesis.  The market is still pricing NVIDIA as the leader of the AI infrastructu",
+      "description": "",
+      "handle": "hopperfield",
+      "display_name": "hopperfield"
+    },
+    {
+      "id": "19ee5a67b1443c",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:58:34Z",
+      "title": "$SPY Musta forgotten to buy his pardon. \nhttps://www.cbsnews.com/news/david-morens-niaid-pleads-guilty-covid-records/",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662226744",
+      "author": "SouthernItUp",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:58:34Z",
+      "text": "$SPY Musta forgotten to buy his pardon. \nhttps://www.cbsnews.com/news/david-morens-niaid-pleads-guilty-covid-records/",
+      "description": "",
+      "handle": "SouthernItUp",
+      "display_name": "SouthernItUp"
+    },
+    {
+      "id": "84cb2ea900d077",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:58:34Z",
+      "title": "$IBM $AMAT $TSLA",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/662226742",
+      "author": "LoneBroker",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:58:34Z",
+      "text": "$IBM $AMAT $TSLA",
+      "description": "",
+      "handle": "LoneBroker",
+      "display_name": "LoneBroker"
+    },
+    {
+      "id": "a57c6eaea61e51",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:57:55Z",
+      "title": "$SPY peaka booo $NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662226692",
       "author": "pmcapitaltrading",
       "tickers": [
         "SPY"
       ],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 3.8,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-18T21:45:07Z",
-      "text": "$SPY there must be some type of crime involved $NTDOY",
+      "time": "2026-08-18T21:57:55Z",
+      "text": "$SPY peaka booo $NVDA",
       "description": "",
       "handle": "pmcapitaltrading",
       "display_name": "pmcapitaltrading"
     },
     {
-      "id": "33ba28384bed75",
+      "id": "0c5de1997d6f50",
       "source": "stocktwits",
       "source_type": "social",
-      "timestamp": "2026-08-18T21:45:06Z",
-      "title": "$SPY 1min to go",
+      "timestamp": "2026-08-18T21:57:55Z",
+      "title": "$SPY peaka booo $NVDA",
       "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662225758",
-      "author": "SpyBreakOuts",
+      "url": "https://stocktwits.com/NVDA/stream/662226692",
+      "author": "pmcapitaltrading",
       "tickers": [
-        "SPY"
+        "NVDA"
       ],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 3.8,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-18T21:45:06Z",
-      "text": "$SPY 1min to go",
+      "time": "2026-08-18T21:57:55Z",
+      "text": "$SPY peaka booo $NVDA",
       "description": "",
-      "handle": "SpyBreakOuts",
-      "display_name": "SpyBreakOuts"
+      "handle": "pmcapitaltrading",
+      "display_name": "pmcapitaltrading"
     },
     {
-      "id": "d2645cfcae437d",
+      "id": "8e509e12a76e82",
       "source": "stocktwits",
       "source_type": "social",
-      "timestamp": "2026-08-18T21:44:59Z",
-      "title": "$META wholeeeshit 540????",
+      "timestamp": "2026-08-18T21:57:54Z",
+      "title": "$META 29 states are suing meta. This current trial represents 4. After this trial they will do another one, and another, and so on . They\u2019re going to drag this out forever.",
       "body": "",
-      "url": "https://stocktwits.com/META/stream/662225751",
-      "author": "greensteam20",
+      "url": "https://stocktwits.com/META/stream/662226691",
+      "author": "Mnybagz",
       "tickers": [
         "META"
       ],
@@ -148,21 +216,113 @@
       "impact_score": 3.4,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-18T21:44:59Z",
-      "text": "$META wholeeeshit 540????",
+      "time": "2026-08-18T21:57:54Z",
+      "text": "$META 29 states are suing meta. This current trial represents 4. After this trial they will do another one, and another, and so on . They\u2019re going to drag this out forever.",
       "description": "",
-      "handle": "greensteam20",
-      "display_name": "greensteam20"
+      "handle": "Mnybagz",
+      "display_name": "Mnybagz"
     },
     {
-      "id": "b320beef3d2d18",
+      "id": "43e82ce273b4a1",
       "source": "stocktwits",
       "source_type": "social",
-      "timestamp": "2026-08-18T21:44:58Z",
-      "title": "$META Zuck the cuck doesn\u2019t have to answer to a BOD.\n\nSo, he can do what he wants and doesn\u2019t care if he tanks the stock.",
+      "timestamp": "2026-08-18T21:57:46Z",
+      "title": "$SPY \n\nEveryone get some rest\n\nWe got FOMC minutes tomorrow",
       "body": "",
-      "url": "https://stocktwits.com/META/stream/662225748",
-      "author": "starman1564",
+      "url": "https://stocktwits.com/SPY/stream/662226680",
+      "author": "Steve_TheBull_Rogers",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:57:46Z",
+      "text": "$SPY \n\nEveryone get some rest\n\nWe got FOMC minutes tomorrow",
+      "description": "",
+      "handle": "Steve_TheBull_Rogers",
+      "display_name": "Steve_TheBull_Rogers"
+    },
+    {
+      "id": "7564a0ab5d4b87",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:57:09Z",
+      "title": "$PLTR when we double our PE will be 200 less than last year this time!!! \n \nhttps://sih-st-charts.stocktwits-cdn.com/fit-in/300x0/filters:quality(75)/production/original_550262881.png",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/662226640",
+      "author": "AshHydrogen",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:57:09Z",
+      "text": "$PLTR when we double our PE will be 200 less than last year this time!!! \n \nhttps://sih-st-charts.stocktwits-cdn.com/fit-in/300x0/filters:quality(75)/production/original_550262881.png",
+      "description": "",
+      "handle": "AshHydrogen",
+      "display_name": "AshHydrogen"
+    },
+    {
+      "id": "5895533b949dcc",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:56:41Z",
+      "title": "$QQQ $NVDA Identical moves and gaps.  Closed my short term QQQ puts.  Held my Sept 18 $220 NVDA puts and hedged with Aug 21 $720 QQQ calls. \u270c\ufe0f out!",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/662226602",
+      "author": "LeonardoBonacci",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-08-18T21:56:41Z",
+      "text": "$QQQ $NVDA Identical moves and gaps.  Closed my short term QQQ puts.  Held my Sept 18 $220 NVDA puts and hedged with Aug 21 $720 QQQ calls. \u270c\ufe0f out!",
+      "description": "",
+      "handle": "LeonardoBonacci",
+      "display_name": "LeonardoBonacci"
+    },
+    {
+      "id": "4c3e060605dc0a",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:56:41Z",
+      "title": "$QQQ $NVDA Identical moves and gaps.  Closed my short term QQQ puts.  Held my Sept 18 $220 NVDA puts and hedged with Aug 21 $720 QQQ calls. \u270c\ufe0f out!",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/662226602",
+      "author": "LeonardoBonacci",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-08-18T21:56:41Z",
+      "text": "$QQQ $NVDA Identical moves and gaps.  Closed my short term QQQ puts.  Held my Sept 18 $220 NVDA puts and hedged with Aug 21 $720 QQQ calls. \u270c\ufe0f out!",
+      "description": "",
+      "handle": "LeonardoBonacci",
+      "display_name": "LeonardoBonacci"
+    },
+    {
+      "id": "7f4325e6d2d973",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:56:41Z",
+      "title": "$META waiting to open, will buy a shit load of PUTS...!!!  going down to $490...!!!!",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/662226601",
+      "author": "Cachisking",
       "tickers": [
         "META"
       ],
@@ -172,11 +332,581 @@
       "sentiment": {
         "basic": "Bearish"
       },
-      "time": "2026-08-18T21:44:58Z",
-      "text": "$META Zuck the cuck doesn\u2019t have to answer to a BOD.\n\nSo, he can do what he wants and doesn\u2019t care if he tanks the stock.",
+      "time": "2026-08-18T21:56:41Z",
+      "text": "$META waiting to open, will buy a shit load of PUTS...!!!  going down to $490...!!!!",
       "description": "",
-      "handle": "starman1564",
-      "display_name": "starman1564"
+      "handle": "Cachisking",
+      "display_name": "Cachisking"
+    },
+    {
+      "id": "c89dcd990f08ef",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-18T21:56:36Z",
+      "title": "Saratoga Investment Corp. Prices Public Offering of  $85.0 Million 8.00% Notes Due 2031 ",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "SAR"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:56:36Z",
+      "text": "Saratoga Investment Corp. Prices Public Offering of  $85.0 Million 8.00% Notes Due 2031 ",
+      "description": ""
+    },
+    {
+      "id": "41d72141171758",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:56:02Z",
+      "title": "$SPY \ud83d\udcca USAEquityResearch\n\n\u25bc 767.45  (-0.68%)\n\nTrend: Bullish \ud83d\udcc8\nRSI (14): 77.2 \u2014 overbought, extended, caution warranted\nMACD: bullish, above signal line and rising\nVolume: normal\n\n\ud83d\udccc Key Levels\nResista",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662226552",
+      "author": "USAEquityResearch",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:56:02Z",
+      "text": "$SPY \ud83d\udcca USAEquityResearch\n\n\u25bc 767.45  (-0.68%)\n\nTrend: Bullish \ud83d\udcc8\nRSI (14): 77.2 \u2014 overbought, extended, caution warranted\nMACD: bullish, above signal line and rising\nVolume: normal\n\n\ud83d\udccc Key Levels\nResista",
+      "description": "",
+      "handle": "USAEquityResearch",
+      "display_name": "USAEquityResearch"
+    },
+    {
+      "id": "8bf43190453720",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:55:52Z",
+      "title": "$SPY tuck and roll bear... \ud83d\udc3b i see you",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662226536",
+      "author": "KnownsUnknown",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:55:52Z",
+      "text": "$SPY tuck and roll bear... \ud83d\udc3b i see you",
+      "description": "",
+      "handle": "KnownsUnknown",
+      "display_name": "KnownsUnknown"
+    },
+    {
+      "id": "cd6eb52a6b97cd",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:55:52Z",
+      "title": "$QQQ we open red tomorrow morning then close green.\n\nThen Thursday we open green and close red.\n\nFriday will be the crash when bonds spike again.",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/662226537",
+      "author": "upos2016",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:55:52Z",
+      "text": "$QQQ we open red tomorrow morning then close green.\n\nThen Thursday we open green and close red.\n\nFriday will be the crash when bonds spike again.",
+      "description": "",
+      "handle": "upos2016",
+      "display_name": "upos2016"
+    },
+    {
+      "id": "9dfca13cb54c69",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:55:15Z",
+      "title": "$AAPL $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/662226496",
+      "author": "AngryElf",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:55:15Z",
+      "text": "$AAPL $SPY",
+      "description": "",
+      "handle": "AngryElf",
+      "display_name": "AngryElf"
+    },
+    {
+      "id": "c95c5fccfa8401",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:55:11Z",
+      "title": "$AAPL $IWM $QQQ $SPY Stocktwits bear is competing in miss america pageants",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/662226489",
+      "author": "KnownsUnknown",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:55:11Z",
+      "text": "$AAPL $IWM $QQQ $SPY Stocktwits bear is competing in miss america pageants",
+      "description": "",
+      "handle": "KnownsUnknown",
+      "display_name": "KnownsUnknown"
+    },
+    {
+      "id": "1587728915ec59",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:55:11Z",
+      "title": "$AAPL $IWM $QQQ $SPY Stocktwits bear is competing in miss america pageants",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/662226489",
+      "author": "KnownsUnknown",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:55:11Z",
+      "text": "$AAPL $IWM $QQQ $SPY Stocktwits bear is competing in miss america pageants",
+      "description": "",
+      "handle": "KnownsUnknown",
+      "display_name": "KnownsUnknown"
+    },
+    {
+      "id": "1f5ec37492f6a7",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:54:29Z",
+      "title": "$QQQ 700 GAP FILL?",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/662226431",
+      "author": "kb60521",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:54:29Z",
+      "text": "$QQQ 700 GAP FILL?",
+      "description": "",
+      "handle": "kb60521",
+      "display_name": "kb60521"
+    },
+    {
+      "id": "af499965003be4",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:54:07Z",
+      "title": "$MSFT is going up. Financial advice.",
+      "body": "",
+      "url": "https://stocktwits.com/MSFT/stream/662226404",
+      "author": "TPTradingCo",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-18T21:54:07Z",
+      "text": "$MSFT is going up. Financial advice.",
+      "description": "",
+      "handle": "TPTradingCo",
+      "display_name": "TPTradingCo"
+    },
+    {
+      "id": "81dac291dadc8b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:54:03Z",
+      "title": "$LULU LOADED LULU CALLS HERE\n\n$QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/662226401",
+      "author": "SelfMafia",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:54:03Z",
+      "text": "$LULU LOADED LULU CALLS HERE\n\n$QQQ",
+      "description": "",
+      "handle": "SelfMafia",
+      "display_name": "SelfMafia"
+    },
+    {
+      "id": "fb5ca123596b3b",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-18T21:53:36Z",
+      "title": "Interstate Power and Light Company Prices Debt Offering",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "LNT"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:53:36Z",
+      "text": "Interstate Power and Light Company Prices Debt Offering",
+      "description": ""
+    },
+    {
+      "id": "b0c7902c9f1090",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:53:22Z",
+      "title": "$META bs lawsuit dips are my fav easy money",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/662226348",
+      "author": "jhalimath61",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:53:22Z",
+      "text": "$META bs lawsuit dips are my fav easy money",
+      "description": "",
+      "handle": "jhalimath61",
+      "display_name": "jhalimath61"
+    },
+    {
+      "id": "93375c0e2ff6be",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:53:05Z",
+      "title": "$NVDA yikes. back to $219.",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/662226324",
+      "author": "hyde1634",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:53:05Z",
+      "text": "$NVDA yikes. back to $219.",
+      "description": "",
+      "handle": "hyde1634",
+      "display_name": "hyde1634"
+    },
+    {
+      "id": "4ddd0160ba49b3",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:52:23Z",
+      "title": "$META bought in at 543 and won&#39;t sell til at least 600!",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/662226269",
+      "author": "boxerDEUCE",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-18T21:52:23Z",
+      "text": "$META bought in at 543 and won&#39;t sell til at least 600!",
+      "description": "",
+      "handle": "boxerDEUCE",
+      "display_name": "boxerDEUCE"
+    },
+    {
+      "id": "b1f2a8a212eeff",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:51:35Z",
+      "title": "$SPCX $NVDA $GOOGL but but its going under 100 they say \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/662226216",
+      "author": "billidol",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:51:35Z",
+      "text": "$SPCX $NVDA $GOOGL but but its going under 100 they say \ud83e\udd23\ud83e\udd23\ud83e\udd23\ud83e\udd23",
+      "description": "",
+      "handle": "billidol",
+      "display_name": "billidol"
+    },
+    {
+      "id": "5745b6df46798b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:51:21Z",
+      "title": "$META sooo is it gonna go up $50 again like the last 5 times lmao",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/662226206",
+      "author": "lost200",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-08-18T21:51:21Z",
+      "text": "$META sooo is it gonna go up $50 again like the last 5 times lmao",
+      "description": "",
+      "handle": "lost200",
+      "display_name": "lost200"
+    },
+    {
+      "id": "58ef38ab667e1f",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-18T21:50:33Z",
+      "title": "Rare books with tracking device lead to Amazon AI training site in Las Vegas, where bindings are stripped for scanning and disposal.",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:50:33Z",
+      "text": "Rare books with tracking device lead to Amazon AI training site in Las Vegas, where bindings are stripped for scanning and disposal.",
+      "description": ""
+    },
+    {
+      "id": "7c8f32b0a8d465",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:50:26Z",
+      "title": "$AAPL $SPY Haven\u2019t had an asinine truth social tweet for awhile.  Something doesn\u2019t seem right.  ???",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/662226149",
+      "author": "Koechel516",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:50:26Z",
+      "text": "$AAPL $SPY Haven\u2019t had an asinine truth social tweet for awhile.  Something doesn\u2019t seem right.  ???",
+      "description": "",
+      "handle": "Koechel516",
+      "display_name": "Koechel516"
+    },
+    {
+      "id": "993cdfd803bdf0",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:50:19Z",
+      "title": "$TSLA \ud83d\udd3a\ud83d\udd3a\ud83d\udd3a",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/662226145",
+      "author": "johnrivers0110",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-18T21:50:19Z",
+      "text": "$TSLA \ud83d\udd3a\ud83d\udd3a\ud83d\udd3a",
+      "description": "",
+      "handle": "johnrivers0110",
+      "display_name": "johnrivers0110"
+    },
+    {
+      "id": "486dfaccb170fb",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:49:36Z",
+      "title": "$TSLA didn\u2019t even drop 1% today! \n\nBlood is in the waters \ud83e\ude78\ud83e\ude78\ud83e\ude78",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/662226086",
+      "author": "AlphaTrader30000",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-08-18T21:49:36Z",
+      "text": "$TSLA didn\u2019t even drop 1% today! \n\nBlood is in the waters \ud83e\ude78\ud83e\ude78\ud83e\ude78",
+      "description": "",
+      "handle": "AlphaTrader30000",
+      "display_name": "AlphaTrader30000"
+    },
+    {
+      "id": "d31805fa83180b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:49:23Z",
+      "title": "$APLD $OPEN $PLTR $SOFI palantir is also a defense stock, time to block this moron",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/662226074",
+      "author": "Investandgrow23",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-18T21:49:23Z",
+      "text": "$APLD $OPEN $PLTR $SOFI palantir is also a defense stock, time to block this moron",
+      "description": "",
+      "handle": "Investandgrow23",
+      "display_name": "Investandgrow23"
+    },
+    {
+      "id": "ebbf32afb31cbd",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:48:32Z",
+      "title": "$AMD $TSM $QUBT",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/662226017",
+      "author": "LoneBroker",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:48:32Z",
+      "text": "$AMD $TSM $QUBT",
+      "description": "",
+      "handle": "LoneBroker",
+      "display_name": "LoneBroker"
+    },
+    {
+      "id": "b4d837840f0440",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:47:13Z",
+      "title": "$AAPL",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/662225915",
+      "author": "DonJohnson24",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-18T21:47:13Z",
+      "text": "$AAPL",
+      "description": "",
+      "handle": "DonJohnson24",
+      "display_name": "DonJohnson24"
+    },
+    {
+      "id": "c87b62355abf1f",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-18T21:46:46Z",
+      "title": "$AAPL $BA $QBTS",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/662225887",
+      "author": "LoneBroker",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:46:46Z",
+      "text": "$AAPL $BA $QBTS",
+      "description": "",
+      "handle": "LoneBroker",
+      "display_name": "LoneBroker"
+    },
+    {
+      "id": "5c415af0485a41",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:46:42",
+      "title": "Cocrystal Pharma appoints Carol L. Brosgart to board of directors",
+      "body": "",
+      "url": "https://www.investing.com/news/sec-filings/cocrystal-pharma-appoints-carol-l-brosgart-to-board-of-directors-93CH-4866184",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18 21:46:42",
+      "text": "Cocrystal Pharma appoints Carol L. Brosgart to board of directors",
+      "description": ""
+    },
+    {
+      "id": "f55e0c6fd2968c",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-18T21:45:14Z",
+      "title": "EARTHQUAKE OF MAGNITUDE 5.6 STRIKES QINGHAI, CHINA - GFZ",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18T21:45:14Z",
+      "text": "EARTHQUAKE OF MAGNITUDE 5.6 STRIKES QINGHAI, CHINA - GFZ",
+      "description": ""
     },
     {
       "id": "8f818684df0af8",
@@ -225,142 +955,6 @@
       "display_name": "LoneBroker"
     },
     {
-      "id": "97b204e9a2477e",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:44:37Z",
-      "title": "$QQQ usa debt is hitting 40 trillion and markets are still up \ud83d\ude02\ud83d\ude02\ud83d\ude06. Everybody says thats good debt fucken morons \ud83d\ude02\ud83d\ude06\ud83d\ude06.",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/662225723",
-      "author": "hdztradelife",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-08-18T21:44:37Z",
-      "text": "$QQQ usa debt is hitting 40 trillion and markets are still up \ud83d\ude02\ud83d\ude02\ud83d\ude06. Everybody says thats good debt fucken morons \ud83d\ude02\ud83d\ude06\ud83d\ude06.",
-      "description": "",
-      "handle": "hdztradelife",
-      "display_name": "hdztradelife"
-    },
-    {
-      "id": "9332ae3342f77a",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:44:32Z",
-      "title": "$SPY 4h rsi LNGTH 90s feed it",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662225718",
-      "author": "SpyBreakOuts",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-18T21:44:32Z",
-      "text": "$SPY 4h rsi LNGTH 90s feed it",
-      "description": "",
-      "handle": "SpyBreakOuts",
-      "display_name": "SpyBreakOuts"
-    },
-    {
-      "id": "54007797e08d5a",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:44:28Z",
-      "title": "@jadond123 yeah \u201chorrible market\u201d.. try looking at a 5year chart on $SPY , your are old enough to know better than making a foolish statement like that.",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662225712",
-      "author": "drog61",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:44:28Z",
-      "text": "@jadond123 yeah \u201chorrible market\u201d.. try looking at a 5year chart on $SPY , your are old enough to know better than making a foolish statement like that.",
-      "description": "",
-      "handle": "drog61",
-      "display_name": "drog61"
-    },
-    {
-      "id": "5ddfb710bc4764",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:44:15Z",
-      "title": "$SPY slowly deflate and pass bags to retail or bear trap? Find out on the next episode of why are my options fkd!",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662225695",
-      "author": "TimeTRAVELER101",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:44:15Z",
-      "text": "$SPY slowly deflate and pass bags to retail or bear trap? Find out on the next episode of why are my options fkd!",
-      "description": "",
-      "handle": "TimeTRAVELER101",
-      "display_name": "TimeTRAVELER101"
-    },
-    {
-      "id": "27dd9e858042c4",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:44:02Z",
-      "title": "$META Alexandr Wang/ \ufffc Mark Zuckerberg release the watermelon\ud83c\udf49\ud83c\udf49\ud83d\ude80\ud83d\ude80\ud83c\udf49\ud83c\udf49\ud83d\ude80\ud83d\ude80\ud83c\udf49\ud83c\udf49\ud83d\ude80\ud83d\ude80\ud83c\udf49\ud83c\udf49\ud83d\ude80\ud83d\ude80\ud83c\udf49\ud83c\udf49",
-      "body": "",
-      "url": "https://stocktwits.com/META/stream/662225678",
-      "author": "Ep1219",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:44:02Z",
-      "text": "$META Alexandr Wang/ \ufffc Mark Zuckerberg release the watermelon\ud83c\udf49\ud83c\udf49\ud83d\ude80\ud83d\ude80\ud83c\udf49\ud83c\udf49\ud83d\ude80\ud83d\ude80\ud83c\udf49\ud83c\udf49\ud83d\ude80\ud83d\ude80\ud83c\udf49\ud83c\udf49\ud83d\ude80\ud83d\ude80\ud83c\udf49\ud83c\udf49",
-      "description": "",
-      "handle": "Ep1219",
-      "display_name": "Ep1219"
-    },
-    {
-      "id": "3fc8a518ef0a31",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:43:50Z",
-      "title": "$NVDA $SMCI $SPCX $TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/662225667",
-      "author": "Shortbreaker9000",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:43:50Z",
-      "text": "$NVDA $SMCI $SPCX $TSLA",
-      "description": "",
-      "handle": "Shortbreaker9000",
-      "display_name": "Shortbreaker9000"
-    },
-    {
       "id": "432b7bae413704",
       "source": "stocktwits",
       "source_type": "social",
@@ -401,74 +995,40 @@
       "description": ""
     },
     {
-      "id": "9dd6debcc08b17",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:43:04Z",
-      "title": "$NVDA $MU $RKLB",
+      "id": "a46dfefef8c90d",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:42:49",
+      "title": "Pennsylvania governor signs order imposing new rules to set up AI data centers in state",
       "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/662225607",
-      "author": "LoneBroker",
-      "tickers": [
-        "NVDA"
-      ],
+      "url": "https://www.investing.com/news/stock-market-news/pennsylvania-governor-signs-order-imposing-new-rules-to-set-up-ai-data-centers-in-state-4866105",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 4.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-18T21:43:04Z",
-      "text": "$NVDA $MU $RKLB",
-      "description": "",
-      "handle": "LoneBroker",
-      "display_name": "LoneBroker"
+      "time": "2026-08-18 21:42:49",
+      "text": "Pennsylvania governor signs order imposing new rules to set up AI data centers in state",
+      "description": ""
     },
     {
-      "id": "1871fa5d0a9ac5",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:42:48Z",
-      "title": "$QQQ it took 7 days last time from this range back down to $660 I think we will get there",
+      "id": "fffd1958ee1675",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:42:43",
+      "title": "ZeroStack Corp. changes incorporation from Ontario to Texas, maintains Nasdaq listing",
       "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/662225595",
-      "author": "24JuanSantaCruz",
-      "tickers": [
-        "QQQ"
-      ],
+      "url": "https://www.investing.com/news/sec-filings/zerostack-corp-changes-incorporation-from-ontario-to-texas-maintains-nasdaq-listing-93CH-4866182",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 4.0,
       "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-08-18T21:42:48Z",
-      "text": "$QQQ it took 7 days last time from this range back down to $660 I think we will get there",
-      "description": "",
-      "handle": "24JuanSantaCruz",
-      "display_name": "24JuanSantaCruz"
-    },
-    {
-      "id": "68f296b23a6890",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:42:37Z",
-      "title": "$AMD should run tomorrow towards $505-506 area where the 50-Day Average lies\u2014 today, we bounced off 100 Day Moving average. This is in a trading range pattern this week- we should see $520-530 by the ",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/662225589",
-      "author": "Stinger2023",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 5.9,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-18T21:42:37Z",
-      "text": "$AMD should run tomorrow towards $505-506 area where the 50-Day Average lies\u2014 today, we bounced off 100 Day Moving average. This is in a trading range pattern this week- we should see $520-530 by the ",
-      "description": "",
-      "handle": "Stinger2023",
-      "display_name": "Stinger2023"
+      "sentiment": "neutral",
+      "time": "2026-08-18 21:42:43",
+      "text": "ZeroStack Corp. changes incorporation from Ontario to Texas, maintains Nasdaq listing",
+      "description": ""
     },
     {
       "id": "4205bec50d347b",
@@ -517,6 +1077,24 @@
       "display_name": "ranthor"
     },
     {
+      "id": "908d6415251584",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:42:27",
+      "title": "Factbox-Authorities restricting data centres amid AI boom",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/factboxauthorities-restricting-data-centres-amid-ai-boom-4866181",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18 21:42:27",
+      "text": "Factbox-Authorities restricting data centres amid AI boom",
+      "description": ""
+    },
+    {
       "id": "e495a98f3399fc",
       "source": "stocktwits",
       "source_type": "social",
@@ -541,96 +1119,6 @@
       "display_name": "DARK_SCROOGIE"
     },
     {
-      "id": "2d2833eafb76b5",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:42:18Z",
-      "title": "lol guy owns 2 percent of anthropic and nobody trust him and he wants and will get super voting rights \n\nkeep it \n\n$qqq $nvda",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/662225562",
-      "author": "howardlindzon",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:42:18Z",
-      "text": "lol guy owns 2 percent of anthropic and nobody trust him and he wants and will get super voting rights \n\nkeep it \n\n$qqq $nvda",
-      "description": "",
-      "handle": "howardlindzon",
-      "display_name": "howardlindzon"
-    },
-    {
-      "id": "4ef4da89834fc5",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:42:18Z",
-      "title": "lol guy owns 2 percent of anthropic and nobody trust him and he wants and will get super voting rights \n\nkeep it \n\n$qqq $nvda",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/662225562",
-      "author": "howardlindzon",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:42:18Z",
-      "text": "lol guy owns 2 percent of anthropic and nobody trust him and he wants and will get super voting rights \n\nkeep it \n\n$qqq $nvda",
-      "description": "",
-      "handle": "howardlindzon",
-      "display_name": "howardlindzon"
-    },
-    {
-      "id": "381cdf29799145",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:41:34Z",
-      "title": "$SPY $QQQ hey hypers. No \u201climit down\u201d or \u201cto the moon\u201d is gonna happen. Bonds ain\u2019t no thang. Get 30yr to 6.0 and we\u2019ll talk. drop the \ud83c\udfa4",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/662225507",
-      "author": "5win5",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:41:34Z",
-      "text": "$SPY $QQQ hey hypers. No \u201climit down\u201d or \u201cto the moon\u201d is gonna happen. Bonds ain\u2019t no thang. Get 30yr to 6.0 and we\u2019ll talk. drop the \ud83c\udfa4",
-      "description": "",
-      "handle": "5win5",
-      "display_name": "5win5"
-    },
-    {
-      "id": "785537adfe9e4f",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:41:23Z",
-      "title": "$QQQ 680 by Friday",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/662225489",
-      "author": "Richandbroke",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-08-18T21:41:23Z",
-      "text": "$QQQ 680 by Friday",
-      "description": "",
-      "handle": "Richandbroke",
-      "display_name": "Richandbroke"
-    },
-    {
       "id": "b167f3d1a445d6",
       "source": "uw_news",
       "source_type": "news",
@@ -649,50 +1137,58 @@
       "description": ""
     },
     {
-      "id": "b71892214b7d61",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:41:03Z",
-      "title": "$META is Disney getting sued for being addictive too? Seriously this trial is huge bs to get money of American company",
+      "id": "a2c1d1e54f773c",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:39:35",
+      "title": "Earnings call transcript: IRIDEX misses Q2 2026 estimates as cash flow turns positive",
       "body": "",
-      "url": "https://stocktwits.com/META/stream/662225467",
-      "author": "dumplingbuming",
-      "tickers": [
-        "META"
-      ],
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-iridex-misses-q2-2026-estimates-as-cash-flow-turns-positive-93CH-4866180",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 4.8,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-18T21:41:03Z",
-      "text": "$META is Disney getting sued for being addictive too? Seriously this trial is huge bs to get money of American company",
-      "description": "",
-      "handle": "dumplingbuming",
-      "display_name": "dumplingbuming"
+      "time": "2026-08-18 21:39:35",
+      "text": "Earnings call transcript: IRIDEX misses Q2 2026 estimates as cash flow turns positive",
+      "description": ""
     },
     {
-      "id": "7af76f90f073fa",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:39:32Z",
-      "title": "$NBIS $CRWV $NVDA jensen says no moat\u2026",
+      "id": "bab025f0809fde",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:39:27",
+      "title": "Agriculture & Natural Solutions Acquisition Corp delisted from Nasdaq following liquidation",
       "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/662225332",
-      "author": "amberajax2point0",
-      "tickers": [
-        "NVDA"
-      ],
+      "url": "https://www.investing.com/news/sec-filings/agriculture--natural-solutions-acquisition-corp-delisted-from-nasdaq-following-liquidation-93CH-4866179",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 6.5,
       "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-08-18T21:39:32Z",
-      "text": "$NBIS $CRWV $NVDA jensen says no moat\u2026",
-      "description": "",
-      "handle": "amberajax2point0",
-      "display_name": "amberajax2point0"
+      "sentiment": "neutral",
+      "time": "2026-08-18 21:39:27",
+      "text": "Agriculture & Natural Solutions Acquisition Corp delisted from Nasdaq following liquidation",
+      "description": ""
+    },
+    {
+      "id": "8f74be3bdcb9d1",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:38:11",
+      "title": "Moody\u2019s affirms Nvidia stock Aa1 rating on Ohio data center deal",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/moodys-affirms-nvidia-stock-aa1-rating-on-ohio-data-center-deal-93CH-4866178",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18 21:38:11",
+      "text": "Moody\u2019s affirms Nvidia stock Aa1 rating on Ohio data center deal",
+      "description": ""
     },
     {
       "id": "a3dae01a7b6359",
@@ -737,28 +1233,40 @@
       "description": ""
     },
     {
-      "id": "70f6ac6cfd9547",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:37:18Z",
-      "title": "$TSLA When this was at 414.5 back in 2021, who in their right mind would think this would reach 101.81 in the next two years. Sometimes the most unexpected will come just like now. Be prepared to buy ",
+      "id": "ff96b464e83d54",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:36:30",
+      "title": "Infleqtion plans quantum sensing field test in Colorado in 2027",
       "body": "",
-      "url": "https://stocktwits.com/TSLA/stream/662225149",
-      "author": "Doubleup2022",
-      "tickers": [
-        "TSLA"
-      ],
+      "url": "https://www.investing.com/news/company-news/infleqtion-plans-quantum-sensing-field-test-in-colorado-in-2027-93CH-4866177",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 4.0,
       "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-08-18T21:37:18Z",
-      "text": "$TSLA When this was at 414.5 back in 2021, who in their right mind would think this would reach 101.81 in the next two years. Sometimes the most unexpected will come just like now. Be prepared to buy ",
-      "description": "",
-      "handle": "Doubleup2022",
-      "display_name": "Doubleup2022"
+      "sentiment": "neutral",
+      "time": "2026-08-18 21:36:30",
+      "text": "Infleqtion plans quantum sensing field test in Colorado in 2027",
+      "description": ""
+    },
+    {
+      "id": "029c9bca5d6729",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:36:24",
+      "title": "Moody\u2019s upgrades Vodafone hybrid debt on amended terms",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/moodys-upgrades-vodafone-hybrid-debt-on-amended-terms-93CH-4866176",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18 21:36:24",
+      "text": "Moody\u2019s upgrades Vodafone hybrid debt on amended terms",
+      "description": ""
     },
     {
       "id": "217ef0d180177f",
@@ -797,6 +1305,24 @@
       "description": ""
     },
     {
+      "id": "bc986fd0de09c6",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-18 21:34:43",
+      "title": "Freedom Capital initiates Hut 8 Mining stock with buy rating",
+      "body": "",
+      "url": "https://www.investing.com/news/analyst-ratings/freedom-capital-initiates-hut-8-mining-stock-with-buy-rating-93CH-4866175",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-18 21:34:43",
+      "text": "Freedom Capital initiates Hut 8 Mining stock with buy rating",
+      "description": ""
+    },
+    {
       "id": "457879cd426f22",
       "source": "uw_news",
       "source_type": "news",
@@ -813,30 +1339,6 @@
       "time": "2026-08-18T21:34:28Z",
       "text": "MARTEN TRANSPORT DECLARES QUARTERLY DIVIDEND",
       "description": ""
-    },
-    {
-      "id": "188503aa0ac5f6",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:34:11Z",
-      "title": "$AIFC $TSLA $SPCX $KO $PYPL",
-      "body": "",
-      "url": "https://stocktwits.com/TSLA/stream/662224884",
-      "author": "THECORLEONEFAMILY",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-18T21:34:11Z",
-      "text": "$AIFC $TSLA $SPCX $KO $PYPL",
-      "description": "",
-      "handle": "THECORLEONEFAMILY",
-      "display_name": "THECORLEONEFAMILY"
     },
     {
       "id": "f80f3541d1d0af",
@@ -857,72 +1359,6 @@
       "time": "2026-08-18T21:33:29Z",
       "text": "Infleqtion to Test Quantum Sensing in Colorado to Advance U.S. Critical Minerals Security",
       "description": ""
-    },
-    {
-      "id": "a5ab2f06df2bc8",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:33:11Z",
-      "title": "$TSLA and $SPCX take https://prosignaltrades.com/tsla-spcx-bearish-falling-wedge-july-2026/",
-      "body": "",
-      "url": "https://stocktwits.com/TSLA/stream/662224811",
-      "author": "tradernomad",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:33:11Z",
-      "text": "$TSLA and $SPCX take https://prosignaltrades.com/tsla-spcx-bearish-falling-wedge-july-2026/",
-      "description": "",
-      "handle": "tradernomad",
-      "display_name": "tradernomad"
-    },
-    {
-      "id": "7e41ea10daa872",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:32:49Z",
-      "title": "$SPY $QQQ $IWM $AAPL \n\nGetting Ripped ?  \ud83d\udcaa\ud83c\udfe6\ud83d\udcda",
-      "body": "",
-      "url": "https://stocktwits.com/AAPL/stream/662224787",
-      "author": "PivotPoint_101",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:32:49Z",
-      "text": "$SPY $QQQ $IWM $AAPL \n\nGetting Ripped ?  \ud83d\udcaa\ud83c\udfe6\ud83d\udcda",
-      "description": "",
-      "handle": "PivotPoint_101",
-      "display_name": "PivotPoint_101"
-    },
-    {
-      "id": "6be8c20f1ba92a",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:32:42Z",
-      "title": "$META way to worry about no having enough money to keep buying this",
-      "body": "",
-      "url": "https://stocktwits.com/META/stream/662224775",
-      "author": "kennycardenas",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:32:42Z",
-      "text": "$META way to worry about no having enough money to keep buying this",
-      "description": "",
-      "handle": "kennycardenas",
-      "display_name": "kennycardenas"
     },
     {
       "id": "f48af38a9d896b",
@@ -1061,30 +1497,6 @@
       "description": "",
       "handle": "IQuitMyBoringJob",
       "display_name": "IQuitMyBoringJob"
-    },
-    {
-      "id": "92de2d704b9da2",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:27:30Z",
-      "title": "$PLTR the evolution into a Blue Chip stock won&#39;t be advertised or televised. It will just happen and people will take notice after the fact.",
-      "body": "",
-      "url": "https://stocktwits.com/PLTR/stream/662224357",
-      "author": "WolfboyCapital",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-18T21:27:30Z",
-      "text": "$PLTR the evolution into a Blue Chip stock won&#39;t be advertised or televised. It will just happen and people will take notice after the fact.",
-      "description": "",
-      "handle": "WolfboyCapital",
-      "display_name": "WolfboyCapital"
     },
     {
       "id": "350b9643cfec3a",
@@ -1423,48 +1835,6 @@
       "description": "ChatGPT for Teens includes a number of educational features and applies age-appropriate safeguards, OpenAI said."
     },
     {
-      "id": "b100cf60db6112",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:10:23",
-      "title": "Anthropic moves to bolster founder control ahead of mega-IPO - The Information",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/anthropic-moves-to-bolster-founder-control-ahead-of-megaipo--the-information-4866136",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:10:23",
-      "text": "Anthropic moves to bolster founder control ahead of mega-IPO - The Information",
-      "description": ""
-    },
-    {
-      "id": "cdb2caab0ac2f5",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:09:05Z",
-      "title": "$AAPL bodied $SPY today lol",
-      "body": "",
-      "url": "https://stocktwits.com/AAPL/stream/662222799",
-      "author": "BillyCashIsKing",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-18T21:09:05Z",
-      "text": "$AAPL bodied $SPY today lol",
-      "description": "",
-      "handle": "BillyCashIsKing",
-      "display_name": "BillyCashIsKing"
-    },
-    {
       "id": "3916a2f02ca89a",
       "source": "uw_news",
       "source_type": "news",
@@ -1563,24 +1933,6 @@
       "display_name": "Evilmonney"
     },
     {
-      "id": "3cf59c6c12a378",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:06:28",
-      "title": "Trading Day: Bonds slam stocks",
-      "body": "",
-      "url": "https://www.investing.com/news/economy-news/trading-day-bonds-slam-stocks-4866135",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:06:28",
-      "text": "Trading Day: Bonds slam stocks",
-      "description": ""
-    },
-    {
       "id": "1aaaf7901d2fa2",
       "source": "uw_news",
       "source_type": "news",
@@ -1598,24 +1950,6 @@
       "sentiment": "neutral",
       "time": "2026-08-18T21:06:03Z",
       "text": "Kohl\u2019s Corporation Declares Quarterly Dividend",
-      "description": ""
-    },
-    {
-      "id": "893243bef67202",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:05:57",
-      "title": "Blue Water Acquisition Corp. IV appoints Nadab Akhtar to board of directors",
-      "body": "",
-      "url": "https://www.investing.com/news/sec-filings/blue-water-acquisition-corp-iv-appoints-nadab-akhtar-to-board-of-directors-93CH-4866134",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:05:57",
-      "text": "Blue Water Acquisition Corp. IV appoints Nadab Akhtar to board of directors",
       "description": ""
     },
     {
@@ -1655,96 +1989,6 @@
       "description": ""
     },
     {
-      "id": "0f653b152c2753",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:04:52",
-      "title": "Jack Henry&Associates earnings beat by $0.13, revenue topped estimates",
-      "body": "",
-      "url": "https://www.investing.com/news/earnings/jack-henryassociates-earnings-beat-by-013-revenue-topped-estimates-4866133",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:04:52",
-      "text": "Jack Henry&Associates earnings beat by $0.13, revenue topped estimates",
-      "description": ""
-    },
-    {
-      "id": "cfa2b7abc84a43",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:04:44",
-      "title": "IM Cannabis approves 1-for-30 reverse stock split",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/im-cannabis-approves-1for30-reverse-stock-split-93CH-4866132",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:04:44",
-      "text": "IM Cannabis approves 1-for-30 reverse stock split",
-      "description": ""
-    },
-    {
-      "id": "20819c4cd7a45b",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:04:35",
-      "title": "Allied Gold appoints Joanna Pearson to board of directors",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/allied-gold-appoints-joanna-pearson-to-board-of-directors-93CH-4866131",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:04:35",
-      "text": "Allied Gold appoints Joanna Pearson to board of directors",
-      "description": ""
-    },
-    {
-      "id": "464a90509f5a39",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:04:33",
-      "title": "Baxter increases debt tender offer cap to $600 million",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/baxter-increases-debt-tender-offer-cap-to-600-million-93CH-4866130",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:04:33",
-      "text": "Baxter increases debt tender offer cap to $600 million",
-      "description": ""
-    },
-    {
-      "id": "b3116ca7ed7ab0",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:04:26",
-      "title": "Kohl\u2019s declares quarterly dividend of $0.125 per share",
-      "body": "",
-      "url": "https://www.investing.com/news/company-news/kohls-declares-quarterly-dividend-of-0125-per-share-93CH-4866129",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:04:26",
-      "text": "Kohl\u2019s declares quarterly dividend of $0.125 per share",
-      "description": ""
-    },
-    {
       "id": "66226b7d4f80df",
       "source": "uw_news",
       "source_type": "news",
@@ -1761,28 +2005,6 @@
       "time": "2026-08-18T21:04:17Z",
       "text": "Syrian Petroleum Company: The explosion was a result of a deliberate act of sabotage based on initial investigations - Syrian State News Agency",
       "description": ""
-    },
-    {
-      "id": "0178305bd52c0c",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T21:03:07Z",
-      "title": "$AMD MI355x vs $NVDA  B200    \n\nSame model, same codebase - seamlessly runs across NVIDIA, AMD, Trainium, TPU",
-      "body": "",
-      "url": "https://stocktwits.com/AMD/stream/662222345",
-      "author": "Paragonlives",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:03:07Z",
-      "text": "$AMD MI355x vs $NVDA  B200    \n\nSame model, same codebase - seamlessly runs across NVIDIA, AMD, Trainium, TPU",
-      "description": "",
-      "handle": "Paragonlives",
-      "display_name": "Paragonlives"
     },
     {
       "id": "eccc095b2ff55d",
@@ -1805,116 +2027,6 @@
       "description": ""
     },
     {
-      "id": "b3607b7e345567",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-18T21:02:20Z",
-      "title": "Allspring Closed-End Funds Declare Monthly and Quarterly Distributions",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:02:20Z",
-      "text": "Allspring Closed-End Funds Declare Monthly and Quarterly Distributions",
-      "description": ""
-    },
-    {
-      "id": "958d76a3b61707",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-18T21:02:18Z",
-      "title": "Dr. Karen Mendoza Becomes First Woman Surgeon to Perform the Himplant\u00ae Procedure",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:02:18Z",
-      "text": "Dr. Karen Mendoza Becomes First Woman Surgeon to Perform the Himplant\u00ae Procedure",
-      "description": ""
-    },
-    {
-      "id": "46cbbdfdb21f94",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-18T21:02:15Z",
-      "title": "IM Cannabis Announces Intention to Complete 30:1 Share Consolidation to Support Nasdaq Minimum Bid Price Compliance",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "IMCC"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:02:15Z",
-      "text": "IM Cannabis Announces Intention to Complete 30:1 Share Consolidation to Support Nasdaq Minimum Bid Price Compliance",
-      "description": ""
-    },
-    {
-      "id": "a46dfefef8c90d",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:01:58",
-      "title": "Pennsylvania governor signs order imposing new rules to set up AI data centers in state",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/pennsylvania-governor-signs-order-imposing-new-rules-to-set-up-ai-data-centers-in-state-4866105",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:01:58",
-      "text": "Pennsylvania governor signs order imposing new rules to set up AI data centers in state",
-      "description": ""
-    },
-    {
-      "id": "8d77c15431c5e3",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-18 21:01:22",
-      "title": "CitroTech to Ring NYSE Closing Bell August 19, Elevating Its Fire Prevention Technology to the National Stage",
-      "body": "",
-      "url": "https://www.investing.com/news/press-releases/citrotech-to-ring-nyse-closing-bell-august-19-elevating-its-fire-prevention-technology-to-the-national-stage-4866127",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18 21:01:22",
-      "text": "CitroTech to Ring NYSE Closing Bell August 19, Elevating Its Fire Prevention Technology to the National Stage",
-      "description": ""
-    },
-    {
-      "id": "2a16e3679ee2b4",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-18T21:01:01Z",
-      "title": "Joanna Pearson joins Allied Gold's Board of Directors, boosting leadership team.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T21:01:01Z",
-      "text": "Joanna Pearson joins Allied Gold's Board of Directors, boosting leadership team.",
-      "description": ""
-    },
-    {
       "id": "c892ef7dad127c",
       "source": "cnbc",
       "source_type": "rss",
@@ -1933,52 +2045,6 @@
       "description": "Fixed income market watchers ascribe a run that began in June to a number of variables."
     },
     {
-      "id": "494edfd18f0281",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T20:54:10Z",
-      "title": "$CAST how do they do HALTS during normal trading hours but not AH ??? Like we just stop watching our stocks??? Sooo dumb\u2026 RIGGED!!! $AAPL $GME $NVDA $TSLA",
-      "body": "",
-      "url": "https://stocktwits.com/AAPL/stream/662221624",
-      "author": "Nobodycares777",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-18T20:54:10Z",
-      "text": "$CAST how do they do HALTS during normal trading hours but not AH ??? Like we just stop watching our stocks??? Sooo dumb\u2026 RIGGED!!! $AAPL $GME $NVDA $TSLA",
-      "description": "",
-      "handle": "Nobodycares777",
-      "display_name": "Nobodycares777"
-    },
-    {
-      "id": "60821741d1f381",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T20:48:21Z",
-      "title": "$KLAR - unless they announce other signing like $AAPL or $WMT \u2026",
-      "body": "",
-      "url": "https://stocktwits.com/AAPL/stream/662221084",
-      "author": "Woodman7",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T20:48:21Z",
-      "text": "$KLAR - unless they announce other signing like $AAPL or $WMT \u2026",
-      "description": "",
-      "handle": "Woodman7",
-      "display_name": "Woodman7"
-    },
-    {
       "id": "2290e06bad61aa",
       "source": "marketwatch",
       "source_type": "rss",
@@ -1995,30 +2061,6 @@
       "time": "Tue, 18 Aug 2026 20:46:00 GMT",
       "text": "Hidden Valley Ranch dressing may be a victim of this summer\u2019s salad scare",
       "description": "As the cyclospora outbreak has made consumers more cautious about salad purchases, one analyst points to sales declines for Clorox\u2019s Hidden Valley brand."
-    },
-    {
-      "id": "76e1123dc272bd",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T20:44:38Z",
-      "title": "$PLTR Yep, was probably part of the deal when US started buying more Japanese Yen.",
-      "body": "",
-      "url": "https://stocktwits.com/PLTR/stream/662220757",
-      "author": "Buy_SoFi",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-18T20:44:38Z",
-      "text": "$PLTR Yep, was probably part of the deal when US started buying more Japanese Yen.",
-      "description": "",
-      "handle": "Buy_SoFi",
-      "display_name": "Buy_SoFi"
     },
     {
       "id": "6fcbbeea70118d",
@@ -2055,50 +2097,6 @@
       "time": "Tue, 18 Aug 2026 20:40:00 +0000",
       "text": "DSA Lawmaker Claims Shoplifting For \"Biological Need\" Shouldn't Be Illegal",
       "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">DSA Lawmaker Claims Shoplifting For \"Biological Need\" Shouldn't Be Illegal</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-s"
-    },
-    {
-      "id": "5b3d9075c62e11",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T20:39:12Z",
-      "title": "$AAPL ANET BE",
-      "body": "",
-      "url": "https://stocktwits.com/AAPL/stream/662220273",
-      "author": "Bazziggr",
-      "tickers": [
-        "AAPL"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T20:39:12Z",
-      "text": "$AAPL ANET BE",
-      "description": "",
-      "handle": "Bazziggr",
-      "display_name": "Bazziggr"
-    },
-    {
-      "id": "cc3c5124e002d3",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-18T20:34:35Z",
-      "title": "How To Short The Market With MTF Cloud &amp; VIX Strategy | $SPY ,$QQQ , $META , $MSFT , $GOOGL \n \nWatch the video to learn how to trade this repeatable pattern \ud83c\udfaf \n \nhttps://x.com/TENETTRADEGROUP/stat",
-      "body": "",
-      "url": "https://stocktwits.com/MSFT/stream/662219812",
-      "author": "ripster47",
-      "tickers": [
-        "MSFT"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-18T20:34:35Z",
-      "text": "How To Short The Market With MTF Cloud &amp; VIX Strategy | $SPY ,$QQQ , $META , $MSFT , $GOOGL \n \nWatch the video to learn how to trade this repeatable pattern \ud83c\udfaf \n \nhttps://x.com/TENETTRADEGROUP/stat",
-      "description": "",
-      "handle": "ripster47",
-      "display_name": "ripster47"
     },
     {
       "id": "b6249d12dc16d1",
@@ -2985,6 +2983,170 @@
       "description": "Meta faces a federal trial over child safety claims that could bring major financial penalties and changes to Facebook and Instagram."
     },
     {
+      "id": "ea68e7702b2ca2",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:38:41Z",
+      "title": "Dogecoin Price Analysis: Classic Chart Pattern Points to 130% Breakout",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/dogecoin-price-analysis-classic-chart-133841528.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:38:41Z",
+      "text": "Dogecoin Price Analysis: Classic Chart Pattern Points to 130% Breakout",
+      "description": ""
+    },
+    {
+      "id": "e8261128beb6db",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:38:12Z",
+      "title": "Tesla (TSLA) Advances After Beating Key Metrics in Q1",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-tsla-advances-beating-key-133812996.html",
+      "author": "",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 6.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:38:12Z",
+      "text": "Tesla (TSLA) Advances After Beating Key Metrics in Q1",
+      "description": ""
+    },
+    {
+      "id": "a2d0756b639a89",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:36:36Z",
+      "title": "ChatGPT and Billionaire Bill Ackman Agree on Visa (V)",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/chatgpt-billionaire-bill-ackman-agree-133636224.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:36:36Z",
+      "text": "ChatGPT and Billionaire Bill Ackman Agree on Visa (V)",
+      "description": ""
+    },
+    {
+      "id": "87a77113338675",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:35:00Z",
+      "title": "Bitpanda Hit With Fine In Europe\u2019s First MiCA Enforcement Case",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/bitpanda-hit-fine-europe-first-133500614.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:35:00Z",
+      "text": "Bitpanda Hit With Fine In Europe\u2019s First MiCA Enforcement Case",
+      "description": ""
+    },
+    {
+      "id": "29c25ad7c72243",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:34:54Z",
+      "title": "Stocks Trade Sideways as Yen Weakens Again",
+      "body": "",
+      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-081726/card/stocks-trade-sideways-as-yen-weakens-again-294BVbVDL37wSCS9VXov?siteid=yhoof2&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:34:54Z",
+      "text": "Stocks Trade Sideways as Yen Weakens Again",
+      "description": ""
+    },
+    {
+      "id": "e850a507cb2924",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:34:31Z",
+      "title": "Hyatt Hotels Corporation (H) Still Attractive Despite Recent Gains",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/hyatt-hotels-corporation-h-still-133431596.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:34:31Z",
+      "text": "Hyatt Hotels Corporation (H) Still Attractive Despite Recent Gains",
+      "description": ""
+    },
+    {
+      "id": "e47369d3e0b4c4",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:34:00Z",
+      "title": "VivoPower to spin off non-Nordic AI data center assets into new Singapore-based platform",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/vivopower-spin-off-non-nordic-133400795.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:34:00Z",
+      "text": "VivoPower to spin off non-Nordic AI data center assets into new Singapore-based platform",
+      "description": ""
+    },
+    {
+      "id": "d68bc73f518cbc",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:33:35Z",
+      "title": "FactSet Research Systems (FDS) Discounted Despite AI Workflow Integration",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/factset-research-systems-fds-discounted-133335547.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:33:35Z",
+      "text": "FactSet Research Systems (FDS) Discounted Despite AI Workflow Integration",
+      "description": ""
+    },
+    {
+      "id": "0260d18fcc2252",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-08-17T13:32:52Z",
+      "title": "Truckload linehaul rates rip higher in July, Cass says",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/truckload-linehaul-rates-rip-higher-133252088.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-17T13:32:52Z",
+      "text": "Truckload linehaul rates rip higher in July, Cass says",
+      "description": ""
+    },
+    {
       "id": "cb0d7b3e2bec11",
       "source": "yahoo_finance",
       "source_type": "rss",
@@ -3074,170 +3236,6 @@
       "sentiment": "neutral",
       "time": "2026-08-17T13:22:41Z",
       "text": "GenAI Disruption Fears Pullback in Morningstar (MORN) Despite Solid Financial Fundamentals",
-      "description": ""
-    },
-    {
-      "id": "ea70819ac0d576",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T13:20:32Z",
-      "title": "The Cheesecake Factory Named One of PEOPLE\u2019s Companies That Care for Sixth Straight Year",
-      "body": "",
-      "url": "https://finance.yahoo.com/small-business/articles/cheesecake-factory-named-one-people-132032571.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T13:20:32Z",
-      "text": "The Cheesecake Factory Named One of PEOPLE\u2019s Companies That Care for Sixth Straight Year",
-      "description": ""
-    },
-    {
-      "id": "af9f4d405a7467",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T13:19:12Z",
-      "title": "Is Wall Street Bullish or Bearish on Akamai Technologies Stock?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-bullish-bearish-akamai-131912873.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T13:19:12Z",
-      "text": "Is Wall Street Bullish or Bearish on Akamai Technologies Stock?",
-      "description": ""
-    },
-    {
-      "id": "50dbbe9c17a85e",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T13:19:00Z",
-      "title": "Finfluencers Build Trust With Relatability, Rage Bait and GRWM Routines",
-      "body": "",
-      "url": "https://www.wsj.com/cmo-today/finfluencers-build-trust-with-relatability-rage-bait-and-grwm-routines-dbd81456?siteid=yhoof2&yptr=yahoo",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T13:19:00Z",
-      "text": "Finfluencers Build Trust With Relatability, Rage Bait and GRWM Routines",
-      "description": ""
-    },
-    {
-      "id": "55e61f71f531e2",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T13:15:13Z",
-      "title": "Uber, Zipline partner on US drone delivery for Uber Eats",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/articles/uber-zipline-partner-us-drone-131513664.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T13:15:13Z",
-      "text": "Uber, Zipline partner on US drone delivery for Uber Eats",
-      "description": ""
-    },
-    {
-      "id": "cb947a54647efe",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T13:15:06Z",
-      "title": "ChatGPT Disagrees With Michael Burry Over Nebius (NBIS)",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/chatgpt-disagrees-michael-burry-over-131506607.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T13:15:06Z",
-      "text": "ChatGPT Disagrees With Michael Burry Over Nebius (NBIS)",
-      "description": ""
-    },
-    {
-      "id": "62491af18a4e9d",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T13:15:02Z",
-      "title": "Alphabet Stock Has Attractive Short-Put Yields As GOOGL Stock Treads Water",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/options/articles/alphabet-stock-attractive-short-put-131502703.html",
-      "author": "",
-      "tickers": [
-        "GOOGL"
-      ],
-      "tags": [],
-      "impact_score": 5.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T13:15:02Z",
-      "text": "Alphabet Stock Has Attractive Short-Put Yields As GOOGL Stock Treads Water",
-      "description": ""
-    },
-    {
-      "id": "3cf58809c90ed8",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T13:00:00Z",
-      "title": "\u2018Never bet against America\u2019: Scott Bessent endorses Warren Buffett\u2019s forgotten rule for getting rich \u2014 use it now",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/never-bet-against-america-scott-130000391.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T13:00:00Z",
-      "text": "\u2018Never bet against America\u2019: Scott Bessent endorses Warren Buffett\u2019s forgotten rule for getting rich \u2014 use it now",
-      "description": ""
-    },
-    {
-      "id": "0771dd98e2b4ac",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T12:55:57Z",
-      "title": "Goldman Sachs warns of consumer spending slowdown as tax refund boost fades",
-      "body": "",
-      "url": "https://finance.yahoo.com/economy/article/goldman-sachs-warns-of-consumer-spending-slowdown-as-tax-refund-boost-fades-125557282.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T12:55:57Z",
-      "text": "Goldman Sachs warns of consumer spending slowdown as tax refund boost fades",
-      "description": ""
-    },
-    {
-      "id": "e5ea22db914f6b",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-08-17T12:43:00Z",
-      "title": "Nvidia to provide up to $105 billion guarantee for OpenAI's Ohio data center",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-invest-1-5-billion-124300582.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-17T12:43:00Z",
-      "text": "Nvidia to provide up to $105 billion guarantee for OpenAI's Ohio data center",
       "description": ""
     },
     {
