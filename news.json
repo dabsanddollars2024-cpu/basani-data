@@ -1,37 +1,37 @@
 {
-  "generated": "2026-08-23T11:26:53Z",
-  "generated_display": "2026-08-23 11:26 ET",
+  "generated": "2026-08-23T11:50:03Z",
+  "generated_display": "2026-08-23 11:50 ET",
   "count": 161,
   "source_health": {
     "uw_news": {
       "status": "healthy",
       "items_pulled": 30,
-      "latency_ms": 154,
-      "last_success": "2026-08-23T11:26:50.207111+00:00",
+      "latency_ms": 152,
+      "last_success": "2026-08-23T11:50:00.533647+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 1792,
-      "last_success": "2026-08-23T11:26:51.999934+00:00",
+      "latency_ms": 2059,
+      "last_success": "2026-08-23T11:50:02.592723+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "rss": {
       "status": "healthy",
       "items_pulled": 80,
-      "latency_ms": 1310,
-      "last_success": "2026-08-23T11:26:53.431432+00:00",
+      "latency_ms": 535,
+      "last_success": "2026-08-23T11:50:03.167164+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 18,
-      "latency_ms": 379,
-      "last_success": "2026-08-23T11:26:53.811012+00:00",
+      "latency_ms": 317,
+      "last_success": "2026-08-23T11:50:03.484228+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -42,12 +42,12 @@
         "cnbc": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 123
+          "latency_ms": 36
         },
         "marketwatch": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 263
+          "latency_ms": 96
         },
         "reuters": {
           "status": "failed",
@@ -56,22 +56,22 @@
         "yahoo_finance": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 162
+          "latency_ms": 18
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 55
+          "latency_ms": 13
         },
         "zerohedge": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 611
+          "latency_ms": 304
         },
         "investing_com": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 96
+          "latency_ms": 68
         }
       }
     }
@@ -79,12 +79,12 @@
   "by_source": {
     "forex_factory": 1,
     "stocktwits": 50,
-    "investing_com": 10,
-    "marketwatch": 10,
     "uw_news": 30,
-    "seekingalpha": 15,
+    "investing_com": 10,
     "cnbc": 15,
+    "marketwatch": 10,
     "zerohedge": 15,
+    "seekingalpha": 15,
     "yahoo_finance": 15
   },
   "items": [
@@ -113,26 +113,316 @@
       "week": "this"
     },
     {
-      "id": "8b52de9d502d66",
+      "id": "3fd85da7da20d0",
       "source": "stocktwits",
       "source_type": "social",
-      "timestamp": "2026-08-23T11:26:15Z",
-      "title": "$SPY $QQQ $INOD Interesting. It will be interesting to see how the bond crisis develops. Added with oil and geopolitics added to the mix.",
+      "timestamp": "2026-08-23T11:49:50Z",
+      "title": "$NVDA $AMD $INTC \n\nThose hoping for a rate cut (or even another pause) best of luck\u2026.\n\nWith chip prices climbing and inflation pushing costs to increasingly unaffordable levels, the Fed may have a muc",
       "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662635235",
-      "author": "AI_Bull_",
+      "url": "https://stocktwits.com/NVDA/stream/662635558",
+      "author": "HooterTrades",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 11.7,
+      "impact_level": "MED",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-08-23T11:49:50Z",
+      "text": "$NVDA $AMD $INTC \n\nThose hoping for a rate cut (or even another pause) best of luck\u2026.\n\nWith chip prices climbing and inflation pushing costs to increasingly unaffordable levels, the Fed may have a muc",
+      "description": "",
+      "handle": "HooterTrades",
+      "display_name": "HooterTrades"
+    },
+    {
+      "id": "9d7054535c363f",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:49:50Z",
+      "title": "$NVDA $AMD $INTC \n\nThose hoping for a rate cut (or even another pause) best of luck\u2026.\n\nWith chip prices climbing and inflation pushing costs to increasingly unaffordable levels, the Fed may have a muc",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/662635558",
+      "author": "HooterTrades",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 11.7,
+      "impact_level": "MED",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-08-23T11:49:50Z",
+      "text": "$NVDA $AMD $INTC \n\nThose hoping for a rate cut (or even another pause) best of luck\u2026.\n\nWith chip prices climbing and inflation pushing costs to increasingly unaffordable levels, the Fed may have a muc",
+      "description": "",
+      "handle": "HooterTrades",
+      "display_name": "HooterTrades"
+    },
+    {
+      "id": "c8418b70e16e21",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-08-23T11:49:21Z",
+      "title": "TTW Announces the Top 50 Travel Solution Cards in the World for 2026",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "YORK"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-23T11:49:21Z",
+      "text": "TTW Announces the Top 50 Travel Solution Cards in the World for 2026",
+      "description": ""
+    },
+    {
+      "id": "2fd771593d4094",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:42:19Z",
+      "title": "$TSLA 420 Monday \ud83d\ude4f",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/662635470",
+      "author": "Johnmm98",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-23T11:42:19Z",
+      "text": "$TSLA 420 Monday \ud83d\ude4f",
+      "description": "",
+      "handle": "Johnmm98",
+      "display_name": "Johnmm98"
+    },
+    {
+      "id": "e79cf3223fc790",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:42:15Z",
+      "title": "$SPY $QQQ $STUDY $DXY \n\nThe week ahead will likely bring reaction from the Jackson Hole symposium. Watch whether Fed speakers push back on the Treasury&#39;s intervention or tacitly accommodate it. Th",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662635469",
+      "author": "babyloncapital",
       "tickers": [
         "SPY"
       ],
       "tags": [],
-      "impact_score": 3.8,
+      "impact_score": 8.8,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-23T11:26:15Z",
-      "text": "$SPY $QQQ $INOD Interesting. It will be interesting to see how the bond crisis develops. Added with oil and geopolitics added to the mix.",
+      "time": "2026-08-23T11:42:15Z",
+      "text": "$SPY $QQQ $STUDY $DXY \n\nThe week ahead will likely bring reaction from the Jackson Hole symposium. Watch whether Fed speakers push back on the Treasury&#39;s intervention or tacitly accommodate it. Th",
       "description": "",
-      "handle": "AI_Bull_",
-      "display_name": "AI_Bull_"
+      "handle": "babyloncapital",
+      "display_name": "babyloncapital"
+    },
+    {
+      "id": "c83ddbe40a6a0a",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:42:15Z",
+      "title": "$SPY $QQQ $STUDY $DXY \n\nThe week ahead will likely bring reaction from the Jackson Hole symposium. Watch whether Fed speakers push back on the Treasury&#39;s intervention or tacitly accommodate it. Th",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/662635469",
+      "author": "babyloncapital",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 8.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-23T11:42:15Z",
+      "text": "$SPY $QQQ $STUDY $DXY \n\nThe week ahead will likely bring reaction from the Jackson Hole symposium. Watch whether Fed speakers push back on the Treasury&#39;s intervention or tacitly accommodate it. Th",
+      "description": "",
+      "handle": "babyloncapital",
+      "display_name": "babyloncapital"
+    },
+    {
+      "id": "10f5fb4ab9138b",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-23 11:36:28",
+      "title": "Alibaba launches $10 billion Hong Kong share placement to fund AI spending",
+      "body": "",
+      "url": "https://www.investing.com/news/stock-market-news/alibaba-proposes-hong-kong-share-placement-worth-10-billion-4872416",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-23 11:36:28",
+      "text": "Alibaba launches $10 billion Hong Kong share placement to fund AI spending",
+      "description": ""
+    },
+    {
+      "id": "21e872d9d65b09",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:36:15Z",
+      "title": "$SPY \ud83d\udcca USAEquityResearch\n\n\u25b2 765.72  (+0.41%)\n\nTrend: Bullish \ud83d\udcc8\nRSI (14): 57.6 \u2014 neutral territory\nMACD: bearish, below signal line\nVolume: normal\n\n\ud83d\udccc Key Levels\nResistance: 777.88  |  Support: 729.46\n2",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662635386",
+      "author": "USAEquityResearch",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-23T11:36:15Z",
+      "text": "$SPY \ud83d\udcca USAEquityResearch\n\n\u25b2 765.72  (+0.41%)\n\nTrend: Bullish \ud83d\udcc8\nRSI (14): 57.6 \u2014 neutral territory\nMACD: bearish, below signal line\nVolume: normal\n\n\ud83d\udccc Key Levels\nResistance: 777.88  |  Support: 729.46\n2",
+      "description": "",
+      "handle": "USAEquityResearch",
+      "display_name": "USAEquityResearch"
+    },
+    {
+      "id": "0f863be24e7b95",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Sun, 23 Aug 2026 11:35:52 GMT",
+      "title": "Small UK power plant shut down after cyberattack linked to Iran: Telegraph",
+      "body": "The U.K. government says the incident did not pose a risk to the country's energy system, adding that it briefed CEOs of companies in the sector with advice.",
+      "url": "https://www.cnbc.com/2026/08/23/small-uk-power-plant-shut-down-after-iran-linked-cyberattack-report.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 12.0,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "Sun, 23 Aug 2026 11:35:52 GMT",
+      "text": "Small UK power plant shut down after cyberattack linked to Iran: Telegraph",
+      "description": "The U.K. government says the incident did not pose a risk to the country's energy system, adding that it briefed CEOs of companies in the sector with advice."
+    },
+    {
+      "id": "60bcbea0a841be",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:34:42Z",
+      "title": "$SPY $QQQ\n\n$NVDA earnings are going to make the market go up. 15% increase is wild",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662635365",
+      "author": "rovertrades759",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-23T11:34:42Z",
+      "text": "$SPY $QQQ\n\n$NVDA earnings are going to make the market go up. 15% increase is wild",
+      "description": "",
+      "handle": "rovertrades759",
+      "display_name": "rovertrades759"
+    },
+    {
+      "id": "724e18ffad9792",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:34:42Z",
+      "title": "$SPY $QQQ\n\n$NVDA earnings are going to make the market go up. 15% increase is wild",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/662635365",
+      "author": "rovertrades759",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-23T11:34:42Z",
+      "text": "$SPY $QQQ\n\n$NVDA earnings are going to make the market go up. 15% increase is wild",
+      "description": "",
+      "handle": "rovertrades759",
+      "display_name": "rovertrades759"
+    },
+    {
+      "id": "ee7d5d4142b3c0",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:34:42Z",
+      "title": "$SPY $QQQ\n\n$NVDA earnings are going to make the market go up. 15% increase is wild",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/662635365",
+      "author": "rovertrades759",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-23T11:34:42Z",
+      "text": "$SPY $QQQ\n\n$NVDA earnings are going to make the market go up. 15% increase is wild",
+      "description": "",
+      "handle": "rovertrades759",
+      "display_name": "rovertrades759"
+    },
+    {
+      "id": "d14a8525e29b5b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:31:48Z",
+      "title": "The biggest U.S. stocks have done great for you. Experts say not to get greedy\n$schd $spy $voo\nNeena Mishra, director of ETF research at Zacks Investment Research, noted that investors can lower their",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662635323",
+      "author": "parcha",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-08-23T11:31:48Z",
+      "text": "The biggest U.S. stocks have done great for you. Experts say not to get greedy\n$schd $spy $voo\nNeena Mishra, director of ETF research at Zacks Investment Research, noted that investors can lower their",
+      "description": "",
+      "handle": "parcha",
+      "display_name": "parcha"
+    },
+    {
+      "id": "ada17df435e578",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-08-23T11:29:59Z",
+      "title": "$SPY BEARS IN DEEP TROUBLE\u2618\ufe0f\ud83d\udc40\ud83e\udee3\ud83d\udca5\u2620\ufe0f",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/662635290",
+      "author": "HeyYouWhoMe",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-08-23T11:29:59Z",
+      "text": "$SPY BEARS IN DEEP TROUBLE\u2618\ufe0f\ud83d\udc40\ud83e\udee3\ud83d\udca5\u2620\ufe0f",
+      "description": "",
+      "handle": "HeyYouWhoMe",
+      "display_name": "HeyYouWhoMe"
     },
     {
       "id": "db5cbda741ac36",
@@ -179,28 +469,6 @@
       "display_name": "Riverrat69"
     },
     {
-      "id": "44d63cdd55c888",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T11:20:14Z",
-      "title": "$NIFTY50.NSE   $SPY $QQQ $TLT  Indian stocks are approaching their worst underperformance relative to the S&amp;P 500 in history.",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662635158",
-      "author": "DrSilbergleit",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-23T11:20:14Z",
-      "text": "$NIFTY50.NSE   $SPY $QQQ $TLT  Indian stocks are approaching their worst underperformance relative to the S&amp;P 500 in history.",
-      "description": "",
-      "handle": "DrSilbergleit",
-      "display_name": "DrSilbergleit"
-    },
-    {
       "id": "e2d6222c796e5f",
       "source": "stocktwits",
       "source_type": "social",
@@ -223,26 +491,22 @@
       "display_name": "DrSilbergleit"
     },
     {
-      "id": "39000bf1c97af8",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T11:15:37Z",
-      "title": "Nvidia customers reportedly warned about AI-related price hikes \n$nvda $spy $qqq $dia\n\nNvidia said it will raise prices for some of its largest customers by at least 15%, Bloomberg reported.\nThe incre",
+      "id": "be3ae086cad3b3",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-23 11:17:07",
+      "title": "Citi expects Nvidia stock to trade higher post earnings",
       "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662635098",
-      "author": "parcha",
-      "tickers": [
-        "SPY"
-      ],
+      "url": "https://www.investing.com/news/stock-market-news/citi-expects-nvidia-stock-to-trade-higher-post-earnings-4872442",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 5.5,
+      "impact_score": 4.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-23T11:15:37Z",
-      "text": "Nvidia customers reportedly warned about AI-related price hikes \n$nvda $spy $qqq $dia\n\nNvidia said it will raise prices for some of its largest customers by at least 15%, Bloomberg reported.\nThe incre",
-      "description": "",
-      "handle": "parcha",
-      "display_name": "parcha"
+      "time": "2026-08-23 11:17:07",
+      "text": "Citi expects Nvidia stock to trade higher post earnings",
+      "description": ""
     },
     {
       "id": "bd61b9d3c664fb",
@@ -289,98 +553,6 @@
       "display_name": "parcha"
     },
     {
-      "id": "22cc2d42d7bf46",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T11:14:39Z",
-      "title": "$SPY $QQQ $TLT $TLTW Correlation is where crises begin. \n \nEveryone is looking for a single catalyst. They&#39;re looking in the wrong place.",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662635075",
-      "author": "DrSilbergleit",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-23T11:14:39Z",
-      "text": "$SPY $QQQ $TLT $TLTW Correlation is where crises begin. \n \nEveryone is looking for a single catalyst. They&#39;re looking in the wrong place.",
-      "description": "",
-      "handle": "DrSilbergleit",
-      "display_name": "DrSilbergleit"
-    },
-    {
-      "id": "81767ef92c146f",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T11:14:39Z",
-      "title": "$SPY $QQQ $TLT $TLTW Correlation is where crises begin. \n \nEveryone is looking for a single catalyst. They&#39;re looking in the wrong place.",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/662635075",
-      "author": "DrSilbergleit",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-23T11:14:39Z",
-      "text": "$SPY $QQQ $TLT $TLTW Correlation is where crises begin. \n \nEveryone is looking for a single catalyst. They&#39;re looking in the wrong place.",
-      "description": "",
-      "handle": "DrSilbergleit",
-      "display_name": "DrSilbergleit"
-    },
-    {
-      "id": "01c806f489bbea",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T11:14:05Z",
-      "title": "$QQQ $SPY $NVDA $MU $SKHY Cruel bear is seldom wrong. Are you listening bro?",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/662635069",
-      "author": "Kier_Severed",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-23T11:14:05Z",
-      "text": "$QQQ $SPY $NVDA $MU $SKHY Cruel bear is seldom wrong. Are you listening bro?",
-      "description": "",
-      "handle": "Kier_Severed",
-      "display_name": "Kier_Severed"
-    },
-    {
-      "id": "38a0cebffbe964",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T11:14:05Z",
-      "title": "$QQQ $SPY $NVDA $MU $SKHY Cruel bear is seldom wrong. Are you listening bro?",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/662635069",
-      "author": "Kier_Severed",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-23T11:14:05Z",
-      "text": "$QQQ $SPY $NVDA $MU $SKHY Cruel bear is seldom wrong. Are you listening bro?",
-      "description": "",
-      "handle": "Kier_Severed",
-      "display_name": "Kier_Severed"
-    },
-    {
       "id": "dc80adf7731810",
       "source": "stocktwits",
       "source_type": "social",
@@ -405,26 +577,22 @@
       "display_name": "Kier_Severed"
     },
     {
-      "id": "7e21abbff3d293",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T11:10:48Z",
-      "title": "$NVDA Nvidia\u2019s $105B AI Bet, Memory Prices Surge | AI Investment Briefing Ep. 4\nhttps://youtu.be/1uxDDPhtZ90",
+      "id": "764285f2ffb951",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-08-23 11:09:28",
+      "title": "Castle Biosciences surges 67% after InvestingPro Fair Value call",
       "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/662635030",
-      "author": "AChad",
-      "tickers": [
-        "NVDA"
-      ],
+      "url": "https://www.investing.com/news/investment-ideas/castle-biosciences-surges-67-after-investingpro-fair-value-call-93CH-4872441",
+      "author": "",
+      "tickers": [],
       "tags": [],
-      "impact_score": 3.4,
+      "impact_score": 4.0,
       "impact_level": "LOW",
       "sentiment": "neutral",
-      "time": "2026-08-23T11:10:48Z",
-      "text": "$NVDA Nvidia\u2019s $105B AI Bet, Memory Prices Surge | AI Investment Briefing Ep. 4\nhttps://youtu.be/1uxDDPhtZ90",
-      "description": "",
-      "handle": "AChad",
-      "display_name": "AChad"
+      "time": "2026-08-23 11:09:28",
+      "text": "Castle Biosciences surges 67% after InvestingPro Fair Value call",
+      "description": ""
     },
     {
       "id": "b53b30f6eab88d",
@@ -447,28 +615,6 @@
       "description": "",
       "handle": "Entropyvx",
       "display_name": "Entropyvx"
-    },
-    {
-      "id": "d981e168e45f98",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T11:02:19Z",
-      "title": "$MU $SNDK why aren&#39;t the memory stocks going parabolic on hyperliquid on the $NVDA price hike news?",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/662634920",
-      "author": "trader36g",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-23T11:02:19Z",
-      "text": "$MU $SNDK why aren&#39;t the memory stocks going parabolic on hyperliquid on the $NVDA price hike news?",
-      "description": "",
-      "handle": "trader36g",
-      "display_name": "trader36g"
     },
     {
       "id": "a8c32f1ed07e0b",
@@ -541,6 +687,24 @@
       "time": "Sun, 23 Aug 2026 11:00:00 GMT",
       "text": "\u2018She looked into COBRA\u2019: My friend was laid off and lost her health insurance. How can she find affordable coverage?",
       "description": "\u201cThe cost is absolutely ridiculous.\u201d"
+    },
+    {
+      "id": "554eae247407b5",
+      "source": "zerohedge",
+      "source_type": "rss",
+      "timestamp": "Sun, 23 Aug 2026 11:00:00 +0000",
+      "title": "Spain's Pools Hit By Disgusting 'Brown Challenge' TikTok Filth",
+      "body": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Spain's Pools Hit By Disgusting 'Brown Challenge' TikTok Filth</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field",
+      "url": "https://www.zerohedge.com/geopolitical/spains-pools-hit-disgusting-brown-challenge-tiktok-filth",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 23 Aug 2026 11:00:00 +0000",
+      "text": "Spain's Pools Hit By Disgusting 'Brown Challenge' TikTok Filth",
+      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Spain's Pools Hit By Disgusting 'Brown Challenge' TikTok Filth</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field"
     },
     {
       "id": "ed353e3db755b9",
@@ -861,30 +1025,6 @@
       "description": ""
     },
     {
-      "id": "02d46d61cc275f",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T09:07:17Z",
-      "title": "$TSLA It feel like may of 2020 \ud83d\ude09 in positive way. Maybe \ud83e\udd14 it just me. \u26a1\ufe0f",
-      "body": "",
-      "url": "https://stocktwits.com/TSLA/stream/662634011",
-      "author": "sunman20201",
-      "tickers": [
-        "TSLA"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-08-23T09:07:17Z",
-      "text": "$TSLA It feel like may of 2020 \ud83d\ude09 in positive way. Maybe \ud83e\udd14 it just me. \u26a1\ufe0f",
-      "description": "",
-      "handle": "sunman20201",
-      "display_name": "sunman20201"
-    },
-    {
       "id": "fc8882db5b96f6",
       "source": "uw_news",
       "source_type": "news",
@@ -957,24 +1097,6 @@
       "description": ""
     },
     {
-      "id": "d8d6fddd5e48d2",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-23 08:42:27",
-      "title": "ECB chief Lagarde \u2019ready to serve\u2019 WEF, Swiss newspaper reports",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/ecb-chief-lagarde-ready-to-serve-wef-swiss-newspaper-reports-4872430",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-23 08:42:27",
-      "text": "ECB chief Lagarde \u2019ready to serve\u2019 WEF, Swiss newspaper reports",
-      "description": ""
-    },
-    {
       "id": "52047adf74781c",
       "source": "stocktwits",
       "source_type": "social",
@@ -995,24 +1117,6 @@
       "description": "",
       "handle": "JoeDirtay3",
       "display_name": "JoeDirtay3"
-    },
-    {
-      "id": "505f754f5fde86",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-23 08:30:07",
-      "title": "Sell U.S. dollar versus these currencies, BCA says",
-      "body": "",
-      "url": "https://www.investing.com/news/forex-news/sell-us-dollar-versus-these-currencies-bca-says-4872431",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-23 08:30:07",
-      "text": "Sell U.S. dollar versus these currencies, BCA says",
-      "description": ""
     },
     {
       "id": "289ce00fab37e0",
@@ -1053,24 +1157,6 @@
       "description": "",
       "handle": "Iamwillwexler",
       "display_name": "Iamwillwexler"
-    },
-    {
-      "id": "bc7f8fefa0ef8f",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-08-23 08:10:23",
-      "title": "Iran warns neighbours against joining U.S. sanctions as Hormuz stays closed",
-      "body": "",
-      "url": "https://www.investing.com/news/economy-news/iran-warns-neighbours-against-joining-us-sanctions-as-hormuz-stays-closed-4872428",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-23 08:10:23",
-      "text": "Iran warns neighbours against joining U.S. sanctions as Hormuz stays closed",
-      "description": ""
     },
     {
       "id": "bdd3b35d4b86f0",
@@ -1139,6 +1225,60 @@
       "description": "",
       "handle": "newsofthemarket",
       "display_name": "newsofthemarket"
+    },
+    {
+      "id": "f155f6ac8b81f5",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sun, 23 Aug 2026 07:35:00 -0400",
+      "title": "The Basis Trade: Is The Bond Market Signal Distorted?",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4939424-basis-trade-is-bond-market-signal-distorted?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 23 Aug 2026 07:35:00 -0400",
+      "text": "The Basis Trade: Is The Bond Market Signal Distorted?",
+      "description": ""
+    },
+    {
+      "id": "f1c88f9e76e288",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sun, 23 Aug 2026 07:30:15 -0400",
+      "title": "Tongdao Liepin Group 2026 Q2 - Results - Earnings Call Presentation",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4939425-tongdao-liepin-group-2026-q2-results-earnings-call-presentation?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 23 Aug 2026 07:30:15 -0400",
+      "text": "Tongdao Liepin Group 2026 Q2 - Results - Earnings Call Presentation",
+      "description": ""
+    },
+    {
+      "id": "c51139550c10b5",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Sun, 23 Aug 2026 07:30:00 -0400",
+      "title": "If You Think Cash Is Safe, This Market Could Teach You A Costly Lesson",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4939147-if-you-think-cash-is-safe-this-market-could-teach-you-a-costly-lesson?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Sun, 23 Aug 2026 07:30:00 -0400",
+      "text": "If You Think Cash Is Safe, This Market Could Teach You A Costly Lesson",
+      "description": ""
     },
     {
       "id": "fd6b21e10b961c",
@@ -1605,60 +1745,6 @@
       "description": ""
     },
     {
-      "id": "0924eeefa1770e",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sun, 23 Aug 2026 05:26:05 -0400",
-      "title": "TWFG: The P&C Cycle Presents Higher Hurdles",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4939407-twfg-the-p-and-c-cycle-presents-higher-hurdles?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sun, 23 Aug 2026 05:26:05 -0400",
-      "text": "TWFG: The P&C Cycle Presents Higher Hurdles",
-      "description": ""
-    },
-    {
-      "id": "d226034658e7cb",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sun, 23 Aug 2026 05:04:27 -0400",
-      "title": "Here's Why You Should Watch Red Cat In H2 2026",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4939405-heres-why-you-should-watch-red-cat-stock-2h26?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sun, 23 Aug 2026 05:04:27 -0400",
-      "text": "Here's Why You Should Watch Red Cat In H2 2026",
-      "description": ""
-    },
-    {
-      "id": "95afa47231d853",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Sun, 23 Aug 2026 04:57:17 -0400",
-      "title": "Atlassian: No Denying Now That AI Is A Tailwind",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4939403-atlassian-no-denying-now-that-ai-is-a-tailwind?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sun, 23 Aug 2026 04:57:17 -0400",
-      "text": "Atlassian: No Denying Now That AI Is A Tailwind",
-      "description": ""
-    },
-    {
       "id": "b6330dbc00c037",
       "source": "uw_news",
       "source_type": "news",
@@ -1945,28 +2031,6 @@
       "time": "Sun, 23 Aug 2026 01:35:00 +0000",
       "text": "Inside America's Drone Arms Race: What Industry Experts See Ahead Of Procurement Supercycle",
       "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Inside America's Drone Arms Race: What Industry Experts See Ahead Of Procurement Supercycle</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field-"
-    },
-    {
-      "id": "41d54a14b9d084",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-08-23T01:01:12Z",
-      "title": "$AMD looking for 466.00 Monday morning then climbs to 495",
-      "body": "",
-      "url": "https://stocktwits.com/AMD/stream/662628785",
-      "author": "Colombiana195",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-23T01:01:12Z",
-      "text": "$AMD looking for 466.00 Monday morning then climbs to 495",
-      "description": "",
-      "handle": "Colombiana195",
-      "display_name": "Colombiana195"
     },
     {
       "id": "82eb849e1881ca",
@@ -2557,26 +2621,6 @@
       "description": ""
     },
     {
-      "id": "8404ee2eb8e2be",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-08-22T20:32:23Z",
-      "title": "Price surge pushes HOOD to $106.80, MACD flat at zero. Taker sell pressure doubles buy, predicts $116 or $94.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "HOOD"
-      ],
-      "tags": [],
-      "impact_score": 9.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-08-22T20:32:23Z",
-      "text": "Price surge pushes HOOD to $106.80, MACD flat at zero. Taker sell pressure doubles buy, predicts $116 or $94.",
-      "description": ""
-    },
-    {
       "id": "1619f9377864cc",
       "source": "marketwatch",
       "source_type": "rss",
@@ -2665,24 +2709,6 @@
       "time": "Sat, 22 Aug 2026 19:45:00 +0000",
       "text": "Axios: 40 Tankers Transited Hormuz Friday Night, But Real Crisis Is Diesel",
       "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\">Axios: 40 Tankers Transited Hormuz Friday Night, But Real Crisis Is Diesel</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-text-with-s"
-    },
-    {
-      "id": "ea630191dfbf50",
-      "source": "zerohedge",
-      "source_type": "rss",
-      "timestamp": "Sat, 22 Aug 2026 19:10:00 +0000",
-      "title": "Portable 1MW Kaleidos Microreactor Secures Critical Nuclear Fuel Deal Through 2030s",
-      "body": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\"> Portable 1MW Kaleidos Microreactor Secures Critical Nuclear Fuel Deal Through 2030s</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-t",
-      "url": "https://www.zerohedge.com/energy/portable-1mw-kaleidos-reactor-locks-crucial-nuclear-fuel-supply",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 22 Aug 2026 19:10:00 +0000",
-      "text": "Portable 1MW Kaleidos Microreactor Secures Critical Nuclear Fuel Deal Through 2030s",
-      "description": "<span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\"> Portable 1MW Kaleidos Microreactor Secures Critical Nuclear Fuel Deal Through 2030s</span>\n\n            <div property=\"schema:text\" class=\"clearfix text-formatted field field--name-body field--type-t"
     },
     {
       "id": "d956e1d340b9a4",
@@ -3205,24 +3231,6 @@
       "time": "2026-08-22T09:45:00Z",
       "text": "Couple finds $5 on the ground and wins $400,000 after buying a lottery ticket \u2013 what experts say they should do next",
       "description": ""
-    },
-    {
-      "id": "37952803003b6c",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Sat, 22 Aug 2026 05:00:01 GMT",
-      "title": "Six investors reveal the biggest market risks \u2014 and one strategy they agree on",
-      "body": "Investors see different risks threatening markets, but broadly agree that traders should diversify beyond recent winners.",
-      "url": "https://www.cnbc.com/2026/08/22/investors-market-risks-diversification-stocks-kospi.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Sat, 22 Aug 2026 05:00:01 GMT",
-      "text": "Six investors reveal the biggest market risks \u2014 and one strategy they agree on",
-      "description": "Investors see different risks threatening markets, but broadly agree that traders should diversify beyond recent winners."
     },
     {
       "id": "4cbaba4210fa9e",
