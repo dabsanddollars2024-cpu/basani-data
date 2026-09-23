@@ -1,37 +1,37 @@
 {
-  "generated": "2026-09-23T23:10:07Z",
-  "generated_display": "2026-09-23 23:10 ET",
+  "generated": "2026-09-23T23:22:49Z",
+  "generated_display": "2026-09-23 23:22 ET",
   "count": 161,
   "source_health": {
     "uw_news": {
       "status": "healthy",
       "items_pulled": 30,
-      "latency_ms": 140,
-      "last_success": "2026-09-23T23:10:04.820589+00:00",
+      "latency_ms": 184,
+      "last_success": "2026-09-23T23:22:47.337085+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "stocktwits": {
       "status": "healthy",
       "items_pulled": 50,
-      "latency_ms": 1463,
-      "last_success": "2026-09-23T23:10:06.284164+00:00",
+      "latency_ms": 1212,
+      "last_success": "2026-09-23T23:22:48.549445+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "rss": {
       "status": "healthy",
       "items_pulled": 80,
-      "latency_ms": 907,
-      "last_success": "2026-09-23T23:10:07.262642+00:00",
+      "latency_ms": 1009,
+      "last_success": "2026-09-23T23:22:49.605472+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 22,
-      "latency_ms": 205,
-      "last_success": "2026-09-23T23:10:07.468637+00:00",
+      "latency_ms": 306,
+      "last_success": "2026-09-23T23:22:49.911731+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -42,12 +42,12 @@
         "cnbc": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 65
+          "latency_ms": 371
         },
         "marketwatch": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 194
+          "latency_ms": 132
         },
         "reuters": {
           "status": "failed",
@@ -56,32 +56,32 @@
         "yahoo_finance": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 28
+          "latency_ms": 21
         },
         "seekingalpha": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 78
+          "latency_ms": 24
         },
         "zerohedge": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 461
+          "latency_ms": 323
         },
         "investing_com": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 81
+          "latency_ms": 138
         }
       }
     }
   },
   "by_source": {
     "stocktwits": 50,
-    "uw_news": 30,
-    "investing_com": 10,
     "cnbc": 15,
+    "uw_news": 30,
     "marketwatch": 10,
+    "investing_com": 10,
     "zerohedge": 15,
     "seekingalpha": 15,
     "yahoo_finance": 15,
@@ -89,14 +89,38 @@
   },
   "items": [
     {
-      "id": "5d53b60785662d",
+      "id": "67d035769f1a7e",
       "source": "stocktwits",
       "source_type": "social",
-      "timestamp": "2026-09-23T23:09:36Z",
-      "title": "$META Hey Zuk , chat my bot.",
+      "timestamp": "2026-09-23T23:22:39Z",
+      "title": "$SPY You are just full of shit. \u201cAveraged into futures that were expiring\u201d \u2014 come on. It\u2019s just more horseshit.\n\nYou\u2019ve been calling for Armageddon for years, and guess what? It still hasn\u2019t happened.",
       "body": "",
-      "url": "https://stocktwits.com/META/stream/664969383",
-      "author": "GladEator",
+      "url": "https://stocktwits.com/SPY/stream/664970010",
+      "author": "MumLover",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-09-23T23:22:39Z",
+      "text": "$SPY You are just full of shit. \u201cAveraged into futures that were expiring\u201d \u2014 come on. It\u2019s just more horseshit.\n\nYou\u2019ve been calling for Armageddon for years, and guess what? It still hasn\u2019t happened.",
+      "description": "",
+      "handle": "MumLover",
+      "display_name": "MumLover"
+    },
+    {
+      "id": "f348eff56a3a83",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:22:36Z",
+      "title": "$META What a joke of a call. Tanks this shiiit now lmao. LIMIT DOWN BUST",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/664970008",
+      "author": "gp1M",
       "tickers": [
         "META"
       ],
@@ -106,11 +130,721 @@
       "sentiment": {
         "basic": "Bearish"
       },
-      "time": "2026-09-23T23:09:36Z",
-      "text": "$META Hey Zuk , chat my bot.",
+      "time": "2026-09-23T23:22:36Z",
+      "text": "$META What a joke of a call. Tanks this shiiit now lmao. LIMIT DOWN BUST",
       "description": "",
-      "handle": "GladEator",
-      "display_name": "GladEator"
+      "handle": "gp1M",
+      "display_name": "gp1M"
+    },
+    {
+      "id": "7f39d6720e71a0",
+      "source": "cnbc",
+      "source_type": "rss",
+      "timestamp": "Wed, 23 Sep 2026 23:22:22 GMT",
+      "title": "Meta's standoff with Amazon over Muse could be a sign of things to come",
+      "body": "Meta's new Muse AI personal agent is garnering excitement and shows signs of becoming a hit, but Amazon has blocked the app from its site.",
+      "url": "https://www.cnbc.com/2026/09/23/metas-standoff-with-amazon-over-muse-comes-ahead-of-meta-connect.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 7.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 23 Sep 2026 23:22:22 GMT",
+      "text": "Meta's standoff with Amazon over Muse could be a sign of things to come",
+      "description": "Meta's new Muse AI personal agent is garnering excitement and shows signs of becoming a hit, but Amazon has blocked the app from its site."
+    },
+    {
+      "id": "f660944f221153",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:22:14Z",
+      "title": "$META boomer crowd at the event",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/664969988",
+      "author": "footytrader44",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-09-23T23:22:14Z",
+      "text": "$META boomer crowd at the event",
+      "description": "",
+      "handle": "footytrader44",
+      "display_name": "footytrader44"
+    },
+    {
+      "id": "2060f9fd920dda",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:22:06Z",
+      "title": "$META  WTF is this shitty Muse thing ... As if they just discovered AI lmao...",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/664969980",
+      "author": "Stock4vr",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-09-23T23:22:06Z",
+      "text": "$META  WTF is this shitty Muse thing ... As if they just discovered AI lmao...",
+      "description": "",
+      "handle": "Stock4vr",
+      "display_name": "Stock4vr"
+    },
+    {
+      "id": "dad145bb1eceec",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:22:06Z",
+      "title": "$META I think Muse is generational shift in the market. Connectors will be bigger than apps. B2C ai startups are fked. I don\u2019t feel sorry for VCs who threw so much money into fake startups",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/664969979",
+      "author": "wealthyOG",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-09-23T23:22:06Z",
+      "text": "$META I think Muse is generational shift in the market. Connectors will be bigger than apps. B2C ai startups are fked. I don\u2019t feel sorry for VCs who threw so much money into fake startups",
+      "description": "",
+      "handle": "wealthyOG",
+      "display_name": "wealthyOG"
+    },
+    {
+      "id": "cddb372ab3ffc8",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:21:58Z",
+      "title": "$SPY Futes rippin",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/664969971",
+      "author": "Sprinter6",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:21:58Z",
+      "text": "$SPY Futes rippin",
+      "description": "",
+      "handle": "Sprinter6",
+      "display_name": "Sprinter6"
+    },
+    {
+      "id": "831ff07d584160",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:21:50Z",
+      "title": "$SPY are we all just goyim in this post capitalist world",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/664969959",
+      "author": "CapitalismisFunny",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-09-23T23:21:50Z",
+      "text": "$SPY are we all just goyim in this post capitalist world",
+      "description": "",
+      "handle": "CapitalismisFunny",
+      "display_name": "CapitalismisFunny"
+    },
+    {
+      "id": "3dd77a5d9d5a44",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:21:46Z",
+      "title": "$QQQ $SPY this ai thing is getting old.",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/664969956",
+      "author": "2026Bear",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:21:46Z",
+      "text": "$QQQ $SPY this ai thing is getting old.",
+      "description": "",
+      "handle": "2026Bear",
+      "display_name": "2026Bear"
+    },
+    {
+      "id": "facc6da393cca3",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:21:46Z",
+      "title": "$QQQ $SPY this ai thing is getting old.",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/664969956",
+      "author": "2026Bear",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:21:46Z",
+      "text": "$QQQ $SPY this ai thing is getting old.",
+      "description": "",
+      "handle": "2026Bear",
+      "display_name": "2026Bear"
+    },
+    {
+      "id": "cd72813b1ed027",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:21:42Z",
+      "title": "$SPY \nIm always in an OFG$$ state of mind",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/664969950",
+      "author": "PierceC",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:21:42Z",
+      "text": "$SPY \nIm always in an OFG$$ state of mind",
+      "description": "",
+      "handle": "PierceC",
+      "display_name": "PierceC"
+    },
+    {
+      "id": "7b68b7748a0a6e",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:21:33Z",
+      "title": "Venezuela acting president Delcy Rodriguez tells UNGA: thanks US president Donald Trump for restoring diplomatic relations",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:21:33Z",
+      "text": "Venezuela acting president Delcy Rodriguez tells UNGA: thanks US president Donald Trump for restoring diplomatic relations",
+      "description": ""
+    },
+    {
+      "id": "c6a6322a8f6c92",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:21:33Z",
+      "title": "$META sell the old news",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/664969940",
+      "author": "MarketAttack",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-09-23T23:21:33Z",
+      "text": "$META sell the old news",
+      "description": "",
+      "handle": "MarketAttack",
+      "display_name": "MarketAttack"
+    },
+    {
+      "id": "4394dcc30f929b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:21:27Z",
+      "title": "$MCD   U is going after a new 52 week high overnight \ud83d\udcb8\ud83d\udcb8.  See why and load shares. $MU $SNDK $AMD $INTC",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/664969935",
+      "author": "tradepulsealerts",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:21:27Z",
+      "text": "$MCD   U is going after a new 52 week high overnight \ud83d\udcb8\ud83d\udcb8.  See why and load shares. $MU $SNDK $AMD $INTC",
+      "description": "",
+      "handle": "tradepulsealerts",
+      "display_name": "tradepulsealerts"
+    },
+    {
+      "id": "2161c4fa940ded",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:20:46Z",
+      "title": "$SPY I can&#39;t remember the last time I swung  puts over night , expecting them to go to 0 ... $NVDA puts exp 220 strike exp 8/30",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/664969909",
+      "author": "WuTangClam",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:20:46Z",
+      "text": "$SPY I can&#39;t remember the last time I swung  puts over night , expecting them to go to 0 ... $NVDA puts exp 220 strike exp 8/30",
+      "description": "",
+      "handle": "WuTangClam",
+      "display_name": "WuTangClam"
+    },
+    {
+      "id": "bfbf22021f1331",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:20:32Z",
+      "title": "$ETH.X this here is like buying $NVDA at 300bn in october 2022. will trade above 25k in 2030.",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/664969898",
+      "author": "TheMer0vingian",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-09-23T23:20:32Z",
+      "text": "$ETH.X this here is like buying $NVDA at 300bn in october 2022. will trade above 25k in 2030.",
+      "description": "",
+      "handle": "TheMer0vingian",
+      "display_name": "TheMer0vingian"
+    },
+    {
+      "id": "c649d5d1a71353",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:20:31Z",
+      "title": "Meta says it is integrating Muse into all its smart glasses",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:20:31Z",
+      "text": "Meta says it is integrating Muse into all its smart glasses",
+      "description": ""
+    },
+    {
+      "id": "ca72437933581b",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:19:24Z",
+      "title": "TRUMP: HAD \u201cGREAT CONVERSATIONS\u201d WITH WORLD LEADERS AT UNGA; SAYS \u201cENTIRE TECH & BANKING WORLDS\u201d WILL ATTEND XI DINNER TOMORROW, DESCRIBES GREETING WITH XI AS \u201cGREAT\u201d",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:19:24Z",
+      "text": "TRUMP: HAD \u201cGREAT CONVERSATIONS\u201d WITH WORLD LEADERS AT UNGA; SAYS \u201cENTIRE TECH & BANKING WORLDS\u201d WILL ATTEND XI DINNER TOMORROW, DESCRIBES GREETING WITH XI AS \u201cGREAT\u201d",
+      "description": ""
+    },
+    {
+      "id": "673d83d46a7150",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:18:50Z",
+      "title": "$QQQ $SPY meta ceo keeps saying super intelligence lol  what a tool and woke pos $META",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/664969825",
+      "author": "2026Bear",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:18:50Z",
+      "text": "$QQQ $SPY meta ceo keeps saying super intelligence lol  what a tool and woke pos $META",
+      "description": "",
+      "handle": "2026Bear",
+      "display_name": "2026Bear"
+    },
+    {
+      "id": "6c05f30d452bc4",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:18:47Z",
+      "title": "$SPY $QQQ $SLV $GLD $BTC.X\n\nOK, let me sum up today if any of you were wondering what the heck is going on it\u2019s been a very busy day and I\u2019ll tell you exactly all of the things that I have heard and r",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/664969823",
+      "author": "Themadogtrader",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-09-23T23:18:47Z",
+      "text": "$SPY $QQQ $SLV $GLD $BTC.X\n\nOK, let me sum up today if any of you were wondering what the heck is going on it\u2019s been a very busy day and I\u2019ll tell you exactly all of the things that I have heard and r",
+      "description": "",
+      "handle": "Themadogtrader",
+      "display_name": "Themadogtrader"
+    },
+    {
+      "id": "254098127d0e53",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:18:29Z",
+      "title": "$PLTR",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/664969805",
+      "author": "JDKING",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:18:29Z",
+      "text": "$PLTR",
+      "description": "",
+      "handle": "JDKING",
+      "display_name": "JDKING"
+    },
+    {
+      "id": "ae2b21ac4724a4",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:18:18Z",
+      "title": "Venezuela acting president delcy rodriguez tells unga: recent energy pact with US to aid global energy equilibrium",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:18:18Z",
+      "text": "Venezuela acting president delcy rodriguez tells unga: recent energy pact with US to aid global energy equilibrium",
+      "description": ""
+    },
+    {
+      "id": "959343805b146a",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:17:45Z",
+      "title": "EU COUNCIL PRESIDENT COSTA SPEAKS WITH IRANIAN PRESIDENT; URGES RESUMPTION OF IAEA COOPERATION, END TO STRIKES ON NEIGHBOURS & RESTORATION OF FREEDOM OF NAVIGATION IN STRAIT OF HORMUZ",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:17:45Z",
+      "text": "EU COUNCIL PRESIDENT COSTA SPEAKS WITH IRANIAN PRESIDENT; URGES RESUMPTION OF IAEA COOPERATION, END TO STRIKES ON NEIGHBOURS & RESTORATION OF FREEDOM OF NAVIGATION IN STRAIT OF HORMUZ",
+      "description": ""
+    },
+    {
+      "id": "625f64d13c3185",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:17:12Z",
+      "title": "US TREASURY SECRETARY BESSENT: REPORTS THAT HE WILL LIKELY BE TRUMP'S AL CZAR ARE PROBABLY FAKE NEWS",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 11.5,
+      "impact_level": "MED",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:17:12Z",
+      "text": "US TREASURY SECRETARY BESSENT: REPORTS THAT HE WILL LIKELY BE TRUMP'S AL CZAR ARE PROBABLY FAKE NEWS",
+      "description": ""
+    },
+    {
+      "id": "cbeaf4b2689a76",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:16:41Z",
+      "title": "$PLTR JOE97 fwiw,  Golf cheat Don has bought equity stakdes in 39 companies, he has had the military on the streets and attempted eliminating the free press, he has personally profitted from trading, ",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/664969735",
+      "author": "NickHawkins",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:16:41Z",
+      "text": "$PLTR JOE97 fwiw,  Golf cheat Don has bought equity stakdes in 39 companies, he has had the military on the streets and attempted eliminating the free press, he has personally profitted from trading, ",
+      "description": "",
+      "handle": "NickHawkins",
+      "display_name": "NickHawkins"
+    },
+    {
+      "id": "c77bc4bd1a7536",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:15:34Z",
+      "title": "Meta exec Wang: Walmart, Gap, Best Buy among companies integrated into Muse",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:15:34Z",
+      "text": "Meta exec Wang: Walmart, Gap, Best Buy among companies integrated into Muse",
+      "description": ""
+    },
+    {
+      "id": "6c03b34cffa105",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:15:30Z",
+      "title": "$QQQ $SPY meta trying to pump another ai search engine lol.    Bubble gonna pop soon $META",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/664969676",
+      "author": "2026Bear",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:15:30Z",
+      "text": "$QQQ $SPY meta trying to pump another ai search engine lol.    Bubble gonna pop soon $META",
+      "description": "",
+      "handle": "2026Bear",
+      "display_name": "2026Bear"
+    },
+    {
+      "id": "76abc121f3d232",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:15:27Z",
+      "title": "Kevin Hassett Voices Concern Against Fed Officials&#39; Recent Call For Rate Hikes \n\n$SPY $QQQ $DIA $TLT\n\nhttps://stocktwits.com/news/equity/markets/kevin-hassett-voices-concern-against-fed-officials-",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/664969672",
+      "author": "StocktwitsNews",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 9.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:15:27Z",
+      "text": "Kevin Hassett Voices Concern Against Fed Officials&#39; Recent Call For Rate Hikes \n\n$SPY $QQQ $DIA $TLT\n\nhttps://stocktwits.com/news/equity/markets/kevin-hassett-voices-concern-against-fed-officials-",
+      "description": "",
+      "handle": "StocktwitsNews",
+      "display_name": "StocktwitsNews"
+    },
+    {
+      "id": "bc27f4b372add8",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Wed, 23 Sep 2026 23:15:00 GMT",
+      "title": "\u2018It doesn\u2019t seem fair\u2019: I\u2019m retired and have plenty of money. Why can\u2019t I qualify for a retail credit card?",
+      "body": "\u201cI draw from my IRA as needed for household repairs, trips and other larger expenses.\u201d",
+      "url": "https://www.marketwatch.com/story/it-doesnt-seem-fair-im-retired-and-have-plenty-of-money-why-cant-i-qualify-for-a-retail-credit-card-8a58eda3?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 23 Sep 2026 23:15:00 GMT",
+      "text": "\u2018It doesn\u2019t seem fair\u2019: I\u2019m retired and have plenty of money. Why can\u2019t I qualify for a retail credit card?",
+      "description": "\u201cI draw from my IRA as needed for household repairs, trips and other larger expenses.\u201d"
+    },
+    {
+      "id": "7e52992d8318b5",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:14:02Z",
+      "title": "$MU today\u2019s daily candle was red, but it wasn\u2019t that nasty red. It was still above the 50% huge green candle yesterday so could be a continuation candle to the upside. We\u2019re gonna find out tomorrow an",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/664969589",
+      "author": "AlphaTrader8",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-09-23T23:14:02Z",
+      "text": "$MU today\u2019s daily candle was red, but it wasn\u2019t that nasty red. It was still above the 50% huge green candle yesterday so could be a continuation candle to the upside. We\u2019re gonna find out tomorrow an",
+      "description": "",
+      "handle": "AlphaTrader8",
+      "display_name": "AlphaTrader8"
+    },
+    {
+      "id": "e83ff155d9c47f",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:14:02Z",
+      "title": "$MU today\u2019s daily candle was red, but it wasn\u2019t that nasty red. It was still above the 50% huge green candle yesterday so could be a continuation candle to the upside. We\u2019re gonna find out tomorrow an",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/664969589",
+      "author": "AlphaTrader8",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-09-23T23:14:02Z",
+      "text": "$MU today\u2019s daily candle was red, but it wasn\u2019t that nasty red. It was still above the 50% huge green candle yesterday so could be a continuation candle to the upside. We\u2019re gonna find out tomorrow an",
+      "description": "",
+      "handle": "AlphaTrader8",
+      "display_name": "AlphaTrader8"
+    },
+    {
+      "id": "703e5099c2378c",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:13:24Z",
+      "title": "Meta exec Wang: company adding computer usage data to Muse",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:13:24Z",
+      "text": "Meta exec Wang: company adding computer usage data to Muse",
+      "description": ""
+    },
+    {
+      "id": "b0c4423430d98f",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:12:18Z",
+      "title": "$AMD BY BY BY!!!!  CHEAP CHEAP CHEAP",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/664969506",
+      "author": "Elon_Trump69",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-09-23T23:12:18Z",
+      "text": "$AMD BY BY BY!!!!  CHEAP CHEAP CHEAP",
+      "description": "",
+      "handle": "Elon_Trump69",
+      "display_name": "Elon_Trump69"
+    },
+    {
+      "id": "afbeab23755519",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-09-23T23:11:13Z",
+      "title": "Meta CEO Zuckerberg: company expects to earn revenue from Muse by charging small transaction fee",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:11:13Z",
+      "text": "Meta CEO Zuckerberg: company expects to earn revenue from Muse by charging small transaction fee",
+      "description": ""
+    },
+    {
+      "id": "a6e26b0238008b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-09-23T23:10:48Z",
+      "title": "$PLTR",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/664969439",
+      "author": "notnoel",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-23T23:10:48Z",
+      "text": "$PLTR",
+      "description": "",
+      "handle": "notnoel",
+      "display_name": "notnoel"
     },
     {
       "id": "8b220dc65c4032",
@@ -231,50 +965,6 @@
       "description": ""
     },
     {
-      "id": "41e73e54f2b15e",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:08:33Z",
-      "title": "$META hope you added shares.",
-      "body": "",
-      "url": "https://stocktwits.com/META/stream/664969326",
-      "author": "tradepulsealerts",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T23:08:33Z",
-      "text": "$META hope you added shares.",
-      "description": "",
-      "handle": "tradepulsealerts",
-      "display_name": "tradepulsealerts"
-    },
-    {
-      "id": "598ead1035537b",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:08:31Z",
-      "title": "$SPY  bullish bias going into the weekend",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/664969325",
-      "author": "BROKENBONES",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T23:08:31Z",
-      "text": "$SPY  bullish bias going into the weekend",
-      "description": "",
-      "handle": "BROKENBONES",
-      "display_name": "BROKENBONES"
-    },
-    {
       "id": "7ede5405043471",
       "source": "stocktwits",
       "source_type": "social",
@@ -295,194 +985,6 @@
       "description": "",
       "handle": "Dollarfergy1989",
       "display_name": "Dollarfergy1989"
-    },
-    {
-      "id": "0f25eecffcfe3d",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:08:07Z",
-      "title": "$QQQ $SPY WHEN ORANGE MAN IS A NAZI DICTATOR YOU GET NO NEWS COVERAGE OF CHINA COMING TO TOWN! LMFAO WHAT A JOKE THIS COUNTRY HAS TURNED INTO!",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/664969296",
-      "author": "The_Roaringkitty",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-09-23T23:08:07Z",
-      "text": "$QQQ $SPY WHEN ORANGE MAN IS A NAZI DICTATOR YOU GET NO NEWS COVERAGE OF CHINA COMING TO TOWN! LMFAO WHAT A JOKE THIS COUNTRY HAS TURNED INTO!",
-      "description": "",
-      "handle": "The_Roaringkitty",
-      "display_name": "The_Roaringkitty"
-    },
-    {
-      "id": "41f69b4e18e411",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:08:07Z",
-      "title": "$QQQ $SPY WHEN ORANGE MAN IS A NAZI DICTATOR YOU GET NO NEWS COVERAGE OF CHINA COMING TO TOWN! LMFAO WHAT A JOKE THIS COUNTRY HAS TURNED INTO!",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/664969296",
-      "author": "The_Roaringkitty",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-09-23T23:08:07Z",
-      "text": "$QQQ $SPY WHEN ORANGE MAN IS A NAZI DICTATOR YOU GET NO NEWS COVERAGE OF CHINA COMING TO TOWN! LMFAO WHAT A JOKE THIS COUNTRY HAS TURNED INTO!",
-      "description": "",
-      "handle": "The_Roaringkitty",
-      "display_name": "The_Roaringkitty"
-    },
-    {
-      "id": "c29b34a09bf014",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:07:39Z",
-      "title": "$META I told you this was going to $1000",
-      "body": "",
-      "url": "https://stocktwits.com/META/stream/664969272",
-      "author": "REDWIR",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-09-23T23:07:39Z",
-      "text": "$META I told you this was going to $1000",
-      "description": "",
-      "handle": "REDWIR",
-      "display_name": "REDWIR"
-    },
-    {
-      "id": "06891b417389a1",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:07:19Z",
-      "title": "$SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/664969248",
-      "author": "Jar31",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-09-23T23:07:19Z",
-      "text": "$SPY $QQQ",
-      "description": "",
-      "handle": "Jar31",
-      "display_name": "Jar31"
-    },
-    {
-      "id": "4de78434a452b9",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:07:19Z",
-      "title": "$SPY $QQQ",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/664969248",
-      "author": "Jar31",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.8,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-09-23T23:07:19Z",
-      "text": "$SPY $QQQ",
-      "description": "",
-      "handle": "Jar31",
-      "display_name": "Jar31"
-    },
-    {
-      "id": "ed1db38e22060c",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:07:10Z",
-      "title": "$SPY $QQQ $IWM $SPX $IWM Everytime they pump it for talking points, yields go higher.",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/664969239",
-      "author": "HIRISKtrades",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T23:07:10Z",
-      "text": "$SPY $QQQ $IWM $SPX $IWM Everytime they pump it for talking points, yields go higher.",
-      "description": "",
-      "handle": "HIRISKtrades",
-      "display_name": "HIRISKtrades"
-    },
-    {
-      "id": "71cb610b60d78b",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:07:10Z",
-      "title": "$SPY $QQQ $IWM $SPX $IWM Everytime they pump it for talking points, yields go higher.",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/664969239",
-      "author": "HIRISKtrades",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T23:07:10Z",
-      "text": "$SPY $QQQ $IWM $SPX $IWM Everytime they pump it for talking points, yields go higher.",
-      "description": "",
-      "handle": "HIRISKtrades",
-      "display_name": "HIRISKtrades"
-    },
-    {
-      "id": "32a614ae0a7374",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:05:19Z",
-      "title": "$SPY fumes rippin&#39;",
-      "body": "",
-      "url": "https://stocktwits.com/SPY/stream/664969145",
-      "author": "Profit_Lock",
-      "tickers": [
-        "SPY"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-09-23T23:05:19Z",
-      "text": "$SPY fumes rippin&#39;",
-      "description": "",
-      "handle": "Profit_Lock",
-      "display_name": "Profit_Lock"
     },
     {
       "id": "68e797d3241fce",
@@ -551,74 +1053,6 @@
       "display_name": "nullbidder"
     },
     {
-      "id": "e133563deaaeb1",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:04:29Z",
-      "title": "My take why the market is down today. $SPY $QQQ \n\nTreasury yields PUSHED higher, with the 10-year moving above 5%, putting pressure on growth &amp; tech stocks.\n\n$OIL prices are climbing again, raisin",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/664969113",
-      "author": "PhoTime",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-09-23T23:04:29Z",
-      "text": "My take why the market is down today. $SPY $QQQ \n\nTreasury yields PUSHED higher, with the 10-year moving above 5%, putting pressure on growth &amp; tech stocks.\n\n$OIL prices are climbing again, raisin",
-      "description": "",
-      "handle": "PhoTime",
-      "display_name": "PhoTime"
-    },
-    {
-      "id": "bf80f56f8b985b",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:03:58Z",
-      "title": "McDonald\u2019s RSI is now at one of its most oversold levels in decades!!! \n \nLooking back over 20+ years, readings this low are very rare, with 2003 and the COVID crash among the major historical example",
-      "body": "",
-      "url": "https://stocktwits.com/QQQ/stream/664969095",
-      "author": "TeamJayDay",
-      "tickers": [
-        "QQQ"
-      ],
-      "tags": [],
-      "impact_score": 3.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T23:03:58Z",
-      "text": "McDonald\u2019s RSI is now at one of its most oversold levels in decades!!! \n \nLooking back over 20+ years, readings this low are very rare, with 2003 and the COVID crash among the major historical example",
-      "description": "",
-      "handle": "TeamJayDay",
-      "display_name": "TeamJayDay"
-    },
-    {
-      "id": "4093216a3259db",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:03:36Z",
-      "title": "$QQQ $SPY The Meta Connect $META 2026 keynote is starting now \n\nMark Zuckerberg is about to take the stage\ud83e\udd14\ud83e\udd14",
-      "body": "",
-      "url": "https://stocktwits.com/META/stream/664969082",
-      "author": "EconomyEngine",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T23:03:36Z",
-      "text": "$QQQ $SPY The Meta Connect $META 2026 keynote is starting now \n\nMark Zuckerberg is about to take the stage\ud83e\udd14\ud83e\udd14",
-      "description": "",
-      "handle": "EconomyEngine",
-      "display_name": "EconomyEngine"
-    },
-    {
       "id": "10d4923e2564d2",
       "source": "stocktwits",
       "source_type": "social",
@@ -681,30 +1115,6 @@
       "time": "2026-09-23 23:01:00",
       "text": "Allient director Michael Winter sells $49,936 in stock for plan transfer",
       "description": ""
-    },
-    {
-      "id": "e0ca225d49cc14",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T23:00:55Z",
-      "title": "$META I am tuned in and volume up I have nothing yet",
-      "body": "",
-      "url": "https://stocktwits.com/META/stream/664968947",
-      "author": "HatDrop",
-      "tickers": [
-        "META"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-09-23T23:00:55Z",
-      "text": "$META I am tuned in and volume up I have nothing yet",
-      "description": "",
-      "handle": "HatDrop",
-      "display_name": "HatDrop"
     },
     {
       "id": "62ea0142cff0bf",
@@ -777,52 +1187,6 @@
       "display_name": "Losing2Winning"
     },
     {
-      "id": "72e3a8de795b4c",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:55:21Z",
-      "title": "$SPY $QQQ $NVDA $AMD $BTC.X \n\nWith Hormuz closed indefinitely, expect a rate hike in October, and then another in December as oil prices go over $125.  Then next year as oil prices go over $150, expec",
-      "body": "",
-      "url": "https://stocktwits.com/AMD/stream/664968649",
-      "author": "Losing2Winning",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 7.5,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bearish"
-      },
-      "time": "2026-09-23T22:55:21Z",
-      "text": "$SPY $QQQ $NVDA $AMD $BTC.X \n\nWith Hormuz closed indefinitely, expect a rate hike in October, and then another in December as oil prices go over $125.  Then next year as oil prices go over $150, expec",
-      "description": "",
-      "handle": "Losing2Winning",
-      "display_name": "Losing2Winning"
-    },
-    {
-      "id": "15ef1153a14831",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:55:13Z",
-      "title": "$TSLA $SPY $QQQ $NVDA  \nWRONG. \nTesler is #168 globally in terms of absolute profitability \n \nNVDA is #3 \nLLY is #28  \nAMZN is #9",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/664968644",
-      "author": "trumpdisasterprez",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:55:13Z",
-      "text": "$TSLA $SPY $QQQ $NVDA  \nWRONG. \nTesler is #168 globally in terms of absolute profitability \n \nNVDA is #3 \nLLY is #28  \nAMZN is #9",
-      "description": "",
-      "handle": "trumpdisasterprez",
-      "display_name": "trumpdisasterprez"
-    },
-    {
       "id": "d0ae02530f4b40",
       "source": "stocktwits",
       "source_type": "social",
@@ -887,50 +1251,6 @@
       "description": ""
     },
     {
-      "id": "a278085bbb28c7",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:53:55Z",
-      "title": "$ABSI $AMD $GME $OPEN",
-      "body": "",
-      "url": "https://stocktwits.com/AMD/stream/664968574",
-      "author": "stockmongerer",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:53:55Z",
-      "text": "$ABSI $AMD $GME $OPEN",
-      "description": "",
-      "handle": "stockmongerer",
-      "display_name": "stockmongerer"
-    },
-    {
-      "id": "37135052e6de8b",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:51:53Z",
-      "title": "$PLTR   a president who cheats at golf, has no pet, and kicks out the press from reporting, a vp who tells off the pope, a house leader who postpones session so a member cant be sworn in to open Epste",
-      "body": "",
-      "url": "https://stocktwits.com/PLTR/stream/664968471",
-      "author": "NickHawkins",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:51:53Z",
-      "text": "$PLTR   a president who cheats at golf, has no pet, and kicks out the press from reporting, a vp who tells off the pope, a house leader who postpones session so a member cant be sworn in to open Epste",
-      "description": "",
-      "handle": "NickHawkins",
-      "display_name": "NickHawkins"
-    },
-    {
       "id": "2701e9d862f35d",
       "source": "stocktwits",
       "source_type": "social",
@@ -951,30 +1271,6 @@
       "description": "",
       "handle": "OptionsPlayers",
       "display_name": "OptionsPlayers"
-    },
-    {
-      "id": "c3f8fe68b14887",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:50:30Z",
-      "title": "$AMD SMART MONEY IS ADDING",
-      "body": "",
-      "url": "https://stocktwits.com/AMD/stream/664968392",
-      "author": "Elon_Trump69",
-      "tickers": [
-        "AMD"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-09-23T22:50:30Z",
-      "text": "$AMD SMART MONEY IS ADDING",
-      "description": "",
-      "handle": "Elon_Trump69",
-      "display_name": "Elon_Trump69"
     },
     {
       "id": "f1639e2ab02316",
@@ -1029,50 +1325,6 @@
       "time": "2026-09-23 22:49:37",
       "text": "Conyers Investments LLC sells $3,860 of Newsmax (NMAX) stock",
       "description": ""
-    },
-    {
-      "id": "0bcf07a6c00018",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:49:32Z",
-      "title": "$PLTR 195C, alerted live in the room this morning. +77% on the best scale-out.",
-      "body": "",
-      "url": "https://stocktwits.com/PLTR/stream/664968354",
-      "author": "TradeWithInsight",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 4.2,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:49:32Z",
-      "text": "$PLTR 195C, alerted live in the room this morning. +77% on the best scale-out.",
-      "description": "",
-      "handle": "TradeWithInsight",
-      "display_name": "TradeWithInsight"
-    },
-    {
-      "id": "b71ce568885ba9",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:48:00Z",
-      "title": "$PLTR   wow..there is reporting circulating that PLTR had relied on outdated intelligence when advising US military in strikes inside Iran, specifically the bombing of school children..  who cares rig",
-      "body": "",
-      "url": "https://stocktwits.com/PLTR/stream/664968271",
-      "author": "NickHawkins",
-      "tickers": [
-        "PLTR"
-      ],
-      "tags": [],
-      "impact_score": 3.4,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:48:00Z",
-      "text": "$PLTR   wow..there is reporting circulating that PLTR had relied on outdated intelligence when advising US military in strikes inside Iran, specifically the bombing of school children..  who cares rig",
-      "description": "",
-      "handle": "NickHawkins",
-      "display_name": "NickHawkins"
     },
     {
       "id": "f75f89ce628851",
@@ -1379,28 +1631,6 @@
       "description": ""
     },
     {
-      "id": "08804a0ad492c0",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:32:00Z",
-      "title": "\u2728 MR.BINCO TRADE RECAP\n23/9/2026 \ud83d\udcc5 \u2728\n\n\ud83d\udc8e $QQQ 741P \u2014 +423%\ud83d\ude80\n\ud83d\udc8e $SPX 7715P \u2014 +342%\ud83d\ude80\n\ud83d\udc8e $SPY 770P \u2014 +180%\ud83d\ude80\n\ud83d\udc8e $SPX 7730P \u2014 +138%\ud83d\udd25\n\ud83d\udc8e $QQQ 743P \u2014 +115%\ud83d\udd25\n\ud83d\udc8e $META 770C \u2014 +35%\ud83d\udd25\n\ud83d\udc8e $SPY 767P \u2014 +30%\ud83d\udd25\n\ud83d\udc8e $QQQ 746C \u2014 ",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/664967503",
-      "author": "mr__binco",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 4.6,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:32:00Z",
-      "text": "\u2728 MR.BINCO TRADE RECAP\n23/9/2026 \ud83d\udcc5 \u2728\n\n\ud83d\udc8e $QQQ 741P \u2014 +423%\ud83d\ude80\n\ud83d\udc8e $SPX 7715P \u2014 +342%\ud83d\ude80\n\ud83d\udc8e $SPY 770P \u2014 +180%\ud83d\ude80\n\ud83d\udc8e $SPX 7730P \u2014 +138%\ud83d\udd25\n\ud83d\udc8e $QQQ 743P \u2014 +115%\ud83d\udd25\n\ud83d\udc8e $META 770C \u2014 +35%\ud83d\udd25\n\ud83d\udc8e $SPY 767P \u2014 +30%\ud83d\udd25\n\ud83d\udc8e $QQQ 746C \u2014 ",
-      "description": "",
-      "handle": "mr__binco",
-      "display_name": "mr__binco"
-    },
-    {
       "id": "c9e4f19c5351fa",
       "source": "uw_news",
       "source_type": "news",
@@ -1437,30 +1667,6 @@
       "time": "2026-09-23T22:31:19Z",
       "text": "Modal Labs in talks to secure new funding at about $15 billion valuation",
       "description": ""
-    },
-    {
-      "id": "84ca99010de85c",
-      "source": "stocktwits",
-      "source_type": "social",
-      "timestamp": "2026-09-23T22:30:36Z",
-      "title": "$MX.X is an interesting turnaround story worth watching.\n\nMagnachip + Hyundai Mobis have worked together since 2015 developing IGBT technology for EV inverters. Hyundai is now moving toward mass produ",
-      "body": "",
-      "url": "https://stocktwits.com/NVDA/stream/664967430",
-      "author": "PhoTime",
-      "tickers": [
-        "NVDA"
-      ],
-      "tags": [],
-      "impact_score": 6.3,
-      "impact_level": "LOW",
-      "sentiment": {
-        "basic": "Bullish"
-      },
-      "time": "2026-09-23T22:30:36Z",
-      "text": "$MX.X is an interesting turnaround story worth watching.\n\nMagnachip + Hyundai Mobis have worked together since 2015 developing IGBT technology for EV inverters. Hyundai is now moving toward mass produ",
-      "description": "",
-      "handle": "PhoTime",
-      "display_name": "PhoTime"
     },
     {
       "id": "1be047e86f5bfa",
@@ -1660,141 +1866,6 @@
       "description": ""
     },
     {
-      "id": "8d9eb63c175ba1",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T22:06:58Z",
-      "title": "Ukraine receives access to OpenAI's Daybreak AI cyber-defense tool to combat record attacks on hospitals, power grids, and government networks.",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 11.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:06:58Z",
-      "text": "Ukraine receives access to OpenAI's Daybreak AI cyber-defense tool to combat record attacks on hospitals, power grids, and government networks.",
-      "description": ""
-    },
-    {
-      "id": "46ea8866339f37",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T22:05:03Z",
-      "title": "Octane Rent Details SUV Fleet Expansion in Abu Dhabi to Support Regional Tourism and Business Operations",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.8,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:05:03Z",
-      "text": "Octane Rent Details SUV Fleet Expansion in Abu Dhabi to Support Regional Tourism and Business Operations",
-      "description": ""
-    },
-    {
-      "id": "487617100d6b91",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T22:04:56Z",
-      "title": "Institute for Portfolio Alternatives Announces 2027 Board of Directors",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "IPA"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:04:56Z",
-      "text": "Institute for Portfolio Alternatives Announces 2027 Board of Directors",
-      "description": ""
-    },
-    {
-      "id": "61ea620e8187fe",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T22:03:23Z",
-      "title": "Hanmi Bank Named to Piper Sandler Sm-All Stars Class of 2026",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "HAFC"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:03:23Z",
-      "text": "Hanmi Bank Named to Piper Sandler Sm-All Stars Class of 2026",
-      "description": ""
-    },
-    {
-      "id": "5c31204c55217a",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T22:02:57Z",
-      "title": "STARBOARD TAKES SIGNIFICANT STAKE IN KNIFE RIVER: WSJ",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:02:57Z",
-      "text": "STARBOARD TAKES SIGNIFICANT STAKE IN KNIFE RIVER: WSJ",
-      "description": ""
-    },
-    {
-      "id": "ff5502a4c871ec",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T22:02:19Z",
-      "title": "BlackRock\u00ae Canada Announces Final September Cash Distributions for the iShares\u00ae Premium Money Market ETF",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "BLK"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:02:19Z",
-      "text": "BlackRock\u00ae Canada Announces Final September Cash Distributions for the iShares\u00ae Premium Money Market ETF",
-      "description": ""
-    },
-    {
-      "id": "cde56a7c9c50d0",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T22:02:16Z",
-      "title": "GoldHaven Closes Additional Tranche of Flow-Through Financing Bringing Total Flow-Through Proceeds to $3.0 Million",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "GOH",
-        "GHVNF"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:02:16Z",
-      "text": "GoldHaven Closes Additional Tranche of Flow-Through Financing Bringing Total Flow-Through Proceeds to $3.0 Million",
-      "description": ""
-    },
-    {
       "id": "15bc3b3e4fdc71",
       "source": "stocktwits",
       "source_type": "social",
@@ -1815,24 +1886,6 @@
       "description": "",
       "handle": "WallStreet15",
       "display_name": "WallStreet15"
-    },
-    {
-      "id": "072897bc76cc6f",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T22:01:52Z",
-      "title": "President Xi meets Donald Trump at Joint Base Andrews",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-23T22:01:52Z",
-      "text": "President Xi meets Donald Trump at Joint Base Andrews",
-      "description": ""
     },
     {
       "id": "05780a145b87df",
@@ -1887,24 +1940,6 @@
       "time": "Wed, 23 Sep 2026 21:59:00 GMT",
       "text": "This test screens for 50 cancers \u2014 but whether Medicare and other health insurers will cover it hinges on FDA approval",
       "description": "Grail\u2019s Galleri test looks for 50 cancers from a blood draw, but a major study failed to prove it could detect later-stage cancers."
-    },
-    {
-      "id": "bb8cdaf4ec3d73",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-09-23T21:58:12Z",
-      "title": "Swarmer Signs MOU With Vectus Air Defense Systems for End-to-End Mobile Air Defense Systems",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 11.5,
-      "impact_level": "MED",
-      "sentiment": "neutral",
-      "time": "2026-09-23T21:58:12Z",
-      "text": "Swarmer Signs MOU With Vectus Air Defense Systems for End-to-End Mobile Air Defense Systems",
-      "description": ""
     },
     {
       "id": "8a6935429a4359",
@@ -2201,24 +2236,6 @@
       "display_name": "dumplingbuming"
     },
     {
-      "id": "7f39d6720e71a0",
-      "source": "cnbc",
-      "source_type": "rss",
-      "timestamp": "Wed, 23 Sep 2026 21:04:47 GMT",
-      "title": "Meta's standoff with Amazon over Muse could be a sign of things to come",
-      "body": "Meta's new Muse AI personal agent is garnering excitement and shows signs of becoming a hit, but Amazon has blocked the app from its site.",
-      "url": "https://www.cnbc.com/2026/09/23/metas-standoff-with-amazon-over-muse-comes-ahead-of-meta-connect.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 7.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 23 Sep 2026 21:04:47 GMT",
-      "text": "Meta's standoff with Amazon over Muse could be a sign of things to come",
-      "description": "Meta's new Muse AI personal agent is garnering excitement and shows signs of becoming a hit, but Amazon has blocked the app from its site."
-    },
-    {
       "id": "0726f1917ba870",
       "source": "zerohedge",
       "source_type": "rss",
@@ -2277,24 +2294,6 @@
       "time": "Wed, 23 Sep 2026 20:45:00 GMT",
       "text": "Fewer stocks are carrying the market than at any time since the dot-com peak",
       "description": "The S&P 500\u2019s latest trip back to near-record territory has been powered by a surprisingly small number of stocks."
-    },
-    {
-      "id": "4fa73984261a48",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Wed, 23 Sep 2026 20:40:00 GMT",
-      "title": "I\u2019m in my 50s. My mother died from Alzheimer\u2019s. Do I need long-term-care insurance?",
-      "body": "\u201cBy the time my mother died, the insurance company had paid out almost $600,000.\u201d",
-      "url": "https://www.marketwatch.com/story/im-in-my-50s-my-mother-died-from-alzheimers-do-i-need-long-term-insurance-14d58069?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 6.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 23 Sep 2026 20:40:00 GMT",
-      "text": "I\u2019m in my 50s. My mother died from Alzheimer\u2019s. Do I need long-term-care insurance?",
-      "description": "\u201cBy the time my mother died, the insurance company had paid out almost $600,000.\u201d"
     },
     {
       "id": "1b72aaf92e9c91",
@@ -2479,6 +2478,60 @@
       "time": "Wed, 23 Sep 2026 19:30:54 GMT",
       "text": "Oil industry warns a diesel export ban will raise fuel prices as Trump weighs restrictions",
       "description": "A diesel export ban would provide only brief relief before prices start to rise again as refiners cut production, experts say."
+    },
+    {
+      "id": "08d2988fb6d620",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 23 Sep 2026 19:09:49 -0400",
+      "title": "TUI AG (TUIFF) Presents at Berenberg and Goldman Sachs 15th German Corporate Conference 2026 - Slideshow",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4949198-tui-ag-tuiff-presents-at-berenberg-and-goldman-sachs-15th-german-corporate-conference-2026?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 23 Sep 2026 19:09:49 -0400",
+      "text": "TUI AG (TUIFF) Presents at Berenberg and Goldman Sachs 15th German Corporate Conference 2026 - Slideshow",
+      "description": ""
+    },
+    {
+      "id": "6241c1b1c507da",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 23 Sep 2026 19:09:29 -0400",
+      "title": "GSK plc (GSK) Presents at Bernstein Insights: Healthcare Leaders and Disruptors - 3rd Annual Healthcare Forum Transcript",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4949183-gsk-plc-gsk-presents-at-bernstein-insights-healthcare-leaders-and-disruptors-3rd-annual?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 23 Sep 2026 19:09:29 -0400",
+      "text": "GSK plc (GSK) Presents at Bernstein Insights: Healthcare Leaders and Disruptors - 3rd Annual Healthcare Forum Transcript",
+      "description": ""
+    },
+    {
+      "id": "8772d2d982c516",
+      "source": "seekingalpha",
+      "source_type": "rss",
+      "timestamp": "Wed, 23 Sep 2026 19:08:41 -0400",
+      "title": "Why Banning AI Won't Save Jobs: It Will Only Guarantee Economic Collapse",
+      "body": "",
+      "url": "https://seekingalpha.com/article/4949188-why-banning-ai-wont-save-jobs-it-will-only-guarantee-economic-collapse?source=feed_all_articles",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 23 Sep 2026 19:08:41 -0400",
+      "text": "Why Banning AI Won't Save Jobs: It Will Only Guarantee Economic Collapse",
+      "description": ""
     },
     {
       "id": "1c75a3c4c04505",
@@ -2841,60 +2894,6 @@
       "description": "Rep. Haley Stevens introduced a bill that would let some workers in physically demanding jobs claim full Social Security retirement benefits at age 60."
     },
     {
-      "id": "02bf3b071975af",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 23 Sep 2026 17:53:13 -0400",
-      "title": "Gilead: HIV Growth Is Not Enough At The Current Price",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4949180-gilead-hiv-growth-is-not-enough-at-the-current-price?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 23 Sep 2026 17:53:13 -0400",
-      "text": "Gilead: HIV Growth Is Not Enough At The Current Price",
-      "description": ""
-    },
-    {
-      "id": "5c9d8dfbf30043",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 23 Sep 2026 17:51:32 -0400",
-      "title": "Dave: Bull And Bear Cases For Payday Loans",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4949179-dave-bull-and-bear-case-for-payday-loans?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 23 Sep 2026 17:51:32 -0400",
-      "text": "Dave: Bull And Bear Cases For Payday Loans",
-      "description": ""
-    },
-    {
-      "id": "f76f43db353193",
-      "source": "seekingalpha",
-      "source_type": "rss",
-      "timestamp": "Wed, 23 Sep 2026 17:49:31 -0400",
-      "title": "Nasdaq, Inc. (NDAQ) Presents at Autonomous 2026 Future of Commerce Symposium Transcript",
-      "body": "",
-      "url": "https://seekingalpha.com/article/4949141-nasdaq-inc-ndaq-presents-at-autonomous-2026-future-of-commerce-symposium-transcript?source=feed_all_articles",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 23 Sep 2026 17:49:31 -0400",
-      "text": "Nasdaq, Inc. (NDAQ) Presents at Autonomous 2026 Future of Commerce Symposium Transcript",
-      "description": ""
-    },
-    {
       "id": "77d87c4a2f6ba9",
       "source": "zerohedge",
       "source_type": "rss",
@@ -3000,6 +2999,78 @@
       "sentiment": "neutral",
       "time": "2026-09-22T19:47:00Z",
       "text": "Bessent just picked the one wage measure still rising",
+      "description": ""
+    },
+    {
+      "id": "b12dcc752c33f7",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-09-22T15:30:00Z",
+      "title": "Obama says AI flipped from 90% human-taught to 50/50 in under a year \u2014 the six-figure jobs he says go first",
+      "body": "",
+      "url": "https://finance.yahoo.com/technology/ai/articles/obama-says-ai-flipped-90-153000409.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-22T15:30:00Z",
+      "text": "Obama says AI flipped from 90% human-taught to 50/50 in under a year \u2014 the six-figure jobs he says go first",
+      "description": ""
+    },
+    {
+      "id": "578539af6c2cd2",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-09-22T15:27:01Z",
+      "title": "Inside an award-winning Wendy\u2019s operator\u2019s bankruptcy crisis",
+      "body": "",
+      "url": "https://finance.yahoo.com/small-business/articles/inside-award-winning-wendy-operator-152701503.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 10.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-22T15:27:01Z",
+      "text": "Inside an award-winning Wendy\u2019s operator\u2019s bankruptcy crisis",
+      "description": ""
+    },
+    {
+      "id": "f702e835a4cf88",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-09-22T15:26:27Z",
+      "title": "Circle Stock Spikes As Binance Takes $100 Million Slice",
+      "body": "",
+      "url": "https://www.investors.com/news/circle-stock-spikes-as-binance-takes-100-million-slice/?src=A00220&yptr=yahoo",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-22T15:26:27Z",
+      "text": "Circle Stock Spikes As Binance Takes $100 Million Slice",
+      "description": ""
+    },
+    {
+      "id": "664329aed1d672",
+      "source": "yahoo_finance",
+      "source_type": "rss",
+      "timestamp": "2026-09-22T15:26:13Z",
+      "title": "Shipping Oil Now Costs $1 Million a Day and One Tiny ETF Is Up Over 4,000%",
+      "body": "",
+      "url": "https://finance.yahoo.com/markets/commodities/articles/shipping-oil-now-costs-1-152613275.html",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 5.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-09-22T15:26:13Z",
+      "text": "Shipping Oil Now Costs $1 Million a Day and One Tiny ETF Is Up Over 4,000%",
       "description": ""
     },
     {
@@ -3111,42 +3182,6 @@
       "description": ""
     },
     {
-      "id": "3bf56765fd2235",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-09-22T15:16:05Z",
-      "title": "Homes or Stocks? US Households Now Lean on Stocks Like Never Before",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/homes-stocks-us-households-now-151605046.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-22T15:16:05Z",
-      "text": "Homes or Stocks? US Households Now Lean on Stocks Like Never Before",
-      "description": ""
-    },
-    {
-      "id": "0c1c64e9449711",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-09-22T15:14:30Z",
-      "title": "SpaceX's AI Business Is Booming. Here's How Much Analysts Expect It to Generate by 2030",
-      "body": "",
-      "url": "https://finance.yahoo.com/technology/ai/articles/spacexs-ai-business-booming-heres-151430511.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-22T15:14:30Z",
-      "text": "SpaceX's AI Business Is Booming. Here's How Much Analysts Expect It to Generate by 2030",
-      "description": ""
-    },
-    {
       "id": "8eba339bb10758",
       "source": "yahoo_finance",
       "source_type": "rss",
@@ -3180,42 +3215,6 @@
       "sentiment": "neutral",
       "time": "2026-09-22T15:11:43Z",
       "text": "Saudi Arabia restarts East-West oil pipeline, sources say",
-      "description": ""
-    },
-    {
-      "id": "5fbe3522eb8c9b",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-09-22T15:11:01Z",
-      "title": "What Makes Berkshire Hathaway (BRK-B) a Strong Investment?",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/makes-berkshire-hathaway-brk-b-151101032.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-22T15:11:01Z",
-      "text": "What Makes Berkshire Hathaway (BRK-B) a Strong Investment?",
-      "description": ""
-    },
-    {
-      "id": "929c0ac3282fc2",
-      "source": "yahoo_finance",
-      "source_type": "rss",
-      "timestamp": "2026-09-22T15:07:47Z",
-      "title": "Meta Muse AI may throw gas on the labor displacement problem \u2014 but it's not all doom and gloom",
-      "body": "",
-      "url": "https://finance.yahoo.com/markets/article/meta-muse-ai-may-throw-gas-on-the-labor-displacement-problem--but-its-not-all-doom-and-gloom-150747149.html",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 5.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-09-22T15:07:47Z",
-      "text": "Meta Muse AI may throw gas on the labor displacement problem \u2014 but it's not all doom and gloom",
       "description": ""
     },
     {
