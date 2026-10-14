@@ -1,37 +1,37 @@
 {
-  "generated": "2026-10-14T23:34:37Z",
-  "generated_display": "2026-10-14 23:34 ET",
-  "count": 96,
+  "generated": "2026-10-14T23:50:50Z",
+  "generated_display": "2026-10-14 23:50 ET",
+  "count": 146,
   "source_health": {
     "uw_news": {
       "status": "healthy",
       "items_pulled": 30,
-      "latency_ms": 214,
-      "last_success": "2026-10-14T23:34:34.460447+00:00",
+      "latency_ms": 210,
+      "last_success": "2026-10-14T23:50:47.268417+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "stocktwits": {
-      "status": "degraded",
-      "items_pulled": 0,
-      "latency_ms": 517,
-      "last_success": null,
-      "last_error_ts": "2026-10-14T23:34:34.977514+00:00",
+      "status": "healthy",
+      "items_pulled": 50,
+      "latency_ms": 1201,
+      "last_success": "2026-10-14T23:50:48.469888+00:00",
+      "last_error_ts": null,
       "error": ""
     },
     "rss": {
       "status": "healthy",
       "items_pulled": 65,
-      "latency_ms": 1282,
-      "last_success": "2026-10-14T23:34:36.869408+00:00",
+      "latency_ms": 1153,
+      "last_success": "2026-10-14T23:50:49.970770+00:00",
       "last_error_ts": null,
       "error": ""
     },
     "forex_factory": {
       "status": "healthy",
       "items_pulled": 25,
-      "latency_ms": 805,
-      "last_success": "2026-10-14T23:34:37.675140+00:00",
+      "latency_ms": 478,
+      "last_success": "2026-10-14T23:50:50.449138+00:00",
       "last_error_ts": null,
       "error": ""
     },
@@ -42,12 +42,12 @@
         "cnbc": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 190
+          "latency_ms": 109
         },
         "marketwatch": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 472
+          "latency_ms": 431
         },
         "reuters": {
           "status": "failed",
@@ -60,31 +60,1260 @@
         "seekingalpha": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 173
+          "latency_ms": 150
         },
         "zerohedge": {
           "status": "healthy",
           "items": 15,
-          "latency_ms": 318
+          "latency_ms": 356
         },
         "investing_com": {
           "status": "healthy",
           "items": 10,
-          "latency_ms": 129
+          "latency_ms": 107
         }
       }
     }
   },
   "by_source": {
+    "stocktwits": 50,
     "uw_news": 30,
     "investing_com": 10,
-    "zerohedge": 15,
     "marketwatch": 10,
+    "zerohedge": 15,
     "cnbc": 15,
     "seekingalpha": 15,
     "forex_factory": 1
   },
   "items": [
+    {
+      "id": "32669f51785df5",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:50:46Z",
+      "title": "$QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/666543646",
+      "author": "mni1",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:50:46Z",
+      "text": "$QQQ",
+      "description": "",
+      "handle": "mni1",
+      "display_name": "mni1"
+    },
+    {
+      "id": "1222245a75f605",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:50:35Z",
+      "title": "$QQQ forget Black Friday it\u2019s a Black week baby!!",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/666543632",
+      "author": "runitback349",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-10-14T23:50:35Z",
+      "text": "$QQQ forget Black Friday it\u2019s a Black week baby!!",
+      "description": "",
+      "handle": "runitback349",
+      "display_name": "runitback349"
+    },
+    {
+      "id": "5aaa113110b13a",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:50:16Z",
+      "title": "$QQQ I bought calls for January today. I\u2019m not happy.",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/666543615",
+      "author": "jasonpeak",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:50:16Z",
+      "text": "$QQQ I bought calls for January today. I\u2019m not happy.",
+      "description": "",
+      "handle": "jasonpeak",
+      "display_name": "jasonpeak"
+    },
+    {
+      "id": "3d59105ea5bf14",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:50:13Z",
+      "title": "$AMD circuit breakers tommorrow?",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/666543612",
+      "author": "Scamfindr",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:50:13Z",
+      "text": "$AMD circuit breakers tommorrow?",
+      "description": "",
+      "handle": "Scamfindr",
+      "display_name": "Scamfindr"
+    },
+    {
+      "id": "690a019244c05e",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:50:06Z",
+      "title": "$SPY IT&#39;S COMING",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/666543603",
+      "author": "Actasif08",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-10-14T23:50:06Z",
+      "text": "$SPY IT&#39;S COMING",
+      "description": "",
+      "handle": "Actasif08",
+      "display_name": "Actasif08"
+    },
+    {
+      "id": "cc0855e953db12",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:59Z",
+      "title": "$QQQ it looks like instead of printing endless cash and injecting it into the QQQ system he money printer is injecting the $TLT . Wage cucks can expect 50%+ prices next month . Arnt you thankful??",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/666543592",
+      "author": "Jefftennis36",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-10-14T23:49:59Z",
+      "text": "$QQQ it looks like instead of printing endless cash and injecting it into the QQQ system he money printer is injecting the $TLT . Wage cucks can expect 50%+ prices next month . Arnt you thankful??",
+      "description": "",
+      "handle": "Jefftennis36",
+      "display_name": "Jefftennis36"
+    },
+    {
+      "id": "d2e74fad4d8eaf",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:58Z",
+      "title": "$BB $DJI $NASDAQ $SPY   So riddle me this. You yourself literally said that you will need 15 million new workers?  Where the hell are you going to get those people?  You going to go down the farm and ",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/666543587",
+      "author": "SportsFan01",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:49:58Z",
+      "text": "$BB $DJI $NASDAQ $SPY   So riddle me this. You yourself literally said that you will need 15 million new workers?  Where the hell are you going to get those people?  You going to go down the farm and ",
+      "description": "",
+      "handle": "SportsFan01",
+      "display_name": "SportsFan01"
+    },
+    {
+      "id": "7754f4441e7c25",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:51Z",
+      "title": "$CHPY $DRAM $QQQ $SPY posting bearish news and pretending like it is bullish lmao",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/666543579",
+      "author": "Trading105",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:49:51Z",
+      "text": "$CHPY $DRAM $QQQ $SPY posting bearish news and pretending like it is bullish lmao",
+      "description": "",
+      "handle": "Trading105",
+      "display_name": "Trading105"
+    },
+    {
+      "id": "3374eda0f8f429",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:51Z",
+      "title": "$CHPY $DRAM $QQQ $SPY posting bearish news and pretending like it is bullish lmao",
+      "body": "",
+      "url": "https://stocktwits.com/QQQ/stream/666543579",
+      "author": "Trading105",
+      "tickers": [
+        "QQQ"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:49:51Z",
+      "text": "$CHPY $DRAM $QQQ $SPY posting bearish news and pretending like it is bullish lmao",
+      "description": "",
+      "handle": "Trading105",
+      "display_name": "Trading105"
+    },
+    {
+      "id": "7c5d9462feda5d",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:32Z",
+      "title": "$AMD ouch",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/666543556",
+      "author": "mktiscorrupt",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:49:32Z",
+      "text": "$AMD ouch",
+      "description": "",
+      "handle": "mktiscorrupt",
+      "display_name": "mktiscorrupt"
+    },
+    {
+      "id": "afd31505c87485",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:31Z",
+      "title": "Technology sector stocks testing some important levels of support that will either make or break the AI trade that has flourished since the spring of 2025.  We\u2019ll tell you what to look for. https://eq",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/666543552",
+      "author": "EquityClock",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:49:31Z",
+      "text": "Technology sector stocks testing some important levels of support that will either make or break the AI trade that has flourished since the spring of 2025.  We\u2019ll tell you what to look for. https://eq",
+      "description": "",
+      "handle": "EquityClock",
+      "display_name": "EquityClock"
+    },
+    {
+      "id": "289efc5b8d1c03",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:29Z",
+      "title": "$QQQ $SPY $SOXL $SOXS $SOXX Ed Zitron might be up all night...",
+      "body": "",
+      "url": "https://stocktwits.com/SPY/stream/666543549",
+      "author": "BullseyeGains",
+      "tickers": [
+        "SPY"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:49:29Z",
+      "text": "$QQQ $SPY $SOXL $SOXS $SOXX Ed Zitron might be up all night...",
+      "description": "",
+      "handle": "BullseyeGains",
+      "display_name": "BullseyeGains"
+    },
+    {
+      "id": "b027aa973a0577",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:11Z",
+      "title": "$ABBV $AAPL  Market seems to rotating from the fraud AI complex into real companies like ABBV and AAPL.",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/666543530",
+      "author": "V9RDPUMA",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:49:11Z",
+      "text": "$ABBV $AAPL  Market seems to rotating from the fraud AI complex into real companies like ABBV and AAPL.",
+      "description": "",
+      "handle": "V9RDPUMA",
+      "display_name": "V9RDPUMA"
+    },
+    {
+      "id": "4adf1a05a5213e",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:49:06Z",
+      "title": "Tomorrow i have some big plays \ud83e\udd11will i be bull or bear is the question $MRNA $PLTR $PANW $SPCX $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/666543523",
+      "author": "BobbyBull",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:49:06Z",
+      "text": "Tomorrow i have some big plays \ud83e\udd11will i be bull or bear is the question $MRNA $PLTR $PANW $SPCX $SPY",
+      "description": "",
+      "handle": "BobbyBull",
+      "display_name": "BobbyBull"
+    },
+    {
+      "id": "425f73aac527ca",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:48:46Z",
+      "title": "$AMD mortgaging the house. All In",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/666543494",
+      "author": "Chipbaby",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:48:46Z",
+      "text": "$AMD mortgaging the house. All In",
+      "description": "",
+      "handle": "Chipbaby",
+      "display_name": "Chipbaby"
+    },
+    {
+      "id": "ece237d94ec3f0",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:48:24Z",
+      "title": "$AMZN https://www.fool.com/investing/2026/10/14/aws-backlog-hits-496-billion-while-cloud-margins/",
+      "body": "",
+      "url": "https://stocktwits.com/AMZN/stream/666543464",
+      "author": "StockDudeIndy",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:48:24Z",
+      "text": "$AMZN https://www.fool.com/investing/2026/10/14/aws-backlog-hits-496-billion-while-cloud-margins/",
+      "description": "",
+      "handle": "StockDudeIndy",
+      "display_name": "StockDudeIndy"
+    },
+    {
+      "id": "04936c18edf961",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:47:57Z",
+      "title": "Tesla-SpaceX Merger Could Be Announced As Early As Before December AGM, Says Barclays \n\n$SPCX $TSLA\n\nhttps://stocktwits.com/news/equity/markets/tesla-space-x-merger-could-be-announced-as-early-as-befo",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/666543432",
+      "author": "StocktwitsNews",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:47:57Z",
+      "text": "Tesla-SpaceX Merger Could Be Announced As Early As Before December AGM, Says Barclays \n\n$SPCX $TSLA\n\nhttps://stocktwits.com/news/equity/markets/tesla-space-x-merger-could-be-announced-as-early-as-befo",
+      "description": "",
+      "handle": "StocktwitsNews",
+      "display_name": "StocktwitsNews"
+    },
+    {
+      "id": "7ff25bad711596",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:47:26Z",
+      "title": "$QQQ $MU $amd $SPY $NVDA \n\nfirst kospi, then cmxt, now anthropic.  when it rains it pours \ud83d\ude48\ud83d\ude05",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/666543392",
+      "author": "cubie",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:47:26Z",
+      "text": "$QQQ $MU $amd $SPY $NVDA \n\nfirst kospi, then cmxt, now anthropic.  when it rains it pours \ud83d\ude48\ud83d\ude05",
+      "description": "",
+      "handle": "cubie",
+      "display_name": "cubie"
+    },
+    {
+      "id": "db27e26acdb509",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:47:26Z",
+      "title": "$QQQ $MU $amd $SPY $NVDA \n\nfirst kospi, then cmxt, now anthropic.  when it rains it pours \ud83d\ude48\ud83d\ude05",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/666543392",
+      "author": "cubie",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:47:26Z",
+      "text": "$QQQ $MU $amd $SPY $NVDA \n\nfirst kospi, then cmxt, now anthropic.  when it rains it pours \ud83d\ude48\ud83d\ude05",
+      "description": "",
+      "handle": "cubie",
+      "display_name": "cubie"
+    },
+    {
+      "id": "36b5738be3da07",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:47:09Z",
+      "title": "$DJT $PLTR $QQQ $SPY \nIt\u2019s gonna happen! Vietnam, Iraq, Afghanistan\u2026what\u2019s one more humiliating forfeit? It\u2019s our brand! We\u2019re 40 trillion in debt. We can\u2019t fund our own house without printing money e",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/666543366",
+      "author": "Itsokman",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:47:09Z",
+      "text": "$DJT $PLTR $QQQ $SPY \nIt\u2019s gonna happen! Vietnam, Iraq, Afghanistan\u2026what\u2019s one more humiliating forfeit? It\u2019s our brand! We\u2019re 40 trillion in debt. We can\u2019t fund our own house without printing money e",
+      "description": "",
+      "handle": "Itsokman",
+      "display_name": "Itsokman"
+    },
+    {
+      "id": "2c63c8be0b0c72",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:46:52Z",
+      "title": "$AAPL",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/666543353",
+      "author": "Babybuffett80",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:46:52Z",
+      "text": "$AAPL",
+      "description": "",
+      "handle": "Babybuffett80",
+      "display_name": "Babybuffett80"
+    },
+    {
+      "id": "a29726386579b1",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:46:45Z",
+      "title": "$NVDA seriously??",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/666543343",
+      "author": "Judy11",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:46:45Z",
+      "text": "$NVDA seriously??",
+      "description": "",
+      "handle": "Judy11",
+      "display_name": "Judy11"
+    },
+    {
+      "id": "61c2f5a8dfb029",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:46:44Z",
+      "title": "$NVDA yes yes sideways",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/666543341",
+      "author": "Policypolicy",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:46:44Z",
+      "text": "$NVDA yes yes sideways",
+      "description": "",
+      "handle": "Policypolicy",
+      "display_name": "Policypolicy"
+    },
+    {
+      "id": "cbe5c984bfd57b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:46:43Z",
+      "title": "$AMD \u2026 Jesus are we really going back to $300 or less?",
+      "body": "",
+      "url": "https://stocktwits.com/AMD/stream/666543337",
+      "author": "Jangalang",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:46:43Z",
+      "text": "$AMD \u2026 Jesus are we really going back to $300 or less?",
+      "description": "",
+      "handle": "Jangalang",
+      "display_name": "Jangalang"
+    },
+    {
+      "id": "42804b76f11dba",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:46:15Z",
+      "title": "$NVDA $AMD $MRVL $MU  \nBroadcom CEO really said if my stock ain&#39;t gonna trade at 52 week highs, ain&#39;t no one&#39;s chip stock trading at 52 week highs\ud83d\ude2d",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/666543296",
+      "author": "Jimmy_Javelin",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:46:15Z",
+      "text": "$NVDA $AMD $MRVL $MU  \nBroadcom CEO really said if my stock ain&#39;t gonna trade at 52 week highs, ain&#39;t no one&#39;s chip stock trading at 52 week highs\ud83d\ude2d",
+      "description": "",
+      "handle": "Jimmy_Javelin",
+      "display_name": "Jimmy_Javelin"
+    },
+    {
+      "id": "c5ec25e1b28d9c",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:45:55Z",
+      "title": "$LULU $MU $NBIS $PLTR $SOXX  At close Burry&#39;s $500 put was down 20% He has 8 months to get $MU down to 2.5 PE to break even.  Burry will have to cut his loss soon.",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/666543268",
+      "author": "ShadowBanningIsBad",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:45:55Z",
+      "text": "$LULU $MU $NBIS $PLTR $SOXX  At close Burry&#39;s $500 put was down 20% He has 8 months to get $MU down to 2.5 PE to break even.  Burry will have to cut his loss soon.",
+      "description": "",
+      "handle": "ShadowBanningIsBad",
+      "display_name": "ShadowBanningIsBad"
+    },
+    {
+      "id": "7a853973884173",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:45:54Z",
+      "title": "$META 700 2 morrow - I buy at 666",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/666543266",
+      "author": "mollielatham",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:45:54Z",
+      "text": "$META 700 2 morrow - I buy at 666",
+      "description": "",
+      "handle": "mollielatham",
+      "display_name": "mollielatham"
+    },
+    {
+      "id": "071524ce66956d",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:45:19Z",
+      "title": "$XLE $SPY buy the weakness in your conviction names. Short term to mid term noise but nothings changing long term. The market is selling on chance of another hike which we will likely get. But the war",
+      "body": "",
+      "url": "https://stocktwits.com/NVDA/stream/666543216",
+      "author": "RecklessTortuga",
+      "tickers": [
+        "NVDA"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:45:19Z",
+      "text": "$XLE $SPY buy the weakness in your conviction names. Short term to mid term noise but nothings changing long term. The market is selling on chance of another hike which we will likely get. But the war",
+      "description": "",
+      "handle": "RecklessTortuga",
+      "display_name": "RecklessTortuga"
+    },
+    {
+      "id": "456f1003272bbd",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:45:09Z",
+      "title": "$AAPL pump\nAppl to save market",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/666543204",
+      "author": "novelty",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:45:09Z",
+      "text": "$AAPL pump\nAppl to save market",
+      "description": "",
+      "handle": "novelty",
+      "display_name": "novelty"
+    },
+    {
+      "id": "6729d246e3674a",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:44:46Z",
+      "title": "$DJT $TSLA $XCORP $FOXA Be careful posting on multiple boards, brother. You&#39;re not the arbiter of truth.",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/666543176",
+      "author": "PaddyOoohhYeah",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:44:46Z",
+      "text": "$DJT $TSLA $XCORP $FOXA Be careful posting on multiple boards, brother. You&#39;re not the arbiter of truth.",
+      "description": "",
+      "handle": "PaddyOoohhYeah",
+      "display_name": "PaddyOoohhYeah"
+    },
+    {
+      "id": "e112cf453da216",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:43:32Z",
+      "title": "$SPY $QQQ $DJT $PLTR  \nIt won\u2019t solve everything, but we have to start somewhere. Donald?",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/666543087",
+      "author": "Itsokman",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:43:32Z",
+      "text": "$SPY $QQQ $DJT $PLTR  \nIt won\u2019t solve everything, but we have to start somewhere. Donald?",
+      "description": "",
+      "handle": "Itsokman",
+      "display_name": "Itsokman"
+    },
+    {
+      "id": "7cde6ca7347d31",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:42:41Z",
+      "title": "$TSLA that daily back to back hammers looking amazing. \ud83d\udc4c Tessie might lead the charge out of the rut $SPY",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/666543017",
+      "author": "blueblood12",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.8,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:42:41Z",
+      "text": "$TSLA that daily back to back hammers looking amazing. \ud83d\udc4c Tessie might lead the charge out of the rut $SPY",
+      "description": "",
+      "handle": "blueblood12",
+      "display_name": "blueblood12"
+    },
+    {
+      "id": "bd8484cbe813e9",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:42:32Z",
+      "title": "$SPCX imagine going through a stock market crash holding a 2T that loses 20B a year  with capex set to increase or $TSLA a car company trading more than all other car companies combined at a 350 P/E r",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/666543002",
+      "author": "BuffMan101",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-10-14T23:42:32Z",
+      "text": "$SPCX imagine going through a stock market crash holding a 2T that loses 20B a year  with capex set to increase or $TSLA a car company trading more than all other car companies combined at a 350 P/E r",
+      "description": "",
+      "handle": "BuffMan101",
+      "display_name": "BuffMan101"
+    },
+    {
+      "id": "c622d3f1a33b04",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:42:18Z",
+      "title": "$DJT $TSLA $XCORP $FOXA",
+      "body": "",
+      "url": "https://stocktwits.com/TSLA/stream/666542978",
+      "author": "sharkpatrol50",
+      "tickers": [
+        "TSLA"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:42:18Z",
+      "text": "$DJT $TSLA $XCORP $FOXA",
+      "description": "",
+      "handle": "sharkpatrol50",
+      "display_name": "sharkpatrol50"
+    },
+    {
+      "id": "62211c3b2c30fd",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-10-14T23:41:59Z",
+      "title": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Dive In AI-Led Sell-Off",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "AMD"
+      ],
+      "tags": [],
+      "impact_score": 9.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:41:59Z",
+      "text": "Dow Jones Futures: Techs Fall On Anthropic News After Dell, AMD, CoreWeave Dive In AI-Led Sell-Off",
+      "description": ""
+    },
+    {
+      "id": "621bb22d93b1ba",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:41:53Z",
+      "title": "$LULU $MU $NBIS $PLTR $SOXX  since this post, mu -20% nbis -25% \n \nburry warned you",
+      "body": "",
+      "url": "https://stocktwits.com/PLTR/stream/666542946",
+      "author": "luv2fukberazzho",
+      "tickers": [
+        "PLTR"
+      ],
+      "tags": [],
+      "impact_score": 6.3,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:41:53Z",
+      "text": "$LULU $MU $NBIS $PLTR $SOXX  since this post, mu -20% nbis -25% \n \nburry warned you",
+      "description": "",
+      "handle": "luv2fukberazzho",
+      "display_name": "luv2fukberazzho"
+    },
+    {
+      "id": "113290d9c851a5",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:40:56Z",
+      "title": "$META sub 700 just that quick.    770 to 670 in by Friday close.",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/666542860",
+      "author": "_StockDoc_",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-10-14T23:40:56Z",
+      "text": "$META sub 700 just that quick.    770 to 670 in by Friday close.",
+      "description": "",
+      "handle": "_StockDoc_",
+      "display_name": "_StockDoc_"
+    },
+    {
+      "id": "de502c300701ee",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:40:16Z",
+      "title": "\ud83d\udea8BIGGEST BETS \u2014 SCOREBOARD\ud83d\udea8 \nFind me on X: ThetaTradesHQ \n$TSLA $AAPL $META \n \nTracking Tuesday, Oct 13 entries vs Wednesday, Oct 14 latest option marks:\ud83d\udcb0 \n \n1. TSLA Apr 16 &#39;27 $430 calls \u2014 option",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/666542809",
+      "author": "charlietodd",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:40:16Z",
+      "text": "\ud83d\udea8BIGGEST BETS \u2014 SCOREBOARD\ud83d\udea8 \nFind me on X: ThetaTradesHQ \n$TSLA $AAPL $META \n \nTracking Tuesday, Oct 13 entries vs Wednesday, Oct 14 latest option marks:\ud83d\udcb0 \n \n1. TSLA Apr 16 &#39;27 $430 calls \u2014 option",
+      "description": "",
+      "handle": "charlietodd",
+      "display_name": "charlietodd"
+    },
+    {
+      "id": "87657b2ca96549",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:40:16Z",
+      "title": "\ud83d\udea8BIGGEST BETS \u2014 SCOREBOARD\ud83d\udea8 \nFind me on X: ThetaTradesHQ \n$TSLA $AAPL $META \n \nTracking Tuesday, Oct 13 entries vs Wednesday, Oct 14 latest option marks:\ud83d\udcb0 \n \n1. TSLA Apr 16 &#39;27 $430 calls \u2014 option",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/666542809",
+      "author": "charlietodd",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:40:16Z",
+      "text": "\ud83d\udea8BIGGEST BETS \u2014 SCOREBOARD\ud83d\udea8 \nFind me on X: ThetaTradesHQ \n$TSLA $AAPL $META \n \nTracking Tuesday, Oct 13 entries vs Wednesday, Oct 14 latest option marks:\ud83d\udcb0 \n \n1. TSLA Apr 16 &#39;27 $430 calls \u2014 option",
+      "description": "",
+      "handle": "charlietodd",
+      "display_name": "charlietodd"
+    },
+    {
+      "id": "9300b100d75352",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:39:49Z",
+      "title": "$AAPL: bought that iPhone used or for resale? The Apple Intelligence settlement excludes both. Only original US buyers from June 10, 2024 to March 29, 2025 count. $25 base per phone, claim by Dec 21. ",
+      "body": "",
+      "url": "https://stocktwits.com/AAPL/stream/666542769",
+      "author": "thatsolardude365",
+      "tickers": [
+        "AAPL"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:39:49Z",
+      "text": "$AAPL: bought that iPhone used or for resale? The Apple Intelligence settlement excludes both. Only original US buyers from June 10, 2024 to March 29, 2025 count. $25 base per phone, claim by Dec 21. ",
+      "description": "",
+      "handle": "thatsolardude365",
+      "display_name": "thatsolardude365"
+    },
+    {
+      "id": "0f28242afc147f",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-10-14 23:36:21",
+      "title": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+      "body": "",
+      "url": "https://www.investing.com/news/economy-news/sp-500-dow-futures-rise-ahead-of-big-bank-results-cpi-data-4948567",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 6.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14 23:36:21",
+      "text": "Nasdaq ends sharply lower as hot inflation data stirs rate-hike worries",
+      "description": ""
+    },
+    {
+      "id": "b6e41dd29191f5",
+      "source": "marketwatch",
+      "source_type": "rss",
+      "timestamp": "Wed, 14 Oct 2026 23:36:00 GMT",
+      "title": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+      "body": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout.",
+      "url": "https://www.marketwatch.com/story/the-ai-trade-is-splintering-as-inflation-fears-rattle-hyped-up-tech-stocks-dbf49369?mod=mw_rss_topstories",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 8.5,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "Wed, 14 Oct 2026 23:36:00 GMT",
+      "text": "The AI trade is splintering as inflation fears rattle hyped-up tech stocks",
+      "description": "Investors are wondering if steep inflation and increased borrowing costs could derail the AI buildout."
+    },
+    {
+      "id": "7c2ae75822a789",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-10-14 23:35:35",
+      "title": "U.S. proposes unfreezing Russian assets to restart Ukraine peace talks- FT",
+      "body": "",
+      "url": "https://www.investing.com/news/economy-news/us-proposes-unfreezing-russian-assets-to-restart-ukraine-peace-talks-ft-4950270",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14 23:35:35",
+      "text": "U.S. proposes unfreezing Russian assets to restart Ukraine peace talks- FT",
+      "description": ""
+    },
+    {
+      "id": "70b516871a0316",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-10-14 23:35:01",
+      "title": "New ERA Energy & Digital director Kent McCarthy buys $1.19m in shares",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/new-era-energy--digital-director-kent-mccarthy-buys-119m-in-shares-93CH-4950269",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14 23:35:01",
+      "text": "New ERA Energy & Digital director Kent McCarthy buys $1.19m in shares",
+      "description": ""
+    },
+    {
+      "id": "8a95bab4d434e7",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:34:50Z",
+      "title": "$ANTHZZX.P $OPEAZZX.P $MSFT $NVDA Anthropic Q3 Revenue Jumps To $16.8B, Profitable On Adjusted Basis-FT \n \nAnthropic told investors at today&#39;s San Francisco investor day that Q3 revenue hit $16.8B",
+      "body": "",
+      "url": "https://stocktwits.com/MSFT/stream/666542405",
+      "author": "AlertsAndNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:34:50Z",
+      "text": "$ANTHZZX.P $OPEAZZX.P $MSFT $NVDA Anthropic Q3 Revenue Jumps To $16.8B, Profitable On Adjusted Basis-FT \n \nAnthropic told investors at today&#39;s San Francisco investor day that Q3 revenue hit $16.8B",
+      "description": "",
+      "handle": "AlertsAndNews",
+      "display_name": "AlertsAndNews"
+    },
+    {
+      "id": "c95b09d71cde0f",
+      "source": "uw_news",
+      "source_type": "news",
+      "timestamp": "2026-10-14T23:34:33Z",
+      "title": "Iambic Announces Pricing of Initial Public Offering",
+      "body": "",
+      "url": "",
+      "author": "",
+      "tickers": [
+        "IAM"
+      ],
+      "tags": [],
+      "impact_score": 9.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:34:33Z",
+      "text": "Iambic Announces Pricing of Initial Public Offering",
+      "description": ""
+    },
+    {
+      "id": "a6cec68c36026f",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:34:29Z",
+      "title": "$AMZN  Antropic numbers are really good means AI revenue is going to be good and growing for Amazon despite the CPI numbers. Buy when no wants it.",
+      "body": "",
+      "url": "https://stocktwits.com/AMZN/stream/666542378",
+      "author": "jobTrader",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 5.9,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:34:29Z",
+      "text": "$AMZN  Antropic numbers are really good means AI revenue is going to be good and growing for Amazon despite the CPI numbers. Buy when no wants it.",
+      "description": "",
+      "handle": "jobTrader",
+      "display_name": "jobTrader"
+    },
+    {
+      "id": "e50531b2b8732e",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:31:32Z",
+      "title": "$AVGO $GOOG  $AMZN \ud83d\udea8 Remember all the panic over Broadcom helping finance Anthropic\u2019s AI buildout?\n\nWell, now we\u2019re getting a better look at the CUSTOMER behind that \u201cscary\u201d financing. \ud83d\udc40\n\nAnthropic Q3",
+      "body": "",
+      "url": "https://stocktwits.com/AMZN/stream/666542151",
+      "author": "Lets_AVnGO",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 4.6,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:31:32Z",
+      "text": "$AVGO $GOOG  $AMZN \ud83d\udea8 Remember all the panic over Broadcom helping finance Anthropic\u2019s AI buildout?\n\nWell, now we\u2019re getting a better look at the CUSTOMER behind that \u201cscary\u201d financing. \ud83d\udc40\n\nAnthropic Q3",
+      "description": "",
+      "handle": "Lets_AVnGO",
+      "display_name": "Lets_AVnGO"
+    },
+    {
+      "id": "bcbfad5cf76875",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-10-14 23:31:12",
+      "title": "BTOA-NQ LLC, Bumble 10% owner, sells $9.79m in stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/btoanq-llc-bumble-10-owner-sells-979m-in-stock-93CH-4950263",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14 23:31:12",
+      "text": "BTOA-NQ LLC, Bumble 10% owner, sells $9.79m in stock",
+      "description": ""
+    },
+    {
+      "id": "42a8eee6fd9add",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-10-14 23:30:59",
+      "title": "BCP Buzz Holdings L.P. sells $9.79 million in Bumble Inc. shares",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/bcp-buzz-holdings-lp-sells-979-million-in-bumble-inc-shares-93CH-4950262",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14 23:30:59",
+      "text": "BCP Buzz Holdings L.P. sells $9.79 million in Bumble Inc. shares",
+      "description": ""
+    },
+    {
+      "id": "ff7dc4cd879c96",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-10-14 23:30:58",
+      "title": "BX Buzz ML-1 Holdco L.P. sells $9.79m Bumble stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/bx-buzz-ml1-holdco-lp-sells-979m-bumble-stock-93CH-4950261",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14 23:30:58",
+      "text": "BX Buzz ML-1 Holdco L.P. sells $9.79m Bumble stock",
+      "description": ""
+    },
+    {
+      "id": "f0ec5c4a638bfd",
+      "source": "investing_com",
+      "source_type": "rss",
+      "timestamp": "2026-10-14 23:30:50",
+      "title": "Costco EVP William Wilcox sells $1.05m in company stock",
+      "body": "",
+      "url": "https://www.investing.com/news/insider-trading-news/costco-evp-william-wilcox-sells-105m-in-company-stock-93CH-4950260",
+      "author": "",
+      "tickers": [],
+      "tags": [],
+      "impact_score": 4.0,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14 23:30:50",
+      "text": "Costco EVP William Wilcox sells $1.05m in company stock",
+      "description": ""
+    },
+    {
+      "id": "7b9591f9ed9e69",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:27:15Z",
+      "title": "$AMZN Median analyst price target is $332. Massive upside. Buy more at this dip.",
+      "body": "",
+      "url": "https://stocktwits.com/AMZN/stream/666541839",
+      "author": "jobTrader",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:27:15Z",
+      "text": "$AMZN Median analyst price target is $332. Massive upside. Buy more at this dip.",
+      "description": "",
+      "handle": "jobTrader",
+      "display_name": "jobTrader"
+    },
+    {
+      "id": "a8bae6a5bed66d",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:27:14Z",
+      "title": "$AMZN lol look at this disgusting pigs go, loading up for tomorrow. Shares bought cs sold were virtually flat on the day. Scum",
+      "body": "",
+      "url": "https://stocktwits.com/AMZN/stream/666541837",
+      "author": "Tigercogz",
+      "tickers": [
+        "AMZN"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:27:14Z",
+      "text": "$AMZN lol look at this disgusting pigs go, loading up for tomorrow. Shares bought cs sold were virtually flat on the day. Scum",
+      "description": "",
+      "handle": "Tigercogz",
+      "display_name": "Tigercogz"
+    },
+    {
+      "id": "6c9ea181d0280d",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:23:43Z",
+      "title": "$LUNR lfffg pumptard\ud83d\ude02\ud83d\ude06 $QQQ $spy  $MSFT $NVDA",
+      "body": "",
+      "url": "https://stocktwits.com/MSFT/stream/666541584",
+      "author": "cubie",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:23:43Z",
+      "text": "$LUNR lfffg pumptard\ud83d\ude02\ud83d\ude06 $QQQ $spy  $MSFT $NVDA",
+      "description": "",
+      "handle": "cubie",
+      "display_name": "cubie"
+    },
+    {
+      "id": "75c6f906e63c83",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:19:22Z",
+      "title": "Feels like the narrative on $MSFT is finally shifting from AI spending concerns to AI monetization potential. The market has been pricing in the costs, but not nearly enough of the upside. 600+ soon. ",
+      "body": "",
+      "url": "https://stocktwits.com/MSFT/stream/666541240",
+      "author": "Heyshishito",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bullish"
+      },
+      "time": "2026-10-14T23:19:22Z",
+      "text": "Feels like the narrative on $MSFT is finally shifting from AI spending concerns to AI monetization potential. The market has been pricing in the costs, but not nearly enough of the upside. 600+ soon. ",
+      "description": "",
+      "handle": "Heyshishito",
+      "display_name": "Heyshishito"
+    },
     {
       "id": "a080a773bf7755",
       "source": "uw_news",
@@ -120,6 +1349,28 @@
       "time": "2026-10-14 23:19:05",
       "text": "Wayfair CEO Niraj Shah sells $7.3m of company stock",
       "description": ""
+    },
+    {
+      "id": "42171005a98133",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:17:24Z",
+      "title": "$MSFT Throw in the towel already!",
+      "body": "",
+      "url": "https://stocktwits.com/MSFT/stream/666541082",
+      "author": "PlzCease",
+      "tickers": [
+        "MSFT"
+      ],
+      "tags": [],
+      "impact_score": 3.4,
+      "impact_level": "LOW",
+      "sentiment": "neutral",
+      "time": "2026-10-14T23:17:24Z",
+      "text": "$MSFT Throw in the towel already!",
+      "description": "",
+      "handle": "PlzCease",
+      "display_name": "PlzCease"
     },
     {
       "id": "73e83c2176f761",
@@ -438,22 +1689,28 @@
       "description": ""
     },
     {
-      "id": "3c120363d2efc7",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-10-14 23:15:58",
-      "title": "Hershey trust co, 10% owner, sells $4.9m in Hershey Co. stock",
+      "id": "1030aa44a2ce6b",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:13:57Z",
+      "title": "$MSFT Triple topper?",
       "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/hershey-trust-co-10-owner-sells-49m-in-hershey-co-stock-93CH-4950247",
-      "author": "",
-      "tickers": [],
+      "url": "https://stocktwits.com/MSFT/stream/666540826",
+      "author": "LeonardoBonacci",
+      "tickers": [
+        "MSFT"
+      ],
       "tags": [],
-      "impact_score": 4.0,
+      "impact_score": 3.4,
       "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14 23:15:58",
-      "text": "Hershey trust co, 10% owner, sells $4.9m in Hershey Co. stock",
-      "description": ""
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-10-14T23:13:57Z",
+      "text": "$MSFT Triple topper?",
+      "description": "",
+      "handle": "LeonardoBonacci",
+      "display_name": "LeonardoBonacci"
     },
     {
       "id": "11c919f1ee6377",
@@ -472,6 +1729,30 @@
       "time": "2026-10-14T23:12:04Z",
       "text": "US considers unfreezing some Russian assets to revive Ukraine peace talks - FT",
       "description": ""
+    },
+    {
+      "id": "37afe39d937267",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:08:30Z",
+      "title": "$META 55 point reversal on hours is pretty impressive \n\nNow down for the year again\n\n$SPY $QQQ",
+      "body": "",
+      "url": "https://stocktwits.com/META/stream/666540419",
+      "author": "_StockDoc_",
+      "tickers": [
+        "META"
+      ],
+      "tags": [],
+      "impact_score": 4.2,
+      "impact_level": "LOW",
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-10-14T23:08:30Z",
+      "text": "$META 55 point reversal on hours is pretty impressive \n\nNow down for the year again\n\n$SPY $QQQ",
+      "description": "",
+      "handle": "_StockDoc_",
+      "display_name": "_StockDoc_"
     },
     {
       "id": "3cac6b19b645ec",
@@ -534,24 +1815,6 @@
       "description": ""
     },
     {
-      "id": "8183c86e1ae26e",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-10-14 23:06:22",
-      "title": "TSMC expected to report sixth straight quarter of record profit thanks to AI boom",
-      "body": "",
-      "url": "https://www.investing.com/news/stock-market-news/tsmc-expected-to-report-sixth-straight-quarter-of-record-profit-thanks-to-ai-boom-4950243",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14 23:06:22",
-      "text": "TSMC expected to report sixth straight quarter of record profit thanks to AI boom",
-      "description": ""
-    },
-    {
       "id": "4ca8693b14ae06",
       "source": "uw_news",
       "source_type": "news",
@@ -572,24 +1835,28 @@
       "description": ""
     },
     {
-      "id": "36f63efa43b834",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-10-14 23:04:33",
-      "title": "IBM survey finds 80% of EMEA firms report AI incidents to board",
+      "id": "8f3e90090052ed",
+      "source": "stocktwits",
+      "source_type": "social",
+      "timestamp": "2026-10-14T23:03:02Z",
+      "title": "$META $MSFT $NVDA $QQQ $SPY Damn going through my profile? I think you\u2019re in love with me. Also why haven\u2019t you showed me your tits yet?",
       "body": "",
-      "url": "https://www.investing.com/news/company-news/ibm-survey-finds-80-of-emea-firms-report-ai-incidents-to-board-93CH-4950241",
-      "author": "",
+      "url": "https://stocktwits.com/META/stream/666540011",
+      "author": "NasdaqBabi",
       "tickers": [
-        "IBM"
+        "META"
       ],
       "tags": [],
-      "impact_score": 4.4,
+      "impact_score": 5.0,
       "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14 23:04:33",
-      "text": "IBM survey finds 80% of EMEA firms report AI incidents to board",
-      "description": ""
+      "sentiment": {
+        "basic": "Bearish"
+      },
+      "time": "2026-10-14T23:03:02Z",
+      "text": "$META $MSFT $NVDA $QQQ $SPY Damn going through my profile? I think you\u2019re in love with me. Also why haven\u2019t you showed me your tits yet?",
+      "description": "",
+      "handle": "NasdaqBabi",
+      "display_name": "NasdaqBabi"
     },
     {
       "id": "44d855380e5ee0",
@@ -609,78 +1876,6 @@
       "sentiment": "neutral",
       "time": "2026-10-14T23:01:46Z",
       "text": "CenterPoint Energy to Pay Additional Interest on its 2.0% Zero-Premium Exchangeable Subordinated Notes due 2029",
-      "description": ""
-    },
-    {
-      "id": "bee885f199e890",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-10-14 23:01:19",
-      "title": "Wayfair director Steven Conine disposes of $7.3M in Class A shares",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/wayfair-director-steven-conine-disposes-of-73m-in-class-a-shares-93CH-4950236",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14 23:01:19",
-      "text": "Wayfair director Steven Conine disposes of $7.3M in Class A shares",
-      "description": ""
-    },
-    {
-      "id": "0cf5339409b831",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-10-14 23:01:15",
-      "title": "Xometry CEO Sanjeev Singh sells $163,201 in company stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/xometry-ceo-sanjeev-singh-sells-163201-in-company-stock-93CH-4950235",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14 23:01:15",
-      "text": "Xometry CEO Sanjeev Singh sells $163,201 in company stock",
-      "description": ""
-    },
-    {
-      "id": "fd34a9d92f3895",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-10-14 23:01:12",
-      "title": "MediaAlpha director Eugene Nonko sells $236,973 in stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/mediaalpha-director-eugene-nonko-sells-236973-in-stock-93CH-4950234",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14 23:01:12",
-      "text": "MediaAlpha director Eugene Nonko sells $236,973 in stock",
-      "description": ""
-    },
-    {
-      "id": "53123099307f9d",
-      "source": "investing_com",
-      "source_type": "rss",
-      "timestamp": "2026-10-14 23:01:04",
-      "title": "Codexis CFO Georgia Erbez sells $8,619 of common stock",
-      "body": "",
-      "url": "https://www.investing.com/news/insider-trading-news/codexis-cfo-georgia-erbez-sells-8619-of-common-stock-93CH-4950233",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 4.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14 23:01:04",
-      "text": "Codexis CFO Georgia Erbez sells $8,619 of common stock",
       "description": ""
     },
     {
@@ -906,24 +2101,6 @@
       "description": ""
     },
     {
-      "id": "6fb20a23b0e2b8",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-10-14T22:23:25Z",
-      "title": "THE PENTAGON HAS ALSO MOVED MQ-9 REAPER DRONES TO COLOMBIA AND ECUADOR, WHILE U.S. COMMANDERS ARE PLANNING TO EXPAND STRIKES FROM BOATS TO LAND TARGETS - NYT",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14T22:23:25Z",
-      "text": "THE PENTAGON HAS ALSO MOVED MQ-9 REAPER DRONES TO COLOMBIA AND ECUADOR, WHILE U.S. COMMANDERS ARE PLANNING TO EXPAND STRIKES FROM BOATS TO LAND TARGETS - NYT",
-      "description": ""
-    },
-    {
       "id": "91840af6b29cc0",
       "source": "marketwatch",
       "source_type": "rss",
@@ -940,26 +2117,6 @@
       "time": "Wed, 14 Oct 2026 22:23:00 GMT",
       "text": "Big banks see risks in financing the AI boom, but are happy to keep writing the checks",
       "description": "The CEO\u2019s the U.S.\u2019s biggest banks all chimed in on the risks of related to the massive AI buildout, but how there\u2019s still no sign that investments need to slow down."
-    },
-    {
-      "id": "51362fc15c5271",
-      "source": "uw_news",
-      "source_type": "news",
-      "timestamp": "2026-10-14T22:22:20Z",
-      "title": "Coinbase: some users may currently be unable to access on web; coinbase mobile app unaffected",
-      "body": "",
-      "url": "",
-      "author": "",
-      "tickers": [
-        "COIN"
-      ],
-      "tags": [],
-      "impact_score": 9.0,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "2026-10-14T22:22:20Z",
-      "text": "Coinbase: some users may currently be unable to access on web; coinbase mobile app unaffected",
-      "description": ""
     },
     {
       "id": "7002095a1f2e79",
@@ -1104,24 +2261,6 @@
       "time": "Wed, 14 Oct 2026 21:19:09 GMT",
       "text": "Traders pile into 'bubble puts' on CoreWeave as neocloud stocks plunge",
       "description": "As a key corner of the artificial intelligence trade takes a beating on Wednesday, traders are betting it could get even worse."
-    },
-    {
-      "id": "2e187a5e06ee53",
-      "source": "marketwatch",
-      "source_type": "rss",
-      "timestamp": "Wed, 14 Oct 2026 21:19:00 GMT",
-      "title": "The COLA wars are coming for Social Security",
-      "body": "The annual cost-of-living adjustment may soon be capped, curtailed, means-tested or scrapped altogether under various proposals being actively considered",
-      "url": "https://www.marketwatch.com/story/the-cola-wars-are-coming-for-social-security-10c177f1?mod=mw_rss_topstories",
-      "author": "",
-      "tickers": [],
-      "tags": [],
-      "impact_score": 8.5,
-      "impact_level": "LOW",
-      "sentiment": "neutral",
-      "time": "Wed, 14 Oct 2026 21:19:00 GMT",
-      "text": "The COLA wars are coming for Social Security",
-      "description": "The annual cost-of-living adjustment may soon be capped, curtailed, means-tested or scrapped altogether under various proposals being actively considered"
     },
     {
       "id": "d8b1024387b622",
